@@ -1,6 +1,6 @@
 # Mihir Market Brief
 
-Visual finance newsletter prototype for a banking-style market brief.
+Daily visual finance newsletter for a banking-style market brief.
 
 ## Direction
 
@@ -19,10 +19,20 @@ npm install
 npm run dev
 ```
 
-## Next Build
+The current newsletter lives at:
 
-1. Replace placeholder market data with a free-source daily data pack.
-2. Add a source-intake workflow for Reuters/AP/CNBC/Yahoo/FRED/BLS/BEA/SEC.
-3. Create Issue 0 with real current stories and a real deal to follow.
-4. Use OpenDesign after the structure/content system is stable.
+- `index.html` - live entry point
+- `issues/latest.html` - copy of the latest issue
 
+## Daily Update Goal
+
+Each daily issue should keep this visual/newsletter format, but update:
+
+1. market ticker and snapshot data
+2. top banking-relevant headlines
+3. deal watch
+4. macro desk interpretation
+5. company/sector lens
+6. public-source links and validation notes
+
+Do not replace this with a generic dashboard. The HTML newsletter format is the source of truth.
