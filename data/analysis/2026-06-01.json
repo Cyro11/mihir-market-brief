@@ -1,0 +1,249 @@
+{
+  "runDate": "2026-06-01",
+  "generatedAt": "2026-06-01T17:16:40.517Z",
+  "selectedCount": 2,
+  "quietDay": true,
+  "analyses": [
+    {
+      "id": "private-credit-public-proxies-53797d4a",
+      "title": "A $720,000 Income Portfolio That Quietly Pays Like a Cash-Flowing Indianapolis Duplex Without the Tenant Calls",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_credit",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Private Credit Proxies",
+          "url": "https://247wallst.com/personal-finance/2026/06/01/a-720000-income-portfolio-that-quietly-pays-like-a-cash-flowing-indianapolis-duplex-without-the-tenant-calls/?.tsrc=rss",
+          "publishedAt": "2026-06-01T13:22:27.000Z",
+          "fetchedAt": "2026-06-01T17:16:37.955Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "A $720,000 retirement portfolio presents many 65-year-old retirees with a choice between two very different income strategies. One option is purchasing a duplex in a stable rental market such as Indianapolis and collecting rental income. The other is investing in a diversified portfolio of dividend-producing securities that generates income without the responsibilities of property ownership. Comparing ... A $720,000 Income Portfolio That Quietly Pays Like a Cash-Flowing Indianapolis Duplex Witho The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+      "whatHappened": "A $720,000 retirement portfolio presents many 65-year-old retirees with a choice between two very different income strategies. One option is purchasing a duplex in a stable rental market such as Indianapolis and collecting rental income. The other is investing in a diversified portfolio of dividend-producing securities that generates income without the responsibilities of property ownership. Comparing ... A $720,000 Income Portfolio That Quietly Pays Like a Cash-Flowing Indianapolis Duplex Witho",
+      "whatMoved": "The main move is in deal certainty, shareholder pressure, and whether the financing still works.",
+      "whyItMoved": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+      "valuationImpact": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt.",
+      "financingImplication": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today.",
+      "sectorReadThrough": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings.",
+      "parallel": {
+        "precedent": "Activist pressure around pending strategic deals.",
+        "outcome": "Past cases often forced companies to explain synergies, timing, and capital allocation more clearly.",
+        "whatRhymes": "The deal window becomes a pressure point for proving the math.",
+        "whatDiffers": "The strength of the parallel depends on the activist's actual ask and ownership level.",
+        "soWhat": "Treat it as a deal-risk lens until more facts are public.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / Private Credit Proxies",
+            "url": "https://247wallst.com/personal-finance/2026/06/01/a-720000-income-portfolio-that-quietly-pays-like-a-cash-flowing-indianapolis-duplex-without-the-tenant-calls/?.tsrc=rss"
+          }
+        ]
+      },
+      "watchNext": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "A $720,000 retirement portfolio presents many 65-year-old retirees with a choice between two very different income strategies. One option is purchasing a duplex in a stable rental market such as Indianapolis and collecting rental income. The other is investing in a diversified portfolio of dividend-producing securities that generates income without the responsibilities of property ownership. Comparing ... A $720,000 Income Portfolio That Quietly Pays Like a Cash-Flowing Indianapolis Duplex Witho Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to interpret the financing signal",
+            "body": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt. Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Activist pressure around pending strategic deals. In that earlier setup, past cases often forced companies to explain synergies, timing, and capital allocation more clearly. What rhymes is the deal window becomes a pressure point for proving the math. What is different this time is the strength of the parallel depends on the activist's actual ask and ownership level. The bottom line is treat it as a deal-risk lens until more facts are public."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+          }
+        ]
+      },
+      "visual": null,
+      "relatedLinks": [],
+      "storyline": {
+        "id": "rates-inflation-cost-of-capital",
+        "name": "Rates and cost of capital",
+        "threshold": 3
+      },
+      "concepts": [
+        "rates",
+        "credit",
+        "private_credit"
+      ],
+      "continuity": {
+        "previousDate": "2026-05-29",
+        "previousTitle": "Personal Income and Outlays, April 2026",
+        "previousUrl": "issues/2026-05-29.html",
+        "whatChanged": "This updates the rates and cost of capital thread from 2026-05-29. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.",
+        "updatedRead": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+        "status": "Developing"
+      }
+    },
+    {
+      "id": "prnewswire-private-equity-1371dcdd",
+      "title": "Route Revealed for Next Week's Hot Rod Power Tour",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_equity",
+      "sourceTrail": [
+        {
+          "source": "PR Newswire Private Equity",
+          "url": "https://www.prnewswire.com/news-releases/route-revealed-for-next-weeks-hot-rod-power-tour-302787322.html",
+          "publishedAt": "2026-06-01T17:09:00.000Z",
+          "fetchedAt": "2026-06-01T17:16:38.065Z"
+        }
+      ],
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "summary": "America's largest traveling car show celebrates Route 66 LOS ANGELES, June 1, 2026 /PRNewswire/ -- Celebrate 100 Years of Route 66 & America's 250th! FULL 2026 ROUTE REVEALED CHEVROLET PERFORMANCE PARTS PRESENTS THE HOT ROD POWER TOUR CELEBRATING ROUTE 66 IN 2026 JUNE 8-12 Will This... ]]> The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
+      "whatHappened": "America's largest traveling car show celebrates Route 66 LOS ANGELES, June 1, 2026 /PRNewswire/ -- Celebrate 100 Years of Route 66 & America's 250th! FULL 2026 ROUTE REVEALED CHEVROLET PERFORMANCE PARTS PRESENTS THE HOT ROD POWER TOUR CELEBRATING ROUTE 66 IN 2026 JUNE 8-12 Will This... ]]>",
+      "whatMoved": "The main move is in deal certainty, shareholder pressure, and whether the financing still works.",
+      "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
+      "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
+      "financingImplication": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today.",
+      "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
+      "parallel": {
+        "precedent": "Activist pressure around pending strategic deals.",
+        "outcome": "Past cases often forced companies to explain synergies, timing, and capital allocation more clearly.",
+        "whatRhymes": "The deal window becomes a pressure point for proving the math.",
+        "whatDiffers": "The strength of the parallel depends on the activist's actual ask and ownership level.",
+        "soWhat": "Treat it as a deal-risk lens until more facts are public.",
+        "sourceTrail": [
+          {
+            "source": "PR Newswire Private Equity",
+            "url": "https://www.prnewswire.com/news-releases/route-revealed-for-next-weeks-hot-rod-power-tour-302787322.html"
+          }
+        ]
+      },
+      "watchNext": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "America's largest traveling car show celebrates Route 66 LOS ANGELES, June 1, 2026 /PRNewswire/ -- Celebrate 100 Years of Route 66 & America's 250th! FULL 2026 ROUTE REVEALED CHEVROLET PERFORMANCE PARTS PRESENTS THE HOT ROD POWER TOUR CELEBRATING ROUTE 66 IN 2026 JUNE 8-12 Will This... ]]> The main move is in deal certainty, shareholder pressure, and whether the financing still works. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to read the sponsor or exit implication",
+            "body": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round. Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Activist pressure around pending strategic deals. In that earlier setup, past cases often forced companies to explain synergies, timing, and capital allocation more clearly. What rhymes is the deal window becomes a pressure point for proving the math. What is different this time is the strength of the parallel depends on the activist's actual ask and ownership level. The bottom line is treat it as a deal-risk lens until more facts are public."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Public sponsor proxies",
+        "subtitle": "Three-month public market context for large alternative-asset managers tied to sponsor sentiment.",
+        "relevanceNote": "This board belongs here because public sponsor stocks often give the cleanest available read on how the market feels about exits, fundraising, and deployment.",
+        "allowedPages": [
+          "private-markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "BX",
+            "label": "Blackstone",
+            "value": 1.9812676636059563,
+            "displayValue": 1.9812676636059563,
+            "suffix": "%",
+            "latestDate": "2026-06-01",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "id": "KKR",
+            "label": "KKR",
+            "value": 4.966339222699339,
+            "displayValue": 4.966339222699339,
+            "suffix": "%",
+            "latestDate": "2026-06-01",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+          },
+          {
+            "id": "APO",
+            "label": "Apollo Global Management",
+            "value": 21.775489524758587,
+            "displayValue": 21.775489524758587,
+            "suffix": "%",
+            "latestDate": "2026-06-01",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Blackstone",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "source": "KKR",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+          },
+          {
+            "source": "Apollo Global Management",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": {
+        "id": "rates-inflation-cost-of-capital",
+        "name": "Rates and cost of capital",
+        "threshold": 3
+      },
+      "concepts": [
+        "rates",
+        "power",
+        "private_equity"
+      ],
+      "continuity": {
+        "previousDate": "2026-05-29",
+        "previousTitle": "Personal Income and Outlays, April 2026",
+        "previousUrl": "issues/2026-05-29.html",
+        "whatChanged": "This updates the rates and cost of capital thread from 2026-05-29. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.",
+        "updatedRead": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
+        "status": "Developing"
+      }
+    }
+  ]
+}
