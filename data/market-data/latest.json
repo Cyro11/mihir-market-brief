@@ -1,6 +1,6 @@
 {
   "runDate": "2026-06-01",
-  "fetchedAt": "2026-06-01T17:16:39.941Z",
+  "fetchedAt": "2026-06-01T17:29:54.183Z",
   "sourceNote": "Numeric market visuals use public FRED CSV downloads and preserve source links.",
   "marketSourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data.",
   "series": [
@@ -9,7 +9,7 @@
       "label": "10-Year Treasury Yield",
       "source": "FRED / U.S. Treasury",
       "url": "https://fred.stlouisfed.org/series/DGS10",
-      "fetchedAt": "2026-06-01T17:16:38.742Z",
+      "fetchedAt": "2026-06-01T17:29:51.960Z",
       "observations": [
         {
           "date": "2026-01-23",
@@ -378,7 +378,7 @@
       "label": "2-Year Treasury Yield",
       "source": "FRED / U.S. Treasury",
       "url": "https://fred.stlouisfed.org/series/DGS2",
-      "fetchedAt": "2026-06-01T17:16:38.893Z",
+      "fetchedAt": "2026-06-01T17:29:52.093Z",
       "observations": [
         {
           "date": "2026-01-23",
@@ -747,7 +747,7 @@
       "label": "Effective Federal Funds Rate",
       "source": "FRED / Federal Reserve",
       "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
-      "fetchedAt": "2026-06-01T17:16:38.920Z",
+      "fetchedAt": "2026-06-01T17:29:52.601Z",
       "observations": [
         {
           "date": "2018-11-01",
@@ -1116,7 +1116,7 @@
       "label": "High Yield Option-Adjusted Spread",
       "source": "FRED / ICE BofA",
       "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-      "fetchedAt": "2026-06-01T17:16:38.964Z",
+      "fetchedAt": "2026-06-01T17:29:52.626Z",
       "observations": [
         {
           "date": "2026-01-29",
@@ -1485,7 +1485,7 @@
       "label": "WTI Crude Oil Spot Price",
       "source": "FRED / U.S. EIA",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-      "fetchedAt": "2026-06-01T17:16:38.992Z",
+      "fetchedAt": "2026-06-01T17:29:52.672Z",
       "observations": [
         {
           "date": "2026-01-21",
@@ -1844,7 +1844,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?range=3mo&interval=1d",
       "yahooSymbol": "DELL",
       "stooqSymbol": "dell.us",
-      "fetchedAt": "2026-06-01T17:16:39.063Z",
+      "fetchedAt": "2026-06-01T17:29:52.790Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -2100,7 +2100,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 458.1099853515625
+          "value": 459.05010986328125
         }
       ]
     },
@@ -2111,7 +2111,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d",
       "yahooSymbol": "NVDA",
       "stooqSymbol": "nvda.us",
-      "fetchedAt": "2026-06-01T17:16:39.114Z",
+      "fetchedAt": "2026-06-01T17:29:52.872Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -2367,7 +2367,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 221.69000244140625
+          "value": 221.67999267578125
         }
       ]
     },
@@ -2378,7 +2378,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/MKC?range=3mo&interval=1d",
       "yahooSymbol": "MKC",
       "stooqSymbol": "mkc.us",
-      "fetchedAt": "2026-06-01T17:16:39.272Z",
+      "fetchedAt": "2026-06-01T17:29:52.984Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -2634,7 +2634,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 46.459999084472656
+          "value": 46.54010009765625
         }
       ]
     },
@@ -2645,7 +2645,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d",
       "yahooSymbol": "SPY",
       "stooqSymbol": "spy.us",
-      "fetchedAt": "2026-06-01T17:16:39.377Z",
+      "fetchedAt": "2026-06-01T17:29:53.093Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -2901,7 +2901,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 757.260009765625
+          "value": 757.7000732421875
         }
       ]
     },
@@ -2912,7 +2912,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d",
       "yahooSymbol": "QQQ",
       "stooqSymbol": "qqq.us",
-      "fetchedAt": "2026-06-01T17:16:39.455Z",
+      "fetchedAt": "2026-06-01T17:29:53.218Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -3168,7 +3168,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 742.2999877929688
+          "value": 742.77001953125
         }
       ]
     },
@@ -3179,7 +3179,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d",
       "yahooSymbol": "IWM",
       "stooqSymbol": "iwm.us",
-      "fetchedAt": "2026-06-01T17:16:39.548Z",
+      "fetchedAt": "2026-06-01T17:29:53.584Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -3435,7 +3435,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 288.94000244140625
+          "value": 289.55999755859375
         }
       ]
     },
@@ -3446,7 +3446,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d",
       "yahooSymbol": "GLD",
       "stooqSymbol": "gld.us",
-      "fetchedAt": "2026-06-01T17:16:39.586Z",
+      "fetchedAt": "2026-06-01T17:29:53.660Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -3702,7 +3702,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 410.760009765625
+          "value": 410.82000732421875
         }
       ]
     },
@@ -3713,7 +3713,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d",
       "yahooSymbol": "BX",
       "stooqSymbol": "bx.us",
-      "fetchedAt": "2026-06-01T17:16:39.636Z",
+      "fetchedAt": "2026-06-01T17:29:53.736Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -3969,7 +3969,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 117.61499786376953
+          "value": 117.67500305175781
         }
       ]
     },
@@ -3980,7 +3980,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d",
       "yahooSymbol": "KKR",
       "stooqSymbol": "kkr.us",
-      "fetchedAt": "2026-06-01T17:16:39.699Z",
+      "fetchedAt": "2026-06-01T17:29:53.826Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -4236,7 +4236,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 95.11000061035156
+          "value": 95.05999755859375
         }
       ]
     },
@@ -4247,7 +4247,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d",
       "yahooSymbol": "APO",
       "stooqSymbol": "apo.us",
-      "fetchedAt": "2026-06-01T17:16:39.788Z",
+      "fetchedAt": "2026-06-01T17:29:53.910Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -4503,7 +4503,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 129.6300048828125
+          "value": 129.9949951171875
         }
       ]
     },
@@ -4514,7 +4514,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d",
       "yahooSymbol": "OWL",
       "stooqSymbol": "owl.us",
-      "fetchedAt": "2026-06-01T17:16:39.839Z",
+      "fetchedAt": "2026-06-01T17:29:53.988Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -4770,7 +4770,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 10.574999809265137
+          "value": 10.550000190734863
         }
       ]
     },
@@ -4781,7 +4781,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d",
       "yahooSymbol": "ARCC",
       "stooqSymbol": "arcc.us",
-      "fetchedAt": "2026-06-01T17:16:39.899Z",
+      "fetchedAt": "2026-06-01T17:29:54.109Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -5037,7 +5037,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 19.13800048828125
+          "value": 19.1299991607666
         }
       ]
     },
@@ -5048,7 +5048,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d",
       "yahooSymbol": "BXSL",
       "stooqSymbol": "bxsl.us",
-      "fetchedAt": "2026-06-01T17:16:39.941Z",
+      "fetchedAt": "2026-06-01T17:29:54.183Z",
       "observations": [
         {
           "date": "2026-03-02",
@@ -5304,7 +5304,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 23.939899444580078
+          "value": 23.924999237060547
         }
       ]
     }

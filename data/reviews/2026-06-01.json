@@ -1,11 +1,13 @@
 {
   "runDate": "2026-06-01",
-  "reviewedAt": "2026-06-01T17:16:40.661Z",
+  "reviewedAt": "2026-06-01T17:29:56.480Z",
   "status": "APPROVED",
   "reviewers": {
     "deterministic": {
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "No selected moves cleared the evidence bar; quiet edition is allowed."
+      ]
     },
     "openai": {
       "skipped": true,
@@ -13,5 +15,7 @@
     }
   },
   "blockers": [],
-  "warnings": []
+  "warnings": [
+    "No selected moves cleared the evidence bar; quiet edition is allowed."
+  ]
 }

@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { freshnessStatus } from "../scripts/utils.js";
-import { scoreCandidate, selectCandidates } from "../scripts/triage.js";
+import { hasTrustedDomain, marketSignalScore, scoreCandidate, selectCandidates } from "../scripts/triage.js";
 
 const themes = [
   { id: "rates", name: "Rates", keywords: ["fed", "yield", "inflation"] },
@@ -62,6 +62,46 @@ test("background items are excluded from the main tape", () => {
   }, themes, new Date("2026-05-30T14:00:00Z"));
   assert.equal(scored.eligible, false);
   assert.match(scored.exclusionReason, /background item/);
+});
+
+test("noise items are excluded even when finance-adjacent feeds label them broadly", () => {
+  const scored = scoreCandidate({
+    id: "noise",
+    source: "Yahoo Finance / Private Credit Proxies",
+    sourceType: "reputable",
+    feedId: "private-credit-public-proxies",
+    title: "A $720,000 Income Portfolio That Quietly Pays Like a Cash-Flowing Indianapolis Duplex Without the Tenant Calls",
+    url: "https://247wallst.com/personal-finance/example",
+    publishedAt: "2026-06-01T13:22:27.000Z",
+    summary: "A retirement portfolio compares rental income with dividend securities for retirees.",
+    facts: ["Fact one", "Fact two"],
+    topics: ["private_markets", "private_credit", "credit", "markets"]
+  }, themes, new Date("2026-06-01T17:30:00Z"));
+  assert.equal(scored.eligible, false);
+  assert.match(scored.exclusionReason, /weak market signal/);
+});
+
+test("market signal scoring keeps real deal items above generic conference promos", () => {
+  assert.ok(marketSignalScore({
+    title: "Yum Brands in talks to sell Pizza Hut to private equity firm",
+    summary: "The reported sale would be a real sponsor transaction with deal implications.",
+    url: "https://example.com/deal",
+    facts: ["Fact one", "Fact two"],
+    feedId: "private-equity-public-proxies"
+  }) >= 2);
+  assert.ok(marketSignalScore({
+    title: "Route Revealed for Next Week's Hot Rod Power Tour",
+    summary: "A press release about a car show celebration.",
+    url: "https://example.com/promo",
+    facts: ["Fact one"],
+    feedId: "prnewswire-private-equity"
+  }) < 2);
+});
+
+test("trusted-domain gate excludes syndicated or promotional domains outside the source set", () => {
+  assert.equal(hasTrustedDomain({ url: "https://finance.yahoo.com/markets/stocks/articles/kkr-present-morgan-stanley-us-201500545.html" }), true);
+  assert.equal(hasTrustedDomain({ url: "https://247wallst.com/investing/example" }), false);
+  assert.equal(hasTrustedDomain({ url: "https://www.prnewswire.com/news-releases/example.html" }), false);
 });
 
 test("selection caps the edition instead of stuffing it", () => {
