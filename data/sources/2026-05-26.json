@@ -1,0 +1,126 @@
+{
+  "runDate": "2026-05-26",
+  "fetchedAt": "2026-05-31T21:55:15.452Z",
+  "sourceCount": 2,
+  "failures": [],
+  "items": [
+    {
+      "id": "hist-2026-05-26-rates",
+      "source": "FRED",
+      "sourceType": "official",
+      "title": "Rates stay central as investors wait for the next inflation read",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "publishedAt": "2026-05-26T09:00:00-04:00",
+      "summary": "Treasury yields remained a core input into valuation and financing conversations as investors waited for the next inflation release later in the week.",
+      "facts": [
+        "Treasury yields remained elevated enough to keep the cost-of-capital conversation active.",
+        "The next official inflation release had not arrived yet.",
+        "Long-duration valuation and debt underwriting remained sensitive to rates."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "rates",
+        "inflation"
+      ],
+      "relatedLinks": [
+        {
+          "label": "FRED 10-Year Treasury Yield",
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "type": "Data"
+        },
+        {
+          "label": "FRED 2-Year Treasury Yield",
+          "url": "https://fred.stlouisfed.org/series/DGS2",
+          "type": "Data"
+        }
+      ],
+      "analysis": {
+        "whatMoved": "The key move was not a single headline shock. It was the market's continued sensitivity to where rates were sitting before the next inflation print.",
+        "whyItMoved": "When rates stay firm, investors and deal teams have less room to assume a friendlier discount-rate backdrop. That matters even on days when the tape itself looks calm.",
+        "valuationImpact": "Higher long-term yields make future cash flows less valuable today, which is hardest on long-duration growth stories and any valuation built on optimistic exit multiples.",
+        "financingImplication": "Debt-funded deals still need discipline on leverage, coverage, and refinance assumptions because a stable equity tape does not make debt capital cheap.",
+        "sectorReadThrough": "Rate-sensitive sectors could still rally on company news, but the backdrop remained less forgiving for businesses depending on cheap financing.",
+        "parallel": {
+          "precedent": "Earlier periods when equities held together while rates quietly kept pressure on valuation and leverage assumptions.",
+          "outcome": "The market could look orderly while the underlying math for DCFs, LBOs, and refinancings stayed demanding.",
+          "whatRhymes": "That same separation matters here: a calm tape can hide a still-tight cost of capital.",
+          "whatDiffers": "The market was still waiting for the next official inflation release, so the read was provisional rather than decisive.",
+          "soWhat": "Do not over-read a stable market if the rate backdrop is still doing the real work underneath.",
+          "sourceTrail": [
+            {
+              "source": "FRED",
+              "url": "https://fred.stlouisfed.org/series/DGS10"
+            }
+          ]
+        },
+        "watchNext": "Watch the next inflation release, the reaction in front-end yields, and whether long-end rates stay sticky."
+      },
+      "fetchedAt": "2026-05-31T21:55:15.452Z"
+    },
+    {
+      "id": "hist-2026-05-26-private-credit",
+      "source": "Blue Owl Capital",
+      "sourceType": "company",
+      "title": "Private credit still looks open, but sponsors do not get a free pass",
+      "url": "https://ir.blueowl.com/",
+      "publishedAt": "2026-05-26T11:15:00-04:00",
+      "summary": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math.",
+      "facts": [
+        "Public private-credit managers remained one of the clearest observable windows into private lending conditions.",
+        "Sponsors still depended on direct lenders for many refinancings and middle-market transactions.",
+        "Available debt did not automatically mean easy leverage."
+      ],
+      "tickers": [
+        "OWL",
+        "ARCC",
+        "BXSL"
+      ],
+      "topics": [
+        "private_markets",
+        "private_credit",
+        "credit",
+        "markets",
+        "companies"
+      ],
+      "relatedLinks": [
+        {
+          "label": "Blue Owl Investor Relations",
+          "url": "https://ir.blueowl.com/",
+          "type": "Company"
+        },
+        {
+          "label": "FRED High Yield Spread",
+          "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+          "type": "Data"
+        }
+      ],
+      "analysis": {
+        "whatMoved": "The read was about financing availability. Direct lenders still mattered, but the market was paying close attention to price, credit quality, and selectivity.",
+        "whyItMoved": "Private credit had become too important to ignore in sponsor finance. If lenders were available but cautious, buyers could still transact, just on more demanding terms.",
+        "valuationImpact": "An open private-credit market can keep deal activity alive, but higher spreads and tighter covenants still push down what buyers can pay.",
+        "financingImplication": "The practical question for bankers was whether direct lenders were merely present or actually willing to finance deals at leverage levels sponsors wanted.",
+        "sectorReadThrough": "The strongest read-through was for middle-market buyouts, dividend recaps, and refinancing candidates that relied on private debt rather than syndicated markets.",
+        "parallel": {
+          "precedent": "The post-2022 period when direct lenders became more important as syndicated markets grew less predictable.",
+          "outcome": "Transactions still happened, but sponsor returns depended more heavily on pricing discipline and realistic leverage.",
+          "whatRhymes": "That same tradeoff still applied: available debt helps, but expensive debt changes the return profile.",
+          "whatDiffers": "This was still a broad financing read rather than a clean deal-specific proof point.",
+          "soWhat": "Treat private-credit openness as a support, not a license to ignore debt cost and downside underwriting.",
+          "sourceTrail": [
+            {
+              "source": "Blue Owl Investor Relations",
+              "url": "https://ir.blueowl.com/"
+            },
+            {
+              "source": "FRED",
+              "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+            }
+          ]
+        },
+        "watchNext": "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks."
+      },
+      "fetchedAt": "2026-05-31T21:55:15.452Z"
+    }
+  ]
+}

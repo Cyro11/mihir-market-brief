@@ -1,0 +1,125 @@
+{
+  "runDate": "2026-05-27",
+  "fetchedAt": "2026-05-31T21:56:48.788Z",
+  "sourceCount": 2,
+  "failures": [],
+  "items": [
+    {
+      "id": "hist-2026-05-27-ai-infra",
+      "source": "Dell investor relations",
+      "sourceType": "company",
+      "title": "AI infrastructure demand starts to broaden beyond the first-order winners",
+      "url": "https://investors.delltechnologies.com/",
+      "publishedAt": "2026-05-27T09:20:00-04:00",
+      "summary": "Company commentary and investor focus suggested that the AI trade was beginning to widen from chips into systems, networking, and physical infrastructure suppliers.",
+      "facts": [
+        "Investors were increasingly testing whether AI demand would reach server, storage, and infrastructure vendors.",
+        "The market was looking for proof that second-order suppliers could convert AI demand into durable revenue.",
+        "Supplier economics mattered as much as supplier exposure."
+      ],
+      "tickers": [
+        "DELL",
+        "NVDA"
+      ],
+      "topics": [
+        "companies",
+        "ai",
+        "capex",
+        "markets"
+      ],
+      "relatedLinks": [
+        {
+          "label": "Dell Investor Relations",
+          "url": "https://investors.delltechnologies.com/",
+          "type": "Company"
+        },
+        {
+          "label": "Nvidia Investor Relations",
+          "url": "https://investor.nvidia.com/",
+          "type": "Company"
+        }
+      ],
+      "analysis": {
+        "whatMoved": "The move was thematic. The market started to ask which companies could benefit once AI spending moved beyond the most obvious chip winner.",
+        "whyItMoved": "As soon as a first-order winner becomes obvious, investors naturally look for the next layer of beneficiaries. The challenge is separating real revenue conversion from simple narrative spillover.",
+        "valuationImpact": "Potential second-wave suppliers can earn better multiples if they show backlog, pricing power, or durable customer demand. If they only offer exposure without economics, the credit does not last.",
+        "financingImplication": "A broader infrastructure cycle would support more capital spending, supplier financing, and strategic activity around physical AI buildout.",
+        "sectorReadThrough": "The read-through extended to servers, networking, data-center infrastructure, and power-heavy buildout stories rather than only semiconductors.",
+        "parallel": {
+          "precedent": "The cloud buildout period when the market first rewarded the platform owners, then started to differentiate among the suppliers behind them.",
+          "outcome": "The most durable winners were the suppliers that could turn demand into margins, backlog, and sticky customer relationships.",
+          "whatRhymes": "AI looked ready to follow that pattern, with demand potentially spreading into the broader infrastructure stack.",
+          "whatDiffers": "The proof still needed to be company-specific. Not every supplier would deserve the same rerating.",
+          "soWhat": "Watch for evidence that AI demand is becoming real revenue rather than just adjacent excitement.",
+          "sourceTrail": [
+            {
+              "source": "Dell investor relations",
+              "url": "https://investors.delltechnologies.com/"
+            }
+          ]
+        },
+        "watchNext": "Watch supplier backlog, margin commentary, cloud capex plans, and whether second-order names get hard revenue proof."
+      },
+      "fetchedAt": "2026-05-31T21:56:48.788Z"
+    },
+    {
+      "id": "hist-2026-05-27-sponsor-selectivity",
+      "source": "KKR",
+      "sourceType": "company",
+      "title": "Sponsor appetite looks selective rather than shut",
+      "url": "https://ir.kkr.com/",
+      "publishedAt": "2026-05-27T10:40:00-04:00",
+      "summary": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price.",
+      "facts": [
+        "Public sponsor commentary remained one of the clearest observable signals for private-equity risk appetite.",
+        "Quality assets could still attract buyers even in a tighter financing regime.",
+        "Selective deal activity was not the same thing as a fully open buyout market."
+      ],
+      "tickers": [
+        "KKR",
+        "BX",
+        "APO"
+      ],
+      "topics": [
+        "private_markets",
+        "private_equity",
+        "deals",
+        "companies"
+      ],
+      "relatedLinks": [
+        {
+          "label": "KKR Investor Relations",
+          "url": "https://ir.kkr.com/",
+          "type": "Company"
+        },
+        {
+          "label": "Blackstone Investor Relations",
+          "url": "https://ir.blackstone.com/",
+          "type": "Company"
+        }
+      ],
+      "analysis": {
+        "whatMoved": "The signal was not a single blockbuster deal. It was the market's growing sense that sponsors were still active, but only where quality and exit logic were strong enough.",
+        "whyItMoved": "When financing costs are higher, buyer behavior becomes more selective. That makes each sponsor signal useful because it shows what kind of asset can still clear the bar.",
+        "valuationImpact": "Selective sponsor demand supports pricing for better assets but leaves weaker processes more exposed to resets, seller rollover, or longer holding periods.",
+        "financingImplication": "Buyers still had to solve for debt capacity, equity check size, and a believable exit path, which meant discipline mattered more than headline optimism.",
+        "sectorReadThrough": "The read-through was strongest for sponsor-owned assets preparing to sell, refinance, or test the IPO window.",
+        "parallel": {
+          "precedent": "Tighter-rate periods when firms still bought defensive growth assets but became much more selective on price and leverage.",
+          "outcome": "Good assets continued to trade, while weaker ones needed structure, delay, or valuation resets.",
+          "whatRhymes": "That same filter looked active here: the market was open for some assets, not all assets.",
+          "whatDiffers": "This was still a mood signal from public sponsor markers, not proof that the entire buyout market had reopened.",
+          "soWhat": "Use sponsor activity as evidence of selectivity, not blanket strength.",
+          "sourceTrail": [
+            {
+              "source": "KKR",
+              "url": "https://ir.kkr.com/"
+            }
+          ]
+        },
+        "watchNext": "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence."
+      },
+      "fetchedAt": "2026-05-31T21:56:48.788Z"
+    }
+  ]
+}

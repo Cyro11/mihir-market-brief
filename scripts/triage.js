@@ -1,0 +1,78 @@
+import { sourceQuality, topicBankerWeights } from "./config.js";
+import { absoluteUrl, freshnessStatus, normalizeText } from "./utils.js";
+
+export function themeMatches(item, themes) {
+  const haystack = normalizeText(`${item.title} ${item.summary} ${(item.topics || []).join(" ")}`).toLowerCase();
+  return themes
+    .map((theme) => {
+      const hits = (theme.keywords || []).filter((keyword) => {
+        const normalized = keyword.toLowerCase();
+        if (normalized.length <= 3) {
+          return new RegExp(`(^|[^a-z0-9])${normalized.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-z0-9]|$)`, "i").test(haystack);
+        }
+        return haystack.includes(normalized);
+      });
+      return hits.length ? { id: theme.id, name: theme.name, hits } : null;
+    })
+    .filter(Boolean);
+}
+
+export function scoreCandidate(item, themes, now = new Date()) {
+  const status = freshnessStatus(item.publishedAt, now);
+  const freshnessScore = { LIVE: 5, FRESH: 4, TODAY: 3, BACKGROUND: 1, FUTURE: 0, INVALID: 0 }[status] ?? 0;
+  const qualityScore = sourceQuality[item.sourceType] ?? 2;
+  const topicScore = [...new Set(item.topics || [])].reduce((sum, topic) => sum + (topicBankerWeights[topic] ?? 1), 0);
+  const matches = themeMatches(item, themes);
+  const evidenceScore = [
+    absoluteUrl(item.url) ? 2 : 0,
+    item.publishedAt ? 1 : 0,
+    normalizeText(item.summary).length > 60 ? 2 : 0,
+    (item.facts || []).length ? 1 : 0
+  ].reduce((a, b) => a + b, 0);
+  const total = freshnessScore * 2 + qualityScore * 2 + topicScore + matches.length * 3 + evidenceScore;
+
+  const mainTapeFreshEnough = freshnessScore >= 3;
+
+  return {
+    ...item,
+    freshnessStatus: status,
+    matchedThemes: matches,
+    scores: {
+      freshness: freshnessScore,
+      sourceQuality: qualityScore,
+      topicBankerWeight: topicScore,
+      themeRelevance: matches.length * 3,
+      evidence: evidenceScore,
+      total
+    },
+    eligible: Boolean(absoluteUrl(item.url)) && item.publishedAt && evidenceScore >= 4 && mainTapeFreshEnough,
+    exclusionReason: !absoluteUrl(item.url)
+      ? "missing source URL"
+      : !item.publishedAt
+        ? "missing published timestamp"
+        : evidenceScore < 4
+          ? "insufficient factual support"
+          : !mainTapeFreshEnough
+            ? "background item; not eligible for main tape"
+            : ""
+  };
+}
+
+export function selectCandidates(scoredItems, limit = 5) {
+  const minimumSelectionScore = 30;
+  const sorted = [...scoredItems].sort((a, b) => b.scores.total - a.scores.total);
+  const selected = [];
+  const seenTopics = new Set();
+
+  for (const item of sorted) {
+    if (!item.eligible) continue;
+    if (item.scores.total < minimumSelectionScore) continue;
+    const primaryTopic = item.topics?.[0] || "general";
+    if (seenTopics.has(primaryTopic) && selected.length >= 3) continue;
+    selected.push(item);
+    seenTopics.add(primaryTopic);
+    if (selected.length === limit) break;
+  }
+
+  return selected.length > 3 ? selected.slice(0, 5) : selected;
+}

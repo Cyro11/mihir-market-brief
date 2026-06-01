@@ -1,0 +1,96 @@
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+export const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+export const dataDir = path.join(rootDir, "data");
+export const generatedDir = path.join(dataDir, "generated");
+export const sourcesDir = path.join(dataDir, "sources");
+export const marketDataDir = path.join(dataDir, "market-data");
+export const calendarDir = path.join(dataDir, "calendar");
+export const candidatesDir = path.join(dataDir, "candidates");
+export const analysisDir = path.join(dataDir, "analysis");
+export const editionsDir = path.join(dataDir, "editions");
+export const reviewsDir = path.join(dataDir, "reviews");
+export const issuesDir = path.join(rootDir, "issues");
+
+export const sourceQuality = {
+  official: 5,
+  company: 4,
+  reputable: 4,
+  market_data: 4,
+  background: 2
+};
+
+export const topicBankerWeights = {
+  rates: 5,
+  inflation: 5,
+  macro: 4,
+  fed: 5,
+  deals: 5,
+  filings: 5,
+  credit: 5,
+  ai: 4,
+  capex: 4,
+  companies: 4,
+  markets: 4,
+  private_markets: 5,
+  private_equity: 5,
+  private_credit: 5,
+  ipo: 5,
+  regulation: 2,
+  commodities: 3,
+  consumer: 3
+};
+
+export const sourceFeeds = [
+  {
+    id: "federal-reserve-press",
+    name: "Federal Reserve",
+    sourceType: "official",
+    url: "https://www.federalreserve.gov/feeds/press_all.xml",
+    topics: ["fed", "rates", "macro"]
+  },
+  {
+    id: "bea-news",
+    name: "BEA",
+    sourceType: "official",
+    url: "https://www.bea.gov/news/current-releases",
+    mode: "bea-current-releases",
+    topics: ["macro", "inflation"]
+  },
+  {
+    id: "sec-current-events",
+    name: "SEC",
+    sourceType: "official",
+    url: "https://www.sec.gov/news/pressreleases.rss",
+    topics: ["regulation"]
+  },
+  {
+    id: "yahoo-finance-news",
+    name: "Yahoo Finance",
+    sourceType: "reputable",
+    url: "https://finance.yahoo.com/news/rssindex",
+    topics: ["markets", "companies"]
+  },
+  {
+    id: "private-equity-public-proxies",
+    name: "Yahoo Finance / Public PE Managers",
+    sourceType: "reputable",
+    url: "https://feeds.finance.yahoo.com/rss/2.0/headline?s=BX,KKR,APO,CG&region=US&lang=en-US",
+    topics: ["private_markets", "private_equity", "markets", "companies"]
+  },
+  {
+    id: "private-credit-public-proxies",
+    name: "Yahoo Finance / Private Credit Proxies",
+    sourceType: "reputable",
+    url: "https://feeds.finance.yahoo.com/rss/2.0/headline?s=ARES,OWL,BXSL,ARCC&region=US&lang=en-US",
+    topics: ["private_markets", "private_credit", "credit", "markets"]
+  },
+  {
+    id: "prnewswire-private-equity",
+    name: "PR Newswire Private Equity",
+    sourceType: "company",
+    url: "https://www.prnewswire.com/rss/private-equity-list.rss",
+    topics: ["private_markets", "private_equity", "deals"]
+  }
+];

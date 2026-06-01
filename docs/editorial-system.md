@@ -2,7 +2,7 @@
 
 ## Product Thesis
 
-Mihir Market Brief is a visual finance newsletter for banking judgment. It should read like a concise institutional desk note, not a generic news digest.
+The Opening Ledger is a visual finance newsletter for banking judgment. It should read like a concise institutional desk note, not a generic news digest.
 
 The newsletter uses free-access sources, but the editorial filter should resemble paid finance media:
 

@@ -1,0 +1,3043 @@
+{
+  "runDate": "2026-05-26",
+  "title": "Private credit still looks open, but sponsors do not get a free pass",
+  "dek": "A selective banker-grade read of the few fresh items with enough evidence to support real analysis.",
+  "generatedAt": "2026-05-31T21:55:18.649Z",
+  "sourceRunAt": "2026-05-31T21:55:15.452Z",
+  "freshnessStatus": "FUTURE",
+  "moves": [
+    {
+      "id": "hist-2026-05-26-private-credit",
+      "title": "Private credit still looks open, but sponsors do not get a free pass",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_credit",
+      "sourceTrail": [
+        {
+          "source": "Blue Owl Capital",
+          "url": "https://ir.blueowl.com/",
+          "publishedAt": "2026-05-26T11:15:00-04:00",
+          "fetchedAt": "2026-05-31T21:55:15.452Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math. The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+      "whatHappened": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math.",
+      "whatMoved": "The read was about financing availability. Direct lenders still mattered, but the market was paying close attention to price, credit quality, and selectivity.",
+      "whyItMoved": "Private credit had become too important to ignore in sponsor finance. If lenders were available but cautious, buyers could still transact, just on more demanding terms.",
+      "valuationImpact": "An open private-credit market can keep deal activity alive, but higher spreads and tighter covenants still push down what buyers can pay.",
+      "financingImplication": "The practical question for bankers was whether direct lenders were merely present or actually willing to finance deals at leverage levels sponsors wanted.",
+      "sectorReadThrough": "The strongest read-through was for middle-market buyouts, dividend recaps, and refinancing candidates that relied on private debt rather than syndicated markets.",
+      "parallel": {
+        "precedent": "The post-2022 period when direct lenders became more important as syndicated markets grew less predictable.",
+        "outcome": "Transactions still happened, but sponsor returns depended more heavily on pricing discipline and realistic leverage.",
+        "whatRhymes": "That same tradeoff still applied: available debt helps, but expensive debt changes the return profile.",
+        "whatDiffers": "This was still a broad financing read rather than a clean deal-specific proof point.",
+        "soWhat": "Treat private-credit openness as a support, not a license to ignore debt cost and downside underwriting.",
+        "sourceTrail": [
+          {
+            "source": "Blue Owl Investor Relations",
+            "url": "https://ir.blueowl.com/"
+          },
+          {
+            "source": "FRED",
+            "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+          }
+        ]
+      },
+      "watchNext": "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "Private credit had become too important to ignore in sponsor finance. If lenders were available but cautious, buyers could still transact, just on more demanding terms. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math. Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to interpret the financing signal",
+            "body": "An open private-credit market can keep deal activity alive, but higher spreads and tighter covenants still push down what buyers can pay. The practical question for bankers was whether direct lenders were merely present or actually willing to finance deals at leverage levels sponsors wanted. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "The strongest read-through was for middle-market buyouts, dividend recaps, and refinancing candidates that relied on private debt rather than syndicated markets. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is The post-2022 period when direct lenders became more important as syndicated markets grew less predictable. In that earlier setup, transactions still happened, but sponsor returns depended more heavily on pricing discipline and realistic leverage. What rhymes is that same tradeoff still applied: available debt helps, but expensive debt changes the return profile. What is different this time is this was still a broad financing read rather than a clean deal-specific proof point. The bottom line is treat private-credit openness as a support, not a license to ignore debt cost and downside underwriting."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+          }
+        ]
+      },
+      "visual": null,
+      "relatedLinks": [
+        {
+          "label": "Blue Owl Investor Relations",
+          "url": "https://ir.blueowl.com/",
+          "type": "Company"
+        },
+        {
+          "label": "FRED High Yield Spread",
+          "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+          "type": "Data"
+        }
+      ],
+      "storyline": null,
+      "concepts": [
+        "debt",
+        "credit",
+        "private credit",
+        "sponsor",
+        "private credit"
+      ]
+    },
+    {
+      "id": "hist-2026-05-26-rates",
+      "title": "Rates stay central as investors wait for the next inflation read",
+      "editorialLane": "macro",
+      "editorialLaneLabel": "Macro Environment",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "FRED",
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "publishedAt": "2026-05-26T09:00:00-04:00",
+          "fetchedAt": "2026-05-31T21:55:15.452Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "High",
+      "summary": "Treasury yields remained a core input into valuation and financing conversations as investors waited for the next inflation release later in the week. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "whatHappened": "Treasury yields remained a core input into valuation and financing conversations as investors waited for the next inflation release later in the week.",
+      "whatMoved": "The key move was not a single headline shock. It was the market's continued sensitivity to where rates were sitting before the next inflation print.",
+      "whyItMoved": "When rates stay firm, investors and deal teams have less room to assume a friendlier discount-rate backdrop. That matters even on days when the tape itself looks calm.",
+      "valuationImpact": "Higher long-term yields make future cash flows less valuable today, which is hardest on long-duration growth stories and any valuation built on optimistic exit multiples.",
+      "financingImplication": "Debt-funded deals still need discipline on leverage, coverage, and refinance assumptions because a stable equity tape does not make debt capital cheap.",
+      "sectorReadThrough": "Rate-sensitive sectors could still rally on company news, but the backdrop remained less forgiving for businesses depending on cheap financing.",
+      "parallel": {
+        "precedent": "Earlier periods when equities held together while rates quietly kept pressure on valuation and leverage assumptions.",
+        "outcome": "The market could look orderly while the underlying math for DCFs, LBOs, and refinancings stayed demanding.",
+        "whatRhymes": "That same separation matters here: a calm tape can hide a still-tight cost of capital.",
+        "whatDiffers": "The market was still waiting for the next official inflation release, so the read was provisional rather than decisive.",
+        "soWhat": "Do not over-read a stable market if the rate backdrop is still doing the real work underneath.",
+        "sourceTrail": [
+          {
+            "source": "FRED",
+            "url": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      "watchNext": "Watch the next inflation release, the reaction in front-end yields, and whether long-end rates stay sticky.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "When rates stay firm, investors and deal teams have less room to assume a friendlier discount-rate backdrop. That matters even on days when the tape itself looks calm. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
+          },
+          {
+            "id": "release",
+            "heading": "What the release actually said",
+            "body": "Treasury yields remained a core input into valuation and financing conversations as investors waited for the next inflation release later in the week. The part that matters is not just the headline number, but which part of the report is still running hot and which part is starting to cool."
+          },
+          {
+            "id": "mechanism",
+            "heading": "How the transmission works",
+            "body": "The key move was not a single headline shock. It was the market's continued sensitivity to where rates were sitting before the next inflation print. Higher long-term yields make future cash flows less valuable today, which is hardest on long-duration growth stories and any valuation built on optimistic exit multiples. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
+          },
+          {
+            "id": "market-read",
+            "heading": "How the market may read it",
+            "body": "Rate-sensitive sectors could still rally on company news, but the backdrop remained less forgiving for businesses depending on cheap financing. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or break the read",
+            "body": "Watch the next inflation release, the reaction in front-end yields, and whether long-end rates stay sticky. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
+          }
+        ]
+      },
+      "visual": {
+        "type": "line-chart",
+        "title": "Rate backdrop",
+        "subtitle": "Latest public FRED observations. This is not live trading data.",
+        "relevanceNote": "This chart fits because the story is about the rate backdrop itself, not just a company reacting to it.",
+        "allowedPages": [
+          "macro",
+          "deep-dive"
+        ],
+        "series": [
+          {
+            "id": "DGS10",
+            "label": "10-Year Treasury Yield",
+            "source": "FRED / U.S. Treasury",
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "fetchedAt": "2026-05-31T21:55:15.841Z",
+            "observations": [
+              {
+                "date": "2026-01-23",
+                "value": 4.24
+              },
+              {
+                "date": "2026-01-26",
+                "value": 4.22
+              },
+              {
+                "date": "2026-01-27",
+                "value": 4.24
+              },
+              {
+                "date": "2026-01-28",
+                "value": 4.26
+              },
+              {
+                "date": "2026-01-29",
+                "value": 4.24
+              },
+              {
+                "date": "2026-01-30",
+                "value": 4.26
+              },
+              {
+                "date": "2026-02-02",
+                "value": 4.29
+              },
+              {
+                "date": "2026-02-03",
+                "value": 4.28
+              },
+              {
+                "date": "2026-02-04",
+                "value": 4.29
+              },
+              {
+                "date": "2026-02-05",
+                "value": 4.21
+              },
+              {
+                "date": "2026-02-06",
+                "value": 4.22
+              },
+              {
+                "date": "2026-02-09",
+                "value": 4.22
+              },
+              {
+                "date": "2026-02-10",
+                "value": 4.16
+              },
+              {
+                "date": "2026-02-11",
+                "value": 4.18
+              },
+              {
+                "date": "2026-02-12",
+                "value": 4.09
+              },
+              {
+                "date": "2026-02-13",
+                "value": 4.04
+              },
+              {
+                "date": "2026-02-16",
+                "value": 0
+              },
+              {
+                "date": "2026-02-17",
+                "value": 4.05
+              },
+              {
+                "date": "2026-02-18",
+                "value": 4.09
+              },
+              {
+                "date": "2026-02-19",
+                "value": 4.08
+              },
+              {
+                "date": "2026-02-20",
+                "value": 4.08
+              },
+              {
+                "date": "2026-02-23",
+                "value": 4.03
+              },
+              {
+                "date": "2026-02-24",
+                "value": 4.04
+              },
+              {
+                "date": "2026-02-25",
+                "value": 4.05
+              },
+              {
+                "date": "2026-02-26",
+                "value": 4.02
+              },
+              {
+                "date": "2026-02-27",
+                "value": 3.97
+              },
+              {
+                "date": "2026-03-02",
+                "value": 4.05
+              },
+              {
+                "date": "2026-03-03",
+                "value": 4.06
+              },
+              {
+                "date": "2026-03-04",
+                "value": 4.09
+              },
+              {
+                "date": "2026-03-05",
+                "value": 4.13
+              },
+              {
+                "date": "2026-03-06",
+                "value": 4.15
+              },
+              {
+                "date": "2026-03-09",
+                "value": 4.12
+              },
+              {
+                "date": "2026-03-10",
+                "value": 4.15
+              },
+              {
+                "date": "2026-03-11",
+                "value": 4.21
+              },
+              {
+                "date": "2026-03-12",
+                "value": 4.27
+              },
+              {
+                "date": "2026-03-13",
+                "value": 4.28
+              },
+              {
+                "date": "2026-03-16",
+                "value": 4.23
+              },
+              {
+                "date": "2026-03-17",
+                "value": 4.2
+              },
+              {
+                "date": "2026-03-18",
+                "value": 4.26
+              },
+              {
+                "date": "2026-03-19",
+                "value": 4.25
+              },
+              {
+                "date": "2026-03-20",
+                "value": 4.39
+              },
+              {
+                "date": "2026-03-23",
+                "value": 4.34
+              },
+              {
+                "date": "2026-03-24",
+                "value": 4.39
+              },
+              {
+                "date": "2026-03-25",
+                "value": 4.33
+              },
+              {
+                "date": "2026-03-26",
+                "value": 4.42
+              },
+              {
+                "date": "2026-03-27",
+                "value": 4.44
+              },
+              {
+                "date": "2026-03-30",
+                "value": 4.35
+              },
+              {
+                "date": "2026-03-31",
+                "value": 4.3
+              },
+              {
+                "date": "2026-04-01",
+                "value": 4.33
+              },
+              {
+                "date": "2026-04-02",
+                "value": 4.31
+              },
+              {
+                "date": "2026-04-03",
+                "value": 4.35
+              },
+              {
+                "date": "2026-04-06",
+                "value": 4.34
+              },
+              {
+                "date": "2026-04-07",
+                "value": 4.33
+              },
+              {
+                "date": "2026-04-08",
+                "value": 4.29
+              },
+              {
+                "date": "2026-04-09",
+                "value": 4.29
+              },
+              {
+                "date": "2026-04-10",
+                "value": 4.31
+              },
+              {
+                "date": "2026-04-13",
+                "value": 4.3
+              },
+              {
+                "date": "2026-04-14",
+                "value": 4.26
+              },
+              {
+                "date": "2026-04-15",
+                "value": 4.29
+              },
+              {
+                "date": "2026-04-16",
+                "value": 4.32
+              },
+              {
+                "date": "2026-04-17",
+                "value": 4.26
+              },
+              {
+                "date": "2026-04-20",
+                "value": 4.26
+              },
+              {
+                "date": "2026-04-21",
+                "value": 4.3
+              },
+              {
+                "date": "2026-04-22",
+                "value": 4.3
+              },
+              {
+                "date": "2026-04-23",
+                "value": 4.34
+              },
+              {
+                "date": "2026-04-24",
+                "value": 4.31
+              },
+              {
+                "date": "2026-04-27",
+                "value": 4.35
+              },
+              {
+                "date": "2026-04-28",
+                "value": 4.36
+              },
+              {
+                "date": "2026-04-29",
+                "value": 4.42
+              },
+              {
+                "date": "2026-04-30",
+                "value": 4.4
+              },
+              {
+                "date": "2026-05-01",
+                "value": 4.39
+              },
+              {
+                "date": "2026-05-04",
+                "value": 4.45
+              },
+              {
+                "date": "2026-05-05",
+                "value": 4.43
+              },
+              {
+                "date": "2026-05-06",
+                "value": 4.36
+              },
+              {
+                "date": "2026-05-07",
+                "value": 4.41
+              },
+              {
+                "date": "2026-05-08",
+                "value": 4.38
+              },
+              {
+                "date": "2026-05-11",
+                "value": 4.42
+              },
+              {
+                "date": "2026-05-12",
+                "value": 4.46
+              },
+              {
+                "date": "2026-05-13",
+                "value": 4.46
+              },
+              {
+                "date": "2026-05-14",
+                "value": 4.47
+              },
+              {
+                "date": "2026-05-15",
+                "value": 4.59
+              },
+              {
+                "date": "2026-05-18",
+                "value": 4.61
+              },
+              {
+                "date": "2026-05-19",
+                "value": 4.67
+              },
+              {
+                "date": "2026-05-20",
+                "value": 4.57
+              },
+              {
+                "date": "2026-05-21",
+                "value": 4.57
+              },
+              {
+                "date": "2026-05-22",
+                "value": 4.56
+              },
+              {
+                "date": "2026-05-25",
+                "value": 0
+              },
+              {
+                "date": "2026-05-26",
+                "value": 4.5
+              }
+            ]
+          },
+          {
+            "id": "DGS2",
+            "label": "2-Year Treasury Yield",
+            "source": "FRED / U.S. Treasury",
+            "url": "https://fred.stlouisfed.org/series/DGS2",
+            "fetchedAt": "2026-05-31T21:55:15.992Z",
+            "observations": [
+              {
+                "date": "2026-01-23",
+                "value": 3.6
+              },
+              {
+                "date": "2026-01-26",
+                "value": 3.56
+              },
+              {
+                "date": "2026-01-27",
+                "value": 3.53
+              },
+              {
+                "date": "2026-01-28",
+                "value": 3.56
+              },
+              {
+                "date": "2026-01-29",
+                "value": 3.53
+              },
+              {
+                "date": "2026-01-30",
+                "value": 3.52
+              },
+              {
+                "date": "2026-02-02",
+                "value": 3.57
+              },
+              {
+                "date": "2026-02-03",
+                "value": 3.57
+              },
+              {
+                "date": "2026-02-04",
+                "value": 3.57
+              },
+              {
+                "date": "2026-02-05",
+                "value": 3.47
+              },
+              {
+                "date": "2026-02-06",
+                "value": 3.5
+              },
+              {
+                "date": "2026-02-09",
+                "value": 3.48
+              },
+              {
+                "date": "2026-02-10",
+                "value": 3.45
+              },
+              {
+                "date": "2026-02-11",
+                "value": 3.52
+              },
+              {
+                "date": "2026-02-12",
+                "value": 3.47
+              },
+              {
+                "date": "2026-02-13",
+                "value": 3.4
+              },
+              {
+                "date": "2026-02-16",
+                "value": 0
+              },
+              {
+                "date": "2026-02-17",
+                "value": 3.43
+              },
+              {
+                "date": "2026-02-18",
+                "value": 3.47
+              },
+              {
+                "date": "2026-02-19",
+                "value": 3.47
+              },
+              {
+                "date": "2026-02-20",
+                "value": 3.48
+              },
+              {
+                "date": "2026-02-23",
+                "value": 3.43
+              },
+              {
+                "date": "2026-02-24",
+                "value": 3.43
+              },
+              {
+                "date": "2026-02-25",
+                "value": 3.45
+              },
+              {
+                "date": "2026-02-26",
+                "value": 3.42
+              },
+              {
+                "date": "2026-02-27",
+                "value": 3.38
+              },
+              {
+                "date": "2026-03-02",
+                "value": 3.47
+              },
+              {
+                "date": "2026-03-03",
+                "value": 3.51
+              },
+              {
+                "date": "2026-03-04",
+                "value": 3.54
+              },
+              {
+                "date": "2026-03-05",
+                "value": 3.57
+              },
+              {
+                "date": "2026-03-06",
+                "value": 3.56
+              },
+              {
+                "date": "2026-03-09",
+                "value": 3.56
+              },
+              {
+                "date": "2026-03-10",
+                "value": 3.57
+              },
+              {
+                "date": "2026-03-11",
+                "value": 3.64
+              },
+              {
+                "date": "2026-03-12",
+                "value": 3.76
+              },
+              {
+                "date": "2026-03-13",
+                "value": 3.73
+              },
+              {
+                "date": "2026-03-16",
+                "value": 3.68
+              },
+              {
+                "date": "2026-03-17",
+                "value": 3.68
+              },
+              {
+                "date": "2026-03-18",
+                "value": 3.76
+              },
+              {
+                "date": "2026-03-19",
+                "value": 3.79
+              },
+              {
+                "date": "2026-03-20",
+                "value": 3.88
+              },
+              {
+                "date": "2026-03-23",
+                "value": 3.83
+              },
+              {
+                "date": "2026-03-24",
+                "value": 3.9
+              },
+              {
+                "date": "2026-03-25",
+                "value": 3.84
+              },
+              {
+                "date": "2026-03-26",
+                "value": 3.96
+              },
+              {
+                "date": "2026-03-27",
+                "value": 3.88
+              },
+              {
+                "date": "2026-03-30",
+                "value": 3.82
+              },
+              {
+                "date": "2026-03-31",
+                "value": 3.79
+              },
+              {
+                "date": "2026-04-01",
+                "value": 3.81
+              },
+              {
+                "date": "2026-04-02",
+                "value": 3.79
+              },
+              {
+                "date": "2026-04-03",
+                "value": 3.84
+              },
+              {
+                "date": "2026-04-06",
+                "value": 3.84
+              },
+              {
+                "date": "2026-04-07",
+                "value": 3.81
+              },
+              {
+                "date": "2026-04-08",
+                "value": 3.79
+              },
+              {
+                "date": "2026-04-09",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-10",
+                "value": 3.81
+              },
+              {
+                "date": "2026-04-13",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-14",
+                "value": 3.76
+              },
+              {
+                "date": "2026-04-15",
+                "value": 3.76
+              },
+              {
+                "date": "2026-04-16",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-17",
+                "value": 3.71
+              },
+              {
+                "date": "2026-04-20",
+                "value": 3.72
+              },
+              {
+                "date": "2026-04-21",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-22",
+                "value": 3.79
+              },
+              {
+                "date": "2026-04-23",
+                "value": 3.83
+              },
+              {
+                "date": "2026-04-24",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-27",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-28",
+                "value": 3.84
+              },
+              {
+                "date": "2026-04-29",
+                "value": 3.92
+              },
+              {
+                "date": "2026-04-30",
+                "value": 3.88
+              },
+              {
+                "date": "2026-05-01",
+                "value": 3.88
+              },
+              {
+                "date": "2026-05-04",
+                "value": 3.95
+              },
+              {
+                "date": "2026-05-05",
+                "value": 3.93
+              },
+              {
+                "date": "2026-05-06",
+                "value": 3.87
+              },
+              {
+                "date": "2026-05-07",
+                "value": 3.92
+              },
+              {
+                "date": "2026-05-08",
+                "value": 3.9
+              },
+              {
+                "date": "2026-05-11",
+                "value": 3.95
+              },
+              {
+                "date": "2026-05-12",
+                "value": 4
+              },
+              {
+                "date": "2026-05-13",
+                "value": 3.98
+              },
+              {
+                "date": "2026-05-14",
+                "value": 4
+              },
+              {
+                "date": "2026-05-15",
+                "value": 4.09
+              },
+              {
+                "date": "2026-05-18",
+                "value": 4.07
+              },
+              {
+                "date": "2026-05-19",
+                "value": 4.13
+              },
+              {
+                "date": "2026-05-20",
+                "value": 4.04
+              },
+              {
+                "date": "2026-05-21",
+                "value": 4.08
+              },
+              {
+                "date": "2026-05-22",
+                "value": 4.13
+              },
+              {
+                "date": "2026-05-25",
+                "value": 0
+              },
+              {
+                "date": "2026-05-26",
+                "value": 4.01
+              }
+            ]
+          },
+          {
+            "id": "FEDFUNDS",
+            "label": "Effective Federal Funds Rate",
+            "source": "FRED / Federal Reserve",
+            "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+            "fetchedAt": "2026-05-31T21:55:16.024Z",
+            "observations": [
+              {
+                "date": "2018-11-01",
+                "value": 2.2
+              },
+              {
+                "date": "2018-12-01",
+                "value": 2.27
+              },
+              {
+                "date": "2019-01-01",
+                "value": 2.4
+              },
+              {
+                "date": "2019-02-01",
+                "value": 2.4
+              },
+              {
+                "date": "2019-03-01",
+                "value": 2.41
+              },
+              {
+                "date": "2019-04-01",
+                "value": 2.42
+              },
+              {
+                "date": "2019-05-01",
+                "value": 2.39
+              },
+              {
+                "date": "2019-06-01",
+                "value": 2.38
+              },
+              {
+                "date": "2019-07-01",
+                "value": 2.4
+              },
+              {
+                "date": "2019-08-01",
+                "value": 2.13
+              },
+              {
+                "date": "2019-09-01",
+                "value": 2.04
+              },
+              {
+                "date": "2019-10-01",
+                "value": 1.83
+              },
+              {
+                "date": "2019-11-01",
+                "value": 1.55
+              },
+              {
+                "date": "2019-12-01",
+                "value": 1.55
+              },
+              {
+                "date": "2020-01-01",
+                "value": 1.55
+              },
+              {
+                "date": "2020-02-01",
+                "value": 1.58
+              },
+              {
+                "date": "2020-03-01",
+                "value": 0.65
+              },
+              {
+                "date": "2020-04-01",
+                "value": 0.05
+              },
+              {
+                "date": "2020-05-01",
+                "value": 0.05
+              },
+              {
+                "date": "2020-06-01",
+                "value": 0.08
+              },
+              {
+                "date": "2020-07-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-08-01",
+                "value": 0.1
+              },
+              {
+                "date": "2020-09-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-10-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-11-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-12-01",
+                "value": 0.09
+              },
+              {
+                "date": "2021-01-01",
+                "value": 0.09
+              },
+              {
+                "date": "2021-02-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-03-01",
+                "value": 0.07
+              },
+              {
+                "date": "2021-04-01",
+                "value": 0.07
+              },
+              {
+                "date": "2021-05-01",
+                "value": 0.06
+              },
+              {
+                "date": "2021-06-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-07-01",
+                "value": 0.1
+              },
+              {
+                "date": "2021-08-01",
+                "value": 0.09
+              },
+              {
+                "date": "2021-09-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-10-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-11-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-12-01",
+                "value": 0.08
+              },
+              {
+                "date": "2022-01-01",
+                "value": 0.08
+              },
+              {
+                "date": "2022-02-01",
+                "value": 0.08
+              },
+              {
+                "date": "2022-03-01",
+                "value": 0.2
+              },
+              {
+                "date": "2022-04-01",
+                "value": 0.33
+              },
+              {
+                "date": "2022-05-01",
+                "value": 0.77
+              },
+              {
+                "date": "2022-06-01",
+                "value": 1.21
+              },
+              {
+                "date": "2022-07-01",
+                "value": 1.68
+              },
+              {
+                "date": "2022-08-01",
+                "value": 2.33
+              },
+              {
+                "date": "2022-09-01",
+                "value": 2.56
+              },
+              {
+                "date": "2022-10-01",
+                "value": 3.08
+              },
+              {
+                "date": "2022-11-01",
+                "value": 3.78
+              },
+              {
+                "date": "2022-12-01",
+                "value": 4.1
+              },
+              {
+                "date": "2023-01-01",
+                "value": 4.33
+              },
+              {
+                "date": "2023-02-01",
+                "value": 4.57
+              },
+              {
+                "date": "2023-03-01",
+                "value": 4.65
+              },
+              {
+                "date": "2023-04-01",
+                "value": 4.83
+              },
+              {
+                "date": "2023-05-01",
+                "value": 5.06
+              },
+              {
+                "date": "2023-06-01",
+                "value": 5.08
+              },
+              {
+                "date": "2023-07-01",
+                "value": 5.12
+              },
+              {
+                "date": "2023-08-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-09-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-10-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-11-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-12-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-01-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-02-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-03-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-04-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-05-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-06-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-07-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-08-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-09-01",
+                "value": 5.13
+              },
+              {
+                "date": "2024-10-01",
+                "value": 4.83
+              },
+              {
+                "date": "2024-11-01",
+                "value": 4.64
+              },
+              {
+                "date": "2024-12-01",
+                "value": 4.48
+              },
+              {
+                "date": "2025-01-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-02-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-03-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-04-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-05-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-06-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-07-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-08-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-09-01",
+                "value": 4.22
+              },
+              {
+                "date": "2025-10-01",
+                "value": 4.09
+              },
+              {
+                "date": "2025-11-01",
+                "value": 3.88
+              },
+              {
+                "date": "2025-12-01",
+                "value": 3.72
+              },
+              {
+                "date": "2026-01-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-02-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-03-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-04-01",
+                "value": 3.64
+              }
+            ]
+          }
+        ],
+        "sourceNote": "Numeric market visuals use public FRED CSV downloads and preserve source links."
+      },
+      "relatedLinks": [
+        {
+          "label": "FRED 10-Year Treasury Yield",
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "type": "Data"
+        },
+        {
+          "label": "FRED 2-Year Treasury Yield",
+          "url": "https://fred.stlouisfed.org/series/DGS2",
+          "type": "Data"
+        }
+      ],
+      "storyline": {
+        "id": "rates-inflation-cost-of-capital",
+        "name": "Rates and cost of capital",
+        "threshold": 3
+      },
+      "concepts": [
+        "rates",
+        "treasury",
+        "yield",
+        "inflation"
+      ]
+    }
+  ],
+  "sections": {
+    "macro": {
+      "label": "Macro Environment",
+      "items": [
+        {
+          "id": "hist-2026-05-26-rates",
+          "title": "Rates stay central as investors wait for the next inflation read",
+          "editorialLane": "macro",
+          "editorialLaneLabel": "Macro Environment",
+          "privateMarketSegment": null,
+          "sourceTrail": [
+            {
+              "source": "FRED",
+              "url": "https://fred.stlouisfed.org/series/DGS10",
+              "publishedAt": "2026-05-26T09:00:00-04:00",
+              "fetchedAt": "2026-05-31T21:55:15.452Z"
+            }
+          ],
+          "freshnessStatus": "FRESH",
+          "confidence": "High",
+          "summary": "Treasury yields remained a core input into valuation and financing conversations as investors waited for the next inflation release later in the week. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+          "whatHappened": "Treasury yields remained a core input into valuation and financing conversations as investors waited for the next inflation release later in the week.",
+          "whatMoved": "The key move was not a single headline shock. It was the market's continued sensitivity to where rates were sitting before the next inflation print.",
+          "whyItMoved": "When rates stay firm, investors and deal teams have less room to assume a friendlier discount-rate backdrop. That matters even on days when the tape itself looks calm.",
+          "valuationImpact": "Higher long-term yields make future cash flows less valuable today, which is hardest on long-duration growth stories and any valuation built on optimistic exit multiples.",
+          "financingImplication": "Debt-funded deals still need discipline on leverage, coverage, and refinance assumptions because a stable equity tape does not make debt capital cheap.",
+          "sectorReadThrough": "Rate-sensitive sectors could still rally on company news, but the backdrop remained less forgiving for businesses depending on cheap financing.",
+          "parallel": {
+            "precedent": "Earlier periods when equities held together while rates quietly kept pressure on valuation and leverage assumptions.",
+            "outcome": "The market could look orderly while the underlying math for DCFs, LBOs, and refinancings stayed demanding.",
+            "whatRhymes": "That same separation matters here: a calm tape can hide a still-tight cost of capital.",
+            "whatDiffers": "The market was still waiting for the next official inflation release, so the read was provisional rather than decisive.",
+            "soWhat": "Do not over-read a stable market if the rate backdrop is still doing the real work underneath.",
+            "sourceTrail": [
+              {
+                "source": "FRED",
+                "url": "https://fred.stlouisfed.org/series/DGS10"
+              }
+            ]
+          },
+          "watchNext": "Watch the next inflation release, the reaction in front-end yields, and whether long-end rates stay sticky.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "When rates stay firm, investors and deal teams have less room to assume a friendlier discount-rate backdrop. That matters even on days when the tape itself looks calm. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
+              },
+              {
+                "id": "release",
+                "heading": "What the release actually said",
+                "body": "Treasury yields remained a core input into valuation and financing conversations as investors waited for the next inflation release later in the week. The part that matters is not just the headline number, but which part of the report is still running hot and which part is starting to cool."
+              },
+              {
+                "id": "mechanism",
+                "heading": "How the transmission works",
+                "body": "The key move was not a single headline shock. It was the market's continued sensitivity to where rates were sitting before the next inflation print. Higher long-term yields make future cash flows less valuable today, which is hardest on long-duration growth stories and any valuation built on optimistic exit multiples. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
+              },
+              {
+                "id": "market-read",
+                "heading": "How the market may read it",
+                "body": "Rate-sensitive sectors could still rally on company news, but the backdrop remained less forgiving for businesses depending on cheap financing. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What would confirm or break the read",
+                "body": "Watch the next inflation release, the reaction in front-end yields, and whether long-end rates stay sticky. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
+              }
+            ]
+          },
+          "visual": {
+            "type": "line-chart",
+            "title": "Rate backdrop",
+            "subtitle": "Latest public FRED observations. This is not live trading data.",
+            "relevanceNote": "This chart fits because the story is about the rate backdrop itself, not just a company reacting to it.",
+            "allowedPages": [
+              "macro",
+              "deep-dive"
+            ],
+            "series": [
+              {
+                "id": "DGS10",
+                "label": "10-Year Treasury Yield",
+                "source": "FRED / U.S. Treasury",
+                "url": "https://fred.stlouisfed.org/series/DGS10",
+                "fetchedAt": "2026-05-31T21:55:15.841Z",
+                "observations": [
+                  {
+                    "date": "2026-01-23",
+                    "value": 4.24
+                  },
+                  {
+                    "date": "2026-01-26",
+                    "value": 4.22
+                  },
+                  {
+                    "date": "2026-01-27",
+                    "value": 4.24
+                  },
+                  {
+                    "date": "2026-01-28",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-01-29",
+                    "value": 4.24
+                  },
+                  {
+                    "date": "2026-01-30",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-02-02",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-02-03",
+                    "value": 4.28
+                  },
+                  {
+                    "date": "2026-02-04",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-02-05",
+                    "value": 4.21
+                  },
+                  {
+                    "date": "2026-02-06",
+                    "value": 4.22
+                  },
+                  {
+                    "date": "2026-02-09",
+                    "value": 4.22
+                  },
+                  {
+                    "date": "2026-02-10",
+                    "value": 4.16
+                  },
+                  {
+                    "date": "2026-02-11",
+                    "value": 4.18
+                  },
+                  {
+                    "date": "2026-02-12",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2026-02-13",
+                    "value": 4.04
+                  },
+                  {
+                    "date": "2026-02-16",
+                    "value": 0
+                  },
+                  {
+                    "date": "2026-02-17",
+                    "value": 4.05
+                  },
+                  {
+                    "date": "2026-02-18",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2026-02-19",
+                    "value": 4.08
+                  },
+                  {
+                    "date": "2026-02-20",
+                    "value": 4.08
+                  },
+                  {
+                    "date": "2026-02-23",
+                    "value": 4.03
+                  },
+                  {
+                    "date": "2026-02-24",
+                    "value": 4.04
+                  },
+                  {
+                    "date": "2026-02-25",
+                    "value": 4.05
+                  },
+                  {
+                    "date": "2026-02-26",
+                    "value": 4.02
+                  },
+                  {
+                    "date": "2026-02-27",
+                    "value": 3.97
+                  },
+                  {
+                    "date": "2026-03-02",
+                    "value": 4.05
+                  },
+                  {
+                    "date": "2026-03-03",
+                    "value": 4.06
+                  },
+                  {
+                    "date": "2026-03-04",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2026-03-05",
+                    "value": 4.13
+                  },
+                  {
+                    "date": "2026-03-06",
+                    "value": 4.15
+                  },
+                  {
+                    "date": "2026-03-09",
+                    "value": 4.12
+                  },
+                  {
+                    "date": "2026-03-10",
+                    "value": 4.15
+                  },
+                  {
+                    "date": "2026-03-11",
+                    "value": 4.21
+                  },
+                  {
+                    "date": "2026-03-12",
+                    "value": 4.27
+                  },
+                  {
+                    "date": "2026-03-13",
+                    "value": 4.28
+                  },
+                  {
+                    "date": "2026-03-16",
+                    "value": 4.23
+                  },
+                  {
+                    "date": "2026-03-17",
+                    "value": 4.2
+                  },
+                  {
+                    "date": "2026-03-18",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-03-19",
+                    "value": 4.25
+                  },
+                  {
+                    "date": "2026-03-20",
+                    "value": 4.39
+                  },
+                  {
+                    "date": "2026-03-23",
+                    "value": 4.34
+                  },
+                  {
+                    "date": "2026-03-24",
+                    "value": 4.39
+                  },
+                  {
+                    "date": "2026-03-25",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2026-03-26",
+                    "value": 4.42
+                  },
+                  {
+                    "date": "2026-03-27",
+                    "value": 4.44
+                  },
+                  {
+                    "date": "2026-03-30",
+                    "value": 4.35
+                  },
+                  {
+                    "date": "2026-03-31",
+                    "value": 4.3
+                  },
+                  {
+                    "date": "2026-04-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2026-04-02",
+                    "value": 4.31
+                  },
+                  {
+                    "date": "2026-04-03",
+                    "value": 4.35
+                  },
+                  {
+                    "date": "2026-04-06",
+                    "value": 4.34
+                  },
+                  {
+                    "date": "2026-04-07",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2026-04-08",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-04-09",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-04-10",
+                    "value": 4.31
+                  },
+                  {
+                    "date": "2026-04-13",
+                    "value": 4.3
+                  },
+                  {
+                    "date": "2026-04-14",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-04-15",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-04-16",
+                    "value": 4.32
+                  },
+                  {
+                    "date": "2026-04-17",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-04-20",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-04-21",
+                    "value": 4.3
+                  },
+                  {
+                    "date": "2026-04-22",
+                    "value": 4.3
+                  },
+                  {
+                    "date": "2026-04-23",
+                    "value": 4.34
+                  },
+                  {
+                    "date": "2026-04-24",
+                    "value": 4.31
+                  },
+                  {
+                    "date": "2026-04-27",
+                    "value": 4.35
+                  },
+                  {
+                    "date": "2026-04-28",
+                    "value": 4.36
+                  },
+                  {
+                    "date": "2026-04-29",
+                    "value": 4.42
+                  },
+                  {
+                    "date": "2026-04-30",
+                    "value": 4.4
+                  },
+                  {
+                    "date": "2026-05-01",
+                    "value": 4.39
+                  },
+                  {
+                    "date": "2026-05-04",
+                    "value": 4.45
+                  },
+                  {
+                    "date": "2026-05-05",
+                    "value": 4.43
+                  },
+                  {
+                    "date": "2026-05-06",
+                    "value": 4.36
+                  },
+                  {
+                    "date": "2026-05-07",
+                    "value": 4.41
+                  },
+                  {
+                    "date": "2026-05-08",
+                    "value": 4.38
+                  },
+                  {
+                    "date": "2026-05-11",
+                    "value": 4.42
+                  },
+                  {
+                    "date": "2026-05-12",
+                    "value": 4.46
+                  },
+                  {
+                    "date": "2026-05-13",
+                    "value": 4.46
+                  },
+                  {
+                    "date": "2026-05-14",
+                    "value": 4.47
+                  },
+                  {
+                    "date": "2026-05-15",
+                    "value": 4.59
+                  },
+                  {
+                    "date": "2026-05-18",
+                    "value": 4.61
+                  },
+                  {
+                    "date": "2026-05-19",
+                    "value": 4.67
+                  },
+                  {
+                    "date": "2026-05-20",
+                    "value": 4.57
+                  },
+                  {
+                    "date": "2026-05-21",
+                    "value": 4.57
+                  },
+                  {
+                    "date": "2026-05-22",
+                    "value": 4.56
+                  },
+                  {
+                    "date": "2026-05-25",
+                    "value": 0
+                  },
+                  {
+                    "date": "2026-05-26",
+                    "value": 4.5
+                  }
+                ]
+              },
+              {
+                "id": "DGS2",
+                "label": "2-Year Treasury Yield",
+                "source": "FRED / U.S. Treasury",
+                "url": "https://fred.stlouisfed.org/series/DGS2",
+                "fetchedAt": "2026-05-31T21:55:15.992Z",
+                "observations": [
+                  {
+                    "date": "2026-01-23",
+                    "value": 3.6
+                  },
+                  {
+                    "date": "2026-01-26",
+                    "value": 3.56
+                  },
+                  {
+                    "date": "2026-01-27",
+                    "value": 3.53
+                  },
+                  {
+                    "date": "2026-01-28",
+                    "value": 3.56
+                  },
+                  {
+                    "date": "2026-01-29",
+                    "value": 3.53
+                  },
+                  {
+                    "date": "2026-01-30",
+                    "value": 3.52
+                  },
+                  {
+                    "date": "2026-02-02",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-02-03",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-02-04",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-02-05",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-02-06",
+                    "value": 3.5
+                  },
+                  {
+                    "date": "2026-02-09",
+                    "value": 3.48
+                  },
+                  {
+                    "date": "2026-02-10",
+                    "value": 3.45
+                  },
+                  {
+                    "date": "2026-02-11",
+                    "value": 3.52
+                  },
+                  {
+                    "date": "2026-02-12",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-02-13",
+                    "value": 3.4
+                  },
+                  {
+                    "date": "2026-02-16",
+                    "value": 0
+                  },
+                  {
+                    "date": "2026-02-17",
+                    "value": 3.43
+                  },
+                  {
+                    "date": "2026-02-18",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-02-19",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-02-20",
+                    "value": 3.48
+                  },
+                  {
+                    "date": "2026-02-23",
+                    "value": 3.43
+                  },
+                  {
+                    "date": "2026-02-24",
+                    "value": 3.43
+                  },
+                  {
+                    "date": "2026-02-25",
+                    "value": 3.45
+                  },
+                  {
+                    "date": "2026-02-26",
+                    "value": 3.42
+                  },
+                  {
+                    "date": "2026-02-27",
+                    "value": 3.38
+                  },
+                  {
+                    "date": "2026-03-02",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-03-03",
+                    "value": 3.51
+                  },
+                  {
+                    "date": "2026-03-04",
+                    "value": 3.54
+                  },
+                  {
+                    "date": "2026-03-05",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-03-06",
+                    "value": 3.56
+                  },
+                  {
+                    "date": "2026-03-09",
+                    "value": 3.56
+                  },
+                  {
+                    "date": "2026-03-10",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-03-11",
+                    "value": 3.64
+                  },
+                  {
+                    "date": "2026-03-12",
+                    "value": 3.76
+                  },
+                  {
+                    "date": "2026-03-13",
+                    "value": 3.73
+                  },
+                  {
+                    "date": "2026-03-16",
+                    "value": 3.68
+                  },
+                  {
+                    "date": "2026-03-17",
+                    "value": 3.68
+                  },
+                  {
+                    "date": "2026-03-18",
+                    "value": 3.76
+                  },
+                  {
+                    "date": "2026-03-19",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-03-20",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2026-03-23",
+                    "value": 3.83
+                  },
+                  {
+                    "date": "2026-03-24",
+                    "value": 3.9
+                  },
+                  {
+                    "date": "2026-03-25",
+                    "value": 3.84
+                  },
+                  {
+                    "date": "2026-03-26",
+                    "value": 3.96
+                  },
+                  {
+                    "date": "2026-03-27",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2026-03-30",
+                    "value": 3.82
+                  },
+                  {
+                    "date": "2026-03-31",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-04-01",
+                    "value": 3.81
+                  },
+                  {
+                    "date": "2026-04-02",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-04-03",
+                    "value": 3.84
+                  },
+                  {
+                    "date": "2026-04-06",
+                    "value": 3.84
+                  },
+                  {
+                    "date": "2026-04-07",
+                    "value": 3.81
+                  },
+                  {
+                    "date": "2026-04-08",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-04-09",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-10",
+                    "value": 3.81
+                  },
+                  {
+                    "date": "2026-04-13",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-14",
+                    "value": 3.76
+                  },
+                  {
+                    "date": "2026-04-15",
+                    "value": 3.76
+                  },
+                  {
+                    "date": "2026-04-16",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-17",
+                    "value": 3.71
+                  },
+                  {
+                    "date": "2026-04-20",
+                    "value": 3.72
+                  },
+                  {
+                    "date": "2026-04-21",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-22",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-04-23",
+                    "value": 3.83
+                  },
+                  {
+                    "date": "2026-04-24",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-27",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-28",
+                    "value": 3.84
+                  },
+                  {
+                    "date": "2026-04-29",
+                    "value": 3.92
+                  },
+                  {
+                    "date": "2026-04-30",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2026-05-01",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2026-05-04",
+                    "value": 3.95
+                  },
+                  {
+                    "date": "2026-05-05",
+                    "value": 3.93
+                  },
+                  {
+                    "date": "2026-05-06",
+                    "value": 3.87
+                  },
+                  {
+                    "date": "2026-05-07",
+                    "value": 3.92
+                  },
+                  {
+                    "date": "2026-05-08",
+                    "value": 3.9
+                  },
+                  {
+                    "date": "2026-05-11",
+                    "value": 3.95
+                  },
+                  {
+                    "date": "2026-05-12",
+                    "value": 4
+                  },
+                  {
+                    "date": "2026-05-13",
+                    "value": 3.98
+                  },
+                  {
+                    "date": "2026-05-14",
+                    "value": 4
+                  },
+                  {
+                    "date": "2026-05-15",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2026-05-18",
+                    "value": 4.07
+                  },
+                  {
+                    "date": "2026-05-19",
+                    "value": 4.13
+                  },
+                  {
+                    "date": "2026-05-20",
+                    "value": 4.04
+                  },
+                  {
+                    "date": "2026-05-21",
+                    "value": 4.08
+                  },
+                  {
+                    "date": "2026-05-22",
+                    "value": 4.13
+                  },
+                  {
+                    "date": "2026-05-25",
+                    "value": 0
+                  },
+                  {
+                    "date": "2026-05-26",
+                    "value": 4.01
+                  }
+                ]
+              },
+              {
+                "id": "FEDFUNDS",
+                "label": "Effective Federal Funds Rate",
+                "source": "FRED / Federal Reserve",
+                "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+                "fetchedAt": "2026-05-31T21:55:16.024Z",
+                "observations": [
+                  {
+                    "date": "2018-11-01",
+                    "value": 2.2
+                  },
+                  {
+                    "date": "2018-12-01",
+                    "value": 2.27
+                  },
+                  {
+                    "date": "2019-01-01",
+                    "value": 2.4
+                  },
+                  {
+                    "date": "2019-02-01",
+                    "value": 2.4
+                  },
+                  {
+                    "date": "2019-03-01",
+                    "value": 2.41
+                  },
+                  {
+                    "date": "2019-04-01",
+                    "value": 2.42
+                  },
+                  {
+                    "date": "2019-05-01",
+                    "value": 2.39
+                  },
+                  {
+                    "date": "2019-06-01",
+                    "value": 2.38
+                  },
+                  {
+                    "date": "2019-07-01",
+                    "value": 2.4
+                  },
+                  {
+                    "date": "2019-08-01",
+                    "value": 2.13
+                  },
+                  {
+                    "date": "2019-09-01",
+                    "value": 2.04
+                  },
+                  {
+                    "date": "2019-10-01",
+                    "value": 1.83
+                  },
+                  {
+                    "date": "2019-11-01",
+                    "value": 1.55
+                  },
+                  {
+                    "date": "2019-12-01",
+                    "value": 1.55
+                  },
+                  {
+                    "date": "2020-01-01",
+                    "value": 1.55
+                  },
+                  {
+                    "date": "2020-02-01",
+                    "value": 1.58
+                  },
+                  {
+                    "date": "2020-03-01",
+                    "value": 0.65
+                  },
+                  {
+                    "date": "2020-04-01",
+                    "value": 0.05
+                  },
+                  {
+                    "date": "2020-05-01",
+                    "value": 0.05
+                  },
+                  {
+                    "date": "2020-06-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2020-07-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2020-08-01",
+                    "value": 0.1
+                  },
+                  {
+                    "date": "2020-09-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2020-10-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2020-11-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2020-12-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2021-01-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2021-02-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-03-01",
+                    "value": 0.07
+                  },
+                  {
+                    "date": "2021-04-01",
+                    "value": 0.07
+                  },
+                  {
+                    "date": "2021-05-01",
+                    "value": 0.06
+                  },
+                  {
+                    "date": "2021-06-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-07-01",
+                    "value": 0.1
+                  },
+                  {
+                    "date": "2021-08-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2021-09-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-10-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-11-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-12-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2022-01-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2022-02-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2022-03-01",
+                    "value": 0.2
+                  },
+                  {
+                    "date": "2022-04-01",
+                    "value": 0.33
+                  },
+                  {
+                    "date": "2022-05-01",
+                    "value": 0.77
+                  },
+                  {
+                    "date": "2022-06-01",
+                    "value": 1.21
+                  },
+                  {
+                    "date": "2022-07-01",
+                    "value": 1.68
+                  },
+                  {
+                    "date": "2022-08-01",
+                    "value": 2.33
+                  },
+                  {
+                    "date": "2022-09-01",
+                    "value": 2.56
+                  },
+                  {
+                    "date": "2022-10-01",
+                    "value": 3.08
+                  },
+                  {
+                    "date": "2022-11-01",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2022-12-01",
+                    "value": 4.1
+                  },
+                  {
+                    "date": "2023-01-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2023-02-01",
+                    "value": 4.57
+                  },
+                  {
+                    "date": "2023-03-01",
+                    "value": 4.65
+                  },
+                  {
+                    "date": "2023-04-01",
+                    "value": 4.83
+                  },
+                  {
+                    "date": "2023-05-01",
+                    "value": 5.06
+                  },
+                  {
+                    "date": "2023-06-01",
+                    "value": 5.08
+                  },
+                  {
+                    "date": "2023-07-01",
+                    "value": 5.12
+                  },
+                  {
+                    "date": "2023-08-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2023-09-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2023-10-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2023-11-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2023-12-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-01-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-02-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-03-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-04-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-05-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-06-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-07-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-08-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-09-01",
+                    "value": 5.13
+                  },
+                  {
+                    "date": "2024-10-01",
+                    "value": 4.83
+                  },
+                  {
+                    "date": "2024-11-01",
+                    "value": 4.64
+                  },
+                  {
+                    "date": "2024-12-01",
+                    "value": 4.48
+                  },
+                  {
+                    "date": "2025-01-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-02-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-03-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-04-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-05-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-06-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-07-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-08-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-09-01",
+                    "value": 4.22
+                  },
+                  {
+                    "date": "2025-10-01",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2025-11-01",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2025-12-01",
+                    "value": 3.72
+                  },
+                  {
+                    "date": "2026-01-01",
+                    "value": 3.64
+                  },
+                  {
+                    "date": "2026-02-01",
+                    "value": 3.64
+                  },
+                  {
+                    "date": "2026-03-01",
+                    "value": 3.64
+                  },
+                  {
+                    "date": "2026-04-01",
+                    "value": 3.64
+                  }
+                ]
+              }
+            ],
+            "sourceNote": "Numeric market visuals use public FRED CSV downloads and preserve source links."
+          },
+          "relatedLinks": [
+            {
+              "label": "FRED 10-Year Treasury Yield",
+              "url": "https://fred.stlouisfed.org/series/DGS10",
+              "type": "Data"
+            },
+            {
+              "label": "FRED 2-Year Treasury Yield",
+              "url": "https://fred.stlouisfed.org/series/DGS2",
+              "type": "Data"
+            }
+          ],
+          "storyline": {
+            "id": "rates-inflation-cost-of-capital",
+            "name": "Rates and cost of capital",
+            "threshold": 3
+          },
+          "concepts": [
+            "rates",
+            "treasury",
+            "yield",
+            "inflation"
+          ]
+        }
+      ],
+      "latestEvent": {
+        "title": "Rates stay central as investors wait for the next inflation read",
+        "happenedAt": "2026-05-26T09:00:00-04:00",
+        "whatHappened": "Treasury yields remained a core input into valuation and financing conversations as investors waited for the next inflation release later in the week.",
+        "whyItMatters": "When rates stay firm, investors and deal teams have less room to assume a friendlier discount-rate backdrop. That matters even on days when the tape itself looks calm.",
+        "watchNext": "Watch the next inflation release, the reaction in front-end yields, and whether long-end rates stay sticky.",
+        "sourceTrail": [
+          {
+            "source": "FRED",
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "publishedAt": "2026-05-26T09:00:00-04:00",
+            "fetchedAt": "2026-05-31T21:55:15.452Z"
+          }
+        ],
+        "scheduledEvent": {
+          "id": "bls-producer-price-index-2025-01-14",
+          "source": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+          "title": "Producer Price Index",
+          "category": "macro",
+          "significance": "medium",
+          "scheduledFor": "2025-01-14T12:30:00.000Z",
+          "scheduledDate": "2025-01-14",
+          "fetchedAt": "2026-05-31T21:55:17.714Z"
+        }
+      },
+      "economicCalendar": [
+        {
+          "id": "bls-employment-situation-2026-06-05",
+          "source": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+          "title": "Employment Situation",
+          "category": "employment",
+          "significance": "high",
+          "scheduledFor": "2026-06-05T12:30:00.000Z",
+          "scheduledDate": "2026-06-05",
+          "fetchedAt": "2026-05-31T21:55:17.714Z"
+        },
+        {
+          "id": "bls-consumer-price-index-2026-06-10",
+          "source": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+          "title": "Consumer Price Index",
+          "category": "inflation",
+          "significance": "high",
+          "scheduledFor": "2026-06-10T12:30:00.000Z",
+          "scheduledDate": "2026-06-10",
+          "fetchedAt": "2026-05-31T21:55:17.714Z"
+        },
+        {
+          "id": "fed-fomc-june-2026-06-17",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "title": "FOMC meeting (June 16-17)",
+          "category": "fed",
+          "significance": "high",
+          "scheduledFor": "2026-06-17T18:00:00.000Z",
+          "scheduledDate": "2026-06-17",
+          "fetchedAt": "2026-05-31T21:55:17.714Z"
+        },
+        {
+          "id": "bea-gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-inc-2026-06-25",
+          "source": "BEA",
+          "url": "https://www.bea.gov/news/schedule",
+          "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
+          "category": "growth",
+          "significance": "high",
+          "scheduledFor": "2026-06-25T12:30:00.000Z",
+          "scheduledDate": "2026-06-25",
+          "fetchedAt": "2026-05-31T21:55:17.714Z"
+        },
+        {
+          "id": "bea-personal-income-and-outlays-may-2026-2026-06-25",
+          "source": "BEA",
+          "url": "https://www.bea.gov/news/schedule",
+          "title": "Personal Income and Outlays, May 2026",
+          "category": "inflation",
+          "significance": "high",
+          "scheduledFor": "2026-06-25T12:30:00.000Z",
+          "scheduledDate": "2026-06-25",
+          "fetchedAt": "2026-05-31T21:55:17.714Z"
+        },
+        {
+          "id": "bls-employment-situation-2026-07-02",
+          "source": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+          "title": "Employment Situation",
+          "category": "employment",
+          "significance": "high",
+          "scheduledFor": "2026-07-02T12:30:00.000Z",
+          "scheduledDate": "2026-07-02",
+          "fetchedAt": "2026-05-31T21:55:17.714Z"
+        },
+        {
+          "id": "bls-consumer-price-index-2026-07-14",
+          "source": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+          "title": "Consumer Price Index",
+          "category": "inflation",
+          "significance": "high",
+          "scheduledFor": "2026-07-14T12:30:00.000Z",
+          "scheduledDate": "2026-07-14",
+          "fetchedAt": "2026-05-31T21:55:17.714Z"
+        },
+        {
+          "id": "fed-fomc-july-2026-07-29",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "title": "FOMC meeting (July 28-29)",
+          "category": "fed",
+          "significance": "high",
+          "scheduledFor": "2026-07-29T18:00:00.000Z",
+          "scheduledDate": "2026-07-29",
+          "fetchedAt": "2026-05-31T21:55:17.714Z"
+        }
+      ]
+    },
+    "markets": {
+      "label": "Markets",
+      "items": []
+    },
+    "deals": {
+      "label": "Deals",
+      "items": []
+    },
+    "privateMarkets": {
+      "label": "Private Markets",
+      "items": [
+        {
+          "id": "hist-2026-05-26-private-credit",
+          "title": "Private credit still looks open, but sponsors do not get a free pass",
+          "editorialLane": "private_markets",
+          "editorialLaneLabel": "Private Markets",
+          "privateMarketSegment": "private_credit",
+          "sourceTrail": [
+            {
+              "source": "Blue Owl Capital",
+              "url": "https://ir.blueowl.com/",
+              "publishedAt": "2026-05-26T11:15:00-04:00",
+              "fetchedAt": "2026-05-31T21:55:15.452Z"
+            }
+          ],
+          "freshnessStatus": "FRESH",
+          "confidence": "Medium",
+          "summary": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math. The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+          "whatHappened": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math.",
+          "whatMoved": "The read was about financing availability. Direct lenders still mattered, but the market was paying close attention to price, credit quality, and selectivity.",
+          "whyItMoved": "Private credit had become too important to ignore in sponsor finance. If lenders were available but cautious, buyers could still transact, just on more demanding terms.",
+          "valuationImpact": "An open private-credit market can keep deal activity alive, but higher spreads and tighter covenants still push down what buyers can pay.",
+          "financingImplication": "The practical question for bankers was whether direct lenders were merely present or actually willing to finance deals at leverage levels sponsors wanted.",
+          "sectorReadThrough": "The strongest read-through was for middle-market buyouts, dividend recaps, and refinancing candidates that relied on private debt rather than syndicated markets.",
+          "parallel": {
+            "precedent": "The post-2022 period when direct lenders became more important as syndicated markets grew less predictable.",
+            "outcome": "Transactions still happened, but sponsor returns depended more heavily on pricing discipline and realistic leverage.",
+            "whatRhymes": "That same tradeoff still applied: available debt helps, but expensive debt changes the return profile.",
+            "whatDiffers": "This was still a broad financing read rather than a clean deal-specific proof point.",
+            "soWhat": "Treat private-credit openness as a support, not a license to ignore debt cost and downside underwriting.",
+            "sourceTrail": [
+              {
+                "source": "Blue Owl Investor Relations",
+                "url": "https://ir.blueowl.com/"
+              },
+              {
+                "source": "FRED",
+                "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+              }
+            ]
+          },
+          "watchNext": "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "Private credit had become too important to ignore in sponsor finance. If lenders were available but cautious, buyers could still transact, just on more demanding terms. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+              },
+              {
+                "id": "signal",
+                "heading": "What the public signal is actually telling us",
+                "body": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math. Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+              },
+              {
+                "id": "interpretation",
+                "heading": "How to interpret the financing signal",
+                "body": "An open private-credit market can keep deal activity alive, but higher spreads and tighter covenants still push down what buyers can pay. The practical question for bankers was whether direct lenders were merely present or actually willing to finance deals at leverage levels sponsors wanted. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+              },
+              {
+                "id": "evidence",
+                "heading": "Where the evidence is strong versus indirect",
+                "body": "The strongest read-through was for middle-market buyouts, dividend recaps, and refinancing candidates that relied on private debt rather than syndicated markets. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+              },
+              {
+                "id": "parallel",
+                "heading": "Relevant comparison",
+                "body": "A useful parallel is The post-2022 period when direct lenders became more important as syndicated markets grew less predictable. In that earlier setup, transactions still happened, but sponsor returns depended more heavily on pricing discipline and realistic leverage. What rhymes is that same tradeoff still applied: available debt helps, but expensive debt changes the return profile. What is different this time is this was still a broad financing read rather than a clean deal-specific proof point. The bottom line is treat private-credit openness as a support, not a license to ignore debt cost and downside underwriting."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What would confirm or weaken the read",
+                "body": "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+              }
+            ]
+          },
+          "visual": null,
+          "relatedLinks": [
+            {
+              "label": "Blue Owl Investor Relations",
+              "url": "https://ir.blueowl.com/",
+              "type": "Company"
+            },
+            {
+              "label": "FRED High Yield Spread",
+              "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+              "type": "Data"
+            }
+          ],
+          "storyline": null,
+          "concepts": [
+            "debt",
+            "credit",
+            "private credit",
+            "sponsor",
+            "private credit"
+          ]
+        }
+      ],
+      "segments": {
+        "privateEquity": {
+          "label": "Private Equity",
+          "items": []
+        },
+        "privateCredit": {
+          "label": "Private Credit",
+          "items": [
+            {
+              "id": "hist-2026-05-26-private-credit",
+              "title": "Private credit still looks open, but sponsors do not get a free pass",
+              "editorialLane": "private_markets",
+              "editorialLaneLabel": "Private Markets",
+              "privateMarketSegment": "private_credit",
+              "sourceTrail": [
+                {
+                  "source": "Blue Owl Capital",
+                  "url": "https://ir.blueowl.com/",
+                  "publishedAt": "2026-05-26T11:15:00-04:00",
+                  "fetchedAt": "2026-05-31T21:55:15.452Z"
+                }
+              ],
+              "freshnessStatus": "FRESH",
+              "confidence": "Medium",
+              "summary": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math. The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+              "whatHappened": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math.",
+              "whatMoved": "The read was about financing availability. Direct lenders still mattered, but the market was paying close attention to price, credit quality, and selectivity.",
+              "whyItMoved": "Private credit had become too important to ignore in sponsor finance. If lenders were available but cautious, buyers could still transact, just on more demanding terms.",
+              "valuationImpact": "An open private-credit market can keep deal activity alive, but higher spreads and tighter covenants still push down what buyers can pay.",
+              "financingImplication": "The practical question for bankers was whether direct lenders were merely present or actually willing to finance deals at leverage levels sponsors wanted.",
+              "sectorReadThrough": "The strongest read-through was for middle-market buyouts, dividend recaps, and refinancing candidates that relied on private debt rather than syndicated markets.",
+              "parallel": {
+                "precedent": "The post-2022 period when direct lenders became more important as syndicated markets grew less predictable.",
+                "outcome": "Transactions still happened, but sponsor returns depended more heavily on pricing discipline and realistic leverage.",
+                "whatRhymes": "That same tradeoff still applied: available debt helps, but expensive debt changes the return profile.",
+                "whatDiffers": "This was still a broad financing read rather than a clean deal-specific proof point.",
+                "soWhat": "Treat private-credit openness as a support, not a license to ignore debt cost and downside underwriting.",
+                "sourceTrail": [
+                  {
+                    "source": "Blue Owl Investor Relations",
+                    "url": "https://ir.blueowl.com/"
+                  },
+                  {
+                    "source": "FRED",
+                    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+                  }
+                ]
+              },
+              "watchNext": "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks.",
+              "longform": {
+                "sections": [
+                  {
+                    "id": "takeaway",
+                    "heading": "Plain-English takeaway",
+                    "body": "Private credit had become too important to ignore in sponsor finance. If lenders were available but cautious, buyers could still transact, just on more demanding terms. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+                  },
+                  {
+                    "id": "signal",
+                    "heading": "What the public signal is actually telling us",
+                    "body": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math. Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+                  },
+                  {
+                    "id": "interpretation",
+                    "heading": "How to interpret the financing signal",
+                    "body": "An open private-credit market can keep deal activity alive, but higher spreads and tighter covenants still push down what buyers can pay. The practical question for bankers was whether direct lenders were merely present or actually willing to finance deals at leverage levels sponsors wanted. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+                  },
+                  {
+                    "id": "evidence",
+                    "heading": "Where the evidence is strong versus indirect",
+                    "body": "The strongest read-through was for middle-market buyouts, dividend recaps, and refinancing candidates that relied on private debt rather than syndicated markets. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+                  },
+                  {
+                    "id": "parallel",
+                    "heading": "Relevant comparison",
+                    "body": "A useful parallel is The post-2022 period when direct lenders became more important as syndicated markets grew less predictable. In that earlier setup, transactions still happened, but sponsor returns depended more heavily on pricing discipline and realistic leverage. What rhymes is that same tradeoff still applied: available debt helps, but expensive debt changes the return profile. What is different this time is this was still a broad financing read rather than a clean deal-specific proof point. The bottom line is treat private-credit openness as a support, not a license to ignore debt cost and downside underwriting."
+                  },
+                  {
+                    "id": "watch-next",
+                    "heading": "What would confirm or weaken the read",
+                    "body": "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+                  }
+                ]
+              },
+              "visual": null,
+              "relatedLinks": [
+                {
+                  "label": "Blue Owl Investor Relations",
+                  "url": "https://ir.blueowl.com/",
+                  "type": "Company"
+                },
+                {
+                  "label": "FRED High Yield Spread",
+                  "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+                  "type": "Data"
+                }
+              ],
+              "storyline": null,
+              "concepts": [
+                "debt",
+                "credit",
+                "private credit",
+                "sponsor",
+                "private credit"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "marketWatch": [
+    {
+      "id": "SPY",
+      "symbol": "SPY",
+      "name": "S&P 500",
+      "source": "Yahoo Finance public chart data",
+      "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d",
+      "fetchedAt": "2026-05-31T21:55:16.676Z",
+      "latestDate": "2026-05-26",
+      "price": 750.5900268554688,
+      "change": 4.95001220703125,
+      "percentChange": 0.66386085909903,
+      "whyItMoved": "SPY leaned on the macro read: the core inflation detail looked less alarming even though headline PCE still kept rate cuts from becoming a one-way trade."
+    },
+    {
+      "id": "QQQ",
+      "symbol": "QQQ",
+      "name": "Nasdaq 100",
+      "source": "Yahoo Finance public chart data",
+      "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d",
+      "fetchedAt": "2026-05-31T21:55:16.773Z",
+      "latestDate": "2026-05-26",
+      "price": 730.280029296875,
+      "change": 12.74005126953125,
+      "percentChange": 1.7755179724697872,
+      "whyItMoved": "QQQ mostly tracked large-cap growth sentiment; no cleaner tech-wide catalyst cleared the tape than the stories already in the brief."
+    },
+    {
+      "id": "IWM",
+      "symbol": "IWM",
+      "name": "Russell 2000",
+      "source": "Yahoo Finance public chart data",
+      "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d",
+      "fetchedAt": "2026-05-31T21:55:16.871Z",
+      "latestDate": "2026-05-26",
+      "price": 290.510009765625,
+      "change": 5.3900146484375,
+      "percentChange": 1.890437268779464,
+      "whyItMoved": "Small caps stay more sensitive to financing and refinancing conditions, so IWM is reading through the rate backdrop and the credit-window discussion faster than mega-cap tech."
+    },
+    {
+      "id": "GLD",
+      "symbol": "GLD",
+      "name": "Gold",
+      "source": "Yahoo Finance public chart data",
+      "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d",
+      "fetchedAt": "2026-05-31T21:55:16.953Z",
+      "latestDate": "2026-05-26",
+      "price": 414,
+      "change": 0.17999267578125,
+      "percentChange": 0.043495402009461025,
+      "whyItMoved": "Gold is trading against the same inflation-and-Fed uncertainty in the macro tab: sticky inflation can support defensive demand, but higher real rates can lean the other way."
+    },
+    {
+      "id": "DCOILWTICO",
+      "symbol": "WTI",
+      "name": "Oil",
+      "source": "FRED / U.S. EIA",
+      "sourceUrl": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "fetchedAt": "2026-05-31T21:55:16.109Z",
+      "latestDate": "2026-05-26",
+      "price": 97.63,
+      "change": -2.719999999999999,
+      "percentChange": -2.7105132037867454,
+      "whyItMoved": "Oil is mostly reading through growth and inflation expectations here. No separate energy headline cleared the brief, so treat this as macro context rather than an oil thesis."
+    }
+  ],
+  "deepDive": {
+    "id": "hist-2026-05-26-private-credit",
+    "title": "Private credit still looks open, but sponsors do not get a free pass",
+    "editorialLane": "private_markets",
+    "editorialLaneLabel": "Private Markets",
+    "privateMarketSegment": "private_credit",
+    "sourceTrail": [
+      {
+        "source": "Blue Owl Capital",
+        "url": "https://ir.blueowl.com/",
+        "publishedAt": "2026-05-26T11:15:00-04:00",
+        "fetchedAt": "2026-05-31T21:55:15.452Z"
+      }
+    ],
+    "freshnessStatus": "FRESH",
+    "confidence": "Medium",
+    "summary": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math. The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+    "whatHappened": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math.",
+    "whatMoved": "The read was about financing availability. Direct lenders still mattered, but the market was paying close attention to price, credit quality, and selectivity.",
+    "whyItMoved": "Private credit had become too important to ignore in sponsor finance. If lenders were available but cautious, buyers could still transact, just on more demanding terms.",
+    "valuationImpact": "An open private-credit market can keep deal activity alive, but higher spreads and tighter covenants still push down what buyers can pay.",
+    "financingImplication": "The practical question for bankers was whether direct lenders were merely present or actually willing to finance deals at leverage levels sponsors wanted.",
+    "sectorReadThrough": "The strongest read-through was for middle-market buyouts, dividend recaps, and refinancing candidates that relied on private debt rather than syndicated markets.",
+    "parallel": {
+      "precedent": "The post-2022 period when direct lenders became more important as syndicated markets grew less predictable.",
+      "outcome": "Transactions still happened, but sponsor returns depended more heavily on pricing discipline and realistic leverage.",
+      "whatRhymes": "That same tradeoff still applied: available debt helps, but expensive debt changes the return profile.",
+      "whatDiffers": "This was still a broad financing read rather than a clean deal-specific proof point.",
+      "soWhat": "Treat private-credit openness as a support, not a license to ignore debt cost and downside underwriting.",
+      "sourceTrail": [
+        {
+          "source": "Blue Owl Investor Relations",
+          "url": "https://ir.blueowl.com/"
+        },
+        {
+          "source": "FRED",
+          "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+        }
+      ]
+    },
+    "watchNext": "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks.",
+    "longform": {
+      "sections": [
+        {
+          "id": "takeaway",
+          "heading": "Plain-English takeaway",
+          "body": "Private credit had become too important to ignore in sponsor finance. If lenders were available but cautious, buyers could still transact, just on more demanding terms. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+        },
+        {
+          "id": "signal",
+          "heading": "What the public signal is actually telling us",
+          "body": "Public alternative-manager commentary kept private credit in focus as a financing backstop, even though higher debt costs still forced discipline on sponsor math. Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+        },
+        {
+          "id": "interpretation",
+          "heading": "How to interpret the financing signal",
+          "body": "An open private-credit market can keep deal activity alive, but higher spreads and tighter covenants still push down what buyers can pay. The practical question for bankers was whether direct lenders were merely present or actually willing to finance deals at leverage levels sponsors wanted. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+        },
+        {
+          "id": "evidence",
+          "heading": "Where the evidence is strong versus indirect",
+          "body": "The strongest read-through was for middle-market buyouts, dividend recaps, and refinancing candidates that relied on private debt rather than syndicated markets. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+        },
+        {
+          "id": "parallel",
+          "heading": "Relevant comparison",
+          "body": "A useful parallel is The post-2022 period when direct lenders became more important as syndicated markets grew less predictable. In that earlier setup, transactions still happened, but sponsor returns depended more heavily on pricing discipline and realistic leverage. What rhymes is that same tradeoff still applied: available debt helps, but expensive debt changes the return profile. What is different this time is this was still a broad financing read rather than a clean deal-specific proof point. The bottom line is treat private-credit openness as a support, not a license to ignore debt cost and downside underwriting."
+        },
+        {
+          "id": "watch-next",
+          "heading": "What would confirm or weaken the read",
+          "body": "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+        }
+      ]
+    },
+    "visual": null,
+    "relatedLinks": [
+      {
+        "label": "Blue Owl Investor Relations",
+        "url": "https://ir.blueowl.com/",
+        "type": "Company"
+      },
+      {
+        "label": "FRED High Yield Spread",
+        "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+        "type": "Data"
+      }
+    ],
+    "storyline": null,
+    "concepts": [
+      "debt",
+      "credit",
+      "private credit",
+      "sponsor",
+      "private credit"
+    ]
+  },
+  "continuingStories": [],
+  "themePulse": [
+    {
+      "id": "rates-cost-of-capital",
+      "name": "Rates and Cost of Capital",
+      "freshItems": 1,
+      "openQuestions": [
+        "Are long-end yields changing valuation math more than equity headlines imply?",
+        "Does the rate setup support or constrain sponsor-backed deal activity?"
+      ]
+    },
+    {
+      "id": "deal-financing-window",
+      "name": "Deal Financing Window",
+      "freshItems": 1,
+      "openQuestions": [
+        "Are public-market conditions improving enough to reopen issuance?",
+        "Are activists forcing clearer deal math and capital allocation discipline?"
+      ]
+    },
+    {
+      "id": "private-markets-exit-window",
+      "name": "Private Markets Exit Window",
+      "freshItems": 1,
+      "openQuestions": [
+        "Are public markets and credit conditions good enough for sponsors to exit assets?",
+        "Are private companies raising capital from strength or because public exits remain closed?"
+      ]
+    }
+  ],
+  "watchNext": [
+    "Watch spread direction, lender commentary, non-accruals, and whether new sponsor financings are getting done without wider equity checks.",
+    "Watch the next inflation release, the reaction in front-end yields, and whether long-end rates stay sticky."
+  ],
+  "sourceFailures": [],
+  "visualDataFailures": [],
+  "calendarFailures": [],
+  "review": {
+    "status": "APPROVED",
+    "reviewedAt": "2026-05-31T21:55:18.839Z",
+    "blockerCount": 0,
+    "warningCount": 0
+  }
+}

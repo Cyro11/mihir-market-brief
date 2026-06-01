@@ -1,0 +1,110 @@
+{
+  "runDate": "2026-05-28",
+  "fetchedAt": "2026-05-31T21:55:24.257Z",
+  "sourceCount": 2,
+  "failures": [],
+  "items": [
+    {
+      "id": "hist-2026-05-28-dell",
+      "source": "Dell investor relations",
+      "sourceType": "company",
+      "title": "Dell AI server demand starts to matter for the infrastructure trade",
+      "url": "https://investors.delltechnologies.com/",
+      "publishedAt": "2026-05-28T09:00:00-04:00",
+      "summary": "Investors were watching whether Dell could turn early AI server demand into real backlog, revenue, and margin proof, making the infrastructure story feel more concrete than a simple chip trade.",
+      "facts": [
+        "Dell was increasingly part of the AI infrastructure conversation.",
+        "Investors wanted proof that AI demand would convert into backlog and revenue rather than stay thematic.",
+        "Supplier economics still mattered more than simple proximity to AI spending."
+      ],
+      "tickers": [
+        "DELL",
+        "NVDA"
+      ],
+      "topics": [
+        "companies",
+        "ai",
+        "capex",
+        "markets"
+      ],
+      "relatedLinks": [
+        {
+          "label": "Dell Investor Relations",
+          "url": "https://investors.delltechnologies.com/",
+          "type": "Company"
+        }
+      ],
+      "analysis": {
+        "whatMoved": "The story was still mostly about whether AI demand would broaden from GPUs into systems and physical infrastructure suppliers.",
+        "whyItMoved": "The market had started to believe that AI spending would not stop at chips, but it still needed company-specific proof before giving every supplier lasting credit.",
+        "valuationImpact": "Dell needed evidence that AI infrastructure demand could support a better growth narrative and not just a temporary excitement premium.",
+        "financingImplication": "A broader AI infrastructure cycle could support financing and M&A around data centers, power, and hardware suppliers, but only if the economics proved durable.",
+        "sectorReadThrough": "The read-through was positive but still early for server, networking, and infrastructure suppliers that had not yet shown hard conversion metrics.",
+        "parallel": {
+          "precedent": "The earlier cloud buildout around Amazon AWS, Microsoft Azure, and Google Cloud.",
+          "outcome": "Suppliers earned more durable credit when demand translated into margin, backlog, or sticky customers rather than only adjacency to a theme.",
+          "whatRhymes": "AI demand could spread into the physical infrastructure stack in the same way cloud demand once spread into the supplier base behind it.",
+          "whatDiffers": "Dell still needed company-specific proof before the market could treat it like a real second-wave winner.",
+          "soWhat": "Watch revenue conversion and margin quality before assuming the broader infrastructure trade deserves a rerating.",
+          "sourceTrail": [
+            {
+              "source": "Dell investor relations",
+              "url": "https://investors.delltechnologies.com/"
+            }
+          ]
+        },
+        "watchNext": "Watch AI server revenue, backlog, gross margin, and any signs that customer demand is becoming repeatable."
+      },
+      "fetchedAt": "2026-05-31T21:55:24.257Z"
+    },
+    {
+      "id": "hist-2026-05-28-rates",
+      "source": "FRED",
+      "sourceType": "official",
+      "title": "Markets wait for the next inflation read",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "publishedAt": "2026-05-28T09:00:00-04:00",
+      "summary": "Rates stayed central to valuation and financing discussions ahead of the next inflation release, leaving investors cautious about assuming an easier backdrop too early.",
+      "facts": [
+        "Rates remained a live input into valuation and financing math.",
+        "The market was waiting for the next inflation datapoint rather than reacting to a fresh macro release.",
+        "Long-duration assets and leveraged situations remained sensitive to rate assumptions."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "rates",
+        "inflation"
+      ],
+      "relatedLinks": [
+        {
+          "label": "FRED 10-Year Treasury Yield",
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "type": "Data"
+        }
+      ],
+      "analysis": {
+        "whatMoved": "The market was waiting for data rather than reacting to a new inflation print, which meant the underlying rate backdrop still did most of the work.",
+        "whyItMoved": "Long-term rates still mattered for DCFs, LBOs, and refinancing risk, so investors had little reason to relax before the next official inflation release arrived.",
+        "valuationImpact": "Higher rates made long-duration cash flows harder to value and left less room for investors to underwrite aggressive multiple assumptions.",
+        "financingImplication": "Borrowers had less room for aggressive leverage assumptions because debt costs and refinance risk still required a conservative base case.",
+        "sectorReadThrough": "Rate-sensitive sectors could still respond to company news, but the broader backdrop remained less forgiving beneath the surface.",
+        "parallel": {
+          "precedent": "Past inflation scares where stocks held up even as financing conditions tightened beneath the surface.",
+          "outcome": "Valuation and leverage became less forgiving as rates stayed elevated, even when the headline equity tape looked stable.",
+          "whatRhymes": "Rates still flowed directly into valuation and deal math, whether or not the stock market was reacting dramatically on the day.",
+          "whatDiffers": "The next data point had not arrived yet, so the read was one of caution rather than conviction.",
+          "soWhat": "Wait for the inflation print before changing the macro view too aggressively.",
+          "sourceTrail": [
+            {
+              "source": "FRED",
+              "url": "https://fred.stlouisfed.org/series/DGS10"
+            }
+          ]
+        },
+        "watchNext": "Watch the next official inflation release, the front-end rate reaction, and whether long-end yields stay high."
+      },
+      "fetchedAt": "2026-05-31T21:55:24.257Z"
+    }
+  ]
+}

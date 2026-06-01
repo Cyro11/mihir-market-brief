@@ -1,0 +1,53 @@
+name: Daily Market Brief
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron is UTC. These two entries cover 9:35 AM New York time
+    # during daylight saving and standard time; the guard step below skips
+    # the off-season duplicate.
+    - cron: "35 13 * * 1-5"
+    - cron: "35 14 * * 1-5"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Check market-open schedule
+        id: market-open
+        run: node scripts/should-run-market-open.js >> "$GITHUB_OUTPUT"
+      - run: npm ci
+        if: steps.market-open.outputs.should_run == 'true'
+      - run: npm test
+        if: steps.market-open.outputs.should_run == 'true'
+      - run: npm run daily
+        if: steps.market-open.outputs.should_run == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+      - run: npm run build
+        if: steps.market-open.outputs.should_run == 'true'
+      - name: Commit generated edition
+        if: steps.market-open.outputs.should_run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data index.html moves.html macro.html markets.html deals.html private-markets.html deep-dive.html themes.html sources.html archive.html notes.html issues
+          git diff --cached --quiet || git commit -m "Generate daily market brief"
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.market-open.outputs.should_run == 'true'
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        if: steps.market-open.outputs.should_run == 'true'

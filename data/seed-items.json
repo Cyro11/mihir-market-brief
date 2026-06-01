@@ -1,0 +1,280 @@
+[
+  {
+    "id": "seed-bea-pce",
+    "source": "BEA",
+    "sourceType": "official",
+    "title": "Personal Income and Outlays, April 2026",
+    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
+    "publishedAt": "2026-05-29T08:30:00-04:00",
+    "summary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year.",
+    "facts": ["PCE rose 0.4% month over month and 3.8% year over year.", "Core PCE rose 0.2% month over month and 3.3% year over year.", "PCE is a key Fed inflation gauge."],
+    "tickers": [],
+    "topics": ["macro", "rates", "inflation"],
+    "relatedLinks": [
+      {
+        "label": "FRED 10-Year Treasury Yield",
+        "url": "https://fred.stlouisfed.org/series/DGS10",
+        "type": "Data"
+      },
+      {
+        "label": "FRED Fed Funds Effective Rate",
+        "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+        "type": "Data"
+      },
+      {
+        "label": "BEA Personal Income and Outlays Releases",
+        "url": "https://www.bea.gov/news/current-releases",
+        "type": "Official"
+      }
+    ],
+    "analysis": {
+      "whatMoved": "The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
+      "whyItMoved": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.",
+      "valuationImpact": "Higher rates make future cash flows worth less today. That matters most for companies whose value depends heavily on growth years out.",
+      "financingImplication": "Deals funded with debt become harder to underwrite. Buyers may need to use less debt, pay a lower price, or accept thinner returns.",
+      "sectorReadThrough": "Growth stocks can still work if earnings are strong, but companies with leverage or refinancing needs have less room for mistakes.",
+      "parallel": {
+        "precedent": "Past inflation scares where the stock market held up for a while, even as higher rates made deal math harder.",
+        "outcome": "The market could look calm on the surface, but valuations and debt capacity became less forgiving as rates stayed elevated.",
+        "whatRhymes": "That is the risk here: stocks can look fine while the math behind DCFs, LBOs, and refinancing gets tougher.",
+        "whatDiffers": "This report was mixed. The core monthly number was not as hot, so the rate story depends on whether the next few data points confirm or cool the inflation concern.",
+        "soWhat": "Do not treat a strong equity tape as proof that deal conditions are easy. Check rate sensitivity separately.",
+        "sourceTrail": [
+          {
+            "source": "BEA",
+            "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026"
+          },
+          {
+            "source": "FRED",
+            "url": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      "watchNext": "Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high."
+    }
+  },
+  {
+    "id": "seed-dell-ai-servers",
+    "source": "CNBC",
+    "sourceType": "reputable",
+    "title": "Dell stock jumps as AI server revenue surges",
+    "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+    "publishedAt": "2026-05-29T09:15:00-04:00",
+    "summary": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand.",
+    "facts": ["Dell AI server revenue rose 757% year over year to $16.1 billion, per CNBC.", "Dell shares rose sharply after earnings."],
+    "tickers": ["DELL", "NVDA"],
+    "topics": ["companies", "ai", "capex", "markets"],
+    "relatedLinks": [
+      {
+        "label": "Dell Investor Relations",
+        "url": "https://investors.delltechnologies.com/",
+        "type": "Company"
+      },
+      {
+        "label": "Nvidia Investor Relations",
+        "url": "https://investor.nvidia.com/",
+        "type": "Company"
+      },
+      {
+        "label": "Arista Networks Investor Relations",
+        "url": "https://investors.arista.com/",
+        "type": "Company"
+      },
+      {
+        "label": "Equinix Investor Relations",
+        "url": "https://investor.equinix.com/",
+        "type": "Company"
+      }
+    ],
+    "analysis": {
+      "whatMoved": "Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending.",
+      "whyItMoved": "The 757% AI-server revenue growth gave investors a concrete number showing that AI spending is reaching servers, memory, networking, and enterprise systems.",
+      "valuationImpact": "If this demand repeats, Dell may deserve a better growth story. If the business is lower-margin or mostly one-time backlog, the stock should get less credit.",
+      "financingImplication": "This supports more financing and deal activity around data centers, power, memory, networking, and AI infrastructure suppliers.",
+      "sectorReadThrough": "The AI trade is moving beyond chips. The next question is which suppliers turn demand into durable revenue and margin.",
+      "parallel": {
+        "precedent": "The earlier cloud buildout around Amazon AWS, Microsoft Azure, and Google Cloud. After those platforms became the obvious winners, investors looked at suppliers such as Arista Networks, Broadcom, Nvidia, and data-center REITs like Equinix and Digital Realty.",
+        "outcome": "The strongest supplier stories were the ones with real pricing power, backlog, margin, or long customer relationships. Arista and Nvidia earned more durable credit when cloud demand translated into differentiated networking or compute growth; more commodity hardware suppliers often got less lasting multiple expansion.",
+        "whatRhymes": "Dell's AI server growth looks like a similar second wave. Nvidia is still the first-order AI winner, but demand is spreading into systems, networking, storage, power, and data-center capacity.",
+        "whatDiffers": "Dell is not Nvidia or Arista. It still has to prove that AI servers carry attractive margins and are not mostly pass-through revenue tied to expensive components.",
+        "soWhat": "The past supports the idea that AI demand can broaden beyond the first winner. But Dell needs to prove supplier economics, not just supplier exposure.",
+        "sourceTrail": [
+          {
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html"
+          },
+          {
+            "source": "Amazon 2017 Annual Report",
+            "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AMZN_2017.pdf"
+          },
+          {
+            "source": "Dell Investor Relations",
+            "url": "https://investors.delltechnologies.com/"
+          }
+        ]
+      },
+      "watchNext": "Watch Dell's AI backlog, gross margin, memory supply, and whether large cloud customers keep raising capex plans."
+    }
+  },
+  {
+    "id": "seed-mccormick-activist",
+    "source": "Reuters",
+    "sourceType": "reputable",
+    "title": "Toms Capital builds McCormick stake amid Unilever Foods deal",
+    "url": "https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/",
+    "publishedAt": "2026-05-29T10:45:00-04:00",
+    "summary": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business.",
+    "facts": ["Reuters reported Toms Capital built a significant McCormick stake.", "McCormick previously announced a planned combination with Unilever's foods business.", "The deal adds strategic scale, approval timing, regulatory risk, and shareholder scrutiny."],
+    "tickers": ["MKC"],
+    "topics": ["deals", "companies", "consumer"],
+    "relatedLinks": [
+      {
+        "label": "McCormick Transaction Release",
+        "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent",
+        "type": "Company"
+      },
+      {
+        "label": "McCormick Investor Relations",
+        "url": "https://ir.mccormick.com/",
+        "type": "Company"
+      },
+      {
+        "label": "Unilever Investor Relations",
+        "url": "https://www.unilever.com/investors/",
+        "type": "Company"
+      }
+    ],
+    "analysis": {
+      "whatMoved": "The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity.",
+      "whyItMoved": "Activist pressure can force management to defend the deal more clearly: the synergy case, timing, leverage, and why this is better than other uses of capital.",
+      "valuationImpact": "The market will ask whether the deal creates enough value to offset integration risk, dilution, and a long closing process.",
+      "financingImplication": "Bankers would focus on approvals, leverage, refinancing needs, and whether activist demands could change the capital plan.",
+      "sectorReadThrough": "Staples deals can make sense when scale protects margins, but investors may push back if the deal looks too complex or slow.",
+      "parallel": {
+        "precedent": "Activist pressure around pending strategic deals, where a shareholder uses the deal window to challenge timing, synergies, governance, or capital allocation.",
+        "outcome": "Past campaigns often forced companies to give more detail, sharpen synergy targets, promise clearer capital returns, or explain why the deal beats other options.",
+        "whatRhymes": "McCormick now has to defend both the strategic logic and the execution path: approvals, timing, value creation, and shareholder returns.",
+        "whatDiffers": "The activist ask is not clear yet. Without a public demand letter or confirmed stake size, this is a risk overlay rather than a full campaign.",
+        "soWhat": "Treat this as a deal-risk story until the activist's goals are clearer. The key question is whether the expected benefits outweigh the complexity.",
+        "sourceTrail": [
+          {
+            "source": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/"
+          },
+          {
+            "source": "McCormick Investor Relations",
+            "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent"
+          }
+        ]
+      },
+      "watchNext": "Watch Toms Capital's asks, shareholder reaction, regulatory milestones, synergy details, and any change in deal timing."
+    }
+  },
+  {
+    "id": "seed-private-equity-kkr-healthium",
+    "source": "KKR",
+    "sourceType": "company",
+    "title": "KKR signs Healthium acquisition as sponsor deal activity tests the exit window",
+    "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
+    "publishedAt": "2026-05-29T10:05:00-04:00",
+    "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read.",
+    "facts": [
+      "KKR announced an agreement to acquire Healthium Medtech.",
+      "The transaction is a sponsor-backed private-equity deal.",
+      "Sponsor deal activity is a useful public signal for financing appetite, exit timing, and private-market valuation confidence."
+    ],
+    "tickers": ["KKR"],
+    "topics": ["private_markets", "private_equity", "deals", "companies"],
+    "relatedLinks": [
+      {
+        "label": "KKR Healthium Announcement",
+        "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
+        "type": "Company"
+      },
+      {
+        "label": "KKR Investor Relations",
+        "url": "https://ir.kkr.com/",
+        "type": "Company"
+      }
+    ],
+    "analysis": {
+      "whatMoved": "The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
+      "whyItMoved": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough.",
+      "valuationImpact": "The valuation read depends on whether strategic scarcity and growth justify sponsor pricing after higher financing costs. A good asset can still clear; weaker assets may not.",
+      "financingImplication": "For bankers, the key questions are debt capacity, required equity check, lender appetite, and whether the sponsor can underwrite a realistic exit multiple.",
+      "sectorReadThrough": "This matters for private healthcare and medtech assets because sponsor demand can support auction confidence when public comps are stable.",
+      "parallel": {
+        "precedent": "Sponsor healthcare platform deals in prior tighter-rate periods, where firms still bought defensive growth assets but became more selective on leverage and entry price.",
+        "outcome": "High-quality assets continued to trade, while marginal assets needed price resets, seller rollover, or delayed processes.",
+        "whatRhymes": "The same filter applies here: private equity is open for specific assets, but not every process deserves the same multiple.",
+        "whatDiffers": "This is one sponsor announcement, so it should not be read as a full reopening of the buyout market without more deal volume and financing evidence.",
+        "soWhat": "Use the deal as proof of selective sponsor activity, then test whether financing terms and exits can support the price.",
+        "sourceTrail": [
+          {
+            "source": "KKR",
+            "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech"
+          }
+        ]
+      },
+      "watchNext": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes."
+    }
+  },
+  {
+    "id": "seed-private-credit-ipo-window",
+    "source": "Blue Owl Capital",
+    "sourceType": "company",
+    "title": "Blue Owl direct-lending earnings keep private credit in focus",
+    "url": "https://ir.blueowl.com/",
+    "publishedAt": "2026-05-29T11:30:00-04:00",
+    "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity.",
+    "facts": [
+      "Blue Owl is a publicly traded alternative asset manager with direct-lending exposure.",
+      "Public private-credit managers provide observable signals for private-debt fundraising, deployment, and credit quality.",
+      "Private credit conditions matter because sponsors often rely on direct lenders for buyout financing and refinancings."
+    ],
+    "tickers": ["OWL", "ARCC", "BXSL"],
+    "topics": ["private_markets", "private_credit", "credit", "markets", "companies"],
+    "relatedLinks": [
+      {
+        "label": "Blue Owl Investor Relations",
+        "url": "https://ir.blueowl.com/",
+        "type": "Company"
+      },
+      {
+        "label": "Ares Capital Investor Relations",
+        "url": "https://www.arescapitalcorp.com/",
+        "type": "Company"
+      },
+      {
+        "label": "FRED High Yield Spread",
+        "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+        "type": "Data"
+      }
+    ],
+    "analysis": {
+      "whatMoved": "The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
+      "whyItMoved": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite.",
+      "valuationImpact": "If private credit remains open, sponsors can support more transaction volume. If spreads widen or credit losses rise, equity checks get larger and entry valuations need to fall.",
+      "financingImplication": "Bankers should watch direct-lending yields, non-accruals, repayment activity, and sponsor-backed originations because those determine whether private credit is helping or constraining deals.",
+      "sectorReadThrough": "The read-through is strongest for sponsor-backed middle-market companies and dividend recap/refinancing candidates.",
+      "parallel": {
+        "precedent": "The post-2022 shift toward private credit, when sponsors used direct lenders more often as syndicated loan markets became less predictable.",
+        "outcome": "Private credit helped deals close, but higher coupons and tighter covenants made sponsor math more demanding.",
+        "whatRhymes": "The same tradeoff matters now: available private debt can keep deal activity alive, but it does not make leverage cheap.",
+        "whatDiffers": "Public manager results are proxies, not a complete view of private credit. The read should be confirmed with spreads, originations, and credit performance.",
+        "soWhat": "Use private-credit manager data to judge financing capacity, but still underwrite downside cases and refinancing risk separately.",
+        "sourceTrail": [
+          {
+            "source": "Blue Owl Investor Relations",
+            "url": "https://ir.blueowl.com/"
+          },
+          {
+            "source": "FRED",
+            "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+          }
+        ]
+      },
+      "watchNext": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction."
+    }
+  }
+]

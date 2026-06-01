@@ -1,0 +1,847 @@
+{
+  "runDate": "2026-05-30",
+  "generatedAt": "2026-05-30T02:58:36.638Z",
+  "window": "Latest fetched source set; main tape excludes weak or unsupported items.",
+  "candidates": [
+    {
+      "id": "bea-news-skip-to-main-content-an-official-website-of-the-united-states-government-toggle-",
+      "source": "BEA",
+      "sourceType": "official",
+      "title": "Skip to main content An official website of the United States government Toggle navigation Main navigation Data by Topic by Place by Economic Account Tools Interactive Data Application Programming Interface (API) Country Facts BEARFACTS Industry Facts Global Value Chain Analyzer GDP &amp; Personal Income Mapping RIMS II eFile News Economy at a Glance News Releases Release Schedule The BEA Wire | BEA&#039;s Official Blog Survey of Current Business Archive For Journalists Research Offices of Research Meet the Researchers Papers Special Sworn Researcher Program Research Using Company-Level Data Fellowship Program Resources Learning Center Methodologies Multimedia Article Collections For Congressional Users For Developers For Students About Who We Are BEA Leadership Innovation at BEA Advisory Committees Budget and Performance Policies and Information Working at BEA Help Contact Us Ask an Expert For Survey Respondents Frequently Asked Questions (FAQ) Glossary Guidelines for Citing BEA // Home News Releases Releases Release Published Personal Income and Outlays, April 2026",
+      "url": "https://www.bea.gov/news/current-releases#main-content",
+      "publishedAt": "2026-05-28T12:30:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.584Z",
+      "summary": "Skip to main content An official website of the United States government Toggle navigation Main navigation Data by Topic by Place by Economic Account Tools Interactive Data Application Programming Interface (API) Country Facts BEARFACTS Industry Facts Global Value Chain Analyzer GDP &amp; Personal Income Mapping RIMS II eFile News Economy at a Glance News Releases Release Schedule The BEA Wire | BEA&#039;s Official Blog Survey of Current Business Archive For Journalists Research Offices of Research Meet the Researchers Papers Special Sworn Researcher Program Research Using Company-Level Data Fellowship Program Resources Learning Center Methodologies Multimedia Article Collections For Congressional Users For Developers For Students About Who We Are BEA Leadership Innovation at BEA Advisory Committees Budget and Performance Policies and Information Working at BEA Help Contact Us Ask an Expert For Survey Respondents Frequently Asked Questions (FAQ) Glossary Guidelines for Citing BEA // Home News Releases Releases Release Published Personal Income and Outlays, April 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
+      "facts": [
+        "BEA official release: Skip to main content An official website of the United States government Toggle navigation Main navigation Data by Topic by Place by Economic Account Tools Interactive Data Application Programming Interface (API) Country Facts BEARFACTS Industry Facts Global Value Chain Analyzer GDP &amp; Personal Income Mapping RIMS II eFile News Economy at a Glance News Releases Release Schedule The BEA Wire | BEA&#039;s Official Blog Survey of Current Business Archive For Journalists Research Offices of Research Meet the Researchers Papers Special Sworn Researcher Program Research Using Company-Level Data Fellowship Program Resources Learning Center Methodologies Multimedia Article Collections For Congressional Users For Developers For Students About Who We Are BEA Leadership Innovation at BEA Advisory Committees Budget and Performance Policies and Information Working at BEA Help Contact Us Ask an Expert For Survey Respondents Frequently Asked Questions (FAQ) Glossary Guidelines for Citing BEA // Home News Releases Releases Release Published Personal Income and Outlays, April 2026."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "inflation"
+      ],
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        },
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "total": 33
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "bea-news-gdp-second-estimate-and-corporate-profits-1st-quarter-2026",
+      "source": "BEA",
+      "sourceType": "official",
+      "title": "GDP (Second Estimate) and Corporate Profits, 1st Quarter 2026",
+      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026",
+      "publishedAt": "2026-05-28T12:30:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.584Z",
+      "summary": "GDP (Second Estimate) and Corporate Profits, 1st Quarter 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
+      "facts": [
+        "BEA official release: GDP (Second Estimate) and Corporate Profits, 1st Quarter 2026."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "inflation"
+      ],
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 30
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "bea-news-u-s-international-trade-in-goods-and-services-march-2026",
+      "source": "BEA",
+      "sourceType": "official",
+      "title": "U.S. International Trade in Goods and Services, March 2026",
+      "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-march-2026",
+      "publishedAt": "2026-05-05T12:30:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.584Z",
+      "summary": "U.S. International Trade in Goods and Services, March 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
+      "facts": [
+        "BEA official release: U.S. International Trade in Goods and Services, March 2026."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "inflation"
+      ],
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 30
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "bea-news-u-s-international-transactions-and-investment-position-4th-quarter-and-year-2025",
+      "source": "BEA",
+      "sourceType": "official",
+      "title": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
+      "url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
+      "publishedAt": "2026-03-25T12:30:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.584Z",
+      "summary": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025. BEA official economic release with potential macro, rate, valuation, and sector implications.",
+      "facts": [
+        "BEA official release: U.S. International Transactions and Investment Position, 4th Quarter and Year 2025."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "inflation"
+      ],
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 30
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "bea-news-real-personal-consumption-expenditures-by-state-and-real-personal-income-by-stat",
+      "source": "BEA",
+      "sourceType": "official",
+      "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
+      "url": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024",
+      "publishedAt": "2026-02-19T12:30:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.584Z",
+      "summary": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
+      "facts": [
+        "BEA official release: Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "inflation"
+      ],
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 30
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "bea-news-gross-domestic-product-by-county-and-personal-income-by-county-2024",
+      "source": "BEA",
+      "sourceType": "official",
+      "title": "Gross Domestic Product by County and Personal Income by County, 2024",
+      "url": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024",
+      "publishedAt": "2026-02-05T12:30:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.584Z",
+      "summary": "Gross Domestic Product by County and Personal Income by County, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
+      "facts": [
+        "BEA official release: Gross Domestic Product by County and Personal Income by County, 2024."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "inflation"
+      ],
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 30
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "bea-news-direct-investment-by-country-and-industry-2024",
+      "source": "BEA",
+      "sourceType": "official",
+      "title": "Direct Investment by Country and Industry, 2024",
+      "url": "https://www.bea.gov/news/2025/direct-investment-country-and-industry-2024",
+      "publishedAt": "2025-07-22T12:30:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.584Z",
+      "summary": "Direct Investment by Country and Industry, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
+      "facts": [
+        "BEA official release: Direct Investment by Country and Industry, 2024."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "inflation"
+      ],
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 30
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-214915a8",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
+      "publishedAt": "2026-05-29T14:50:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission today proposed the rescission of overly burdensome and costly rules that require companies to provide certain climate-related information in their registration statements and annual reports. The Commission’s…",
+      "facts": [
+        "The Securities and Exchange Commission today proposed the rescission of overly burdensome and costly rules that require companies to provide certain climate-related information in their registration statements and annual reports. The Commission’s…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-4049fa3b",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC Investor Advisory Committee to Host June 4 Meeting",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting",
+      "publishedAt": "2026-05-27T14:59:13.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission’s&amp;nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…",
+      "facts": [
+        "The Securities and Exchange Commission’s&amp;nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-eb3b59fb",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC and NFA Announce Memorandum of Understanding to Further Harmonize Regulatory Coordination",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-47-sec-nfa-announce-memorandum-understanding-further-harmonize-regulatory-coordination",
+      "publishedAt": "2026-05-21T12:51:10.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission and National Futures Association (NFA) today announced that they have entered into a Memorandum of Understanding (MOU) to enhance their cooperation, coordination, and information sharing in areas of common…",
+      "facts": [
+        "The Securities and Exchange Commission and National Futures Association (NFA) today announced that they have entered into a Memorandum of Understanding (MOU) to enhance their cooperation, coordination, and information sharing in areas of common…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-2b413651",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC Proposes Transformative Reforms to Help Public Companies Conduct Registered Offerings and Simplify Reporting Requirements",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-46-sec-proposes-transformative-reforms-help-public-companies-conduct-registered-offerings-simplify",
+      "publishedAt": "2026-05-19T14:55:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission today proposed amendments to its rules and forms governing registered offerings that are designed to increase efficiency, flexibility, and cost savings for public companies while maintaining robust investor…",
+      "facts": [
+        "The Securities and Exchange Commission today proposed amendments to its rules and forms governing registered offerings that are designed to increase efficiency, flexibility, and cost savings for public companies while maintaining robust investor…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-3fc2cc3",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC Rescinds Policy Regarding Denials of Settlements in Enforcement Actions",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-45-sec-rescinds-policy-regarding-denials-settlements-enforcement-actions",
+      "publishedAt": "2026-05-18T16:33:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission today rescinded a policy, codified in Rule 202.5(e) of its informal rules of procedures, stating that when it chooses to settle an enforcement action in which a sanction is imposed, it will not settle unless the…",
+      "facts": [
+        "The Securities and Exchange Commission today rescinded a policy, codified in Rule 202.5(e) of its informal rules of procedures, stating that when it chooses to settle an enforcement action in which a sanction is imposed, it will not settle unless the…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-346f3e63",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC Charges 21 Individuals With Alleged Wide-Reaching Insider Trading Scheme",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-44-sec-charges-21-individuals-alleged-wide-reaching-insider-trading-scheme",
+      "publishedAt": "2026-05-06T23:24:19.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission today charged 21 individuals for their alleged involvement in a decade-long insider trading scheme that used information misappropriated from multiple global law firms and resulted in millions of dollars in illicit…",
+      "facts": [
+        "The Securities and Exchange Commission today charged 21 individuals for their alleged involvement in a decade-long insider trading scheme that used information misappropriated from multiple global law firms and resulted in millions of dollars in illicit…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-48ee35b0",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC Divisions of Investment Management and Corporation Finance Issue Staff Guidance Supporting Retirement Plans for Small Businesses",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-43-sec-divisions-investment-management-corporation-finance-issue-staff-guidance-supporting-retirement",
+      "publishedAt": "2026-05-05T20:23:55.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "Staff in the Securities and Exchange Commission’s Divisions of Investment Management and Corporation Finance issued guidance addressing certain questions regarding the application of the federal securities laws to pooled employer plans (PEPs), which help…",
+      "facts": [
+        "Staff in the Securities and Exchange Commission’s Divisions of Investment Management and Corporation Finance issued guidance addressing certain questions regarding the application of the federal securities laws to pooled employer plans (PEPs), which help…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed"
+          ]
+        },
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "total": 38
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-9a8a4207",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC Proposes Amendments to Permit Optional Semiannual Reporting by Public Companies",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-42-sec-proposes-amendments-permit-optional-semiannual-reporting-public-companies",
+      "publishedAt": "2026-05-05T15:54:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission today proposed rule and form amendments that would give public companies the option of filing semiannual reports in lieu of quarterly reports to meet their interim reporting obligations under the federal securities…",
+      "facts": [
+        "The Securities and Exchange Commission today proposed rule and form amendments that would give public companies the option of filing semiannual reports in lieu of quarterly reports to meet their interim reporting obligations under the federal securities…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-efe9357a",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "Deputy Director of Enforcement Jason Burt to Conclude His Tenure at the SEC",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-41-deputy-director-enforcement-jason-burt-conclude-his-tenure-sec",
+      "publishedAt": "2026-04-30T20:30:36.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission today announced that Jason Burt, Deputy Director of the Division of Enforcement (Specialized Units), will depart the agency on May 1, 2026, after more than 22 years of public service.“Jason’s exceptional leadership…",
+      "facts": [
+        "The Securities and Exchange Commission today announced that Jason Burt, Deputy Director of the Division of Enforcement (Specialized Units), will depart the agency on May 1, 2026, after more than 22 years of public service.“Jason’s exceptional leadership…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-e32c5518",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC and CFTC Jointly Propose Amendments to Reduce Private Fund Reporting Burdens",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-40-sec-cftc-jointly-propose-amendments-reduce-private-fund-reporting-burdens",
+      "publishedAt": "2026-04-20T14:45:00.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission (SEC) and the Commodity Futures Trading Commission (CFTC) jointly proposed amendments to reduce private fund reporting burdens while enabling the continued collection of necessary and appropriate information. The…",
+      "facts": [
+        "The Securities and Exchange Commission (SEC) and the Commodity Futures Trading Commission (CFTC) jointly proposed amendments to reduce private fund reporting burdens while enabling the continued collection of necessary and appropriate information. The…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-cd43f346",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "Chairman Atkins Launches 'Material Matters' Podcast",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-39-chairman-atkins-launches-material-matters-podcast",
+      "publishedAt": "2026-04-16T17:02:47.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission today announced the launch of Material Matters With SEC Chairman Paul Atkins, a new podcast that provides stakeholders and the investing public with exclusive interviews and insights around the agency’s policy and…",
+      "facts": [
+        "The Securities and Exchange Commission today announced the launch of Material Matters With SEC Chairman Paul Atkins, a new podcast that provides stakeholders and the investing public with exclusive interviews and insights around the agency’s policy and…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "sec-current-events-aa03bb27",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC Small Business Advisory Committee to Explore Ways to Encourage More IPOs",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-38-sec-small-business-advisory-committee-explore-ways-encourage-more-ipos",
+      "publishedAt": "2026-04-16T15:45:04.000Z",
+      "fetchedAt": "2026-05-30T02:58:35.881Z",
+      "summary": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, April 28, 2026 at 10:00 a.m. to explore ways to encourage more companies to go public.The meeting will be open…",
+      "facts": [
+        "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, April 28, 2026 at 10:00 a.m. to explore ways to encourage more companies to go public.The meeting will be open…"
+      ],
+      "tickers": [],
+      "topics": [
+        "filings",
+        "companies",
+        "deals"
+      ],
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "ipo"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "seed-bea-pce",
+      "source": "BEA",
+      "sourceType": "official",
+      "title": "Personal Income and Outlays, April 2026",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
+      "publishedAt": "2026-05-29T08:30:00-04:00",
+      "summary": "BEA reported April personal income and outlays data, including PCE inflation measures that directly affect rate expectations and discount-rate assumptions.",
+      "facts": [
+        "PCE inflation is a key Fed inflation gauge.",
+        "Inflation surprises can move Treasury yields and valuation assumptions."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "rates",
+        "inflation"
+      ],
+      "fetchedAt": "2026-05-30T02:58:36.040Z",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "rates",
+            "inflation",
+            "pce"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "seed-sec-filings",
+      "source": "SEC",
+      "sourceType": "official",
+      "title": "SEC EDGAR latest company filings",
+      "url": "https://www.sec.gov/edgar/search/",
+      "publishedAt": "2026-05-29T09:00:00-04:00",
+      "summary": "SEC filings remain the primary source for company-specific facts, deal documents, financing disclosures, and risk factors.",
+      "facts": [
+        "Company filings are primary evidence for deal terms, risk factors, and capital structure."
+      ],
+      "tickers": [],
+      "topics": [
+        "companies",
+        "deals",
+        "filings"
+      ],
+      "fetchedAt": "2026-05-30T02:58:36.040Z",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "seed-fed-rates",
+      "source": "Federal Reserve",
+      "sourceType": "official",
+      "title": "Federal Reserve official releases and speeches",
+      "url": "https://www.federalreserve.gov/newsevents.htm",
+      "publishedAt": "2026-05-29T10:00:00-04:00",
+      "summary": "Federal Reserve releases and speeches provide source context for policy expectations, rates, and bank-sector read-throughs.",
+      "facts": [
+        "Fed communication can change the expected policy path and long-end rate assumptions."
+      ],
+      "tickers": [],
+      "topics": [
+        "fed",
+        "rates",
+        "macro"
+      ],
+      "fetchedAt": "2026-05-30T02:58:36.040Z",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed",
+            "rates"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 14,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    }
+  ]
+}

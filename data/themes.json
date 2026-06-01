@@ -1,0 +1,52 @@
+[
+  {
+    "id": "rates-cost-of-capital",
+    "name": "Rates and Cost of Capital",
+    "keywords": ["fed", "rates", "treasury", "yield", "inflation", "pce", "cpi", "wacc"],
+    "concepts": ["WACC", "DCF", "LBO debt capacity", "refinancing risk"],
+    "openQuestions": [
+      "Are long-end yields changing valuation math more than equity headlines imply?",
+      "Does the rate setup support or constrain sponsor-backed deal activity?"
+    ]
+  },
+  {
+    "id": "ai-infrastructure",
+    "name": "AI Infrastructure",
+    "keywords": ["ai", "data center", "semiconductor", "nvidia", "dell", "cloud", "capex", "power"],
+    "concepts": ["capex cycle", "margin mix", "infrastructure financing", "supplier read-through"],
+    "openQuestions": [
+      "Is AI demand broadening from chips into systems, power, and financing?",
+      "Which companies convert AI capex into durable revenue rather than one-time orders?"
+    ]
+  },
+  {
+    "id": "deal-financing-window",
+    "name": "Deal Financing Window",
+    "keywords": ["merger", "acquisition", "ipo", "debt", "loan", "credit", "spread", "activist", "private equity", "private credit", "sponsor"],
+    "concepts": ["M&A financing", "IPO window", "credit spreads", "accretion dilution"],
+    "openQuestions": [
+      "Are public-market conditions improving enough to reopen issuance?",
+      "Are activists forcing clearer deal math and capital allocation discipline?"
+    ]
+  },
+  {
+    "id": "private-markets-exit-window",
+    "name": "Private Markets Exit Window",
+    "keywords": ["private equity", "private credit", "private_equity", "private_credit", "venture", "vc", "ipo pipeline", "fundraising", "secondaries", "secondary", "sponsor", "buyout"],
+    "concepts": ["exit window", "sponsor liquidity", "private equity", "private credit", "secondary market", "IPO readiness"],
+    "openQuestions": [
+      "Are public markets and credit conditions good enough for sponsors to exit assets?",
+      "Are private companies raising capital from strength or because public exits remain closed?"
+    ]
+  },
+  {
+    "id": "consumer-and-staples",
+    "name": "Consumer and Staples",
+    "keywords": ["consumer", "retail", "staples", "pricing", "volume", "mccormick", "margin"],
+    "concepts": ["pricing power", "volume elasticity", "synergy risk", "multiple compression"],
+    "openQuestions": [
+      "Are companies still able to pass through cost pressure?",
+      "Do strategic deals solve growth problems or import integration risk?"
+    ]
+  }
+]

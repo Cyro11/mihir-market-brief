@@ -1,0 +1,19 @@
+{
+  "runDate": "2026-05-30",
+  "title": "Quiet Tape, Clean Sources",
+  "dek": "No source-backed item cleared the evidence bar; the system is intentionally holding the main tape quiet.",
+  "generatedAt": "2026-05-30T02:58:36.638Z",
+  "sourceRunAt": "2026-05-30T02:58:36.040Z",
+  "freshnessStatus": "LIVE",
+  "moves": [],
+  "deepDive": null,
+  "themePulse": [],
+  "watchNext": [],
+  "sourceFailures": [],
+  "review": {
+    "status": "APPROVED",
+    "reviewedAt": "2026-05-30T02:58:37.169Z",
+    "blockerCount": 0,
+    "warningCount": 1
+  }
+}

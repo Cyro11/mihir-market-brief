@@ -1,0 +1,2064 @@
+{
+  "runDate": "2026-05-27",
+  "title": "Sponsor appetite looks selective rather than shut",
+  "dek": "A selective banker-grade read of the few fresh items with enough evidence to support real analysis.",
+  "generatedAt": "2026-05-31T21:56:53.272Z",
+  "sourceRunAt": "2026-05-31T21:56:48.788Z",
+  "freshnessStatus": "FUTURE",
+  "moves": [
+    {
+      "id": "hist-2026-05-27-sponsor-selectivity",
+      "title": "Sponsor appetite looks selective rather than shut",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_equity",
+      "sourceTrail": [
+        {
+          "source": "KKR",
+          "url": "https://ir.kkr.com/",
+          "publishedAt": "2026-05-27T10:40:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price. The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
+      "whatHappened": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price.",
+      "whatMoved": "The signal was not a single blockbuster deal. It was the market's growing sense that sponsors were still active, but only where quality and exit logic were strong enough.",
+      "whyItMoved": "When financing costs are higher, buyer behavior becomes more selective. That makes each sponsor signal useful because it shows what kind of asset can still clear the bar.",
+      "valuationImpact": "Selective sponsor demand supports pricing for better assets but leaves weaker processes more exposed to resets, seller rollover, or longer holding periods.",
+      "financingImplication": "Buyers still had to solve for debt capacity, equity check size, and a believable exit path, which meant discipline mattered more than headline optimism.",
+      "sectorReadThrough": "The read-through was strongest for sponsor-owned assets preparing to sell, refinance, or test the IPO window.",
+      "parallel": {
+        "precedent": "Tighter-rate periods when firms still bought defensive growth assets but became much more selective on price and leverage.",
+        "outcome": "Good assets continued to trade, while weaker ones needed structure, delay, or valuation resets.",
+        "whatRhymes": "That same filter looked active here: the market was open for some assets, not all assets.",
+        "whatDiffers": "This was still a mood signal from public sponsor markers, not proof that the entire buyout market had reopened.",
+        "soWhat": "Use sponsor activity as evidence of selectivity, not blanket strength.",
+        "sourceTrail": [
+          {
+            "source": "KKR",
+            "url": "https://ir.kkr.com/"
+          }
+        ]
+      },
+      "watchNext": "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "When financing costs are higher, buyer behavior becomes more selective. That makes each sponsor signal useful because it shows what kind of asset can still clear the bar. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price. The signal was not a single blockbuster deal. It was the market's growing sense that sponsors were still active, but only where quality and exit logic were strong enough. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to read the sponsor or exit implication",
+            "body": "Selective sponsor demand supports pricing for better assets but leaves weaker processes more exposed to resets, seller rollover, or longer holding periods. Buyers still had to solve for debt capacity, equity check size, and a believable exit path, which meant discipline mattered more than headline optimism. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "The read-through was strongest for sponsor-owned assets preparing to sell, refinance, or test the IPO window. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Tighter-rate periods when firms still bought defensive growth assets but became much more selective on price and leverage. In that earlier setup, good assets continued to trade, while weaker ones needed structure, delay, or valuation resets. What rhymes is that same filter looked active here: the market was open for some assets, not all assets. What is different this time is this was still a mood signal from public sponsor markers, not proof that the entire buyout market had reopened. The bottom line is use sponsor activity as evidence of selectivity, not blanket strength."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Public sponsor proxies",
+        "subtitle": "Three-month public market context for large alternative-asset managers tied to sponsor sentiment.",
+        "relevanceNote": "This board belongs here because public sponsor stocks often give the cleanest available read on how the market feels about exits, fundraising, and deployment.",
+        "allowedPages": [
+          "private-markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "BX",
+            "label": "Blackstone",
+            "value": 2.3150941875961775,
+            "displayValue": 2.3150941875961775,
+            "suffix": "%",
+            "latestDate": "2026-05-27",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "id": "KKR",
+            "label": "KKR",
+            "value": 4.878046726820526,
+            "displayValue": 4.878046726820526,
+            "suffix": "%",
+            "latestDate": "2026-05-27",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+          },
+          {
+            "id": "APO",
+            "label": "Apollo Global Management",
+            "value": 22.37671019925012,
+            "displayValue": 22.37671019925012,
+            "suffix": "%",
+            "latestDate": "2026-05-27",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Blackstone",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "source": "KKR",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+          },
+          {
+            "source": "Apollo Global Management",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [
+        {
+          "label": "KKR Investor Relations",
+          "url": "https://ir.kkr.com/",
+          "type": "Company"
+        },
+        {
+          "label": "Blackstone Investor Relations",
+          "url": "https://ir.blackstone.com/",
+          "type": "Company"
+        }
+      ],
+      "storyline": null,
+      "concepts": [
+        "sponsor",
+        "private_equity",
+        "sponsor"
+      ]
+    },
+    {
+      "id": "hist-2026-05-27-ai-infra",
+      "title": "AI infrastructure demand starts to broaden beyond the first-order winners",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "Dell investor relations",
+          "url": "https://investors.delltechnologies.com/",
+          "publishedAt": "2026-05-27T09:20:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "Company commentary and investor focus suggested that the AI trade was beginning to widen from chips into systems, networking, and physical infrastructure suppliers. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Company commentary and investor focus suggested that the AI trade was beginning to widen from chips into systems, networking, and physical infrastructure suppliers.",
+      "whatMoved": "The move was thematic. The market started to ask which companies could benefit once AI spending moved beyond the most obvious chip winner.",
+      "whyItMoved": "As soon as a first-order winner becomes obvious, investors naturally look for the next layer of beneficiaries. The challenge is separating real revenue conversion from simple narrative spillover.",
+      "valuationImpact": "Potential second-wave suppliers can earn better multiples if they show backlog, pricing power, or durable customer demand. If they only offer exposure without economics, the credit does not last.",
+      "financingImplication": "A broader infrastructure cycle would support more capital spending, supplier financing, and strategic activity around physical AI buildout.",
+      "sectorReadThrough": "The read-through extended to servers, networking, data-center infrastructure, and power-heavy buildout stories rather than only semiconductors.",
+      "parallel": {
+        "precedent": "The cloud buildout period when the market first rewarded the platform owners, then started to differentiate among the suppliers behind them.",
+        "outcome": "The most durable winners were the suppliers that could turn demand into margins, backlog, and sticky customer relationships.",
+        "whatRhymes": "AI looked ready to follow that pattern, with demand potentially spreading into the broader infrastructure stack.",
+        "whatDiffers": "The proof still needed to be company-specific. Not every supplier would deserve the same rerating.",
+        "soWhat": "Watch for evidence that AI demand is becoming real revenue rather than just adjacent excitement.",
+        "sourceTrail": [
+          {
+            "source": "Dell investor relations",
+            "url": "https://investors.delltechnologies.com/"
+          }
+        ]
+      },
+      "watchNext": "Watch supplier backlog, margin commentary, cloud capex plans, and whether second-order names get hard revenue proof.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "As soon as a first-order winner becomes obvious, investors naturally look for the next layer of beneficiaries. The challenge is separating real revenue conversion from simple narrative spillover. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "Company commentary and investor focus suggested that the AI trade was beginning to widen from chips into systems, networking, and physical infrastructure suppliers. The move was thematic. The market started to ask which companies could benefit once AI spending moved beyond the most obvious chip winner. A single stock move matters when it gives the market a cleaner signal about a broader theme than the theme had before."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Potential second-wave suppliers can earn better multiples if they show backlog, pricing power, or durable customer demand. If they only offer exposure without economics, the credit does not last. The read-through extended to servers, networking, data-center infrastructure, and power-heavy buildout stories rather than only semiconductors. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "A broader infrastructure cycle would support more capital spending, supplier financing, and strategic activity around physical AI buildout. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is The cloud buildout period when the market first rewarded the platform owners, then started to differentiate among the suppliers behind them. In that earlier setup, the most durable winners were the suppliers that could turn demand into margins, backlog, and sticky customer relationships. What rhymes is ai looked ready to follow that pattern, with demand potentially spreading into the broader infrastructure stack. What is different this time is the proof still needed to be company-specific. not every supplier would deserve the same rerating. The bottom line is watch for evidence that ai demand is becoming real revenue rather than just adjacent excitement."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch supplier backlog, margin commentary, cloud capex plans, and whether second-order names get hard revenue proof. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": {
+        "type": "line-chart",
+        "title": "Stock reaction",
+        "subtitle": "Public market-data context for the company/peer move.",
+        "relevanceNote": "This chart belongs here because the core question is how the market repriced the company and its closest read-through peer.",
+        "allowedPages": [
+          "markets",
+          "deep-dive"
+        ],
+        "axisTitle": "Price",
+        "axisSuffix": "",
+        "visualSource": "Public market data",
+        "series": [
+          {
+            "id": "DELL",
+            "label": "Dell Technologies",
+            "source": "Yahoo Finance public chart data",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?range=3mo&interval=1d",
+            "yahooSymbol": "DELL",
+            "stooqSymbol": "dell.us",
+            "fetchedAt": "2026-05-31T21:56:49.917Z",
+            "observations": [
+              {
+                "date": "2026-03-02",
+                "value": 153.5500030517578
+              },
+              {
+                "date": "2026-03-03",
+                "value": 145.17999267578125
+              },
+              {
+                "date": "2026-03-04",
+                "value": 147.10000610351562
+              },
+              {
+                "date": "2026-03-05",
+                "value": 146.52000427246094
+              },
+              {
+                "date": "2026-03-06",
+                "value": 146.47999572753906
+              },
+              {
+                "date": "2026-03-09",
+                "value": 146.50999450683594
+              },
+              {
+                "date": "2026-03-10",
+                "value": 143.8000030517578
+              },
+              {
+                "date": "2026-03-11",
+                "value": 147.3699951171875
+              },
+              {
+                "date": "2026-03-12",
+                "value": 149.91000366210938
+              },
+              {
+                "date": "2026-03-13",
+                "value": 151.6199951171875
+              },
+              {
+                "date": "2026-03-16",
+                "value": 156.5399932861328
+              },
+              {
+                "date": "2026-03-17",
+                "value": 153.00999450683594
+              },
+              {
+                "date": "2026-03-18",
+                "value": 149.2100067138672
+              },
+              {
+                "date": "2026-03-19",
+                "value": 156.75999450683594
+              },
+              {
+                "date": "2026-03-20",
+                "value": 157.6699981689453
+              },
+              {
+                "date": "2026-03-23",
+                "value": 164.58999633789062
+              },
+              {
+                "date": "2026-03-24",
+                "value": 176.91000366210938
+              },
+              {
+                "date": "2026-03-25",
+                "value": 184.00999450683594
+              },
+              {
+                "date": "2026-03-26",
+                "value": 175.82000732421875
+              },
+              {
+                "date": "2026-03-27",
+                "value": 171.80999755859375
+              },
+              {
+                "date": "2026-03-30",
+                "value": 164.66000366210938
+              },
+              {
+                "date": "2026-03-31",
+                "value": 164.1300048828125
+              },
+              {
+                "date": "2026-04-01",
+                "value": 169.3800048828125
+              },
+              {
+                "date": "2026-04-02",
+                "value": 174.3699951171875
+              },
+              {
+                "date": "2026-04-06",
+                "value": 173.17999267578125
+              },
+              {
+                "date": "2026-04-07",
+                "value": 177.69000244140625
+              },
+              {
+                "date": "2026-04-08",
+                "value": 185.47000122070312
+              },
+              {
+                "date": "2026-04-09",
+                "value": 181.4600067138672
+              },
+              {
+                "date": "2026-04-10",
+                "value": 177.8000030517578
+              },
+              {
+                "date": "2026-04-13",
+                "value": 189.7899932861328
+              },
+              {
+                "date": "2026-04-14",
+                "value": 184.50999450683594
+              },
+              {
+                "date": "2026-04-15",
+                "value": 177.27999877929688
+              },
+              {
+                "date": "2026-04-16",
+                "value": 193.08999633789062
+              },
+              {
+                "date": "2026-04-17",
+                "value": 196.5500030517578
+              },
+              {
+                "date": "2026-04-20",
+                "value": 204.24000549316406
+              },
+              {
+                "date": "2026-04-21",
+                "value": 212.36000061035156
+              },
+              {
+                "date": "2026-04-22",
+                "value": 214.64999389648438
+              },
+              {
+                "date": "2026-04-23",
+                "value": 212.13999938964844
+              },
+              {
+                "date": "2026-04-24",
+                "value": 216.08999633789062
+              },
+              {
+                "date": "2026-04-27",
+                "value": 215.97000122070312
+              },
+              {
+                "date": "2026-04-28",
+                "value": 205.92999267578125
+              },
+              {
+                "date": "2026-04-29",
+                "value": 205.66000366210938
+              },
+              {
+                "date": "2026-04-30",
+                "value": 208.9499969482422
+              },
+              {
+                "date": "2026-05-01",
+                "value": 210.1699981689453
+              },
+              {
+                "date": "2026-05-04",
+                "value": 211.63999938964844
+              },
+              {
+                "date": "2026-05-05",
+                "value": 216.32000732421875
+              },
+              {
+                "date": "2026-05-06",
+                "value": 238.8000030517578
+              },
+              {
+                "date": "2026-05-07",
+                "value": 230.27000427246094
+              },
+              {
+                "date": "2026-05-08",
+                "value": 260.4599914550781
+              },
+              {
+                "date": "2026-05-11",
+                "value": 247.0399932861328
+              },
+              {
+                "date": "2026-05-12",
+                "value": 238.94000244140625
+              },
+              {
+                "date": "2026-05-13",
+                "value": 243.8699951171875
+              },
+              {
+                "date": "2026-05-14",
+                "value": 247.88999938964844
+              },
+              {
+                "date": "2026-05-15",
+                "value": 241.99000549316406
+              },
+              {
+                "date": "2026-05-18",
+                "value": 238.02999877929688
+              },
+              {
+                "date": "2026-05-19",
+                "value": 235.25999450683594
+              },
+              {
+                "date": "2026-05-20",
+                "value": 242.92999267578125
+              },
+              {
+                "date": "2026-05-21",
+                "value": 252.8000030517578
+              },
+              {
+                "date": "2026-05-22",
+                "value": 295.19000244140625
+              },
+              {
+                "date": "2026-05-26",
+                "value": 305.0799865722656
+              },
+              {
+                "date": "2026-05-27",
+                "value": 305.32000732421875
+              }
+            ]
+          },
+          {
+            "id": "NVDA",
+            "label": "Nvidia",
+            "source": "Yahoo Finance public chart data",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d",
+            "yahooSymbol": "NVDA",
+            "stooqSymbol": "nvda.us",
+            "fetchedAt": "2026-05-31T21:56:50.013Z",
+            "observations": [
+              {
+                "date": "2026-03-02",
+                "value": 182.47999572753906
+              },
+              {
+                "date": "2026-03-03",
+                "value": 180.0500030517578
+              },
+              {
+                "date": "2026-03-04",
+                "value": 183.0399932861328
+              },
+              {
+                "date": "2026-03-05",
+                "value": 183.33999633789062
+              },
+              {
+                "date": "2026-03-06",
+                "value": 177.82000732421875
+              },
+              {
+                "date": "2026-03-09",
+                "value": 182.64999389648438
+              },
+              {
+                "date": "2026-03-10",
+                "value": 184.77000427246094
+              },
+              {
+                "date": "2026-03-11",
+                "value": 186.02999877929688
+              },
+              {
+                "date": "2026-03-12",
+                "value": 183.13999938964844
+              },
+              {
+                "date": "2026-03-13",
+                "value": 180.25
+              },
+              {
+                "date": "2026-03-16",
+                "value": 183.22000122070312
+              },
+              {
+                "date": "2026-03-17",
+                "value": 181.92999267578125
+              },
+              {
+                "date": "2026-03-18",
+                "value": 180.39999389648438
+              },
+              {
+                "date": "2026-03-19",
+                "value": 178.55999755859375
+              },
+              {
+                "date": "2026-03-20",
+                "value": 172.6999969482422
+              },
+              {
+                "date": "2026-03-23",
+                "value": 175.63999938964844
+              },
+              {
+                "date": "2026-03-24",
+                "value": 175.1999969482422
+              },
+              {
+                "date": "2026-03-25",
+                "value": 178.67999267578125
+              },
+              {
+                "date": "2026-03-26",
+                "value": 171.24000549316406
+              },
+              {
+                "date": "2026-03-27",
+                "value": 167.52000427246094
+              },
+              {
+                "date": "2026-03-30",
+                "value": 165.1699981689453
+              },
+              {
+                "date": "2026-03-31",
+                "value": 174.39999389648438
+              },
+              {
+                "date": "2026-04-01",
+                "value": 175.75
+              },
+              {
+                "date": "2026-04-02",
+                "value": 177.38999938964844
+              },
+              {
+                "date": "2026-04-06",
+                "value": 177.63999938964844
+              },
+              {
+                "date": "2026-04-07",
+                "value": 178.10000610351562
+              },
+              {
+                "date": "2026-04-08",
+                "value": 182.0800018310547
+              },
+              {
+                "date": "2026-04-09",
+                "value": 183.91000366210938
+              },
+              {
+                "date": "2026-04-10",
+                "value": 188.6300048828125
+              },
+              {
+                "date": "2026-04-13",
+                "value": 189.30999755859375
+              },
+              {
+                "date": "2026-04-14",
+                "value": 196.50999450683594
+              },
+              {
+                "date": "2026-04-15",
+                "value": 198.8699951171875
+              },
+              {
+                "date": "2026-04-16",
+                "value": 198.35000610351562
+              },
+              {
+                "date": "2026-04-17",
+                "value": 201.67999267578125
+              },
+              {
+                "date": "2026-04-20",
+                "value": 202.05999755859375
+              },
+              {
+                "date": "2026-04-21",
+                "value": 199.8800048828125
+              },
+              {
+                "date": "2026-04-22",
+                "value": 202.5
+              },
+              {
+                "date": "2026-04-23",
+                "value": 199.63999938964844
+              },
+              {
+                "date": "2026-04-24",
+                "value": 208.27000427246094
+              },
+              {
+                "date": "2026-04-27",
+                "value": 216.61000061035156
+              },
+              {
+                "date": "2026-04-28",
+                "value": 213.1699981689453
+              },
+              {
+                "date": "2026-04-29",
+                "value": 209.25
+              },
+              {
+                "date": "2026-04-30",
+                "value": 199.57000732421875
+              },
+              {
+                "date": "2026-05-01",
+                "value": 198.4499969482422
+              },
+              {
+                "date": "2026-05-04",
+                "value": 198.47999572753906
+              },
+              {
+                "date": "2026-05-05",
+                "value": 196.5
+              },
+              {
+                "date": "2026-05-06",
+                "value": 207.8300018310547
+              },
+              {
+                "date": "2026-05-07",
+                "value": 211.5
+              },
+              {
+                "date": "2026-05-08",
+                "value": 215.1999969482422
+              },
+              {
+                "date": "2026-05-11",
+                "value": 219.44000244140625
+              },
+              {
+                "date": "2026-05-12",
+                "value": 220.77999877929688
+              },
+              {
+                "date": "2026-05-13",
+                "value": 225.8300018310547
+              },
+              {
+                "date": "2026-05-14",
+                "value": 235.74000549316406
+              },
+              {
+                "date": "2026-05-15",
+                "value": 225.32000732421875
+              },
+              {
+                "date": "2026-05-18",
+                "value": 222.32000732421875
+              },
+              {
+                "date": "2026-05-19",
+                "value": 220.61000061035156
+              },
+              {
+                "date": "2026-05-20",
+                "value": 223.47000122070312
+              },
+              {
+                "date": "2026-05-21",
+                "value": 219.50999450683594
+              },
+              {
+                "date": "2026-05-22",
+                "value": 215.3300018310547
+              },
+              {
+                "date": "2026-05-26",
+                "value": 214.86000061035156
+              },
+              {
+                "date": "2026-05-27",
+                "value": 212.60000610351562
+              }
+            ]
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [
+        {
+          "label": "Dell Investor Relations",
+          "url": "https://investors.delltechnologies.com/",
+          "type": "Company"
+        },
+        {
+          "label": "Nvidia Investor Relations",
+          "url": "https://investor.nvidia.com/",
+          "type": "Company"
+        }
+      ],
+      "storyline": {
+        "id": "ai-infrastructure-dell-servers",
+        "name": "AI infrastructure buildout",
+        "threshold": 2
+      },
+      "concepts": [
+        "ai",
+        "capex"
+      ]
+    }
+  ],
+  "sections": {
+    "macro": {
+      "label": "Macro Environment",
+      "items": [],
+      "latestEvent": null,
+      "economicCalendar": [
+        {
+          "id": "bls-employment-situation-2026-06-05",
+          "source": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+          "title": "Employment Situation",
+          "category": "employment",
+          "significance": "high",
+          "scheduledFor": "2026-06-05T12:30:00.000Z",
+          "scheduledDate": "2026-06-05",
+          "fetchedAt": "2026-05-31T21:56:51.537Z"
+        },
+        {
+          "id": "bls-consumer-price-index-2026-06-10",
+          "source": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+          "title": "Consumer Price Index",
+          "category": "inflation",
+          "significance": "high",
+          "scheduledFor": "2026-06-10T12:30:00.000Z",
+          "scheduledDate": "2026-06-10",
+          "fetchedAt": "2026-05-31T21:56:51.537Z"
+        },
+        {
+          "id": "fed-fomc-june-2026-06-17",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "title": "FOMC meeting (June 16-17)",
+          "category": "fed",
+          "significance": "high",
+          "scheduledFor": "2026-06-17T18:00:00.000Z",
+          "scheduledDate": "2026-06-17",
+          "fetchedAt": "2026-05-31T21:56:51.537Z"
+        },
+        {
+          "id": "bea-gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-inc-2026-06-25",
+          "source": "BEA",
+          "url": "https://www.bea.gov/news/schedule",
+          "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
+          "category": "growth",
+          "significance": "high",
+          "scheduledFor": "2026-06-25T12:30:00.000Z",
+          "scheduledDate": "2026-06-25",
+          "fetchedAt": "2026-05-31T21:56:51.537Z"
+        },
+        {
+          "id": "bea-personal-income-and-outlays-may-2026-2026-06-25",
+          "source": "BEA",
+          "url": "https://www.bea.gov/news/schedule",
+          "title": "Personal Income and Outlays, May 2026",
+          "category": "inflation",
+          "significance": "high",
+          "scheduledFor": "2026-06-25T12:30:00.000Z",
+          "scheduledDate": "2026-06-25",
+          "fetchedAt": "2026-05-31T21:56:51.537Z"
+        },
+        {
+          "id": "bls-employment-situation-2026-07-02",
+          "source": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+          "title": "Employment Situation",
+          "category": "employment",
+          "significance": "high",
+          "scheduledFor": "2026-07-02T12:30:00.000Z",
+          "scheduledDate": "2026-07-02",
+          "fetchedAt": "2026-05-31T21:56:51.537Z"
+        },
+        {
+          "id": "bls-consumer-price-index-2026-07-14",
+          "source": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+          "title": "Consumer Price Index",
+          "category": "inflation",
+          "significance": "high",
+          "scheduledFor": "2026-07-14T12:30:00.000Z",
+          "scheduledDate": "2026-07-14",
+          "fetchedAt": "2026-05-31T21:56:51.537Z"
+        },
+        {
+          "id": "fed-fomc-july-2026-07-29",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "title": "FOMC meeting (July 28-29)",
+          "category": "fed",
+          "significance": "high",
+          "scheduledFor": "2026-07-29T18:00:00.000Z",
+          "scheduledDate": "2026-07-29",
+          "fetchedAt": "2026-05-31T21:56:51.537Z"
+        }
+      ]
+    },
+    "markets": {
+      "label": "Markets",
+      "items": [
+        {
+          "id": "hist-2026-05-27-ai-infra",
+          "title": "AI infrastructure demand starts to broaden beyond the first-order winners",
+          "editorialLane": "markets",
+          "editorialLaneLabel": "Markets",
+          "privateMarketSegment": null,
+          "sourceTrail": [
+            {
+              "source": "Dell investor relations",
+              "url": "https://investors.delltechnologies.com/",
+              "publishedAt": "2026-05-27T09:20:00-04:00",
+              "fetchedAt": "2026-05-31T21:56:48.788Z"
+            }
+          ],
+          "freshnessStatus": "FRESH",
+          "confidence": "Medium",
+          "summary": "Company commentary and investor focus suggested that the AI trade was beginning to widen from chips into systems, networking, and physical infrastructure suppliers. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+          "whatHappened": "Company commentary and investor focus suggested that the AI trade was beginning to widen from chips into systems, networking, and physical infrastructure suppliers.",
+          "whatMoved": "The move was thematic. The market started to ask which companies could benefit once AI spending moved beyond the most obvious chip winner.",
+          "whyItMoved": "As soon as a first-order winner becomes obvious, investors naturally look for the next layer of beneficiaries. The challenge is separating real revenue conversion from simple narrative spillover.",
+          "valuationImpact": "Potential second-wave suppliers can earn better multiples if they show backlog, pricing power, or durable customer demand. If they only offer exposure without economics, the credit does not last.",
+          "financingImplication": "A broader infrastructure cycle would support more capital spending, supplier financing, and strategic activity around physical AI buildout.",
+          "sectorReadThrough": "The read-through extended to servers, networking, data-center infrastructure, and power-heavy buildout stories rather than only semiconductors.",
+          "parallel": {
+            "precedent": "The cloud buildout period when the market first rewarded the platform owners, then started to differentiate among the suppliers behind them.",
+            "outcome": "The most durable winners were the suppliers that could turn demand into margins, backlog, and sticky customer relationships.",
+            "whatRhymes": "AI looked ready to follow that pattern, with demand potentially spreading into the broader infrastructure stack.",
+            "whatDiffers": "The proof still needed to be company-specific. Not every supplier would deserve the same rerating.",
+            "soWhat": "Watch for evidence that AI demand is becoming real revenue rather than just adjacent excitement.",
+            "sourceTrail": [
+              {
+                "source": "Dell investor relations",
+                "url": "https://investors.delltechnologies.com/"
+              }
+            ]
+          },
+          "watchNext": "Watch supplier backlog, margin commentary, cloud capex plans, and whether second-order names get hard revenue proof.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "As soon as a first-order winner becomes obvious, investors naturally look for the next layer of beneficiaries. The challenge is separating real revenue conversion from simple narrative spillover. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+              },
+              {
+                "id": "tape",
+                "heading": "What moved and what it suggests",
+                "body": "Company commentary and investor focus suggested that the AI trade was beginning to widen from chips into systems, networking, and physical infrastructure suppliers. The move was thematic. The market started to ask which companies could benefit once AI spending moved beyond the most obvious chip winner. A single stock move matters when it gives the market a cleaner signal about a broader theme than the theme had before."
+              },
+              {
+                "id": "mechanism",
+                "heading": "Mechanism behind the move",
+                "body": "Potential second-wave suppliers can earn better multiples if they show backlog, pricing power, or durable customer demand. If they only offer exposure without economics, the credit does not last. The read-through extended to servers, networking, data-center infrastructure, and power-heavy buildout stories rather than only semiconductors. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+              },
+              {
+                "id": "interpretation",
+                "heading": "What the market may be pricing in right or wrong",
+                "body": "A broader infrastructure cycle would support more capital spending, supplier financing, and strategic activity around physical AI buildout. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+              },
+              {
+                "id": "parallel",
+                "heading": "Relevant comparison",
+                "body": "A useful parallel is The cloud buildout period when the market first rewarded the platform owners, then started to differentiate among the suppliers behind them. In that earlier setup, the most durable winners were the suppliers that could turn demand into margins, backlog, and sticky customer relationships. What rhymes is ai looked ready to follow that pattern, with demand potentially spreading into the broader infrastructure stack. What is different this time is the proof still needed to be company-specific. not every supplier would deserve the same rerating. The bottom line is watch for evidence that ai demand is becoming real revenue rather than just adjacent excitement."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What to watch next",
+                "body": "Watch supplier backlog, margin commentary, cloud capex plans, and whether second-order names get hard revenue proof. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+              }
+            ]
+          },
+          "visual": {
+            "type": "line-chart",
+            "title": "Stock reaction",
+            "subtitle": "Public market-data context for the company/peer move.",
+            "relevanceNote": "This chart belongs here because the core question is how the market repriced the company and its closest read-through peer.",
+            "allowedPages": [
+              "markets",
+              "deep-dive"
+            ],
+            "axisTitle": "Price",
+            "axisSuffix": "",
+            "visualSource": "Public market data",
+            "series": [
+              {
+                "id": "DELL",
+                "label": "Dell Technologies",
+                "source": "Yahoo Finance public chart data",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?range=3mo&interval=1d",
+                "yahooSymbol": "DELL",
+                "stooqSymbol": "dell.us",
+                "fetchedAt": "2026-05-31T21:56:49.917Z",
+                "observations": [
+                  {
+                    "date": "2026-03-02",
+                    "value": 153.5500030517578
+                  },
+                  {
+                    "date": "2026-03-03",
+                    "value": 145.17999267578125
+                  },
+                  {
+                    "date": "2026-03-04",
+                    "value": 147.10000610351562
+                  },
+                  {
+                    "date": "2026-03-05",
+                    "value": 146.52000427246094
+                  },
+                  {
+                    "date": "2026-03-06",
+                    "value": 146.47999572753906
+                  },
+                  {
+                    "date": "2026-03-09",
+                    "value": 146.50999450683594
+                  },
+                  {
+                    "date": "2026-03-10",
+                    "value": 143.8000030517578
+                  },
+                  {
+                    "date": "2026-03-11",
+                    "value": 147.3699951171875
+                  },
+                  {
+                    "date": "2026-03-12",
+                    "value": 149.91000366210938
+                  },
+                  {
+                    "date": "2026-03-13",
+                    "value": 151.6199951171875
+                  },
+                  {
+                    "date": "2026-03-16",
+                    "value": 156.5399932861328
+                  },
+                  {
+                    "date": "2026-03-17",
+                    "value": 153.00999450683594
+                  },
+                  {
+                    "date": "2026-03-18",
+                    "value": 149.2100067138672
+                  },
+                  {
+                    "date": "2026-03-19",
+                    "value": 156.75999450683594
+                  },
+                  {
+                    "date": "2026-03-20",
+                    "value": 157.6699981689453
+                  },
+                  {
+                    "date": "2026-03-23",
+                    "value": 164.58999633789062
+                  },
+                  {
+                    "date": "2026-03-24",
+                    "value": 176.91000366210938
+                  },
+                  {
+                    "date": "2026-03-25",
+                    "value": 184.00999450683594
+                  },
+                  {
+                    "date": "2026-03-26",
+                    "value": 175.82000732421875
+                  },
+                  {
+                    "date": "2026-03-27",
+                    "value": 171.80999755859375
+                  },
+                  {
+                    "date": "2026-03-30",
+                    "value": 164.66000366210938
+                  },
+                  {
+                    "date": "2026-03-31",
+                    "value": 164.1300048828125
+                  },
+                  {
+                    "date": "2026-04-01",
+                    "value": 169.3800048828125
+                  },
+                  {
+                    "date": "2026-04-02",
+                    "value": 174.3699951171875
+                  },
+                  {
+                    "date": "2026-04-06",
+                    "value": 173.17999267578125
+                  },
+                  {
+                    "date": "2026-04-07",
+                    "value": 177.69000244140625
+                  },
+                  {
+                    "date": "2026-04-08",
+                    "value": 185.47000122070312
+                  },
+                  {
+                    "date": "2026-04-09",
+                    "value": 181.4600067138672
+                  },
+                  {
+                    "date": "2026-04-10",
+                    "value": 177.8000030517578
+                  },
+                  {
+                    "date": "2026-04-13",
+                    "value": 189.7899932861328
+                  },
+                  {
+                    "date": "2026-04-14",
+                    "value": 184.50999450683594
+                  },
+                  {
+                    "date": "2026-04-15",
+                    "value": 177.27999877929688
+                  },
+                  {
+                    "date": "2026-04-16",
+                    "value": 193.08999633789062
+                  },
+                  {
+                    "date": "2026-04-17",
+                    "value": 196.5500030517578
+                  },
+                  {
+                    "date": "2026-04-20",
+                    "value": 204.24000549316406
+                  },
+                  {
+                    "date": "2026-04-21",
+                    "value": 212.36000061035156
+                  },
+                  {
+                    "date": "2026-04-22",
+                    "value": 214.64999389648438
+                  },
+                  {
+                    "date": "2026-04-23",
+                    "value": 212.13999938964844
+                  },
+                  {
+                    "date": "2026-04-24",
+                    "value": 216.08999633789062
+                  },
+                  {
+                    "date": "2026-04-27",
+                    "value": 215.97000122070312
+                  },
+                  {
+                    "date": "2026-04-28",
+                    "value": 205.92999267578125
+                  },
+                  {
+                    "date": "2026-04-29",
+                    "value": 205.66000366210938
+                  },
+                  {
+                    "date": "2026-04-30",
+                    "value": 208.9499969482422
+                  },
+                  {
+                    "date": "2026-05-01",
+                    "value": 210.1699981689453
+                  },
+                  {
+                    "date": "2026-05-04",
+                    "value": 211.63999938964844
+                  },
+                  {
+                    "date": "2026-05-05",
+                    "value": 216.32000732421875
+                  },
+                  {
+                    "date": "2026-05-06",
+                    "value": 238.8000030517578
+                  },
+                  {
+                    "date": "2026-05-07",
+                    "value": 230.27000427246094
+                  },
+                  {
+                    "date": "2026-05-08",
+                    "value": 260.4599914550781
+                  },
+                  {
+                    "date": "2026-05-11",
+                    "value": 247.0399932861328
+                  },
+                  {
+                    "date": "2026-05-12",
+                    "value": 238.94000244140625
+                  },
+                  {
+                    "date": "2026-05-13",
+                    "value": 243.8699951171875
+                  },
+                  {
+                    "date": "2026-05-14",
+                    "value": 247.88999938964844
+                  },
+                  {
+                    "date": "2026-05-15",
+                    "value": 241.99000549316406
+                  },
+                  {
+                    "date": "2026-05-18",
+                    "value": 238.02999877929688
+                  },
+                  {
+                    "date": "2026-05-19",
+                    "value": 235.25999450683594
+                  },
+                  {
+                    "date": "2026-05-20",
+                    "value": 242.92999267578125
+                  },
+                  {
+                    "date": "2026-05-21",
+                    "value": 252.8000030517578
+                  },
+                  {
+                    "date": "2026-05-22",
+                    "value": 295.19000244140625
+                  },
+                  {
+                    "date": "2026-05-26",
+                    "value": 305.0799865722656
+                  },
+                  {
+                    "date": "2026-05-27",
+                    "value": 305.32000732421875
+                  }
+                ]
+              },
+              {
+                "id": "NVDA",
+                "label": "Nvidia",
+                "source": "Yahoo Finance public chart data",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d",
+                "yahooSymbol": "NVDA",
+                "stooqSymbol": "nvda.us",
+                "fetchedAt": "2026-05-31T21:56:50.013Z",
+                "observations": [
+                  {
+                    "date": "2026-03-02",
+                    "value": 182.47999572753906
+                  },
+                  {
+                    "date": "2026-03-03",
+                    "value": 180.0500030517578
+                  },
+                  {
+                    "date": "2026-03-04",
+                    "value": 183.0399932861328
+                  },
+                  {
+                    "date": "2026-03-05",
+                    "value": 183.33999633789062
+                  },
+                  {
+                    "date": "2026-03-06",
+                    "value": 177.82000732421875
+                  },
+                  {
+                    "date": "2026-03-09",
+                    "value": 182.64999389648438
+                  },
+                  {
+                    "date": "2026-03-10",
+                    "value": 184.77000427246094
+                  },
+                  {
+                    "date": "2026-03-11",
+                    "value": 186.02999877929688
+                  },
+                  {
+                    "date": "2026-03-12",
+                    "value": 183.13999938964844
+                  },
+                  {
+                    "date": "2026-03-13",
+                    "value": 180.25
+                  },
+                  {
+                    "date": "2026-03-16",
+                    "value": 183.22000122070312
+                  },
+                  {
+                    "date": "2026-03-17",
+                    "value": 181.92999267578125
+                  },
+                  {
+                    "date": "2026-03-18",
+                    "value": 180.39999389648438
+                  },
+                  {
+                    "date": "2026-03-19",
+                    "value": 178.55999755859375
+                  },
+                  {
+                    "date": "2026-03-20",
+                    "value": 172.6999969482422
+                  },
+                  {
+                    "date": "2026-03-23",
+                    "value": 175.63999938964844
+                  },
+                  {
+                    "date": "2026-03-24",
+                    "value": 175.1999969482422
+                  },
+                  {
+                    "date": "2026-03-25",
+                    "value": 178.67999267578125
+                  },
+                  {
+                    "date": "2026-03-26",
+                    "value": 171.24000549316406
+                  },
+                  {
+                    "date": "2026-03-27",
+                    "value": 167.52000427246094
+                  },
+                  {
+                    "date": "2026-03-30",
+                    "value": 165.1699981689453
+                  },
+                  {
+                    "date": "2026-03-31",
+                    "value": 174.39999389648438
+                  },
+                  {
+                    "date": "2026-04-01",
+                    "value": 175.75
+                  },
+                  {
+                    "date": "2026-04-02",
+                    "value": 177.38999938964844
+                  },
+                  {
+                    "date": "2026-04-06",
+                    "value": 177.63999938964844
+                  },
+                  {
+                    "date": "2026-04-07",
+                    "value": 178.10000610351562
+                  },
+                  {
+                    "date": "2026-04-08",
+                    "value": 182.0800018310547
+                  },
+                  {
+                    "date": "2026-04-09",
+                    "value": 183.91000366210938
+                  },
+                  {
+                    "date": "2026-04-10",
+                    "value": 188.6300048828125
+                  },
+                  {
+                    "date": "2026-04-13",
+                    "value": 189.30999755859375
+                  },
+                  {
+                    "date": "2026-04-14",
+                    "value": 196.50999450683594
+                  },
+                  {
+                    "date": "2026-04-15",
+                    "value": 198.8699951171875
+                  },
+                  {
+                    "date": "2026-04-16",
+                    "value": 198.35000610351562
+                  },
+                  {
+                    "date": "2026-04-17",
+                    "value": 201.67999267578125
+                  },
+                  {
+                    "date": "2026-04-20",
+                    "value": 202.05999755859375
+                  },
+                  {
+                    "date": "2026-04-21",
+                    "value": 199.8800048828125
+                  },
+                  {
+                    "date": "2026-04-22",
+                    "value": 202.5
+                  },
+                  {
+                    "date": "2026-04-23",
+                    "value": 199.63999938964844
+                  },
+                  {
+                    "date": "2026-04-24",
+                    "value": 208.27000427246094
+                  },
+                  {
+                    "date": "2026-04-27",
+                    "value": 216.61000061035156
+                  },
+                  {
+                    "date": "2026-04-28",
+                    "value": 213.1699981689453
+                  },
+                  {
+                    "date": "2026-04-29",
+                    "value": 209.25
+                  },
+                  {
+                    "date": "2026-04-30",
+                    "value": 199.57000732421875
+                  },
+                  {
+                    "date": "2026-05-01",
+                    "value": 198.4499969482422
+                  },
+                  {
+                    "date": "2026-05-04",
+                    "value": 198.47999572753906
+                  },
+                  {
+                    "date": "2026-05-05",
+                    "value": 196.5
+                  },
+                  {
+                    "date": "2026-05-06",
+                    "value": 207.8300018310547
+                  },
+                  {
+                    "date": "2026-05-07",
+                    "value": 211.5
+                  },
+                  {
+                    "date": "2026-05-08",
+                    "value": 215.1999969482422
+                  },
+                  {
+                    "date": "2026-05-11",
+                    "value": 219.44000244140625
+                  },
+                  {
+                    "date": "2026-05-12",
+                    "value": 220.77999877929688
+                  },
+                  {
+                    "date": "2026-05-13",
+                    "value": 225.8300018310547
+                  },
+                  {
+                    "date": "2026-05-14",
+                    "value": 235.74000549316406
+                  },
+                  {
+                    "date": "2026-05-15",
+                    "value": 225.32000732421875
+                  },
+                  {
+                    "date": "2026-05-18",
+                    "value": 222.32000732421875
+                  },
+                  {
+                    "date": "2026-05-19",
+                    "value": 220.61000061035156
+                  },
+                  {
+                    "date": "2026-05-20",
+                    "value": 223.47000122070312
+                  },
+                  {
+                    "date": "2026-05-21",
+                    "value": 219.50999450683594
+                  },
+                  {
+                    "date": "2026-05-22",
+                    "value": 215.3300018310547
+                  },
+                  {
+                    "date": "2026-05-26",
+                    "value": 214.86000061035156
+                  },
+                  {
+                    "date": "2026-05-27",
+                    "value": 212.60000610351562
+                  }
+                ]
+              }
+            ],
+            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+          },
+          "relatedLinks": [
+            {
+              "label": "Dell Investor Relations",
+              "url": "https://investors.delltechnologies.com/",
+              "type": "Company"
+            },
+            {
+              "label": "Nvidia Investor Relations",
+              "url": "https://investor.nvidia.com/",
+              "type": "Company"
+            }
+          ],
+          "storyline": {
+            "id": "ai-infrastructure-dell-servers",
+            "name": "AI infrastructure buildout",
+            "threshold": 2
+          },
+          "concepts": [
+            "ai",
+            "capex"
+          ]
+        }
+      ]
+    },
+    "deals": {
+      "label": "Deals",
+      "items": []
+    },
+    "privateMarkets": {
+      "label": "Private Markets",
+      "items": [
+        {
+          "id": "hist-2026-05-27-sponsor-selectivity",
+          "title": "Sponsor appetite looks selective rather than shut",
+          "editorialLane": "private_markets",
+          "editorialLaneLabel": "Private Markets",
+          "privateMarketSegment": "private_equity",
+          "sourceTrail": [
+            {
+              "source": "KKR",
+              "url": "https://ir.kkr.com/",
+              "publishedAt": "2026-05-27T10:40:00-04:00",
+              "fetchedAt": "2026-05-31T21:56:48.788Z"
+            }
+          ],
+          "freshnessStatus": "FRESH",
+          "confidence": "Medium",
+          "summary": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price. The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
+          "whatHappened": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price.",
+          "whatMoved": "The signal was not a single blockbuster deal. It was the market's growing sense that sponsors were still active, but only where quality and exit logic were strong enough.",
+          "whyItMoved": "When financing costs are higher, buyer behavior becomes more selective. That makes each sponsor signal useful because it shows what kind of asset can still clear the bar.",
+          "valuationImpact": "Selective sponsor demand supports pricing for better assets but leaves weaker processes more exposed to resets, seller rollover, or longer holding periods.",
+          "financingImplication": "Buyers still had to solve for debt capacity, equity check size, and a believable exit path, which meant discipline mattered more than headline optimism.",
+          "sectorReadThrough": "The read-through was strongest for sponsor-owned assets preparing to sell, refinance, or test the IPO window.",
+          "parallel": {
+            "precedent": "Tighter-rate periods when firms still bought defensive growth assets but became much more selective on price and leverage.",
+            "outcome": "Good assets continued to trade, while weaker ones needed structure, delay, or valuation resets.",
+            "whatRhymes": "That same filter looked active here: the market was open for some assets, not all assets.",
+            "whatDiffers": "This was still a mood signal from public sponsor markers, not proof that the entire buyout market had reopened.",
+            "soWhat": "Use sponsor activity as evidence of selectivity, not blanket strength.",
+            "sourceTrail": [
+              {
+                "source": "KKR",
+                "url": "https://ir.kkr.com/"
+              }
+            ]
+          },
+          "watchNext": "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "When financing costs are higher, buyer behavior becomes more selective. That makes each sponsor signal useful because it shows what kind of asset can still clear the bar. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+              },
+              {
+                "id": "signal",
+                "heading": "What the public signal is actually telling us",
+                "body": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price. The signal was not a single blockbuster deal. It was the market's growing sense that sponsors were still active, but only where quality and exit logic were strong enough. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+              },
+              {
+                "id": "interpretation",
+                "heading": "How to read the sponsor or exit implication",
+                "body": "Selective sponsor demand supports pricing for better assets but leaves weaker processes more exposed to resets, seller rollover, or longer holding periods. Buyers still had to solve for debt capacity, equity check size, and a believable exit path, which meant discipline mattered more than headline optimism. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+              },
+              {
+                "id": "evidence",
+                "heading": "Where the evidence is strong versus indirect",
+                "body": "The read-through was strongest for sponsor-owned assets preparing to sell, refinance, or test the IPO window. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+              },
+              {
+                "id": "parallel",
+                "heading": "Relevant comparison",
+                "body": "A useful parallel is Tighter-rate periods when firms still bought defensive growth assets but became much more selective on price and leverage. In that earlier setup, good assets continued to trade, while weaker ones needed structure, delay, or valuation resets. What rhymes is that same filter looked active here: the market was open for some assets, not all assets. What is different this time is this was still a mood signal from public sponsor markers, not proof that the entire buyout market had reopened. The bottom line is use sponsor activity as evidence of selectivity, not blanket strength."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What would confirm or weaken the read",
+                "body": "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+              }
+            ]
+          },
+          "visual": {
+            "type": "bar-chart",
+            "title": "Public sponsor proxies",
+            "subtitle": "Three-month public market context for large alternative-asset managers tied to sponsor sentiment.",
+            "relevanceNote": "This board belongs here because public sponsor stocks often give the cleanest available read on how the market feels about exits, fundraising, and deployment.",
+            "allowedPages": [
+              "private-markets",
+              "deep-dive"
+            ],
+            "axisTitle": "3-month change",
+            "visualSource": "Public market data",
+            "items": [
+              {
+                "id": "BX",
+                "label": "Blackstone",
+                "value": 2.3150941875961775,
+                "displayValue": 2.3150941875961775,
+                "suffix": "%",
+                "latestDate": "2026-05-27",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+              },
+              {
+                "id": "KKR",
+                "label": "KKR",
+                "value": 4.878046726820526,
+                "displayValue": 4.878046726820526,
+                "suffix": "%",
+                "latestDate": "2026-05-27",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+              },
+              {
+                "id": "APO",
+                "label": "Apollo Global Management",
+                "value": 22.37671019925012,
+                "displayValue": 22.37671019925012,
+                "suffix": "%",
+                "latestDate": "2026-05-27",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+              }
+            ],
+            "sourceTrail": [
+              {
+                "source": "Blackstone",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+              },
+              {
+                "source": "KKR",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+              },
+              {
+                "source": "Apollo Global Management",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+              }
+            ],
+            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+          },
+          "relatedLinks": [
+            {
+              "label": "KKR Investor Relations",
+              "url": "https://ir.kkr.com/",
+              "type": "Company"
+            },
+            {
+              "label": "Blackstone Investor Relations",
+              "url": "https://ir.blackstone.com/",
+              "type": "Company"
+            }
+          ],
+          "storyline": null,
+          "concepts": [
+            "sponsor",
+            "private_equity",
+            "sponsor"
+          ]
+        }
+      ],
+      "segments": {
+        "privateEquity": {
+          "label": "Private Equity",
+          "items": [
+            {
+              "id": "hist-2026-05-27-sponsor-selectivity",
+              "title": "Sponsor appetite looks selective rather than shut",
+              "editorialLane": "private_markets",
+              "editorialLaneLabel": "Private Markets",
+              "privateMarketSegment": "private_equity",
+              "sourceTrail": [
+                {
+                  "source": "KKR",
+                  "url": "https://ir.kkr.com/",
+                  "publishedAt": "2026-05-27T10:40:00-04:00",
+                  "fetchedAt": "2026-05-31T21:56:48.788Z"
+                }
+              ],
+              "freshnessStatus": "FRESH",
+              "confidence": "Medium",
+              "summary": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price. The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
+              "whatHappened": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price.",
+              "whatMoved": "The signal was not a single blockbuster deal. It was the market's growing sense that sponsors were still active, but only where quality and exit logic were strong enough.",
+              "whyItMoved": "When financing costs are higher, buyer behavior becomes more selective. That makes each sponsor signal useful because it shows what kind of asset can still clear the bar.",
+              "valuationImpact": "Selective sponsor demand supports pricing for better assets but leaves weaker processes more exposed to resets, seller rollover, or longer holding periods.",
+              "financingImplication": "Buyers still had to solve for debt capacity, equity check size, and a believable exit path, which meant discipline mattered more than headline optimism.",
+              "sectorReadThrough": "The read-through was strongest for sponsor-owned assets preparing to sell, refinance, or test the IPO window.",
+              "parallel": {
+                "precedent": "Tighter-rate periods when firms still bought defensive growth assets but became much more selective on price and leverage.",
+                "outcome": "Good assets continued to trade, while weaker ones needed structure, delay, or valuation resets.",
+                "whatRhymes": "That same filter looked active here: the market was open for some assets, not all assets.",
+                "whatDiffers": "This was still a mood signal from public sponsor markers, not proof that the entire buyout market had reopened.",
+                "soWhat": "Use sponsor activity as evidence of selectivity, not blanket strength.",
+                "sourceTrail": [
+                  {
+                    "source": "KKR",
+                    "url": "https://ir.kkr.com/"
+                  }
+                ]
+              },
+              "watchNext": "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence.",
+              "longform": {
+                "sections": [
+                  {
+                    "id": "takeaway",
+                    "heading": "Plain-English takeaway",
+                    "body": "When financing costs are higher, buyer behavior becomes more selective. That makes each sponsor signal useful because it shows what kind of asset can still clear the bar. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+                  },
+                  {
+                    "id": "signal",
+                    "heading": "What the public signal is actually telling us",
+                    "body": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price. The signal was not a single blockbuster deal. It was the market's growing sense that sponsors were still active, but only where quality and exit logic were strong enough. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+                  },
+                  {
+                    "id": "interpretation",
+                    "heading": "How to read the sponsor or exit implication",
+                    "body": "Selective sponsor demand supports pricing for better assets but leaves weaker processes more exposed to resets, seller rollover, or longer holding periods. Buyers still had to solve for debt capacity, equity check size, and a believable exit path, which meant discipline mattered more than headline optimism. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+                  },
+                  {
+                    "id": "evidence",
+                    "heading": "Where the evidence is strong versus indirect",
+                    "body": "The read-through was strongest for sponsor-owned assets preparing to sell, refinance, or test the IPO window. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+                  },
+                  {
+                    "id": "parallel",
+                    "heading": "Relevant comparison",
+                    "body": "A useful parallel is Tighter-rate periods when firms still bought defensive growth assets but became much more selective on price and leverage. In that earlier setup, good assets continued to trade, while weaker ones needed structure, delay, or valuation resets. What rhymes is that same filter looked active here: the market was open for some assets, not all assets. What is different this time is this was still a mood signal from public sponsor markers, not proof that the entire buyout market had reopened. The bottom line is use sponsor activity as evidence of selectivity, not blanket strength."
+                  },
+                  {
+                    "id": "watch-next",
+                    "heading": "What would confirm or weaken the read",
+                    "body": "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+                  }
+                ]
+              },
+              "visual": {
+                "type": "bar-chart",
+                "title": "Public sponsor proxies",
+                "subtitle": "Three-month public market context for large alternative-asset managers tied to sponsor sentiment.",
+                "relevanceNote": "This board belongs here because public sponsor stocks often give the cleanest available read on how the market feels about exits, fundraising, and deployment.",
+                "allowedPages": [
+                  "private-markets",
+                  "deep-dive"
+                ],
+                "axisTitle": "3-month change",
+                "visualSource": "Public market data",
+                "items": [
+                  {
+                    "id": "BX",
+                    "label": "Blackstone",
+                    "value": 2.3150941875961775,
+                    "displayValue": 2.3150941875961775,
+                    "suffix": "%",
+                    "latestDate": "2026-05-27",
+                    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+                  },
+                  {
+                    "id": "KKR",
+                    "label": "KKR",
+                    "value": 4.878046726820526,
+                    "displayValue": 4.878046726820526,
+                    "suffix": "%",
+                    "latestDate": "2026-05-27",
+                    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+                  },
+                  {
+                    "id": "APO",
+                    "label": "Apollo Global Management",
+                    "value": 22.37671019925012,
+                    "displayValue": 22.37671019925012,
+                    "suffix": "%",
+                    "latestDate": "2026-05-27",
+                    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+                  }
+                ],
+                "sourceTrail": [
+                  {
+                    "source": "Blackstone",
+                    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+                  },
+                  {
+                    "source": "KKR",
+                    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+                  },
+                  {
+                    "source": "Apollo Global Management",
+                    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+                  }
+                ],
+                "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+              },
+              "relatedLinks": [
+                {
+                  "label": "KKR Investor Relations",
+                  "url": "https://ir.kkr.com/",
+                  "type": "Company"
+                },
+                {
+                  "label": "Blackstone Investor Relations",
+                  "url": "https://ir.blackstone.com/",
+                  "type": "Company"
+                }
+              ],
+              "storyline": null,
+              "concepts": [
+                "sponsor",
+                "private_equity",
+                "sponsor"
+              ]
+            }
+          ]
+        },
+        "privateCredit": {
+          "label": "Private Credit",
+          "items": []
+        }
+      }
+    }
+  },
+  "marketWatch": [
+    {
+      "id": "SPY",
+      "symbol": "SPY",
+      "name": "S&P 500",
+      "source": "Yahoo Finance public chart data",
+      "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d",
+      "fetchedAt": "2026-05-31T21:56:50.249Z",
+      "latestDate": "2026-05-27",
+      "price": 750.4600219726562,
+      "change": -0.1300048828125,
+      "percentChange": -0.017320358406192005,
+      "whyItMoved": "SPY moved with the broad tape; no separate S&P-specific headline cleared the brief beyond the macro backdrop."
+    },
+    {
+      "id": "QQQ",
+      "symbol": "QQQ",
+      "name": "Nasdaq 100",
+      "source": "Yahoo Finance public chart data",
+      "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d",
+      "fetchedAt": "2026-05-31T21:56:50.350Z",
+      "latestDate": "2026-05-27",
+      "price": 729.4500122070312,
+      "change": -0.83001708984375,
+      "percentChange": -0.11365737204164043,
+      "whyItMoved": "QQQ felt the tug-of-war between AI enthusiasm and the higher-rate backdrop that still matters for long-duration growth."
+    },
+    {
+      "id": "IWM",
+      "symbol": "IWM",
+      "name": "Russell 2000",
+      "source": "Yahoo Finance public chart data",
+      "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d",
+      "fetchedAt": "2026-05-31T21:56:50.449Z",
+      "latestDate": "2026-05-27",
+      "price": 290.3699951171875,
+      "change": -0.1400146484375,
+      "percentChange": -0.04819615287970963,
+      "whyItMoved": "IWM moved on financing sensitivity more than on a single company headline in this edition."
+    },
+    {
+      "id": "GLD",
+      "symbol": "GLD",
+      "name": "Gold",
+      "source": "Yahoo Finance public chart data",
+      "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d",
+      "fetchedAt": "2026-05-31T21:56:50.621Z",
+      "latestDate": "2026-05-27",
+      "price": 408.489990234375,
+      "change": -5.510009765625,
+      "percentChange": -1.3309202332427537,
+      "whyItMoved": "Gold moved with the broader inflation and policy backdrop; no gold-specific story cleared the brief."
+    },
+    {
+      "id": "DCOILWTICO",
+      "symbol": "WTI",
+      "name": "Oil",
+      "source": "FRED / U.S. EIA",
+      "sourceUrl": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "fetchedAt": "2026-05-31T21:56:49.800Z",
+      "latestDate": "2026-05-26",
+      "price": 97.63,
+      "change": -2.719999999999999,
+      "percentChange": -2.7105132037867454,
+      "whyItMoved": "Oil is mostly reading through growth and inflation expectations here. No separate energy headline cleared the brief, so treat this as macro context rather than an oil thesis."
+    }
+  ],
+  "deepDive": {
+    "id": "hist-2026-05-27-sponsor-selectivity",
+    "title": "Sponsor appetite looks selective rather than shut",
+    "editorialLane": "private_markets",
+    "editorialLaneLabel": "Private Markets",
+    "privateMarketSegment": "private_equity",
+    "sourceTrail": [
+      {
+        "source": "KKR",
+        "url": "https://ir.kkr.com/",
+        "publishedAt": "2026-05-27T10:40:00-04:00",
+        "fetchedAt": "2026-05-31T21:56:48.788Z"
+      }
+    ],
+    "freshnessStatus": "FRESH",
+    "confidence": "Medium",
+    "summary": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price. The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
+    "whatHappened": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price.",
+    "whatMoved": "The signal was not a single blockbuster deal. It was the market's growing sense that sponsors were still active, but only where quality and exit logic were strong enough.",
+    "whyItMoved": "When financing costs are higher, buyer behavior becomes more selective. That makes each sponsor signal useful because it shows what kind of asset can still clear the bar.",
+    "valuationImpact": "Selective sponsor demand supports pricing for better assets but leaves weaker processes more exposed to resets, seller rollover, or longer holding periods.",
+    "financingImplication": "Buyers still had to solve for debt capacity, equity check size, and a believable exit path, which meant discipline mattered more than headline optimism.",
+    "sectorReadThrough": "The read-through was strongest for sponsor-owned assets preparing to sell, refinance, or test the IPO window.",
+    "parallel": {
+      "precedent": "Tighter-rate periods when firms still bought defensive growth assets but became much more selective on price and leverage.",
+      "outcome": "Good assets continued to trade, while weaker ones needed structure, delay, or valuation resets.",
+      "whatRhymes": "That same filter looked active here: the market was open for some assets, not all assets.",
+      "whatDiffers": "This was still a mood signal from public sponsor markers, not proof that the entire buyout market had reopened.",
+      "soWhat": "Use sponsor activity as evidence of selectivity, not blanket strength.",
+      "sourceTrail": [
+        {
+          "source": "KKR",
+          "url": "https://ir.kkr.com/"
+        }
+      ]
+    },
+    "watchNext": "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence.",
+    "longform": {
+      "sections": [
+        {
+          "id": "takeaway",
+          "heading": "Plain-English takeaway",
+          "body": "When financing costs are higher, buyer behavior becomes more selective. That makes each sponsor signal useful because it shows what kind of asset can still clear the bar. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+        },
+        {
+          "id": "signal",
+          "heading": "What the public signal is actually telling us",
+          "body": "Public sponsor signals suggested that private-equity buyers were still willing to underwrite strong assets, but only with tighter discipline around leverage, exits, and entry price. The signal was not a single blockbuster deal. It was the market's growing sense that sponsors were still active, but only where quality and exit logic were strong enough. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+        },
+        {
+          "id": "interpretation",
+          "heading": "How to read the sponsor or exit implication",
+          "body": "Selective sponsor demand supports pricing for better assets but leaves weaker processes more exposed to resets, seller rollover, or longer holding periods. Buyers still had to solve for debt capacity, equity check size, and a believable exit path, which meant discipline mattered more than headline optimism. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+        },
+        {
+          "id": "evidence",
+          "heading": "Where the evidence is strong versus indirect",
+          "body": "The read-through was strongest for sponsor-owned assets preparing to sell, refinance, or test the IPO window. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+        },
+        {
+          "id": "parallel",
+          "heading": "Relevant comparison",
+          "body": "A useful parallel is Tighter-rate periods when firms still bought defensive growth assets but became much more selective on price and leverage. In that earlier setup, good assets continued to trade, while weaker ones needed structure, delay, or valuation resets. What rhymes is that same filter looked active here: the market was open for some assets, not all assets. What is different this time is this was still a mood signal from public sponsor markers, not proof that the entire buyout market had reopened. The bottom line is use sponsor activity as evidence of selectivity, not blanket strength."
+        },
+        {
+          "id": "watch-next",
+          "heading": "What would confirm or weaken the read",
+          "body": "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+        }
+      ]
+    },
+    "visual": {
+      "type": "bar-chart",
+      "title": "Public sponsor proxies",
+      "subtitle": "Three-month public market context for large alternative-asset managers tied to sponsor sentiment.",
+      "relevanceNote": "This board belongs here because public sponsor stocks often give the cleanest available read on how the market feels about exits, fundraising, and deployment.",
+      "allowedPages": [
+        "private-markets",
+        "deep-dive"
+      ],
+      "axisTitle": "3-month change",
+      "visualSource": "Public market data",
+      "items": [
+        {
+          "id": "BX",
+          "label": "Blackstone",
+          "value": 2.3150941875961775,
+          "displayValue": 2.3150941875961775,
+          "suffix": "%",
+          "latestDate": "2026-05-27",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+        },
+        {
+          "id": "KKR",
+          "label": "KKR",
+          "value": 4.878046726820526,
+          "displayValue": 4.878046726820526,
+          "suffix": "%",
+          "latestDate": "2026-05-27",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+        },
+        {
+          "id": "APO",
+          "label": "Apollo Global Management",
+          "value": 22.37671019925012,
+          "displayValue": 22.37671019925012,
+          "suffix": "%",
+          "latestDate": "2026-05-27",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+        }
+      ],
+      "sourceTrail": [
+        {
+          "source": "Blackstone",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+        },
+        {
+          "source": "KKR",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+        },
+        {
+          "source": "Apollo Global Management",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+        }
+      ],
+      "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+    },
+    "relatedLinks": [
+      {
+        "label": "KKR Investor Relations",
+        "url": "https://ir.kkr.com/",
+        "type": "Company"
+      },
+      {
+        "label": "Blackstone Investor Relations",
+        "url": "https://ir.blackstone.com/",
+        "type": "Company"
+      }
+    ],
+    "storyline": null,
+    "concepts": [
+      "sponsor",
+      "private_equity",
+      "sponsor"
+    ]
+  },
+  "continuingStories": [],
+  "themePulse": [
+    {
+      "id": "ai-infrastructure",
+      "name": "AI Infrastructure",
+      "freshItems": 1,
+      "openQuestions": [
+        "Is AI demand broadening from chips into systems, power, and financing?",
+        "Which companies convert AI capex into durable revenue rather than one-time orders?"
+      ]
+    },
+    {
+      "id": "deal-financing-window",
+      "name": "Deal Financing Window",
+      "freshItems": 1,
+      "openQuestions": [
+        "Are public-market conditions improving enough to reopen issuance?",
+        "Are activists forcing clearer deal math and capital allocation discipline?"
+      ]
+    },
+    {
+      "id": "private-markets-exit-window",
+      "name": "Private Markets Exit Window",
+      "freshItems": 1,
+      "openQuestions": [
+        "Are public markets and credit conditions good enough for sponsors to exit assets?",
+        "Are private companies raising capital from strength or because public exits remain closed?"
+      ]
+    }
+  ],
+  "watchNext": [
+    "Watch announced sponsor deals, exit attempts, financing terms, and whether more sale processes launch with confidence.",
+    "Watch supplier backlog, margin commentary, cloud capex plans, and whether second-order names get hard revenue proof."
+  ],
+  "sourceFailures": [],
+  "visualDataFailures": [],
+  "calendarFailures": [],
+  "review": {
+    "status": "APPROVED",
+    "reviewedAt": "2026-05-31T21:56:53.650Z",
+    "blockerCount": 0,
+    "warningCount": 0
+  }
+}

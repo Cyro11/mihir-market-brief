@@ -4,12 +4,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "fetch": "node scripts/fetch-sources.js",
+    "fetch:visuals": "node scripts/fetch-visual-data.js",
+    "fetch:calendar": "node scripts/fetch-calendar.js",
+    "analyze": "node scripts/build-edition.js",
+    "review": "node scripts/review-edition.js",
+    "render": "node scripts/render-edition.js",
+    "daily": "npm run fetch && npm run fetch:visuals && npm run fetch:calendar && npm run analyze && npm run review && npm run render",
+    "test": "node --test --test-concurrency=1 tests/*.test.js",
+    "build": "npm run render && node scripts/build-static.js",
+    "dev": "npm run render && node scripts/serve-static.js",
+    "preview": "node scripts/serve-static.js dist"
   },
-  "dependencies": {
-    "vite": "^7.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }

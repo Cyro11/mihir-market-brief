@@ -3,1037 +3,697 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mihir Market Brief</title>
+  <title>The Opening Ledger - 2026-05-29</title>
   <style>
-    :root {
-      --bg: #f3f1ed;
-      --surface: #fffdfa;
-      --surface-2: #fbfaf7;
-      --fg: #111111;
-      --muted: #606060;
-      --subtle: #81786e;
-      --border: #d5cec4;
-      --border-strong: #bfb6aa;
-      --accent: #b31925;
-      --accent-dark: #781018;
-      --accent-soft: #fae7e9;
-      --positive: #087f45;
-      --warning: #d97706;
-      --dark: #101010;
-      --dark-2: #1b1b1b;
-      --font-display: Gelasio, Georgia, "Times New Roman", serif;
-      --font-body: Gelasio, Georgia, "Times New Roman", serif;
-      --font-sans: Arial, Helvetica, sans-serif;
-      --font-mono: "Ubuntu Mono", "Courier New", monospace;
-      --shadow: 0 18px 48px rgba(17, 17, 17, 0.11);
-      --radius: 8px;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    :root { --bg:#121212; --paper:#eeeae1; --paper-2:#f7f4ec; --ink:#111111; --muted:#5e5a52; --line:#2a2a2a; --line-soft:#b8b0a4; --red:#b5121b; --red-dark:#730d14; --green:#0a6b3f; --soft:#e4ded3; --radius:0; }
+    * { box-sizing:border-box; }
     body {
-      margin: 0;
-      color: var(--fg);
+      margin:0;
       background:
-        linear-gradient(90deg, rgba(17,17,17,0.045) 1px, transparent 1px) 0 0 / 32px 32px,
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px) 0 0 / 48px 48px,
+        linear-gradient(0deg, rgba(255,255,255,.025) 1px, transparent 1px) 0 0 / 48px 48px,
+        radial-gradient(circle at 50% -10%, #2c2c2c 0, transparent 38%),
         var(--bg);
-      font-family: var(--font-body);
-      line-height: 1.42;
-      text-rendering: optimizeLegibility;
+      color:var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height:1.5;
     }
-    a { color: var(--accent-dark); text-decoration-thickness: 1px; text-underline-offset: 3px; }
-    button, input { font-family: var(--font-sans); }
-    svg { display: block; width: 100%; height: auto; }
-
-    .ticker-shell {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      overflow: hidden;
-      color: #fff;
-      background: #0a0a0a;
-      border-bottom: 3px solid var(--accent);
-    }
+    a { color:var(--red-dark); text-decoration-thickness:1px; text-underline-offset:3px; }
     .ticker {
-      display: flex;
-      width: max-content;
-      animation: ticker 42s linear infinite;
+      display:flex;
+      justify-content:center;
+      gap:34px;
+      overflow:auto;
+      padding:10px 18px;
+      background:#050505;
+      color:#f4f1ea;
+      border-bottom:3px solid var(--red);
+      font:700 12px Georgia, "Times New Roman", serif;
+      white-space:nowrap;
     }
-    .ticker-shell:hover .ticker { animation-play-state: paused; }
-    .ticker-item {
-      display: inline-flex;
-      gap: 10px;
-      align-items: center;
-      padding: 10px 28px;
-      border-right: 1px solid rgba(255,255,255,0.18);
-      font: 700 12px/1 var(--font-sans);
-      white-space: nowrap;
-    }
-    .ticker-item span:nth-child(2) { color: #f8f8f8; }
-    .up { color: var(--positive); }
-    .down { color: var(--accent); }
-    .flat { color: #a8a8a8; }
-    @keyframes ticker { to { transform: translateX(-50%); } }
-
-    .page {
-      width: min(1510px, calc(100% - 44px));
-      margin: 0 auto;
-      padding: 28px 0 60px;
-    }
-
+    .shell { width:min(1260px, calc(100% - 32px)); margin:0 auto; padding:26px 0 60px; }
     .topbar {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 12px;
-      font-family: var(--font-sans);
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      align-items:center;
+      margin-bottom:14px;
+      padding:18px 20px;
+      background:#0b0b0b;
+      color:#f5f1ea;
+      border:1px solid #3a3a3a;
+      border-left:8px solid var(--red);
+      box-shadow:8px 8px 0 rgba(0,0,0,.32);
     }
-    .brand-mark {
-      display: inline-flex;
-      gap: 10px;
-      align-items: center;
-      color: var(--fg);
-      font: 800 13px/1 var(--font-sans);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
+    .brand { font-weight:900; letter-spacing:.13em; text-transform:uppercase; }
+    .topbar-tools { display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end; }
+    .chip { display:inline-flex; align-items:center; border:1px solid #4a4a4a; border-radius:0; padding:7px 10px; background:#191919; color:#d8d2c8; font:800 11px Georgia, "Times New Roman", serif; text-transform:uppercase; }
+    .issue-jump { min-width:250px; border:1px solid #4a4a4a; background:#191919; color:#f5f1ea; padding:8px 10px; font:700 12px Georgia, "Times New Roman", serif; }
+    .workspace { display:block; }
+    .tabs {
+      position:sticky;
+      top:0;
+      z-index:20;
+      display:flex;
+      flex-wrap:nowrap;
+      justify-content:center;
+      gap:0;
+      overflow:visible;
+      margin-bottom:18px;
+      padding:0;
+      border:1px solid #3a3a3a;
+      background:#171717;
+      box-shadow:8px 8px 0 rgba(0,0,0,.28);
+      font-family: Georgia, "Times New Roman", serif;
+      scrollbar-width:thin;
     }
-    .brand-mark::before {
-      content: "";
-      width: 8px;
-      height: 22px;
-      background: var(--accent);
-      border-radius: 1px;
+    .tabs a { flex:1 1 0; min-width:max-content; padding:12px 11px; border-right:1px solid #3a3a3a; color:#e9e3d8; font-size:13px; font-weight:900; text-align:center; text-decoration:none; white-space:nowrap; }
+    .tabs a:last-child { border-right:0; }
+    .tabs a.active, .tabs a:hover { background:var(--red); color:#fff; }
+    .section-menu { position:relative; flex:0 0 auto; min-width:150px; border-right:1px solid #3a3a3a; }
+    .section-menu-trigger {
+      display:block;
+      width:100%;
+      height:100%;
+      border:0;
+      border-radius:0;
+      background:transparent;
+      cursor:pointer;
+      padding:12px 15px;
+      color:#f4eee3;
+      font:900 13px Georgia, "Times New Roman", serif;
+      text-align:center;
+      white-space:nowrap;
     }
-    .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
-    .chip {
-      display: inline-flex;
-      align-items: center;
-      min-height: 28px;
-      padding: 7px 10px;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      background: rgba(255,255,255,0.72);
-      color: var(--muted);
-      font: 800 11px/1 var(--font-sans);
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      white-space: nowrap;
+    .section-menu.is-open .section-menu-trigger, .section-menu-trigger:hover { background:var(--red); color:#fff; }
+    .section-menu-panel {
+      position:absolute;
+      right:0;
+      top:calc(100% + 8px);
+      z-index:40;
+      width:min(760px, calc(100vw - 40px));
+      display:grid;
+      grid-template-columns:1fr 1.3fr 1fr;
+      gap:0;
+      border:1px solid #3a3a3a;
+      border-left:6px solid var(--red);
+      background:#111;
+      color:#f4eee3;
+      box-shadow:10px 10px 0 rgba(0,0,0,.35);
+      text-align:left;
     }
-    .chip.red {
-      color: var(--accent-dark);
-      background: var(--accent-soft);
-      border-color: color-mix(in srgb, var(--accent) 50%, var(--border));
-    }
-
-    .masthead {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 360px;
-      gap: 22px;
-      align-items: stretch;
-    }
-    .hero {
-      position: relative;
-      min-height: 318px;
-      overflow: hidden;
-      padding: 30px 34px 28px;
-      color: #f9f5ee;
-      background: var(--dark);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-    }
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
+    .section-menu-panel[hidden] { display:none; }
+    .section-menu-panel section { padding:16px; border-right:1px solid #3a3a3a; }
+    .section-menu-panel section:last-child { border-right:0; }
+    .section-menu-panel b { display:block; margin-bottom:10px; color:#cfc5b6; font:900 11px Georgia, "Times New Roman", serif; letter-spacing:.1em; text-transform:uppercase; }
+    .section-menu-panel a { display:block; margin-top:8px; padding:9px 10px; border:1px solid #3a3a3a; background:#191919; color:#f4eee3; text-decoration:none; font-weight:800; }
+    .section-menu-panel a.active, .section-menu-panel a:hover { background:var(--red); color:#fff; }
+    .panel {
+      position:relative;
+      margin-bottom:22px;
+      padding:28px;
+      border:1px solid var(--line);
+      border-top:6px solid #0b0b0b;
       background:
-        radial-gradient(circle at 0 100%, rgba(179,25,37,0.38), transparent 35%),
-        repeating-linear-gradient(90deg, transparent 0 44px, rgba(255,255,255,0.06) 45px 46px);
-      pointer-events: none;
+        linear-gradient(90deg, rgba(17,17,17,.035) 1px, transparent 1px) 0 0 / 36px 36px,
+        var(--paper);
+      box-shadow:10px 10px 0 rgba(0,0,0,.34);
     }
-    .hero > * { position: relative; }
-    .eyebrow {
-      color: var(--subtle);
-      font: 800 12px/1.2 var(--font-sans);
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
+    .panel::before { content:""; position:absolute; inset:0; pointer-events:none; border-top:2px solid var(--red); opacity:.9; }
+    .panel.compact { padding:20px 24px; }
+    .panel-head { display:flex; justify-content:space-between; gap:14px; align-items:start; margin-bottom:12px; }
+    .eyebrow, .meta { color:var(--red); font:900 11px Georgia, "Times New Roman", serif; letter-spacing:.11em; text-transform:uppercase; }
+    h1 { margin:6px 0 10px; font-size:clamp(38px, 4.6vw, 68px); line-height:.95; letter-spacing:0; }
+    h2 { margin:7px 0 9px; font-size:26px; line-height:1.12; }
+    h3 { margin:0 0 8px; font-size:18px; }
+    p { margin:10px 0; }
+    .lede { max-width:850px; color:#37322e; font-size:19px; }
+    .summary-grid, .theme-grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:12px; margin-top:18px; }
+    .summary-card, .theme-card, .source-card, .analysis-block, .read-more, .insight-grid div {
+      border:1px solid var(--line-soft);
+      border-radius:0;
+      background:var(--paper-2);
+      padding:14px;
+      box-shadow:4px 4px 0 rgba(17,17,17,.08);
     }
-    .hero .eyebrow { color: #e3d6c8; }
-    h1, h2, h3 { font-family: var(--font-display); }
-    h1 {
-      max-width: 980px;
-      margin: 14px 0 12px;
-      font-size: clamp(46px, 6vw, 86px);
-      line-height: 0.92;
-      letter-spacing: 0;
+    .summary-card { color:inherit; text-decoration:none; min-height:170px; }
+    .summary-card b { display:block; margin:7px 0; font-size:19px; line-height:1.15; }
+    .watch-strip { display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px; margin:16px 0 20px; }
+    .watch-quote { padding:14px; border:1px solid var(--line); background:#111; color:#f4eee3; box-shadow:6px 6px 0 rgba(17,17,17,.2); }
+    .watch-quote span, .watch-quote i { display:block; }
+    .watch-quote span { color:#c8beb1; font:900 11px Georgia, "Times New Roman", serif; letter-spacing:.09em; text-transform:uppercase; }
+    .watch-quote b { display:block; margin:8px 0 6px; font-size:28px; line-height:1; }
+    .watch-quote i { font-style:normal; font-weight:900; }
+    .watch-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
+    .watch-card { min-height:100%; padding:0; border:1px solid var(--line-soft); background:var(--paper-2); box-shadow:4px 4px 0 rgba(17,17,17,.08); }
+    .watch-card h2, .watch-card p, .watch-card .meta, .watch-card .source-line { padding-left:16px; padding-right:16px; }
+    .watch-card .meta { padding-top:16px; }
+    .watch-card .source-line { padding-bottom:16px; }
+    .watch-price-row { display:flex; justify-content:space-between; align-items:end; gap:12px; padding:0 16px; margin:8px 0 4px; }
+    .watch-price-row b { font-size:36px; line-height:1; }
+    .watch-price-row span { font-weight:900; }
+    .up { color:var(--green); }
+    .down { color:var(--red); }
+    .move-card { padding:22px 0; border-bottom:1px solid var(--line-soft); }
+    .move-card:first-of-type { padding-top:0; }
+    .move-card:last-child { border-bottom:0; padding-bottom:0; }
+    .story-summary { font-size:19px; color:#28231f; }
+    .story-details { margin:16px 0; border:1px solid var(--line-soft); background:var(--paper-2); box-shadow:4px 4px 0 rgba(17,17,17,.08); }
+    .story-details summary { cursor:pointer; list-style:none; padding:14px 16px; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.05em; text-transform:uppercase; border-bottom:1px solid var(--line-soft); background:#f1ecdf; }
+    .story-details summary::-webkit-details-marker { display:none; }
+    .story-detail-body { padding:18px 16px 16px; }
+    .narrative-stack { display:grid; gap:14px; }
+    .narrative-section { padding:0 0 12px; border-bottom:1px solid var(--line-soft); }
+    .narrative-section:last-child { border-bottom:0; padding-bottom:0; }
+    .narrative-section h3 { margin:0 0 8px; font-size:18px; }
+    .narrative-section p { margin:0; font-size:17px; color:#2d2824; }
+    .segment-block { margin:22px 0; padding:18px; border:1px solid var(--line); border-left:6px solid var(--red); background:rgba(247,244,236,.66); box-shadow:6px 6px 0 rgba(17,17,17,.1); }
+    .segment-head { margin-bottom:10px; border-bottom:1px solid var(--line-soft); }
+    .segment-head h2 { margin:4px 0; font-size:30px; }
+    .segment-head p { margin:0 0 12px; color:var(--muted); }
+    .insight-grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:10px; margin:14px 0; }
+    .insight-grid b, .read-more b { display:block; margin-bottom:5px; color:#050505; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.04em; text-transform:uppercase; }
+    .insight-grid span, .source-line, .read-more span { color:#37322e; }
+    .analysis-block { margin:14px 0; background:var(--paper-2); border-left:5px solid #111; }
+    .continuity-block { margin:14px 0; padding:14px; border:1px solid var(--line); border-left:5px solid var(--red); background:#ede5d8; box-shadow:4px 4px 0 rgba(17,17,17,.1); }
+    .visual-card { margin:16px 0; padding:16px; border:1px solid var(--line); border-left:5px solid var(--red); background:var(--paper-2); box-shadow:6px 6px 0 rgba(17,17,17,.12); }
+    .visual-head { display:flex; justify-content:space-between; gap:14px; align-items:start; margin-bottom:10px; }
+    .visual-head h3 { margin:3px 0 0; font-size:22px; }
+    .visual-head span:last-child { max-width:360px; color:var(--muted); text-align:right; }
+    .visual-why { margin:0 0 12px; color:#37322e; font-size:15px; }
+    .bar-board { display:grid; gap:12px; margin:14px 0; }
+    .bar-row { display:grid; grid-template-columns:minmax(0, 1.4fr) minmax(180px, 2fr) minmax(110px, .9fr); align-items:center; gap:14px; }
+    .bar-label, .bar-value { display:grid; gap:3px; }
+    .bar-label span, .bar-value span { color:var(--muted); font-size:12px; }
+    .bar-track { height:16px; border:1px solid var(--line-soft); background:#efe8da; position:relative; }
+    .bar-track i { display:block; height:100%; background:var(--red); }
+    .bar-track i.down { background:#4f4a43; }
+    .bar-value { text-align:right; }
+    .visual-card svg { display:block; width:100%; height:auto; border:1px solid var(--line-soft); background:#f7f4ec; }
+    .axis-label { fill:#514a43; font:700 12px Georgia, "Times New Roman", serif; }
+    .axis-title { fill:#111; font:900 12px Georgia, "Times New Roman", serif; text-transform:uppercase; letter-spacing:0; }
+    .axis-right { text-anchor:end; }
+    .axis-center { text-anchor:middle; }
+    .legend-grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:8px; margin-top:10px; }
+    .legend-grid div { display:grid; grid-template-columns:14px 1fr; gap:5px 8px; align-items:center; padding:8px; border:1px solid var(--line-soft); background:#eee7dc; }
+    .legend-grid i { width:12px; height:12px; display:block; }
+    .legend-grid b { font-size:13px; }
+    .legend-grid span { grid-column:2; color:var(--muted); font-size:12px; }
+    .chain-map { display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); border:1px solid var(--line); }
+    .chain-node { min-height:130px; padding:12px; border-right:1px solid var(--line); background:#ede5d8; }
+    .chain-node:last-child { border-right:0; }
+    .chain-node span { color:var(--red); font-weight:900; }
+    .chain-node b { display:block; margin:8px 0 5px; }
+    .deal-map { display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:0; border:1px solid var(--line); }
+    .deal-map div { min-height:110px; padding:12px; border-right:1px solid var(--line); background:#ede5d8; }
+    .deal-map div:last-child { border-right:0; }
+    .deal-map b { display:block; margin-bottom:6px; }
+    .parallel-detail p { margin:8px 0; }
+    .read-more { margin-top:14px; background:var(--soft); border-left:5px solid var(--red); }
+    .archive-card { margin-top:14px; }
+    .archive-head { display:flex; justify-content:space-between; gap:12px; align-items:start; }
+    .archive-open { text-decoration:none; }
+    .related-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:8px; margin-top:12px; }
+    .related-grid a { display:flex; justify-content:space-between; gap:10px; padding:10px; border:1px solid var(--line-soft); border-radius:0; background:var(--paper-2); font:800 12px Georgia, "Times New Roman", serif; text-decoration:none; }
+    .related-grid span { color:var(--muted); font-weight:700; }
+    .link-row { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; font-family: Georgia, "Times New Roman", serif; }
+    .link-row a { padding:7px 10px; border:1px solid var(--line); border-radius:0; background:#111; color:#f8f4ec; font-size:12px; font-weight:900; text-decoration:none; }
+    .link-row a:hover { background:var(--red); }
+    .review-box { display:flex; justify-content:space-between; gap:12px; padding:14px; margin:16px 0; border-radius:0; border:1px solid var(--line); background:var(--paper-2); font-family:Georgia, "Times New Roman", serif; }
+    .review-box.ok b { color:var(--green); }
+    .review-box.blocked b { color:var(--red); }
+    .highlight-composer {
+      position:fixed;
+      z-index:100;
+      width:min(380px, calc(100vw - 24px));
+      padding:12px;
+      border:1px solid #111;
+      border-left:5px solid var(--red);
+      background:var(--paper-2);
+      box-shadow:8px 8px 0 rgba(0,0,0,.35);
     }
-    .dek {
-      max-width: 850px;
-      margin: 0;
-      color: #efe8dc;
-      font-size: clamp(18px, 2vw, 25px);
+    .highlight-composer.hidden { display:none; }
+    .highlight-composer b { display:block; margin-bottom:6px; font-size:13px; }
+    .highlight-composer .quote { max-height:72px; overflow:auto; margin:0 0 8px; color:#34302b; font-size:14px; }
+    .highlight-composer textarea, .prompt-box textarea {
+      width:100%;
+      min-height:78px;
+      resize:vertical;
+      padding:10px;
+      border:1px solid #111;
+      border-radius:0;
+      background:#fffdf8;
+      color:#111;
+      font:16px Georgia, "Times New Roman", serif;
     }
-    .hero-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
-      max-width: 940px;
-      margin-top: 30px;
+    .composer-actions, .note-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+    .action-button {
+      padding:8px 10px;
+      border:1px solid #111;
+      border-radius:0;
+      background:#111;
+      color:#fff;
+      cursor:pointer;
+      font:900 12px Georgia, "Times New Roman", serif;
+      text-transform:uppercase;
     }
-    .hero-tile {
-      min-width: 0;
-      min-height: 74px;
-      padding: 13px 14px;
-      background: rgba(255,255,255,0.09);
-      border: 1px solid rgba(255,255,255,0.22);
-      border-radius: 7px;
+    .action-button.secondary { background:transparent; color:#111; }
+    .action-button:hover { background:var(--red); color:#fff; }
+    .note-card {
+      margin:14px 0;
+      padding:16px;
+      border:1px solid var(--line);
+      border-left:5px solid var(--red);
+      background:var(--paper-2);
+      box-shadow:5px 5px 0 rgba(17,17,17,.09);
     }
-    .hero-tile strong {
-      display: block;
-      font-size: clamp(25px, 2vw, 34px);
-      line-height: 1;
+    .note-card blockquote {
+      margin:10px 0;
+      padding:10px 12px;
+      border-left:4px solid #111;
+      background:var(--soft);
     }
-    .hero-tile span {
-      display: block;
-      margin-top: 8px;
-      color: #f0e7dc;
-      font: 800 10px/1.2 var(--font-sans);
-      letter-spacing: 0.02em;
-      text-transform: uppercase;
-    }
-
-    .source-card {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      gap: 18px;
-      padding: 21px 22px;
-      background: linear-gradient(180deg, var(--surface), var(--surface-2));
-      border: 1px solid var(--border);
-      border-top: 5px solid var(--accent);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-    }
-    .status-grid { display: grid; gap: 0; margin-top: 14px; }
-    .status {
-      display: grid;
-      grid-template-columns: 84px minmax(0, 1fr);
-      gap: 10px;
-      padding: 12px 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .status:first-child { padding-top: 0; }
-    .status:last-child { border-bottom: 0; padding-bottom: 0; }
-    .status b {
-      color: var(--muted);
-      font: 800 11px/1.25 var(--font-sans);
-      text-transform: uppercase;
-    }
-    .status span { font-size: 16px; line-height: 1.25; }
-    .actions { display: flex; flex-wrap: wrap; gap: 8px; }
-    .btn {
-      min-height: 34px;
-      padding: 9px 12px;
-      color: #fff;
-      background: var(--fg);
-      border: 1px solid var(--fg);
-      border-radius: 6px;
-      cursor: pointer;
-      font: 800 12px/1 var(--font-sans);
-      transition: transform 160ms ease, background 160ms ease;
-    }
-    .btn:hover { transform: translateY(-1px); }
-    .btn.secondary { color: var(--fg); background: transparent; }
-
-    .nav {
-      position: sticky;
-      top: 38px;
-      z-index: 40;
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      margin: 18px 0;
-      padding: 10px 12px;
-      overflow-x: auto;
-      color: #fff;
-      background: #101010;
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      scrollbar-width: thin;
-    }
-    .nav-title {
-      flex: 0 0 auto;
-      margin-right: 6px;
-      color: #c9c9c9;
-      font: 800 12px/1 var(--font-sans);
-      text-transform: uppercase;
-    }
-    .nav a {
-      flex: 0 0 auto;
-      padding: 9px 10px;
-      color: #f4f4f4;
-      border-radius: 5px;
-      font: 800 13px/1.1 var(--font-sans);
-      text-decoration: none;
-    }
-    .nav a.active, .nav a:hover { background: var(--accent); color: #fff; }
-
-    .stack { display: grid; gap: 18px; }
-    .section {
-      overflow: hidden;
-      scroll-margin-top: 96px;
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-    }
-    .section-head {
-      display: flex;
-      gap: 18px;
-      align-items: end;
-      justify-content: space-between;
-      padding: 18px 22px 14px;
-      background: linear-gradient(90deg, #fff, #f3efe8);
-      border-bottom: 1px solid var(--border);
-    }
-    h2 {
-      margin: 5px 0 0;
-      font-size: clamp(30px, 3vw, 46px);
-      line-height: 1.02;
-      letter-spacing: 0;
-    }
-    h3 {
-      margin: 0 0 8px;
-      font-size: clamp(21px, 1.6vw, 27px);
-      line-height: 1.1;
-    }
-    p { margin: 0 0 12px; }
-    .body { padding: 22px; }
-    .grid-2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; }
-    .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-    .grid-5 { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
-    .note { color: var(--muted); font-size: 14px; }
-    .sans { font-family: var(--font-sans); }
-    .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
-
-    .snapshot-card, .tile, .viz, .news-item, .read-card, .watch-card, .ai-card {
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 7px;
-    }
-    .snapshot-card {
-      min-height: 162px;
-      padding: 15px;
-      border-top: 4px solid var(--fg);
-    }
-    .snapshot-card b {
-      display: block;
-      margin-bottom: 9px;
-      color: var(--accent-dark);
-      font: 800 11px/1 var(--font-sans);
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
-    .snapshot-card strong {
-      display: block;
-      margin-bottom: 8px;
-      font-size: 18px;
-      line-height: 1.15;
-    }
-    .callout {
-      display: grid;
-      grid-template-columns: 1.1fr 1.9fr;
-      gap: 18px;
-      margin-bottom: 18px;
-      padding: 18px;
-      color: #fff;
-      background: var(--dark);
-      border-radius: 7px;
-    }
-    .callout .eyebrow { color: #dbcfc0; }
-    .callout p { color: #f3ece2; font-size: 20px; }
-
-    .market-board {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 10px;
-    }
-    .tile {
-      position: relative;
-      min-height: 104px;
-      padding: 13px 13px 13px 16px;
-      overflow: hidden;
-    }
-    .tile::before {
-      content: "";
-      position: absolute;
-      inset: 0 auto 0 0;
-      width: 4px;
-      background: var(--accent);
-    }
-    .label {
-      color: var(--muted);
-      font: 800 11px/1.2 var(--font-sans);
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-    .value {
-      margin-top: 9px;
-      font-size: clamp(24px, 2vw, 34px);
-      font-weight: 800;
-      line-height: 1;
-      font-variant-numeric: tabular-nums;
-    }
-    .move {
-      margin-top: 7px;
-      font: 800 12px/1 var(--font-sans);
-    }
-
-    .viz {
-      min-height: 310px;
-      padding: 14px;
-      overflow: hidden;
-    }
-    .viz-head {
-      display: flex;
-      gap: 12px;
-      justify-content: space-between;
-      margin-bottom: 12px;
-      color: var(--muted);
-      font: 800 12px/1.2 var(--font-sans);
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-    .axis { stroke: #91887e; stroke-width: 1; }
-    .grid { stroke: #e2dcd4; stroke-width: 1; }
-    .line-red { fill: none; stroke: var(--accent); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
-    .bar-red { fill: var(--accent); }
-    .bar-dark { fill: #555; }
-    .chart-label { fill: var(--muted); font: 800 11px Arial, sans-serif; }
-    .chart-number { fill: var(--fg); font: 800 12px Arial, sans-serif; }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 7px;
-      font-family: var(--font-sans);
-      font-size: 13px;
-      overflow: hidden;
-    }
-    th, td {
-      padding: 10px 9px;
-      border-bottom: 1px solid var(--border);
-      text-align: left;
-      vertical-align: top;
-    }
-    tr:last-child td { border-bottom: 0; }
-    th {
-      color: var(--muted);
-      background: #f8f6f1;
-      font-size: 11px;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-
-    .story {
-      position: relative;
-      padding: 3px 0 3px 16px;
-      margin-bottom: 18px;
-      border-left: 4px solid var(--accent);
-    }
-    .story:last-child { margin-bottom: 0; }
-    .meta {
-      margin-bottom: 7px;
-      color: var(--muted);
-      font: 800 11px/1.25 var(--font-sans);
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-    .news-list { display: grid; gap: 10px; }
-    .news-item { padding: 12px; }
-    .news-item a { font-weight: 800; }
-
-    .deal-tape, .watch-grid {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 8px;
-      margin-top: 14px;
-    }
-    .deal-step {
-      position: relative;
-      min-height: 92px;
-      padding: 13px;
-      color: #fff;
-      background: var(--dark);
-      border-radius: 7px;
-    }
-    .deal-step::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      right: -8px;
-      width: 16px;
-      height: 2px;
-      background: var(--accent);
-    }
-    .deal-step:last-child::after { display: none; }
-    .deal-step b {
-      display: block;
-      margin-bottom: 8px;
-      color: #d8d8d8;
-      font: 800 11px/1 var(--font-sans);
-      text-transform: uppercase;
-    }
-
-    .effect {
-      min-height: 150px;
-      padding: 15px;
-      color: #f7f7f7;
-      background: #171717;
-      border-radius: 7px;
-    }
-    .effect b {
-      display: block;
-      margin-bottom: 10px;
-      color: #ffd7db;
-      font: 800 12px/1 var(--font-sans);
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-    }
-
-    .ai-tabs {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 14px;
-    }
-    .tab {
-      min-height: 34px;
-      padding: 8px 11px;
-      color: var(--fg);
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      cursor: pointer;
-      font: 800 12px/1 var(--font-sans);
-    }
-    .tab[aria-selected="true"] {
-      color: #fff;
-      background: var(--accent);
-      border-color: var(--accent);
-    }
-    .ai-card { padding: 14px; min-height: 138px; }
-    .ai-card b {
-      display: block;
-      margin-bottom: 8px;
-      color: var(--accent-dark);
-      font: 800 11px/1 var(--font-sans);
-      text-transform: uppercase;
-    }
-
-    .read-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
-    .read-card, .watch-card { display: block; min-height: 122px; padding: 13px; text-decoration: none; }
-    .read-card b, .watch-card b {
-      display: block;
-      margin-bottom: 8px;
-      color: var(--accent-dark);
-      font: 800 11px/1 var(--font-sans);
-      text-transform: uppercase;
-    }
-    .source-note {
-      margin-top: 14px;
-      padding-top: 12px;
-      color: var(--muted);
-      border-top: 1px solid var(--border);
-      font: 12px/1.45 var(--font-sans);
-    }
-    .hidden { display: none !important; }
-    .copy-toast {
-      position: fixed;
-      right: 18px;
-      bottom: 18px;
-      z-index: 60;
-      padding: 10px 12px;
-      color: #fff;
-      background: var(--dark);
-      border-radius: 6px;
-      font: 800 12px/1 var(--font-sans);
-      opacity: 0;
-      transform: translateY(10px);
-      transition: opacity 180ms ease, transform 180ms ease;
-    }
-    .copy-toast.show { opacity: 1; transform: translateY(0); }
-
-    @media (max-width: 1180px) {
-      .page { width: min(100% - 28px, 980px); }
-      .masthead { grid-template-columns: 1fr; }
-      .market-board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .grid-5 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-      .deal-tape, .watch-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .deal-step::after { display: none; }
-    }
-
-    @media (max-width: 760px) {
-      body { background-size: 28px 28px; }
-      .page { width: min(100% - 24px, 520px); padding-top: 18px; }
-      .topbar { align-items: flex-start; }
-      .chip-row { width: 100%; }
-      .masthead, .grid-2, .grid-3, .grid-5, .market-board, .read-grid, .deal-tape, .watch-grid {
-        grid-template-columns: 1fr;
-      }
-      .hero { min-height: auto; padding: 20px; }
-      h1 { font-size: clamp(42px, 13vw, 58px); }
-      .dek { font-size: 18px; }
-      .hero-grid { grid-template-columns: 1fr; }
-      .source-card { padding: 20px; }
-      .status { grid-template-columns: 80px minmax(0, 1fr); }
-      .nav {
-        position: sticky;
-        top: 35px;
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: max-content;
-        overflow-x: auto;
-        align-items: center;
-      }
-      .nav-title { position: sticky; left: 0; z-index: 1; margin-right: 0; padding: 9px 8px 9px 0; background: #101010; }
-      .section-head { align-items: flex-start; flex-direction: column; padding: 18px 20px 14px; }
-      .body { padding: 20px; }
-      .callout { grid-template-columns: 1fr; padding: 16px; }
-      .callout p { font-size: 18px; }
-      .viz { min-height: 0; }
-      table { display: block; overflow-x: auto; white-space: normal; }
-      .ticker-item { padding-inline: 20px; }
-    }
-
-    @media print {
-      .ticker-shell, .nav, .actions, .copy-toast { display: none; }
-      .page { width: 100%; padding: 0; }
-      .section, .hero, .source-card { box-shadow: none; break-inside: avoid; }
-      body { background: #fff; }
-    }
+    .note-card .question { font-size:18px; }
+    .empty-notes { padding:18px; border:1px dashed var(--line); background:var(--soft); }
+    .prompt-box { margin-top:12px; }
+    .prompt-box.hidden { display:none; }
+    .copy-status { align-self:center; color:var(--green); font-size:13px; font-weight:900; }
+    @media (max-width: 920px) { .tabs { position:static; justify-content:flex-start; } .tabs a { flex:0 0 auto; } .section-menu { flex:0 0 auto; } .section-menu-panel { left:auto; right:0; grid-template-columns:1fr; width:min(340px, calc(100vw - 24px)); } .section-menu-panel section { border-right:0; border-bottom:1px solid #3a3a3a; } .section-menu-panel section:last-child { border-bottom:0; } .summary-grid, .theme-grid, .insight-grid, .related-grid, .legend-grid, .chain-map, .deal-map, .watch-strip, .watch-grid { grid-template-columns:1fr; } .chain-node, .deal-map div { border-right:0; border-bottom:1px solid var(--line); } .chain-node:last-child, .deal-map div:last-child { border-bottom:0; } .visual-head { flex-direction:column; } .visual-head span:last-child { text-align:left; } .watch-price-row { flex-direction:column; align-items:start; } .story-summary, .narrative-section p { font-size:16px; } .bar-row { grid-template-columns:1fr; } .bar-value { text-align:left; } }
+    @media (max-width: 640px) { .shell { width:min(100% - 20px, 1240px); } .panel { padding:18px; } .topbar, .panel-head { flex-direction:column; } h1 { font-size:34px; } }
   </style>
 </head>
 <body>
-  <div class="ticker-shell" aria-label="Issue reference market tape">
-    <div class="ticker">
-      <div class="ticker-item"><span>S&amp;P 500</span><span>7,582.46</span><span class="up">+0.25%</span></div>
-      <div class="ticker-item"><span>Dow</span><span>51,042.72</span><span class="up">+0.74%</span></div>
-      <div class="ticker-item"><span>Nasdaq 100</span><span>30,296.43</span><span class="up">+0.24%</span></div>
-      <div class="ticker-item"><span>10Y UST</span><span>4.453%</span><span class="flat">Yahoo delayed</span></div>
-      <div class="ticker-item"><span>30Y UST</span><span>4.993%</span><span class="up">+0.16%</span></div>
-      <div class="ticker-item"><span>WTI</span><span>87.53</span><span class="down">-1.54%</span></div>
-      <div class="ticker-item"><span>Gold</span><span>4,589.90</span><span class="up">+2.01%</span></div>
-      <div class="ticker-item"><span>NVDA</span><span>216.89</span><span class="up">+1.23%</span></div>
-      <div class="ticker-item"><span>MKC</span><span>47.50</span><span class="up">+1.43%</span></div>
-      <div class="ticker-item"><span>XLF</span><span>51.64</span><span class="up">+0.72%</span></div>
-      <div class="ticker-item"><span>XLK</span><span>190.53</span><span class="up">+1.97%</span></div>
-      <div class="ticker-item"><span>XLP</span><span>83.16</span><span class="down">-1.51%</span></div>
-    </div>
+  <div class="ticker">
+    <span>Focused tape: 3-5 items max</span>
+    <span>No source, no claim</span>
+    <span>Freshness: FUTURE</span>
+    <span>Review: APPROVED</span>
   </div>
-
-  <main class="page">
+  <main class="shell">
     <div class="topbar">
-      <div class="brand-mark">Mihir Market Brief</div>
-      <div class="chip-row" aria-label="Issue metadata">
-        <span class="chip">Fri, May 29, 2026</span>
-        <span class="chip">Afternoon brief</span>
-        <span class="chip">6-8 min read</span>
-        <span class="chip red">Public-source issue</span>
+      <div class="brand">The Opening Ledger</div>
+      <div class="topbar-tools">
+        <span class="chip">2026-05-29</span>
+        <span class="chip">Generated edition</span>
+        <a class="chip archive-open" href="../archive.html">Archive</a>
+        <select class="issue-jump" aria-label="Open past issue" onchange="if (this.value) location.href=this.value;">
+          <option value="latest.html">Latest issue</option>
+          <option value="2026-05-30.html">2026-05-30 - Quiet Tape, Clean Sources</option><option value="2026-05-29.html" selected>2026-05-29 - Blue Owl direct-lending earnings keep private credit in focus</option><option value="2026-05-28.html">2026-05-28 - Dell AI server demand starts to matter for the infrastructure trade</option><option value="2026-05-27.html">2026-05-27 - Sponsor appetite looks selective rather than shut</option><option value="2026-05-26.html">2026-05-26 - Private credit still looks open, but sponsors do not get a free pass</option>
+        </select>
       </div>
     </div>
-
-    <header class="masthead">
-      <section class="hero" aria-labelledby="page-title">
-        <div class="eyebrow">Website prototype | Banker-ready morning packet</div>
-        <h1 id="page-title">PCE Heat Meets AI Breadth</h1>
-        <p class="dek">Stocks are pressing record territory as AI infrastructure demand broadens, but April PCE and the near-5% long bond keep financing assumptions on a short leash.</p>
-        <div class="hero-grid">
-          <div class="hero-tile"><strong>3.8%</strong><span>Headline PCE y/y</span></div>
-          <div class="hero-tile"><strong>4.99%</strong><span>30Y yield reference</span></div>
-          <div class="hero-tile"><strong>MKC</strong><span>Activist / M&amp;A case</span></div>
-        </div>
-      </section>
-
-      <aside class="source-card" aria-label="Source discipline">
-        <div>
-          <div class="eyebrow">Source Discipline</div>
-          <div class="status-grid">
-            <div class="status"><b>Data</b><span>Public issue references and delayed/free-source labels</span></div>
-            <div class="status"><b>News</b><span>Free/public coverage and serious outlet importance checks</span></div>
-            <div class="status"><b>Rule</b><span>Separate sourced facts from interpretation</span></div>
-            <div class="status"><b>Updated</b><span>May 29, 2026 at 3:30 PM ET</span></div>
-          </div>
-        </div>
-        <div class="actions">
-          <button class="btn" type="button" id="copySummary">Copy summary</button>
-          <button class="btn secondary" type="button" data-toggle="source-details">Source notes</button>
-          <button class="btn secondary" type="button" onclick="window.print()">Print</button>
-        </div>
-      </aside>
-    </header>
-
-    <nav class="nav" aria-label="Newsletter sections">
-      <div class="nav-title">Sections</div>
-      <a href="#snapshot">Snapshot</a>
-      <a href="#markets">Market Board</a>
-      <a href="#overnight">Overnight</a>
-      <a href="#deal">Deal Watch</a>
-      <a href="#macro">Macro Desk</a>
-      <a href="#company">Company Lens</a>
-      <a href="#ai">AI Watch</a>
-      <a href="#learning">IB Learning</a>
-      <a href="#watch">Watch Next</a>
-      <a href="#sources">Sources</a>
-    </nav>
-
-    <div class="stack">
-      <section class="section" id="snapshot">
-        <div class="section-head">
-          <div><div class="eyebrow">Executive Snapshot</div><h2>Today's Read</h2></div>
-          <span class="chip red">Risk-on, inflation-capped</span>
-        </div>
-        <div class="body">
-          <div class="callout">
-            <div>
-              <div class="eyebrow">Spine</div>
-              <h3>Not a news recap. A market judgment brief.</h3>
-            </div>
-            <p>Connect inflation, equity tone, M&amp;A risk, sector capex, and deal structure into one banker-readable market view.</p>
-          </div>
-          <div class="grid-5">
-            <article class="snapshot-card"><b>Inflation</b><strong>BEA: April PCE +0.4% m/m, +3.8% y/y.</strong><p>Core PCE rose 0.2% monthly and 3.3% yearly, keeping the Fed-sensitive inflation debate alive even as equities rally.</p></article>
-            <article class="snapshot-card"><b>Equities</b><strong>Major indexes are higher intraday.</strong><p>CNBC said all three major averages hit fresh intraday highs Friday, with tech again leading the May advance.</p></article>
-            <article class="snapshot-card"><b>Rates</b><strong>10Y near 4.45%; 30Y near 4.99%.</strong><p>The long end is below last week's 5.10% stress print but still high enough to pressure DCFs, LBO math, and capex-heavy stories.</p></article>
-            <article class="snapshot-card"><b>AI / Capex</b><strong>Dell turns AI demand into hard revenue.</strong><p>CNBC reported Dell shares up roughly 32% after AI server revenue rose 757% year over year to $16.1B.</p></article>
-            <article class="snapshot-card"><b>Deal Watch</b><strong>McCormick has an activist overhang.</strong><p>Reuters reported Toms Capital built a stake while McCormick works through its Unilever Foods combination.</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="markets">
-        <div class="section-head">
-          <div><div class="eyebrow">Market Board</div><h2>Fast Tape Read</h2></div>
-          <span class="chip red">Delayed public data</span>
-        </div>
-        <div class="body">
-          <div class="market-board">
-            <div class="tile"><div class="label">S&amp;P 500</div><div class="value">7,582.46</div><div class="move up">+0.25% intraday</div></div>
-            <div class="tile"><div class="label">Dow</div><div class="value">51,042.72</div><div class="move up">+0.74% intraday</div></div>
-            <div class="tile"><div class="label">Nasdaq 100</div><div class="value">30,296.43</div><div class="move up">+0.24% intraday</div></div>
-            <div class="tile"><div class="label">10Y Treasury</div><div class="value">4.453%</div><div class="move flat">Yahoo delayed</div></div>
-            <div class="tile"><div class="label">30Y Treasury</div><div class="value">4.993%</div><div class="move up">+0.16% intraday</div></div>
-            <div class="tile"><div class="label">WTI crude</div><div class="value">$87.53</div><div class="move down">-1.54% delayed</div></div>
-            <div class="tile"><div class="label">Gold</div><div class="value">$4,589.90</div><div class="move up">+2.01% delayed</div></div>
-            <div class="tile"><div class="label">NVDA</div><div class="value">$216.89</div><div class="move up">+1.23% intraday</div></div>
-            <div class="tile"><div class="label">MKC</div><div class="value">$47.50</div><div class="move up">+1.43% intraday</div></div>
-            <div class="tile"><div class="label">Risk temperature</div><div class="value">Open</div><div class="move flat">But PCE-capped</div></div>
-          </div>
-          <div class="grid-2" style="margin-top:16px">
-            <div class="viz">
-              <div class="viz-head"><span>Treasury pressure</span><span>May 29 delayed references</span></div>
-              <svg viewBox="0 0 620 300" role="img" aria-label="Treasury yield curve">
-                <line x1="70" y1="240" x2="565" y2="240" class="axis"/><line x1="70" y1="48" x2="70" y2="240" class="axis"/>
-                <line x1="70" y1="91" x2="565" y2="91" class="grid"/><line x1="70" y1="165" x2="565" y2="165" class="grid"/>
-                <polyline points="82,208 188,194 300,162 410,91 525,94" class="line-red"/>
-                <g>
-                  <circle cx="82" cy="208" r="5" fill="#b31925"/><text x="69" y="252" class="chart-label">2Y</text><text x="67" y="192" class="chart-number">4.05</text>
-                  <circle cx="188" cy="194" r="5" fill="#b31925"/><text x="175" y="252" class="chart-label">5Y</text><text x="173" y="178" class="chart-number">4.16</text>
-                  <circle cx="300" cy="162" r="5" fill="#b31925"/><text x="286" y="252" class="chart-label">10Y</text><text x="285" y="146" class="chart-number">4.45</text>
-                  <circle cx="410" cy="91" r="5" fill="#b31925"/><text x="396" y="252" class="chart-label">20Y</text><text x="395" y="75" class="chart-number">4.94</text>
-                  <circle cx="525" cy="94" r="5" fill="#b31925"/><text x="511" y="252" class="chart-label">30Y</text><text x="510" y="78" class="chart-number">4.99</text>
-                </g>
-              </svg>
-              <p class="note">Why it matters: the long end drives DCF pressure, LBO capacity, housing affordability, utility capex, and duration-sensitive equity multiples.</p>
-            </div>
-            <div class="viz">
-              <div class="viz-head"><span>Risk movers</span><span>May 29 delayed</span></div>
-              <svg viewBox="0 0 620 300" role="img" aria-label="Watched market movers">
-                <line x1="148" y1="35" x2="148" y2="255" class="axis"/>
-                <text x="42" y="66" class="chart-label">XLK</text><rect x="148" y="52" width="176" height="20" class="bar-dark"/><text x="338" y="67" class="chart-number">+1.97%</text>
-                <text x="42" y="103" class="chart-label">MKC</text><rect x="148" y="89" width="128" height="20" class="bar-dark"/><text x="290" y="104" class="chart-number">+1.43%</text>
-                <text x="42" y="140" class="chart-label">NVDA</text><rect x="148" y="126" width="110" height="20" class="bar-dark"/><text x="272" y="141" class="chart-number">+1.23%</text>
-                <text x="42" y="177" class="chart-label">Dow</text><rect x="148" y="163" width="66" height="20" class="bar-dark"/><text x="228" y="178" class="chart-number">+0.74%</text>
-                <text x="42" y="214" class="chart-label">WTI</text><rect x="10" y="200" width="138" height="20" class="bar-red"/><text x="226" y="215" class="chart-number">-1.54%</text>
-                <text x="42" y="251" class="chart-label">XLP</text><rect x="13" y="237" width="135" height="20" class="bar-red"/><text x="226" y="252" class="chart-number">-1.51%</text>
-              </svg>
-              <p class="note">Use as directional context, not gospel. Free or delayed references must be paired with story verification.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="overnight">
-        <div class="section-head">
-          <div><div class="eyebrow">What Moved Overnight</div><h2>Three Moves That Matter</h2></div>
-          <span class="chip">First and second order</span>
-        </div>
-        <div class="body grid-2">
-          <div>
-            <article class="story"><div class="meta">1 / Inflation</div><h3>PCE is not letting the Fed fade the war-price shock yet.</h3><p><strong>What happened:</strong> BEA said April PCE rose 0.4% month over month and 3.8% year over year; core PCE rose 0.2% and 3.3%, respectively.</p><p><strong>Banking read:</strong> the monthly core print is manageable, but the headline year-over-year number and energy sensitivity still matter for debt pricing and rate-cut assumptions.</p></article>
-            <article class="story"><div class="meta">2 / Equity tone</div><h3>Risk appetite is broadening beyond the chip tape.</h3><p>CNBC reported stocks rose Friday, crude slipped, and all three major indexes touched fresh intraday highs, with Dell, Micron, Qualcomm, and XLK extending the AI infrastructure trade.</p><p><strong>Second order:</strong> broader AI hardware demand can support ECM and convertibles, but it also raises input-cost and supply-chain inflation risks.</p></article>
-            <article class="story"><div class="meta">3 / M&amp;A governance</div><h3>Activism is attaching to strategic-deal risk.</h3><p>Reuters reported Toms Capital built a significant McCormick stake after the Unilever Foods deal was announced; the stake size and intended push were not clear.</p><p><strong>Second order:</strong> activist pressure can force faster synergy proof, tighter closing communication, and a clearer answer on whether the Reverse Morris Trust complexity is worth the scale.</p></article>
-          </div>
-          <div class="news-list">
-            <div class="news-item"><div class="meta">Macro / BEA</div><a href="https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026" target="_blank" rel="noreferrer">Personal Income and Outlays, April 2026</a></div>
-            <div class="news-item"><div class="meta">Markets / CNBC</div><a href="https://www.cnbc.com/2026/05/28/stock-market-today-live-updates.html" target="_blank" rel="noreferrer">Stocks add to May gains Friday with tech leading again</a></div>
-            <div class="news-item"><div class="meta">AI / CNBC</div><a href="https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html" target="_blank" rel="noreferrer">Dell stock jumps as AI server revenue soars</a></div>
-            <div class="news-item"><div class="meta">M&amp;A / Reuters</div><a href="https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/" target="_blank" rel="noreferrer">Toms Capital builds McCormick stake amid Unilever Foods deal</a></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="deal">
-        <div class="section-head">
-          <div><div class="eyebrow">Deal Watch</div><h2>McCormick's $44.8B Food Deal Gets An Activist Overlay</h2></div>
-          <span class="chip red">Live M&amp;A / activist case</span>
-        </div>
-        <div class="body">
-          <div class="grid-2">
-            <div>
-              <p><strong>Why this deal:</strong> McCormick's planned combination with Unilever Foods is now a live M&amp;A governance case: strategic scale, tax-efficient structure, long closing timeline, investor pressure, and activist optionality in one file.</p>
-              <table>
-                <thead><tr><th>Item</th><th>Detail</th></tr></thead>
-                <tbody>
-                  <tr><td>Situation</td><td>McCormick agreed to combine with Unilever Foods, excluding India and other excluded businesses.</td></tr>
-                  <tr><td>Value</td><td>Company releases describe a $44.8B enterprise value for Unilever Foods, or about 13.8x FY2025 EBITDA.</td></tr>
-                  <tr><td>Consideration</td><td>Unilever and shareholders receive 65.0% of fully diluted combined equity; Unilever also receives $15.7B cash.</td></tr>
-                  <tr><td>Activist angle</td><td>Reuters reported Toms Capital built a significant McCormick stake; size and requested changes were not determined.</td></tr>
-                  <tr><td>Closing risk</td><td>Completion expected by mid-2027, subject to McCormick shareholder approval and regulatory approvals.</td></tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="viz">
-              <div class="viz-head"><span>Deal mechanics map</span><span>Structure lens</span></div>
-              <svg viewBox="0 0 620 300" role="img" aria-label="Deal mechanics map">
-                <rect x="28" y="48" width="142" height="82" rx="7" fill="#111"/><text x="52" y="80" fill="#fff" font-family="Arial" font-weight="700">Buyer</text><text x="52" y="104" fill="#ddd" font-family="Arial" font-size="13">McCormick</text>
-                <rect x="240" y="48" width="142" height="82" rx="7" fill="#b31925"/><text x="264" y="80" fill="#fff" font-family="Arial" font-weight="700">Asset</text><text x="264" y="104" fill="#ffe5e8" font-family="Arial" font-size="13">Unilever Foods</text>
-                <rect x="450" y="48" width="142" height="82" rx="7" fill="#555"/><text x="474" y="80" fill="#fff" font-family="Arial" font-weight="700">Overlay</text><text x="474" y="104" fill="#eee" font-family="Arial" font-size="13">Toms Capital</text>
-                <path d="M170 90 H240" class="line-red"/><path d="M382 90 H450" class="line-red"/>
-                <rect x="55" y="188" width="510" height="52" rx="7" fill="#f7f5f0" stroke="#d2cdc5"/>
-                <text x="78" y="218" class="chart-number">Banking question: scale logic or integration/closing discount?</text>
-              </svg>
-            </div>
-          </div>
-          <div class="deal-tape">
-            <div class="deal-step"><b>Announced</b>Reverse Morris Trust-style combination.</div>
-            <div class="deal-step"><b>Value</b>$44.8B Unilever Foods enterprise value.</div>
-            <div class="deal-step"><b>Approve</b>McCormick shareholder and regulatory approvals.</div>
-            <div class="deal-step"><b>Activist</b>Watch Toms Capital's asks and timing.</div>
-            <div class="deal-step"><b>Read-through</b>Consumer staples scale M&amp;A and break-up pressure.</div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="macro">
-        <div class="section-head">
-          <div><div class="eyebrow">Macro Desk</div><h2>PCE Keeps The Cost Of Capital Conversation Alive</h2></div>
-          <span class="chip">Banking transmission</span>
-        </div>
-        <div class="body">
-          <div class="grid-3">
-            <div class="effect"><b>First order</b>Headline PCE at 3.8% y/y keeps the Fed cautious, even though the core monthly gain at 0.2% is less alarming.</div>
-            <div class="effect"><b>Second order</b>Oil relief helps the next inflation impulse, but supply-chain and AI hardware shortages can move pricing pressure into tech capex.</div>
-            <div class="effect"><b>Banking angle</b>Equity windows are open, but debt-funded M&amp;A and sponsor math still need downside cases for rates near the high-4% long end.</div>
-          </div>
-          <div style="margin-top:14px">
-            <table>
-              <thead><tr><th>Area</th><th>Effect</th></tr></thead>
-              <tbody>
-                <tr><td>Valuation</td><td>Long-duration growth still gets support from AI demand, but the discount rate is not benign.</td></tr>
-                <tr><td>LBOs</td><td>Higher all-in financing costs keep leverage capacity and exit multiple assumptions constrained.</td></tr>
-                <tr><td>ECM / DCM</td><td>AI hardware winners can access capital; lower-quality issuers still need clearer use-of-proceeds and pricing cushion.</td></tr>
-                <tr><td>Sectors</td><td>Tech hardware and infrastructure lead; staples face deal execution scrutiny; energy trades on Iran/Hormuz headlines.</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="company">
-        <div class="section-head">
-          <div><div class="eyebrow">Company / Sector Lens</div><h2>AI Infrastructure Broadens From Chips To Systems</h2></div>
-          <span class="chip red">Dell / Nvidia / memory watch</span>
-        </div>
-        <div class="body grid-2">
-          <div>
-            <p><strong>Thesis:</strong> Dell's quarter matters because it turns the AI story from GPU scarcity into full-stack infrastructure demand: servers, memory, networking, cloud customers, sovereign clients, and enterprise deployment.</p>
-            <table>
-              <thead><tr><th>Public lens</th><th>Why it matters</th></tr></thead>
-              <tbody>
-                <tr><td>Dell print</td><td>Revenue up nearly 88% y/y; AI server revenue up 757% to $16.1B, per CNBC.</td></tr>
-                <tr><td>Nvidia read-through</td><td>GPU demand is still the center of the stack, but hyperscaler ASIC efforts and system integration matter more.</td></tr>
-                <tr><td>Banking read</td><td>Expect more capital markets work around data centers, power, memory supply, infrastructure financing, and AI-adjacent M&amp;A.</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="viz">
-            <div class="viz-head"><span>AI infrastructure chain</span><span>Investment read-through</span></div>
-            <svg viewBox="0 0 620 300" role="img" aria-label="AI infrastructure chain">
-              <path d="M60 155 C150 60, 250 60, 310 155 S470 250, 560 155" fill="none" stroke="#d2cdc5" stroke-width="16" stroke-linecap="round"/>
-              <path d="M60 155 C150 60, 250 60, 310 155 S470 250, 560 155" fill="none" stroke="#b31925" stroke-width="5" stroke-linecap="round"/>
-              <g font-family="Arial" font-size="13" font-weight="700" fill="#111">
-                <circle cx="60" cy="155" r="24" fill="#111"/><text x="39" y="205">Models</text>
-                <circle cx="185" cy="86" r="24" fill="#b31925"/><text x="166" y="48">Chips</text>
-                <circle cx="310" cy="155" r="24" fill="#555"/><text x="285" y="205">Cloud</text>
-                <circle cx="435" cy="224" r="24" fill="#b31925"/><text x="394" y="270">Data centers</text>
-                <circle cx="560" cy="155" r="24" fill="#111"/><text x="540" y="205">Power</text>
-              </g>
-            </svg>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="ai">
-        <div class="section-head">
-          <div><div class="eyebrow">AI Watch</div><h2>Filter AI News Like A Banker</h2></div>
-          <span class="chip">Recurring section</span>
-        </div>
-        <div class="body">
-          <div class="ai-tabs" role="tablist" aria-label="AI watch filters">
-            <button class="tab" type="button" aria-selected="true" data-ai-filter="all">All</button>
-            <button class="tab" type="button" aria-selected="false" data-ai-filter="capex">Capex</button>
-            <button class="tab" type="button" aria-selected="false" data-ai-filter="monetization">Monetization</button>
-            <button class="tab" type="button" aria-selected="false" data-ai-filter="regulation">Regulation</button>
-          </div>
-          <div class="grid-3" id="aiCards">
-            <article class="ai-card" data-ai-topic="monetization"><b>Model / platform news</b><p>Major launches, pricing, and enterprise adoption show where value may accrue across application vs infrastructure layers.</p></article>
-            <article class="ai-card" data-ai-topic="capex"><b>Semis and compute</b><p>Nvidia, AMD, memory, networking, and supply constraints drive read-throughs to margins and AI infrastructure financing.</p></article>
-            <article class="ai-card" data-ai-topic="capex"><b>Hyperscaler capex</b><p>Microsoft, Amazon, Google, Meta, and Oracle spending determines durability of data-center, power, and chip demand.</p></article>
-            <article class="ai-card" data-ai-topic="regulation"><b>Regulation / IP / safety</b><p>Copyright, data rules, model governance, and antitrust can reshape winners, costs, and exit paths.</p></article>
-            <article class="ai-card" data-ai-topic="monetization"><b>Enterprise adoption</b><p>Productivity tools, vertical AI, and workflow automation separate real revenue adoption from demos.</p></article>
-            <article class="ai-card" data-ai-topic="capex"><b>Banking question</b><p>Is the news product, capex, regulation, monetization, M&amp;A, IPO readiness, financing, partnership, or valuation?</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="learning">
-        <div class="section-head">
-          <div><div class="eyebrow">IB Learning Corner</div><h2>How To Read Activism Around A Pending Deal</h2></div>
-          <span class="chip">Daily skill builder</span>
-        </div>
-        <div class="body grid-2">
-          <div>
-            <p>Activism around a pending transaction is not automatically a hostile campaign. It can be a public fight, a private engagement, a push for faster closing, a demand for divestitures, or simply leverage to improve disclosure and execution commitments.</p>
-            <p>For McCormick, the core banker question is whether the Unilever Foods combination creates enough scale and synergy value to offset dilution, regulatory timing, integration risk, and shareholder fatigue before the expected mid-2027 close.</p>
-          </div>
-          <div class="viz">
-            <div class="viz-head"><span>Activist deal read</span><span>Conceptual, not deal guidance</span></div>
-            <svg viewBox="0 0 620 300" role="img" aria-label="Activist deal interpretation">
-              <line x1="80" y1="240" x2="550" y2="240" class="axis"/><line x1="80" y1="48" x2="80" y2="240" class="axis"/>
-              <rect x="130" y="82" width="80" height="158" class="bar-dark"/><text x="116" y="70" class="chart-number">Deal logic</text><text x="118" y="266" class="chart-label">Strategic</text>
-              <rect x="270" y="122" width="80" height="118" class="bar-red"/><text x="254" y="110" class="chart-number">Closing risk</text><text x="263" y="266" class="chart-label">Timing</text>
-              <rect x="410" y="154" width="80" height="86" class="bar-dark"/><text x="394" y="142" class="chart-number">Activist ask</text><text x="410" y="266" class="chart-label">Pressure</text>
-            </svg>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="watch">
-        <div class="section-head">
-          <div><div class="eyebrow">What To Watch Next</div><h2>Forward Calendar For Analysts</h2></div>
-          <span class="chip red">Monitor, do not overfit</span>
-        </div>
-        <div class="body">
-          <div class="watch-grid">
-            <div class="watch-card"><b>May jobs and next PCE</b>Rate-cut path and curve pressure.</div>
-            <div class="watch-card"><b>10Y / 30Y yields</b>Financing and valuation benchmark for DCFs and LBOs.</div>
-            <div class="watch-card"><b>Iran / Hormuz headlines</b>Oil, inflation, and transport/energy rotation.</div>
-            <div class="watch-card"><b>McCormick investor reaction</b>Activist asks, shareholder vote math, and closing timetable.</div>
-            <div class="watch-card"><b>Dell AI backlog</b>Whether AI server demand converts into sustainable margin.</div>
-            <div class="watch-card"><b>Memory-chip supply</b>Second-order inflation in AI hardware.</div>
-            <div class="watch-card"><b>HY / IG spreads</b>Read on M&amp;A financing window.</div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="sources">
-        <div class="section-head">
-          <div><div class="eyebrow">Source And Verification Footer</div><h2>How This Brief Should Be Used</h2></div>
-          <button class="btn secondary" type="button" data-toggle="source-details">Toggle detail</button>
-        </div>
-        <div class="body">
-          <div id="source-details">
-            <p><strong>Market data:</strong> Yahoo Finance delayed public chart references for indexes, Treasury proxies, commodities, and selected equities. Snapshot captured around 3:30 PM ET on May 29, 2026.</p>
-            <p><strong>News:</strong> BEA, Reuters, CNBC, McCormick, Unilever, Yahoo Finance, and public search snippets were used for factual claims. CNBC notes market data can be delayed at least 15 minutes.</p>
-            <p><strong>Importance check:</strong> CNBC and Reuters market snippets both framed PCE, AI leadership, oil/Iran risk, and record equity levels as top market themes; WSJ/NYT snippets validated the original scale of the McCormick/Unilever combination.</p>
-            <p><strong>Professional quote policy:</strong> use direct public executive, economist, or strategist quotes only when sourceable. Label rumors explicitly and do not build core conclusions from them.</p>
-          </div>
-          <p class="source-note">No fake live feed is presented here. Values are delayed or latest public-reference values and should be rechecked before trading, quoting, or external publication.</p>
-          <div class="news-list" style="margin-top:16px">
-            <div class="news-item"><div class="meta">Market data</div><a href="https://finance.yahoo.com/" target="_blank" rel="noreferrer">Yahoo Finance delayed chart references</a></div>
-            <div class="news-item"><div class="meta">Inflation source</div><a href="https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026" target="_blank" rel="noreferrer">BEA April Personal Income and Outlays</a></div>
-            <div class="news-item"><div class="meta">Markets validation</div><a href="https://www.cnbc.com/2026/05/28/stock-market-today-live-updates.html" target="_blank" rel="noreferrer">CNBC stock-market live updates</a></div>
-            <div class="news-item"><div class="meta">Deal source</div><a href="https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent" target="_blank" rel="noreferrer">McCormick transaction release</a></div>
-            <div class="news-item"><div class="meta">Activist validation</div><a href="https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/" target="_blank" rel="noreferrer">Reuters Toms Capital / McCormick report</a></div>
-          </div>
-        </div>
-      </section>
+    <nav class="tabs" aria-label="Brief pages">
+    <a class="active" href="../index.html">Overview</a><a class="" href="../moves.html">Market Watch</a><a class="" href="../macro.html">Macro Environment</a><a class="" href="../markets.html">Markets</a><a class="" href="../deals.html">Deals</a><a class="" href="../private-markets.html">Private Markets</a>
+    <div class="section-menu" data-section-menu>
+      <button class="section-menu-trigger" type="button" aria-expanded="false">All Sections</button>
+      <div class="section-menu-panel" hidden>
+        <section>
+          <b>Read</b>
+          <a class="active" href="../index.html">Overview</a><a class="" href="../deep-dive.html">Deep Dive</a><a class="" href="../themes.html">Themes</a>
+        </section><section>
+          <b>Markets</b>
+          <a class="" href="../moves.html">Market Watch</a><a class="" href="../macro.html">Macro Environment</a><a class="" href="../markets.html">Markets</a><a class="" href="../deals.html">Deals</a><a class="" href="../private-markets.html">Private Markets</a>
+        </section><section>
+          <b>Research</b>
+          <a class="" href="../sources.html">Sources</a><a class="" href="../archive.html">Archive</a><a class="" href="../notes.html">Notes / Questions</a>
+        </section>
+      </div>
     </div>
+  </nav>
+    <div class="workspace"><section class="panel">
+    <div class="panel-head"><div><span class="eyebrow">Today at a glance</span><h1>Blue Owl direct-lending earnings keep private credit in focus</h1></div><span class="chip">5 selected</span></div>
+    <p class="lede">A selective banker-grade read of the few fresh items with enough evidence to support real analysis.</p>
+    <div class="summary-grid"><a class="summary-card" href="../private-markets.html#privateCredit-1">
+        <span class="meta">Move 1</span>
+        <b>Blue Owl direct-lending earnings keep private credit in focus</b>
+        <p>Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite.</p>
+      </a><a class="summary-card" href="../private-markets.html#privateEquity-1">
+        <span class="meta">Move 2</span>
+        <b>KKR signs Healthium acquisition as sponsor deal activity tests the exit window</b>
+        <p>A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough.</p>
+      </a><a class="summary-card" href="../macro.html#macro-1">
+        <span class="meta">Move 3</span>
+        <b>Personal Income and Outlays, April 2026</b>
+        <p>The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.</p>
+      </a><a class="summary-card" href="../markets.html#markets-1">
+        <span class="meta">Move 4</span>
+        <b>Dell stock jumps as AI server revenue surges</b>
+        <p>The 757% AI-server revenue growth gave investors a concrete number showing that AI spending is reaching servers, memory, networking, and enterprise systems.</p>
+      </a><a class="summary-card" href="../deals.html#deals-1">
+        <span class="meta">Move 5</span>
+        <b>Toms Capital builds McCormick stake amid Unilever Foods deal</b>
+        <p>Activist pressure can force management to defend the deal more clearly: the synergy case, timing, leverage, and why this is better than other uses of capital.</p>
+      </a></div>
+  </section>
+  <section class="panel compact">
+    <div class="panel-head"><div><span class="eyebrow">Section Tape</span><h2>Macro, Markets, Deals, Private Markets</h2></div></div>
+    <div class="summary-grid">
+      <a class="summary-card" href="../macro.html">
+          <span class="meta">1 selected</span>
+          <b>Macro Environment</b>
+          <p>The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.</p>
+        </a><a class="summary-card" href="../markets.html">
+          <span class="meta">1 selected</span>
+          <b>Markets</b>
+          <p>The 757% AI-server revenue growth gave investors a concrete number showing that AI spending is reaching servers, memory, networking, and enterprise systems.</p>
+        </a><a class="summary-card" href="../deals.html">
+          <span class="meta">1 selected</span>
+          <b>Deals</b>
+          <p>Activist pressure can force management to defend the deal more clearly: the synergy case, timing, leverage, and why this is better than other uses of capital.</p>
+        </a><a class="summary-card" href="../private-markets.html">
+          <span class="meta">2 selected</span>
+          <b>Private Markets</b>
+          <p>Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite.</p>
+        </a>
+    </div>
+  </section>
+  <section class="panel compact">
+    <div class="panel-head"><div><span class="eyebrow">Continuing Stories</span><h2>Updates From Earlier Issues</h2></div></div>
+    <div class="summary-grid">
+      <a class="summary-card" href="../macro.html#macro-1">
+        <span class="meta">Stronger evidence</span>
+        <b>Rates and cost of capital</b>
+        <p>This updates the rates and cost of capital thread from 2026-05-28. The new item adds fresh source evidence and shifts the read toward today&#39;s specific market/deal question.</p>
+      </a><a class="summary-card" href="../markets.html#markets-1">
+        <span class="meta">Developing</span>
+        <b>AI infrastructure buildout</b>
+        <p>This updates the ai infrastructure buildout thread from 2026-05-28. The new item adds fresh source evidence and shifts the read toward today&#39;s specific market/deal question.</p>
+      </a>
+    </div>
+  </section>
+  <section class="panel compact">
+    <div class="panel-head"><div><span class="eyebrow">How to read it</span><h2>Simple Rule</h2></div></div>
+    <p>The brief should help you answer three questions: what changed, why it matters, and what it means for valuation, financing, or deals.</p>
+  </section></div>
   </main>
-
-  <div class="copy-toast" id="copyToast" role="status" aria-live="polite">Summary copied</div>
-
+  <div id="highlightComposer" class="highlight-composer hidden" role="dialog" aria-label="Save highlighted question">
+    <b>Add a question about this highlight</b>
+    <p class="quote" id="highlightQuote"></p>
+    <textarea id="highlightQuestion" placeholder="What do you want to understand better?"></textarea>
+    <div class="composer-actions">
+      <button class="action-button" type="button" id="saveHighlightNote">Save note</button>
+      <button class="action-button secondary" type="button" id="cancelHighlightNote">Cancel</button>
+    </div>
+  </div>
   <script>
-    const summaryText = `Mihir Market Brief - May 29, 2026
-Today's read: Equities are pressing record territory as AI infrastructure demand broadens, but April PCE at 3.8% y/y and a near-5% long bond keep financing assumptions disciplined.
-Banking lens: McCormick/Unilever Foods is the live M&A case; Toms Capital adds an activist overlay; Dell validates AI capex breadth.`;
+    (() => {
+      const storageKey = "opening-ledger-notes-v1";
+      const composer = document.getElementById("highlightComposer");
+      const quoteEl = document.getElementById("highlightQuote");
+      const questionEl = document.getElementById("highlightQuestion");
+      const saveButton = document.getElementById("saveHighlightNote");
+      const cancelButton = document.getElementById("cancelHighlightNote");
+      let activeSelection = null;
 
-    const navLinks = Array.from(document.querySelectorAll('.nav a'));
-    const sections = navLinks.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+      document.querySelectorAll("[data-section-menu]").forEach((menu) => {
+        const button = menu.querySelector(".section-menu-trigger");
+        const panel = menu.querySelector(".section-menu-panel");
+        if (!button || !panel) return;
 
-    function setActiveNav() {
-      const y = window.scrollY + 130;
-      let active = sections[0];
-      for (const section of sections) {
-        if (section.offsetTop <= y) active = section;
-      }
-      navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + active.id));
-    }
+        function setOpen(open) {
+          menu.classList.toggle("is-open", open);
+          button.setAttribute("aria-expanded", open ? "true" : "false");
+          panel.hidden = !open;
+        }
 
-    function showToast() {
-      const toast = document.getElementById('copyToast');
-      toast.classList.add('show');
-      window.setTimeout(() => toast.classList.remove('show'), 1600);
-    }
-
-    document.querySelectorAll('[data-toggle="source-details"]').forEach(button => {
-      button.addEventListener('click', () => {
-        const panel = document.getElementById(button.dataset.toggle);
-        panel.classList.toggle('hidden');
-      });
-    });
-
-    document.getElementById('copySummary').addEventListener('click', async () => {
-      try {
-        await navigator.clipboard.writeText(summaryText);
-        showToast();
-      } catch (error) {
-        const temp = document.createElement('textarea');
-        temp.value = summaryText;
-        document.body.appendChild(temp);
-        temp.select();
-        document.execCommand('copy');
-        temp.remove();
-        showToast();
-      }
-    });
-
-    document.querySelectorAll('[data-ai-filter]').forEach(tab => {
-      tab.addEventListener('click', () => {
-        const filter = tab.dataset.aiFilter;
-        document.querySelectorAll('[data-ai-filter]').forEach(item => item.setAttribute('aria-selected', String(item === tab)));
-        document.querySelectorAll('[data-ai-topic]').forEach(card => {
-          card.classList.toggle('hidden', filter !== 'all' && card.dataset.aiTopic !== filter);
+        setOpen(menu.classList.contains("is-open"));
+        button.addEventListener("click", (event) => {
+          event.stopPropagation();
+          setOpen(!menu.classList.contains("is-open"));
+        });
+        panel.addEventListener("click", (event) => event.stopPropagation());
+        document.addEventListener("click", () => setOpen(false));
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") setOpen(false);
         });
       });
-    });
 
-    window.addEventListener('scroll', setActiveNav, { passive: true });
-    setActiveNav();
+      function fallbackState() {
+        try { return JSON.parse(window.name || "{}"); }
+        catch { return {}; }
+      }
+
+      function readStoredValue(key) {
+        try {
+          if (window.localStorage) return window.localStorage.getItem(key);
+        } catch {}
+        const state = fallbackState();
+        return state[key] || null;
+      }
+
+      function writeStoredValue(key, value) {
+        try {
+          if (window.localStorage) {
+            window.localStorage.setItem(key, value);
+            return;
+          }
+        } catch {}
+        const state = fallbackState();
+        state[key] = value;
+        window.name = JSON.stringify(state);
+      }
+
+      function readNotes() {
+        try { return JSON.parse(readStoredValue(storageKey) || "[]"); }
+        catch { return []; }
+      }
+
+      function writeNotes(notes) {
+        writeStoredValue(storageKey, JSON.stringify(notes));
+      }
+
+      function contextTitle(node) {
+        const card = node?.closest?.(".move-card, .panel, .source-card, .theme-card");
+        return card?.querySelector?.("h1, h2")?.textContent?.trim()
+          || document.querySelector("h1")?.textContent?.trim()
+          || document.title;
+      }
+
+      function compactText(value, max = 1800) {
+        return String(value || "").replace(/\s+/g, " ").trim().slice(0, max);
+      }
+
+      function selectedContext(node) {
+        const card = node?.closest?.(".move-card, .source-card, .theme-card, .panel");
+        const moveCard = node?.closest?.(".move-card");
+        let structured = null;
+        if (moveCard?.dataset?.context) {
+          try { structured = JSON.parse(moveCard.dataset.context); }
+          catch { structured = null; }
+        }
+        return {
+          structured,
+          nearbyText: compactText(card?.innerText || document.querySelector(".panel")?.innerText || document.body.innerText, 2200)
+        };
+      }
+
+      function escape(value) {
+        return String(value || "").replace(/[&<>"']/g, (char) => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#39;"
+        }[char]));
+      }
+
+      function hideComposer() {
+        composer.classList.add("hidden");
+        activeSelection = null;
+        questionEl.value = "";
+      }
+
+      function showComposer(selection) {
+        const text = selection.toString().replace(/\s+/g, " ").trim();
+        if (text.length < 3) return;
+        const range = selection.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+        const node = range.commonAncestorContainer.nodeType === Node.TEXT_NODE
+          ? range.commonAncestorContainer.parentElement
+          : range.commonAncestorContainer;
+        activeSelection = {
+          id: crypto.randomUUID ? crypto.randomUUID() : String(Date.now()),
+          quote: text.slice(0, 1200),
+          pageTitle: document.title,
+          pageUrl: location.pathname + location.search,
+          sectionTitle: contextTitle(node),
+          context: selectedContext(node),
+          createdAt: new Date().toISOString()
+        };
+        quoteEl.textContent = '"' + activeSelection.quote + '"';
+        composer.style.left = Math.min(Math.max(12, rect.left), window.innerWidth - 392) + "px";
+        composer.style.top = Math.min(rect.bottom + 12, window.innerHeight - 250) + "px";
+        composer.classList.remove("hidden");
+        questionEl.focus();
+      }
+
+      document.addEventListener("mouseup", () => {
+        const selection = window.getSelection();
+        if (!selection || selection.isCollapsed || composer.contains(selection.anchorNode)) return;
+        window.setTimeout(() => showComposer(selection), 0);
+      });
+
+      saveButton.addEventListener("click", () => {
+        if (!activeSelection) return;
+        const question = questionEl.value.trim();
+        if (!question) {
+          questionEl.focus();
+          return;
+        }
+        const notes = readNotes();
+        notes.unshift({ ...activeSelection, question });
+        writeNotes(notes);
+        hideComposer();
+        renderNotes();
+      });
+
+      cancelButton.addEventListener("click", hideComposer);
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") hideComposer();
+      });
+
+      function promptFor(note) {
+        const structured = note.context?.structured;
+        const contextLines = structured ? [
+          "Full story context:",
+          "- Topic/story: " + structured.title,
+          "- What happened: " + structured.whatHappened,
+          "- Summary: " + (structured.summary || ""),
+          "- Why it matters: " + structured.whyItMatters,
+          "- What changed: " + structured.whatChanged,
+          "- Valuation angle: " + structured.valuation,
+          "- Financing/deal angle: " + structured.financingDeals,
+          "- Company/sector read: " + structured.companyRead,
+          "- Watch next: " + structured.watchNext,
+          structured.continuity ? "- Continuing story: " + structured.continuity.whatChanged : "",
+          structured.continuity ? "- Prior read: " + structured.continuity.priorRead : "",
+          structured.continuity ? "- Updated read: " + structured.continuity.updatedRead : "",
+          "- Primary sources: " + (structured.primarySources || []).map((source) => source.source + " (" + source.url + ")").join("; "),
+          "- Related links: " + (structured.relatedLinks || []).map((link) => link.label + " (" + link.url + ")").join("; "),
+          "",
+          "Detailed analysis from the brief:",
+          ...(structured.longform?.sections || []).map((section) => "- " + section.heading + ": " + section.body),
+          "",
+          "Historical/market parallel from the brief:",
+          structured.parallel && typeof structured.parallel === "object"
+            ? [
+                "- Past example: " + structured.parallel.precedent,
+                "- What happened then: " + structured.parallel.outcome,
+                "- What looks similar: " + structured.parallel.whatRhymes,
+                "- What is different now: " + structured.parallel.whatDiffers,
+                "- Bottom line: " + structured.parallel.soWhat,
+                "- Parallel sources: " + (structured.parallel.sourceTrail || []).map((source) => source.source + " (" + source.url + ")").join("; ")
+              ].join("\n")
+            : "- " + (structured.parallel || "No parallel recorded."),
+          ""
+        ] : [
+          "Nearby context from the page:",
+          note.context?.nearbyText || "No nearby context captured.",
+          ""
+        ];
+        return [
+          "I am reading The Opening Ledger, a finance market brief, and I highlighted a passage I want to understand more deeply.",
+          "",
+          "Page: " + note.pageTitle,
+          "Section/story: " + note.sectionTitle,
+          ...contextLines,
+          "Highlighted passage:",
+          quote(note.quote),
+          "",
+          "My question:",
+          note.question,
+          "",
+          "Please answer like a patient finance tutor. Use plain English first, then explain the technical terms only when needed. Connect the answer to valuation, financing, markets, or deal implications where relevant. If there is a historical parallel, name the companies or episodes involved, explain what happened, and say whether the parallel is useful or misleading. End with 3 follow-up questions I should be able to answer."
+        ].join("\n");
+      }
+
+      function quote(text) {
+        return text.split("\n").map((line) => "> " + line).join("\n");
+      }
+
+      function renderNotes() {
+        const app = document.getElementById("notesApp");
+        if (!app) return;
+        const notes = readNotes();
+        if (!notes.length) {
+          app.innerHTML = '<div class="empty-notes"><b>No notes yet.</b><p>Highlight any passage in the brief and add your question. It will show up here.</p></div>';
+          return;
+        }
+        app.innerHTML = notes.map((note) => {
+          const prompt = promptFor(note);
+          return '<article class="note-card" data-note-id="' + escape(note.id) + '">' +
+            '<div class="meta">' + escape(new Date(note.createdAt).toLocaleString()) + '</div>' +
+            '<h2>' + escape(note.sectionTitle) + '</h2>' +
+            '<blockquote>' + escape(note.quote) + '</blockquote>' +
+            '<p class="question"><strong>Your question:</strong> ' + escape(note.question) + '</p>' +
+            '<p class="source-line"><strong>Where:</strong> <a href="' + escape(note.pageUrl) + '">' + escape(note.pageTitle) + '</a></p>' +
+            '<div class="note-actions">' +
+              '<button class="action-button ask-ai" type="button">Ask AI</button>' +
+              '<button class="action-button secondary delete-note" type="button">Delete</button>' +
+            '</div>' +
+            '<div class="prompt-box hidden">' +
+              '<textarea readonly>' + escape(prompt) + '</textarea>' +
+              '<div class="note-actions"><button class="action-button copy-prompt" type="button">Copy prompt</button><span class="copy-status" aria-live="polite"></span></div>' +
+            '</div>' +
+          '</article>';
+        }).join("");
+      }
+
+      async function copyText(text) {
+        try {
+          if (navigator.clipboard?.writeText) {
+            await navigator.clipboard.writeText(text);
+            return true;
+          }
+        } catch {}
+        const temporary = document.createElement("textarea");
+        temporary.value = text;
+        temporary.setAttribute("readonly", "");
+        temporary.style.position = "fixed";
+        temporary.style.left = "-9999px";
+        temporary.style.top = "0";
+        document.body.appendChild(temporary);
+        temporary.focus();
+        temporary.select();
+        let copied = false;
+        try { copied = document.execCommand("copy"); }
+        catch { copied = false; }
+        temporary.remove();
+        return copied;
+      }
+
+      document.addEventListener("click", async (event) => {
+        const noteCard = event.target.closest(".note-card");
+        if (!noteCard) return;
+        const id = noteCard.dataset.noteId;
+        if (event.target.matches(".delete-note")) {
+          writeNotes(readNotes().filter((note) => note.id !== id));
+          renderNotes();
+        }
+        if (event.target.matches(".ask-ai")) {
+          noteCard.querySelector(".prompt-box").classList.toggle("hidden");
+        }
+        if (event.target.matches(".copy-prompt")) {
+          const textarea = noteCard.querySelector(".prompt-box textarea");
+          const copied = await copyText(textarea.value);
+          const status = noteCard.querySelector(".copy-status");
+          if (copied) {
+            event.target.textContent = "Copied";
+            if (status) status.textContent = "Copied to clipboard.";
+            window.setTimeout(() => {
+              event.target.textContent = "Copy prompt";
+              if (status) status.textContent = "";
+            }, 1400);
+          } else {
+            textarea.focus();
+            textarea.select();
+            if (status) status.textContent = "Select all and copy manually.";
+          }
+        }
+      });
+
+      renderNotes();
+    })();
   </script>
 </body>
 </html>
