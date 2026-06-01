@@ -16,6 +16,9 @@ permissions:
 
 jobs:
   generate:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -49,5 +52,6 @@ jobs:
         if: steps.market-open.outputs.should_run == 'true'
         with:
           path: dist
-      - uses: actions/deploy-pages@v4
+      - id: deployment
+        uses: actions/deploy-pages@v4
         if: steps.market-open.outputs.should_run == 'true'
