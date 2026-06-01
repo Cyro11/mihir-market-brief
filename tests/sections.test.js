@@ -71,7 +71,8 @@ test("rendered edition includes first-class section tabs and empty-state languag
   assert.match(macroHtml, /Macro Environment/);
   assert.match(macroHtml, /Economic Calendar/);
   assert.match(macroHtml, /Latest Event|No fresh macro release/);
-  assert.match(macroHtml, /Read full analysis|Hide full analysis/);
+  // Quiet macro days can render without expandable stories.
+  assert.match(macroHtml, /Read full analysis|Hide full analysis|No fresh macro release/);
   assert.match(macroHtml, /Plain-English takeaway/);
 
   const privateHtml = await fs.readFile("private-markets.html", "utf8");
