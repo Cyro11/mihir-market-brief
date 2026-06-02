@@ -20,6 +20,21 @@ npm run daily
 npm run dev
 ```
 
+## Open Latest Issue Without Downloading
+
+From any computer or phone, use the free GitHub Pages URL:
+
+- `https://cyro11.github.io/mihir-market-brief/`
+- `https://cyro11.github.io/mihir-market-brief/issues/latest.html`
+
+Use the desktop launcher:
+
+- `C:\Users\norse\Desktop\Open Mihir Market Brief.cmd`
+
+It starts the local Vite server if needed and opens the stable latest-newsletter URL:
+
+- `http://127.0.0.1:5173/`
+
 The live newsletter is generated from structured public data:
 
 - `index.html` - live entry point

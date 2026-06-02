@@ -12,7 +12,7 @@
     "render": "node scripts/render-edition.js",
     "daily": "npm run fetch && npm run fetch:visuals && npm run fetch:calendar && npm run analyze && npm run review && npm run render",
     "test": "node --test --test-concurrency=1 tests/*.test.js",
-    "build": "npm run render && node scripts/build-static.js",
+    "build": "node scripts/build-static.js",
     "dev": "npm run render && node scripts/serve-static.js",
     "preview": "node scripts/serve-static.js dist"
   },
