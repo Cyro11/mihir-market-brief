@@ -1321,7 +1321,8 @@ async function writeIssuePages(archiveEntries) {
 
 async function main() {
   const runDate = process.env.BRIEF_DATE || editionDate();
-  const edition = await readJson(path.join(editionsDir, `${runDate}.json`), null) || await readJson(path.join(editionsDir, "latest.json"));
+  const datedEdition = await readJson(path.join(editionsDir, `${runDate}.json`), false);
+  const edition = datedEdition || await readJson(path.join(editionsDir, "latest.json"));
   const review = await readJson(path.join(reviewsDir, `${edition.runDate}.json`), { status: "PENDING", blockers: [], warnings: [] });
   const archiveEntries = await loadArchiveEntries();
   await ensureDir(issuesDir);
