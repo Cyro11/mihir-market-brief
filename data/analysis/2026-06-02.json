@@ -1,42 +1,161 @@
 {
   "runDate": "2026-06-02",
-  "generatedAt": "2026-06-02T23:31:21.357Z",
+  "generatedAt": "2026-06-03T03:52:14.117Z",
   "selectedCount": 2,
   "quietDay": true,
   "analyses": [
     {
-      "id": "private-equity-public-proxies-48e4b8ed",
-      "title": "Does Blackstone’s TPU Data Center Venture and Record Asia Fundraising Reshape The Bull Case For BX?",
+      "id": "private-equity-public-proxies-b60041c",
+      "title": "Pricing details emerge on $36B private credit deal for Anthropic",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_credit",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Public PE Managers",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pricing-details-emerge-36b-private-212901754.html?.tsrc=rss",
+          "publishedAt": "2026-06-02T21:29:01.000Z",
+          "fetchedAt": "2026-06-02T23:25:51.643Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "Pricing details have emerged on the $36 billion of investment-grade structured notes being shopped around by Apollo and Blackstone to private credit investors as part of a deal to purchase and then lease chips to AI giant Anthropic, according to market sources. The financing will include roughly $6 billion in ‘super-senior’ A1 notes, $25 billion in first-lien senior A2 notes, and $4.5 billion in second-lien B notes. Price talk on the A1 notes is T+100, sources said. Price talk on the A2 notes is The banking read is not simply 'AI demand is large'; it is whether contracted compute demand can be packaged into financeable infrastructure cash flows without leaving lenders exposed to chip obsolescence, power constraints, or one-customer concentration.",
+      "whatHappened": "Pricing details have emerged on the $36 billion of investment-grade structured notes being shopped around by Apollo and Blackstone to private credit investors as part of a deal to purchase and then lease chips to AI giant Anthropic, according to market sources. The financing will include roughly $6 billion in ‘super-senior’ A1 notes, $25 billion in first-lien senior A2 notes, and $4.5 billion in second-lien B notes. Price talk on the A1 notes is T+100, sources said. Price talk on the A2 notes is",
+      "whatMoved": "The main move is in private-credit capacity: whether direct lenders are still funding sponsor deals and refinancings at workable terms.",
+      "whyItMoved": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+      "valuationImpact": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt.",
+      "financingImplication": "Translate the item into direct-lending capacity, refinancing risk, debt cost, and whether lenders are still willing to finance sponsor-owned companies.",
+      "sectorReadThrough": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings.",
+      "parallel": {
+        "precedent": "DigitalBridge, Equinix, and hyperscale data-center financings showed that infrastructure investors will fund compute-adjacent assets when cash flows look contracted and repeatable.",
+        "outcome": "Those transactions attracted infrastructure capital, but valuation and leverage depended on tenant quality, power access, utilization visibility, and confidence that the asset would not become obsolete too quickly.",
+        "whatRhymes": "The rhyme is the attempt to convert explosive cloud or AI demand into long-duration infrastructure cash flows that private capital can own or lend against.",
+        "whatDiffers": "TPU and frontier-model infrastructure carry faster technology-cycle risk than a generic leased data center, so lenders need stronger contracts, collateral discipline, or sponsor support.",
+        "soWhat": "Treat the story as a test of whether private capital can finance the AI buildout prudently, not as proof that every AI infrastructure asset deserves infrastructure multiples.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / Public PE Managers",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/pricing-details-emerge-36b-private-212901754.html?.tsrc=rss"
+          }
+        ]
+      },
+      "watchNext": "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "In plain English, this is an infrastructure-finance story wearing an AI headline: the key question is who owns the expensive compute assets, who guarantees enough usage to service debt, and whether the collateral still has value if model economics or chip cycles shift."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "The public signal is the named counterparties and asset type. Anthropic/Google/TPU language points to real compute demand; Blackstone or other private-capital involvement points to a financing stack trying to turn that demand into durable, underwritable infrastructure exposure."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to interpret the financing signal",
+            "body": "Read the structure like a project-finance underwrite: contracted usage and creditworthy customers support leverage, but residual value, power availability, depreciation, and replacement-cycle risk decide how much debt is actually safe."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "The strongest evidence would be disclosed commitment size, duration, collateral package, customer concentration, and lender protections. The weaker evidence is a broad AI partnership headline that does not show who bears utilization, technology, and refinancing risk."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is DigitalBridge, Equinix, and hyperscale data-center financings showed that infrastructure investors will fund compute-adjacent assets when cash flows look contracted and repeatable. In that earlier setup, those transactions attracted infrastructure capital, but valuation and leverage depended on tenant quality, power access, utilization visibility, and confidence that the asset would not become obsolete too quickly. What rhymes is the rhyme is the attempt to convert explosive cloud or ai demand into long-duration infrastructure cash flows that private capital can own or lend against. What is different this time is tpu and frontier-model infrastructure carry faster technology-cycle risk than a generic leased data center, so lenders need stronger contracts, collateral discipline, or sponsor support. The bottom line is treat the story as a test of whether private capital can finance the ai buildout prudently, not as proof that every ai infrastructure asset deserves infrastructure multiples."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch for disclosed facility terms, lease or offtake duration, power commitments, utilization guarantees, lender group composition, and whether similar TPU/data-center financings clear at tighter or wider economics. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
+          }
+        ]
+      },
+      "visual": {
+        "type": "deal-timeline",
+        "title": "AI financing stack",
+        "subtitle": "How infrastructure demand translates into capital structure and lender participation.",
+        "relevanceNote": "A capital map fits here because the story is really about who is funding the buildout and where the financing risk sits.",
+        "allowedPages": [
+          "private-markets",
+          "deep-dive"
+        ],
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / Public PE Managers",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/pricing-details-emerge-36b-private-212901754.html?.tsrc=rss"
+          }
+        ],
+        "steps": [
+          {
+            "label": "Compute demand",
+            "detail": "AI usage drives the need for chips, servers, and power"
+          },
+          {
+            "label": "Asset package",
+            "detail": "Infrastructure cash flows are bundled into financeable collateral"
+          },
+          {
+            "label": "Lender syndicate",
+            "detail": "Apollo, Blackstone, and peers gauge risk, duration, and recovery"
+          },
+          {
+            "label": "Terms",
+            "detail": "Coupons, structure, and covenants decide whether the debt is workable"
+          },
+          {
+            "label": "Read-through",
+            "detail": "Successful execution points to deeper private capital support for AI buildout"
+          }
+        ]
+      },
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "ai",
+        "credit",
+        "private credit",
+        "private credit",
+        "private_equity"
+      ]
+    },
+    {
+      "id": "private-equity-public-proxies-ac3d4e51",
+      "title": "HGV Announces Launch of Secondary Public Offering of Common Stock and Concurrent Share Repurchase",
       "editorialLane": "private_markets",
       "editorialLaneLabel": "Private Markets",
       "privateMarketSegment": "private_equity",
       "sourceTrail": [
         {
           "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/does-blackstone-tpu-data-center-161046213.html?.tsrc=rss",
-          "publishedAt": "2026-06-02T16:10:46.000Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hgv-announces-launch-secondary-public-210000842.html?.tsrc=rss",
+          "publishedAt": "2026-06-02T21:00:00.000Z",
           "fetchedAt": "2026-06-02T23:25:51.643Z"
         }
       ],
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "In May 2026, Blackstone announced a joint venture with Google to form a new U.S.-based company offering efficient data center capacity and Google Cloud TPUs as compute-as-a-service, underpinned by an initial US$5.00 billion equity commitment and plans for the first 500 MW of capacity to come online in 2027. The record close of Blackstone Capital Partners Asia III at US$13.10 billion, far above its US$10.00 billion target, underlines investor confidence in Blackstone’s Asia private equity... The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
-      "whatHappened": "In May 2026, Blackstone announced a joint venture with Google to form a new U.S.-based company offering efficient data center capacity and Google Cloud TPUs as compute-as-a-service, underpinned by an initial US$5.00 billion equity commitment and plans for the first 500 MW of capacity to come online in 2027. The record close of Blackstone Capital Partners Asia III at US$13.10 billion, far above its US$10.00 billion target, underlines investor confidence in Blackstone’s Asia private equity...",
+      "summary": "ORLANDO, Fla., June 02, 2026--Hilton Grand Vacations Inc. (NYSE:HGV) (\"HGV\" or the \"Company\") today announced a proposed secondary public offering (the \"offering\") of 5,000,000 shares of the Company’s common stock held by certain entities managed by affiliates of Apollo Global Management, Inc. (the \"Selling Stockholders\"). The underwriters will have a 30-day option to purchase up to an additional 750,000 shares of common stock from the Selling Stockholders. The Company is not selling any shares The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "whatHappened": "ORLANDO, Fla., June 02, 2026--Hilton Grand Vacations Inc. (NYSE:HGV) (\"HGV\" or the \"Company\") today announced a proposed secondary public offering (the \"offering\") of 5,000,000 shares of the Company’s common stock held by certain entities managed by affiliates of Apollo Global Management, Inc. (the \"Selling Stockholders\"). The underwriters will have a 30-day option to purchase up to an additional 750,000 shares of common stock from the Selling Stockholders. The Company is not selling any shares",
       "whatMoved": "The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
       "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
       "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
       "financingImplication": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk.",
       "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
       "parallel": {
-        "precedent": "Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit.",
-        "outcome": "Companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks.",
-        "whatRhymes": "The useful comparison is whether today's public-market signal improves or limits exit routes for private owners.",
-        "whatDiffers": "Private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors.",
-        "soWhat": "Use the signal to judge exit timing and financing appetite, not to guess private marks without evidence.",
+        "precedent": "Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023.",
+        "outcome": "Those tools created liquidity for some LPs but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved.",
+        "whatRhymes": "The same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark.",
+        "whatDiffers": "Today the highest-quality assets may access IPO or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures.",
+        "soWhat": "Treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity.",
         "sourceTrail": [
           {
             "source": "Yahoo Finance / Public PE Managers",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/does-blackstone-tpu-data-center-161046213.html?.tsrc=rss"
+            "url": "https://finance.yahoo.com/markets/stocks/articles/hgv-announces-launch-secondary-public-210000842.html?.tsrc=rss"
           }
         ]
       },
@@ -46,32 +165,32 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+            "body": "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
           },
           {
             "id": "signal",
             "heading": "What the public signal is actually telling us",
-            "body": "In May 2026, Blackstone announced a joint venture with Google to form a new U.S.-based company offering efficient data center capacity and Google Cloud TPUs as compute-as-a-service, underpinned by an initial US$5.00 billion equity commitment and plans for the first 500 MW of capacity to come online in 2027. The record close of Blackstone Capital Partners Asia III at US$13.10 billion, far above its US$10.00 billion target, underlines investor confidence in Blackstone’s Asia private equity... The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+            "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
           },
           {
             "id": "interpretation",
             "heading": "How to read the sponsor or exit implication",
-            "body": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round. Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+            "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
           },
           {
             "id": "evidence",
             "heading": "Where the evidence is strong versus indirect",
-            "body": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+            "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
           },
           {
             "id": "parallel",
             "heading": "Relevant comparison",
-            "body": "A useful parallel is Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit. In that earlier setup, companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks. What rhymes is the useful comparison is whether today's public-market signal improves or limits exit routes for private owners. What is different this time is private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors. The bottom line is use the signal to judge exit timing and financing appetite, not to guess private marks without evidence."
+            "body": "A useful parallel is Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023. In that earlier setup, those tools created liquidity for some lps but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved. What rhymes is the same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark. What is different this time is today the highest-quality assets may access ipo or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures. The bottom line is treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity."
           },
           {
             "id": "watch-next",
             "heading": "What would confirm or weaken the read",
-            "body": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+            "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
           }
         ]
       },
@@ -132,145 +251,10 @@
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
       "relatedLinks": [],
-      "storyline": {
-        "id": "ai-infrastructure-dell-servers",
-        "name": "AI infrastructure buildout",
-        "threshold": 2
-      },
-      "concepts": [
-        "data center",
-        "cloud",
-        "private equity",
-        "private equity",
-        "private_equity"
-      ],
-      "continuity": {
-        "previousDate": "2026-05-29",
-        "previousTitle": "Dell stock jumps as AI server revenue surges",
-        "previousUrl": "issues/2026-05-29.html",
-        "whatChanged": "This updates the ai infrastructure buildout thread from 2026-05-29. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
-        "priorRead": "The 757% AI-server revenue growth gave investors a concrete number showing that AI spending is reaching servers, memory, networking, and enterprise systems.",
-        "updatedRead": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
-        "status": "Developing"
-      }
-    },
-    {
-      "id": "private-equity-public-proxies-b60041c",
-      "title": "Pricing details emerge on $36B private credit deal for Anthropic",
-      "editorialLane": "private_markets",
-      "editorialLaneLabel": "Private Markets",
-      "privateMarketSegment": "private_credit",
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/pricing-details-emerge-36b-private-212901754.html?.tsrc=rss",
-          "publishedAt": "2026-06-02T21:29:01.000Z",
-          "fetchedAt": "2026-06-02T23:25:51.643Z"
-        }
-      ],
-      "freshnessStatus": "FRESH",
-      "confidence": "Medium",
-      "summary": "Pricing details have emerged on the $36 billion of investment-grade structured notes being shopped around by Apollo and Blackstone to private credit investors as part of a deal to purchase and then lease chips to AI giant Anthropic, according to market sources. The financing will include roughly $6 billion in ‘super-senior’ A1 notes, $25 billion in first-lien senior A2 notes, and $4.5 billion in second-lien B notes. Price talk on the A1 notes is T+100, sources said. Price talk on the A2 notes is The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
-      "whatHappened": "Pricing details have emerged on the $36 billion of investment-grade structured notes being shopped around by Apollo and Blackstone to private credit investors as part of a deal to purchase and then lease chips to AI giant Anthropic, according to market sources. The financing will include roughly $6 billion in ‘super-senior’ A1 notes, $25 billion in first-lien senior A2 notes, and $4.5 billion in second-lien B notes. Price talk on the A1 notes is T+100, sources said. Price talk on the A2 notes is",
-      "whatMoved": "The main move is in private-credit capacity: whether direct lenders are still funding sponsor deals and refinancings at workable terms.",
-      "whyItMoved": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
-      "valuationImpact": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt.",
-      "financingImplication": "Translate the item into direct-lending capacity, refinancing risk, debt cost, and whether lenders are still willing to finance sponsor-owned companies.",
-      "sectorReadThrough": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings.",
-      "parallel": {
-        "precedent": "The post-2022 shift toward private credit, when sponsors used direct lenders more often as syndicated loan markets became less predictable.",
-        "outcome": "Private credit helped deals close, but higher coupons and tighter covenants made sponsor math more demanding.",
-        "whatRhymes": "The same tradeoff matters now: available private debt can keep deal activity alive, but it does not make leverage cheap.",
-        "whatDiffers": "Public manager results and news items are proxies, not a complete view of private credit. Confirm the read with spreads, originations, and credit performance.",
-        "soWhat": "Use private-credit signals to judge financing capacity, but still underwrite downside cases and refinancing risk separately.",
-        "sourceTrail": [
-          {
-            "source": "Yahoo Finance / Public PE Managers",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/pricing-details-emerge-36b-private-212901754.html?.tsrc=rss"
-          }
-        ]
-      },
-      "watchNext": "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals.",
-      "longform": {
-        "sections": [
-          {
-            "id": "takeaway",
-            "heading": "Plain-English takeaway",
-            "body": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
-          },
-          {
-            "id": "signal",
-            "heading": "What the public signal is actually telling us",
-            "body": "Pricing details have emerged on the $36 billion of investment-grade structured notes being shopped around by Apollo and Blackstone to private credit investors as part of a deal to purchase and then lease chips to AI giant Anthropic, according to market sources. The financing will include roughly $6 billion in ‘super-senior’ A1 notes, $25 billion in first-lien senior A2 notes, and $4.5 billion in second-lien B notes. Price talk on the A1 notes is T+100, sources said. Price talk on the A2 notes is Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
-          },
-          {
-            "id": "interpretation",
-            "heading": "How to interpret the financing signal",
-            "body": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt. Translate the item into direct-lending capacity, refinancing risk, debt cost, and whether lenders are still willing to finance sponsor-owned companies. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
-          },
-          {
-            "id": "evidence",
-            "heading": "Where the evidence is strong versus indirect",
-            "body": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
-          },
-          {
-            "id": "parallel",
-            "heading": "Relevant comparison",
-            "body": "A useful parallel is The post-2022 shift toward private credit, when sponsors used direct lenders more often as syndicated loan markets became less predictable. In that earlier setup, private credit helped deals close, but higher coupons and tighter covenants made sponsor math more demanding. What rhymes is the same tradeoff matters now: available private debt can keep deal activity alive, but it does not make leverage cheap. What is different this time is public manager results and news items are proxies, not a complete view of private credit. confirm the read with spreads, originations, and credit performance. The bottom line is use private-credit signals to judge financing capacity, but still underwrite downside cases and refinancing risk separately."
-          },
-          {
-            "id": "watch-next",
-            "heading": "What would confirm or weaken the read",
-            "body": "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
-          }
-        ]
-      },
-      "visual": {
-        "type": "deal-timeline",
-        "title": "AI financing stack",
-        "subtitle": "How infrastructure demand translates into capital structure and lender participation.",
-        "relevanceNote": "A capital map fits here because the story is really about who is funding the buildout and where the financing risk sits.",
-        "allowedPages": [
-          "private-markets",
-          "deep-dive"
-        ],
-        "sourceTrail": [
-          {
-            "source": "Yahoo Finance / Public PE Managers",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/pricing-details-emerge-36b-private-212901754.html?.tsrc=rss"
-          }
-        ],
-        "steps": [
-          {
-            "label": "Compute demand",
-            "detail": "AI usage drives the need for chips, servers, and power"
-          },
-          {
-            "label": "Asset package",
-            "detail": "Infrastructure cash flows are bundled into financeable collateral"
-          },
-          {
-            "label": "Lender syndicate",
-            "detail": "Apollo, Blackstone, and peers gauge risk, duration, and recovery"
-          },
-          {
-            "label": "Terms",
-            "detail": "Coupons, structure, and covenants decide whether the debt is workable"
-          },
-          {
-            "label": "Read-through",
-            "detail": "Successful execution points to deeper private capital support for AI buildout"
-          }
-        ]
-      },
-      "relatedLinks": [],
       "storyline": null,
       "concepts": [
-        "ai",
-        "credit",
-        "private credit",
-        "private credit",
-        "private_equity"
+        "private_equity",
+        "secondary"
       ]
     }
   ]

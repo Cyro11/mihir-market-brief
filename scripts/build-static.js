@@ -4,7 +4,7 @@ import { rootDir } from "./config.js";
 import { ensureDir } from "./utils.js";
 
 const distDir = path.join(rootDir, "dist");
-const entries = ["index.html", "moves.html", "macro.html", "markets.html", "deals.html", "private-markets.html", "deep-dive.html", "themes.html", "sources.html", "archive.html", "notes.html", "issues", "data"];
+const entries = ["index.html", "moves.html", "macro.html", "markets.html", "deals.html", "private-markets.html", "deep-dive.html", "themes.html", "sources.html", "archive.html", "notes.html", "issues", "data", "assets"];
 
 async function copyEntry(entry) {
   const from = path.join(rootDir, entry);

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Opening Ledger - 2026-06-02</title>
+  <title>The Opening Ledger - 2026-06-03</title>
   <style>
     :root { --bg:#121212; --paper:#eeeae1; --paper-2:#f7f4ec; --ink:#111111; --muted:#5e5a52; --line:#2a2a2a; --line-soft:#b8b0a4; --red:#b5121b; --red-dark:#730d14; --green:#0a6b3f; --soft:#e4ded3; --radius:0; }
     * { box-sizing:border-box; }
@@ -144,6 +144,10 @@
     .watch-quote span { color:#c8beb1; font:900 11px Georgia, "Times New Roman", serif; letter-spacing:.09em; text-transform:uppercase; }
     .watch-quote b { display:block; margin:8px 0 6px; font-size:28px; line-height:1; }
     .watch-quote i { font-style:normal; font-weight:900; }
+    .watch-quote[data-market-live="failed"], .watch-card[data-market-live="failed"] { outline:2px solid var(--red); outline-offset:-2px; }
+    .market-watch-status { margin:12px 0 0; padding:10px 12px; border:1px solid var(--line-soft); background:#f7f4ec; }
+    .market-watch-status[data-status-kind="ok"] { border-color:var(--green); }
+    .market-watch-status[data-status-kind="failed"], .market-watch-status[data-status-kind="partial"] { border-color:var(--red); }
     .watch-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
     .watch-card { min-height:100%; padding:0; border:1px solid var(--line-soft); background:var(--paper-2); box-shadow:4px 4px 0 rgba(17,17,17,.08); }
     .watch-card h2, .watch-card p, .watch-card .meta, .watch-card .source-line { padding-left:16px; padding-right:16px; }
@@ -171,6 +175,16 @@
     .segment-head { margin-bottom:10px; border-bottom:1px solid var(--line-soft); }
     .segment-head h2 { margin:4px 0; font-size:30px; }
     .segment-head p { margin:0 0 12px; color:var(--muted); }
+    .deal-tape-card { display:grid; grid-template-columns:96px minmax(0, 1fr); gap:16px; padding:20px 0; border-bottom:1px solid var(--line-soft); }
+    .deal-tape-card:last-child { border-bottom:0; padding-bottom:0; }
+    .deal-rank { display:grid; align-content:start; gap:6px; padding:12px; border:1px solid var(--line); background:#111; color:#f4eee3; text-align:center; box-shadow:4px 4px 0 rgba(17,17,17,.18); }
+    .deal-rank span { color:#c8beb1; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.08em; text-transform:uppercase; }
+    .deal-rank b { font-size:34px; line-height:1; }
+    .deal-body { min-width:0; }
+    .deal-score-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:10px; margin:14px 0; }
+    .deal-score-grid div { padding:12px; border:1px solid var(--line-soft); background:var(--paper-2); box-shadow:3px 3px 0 rgba(17,17,17,.08); }
+    .deal-score-grid b { display:block; margin-bottom:5px; color:#050505; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.04em; text-transform:uppercase; }
+    .deal-score-grid span { color:#37322e; }
     .insight-grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:10px; margin:14px 0; }
     .insight-grid b, .read-more b { display:block; margin-bottom:5px; color:#050505; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.04em; text-transform:uppercase; }
     .insight-grid span, .source-line, .read-more span { color:#37322e; }
@@ -278,7 +292,7 @@
     .prompt-box { margin-top:12px; }
     .prompt-box.hidden { display:none; }
     .copy-status { align-self:center; color:var(--green); font-size:13px; font-weight:900; }
-    @media (max-width: 920px) { .tabs { position:static; justify-content:flex-start; } .tabs a { flex:0 0 auto; } .section-menu { flex:0 0 auto; } .section-menu-panel { left:auto; right:0; grid-template-columns:1fr; width:min(340px, calc(100vw - 24px)); } .section-menu-panel section { border-right:0; border-bottom:1px solid #3a3a3a; } .section-menu-panel section:last-child { border-bottom:0; } .summary-grid, .theme-grid, .insight-grid, .related-grid, .legend-grid, .chain-map, .deal-map, .watch-strip, .watch-grid { grid-template-columns:1fr; } .chain-node, .deal-map div { border-right:0; border-bottom:1px solid var(--line); } .chain-node:last-child, .deal-map div:last-child { border-bottom:0; } .visual-head { flex-direction:column; } .visual-head span:last-child { text-align:left; } .watch-price-row { flex-direction:column; align-items:start; } .story-summary, .narrative-section p { font-size:16px; } .bar-row { grid-template-columns:1fr; } .bar-value { text-align:left; } }
+    @media (max-width: 920px) { .tabs { position:static; justify-content:flex-start; } .tabs a { flex:0 0 auto; } .section-menu { flex:0 0 auto; } .section-menu-panel { left:auto; right:0; grid-template-columns:1fr; width:min(340px, calc(100vw - 24px)); } .section-menu-panel section { border-right:0; border-bottom:1px solid #3a3a3a; } .section-menu-panel section:last-child { border-bottom:0; } .summary-grid, .theme-grid, .insight-grid, .related-grid, .legend-grid, .chain-map, .deal-map, .deal-score-grid, .watch-strip, .watch-grid { grid-template-columns:1fr; } .deal-tape-card { grid-template-columns:1fr; } .deal-rank { text-align:left; } .chain-node, .deal-map div { border-right:0; border-bottom:1px solid var(--line); } .chain-node:last-child, .deal-map div:last-child { border-bottom:0; } .visual-head { flex-direction:column; } .visual-head span:last-child { text-align:left; } .watch-price-row { flex-direction:column; align-items:start; } .story-summary, .narrative-section p { font-size:16px; } .bar-row { grid-template-columns:1fr; } .bar-value { text-align:left; } }
     @media (max-width: 640px) { .shell { width:min(100% - 20px, 1240px); } .panel { padding:18px; } .topbar, .panel-head { flex-direction:column; } h1 { font-size:34px; } }
   </style>
 </head>
@@ -293,12 +307,12 @@
     <div class="topbar">
       <div class="brand">The Opening Ledger</div>
       <div class="topbar-tools">
-        <span class="chip">2026-06-02</span>
+        <span class="chip">2026-06-03</span>
         <span class="chip">Generated edition</span>
         <a class="chip archive-open" href="archive.html">Archive</a>
         <select class="issue-jump" aria-label="Open past issue" onchange="if (this.value) location.href=this.value;">
           <option value="issues/latest.html">Latest issue</option>
-          <option value="issues/2026-06-02.html" selected>2026-06-02 - Does Blackstone’s TPU Data Center Venture and Record Asia Fundraising Reshape The Bull Case For BX?</option><option value="issues/2026-06-01.html">2026-06-01 - Quiet Tape, Clean Sources</option><option value="issues/2026-05-30.html">2026-05-30 - Quiet Tape, Clean Sources</option><option value="issues/2026-05-29.html">2026-05-29 - Blue Owl direct-lending earnings keep private credit in focus</option><option value="issues/2026-05-28.html">2026-05-28 - Dell AI server demand starts to matter for the infrastructure trade</option><option value="issues/2026-05-27.html">2026-05-27 - Sponsor appetite looks selective rather than shut</option><option value="issues/2026-05-26.html">2026-05-26 - Private credit still looks open, but sponsors do not get a free pass</option>
+          <option value="issues/2026-06-03.html" selected>2026-06-03 - HGV Announces Pricing of Secondary Public Offering of Common Stock and Concurrent Share Repurchase</option><option value="issues/2026-06-02.html">2026-06-02 - Pricing details emerge on $36B private credit deal for Anthropic</option><option value="issues/2026-06-01.html">2026-06-01 - Quiet Tape, Clean Sources</option><option value="issues/2026-05-30.html">2026-05-30 - Quiet Tape, Clean Sources</option><option value="issues/2026-05-29.html">2026-05-29 - Blue Owl direct-lending earnings keep private credit in focus</option><option value="issues/2026-05-28.html">2026-05-28 - Dell AI server demand starts to matter for the infrastructure trade</option><option value="issues/2026-05-27.html">2026-05-27 - Sponsor appetite looks selective rather than shut</option><option value="issues/2026-05-26.html">2026-05-26 - Private credit still looks open, but sponsors do not get a free pass</option>
         </select>
       </div>
     </div>
@@ -321,11 +335,11 @@
     </div>
   </nav>
     <div class="workspace"><section class="panel">
-    <div class="panel-head"><div><span class="eyebrow">Today at a glance</span><h1>Does Blackstone’s TPU Data Center Venture and Record Asia Fundraising Reshape The Bull Case For BX?</h1></div><span class="chip">2 selected</span></div>
+    <div class="panel-head"><div><span class="eyebrow">Today at a glance</span><h1>HGV Announces Pricing of Secondary Public Offering of Common Stock and Concurrent Share Repurchase</h1></div><span class="chip">2 selected</span></div>
     <p class="lede">A selective banker-grade read of the few fresh items with enough evidence to support real analysis.</p>
     <div class="summary-grid"><a class="summary-card" href="private-markets.html#privateEquity-1">
         <span class="meta">Move 1</span>
-        <b>Does Blackstone’s TPU Data Center Venture and Record Asia Fundraising Reshape The Bull Case For BX?</b>
+        <b>HGV Announces Pricing of Secondary Public Offering of Common Stock and Concurrent Share Repurchase</b>
         <p>Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.</p>
       </a><a class="summary-card" href="private-markets.html#privateCredit-1">
         <span class="meta">Move 2</span>
@@ -345,9 +359,9 @@
           <b>Markets</b>
           <p>Public-market moves and cross-asset signals.</p>
         </a><a class="summary-card" href="deals.html">
-          <span class="meta">0 selected</span>
+          <span class="meta">8 ranked</span>
           <b>Deals</b>
-          <p>M&amp;A, activism, IPOs, and financing updates.</p>
+          <p>Ranks here because it has large or strategically important transaction signal.</p>
         </a><a class="summary-card" href="private-markets.html">
           <span class="meta">3 selected</span>
           <b>Private Markets</b>
@@ -355,16 +369,7 @@
         </a>
     </div>
   </section>
-  <section class="panel compact">
-    <div class="panel-head"><div><span class="eyebrow">Continuing Stories</span><h2>Updates From Earlier Issues</h2></div></div>
-    <div class="summary-grid">
-      <a class="summary-card" href="private-markets.html#privateEquity-1">
-        <span class="meta">Developing</span>
-        <b>AI infrastructure buildout</b>
-        <p>This updates the ai infrastructure buildout thread from 2026-05-29. The new item adds fresh source evidence and shifts the read toward today&#39;s specific market/deal question.</p>
-      </a>
-    </div>
-  </section>
+  
   <section class="panel compact">
     <div class="panel-head"><div><span class="eyebrow">How to read it</span><h2>Simple Rule</h2></div></div>
     <p>The brief should help you answer three questions: what changed, why it matters, and what it means for valuation, financing, or deals.</p>
@@ -379,6 +384,7 @@
       <button class="action-button secondary" type="button" id="cancelHighlightNote">Cancel</button>
     </div>
   </div>
+  <script src="assets/market-watch-live.js" defer></script>
   <script>
     (() => {
       const storageKey = "opening-ledger-notes-v1";

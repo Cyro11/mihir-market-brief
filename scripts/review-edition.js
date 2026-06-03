@@ -11,6 +11,29 @@ const bannedPhrases = [
   "market participants are digesting"
 ];
 
+function normalizedTokens(value) {
+  return new Set(String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9%$\s.-]/g, " ")
+    .split(/\s+/)
+    .filter((token) => token.length > 4));
+}
+
+function overlapRatio(a, b) {
+  const left = normalizedTokens(a);
+  const right = normalizedTokens(b);
+  if (!left.size || !right.size) return 0;
+  const overlap = [...left].filter((token) => right.has(token)).length;
+  return overlap / Math.min(left.size, right.size);
+}
+
+function startsWithSameClause(a, b) {
+  const normalize = (value) => String(value || "").toLowerCase().replace(/\s+/g, " ").trim();
+  const left = normalize(a).slice(0, 140);
+  const right = normalize(b).slice(0, 140);
+  return left.length > 80 && right.length > 80 && (left.startsWith(right) || right.startsWith(left));
+}
+
 function deterministicReview(edition) {
   const blockers = [];
   const warnings = [];
@@ -49,6 +72,19 @@ function deterministicReview(edition) {
     for (const section of move.longform?.sections || []) {
       if (!section.heading || !section.body || String(section.body).length < 120) {
         blockers.push(`${move.title}: longform section ${section.id || section.heading || "unknown"} is too thin.`);
+      }
+      if (startsWithSameClause(section.body, move.summary)) {
+        blockers.push(`${move.title}: longform section ${section.id || section.heading || "unknown"} repeats the summary opening instead of adding analysis.`);
+      } else if (overlapRatio(section.body, move.summary) > 0.82) {
+        warnings.push(`${move.title}: longform section ${section.id || section.heading || "unknown"} is very close to the summary; add story-specific analysis.`);
+      }
+    }
+    const longformSections = move.longform?.sections || [];
+    for (let i = 0; i < longformSections.length; i += 1) {
+      for (let j = i + 1; j < longformSections.length; j += 1) {
+        if (overlapRatio(longformSections[i].body, longformSections[j].body) > 0.86) {
+          warnings.push(`${move.title}: longform sections ${longformSections[i].id || i + 1} and ${longformSections[j].id || j + 1} look repetitive.`);
+        }
       }
     }
     for (const field of ["whatHappened", "whatMoved", "whyItMoved", "valuationImpact", "financingImplication", "sectorReadThrough", "watchNext"]) {

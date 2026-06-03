@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
-import { editorialLaneFor, privateMarketSegmentFor, selectLaneItems, selectMainCandidates } from "../scripts/build-edition.js";
+import { bankerAnalysis, editorialLaneFor, privateMarketSegmentFor, selectLaneItems, selectMainCandidates } from "../scripts/build-edition.js";
 
 test("editorial lane classification separates macro, markets, deals, and private markets", () => {
   assert.equal(editorialLaneFor({
@@ -160,4 +160,56 @@ test("edition stories now carry summary and longform teaching sections", async (
     assert.ok(move.longform.sections.length >= 5);
     assert.ok(move.longform.sections.every((section) => section.heading && section.body && section.body.length > 120));
   }
+});
+
+function fixture(overrides) {
+  return {
+    id: "fixture",
+    title: "Fixture",
+    summary: "A fresh source-backed fixture with enough detail to support deterministic analysis.",
+    source: "Reuters",
+    url: "https://www.reuters.com/markets/deals/example",
+    sourceType: "news",
+    freshnessStatus: "FRESH",
+    topics: ["private_markets"],
+    matchedThemes: [],
+    ...overrides
+  };
+}
+
+test("private-market AI infrastructure stories get TPU/data-center-specific analysis instead of generic sponsor copy", () => {
+  const analysis = bankerAnalysis(fixture({
+    title: "Blackstone weighs financing tied to Google TPU capacity for Anthropic",
+    summary: "Blackstone, Google and Anthropic are tied to a possible TPU and data-center financing package.",
+    topics: ["private_markets", "private_equity", "ai"]
+  }));
+  const bodies = analysis.longform.sections.map((section) => section.body).join("\n");
+  assert.match(analysis.summary, /contracted compute demand|chip obsolescence|power constraints/);
+  assert.match(bodies, /infrastructure-finance story wearing an AI headline/);
+  assert.match(bodies, /TPU|data-center|power|collateral|utilization/);
+  assert.doesNotMatch(bodies, /gossip about private marks/);
+});
+
+test("private credit structured-note stories analyze collateral, seniority, and losses", () => {
+  const analysis = bankerAnalysis(fixture({
+    title: "Private credit structured notes draw demand from yield buyers",
+    summary: "A direct-lending manager is marketing structured notes backed by private credit collateral.",
+    topics: ["private_markets", "private_credit", "credit"]
+  }));
+  const bodies = analysis.longform.sections.map((section) => section.body).join("\n");
+  assert.match(analysis.summary, /collateral and downside protection/);
+  assert.match(bodies, /cash flows, collateral, covenants, and seniority/);
+  assert.match(bodies, /non-accrual|advance rates|attachment point|PIK/);
+});
+
+test("sponsor-exit stories separate real liquidity from continuation-style deferral", () => {
+  const analysis = bankerAnalysis(fixture({
+    title: "KKR sponsor exit talks test secondaries and IPO window",
+    summary: "A sponsor-owned company is evaluating an exit through a sale process, secondary deal, or IPO.",
+    topics: ["private_markets", "private_equity"]
+  }));
+  const bodies = analysis.longform.sections.map((section) => section.body).join("\n");
+  assert.match(analysis.summary, /monetization path|valuation reckoning/);
+  assert.match(bodies, /return cash to LPs|true buyer|hold the asset longer/);
+  assert.match(bodies, /public comps set the valuation ceiling|LP liquidity pressure/);
 });

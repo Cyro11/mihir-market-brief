@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { analysisDir, calendarDir, candidatesDir, dataDir, editionsDir, marketDataDir, sourcesDir } from "./config.js";
 import { editionDate, ensureDir, freshnessStatus, readJson, writeJson } from "./utils.js";
 import { scoreCandidate, selectCandidates } from "./triage.js";
+import { buildDealTape } from "./deal-tape.js";
 
 function storylineFor(item) {
   const text = `${item.title} ${item.summary} ${(item.tickers || []).join(" ")} ${(item.topics || []).join(" ")}`.toLowerCase();
@@ -85,6 +86,9 @@ function attachContinuity(analyses, prior) {
 export function editorialLaneFor(item) {
   const text = `${item.title} ${item.summary} ${(item.tickers || []).join(" ")} ${(item.topics || []).join(" ")}`.toLowerCase();
   const topics = new Set(item.topics || []);
+  if (topics.has("private_markets") || topics.has("private_credit") || topics.has("private_equity")) {
+    return "private_markets";
+  }
   if (
     topics.has("macro")
     || topics.has("rates")
@@ -126,6 +130,69 @@ export function privateMarketSegmentFor(item) {
     return "private_equity";
   }
   return "private_markets";
+}
+
+function storyText(item) {
+  return `${item.title || ""} ${item.summary || ""} ${(item.tickers || []).join(" ")} ${(item.topics || []).join(" ")} ${item.source || ""}`.toLowerCase();
+}
+
+function storySpecificPrivateRead(item, segment) {
+  const text = storyText(item);
+  if (/\banthropic\b|\bgoogle\b|\btpu\b|\bblackstone\b|\bdata[ -]?center\b|\bai infrastructure\b|\bcompute\b/.test(text)) {
+    return {
+      kind: "ai_compute_infrastructure",
+      summaryTail: "The banking read is not simply 'AI demand is large'; it is whether contracted compute demand can be packaged into financeable infrastructure cash flows without leaving lenders exposed to chip obsolescence, power constraints, or one-customer concentration.",
+      plainEnglish: "In plain English, this is an infrastructure-finance story wearing an AI headline: the key question is who owns the expensive compute assets, who guarantees enough usage to service debt, and whether the collateral still has value if model economics or chip cycles shift.",
+      publicSignal: "The public signal is the named counterparties and asset type. Anthropic/Google/TPU language points to real compute demand; Blackstone or other private-capital involvement points to a financing stack trying to turn that demand into durable, underwritable infrastructure exposure.",
+      interpretation: "Read the structure like a project-finance underwrite: contracted usage and creditworthy customers support leverage, but residual value, power availability, depreciation, and replacement-cycle risk decide how much debt is actually safe.",
+      evidence: "The strongest evidence would be disclosed commitment size, duration, collateral package, customer concentration, and lender protections. The weaker evidence is a broad AI partnership headline that does not show who bears utilization, technology, and refinancing risk.",
+      watch: "Watch for disclosed facility terms, lease or offtake duration, power commitments, utilization guarantees, lender group composition, and whether similar TPU/data-center financings clear at tighter or wider economics.",
+      parallel: {
+        precedent: "DigitalBridge, Equinix, and hyperscale data-center financings showed that infrastructure investors will fund compute-adjacent assets when cash flows look contracted and repeatable.",
+        outcome: "Those transactions attracted infrastructure capital, but valuation and leverage depended on tenant quality, power access, utilization visibility, and confidence that the asset would not become obsolete too quickly.",
+        whatRhymes: "The rhyme is the attempt to convert explosive cloud or AI demand into long-duration infrastructure cash flows that private capital can own or lend against.",
+        whatDiffers: "TPU and frontier-model infrastructure carry faster technology-cycle risk than a generic leased data center, so lenders need stronger contracts, collateral discipline, or sponsor support.",
+        soWhat: "Treat the story as a test of whether private capital can finance the AI buildout prudently, not as proof that every AI infrastructure asset deserves infrastructure multiples."
+      }
+    };
+  }
+  if (segment === "private_credit" && /\bstructured note\b|\bstructured notes\b|\bprivate credit\b|\bdirect lending\b|\basset-backed\b|\babs\b|\bcollateral\b|\bcovenant\b|\bnon-accrual\b|\brefinanc|\bnotes\b/.test(text)) {
+    return {
+      kind: "private_credit_structured_notes",
+      summaryTail: "The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      plainEnglish: "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity.",
+      publicSignal: "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms.",
+      interpretation: "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition.",
+      evidence: "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality.",
+      watch: "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings.",
+      parallel: {
+        precedent: "Business-development companies such as Ares Capital and Blue Owl Capital Corp became useful public proxies for private-credit cycles after direct lending took share from broadly syndicated loans.",
+        outcome: "The managers benefited from demand for floating-rate private loans, but investors watched non-accruals, realized losses, funding costs, and portfolio marks to separate durable income from credit drift.",
+        whatRhymes: "Today's structured-note or direct-lending signal still has the same core tradeoff: attractive yield can support demand, while weak collateral or rising losses can erase the premium quickly.",
+        whatDiffers: "Structured notes add tranche, collateral, and liquidity complexity, so headline coupon is less informative than attachment point, collateral pool quality, and who keeps first-loss risk.",
+        soWhat: "Use the item to underwrite terms and credit protection, not to conclude that private-credit appetite alone validates valuations."
+      }
+    };
+  }
+  if (segment === "private_equity" && /\bsponsor\b|\bexit\b|\bipo\b|\bsecondary\b|\bsecondaries\b|\bcontinuation fund\b|\bsale process\b|\bblackstone\b|\bkkr\b|\bapollo\b/.test(text)) {
+    return {
+      kind: "sponsor_exits",
+      summaryTail: "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      plainEnglish: "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer.",
+      publicSignal: "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand.",
+      interpretation: "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
+      evidence: "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path.",
+      watch: "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles.",
+      parallel: {
+        precedent: "Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023.",
+        outcome: "Those tools created liquidity for some LPs but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved.",
+        whatRhymes: "The same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark.",
+        whatDiffers: "Today the highest-quality assets may access IPO or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures.",
+        soWhat: "Treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity."
+      }
+    };
+  }
+  return null;
 }
 
 function leadThemeKey(item) {
@@ -387,7 +454,10 @@ function visualFor(item, marketData) {
   return null;
 }
 
-function summaryFor(item, lane, segment) {
+function summaryFor(item, lane, segment, storyRead = null) {
+  if (storyRead?.summaryTail) {
+    return `${item.summary || item.title} ${storyRead.summaryTail}`;
+  }
   if (lane === "macro") {
     return `${item.summary || item.title} The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.`;
   }
@@ -395,10 +465,10 @@ function summaryFor(item, lane, segment) {
     return `${item.summary || item.title} What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.`;
   }
   if (lane === "private_markets" && segment === "private_credit") {
-    return `${item.summary || item.title} The useful read is what this says about credit availability, lender appetite, and refinancing capacity.`;
+    return `${item.summary || item.title} The useful read is what this says about credit availability, lender appetite, underwriting protection, and refinancing capacity.`;
   }
   if (lane === "private_markets") {
-    return `${item.summary || item.title} The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.`;
+    return `${item.summary || item.title} The useful read is what this says about sponsor activity, valuation discipline, true exit liquidity, and financing conditions.`;
   }
   return `${item.summary || item.title} The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.`;
 }
@@ -414,7 +484,8 @@ function buildLongformSections({
   financingImplication,
   sectorReadThrough,
   parallel,
-  watchNext
+  watchNext,
+  storyRead = null
 }) {
   const parallelText = `A useful parallel is ${parallel.precedent} In that earlier setup, ${parallel.outcome.toLowerCase()} What rhymes is ${parallel.whatRhymes.toLowerCase()} What is different this time is ${parallel.whatDiffers.toLowerCase()} The bottom line is ${parallel.soWhat.toLowerCase()}`;
   if (lane === "macro") {
@@ -514,22 +585,22 @@ function buildLongformSections({
       {
         id: "takeaway",
         heading: "Plain-English takeaway",
-        body: `${whyItMoved} The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable.`
+        body: storyRead?.plainEnglish || `${whyItMoved} The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable after fees, covenants, and downside risk.`
       },
       {
         id: "signal",
         heading: "What the public signal is actually telling us",
-        body: `${whatHappened} Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back.`
+        body: storyRead?.publicSignal || `${whatHappened} Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, pricing, covenant protection, and whether lenders are stretching or pulling back.`
       },
       {
         id: "interpretation",
         heading: "How to interpret the financing signal",
-        body: `${valuationImpact} ${financingImplication} For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust.`
+        body: storyRead?.interpretation || `${valuationImpact} ${financingImplication} For learning purposes, the key mechanism is simple: if private debt stays available on protected terms, more assets can refinance or transact; if spreads widen, covenants weaken, or losses rise, equity checks grow and valuations have to adjust.`
       },
       {
         id: "evidence",
         heading: "Where the evidence is strong versus indirect",
-        body: `${sectorReadThrough} This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing.`
+        body: storyRead?.evidence || `${sectorReadThrough} This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, collateral, covenants, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing.`
       },
       {
         id: "parallel",
@@ -539,7 +610,7 @@ function buildLongformSections({
       {
         id: "watch-next",
         heading: "What would confirm or weaken the read",
-        body: `${watchNext} Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings.`
+        body: `${storyRead?.watch || watchNext} Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration.`
       }
     ];
   }
@@ -547,22 +618,22 @@ function buildLongformSections({
     {
       id: "takeaway",
       heading: "Plain-English takeaway",
-      body: `${whyItMoved} The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks.`
+      body: storyRead?.plainEnglish || `${whyItMoved} The real learning value is understanding what this public signal says about sponsor behavior, exit routes, buyer depth, and valuation discipline rather than treating it as gossip about private marks.`
     },
     {
       id: "signal",
       heading: "What the public signal is actually telling us",
-      body: `${whatHappened} ${whatMoved} In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment.`
+      body: storyRead?.publicSignal || `${whatHappened} ${whatMoved} In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment.`
     },
     {
       id: "interpretation",
       heading: "How to read the sponsor or exit implication",
-      body: `${valuationImpact} ${financingImplication} The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today.`
+      body: storyRead?.interpretation || `${valuationImpact} ${financingImplication} The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today.`
     },
     {
       id: "evidence",
       heading: "Where the evidence is strong versus indirect",
-      body: `${sectorReadThrough} Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative.`
+      body: storyRead?.evidence || `${sectorReadThrough} Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative.`
     },
     {
       id: "parallel",
@@ -572,12 +643,12 @@ function buildLongformSections({
     {
       id: "watch-next",
       heading: "What would confirm or weaken the read",
-      body: `${watchNext} Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone.`
+      body: `${storyRead?.watch || watchNext} Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone.`
     }
   ];
 }
 
-function bankerAnalysis(item, marketData) {
+export function bankerAnalysis(item, marketData = { series: [] }) {
   const editorialLane = editorialLaneFor(item);
   const privateMarketSegment = editorialLane === "private_markets" ? privateMarketSegmentFor(item) : null;
   const theme = item.matchedThemes?.[0]?.name || "Market discipline";
@@ -588,6 +659,7 @@ function bankerAnalysis(item, marketData) {
   const isPrivateCredit = privateMarketSegment === "private_credit";
   const isPrivateEquity = privateMarketSegment === "private_equity";
   const isCompany = ["companies", "ai", "capex", "consumer"].some((t) => item.topics?.includes(t));
+  const storyRead = isPrivate ? storySpecificPrivateRead(item, privateMarketSegment) : null;
 
   const valuationImpact = isMacro
     ? "Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite."
@@ -609,7 +681,9 @@ function bankerAnalysis(item, marketData) {
       ? "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening."
       : "Watch whether the story improves access to capital or makes funding harder for weaker peers.";
 
-  const fallbackParallel = isMacro
+  const fallbackParallel = storyRead?.parallel
+    ? { ...storyRead.parallel, sourceTrail: [{ source: item.source, url: item.url }] }
+    : isMacro
     ? {
         precedent: "Past inflation scares where stocks held up for a while even as rates made financing harder.",
         outcome: "Valuations and leverage became less forgiving even when the equity market still looked constructive.",
@@ -663,7 +737,7 @@ function bankerAnalysis(item, marketData) {
     sourceTrail: [{ source: item.source, url: item.url, publishedAt: item.publishedAt, fetchedAt: item.fetchedAt }],
     freshnessStatus: item.freshnessStatus,
     confidence: item.sourceType === "official" ? "High" : "Medium",
-    summary: summaryFor(item, editorialLane, privateMarketSegment),
+    summary: summaryFor(item, editorialLane, privateMarketSegment, storyRead),
     whatHappened: item.summary || item.title,
     whatMoved: item.analysis?.whatMoved || (isMacro
       ? "The main move is in rates, inflation expectations, and the cost of capital."
@@ -736,7 +810,8 @@ function bankerAnalysis(item, marketData) {
               ? "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals."
               : isPrivateEquity
                 ? "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions."
-                : "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.")
+                : "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."),
+        storyRead
       })
     },
     visual: visualFor(item, marketData),
@@ -858,7 +933,7 @@ function shortReason(id, point, analyses) {
       ? "Gold is trading against the same inflation-and-Fed uncertainty in the macro tab: sticky inflation can support defensive demand, but higher real rates can lean the other way."
       : "Gold moved with the broader inflation and policy backdrop; no gold-specific story cleared the brief.";
   }
-  if (id === "DCOILWTICO") {
+  if (id === "USO" || id === "DCOILWTICO") {
     return "Oil is mostly reading through growth and inflation expectations here. No separate energy headline cleared the brief, so treat this as macro context rather than an oil thesis.";
   }
   return "This move reflects the day’s broader market backdrop more than a standalone story in the brief.";
@@ -870,9 +945,10 @@ function buildMarketWatch(marketData, analyses) {
     { id: "QQQ", label: "QQQ", display: "Nasdaq 100" },
     { id: "IWM", label: "IWM", display: "Russell 2000" },
     { id: "GLD", label: "GLD", display: "Gold" },
+    { id: "USO", label: "USO", display: "Oil proxy (USO ETF)" },
     { id: "DCOILWTICO", label: "WTI", display: "Oil" }
   ];
-  return watchList.map((target) => {
+  const rows = watchList.map((target) => {
     const series = marketData?.series?.find((item) => item.id === target.id);
     const point = latestSeriesPoint(series);
     if (!series || !point) return null;
@@ -890,6 +966,9 @@ function buildMarketWatch(marketData, analyses) {
       whyItMoved: shortReason(target.id, point, analyses)
     };
   }).filter(Boolean);
+  return rows.some((item) => item.id === "USO")
+    ? rows.filter((item) => item.id !== "DCOILWTICO")
+    : rows;
 }
 
 async function main() {
@@ -910,6 +989,7 @@ async function main() {
   const analyses = attachContinuity(selected.map((item) => bankerAnalysis(item, marketData)), prior);
   const sectionAnalyses = attachContinuity(eligibleSectionCandidates(scored).map((item) => bankerAnalysis(item, marketData)), prior);
   const sections = attachMacroCalendar(selectLaneItems(sectionAnalyses, 3), analyses, calendarPayload, runDate);
+  const dealTape = buildDealTape(scored, { now, limit: 8 });
   const marketWatch = buildMarketWatch(marketData, analyses);
   const themePulse = themes
     .map((theme) => ({
@@ -944,6 +1024,7 @@ async function main() {
     freshnessStatus: freshnessStatus(sourcePayload.fetchedAt, now),
     moves: analyses,
     sections,
+    dealTape,
     marketWatch,
     deepDive: analyses[0] || null,
     continuingStories: analyses.filter((item) => item.continuity),

@@ -93,6 +93,14 @@ const marketSeries = [
     stooqSymbol: "gld.us"
   },
   {
+    id: "USO",
+    label: "United States Oil Fund",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=3mo&interval=1d",
+    yahooSymbol: "USO",
+    stooqSymbol: "uso.us"
+  },
+  {
     id: "BX",
     label: "Blackstone",
     source: "Yahoo Finance public chart data",

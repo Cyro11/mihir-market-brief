@@ -54,6 +54,10 @@ function latestIssueHref(base = "") {
   return base === "../" ? "latest.html" : `${base}issues/latest.html`;
 }
 
+function assetHref(base, file) {
+  return `${base}assets/${file}`;
+}
+
 function sourceLinks(move) {
   return move.sourceTrail
     .map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.source)}</a>`)
@@ -295,15 +299,26 @@ function pageForMove(edition, move) {
   return "index.html";
 }
 
+function liveWatchSymbol(item) {
+  return item.id === "DCOILWTICO" || item.symbol === "WTI" ? "USO" : item.symbol;
+}
+
+function liveWatchName(item) {
+  return liveWatchSymbol(item) === "USO" ? "Oil proxy (USO ETF)" : item.name;
+}
+
 function watchCard(item) {
   const price = item.id === "DCOILWTICO" ? item.price.toFixed(2) : item.price.toFixed(2);
   const changePrefix = item.change >= 0 ? "+" : "";
   const percentPrefix = item.percentChange >= 0 ? "+" : "";
+  const liveSymbol = liveWatchSymbol(item);
+  const liveName = liveWatchName(item);
+  const staleNote = liveSymbol === "USO" ? "Rendered WTI/FRED oil data can lag; page-open refresh uses USO as a timely oil proxy." : "Rendered value is refreshed with delayed intraday Yahoo data when the page opens.";
   const context = {
-    title: `${item.name} (${item.symbol})`,
+    title: `${liveName} (${liveSymbol})`,
     editorialLane: "market_watch",
     summary: item.whyItMoved,
-    whatHappened: `${item.symbol} last printed at ${price} on ${item.latestDate}.`,
+    whatHappened: `${liveSymbol} last printed at ${price} on ${item.latestDate}.`,
     whyItMatters: item.whyItMoved,
     whatChanged: `${changePrefix}${item.change.toFixed(2)} / ${percentPrefix}${item.percentChange.toFixed(2)}% versus the prior observation.`,
     valuation: "Use this tape as context for risk appetite, discount rates, and which part of the market is carrying leadership.",
@@ -311,15 +326,16 @@ function watchCard(item) {
     companyRead: "Cross-check any single-stock story against the broader tape before over-reading it.",
     primarySources: [{ source: item.source, url: item.sourceUrl }]
   };
-  return `<article class="move-card watch-card" data-context="${escapeHtml(JSON.stringify(context))}">
-    <div class="meta">${escapeHtml(item.symbol)} / Latest ${escapeHtml(item.latestDate)}</div>
-    <h2>${escapeHtml(item.name)}</h2>
+  return `<article class="move-card watch-card" data-market-symbol="${escapeHtml(liveSymbol)}" data-context="${escapeHtml(JSON.stringify(context))}">
+    <div class="meta"><span data-market-label>${escapeHtml(liveName)}</span> / Rendered ${escapeHtml(item.latestDate)}</div>
+    <h2>${escapeHtml(liveName)}</h2>
     <div class="watch-price-row">
-      <b>${item.id === "DCOILWTICO" ? `$${price}` : `$${price}`}</b>
-      <span class="${item.change >= 0 ? "up" : "down"}">${changePrefix}${item.change.toFixed(2)} / ${percentPrefix}${item.percentChange.toFixed(2)}%</span>
+      <b data-market-price>${item.id === "DCOILWTICO" ? `$${price}` : `$${price}`}</b>
+      <span data-market-change class="${item.change >= 0 ? "up" : "down"}">${changePrefix}${item.change.toFixed(2)} / ${percentPrefix}${item.percentChange.toFixed(2)}%</span>
     </div>
     <p><strong>Why it moved:</strong> ${escapeHtml(item.whyItMoved)}</p>
-    <p class="source-line"><strong>Price source:</strong> <a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(item.source)}</a></p>
+    <p class="source-line"><strong>Timestamp:</strong> <span data-market-timestamp>Rendered ${escapeHtml(item.latestDate)}. ${escapeHtml(staleNote)}</span></p>
+    <p class="source-line"><strong>Price source:</strong> <a data-market-source href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(item.source)}</a></p>
   </article>`;
 }
 
@@ -417,12 +433,12 @@ function sectionSummaryPagelet(edition, base = "") {
     <div class="panel-head"><div><span class="eyebrow">Section Tape</span><h2>Macro, Markets, Deals, Private Markets</h2></div></div>
     <div class="summary-grid">
       ${sections.map(([key, label, file, description]) => {
-        const count = edition.sections?.[key]?.items?.length || 0;
-        const first = edition.sections?.[key]?.items?.[0];
+        const count = key === "deals" ? (edition.dealTape?.length || 0) : (edition.sections?.[key]?.items?.length || 0);
+        const first = key === "deals" ? edition.dealTape?.[0] : edition.sections?.[key]?.items?.[0];
         return `<a class="summary-card" href="${base}${file}">
-          <span class="meta">${count} selected</span>
+          <span class="meta">${count} ${key === "deals" ? "ranked" : "selected"}</span>
           <b>${escapeHtml(label)}</b>
-          <p>${escapeHtml(first?.whyItMoved || description)}</p>
+          <p>${escapeHtml(first?.whyItMoved || first?.whyItRanks || description)}</p>
         </a>`;
       }).join("")}
     </div>
@@ -447,24 +463,63 @@ function movesPage(edition) {
   const items = edition.marketWatch || [];
   const strip = items.length
     ? `<div class="watch-strip">${items.map((item) => {
-        const changePrefix = item.change >= 0 ? "+" : "";
         const percentPrefix = item.percentChange >= 0 ? "+" : "";
-        return `<div class="watch-quote">
-          <span>${escapeHtml(item.symbol)}</span>
-          <b>$${item.price.toFixed(2)}</b>
-          <i class="${item.change >= 0 ? "up" : "down"}">${percentPrefix}${item.percentChange.toFixed(2)}%</i>
+        const liveSymbol = liveWatchSymbol(item);
+        return `<div class="watch-quote" data-market-symbol="${escapeHtml(liveSymbol)}">
+          <span>${escapeHtml(liveSymbol)}</span>
+          <b data-market-price>$${item.price.toFixed(2)}</b>
+          <i data-market-change class="${item.change >= 0 ? "up" : "down"}">${percentPrefix}${item.percentChange.toFixed(2)}%</i>
         </div>`;
       }).join("")}</div>`
     : "";
   const body = items.length
     ? items.map((item) => watchCard(item)).join("")
     : `<article class="move-card"><h2>No market watch data</h2><p>The public market-data feed did not return the watchlist series for this run.</p></article>`;
-  return `<section class="panel">
+  return `<section class="panel" data-market-watch>
     <div class="panel-head"><div><span class="eyebrow">Market Watch</span><h1>Index Tape and Macro Crosswinds</h1></div></div>
-    <p class="lede">A quick read on the broad tape: where the major index and real-asset proxies last printed, and the most useful reason they are moving today.</p>
+    <p class="lede">A quick read on the broad tape: where the major index and real-asset proxies last printed, and the most useful reason they are moving today. Quotes refresh only when this page is opened, then periodically while it remains open.</p>
+    <p class="source-line market-watch-status" data-market-watch-status>Showing rendered market data until the page-open quote refresh completes.</p>
     ${strip}
     <div class="summary-grid watch-grid">${body}</div>
   </section>`;
+}
+
+function dealTapeCard(deal) {
+  const sources = (deal.sourceTrail || [])
+    .map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.source)}</a>`)
+    .join(", ");
+  return `<article class="deal-tape-card">
+    <div class="deal-rank"><span>#${escapeHtml(String(deal.rank))}</span><b>${escapeHtml(String(deal.rankScore))}</b></div>
+    <div class="deal-body">
+      <div class="meta">Deal Tape / ${escapeHtml(deal.freshnessStatus || "BACKGROUND")} / ${escapeHtml(deal.clusteredItemCount > 1 ? `${deal.clusteredItemCount} clustered items` : "single source item")}</div>
+      <h2>${escapeHtml(deal.title)}</h2>
+      <p class="story-summary">${escapeHtml(deal.summary)}</p>
+      <div class="deal-score-grid">
+        <div><b>Deal strength</b><span>${escapeHtml(deal.dealStrength?.label || "Developing")} / ${escapeHtml(String(deal.dealStrength?.score ?? ""))}</span></div>
+        <div><b>Update strength</b><span>${escapeHtml(deal.updateStrength?.label || "Developing")} / ${escapeHtml(String(deal.updateStrength?.score ?? ""))}</span></div>
+      </div>
+      <p><strong>Why it ranks:</strong> ${escapeHtml(deal.whyItRanks)}</p>
+      <p><strong>Watch next:</strong> ${escapeHtml(deal.watchNext)}</p>
+      <p class="source-line"><strong>Source trail:</strong> ${sources || "source trail unavailable"}</p>
+    </div>
+  </article>`;
+}
+
+function dealsPage(edition, base = "") {
+  const items = edition.dealTape || [];
+  const laneItems = edition.sections?.deals?.items || [];
+  const body = items.length
+    ? items.map((deal) => dealTapeCard(deal)).join("")
+    : `<article class="move-card"><h2>No ranked deal tape yet</h2><p>No transaction, financing, activist, IPO, or sponsor update cleared the deal-strength threshold. The page stays quiet instead of filling with generic deal copy.</p></article>`;
+  const analysisBody = laneItems.length
+    ? `<section class="panel compact"><div class="panel-head"><div><span class="eyebrow">Deal Analysis</span><h2>Source-backed deal stories</h2></div><span class="chip">${laneItems.length} selected</span></div>${dedupeVisualTitles(laneItems, "deals", base)}</section>`
+    : "";
+  return `<section class="panel">
+    <div class="panel-head"><div><span class="eyebrow">Deals</span><h1>Ranked Deal Tape</h1></div><span class="chip">${items.length} ranked</span></div>
+    <p class="lede">High-impact transaction and financing updates ranked from the full candidate set, not only the generic deals lane. Older but important items can rank when the deal strength outweighs freshness.</p>
+    ${body}
+  </section>
+  ${analysisBody}`;
 }
 
 function lanePage(edition, key, eyebrow, title, dek, base = "") {
@@ -647,7 +702,7 @@ function pageContent(active, edition, review, archiveEntries, base = "") {
   if (active === "moves") return movesPage(edition);
   if (active === "macro") return macroPage(edition, base);
   if (active === "markets") return lanePage(edition, "markets", "Markets", "Public Market Tape", "Equities, sector moves, peer reactions, and company-specific market repricings that change the banker read.", base);
-  if (active === "deals") return lanePage(edition, "deals", "Deals", "Deal Tape", "M&A, activists, IPOs, spin-offs, financing updates, and deal-certainty changes that actually matter.", base);
+  if (active === "deals") return dealsPage(edition, base);
   if (active === "private-markets") return privateMarketsPage(edition, base);
   if (active === "deep-dive") return deepDivePage(edition, base);
   if (active === "themes") return themesPage(edition);
@@ -807,6 +862,10 @@ function renderHtml(active, edition, review, archiveEntries, base = "") {
     .watch-quote span { color:#c8beb1; font:900 11px Georgia, "Times New Roman", serif; letter-spacing:.09em; text-transform:uppercase; }
     .watch-quote b { display:block; margin:8px 0 6px; font-size:28px; line-height:1; }
     .watch-quote i { font-style:normal; font-weight:900; }
+    .watch-quote[data-market-live="failed"], .watch-card[data-market-live="failed"] { outline:2px solid var(--red); outline-offset:-2px; }
+    .market-watch-status { margin:12px 0 0; padding:10px 12px; border:1px solid var(--line-soft); background:#f7f4ec; }
+    .market-watch-status[data-status-kind="ok"] { border-color:var(--green); }
+    .market-watch-status[data-status-kind="failed"], .market-watch-status[data-status-kind="partial"] { border-color:var(--red); }
     .watch-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
     .watch-card { min-height:100%; padding:0; border:1px solid var(--line-soft); background:var(--paper-2); box-shadow:4px 4px 0 rgba(17,17,17,.08); }
     .watch-card h2, .watch-card p, .watch-card .meta, .watch-card .source-line { padding-left:16px; padding-right:16px; }
@@ -834,6 +893,16 @@ function renderHtml(active, edition, review, archiveEntries, base = "") {
     .segment-head { margin-bottom:10px; border-bottom:1px solid var(--line-soft); }
     .segment-head h2 { margin:4px 0; font-size:30px; }
     .segment-head p { margin:0 0 12px; color:var(--muted); }
+    .deal-tape-card { display:grid; grid-template-columns:96px minmax(0, 1fr); gap:16px; padding:20px 0; border-bottom:1px solid var(--line-soft); }
+    .deal-tape-card:last-child { border-bottom:0; padding-bottom:0; }
+    .deal-rank { display:grid; align-content:start; gap:6px; padding:12px; border:1px solid var(--line); background:#111; color:#f4eee3; text-align:center; box-shadow:4px 4px 0 rgba(17,17,17,.18); }
+    .deal-rank span { color:#c8beb1; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.08em; text-transform:uppercase; }
+    .deal-rank b { font-size:34px; line-height:1; }
+    .deal-body { min-width:0; }
+    .deal-score-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:10px; margin:14px 0; }
+    .deal-score-grid div { padding:12px; border:1px solid var(--line-soft); background:var(--paper-2); box-shadow:3px 3px 0 rgba(17,17,17,.08); }
+    .deal-score-grid b { display:block; margin-bottom:5px; color:#050505; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.04em; text-transform:uppercase; }
+    .deal-score-grid span { color:#37322e; }
     .insight-grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:10px; margin:14px 0; }
     .insight-grid b, .read-more b { display:block; margin-bottom:5px; color:#050505; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.04em; text-transform:uppercase; }
     .insight-grid span, .source-line, .read-more span { color:#37322e; }
@@ -941,7 +1010,7 @@ function renderHtml(active, edition, review, archiveEntries, base = "") {
     .prompt-box { margin-top:12px; }
     .prompt-box.hidden { display:none; }
     .copy-status { align-self:center; color:var(--green); font-size:13px; font-weight:900; }
-    @media (max-width: 920px) { .tabs { position:static; justify-content:flex-start; } .tabs a { flex:0 0 auto; } .section-menu { flex:0 0 auto; } .section-menu-panel { left:auto; right:0; grid-template-columns:1fr; width:min(340px, calc(100vw - 24px)); } .section-menu-panel section { border-right:0; border-bottom:1px solid #3a3a3a; } .section-menu-panel section:last-child { border-bottom:0; } .summary-grid, .theme-grid, .insight-grid, .related-grid, .legend-grid, .chain-map, .deal-map, .watch-strip, .watch-grid { grid-template-columns:1fr; } .chain-node, .deal-map div { border-right:0; border-bottom:1px solid var(--line); } .chain-node:last-child, .deal-map div:last-child { border-bottom:0; } .visual-head { flex-direction:column; } .visual-head span:last-child { text-align:left; } .watch-price-row { flex-direction:column; align-items:start; } .story-summary, .narrative-section p { font-size:16px; } .bar-row { grid-template-columns:1fr; } .bar-value { text-align:left; } }
+    @media (max-width: 920px) { .tabs { position:static; justify-content:flex-start; } .tabs a { flex:0 0 auto; } .section-menu { flex:0 0 auto; } .section-menu-panel { left:auto; right:0; grid-template-columns:1fr; width:min(340px, calc(100vw - 24px)); } .section-menu-panel section { border-right:0; border-bottom:1px solid #3a3a3a; } .section-menu-panel section:last-child { border-bottom:0; } .summary-grid, .theme-grid, .insight-grid, .related-grid, .legend-grid, .chain-map, .deal-map, .deal-score-grid, .watch-strip, .watch-grid { grid-template-columns:1fr; } .deal-tape-card { grid-template-columns:1fr; } .deal-rank { text-align:left; } .chain-node, .deal-map div { border-right:0; border-bottom:1px solid var(--line); } .chain-node:last-child, .deal-map div:last-child { border-bottom:0; } .visual-head { flex-direction:column; } .visual-head span:last-child { text-align:left; } .watch-price-row { flex-direction:column; align-items:start; } .story-summary, .narrative-section p { font-size:16px; } .bar-row { grid-template-columns:1fr; } .bar-value { text-align:left; } }
     @media (max-width: 640px) { .shell { width:min(100% - 20px, 1240px); } .panel { padding:18px; } .topbar, .panel-head { flex-direction:column; } h1 { font-size:34px; } }
   </style>
 </head>
@@ -977,6 +1046,7 @@ function renderHtml(active, edition, review, archiveEntries, base = "") {
       <button class="action-button secondary" type="button" id="cancelHighlightNote">Cancel</button>
     </div>
   </div>
+  <script src="${assetHref(base, "market-watch-live.js")}" defer></script>
   <script>
     (() => {
       const storageKey = "opening-ledger-notes-v1";
