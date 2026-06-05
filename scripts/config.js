@@ -77,6 +77,7 @@ export const sourceFeeds = [
     name: "Yahoo Finance / Public PE Managers",
     sourceType: "reputable",
     url: "https://feeds.finance.yahoo.com/rss/2.0/headline?s=BX,KKR,APO,CG&region=US&lang=en-US",
+    requiredTextPattern: /\b(blackstone|bx|kkr|apollo|apo|carlyle|cg)\b/i,
     topics: ["private_markets", "private_equity", "markets", "companies"]
   },
   {
@@ -84,6 +85,7 @@ export const sourceFeeds = [
     name: "Yahoo Finance / Private Credit Proxies",
     sourceType: "reputable",
     url: "https://feeds.finance.yahoo.com/rss/2.0/headline?s=ARES,OWL,BXSL,ARCC&region=US&lang=en-US",
+    requiredTextPattern: /\b(ares|ares capital|arcc|blue owl|owl|bxsl|blackstone secured lending|bdc|private credit|direct lending)\b/i,
     topics: ["private_markets", "private_credit", "credit", "markets"]
   },
   {

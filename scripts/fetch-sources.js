@@ -4,7 +4,7 @@ import { absoluteUrl, editionDate, ensureDir, hashKey, normalizeText, readJson, 
 
 function parseRss(xml, feed, fetchedAt) {
   const items = [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)];
-  return items.slice(0, 12).map((match) => {
+  return items.map((match) => {
     const block = match[0];
     const pick = (tag) => normalizeText(block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"))?.[1] ?? "");
     const title = pick("title");
@@ -25,7 +25,13 @@ function parseRss(xml, feed, fetchedAt) {
       topics: feed.topics,
       feedId: feed.id
     };
-  }).filter((item) => item.title && item.url);
+  })
+    .filter((item) => item.title && item.url)
+    .filter((item) => {
+      if (!feed.requiredTextPattern) return true;
+      return feed.requiredTextPattern.test(`${item.title} ${item.summary} ${item.url}`);
+    })
+    .slice(0, 12);
 }
 
 function parseMonthDate(value, fallbackYear = new Date().getFullYear()) {

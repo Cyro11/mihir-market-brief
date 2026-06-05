@@ -98,6 +98,42 @@ test("market signal scoring keeps real deal items above generic conference promo
   }) < 2);
 });
 
+test("generic financial-sector proxy-feed articles do not clear private-market signal", () => {
+  const scored = scoreCandidate({
+    id: "generic-financials",
+    source: "Yahoo Finance / Public PE Managers",
+    sourceType: "reputable",
+    feedId: "private-equity-public-proxies",
+    title: "3 Financials Stocks That Concern Us",
+    url: "https://finance.yahoo.com/markets/stocks/articles/3-financials-stocks-concern-us-134414521.html",
+    publishedAt: "2026-06-05T13:44:14.000Z",
+    summary: "Financial institutions play a critical role, offering everything from consumer banking to wealth management and specialized financial solutions. But uncertainty about fiscal and monetary policy has tempered enthusiasm.",
+    facts: ["Financial institutions play a critical role."],
+    topics: ["private_markets", "private_equity", "markets", "companies"]
+  }, themes, new Date("2026-06-05T16:39:00Z"));
+
+  assert.equal(scored.eligible, false);
+  assert.match(scored.exclusionReason, /weak market signal/);
+});
+
+test("proxy-feed analyst-rating listicles do not clear private-market signal", () => {
+  const scored = scoreCandidate({
+    id: "generic-carlyle-rating",
+    source: "Yahoo Finance / Public PE Managers",
+    sourceType: "reputable",
+    feedId: "private-equity-public-proxies",
+    title: "TD Cowen Turns More Cautious on Carlyle Group (CG) After Q1 Results",
+    url: "https://finance.yahoo.com/markets/stocks/articles/td-cowen-turns-more-cautious-021351334.html",
+    publishedAt: "2026-06-05T02:13:51.000Z",
+    summary: "The Carlyle Group Inc. is included among the 10 Oversold Dividend Growth Stocks to Buy. TD Cowen reduced its price recommendation and reiterated a Hold rating on the stock after first-quarter earnings reports.",
+    facts: ["TD Cowen reduced its price recommendation."],
+    topics: ["private_markets", "private_equity", "markets", "companies"]
+  }, themes, new Date("2026-06-05T16:39:00Z"));
+
+  assert.equal(scored.eligible, false);
+  assert.match(scored.exclusionReason, /weak market signal/);
+});
+
 test("trusted-domain gate excludes syndicated or promotional domains outside the source set", () => {
   assert.equal(hasTrustedDomain({ url: "https://finance.yahoo.com/markets/stocks/articles/kkr-present-morgan-stanley-us-201500545.html" }), true);
   assert.equal(hasTrustedDomain({ url: "https://247wallst.com/investing/example" }), false);
