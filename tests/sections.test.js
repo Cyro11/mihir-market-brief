@@ -289,3 +289,88 @@ test("sponsor-exit stories separate real liquidity from continuation-style defer
   assert.match(bodies, /return cash to LPs|true buyer|hold the asset longer/);
   assert.match(bodies, /public comps set the valuation ceiling|LP liquidity pressure/);
 });
+
+function testSeries(id, label, values, latestDate = "2026-06-08") {
+  return {
+    id,
+    label,
+    source: "Yahoo Finance public chart data",
+    url: `https://query1.finance.yahoo.com/v8/finance/chart/${id}?range=3mo&interval=1d`,
+    observations: values.map((value, index) => ({
+      date: index === values.length - 1 ? latestDate : `2026-06-${String(index + 1).padStart(2, "0")}`,
+      value
+    }))
+  };
+}
+
+test("markets visual routing replaces stale Dell/Nvidia chart for semiconductor rebound stories", () => {
+  const analysis = bankerAnalysis({
+    title: "S&P 500 and Nasdaq gain as chipmakers rebound from rout, Iran halts Israel attacks",
+    summary: "The Nasdaq led as semiconductor shares including Nvidia, Broadcom, Micron, Marvell, Intel and SOXX rebounded from Friday's rout.",
+    source: "CNBC",
+    sourceType: "reputable",
+    url: "https://www.cnbc.com/example",
+    topics: ["markets", "semiconductors", "ai"],
+    matchedThemes: [],
+    scores: { evidence: 3, total: 35 }
+  }, {
+    marketSourceNote: "Recent public Yahoo Finance chart data with fetched timestamps.",
+    series: [
+      testSeries("SOXX", "iShares Semiconductor ETF", [100, 102, 106]),
+      testSeries("NVDA", "Nvidia", [100, 104, 111]),
+      testSeries("AVGO", "Broadcom", [100, 99, 108]),
+      testSeries("MU", "Micron", [100, 101, 109]),
+      testSeries("MRVL", "Marvell", [100, 98, 104]),
+      testSeries("INTC", "Intel", [100, 97, 103]),
+      testSeries("DELL", "Dell Technologies", [100, 150, 400])
+    ]
+  });
+
+  assert.equal(analysis.visual.type, "bar-chart");
+  assert.equal(analysis.visual.title, "Semiconductor rebound board");
+  assert.deepEqual(analysis.visual.items.map((item) => item.id), ["SOXX", "NVDA", "AVGO", "MU", "MRVL", "INTC"]);
+  assert.doesNotMatch(JSON.stringify(analysis.visual), /Dell Technologies|DELL/);
+  assert.match(analysis.visual.subtitle, /latest daily move/i);
+});
+
+test("macro visual routing uses current yield stack for Fed path stories", () => {
+  const analysis = bankerAnalysis({
+    title: "Markets reprice Fed path toward higher-for-longer rates",
+    summary: "Treasury yields rose as investors priced no Fed cuts and possible hikes.",
+    source: "Yahoo Finance",
+    sourceType: "reputable",
+    url: "https://finance.yahoo.com/example",
+    topics: ["macro", "rates", "fed"],
+    matchedThemes: [],
+    scores: { evidence: 3, total: 35 }
+  }, {
+    sourceNote: "Recent FRED observations.",
+    series: [
+      testSeries("DGS10", "10-Year Treasury Yield", [4.3, 4.4, 4.46]),
+      testSeries("DGS2", "2-Year Treasury Yield", [3.8, 3.9, 4.0]),
+      testSeries("FEDFUNDS", "Effective Federal Funds Rate", [3.63, 3.63, 3.63])
+    ]
+  });
+
+  assert.equal(analysis.visual.type, "line-chart");
+  assert.equal(analysis.visual.title, "Yield stack and Fed-path pressure");
+  assert.deepEqual(analysis.visual.series.map((series) => series.id), ["DGS10", "DGS2", "FEDFUNDS"]);
+});
+
+test("deal visual routing uses transaction map instead of old activist deal template", () => {
+  const analysis = bankerAnalysis({
+    title: "J&J to buy cancer drug technology developer Firefly Bio for $1 billion",
+    summary: "Reuters reported Johnson & Johnson agreed to buy Firefly Bio in a strategic oncology acquisition.",
+    source: "Reuters",
+    sourceType: "reputable",
+    url: "https://www.reuters.com/example",
+    topics: ["deals", "healthcare", "m&a"],
+    matchedThemes: [],
+    scores: { evidence: 3, total: 35 }
+  }, { series: [] });
+
+  assert.equal(analysis.visual.type, "deal-timeline");
+  assert.equal(analysis.visual.title, "Transaction path and risk map");
+  assert.match(JSON.stringify(analysis.visual.steps), /Strategic rationale|Regulatory path|Closing certainty/);
+  assert.doesNotMatch(JSON.stringify(analysis.visual.steps), /Activist overlay|Toms Capital/);
+});

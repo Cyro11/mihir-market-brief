@@ -355,7 +355,7 @@ function moveCard(move, index, options = {}) {
     && (!move.visual.allowedPages?.length || move.visual.allowedPages.includes(activePage))
   );
   const expanded = options.expanded ?? index === 0;
-  const sections = move.longform?.sections || [];
+  const sections = (move.longform?.sections || []).filter((section) => section.heading && section.body && String(section.body).trim().length);
   return `<article class="move-card" data-context="${escapeHtml(JSON.stringify(moveContext(move)))}">
     <div class="meta">Move ${index + 1} / ${escapeHtml(move.editorialLaneLabel || "Markets")} / ${escapeHtml(move.freshnessStatus)} / Confidence ${escapeHtml(move.confidence)}</div>
     <h2>${escapeHtml(move.title)}</h2>
@@ -422,6 +422,7 @@ function overview(edition, base = "") {
     <div class="summary-grid">${cards}</div>
   </section>
   ${sectionSummaryPagelet(edition, base)}
+  ${todayMarketMap(edition)}
   ${openbbMarketPackCard(edition.openbbMarketPack)}
   ${continuingStoriesPagelet(edition, base)}
   <section class="panel compact">
@@ -503,6 +504,35 @@ function openbbMarketPackCard(pack) {
     <p><strong>Read:</strong> ${escapeHtml(pack.summary?.riskTone || "")}</p>
     <p><strong>Watch next:</strong> ${escapeHtml(pack.summary?.watchNext || "")}</p>
     <p class="source-line">${escapeHtml(pack.sourceNote || "")} ${sources}</p>
+  </section>`;
+}
+
+function todayMarketMap(edition) {
+  const watch = edition.marketWatch || [];
+  const bySymbol = new Map(watch.map((item) => [liveWatchSymbol(item), item]));
+  const tile = (label, symbols, read) => {
+    const rows = symbols.map((symbol) => bySymbol.get(symbol)).filter(Boolean);
+    if (!rows.length) return "";
+    const avg = rows.reduce((sum, row) => sum + (Number(row.percentChange) || 0), 0) / rows.length;
+    const sign = avg >= 0 ? "+" : "";
+    return `<article class="theme-card market-map-tile">
+      <span class="meta">Today’s market map</span>
+      <h2>${escapeHtml(label)}</h2>
+      <p><strong>${sign}${avg.toFixed(2)}%</strong> average rendered move across ${rows.map((row) => escapeHtml(liveWatchSymbol(row))).join(" / ")}.</p>
+      <p>${escapeHtml(read)}</p>
+    </article>`;
+  };
+  const tiles = [
+    tile("Equity leadership", ["SPY", "QQQ", "IWM"], "Shows whether the current story is broad risk appetite or narrow mega-cap/tech leadership."),
+    tile("Risk hedge", ["GLD"], "Gold gives a quick cross-check on whether investors are still paying for downside/geopolitical protection."),
+    tile("Oil / geopolitics", ["USO"], "Oil pressure is the cleanest recurring proxy when geopolitical headlines affect inflation and risk appetite."),
+    tile("Rate-sensitive tape", ["IWM", "GLD"], "Small caps and gold help frame how rates and real yields are feeding through the broader tape.")
+  ].filter(Boolean).join("");
+  if (!tiles) return "";
+  return `<section class="panel compact">
+    <div class="panel-head"><div><span class="eyebrow">Visual Dashboard</span><h2>Today’s Market Map</h2></div><span class="chip">recent data</span></div>
+    <p class="lede">A compact, story-aware read of the live issue’s market context. It uses the same recent market-data feed as the section visuals, so stale one-off charts do not carry forward by default.</p>
+    <div class="theme-grid">${tiles}</div>
   </section>`;
 }
 
@@ -679,14 +709,23 @@ function deepDivePage(edition, base = "") {
 }
 
 function themesPage(edition) {
-  const themes = edition.themePulse.length
-    ? edition.themePulse.map((theme) => `<article class="theme-card">
-      <span class="meta">${theme.freshItems} fresh signal(s)</span>
+  const themeVisual = (theme) => {
+    const fresh = Number(theme.freshItems || 0);
+    const status = fresh >= 2 ? "heating" : fresh === 1 ? "active" : "watching";
+    const statusText = status === "heating" ? "Heating" : status === "active" ? "Active" : "Watching";
+    const latest = theme.latestItem?.title || theme.openQuestions?.[0] || "No linked current item recorded.";
+    return `<article class="theme-card theme-tracker-card">
+      <span class="meta">Theme tracker / ${escapeHtml(statusText)}</span>
       <h2>${escapeHtml(theme.name)}</h2>
-      <p>${escapeHtml(theme.openQuestions[0] || "No open question recorded.")}</p>
-    </article>`).join("")
+      <p><strong>Latest signal:</strong> ${escapeHtml(latest)}</p>
+      <p><strong>Confirming indicator:</strong> ${escapeHtml(theme.openQuestions?.[0] || "Need a fresh source-backed update before upgrading the theme.")}</p>
+      <div class="bar-track"><i class="${fresh ? "up" : "down"}" style="width:${Math.min(100, Math.max(12, fresh * 34))}%"></i></div>
+    </article>`;
+  };
+  const themes = edition.themePulse.length
+    ? edition.themePulse.map(themeVisual).join("")
     : `<article class="theme-card"><h2>No fresh theme signal</h2><p>No tracked theme had enough evidence today.</p></article>`;
-  return `<section class="panel"><div class="panel-head"><div><span class="eyebrow">Themes</span><h1>What Is Building Over Time</h1></div></div><div class="theme-grid">${themes}</div></section>`;
+  return `<section class="panel"><div class="panel-head"><div><span class="eyebrow">Themes</span><h1>What Is Building Over Time</h1></div><span class="chip">visual tracker</span></div><p class="lede">Themes now render as a tracker board: status, latest linked signal, and the indicator that would confirm or break the read.</p><div class="theme-grid">${themes}</div></section>`;
 }
 
 function sourcesPage(edition, review) {

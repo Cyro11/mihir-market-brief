@@ -43,6 +43,30 @@ const fredSeries = [
 
 const marketSeries = [
   {
+    id: "TNX",
+    label: "10-Year Treasury Yield Proxy (^TNX)",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=3mo&interval=1d",
+    yahooSymbol: "^TNX",
+    stooqSymbol: ""
+  },
+  {
+    id: "IRX",
+    label: "13-Week Treasury Bill Yield Proxy (^IRX)",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/%5EIRX?range=3mo&interval=1d",
+    yahooSymbol: "^IRX",
+    stooqSymbol: ""
+  },
+  {
+    id: "TYX",
+    label: "30-Year Treasury Yield Proxy (^TYX)",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/%5ETYX?range=3mo&interval=1d",
+    yahooSymbol: "^TYX",
+    stooqSymbol: ""
+  },
+  {
     id: "DELL",
     label: "Dell Technologies",
     source: "Yahoo Finance public chart data",
@@ -57,6 +81,54 @@ const marketSeries = [
     url: "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d",
     yahooSymbol: "NVDA",
     stooqSymbol: "nvda.us"
+  },
+  {
+    id: "SOXX",
+    label: "iShares Semiconductor ETF",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d",
+    yahooSymbol: "SOXX",
+    stooqSymbol: "soxx.us"
+  },
+  {
+    id: "AVGO",
+    label: "Broadcom",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d",
+    yahooSymbol: "AVGO",
+    stooqSymbol: "avgo.us"
+  },
+  {
+    id: "MU",
+    label: "Micron Technology",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d",
+    yahooSymbol: "MU",
+    stooqSymbol: "mu.us"
+  },
+  {
+    id: "MRVL",
+    label: "Marvell Technology",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d",
+    yahooSymbol: "MRVL",
+    stooqSymbol: "mrvl.us"
+  },
+  {
+    id: "INTC",
+    label: "Intel",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d",
+    yahooSymbol: "INTC",
+    stooqSymbol: "intc.us"
+  },
+  {
+    id: "DIA",
+    label: "SPDR Dow Jones Industrial Average ETF",
+    source: "Yahoo Finance public chart data",
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/DIA?range=3mo&interval=1d",
+    yahooSymbol: "DIA",
+    stooqSymbol: "dia.us"
   },
   {
     id: "MKC",
@@ -241,7 +313,7 @@ async function fetchFred(series) {
 }
 
 async function fetchMarketSeries(series) {
-  const yahooResponse = await fetchWithTimeout(`https://query1.finance.yahoo.com/v8/finance/chart/${series.yahooSymbol}?range=3mo&interval=1d`, {
+  const yahooResponse = await fetchWithTimeout(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(series.yahooSymbol)}?range=3mo&interval=1d`, {
     headers: { "user-agent": "TheOpeningLedger/0.1 public educational market brief" }
   });
   if (yahooResponse.ok) {
@@ -254,6 +326,8 @@ async function fetchMarketSeries(series) {
       };
     }
   }
+
+  if (!series.stooqSymbol) throw new Error(`${series.id} returned no Yahoo observations`);
 
   const response = await fetchWithTimeout(`https://stooq.com/q/d/l/?s=${series.stooqSymbol}&i=d`, {
     headers: { "user-agent": "TheOpeningLedger/0.1 public educational market brief" }

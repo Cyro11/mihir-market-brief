@@ -23,21 +23,25 @@ test("visual data and rendered visual cards are present", async () => {
     assert.match(movesHtml, /SPY|QQQ|IWM|GLD|WTI/);
     assert.doesNotMatch(movesHtml, /Visual \//);
 
+    const overviewHtml = await fs.readFile("index.html", "utf8");
+    assert.match(overviewHtml, /Today’s Market Map/);
+    assert.match(overviewHtml, /Equity leadership|Oil \/ geopolitics/);
+
     const dealsHtml = await fs.readFile("deals.html", "utf8");
-    assert.match(dealsHtml, /Deal risk map/);
+    assert.match(dealsHtml, /Transaction path and risk map|Deal risk map/);
     assert.match(dealsHtml, /Why this visual fits:/);
     assert.match(dealsHtml, /Read full analysis|Hide full analysis/);
 
     const macroHtml = await fs.readFile("macro.html", "utf8");
-    assert.match(macroHtml, /Rate backdrop/);
+    assert.match(macroHtml, /Yield stack and Fed-path pressure|Rate backdrop/);
     assert.match(macroHtml, /Economic Calendar/);
     assert.match(macroHtml, /Why this visual fits:/);
-    assert.match(macroHtml, /Rate \(%\)/);
+    assert.match(macroHtml, /Yield \/ policy rate \(%\)|Rate \(%\)/);
     assert.match(macroHtml, /Plain-English takeaway/);
 
     const marketsHtml = await fs.readFile("markets.html", "utf8");
-    assert.match(marketsHtml, /Stock reaction|AI infrastructure read-through/);
-    assert.match(marketsHtml, /Price/);
+    assert.match(marketsHtml, /Semiconductor rebound board|Stock reaction|AI infrastructure read-through/);
+    assert.match(marketsHtml, /Latest daily change|Price/);
     assert.match(marketsHtml, /Why this visual fits:/);
     assert.doesNotMatch(marketsHtml, /Credit window proxy|Rate backdrop/);
     assert.match(marketsHtml, /Mechanism behind the move|What the market may be pricing in right or wrong/);
@@ -52,6 +56,10 @@ test("visual data and rendered visual cards are present", async () => {
     const deepDiveHtml = await fs.readFile("deep-dive.html", "utf8");
     assert.match(deepDiveHtml, /Visual \//);
     assert.match(deepDiveHtml, /Hide full analysis/);
+
+    const themesHtml = await fs.readFile("themes.html", "utf8");
+    assert.match(themesHtml, /Theme tracker/);
+    assert.match(themesHtml, /Latest signal:/);
   } finally {
     await execFileAsync("node", ["scripts/render-edition.js"]);
   }

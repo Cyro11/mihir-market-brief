@@ -144,7 +144,7 @@ function storyText(item) {
 
 function storySpecificPrivateRead(item, segment) {
   const text = storyText(item);
-  if (/\banthropic\b|\bgoogle\b|\btpu\b|\bblackstone\b|\bdata[ -]?center\b|\bai infrastructure\b|\bcompute\b/.test(text)) {
+  if (/\banthropic\b|\bgoogle\b|\btpu\b|\bdata[ -]?center\b|\bai infrastructure\b|\bcompute\b/.test(text)) {
     return {
       kind: "ai_compute_infrastructure",
       summaryTail: "The banking read is not simply 'AI demand is large'; it is whether contracted compute demand can be packaged into financeable infrastructure cash flows without leaving lenders exposed to chip obsolescence, power constraints, or one-customer concentration.",
@@ -276,12 +276,19 @@ function visualFor(item, marketData) {
     if (!Number.isFinite(first) || !Number.isFinite(last) || first === 0) return null;
     return ((last - first) / first) * 100;
   };
-  const comparisonItems = (ids, suffix = "%") => marketSeriesById(ids)
+  const latestPercentChange = (series) => {
+    const observations = series?.observations || [];
+    const last = observations[observations.length - 1]?.value;
+    const prior = observations[observations.length - 2]?.value;
+    if (!Number.isFinite(prior) || !Number.isFinite(last) || prior === 0) return percentChange(series);
+    return ((last - prior) / prior) * 100;
+  };
+  const comparisonItems = (ids, suffix = "%", changeFn = percentChange) => marketSeriesById(ids)
     .map((series) => ({
       id: series.id,
       label: series.label,
-      value: percentChange(series),
-      displayValue: percentChange(series),
+      value: changeFn(series),
+      displayValue: changeFn(series),
       suffix,
       latestDate: series.observations?.[series.observations.length - 1]?.date || "",
       url: series.url
@@ -297,16 +304,37 @@ function visualFor(item, marketData) {
     baseSourceTrail.push({ source: item.source || "Source", url: item.url });
   }
   if (editorialLane === "macro") {
-    const series = marketSeriesById(["DGS10", "DGS2", "FEDFUNDS"]);
-    if (series.length) {
+    let series = marketSeriesById(["DGS10", "DGS2", "FEDFUNDS"]);
+    if (series.length < 2) series = marketSeriesById(["TNX", "IRX", "TYX", "FEDFUNDS"]);
+    if (series.length >= 2) {
       return {
         type: "line-chart",
-        title: "Rate backdrop",
-        subtitle: "Latest public FRED observations. This is not live trading data.",
-        relevanceNote: "This chart fits because the story is about the rate backdrop itself, not just a company reacting to it.",
+        title: "Yield stack and Fed-path pressure",
+        subtitle: "Latest available public rate observations through the brief date; uses Yahoo Treasury proxies when FRED daily Treasury feeds are unavailable.",
+        relevanceNote: "This chart fits because the story is about Fed-path repricing and the discount-rate stack that drives equity multiples, financing costs, and deal math.",
         allowedPages: ["macro", "deep-dive"],
+        axisTitle: "Rate",
+        axisSuffix: "%",
+        visualSource: "Public rate data",
         series,
-        sourceNote: marketData.sourceNote
+        sourceNote: marketData.marketSourceNote || marketData.sourceNote
+      };
+    }
+  }
+  if (editorialLane === "markets" && /\bsemi\b|\bsemis\b|\bsemiconductor\b|\bsemiconductors\b|\bchip\b|\bchips\b|\bchipmaker\b|\bchipmakers\b|\bnvidia\b|\bnasdaq\b/.test(text)) {
+    const items = comparisonItems(["SOXX", "NVDA", "AVGO", "MU", "MRVL", "INTC"], "%", latestPercentChange);
+    if (items.length >= 3) {
+      return {
+        type: "bar-chart",
+        title: "Semiconductor rebound board",
+        subtitle: "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
+        relevanceNote: "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
+        allowedPages: ["markets", "deep-dive"],
+        axisTitle: "Latest daily change",
+        visualSource: "Public market data",
+        items,
+        sourceTrail: items.map((entry) => ({ source: entry.label, url: entry.url })),
+        sourceNote: marketData.marketSourceNote || "Public market-data visuals preserve source links and fetched timestamps."
       };
     }
   }
@@ -327,7 +355,7 @@ function visualFor(item, marketData) {
       };
     }
   }
-  if (privateMarketSegment === "private_credit" && creditWindowStory) {
+  if (privateMarketSegment === "private_credit") {
     const managerItems = comparisonItems(["OWL", "ARCC", "BXSL", "BX"], "%");
     if (managerItems.length >= 3 && /\bblue owl\b|\bdirect lending\b|\bbdc\b|\bmanager\b|\bprivate credit\b/.test(text)) {
       return {
@@ -440,20 +468,20 @@ function visualFor(item, marketData) {
       ]
     };
   }
-  if (/mccormick|unilever|toms capital|activist|deal/.test(text)) {
+  if (editorialLane === "deals" || /\bdeal\b|\bdeals\b|\bm&a\b|\bacquisition\b|\bto buy\b|\bbuyout\b|\bsale process\b|\bmerger\b|\btransaction\b/.test(text)) {
     return {
       type: "deal-timeline",
-      title: "Deal risk map",
-      subtitle: "Sourced transaction structure and watchpoints.",
-      relevanceNote: "This visual fits because the useful question is where the deal can change, not whether one market series moved.",
+      title: "Transaction path and risk map",
+      subtitle: "Story-specific transaction map showing where today's deal can create or lose certainty.",
+      relevanceNote: "This visual fits because the useful question is how the transaction moves from strategic logic to signed terms, approvals, financing discipline, and closing certainty.",
       allowedPages: ["deals", "deep-dive"],
       sourceTrail: baseSourceTrail,
       steps: [
-        { label: "Deal announced", detail: "Strategic scale and synergy case" },
-        { label: "Activist overlay", detail: "Toms Capital stake adds scrutiny" },
-        { label: "Approvals", detail: "Shareholder and regulatory path" },
-        { label: "Financing / leverage", detail: "Debt, dilution, capital plan" },
-        { label: "Outcome", detail: "Close, change terms, or defend deal" }
+        { label: "Strategic rationale", detail: item.title },
+        { label: "Valuation / consideration", detail: "Check whether price, structure, and expected synergies justify the buyer's capital allocation." },
+        { label: "Regulatory path", detail: "Confirm antitrust, sector, shareholder, and other approval gates before treating the deal as done." },
+        { label: "Financing discipline", detail: "Watch leverage, cash use, dilution, and whether market conditions change the economics before close." },
+        { label: "Closing certainty", detail: "The read improves if approvals, financing, and integration risk remain contained; it breaks if any gate gets harder." }
       ]
     };
   }
