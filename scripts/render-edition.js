@@ -415,6 +415,7 @@ function overview(edition, base = "") {
     <div class="summary-grid">${cards}</div>
   </section>
   ${sectionSummaryPagelet(edition, base)}
+  ${openbbMarketPackCard(edition.openbbMarketPack)}
   ${continuingStoriesPagelet(edition, base)}
   <section class="panel compact">
     <div class="panel-head"><div><span class="eyebrow">How to read it</span><h2>Simple Rule</h2></div></div>
@@ -459,6 +460,45 @@ function continuingStoriesPagelet(edition, base = "") {
   </section>`;
 }
 
+function formatPct(value) {
+  return Number.isFinite(value) ? `${value >= 0 ? "+" : ""}${value.toFixed(2)}%` : "n.a.";
+}
+
+function openbbMarketPackCard(pack) {
+  if (!pack) return "";
+  const metricRow = (row) => `<tr>
+    <td><a href="${escapeHtml(row.url || "#")}" target="_blank" rel="noreferrer"><strong>${escapeHtml(row.symbol)}</strong></a><span>${escapeHtml(row.label || "")}</span></td>
+    <td>${formatPct(row.oneDayPct)}</td>
+    <td>${formatPct(row.fiveDayPct)}</td>
+    <td>${formatPct(row.oneMonthPct)}</td>
+    <td>${formatPct(row.ytdPct)}</td>
+  </tr>`;
+  const indexRows = (pack.indices || []).map(metricRow).join("");
+  const sectorRows = (pack.sectors || []).map(metricRow).join("");
+  const watchRows = (pack.watchlist || []).map((row) => `<tr>
+    <td><a href="${escapeHtml(row.url || "#")}" target="_blank" rel="noreferrer"><strong>${escapeHtml(row.symbol)}</strong></a><span>${escapeHtml(row.label || "")}</span></td>
+    <td>${formatPct(row.oneDayPct)}</td>
+    <td>${formatPct(row.fiveDayPct)}</td>
+    <td>${formatPct(row.oneMonthPct)}</td>
+    <td>${row.volumeVs20DayAvg ? `${row.volumeVs20DayAvg.toFixed(2)}x` : "n.a."}</td>
+  </tr>`).join("");
+  const sources = (pack.sourceTrail || [])
+    .map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.source)}</a>`)
+    .join(", ");
+  return `<section class="panel compact data-pack">
+    <div class="panel-head"><div><span class="eyebrow">OpenBB Market Pack</span><h2>Indices, Sectors, and Watchlist Movers</h2></div><span class="chip">${escapeHtml(pack.runDate || "latest")}</span></div>
+    <p class="lede">${escapeHtml(pack.summary?.headline || "OpenBB-backed market context for today's tape.")}</p>
+    <div class="data-pack-grid">
+      <article class="move-card data-table-card"><h3>Index board</h3><table><thead><tr><th>Name</th><th>1D</th><th>5D</th><th>1M</th><th>YTD</th></tr></thead><tbody>${indexRows}</tbody></table></article>
+      <article class="move-card data-table-card"><h3>Sector extremes</h3><table><thead><tr><th>Name</th><th>1D</th><th>5D</th><th>1M</th><th>YTD</th></tr></thead><tbody>${sectorRows}</tbody></table></article>
+      <article class="move-card data-table-card"><h3>Watchlist movers</h3><table><thead><tr><th>Name</th><th>1D</th><th>5D</th><th>1M</th><th>Vol / 20D</th></tr></thead><tbody>${watchRows}</tbody></table></article>
+    </div>
+    <p><strong>Read:</strong> ${escapeHtml(pack.summary?.riskTone || "")}</p>
+    <p><strong>Watch next:</strong> ${escapeHtml(pack.summary?.watchNext || "")}</p>
+    <p class="source-line">${escapeHtml(pack.sourceNote || "")} ${sources}</p>
+  </section>`;
+}
+
 function movesPage(edition) {
   const items = edition.marketWatch || [];
   const strip = items.length
@@ -481,7 +521,8 @@ function movesPage(edition) {
     <p class="source-line market-watch-status" data-market-watch-status>Showing rendered market data until the page-open quote refresh completes.</p>
     ${strip}
     <div class="summary-grid watch-grid">${body}</div>
-  </section>`;
+  </section>
+  ${openbbMarketPackCard(edition.openbbMarketPack)}`;
 }
 
 function dealTapeCard(deal) {
@@ -867,6 +908,15 @@ function renderHtml(active, edition, review, archiveEntries, base = "") {
     .market-watch-status[data-status-kind="ok"] { border-color:var(--green); }
     .market-watch-status[data-status-kind="failed"], .market-watch-status[data-status-kind="partial"] { border-color:var(--red); }
     .watch-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
+    .data-pack { border-top-color:var(--red); }
+    .data-pack-grid { display:grid; grid-template-columns:1fr; gap:14px; margin:16px 0; }
+    .data-table-card { padding:16px; border:1px solid var(--line-soft); background:var(--paper-2); overflow:auto; }
+    .data-table-card table { width:100%; border-collapse:collapse; font-size:14px; }
+    .data-table-card th, .data-table-card td { padding:9px 8px; border-bottom:1px solid var(--line-soft); text-align:right; white-space:nowrap; }
+    .data-table-card th:first-child, .data-table-card td:first-child { text-align:left; min-width:190px; }
+    .data-table-card td span { display:block; color:var(--muted); font-size:12px; }
+    .data-table-card a { color:inherit; text-decoration:none; }
+    .data-table-card a:hover { color:var(--red); }
     .watch-card { min-height:100%; padding:0; border:1px solid var(--line-soft); background:var(--paper-2); box-shadow:4px 4px 0 rgba(17,17,17,.08); }
     .watch-card h2, .watch-card p, .watch-card .meta, .watch-card .source-line { padding-left:16px; padding-right:16px; }
     .watch-card .meta { padding-top:16px; }

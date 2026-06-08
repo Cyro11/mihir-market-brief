@@ -10,6 +10,7 @@ The product standard is paid-quality editorial judgment using free-access source
 - a recurring deal watch with valuation, rationale, risk, and update tracking
 - macro interpretation with first-order and second-order effects
 - visual market snapshot with rates, credit, sectors, and company read-throughs
+- OpenBB-backed index / sector / watchlist market pack for repeatable tape reads
 - source discipline that validates importance against WSJ / FT / NYT themes when accessible
 
 ## Run Locally
@@ -50,6 +51,8 @@ The live newsletter is generated from structured public data:
 
 ```bash
 npm run fetch    # official/free source collection
+npm run fetch:visuals # public market/FRED visuals + OpenBB market pack
+npm run fetch:calendar # official macro calendar
 npm run analyze  # triage, select, and generate banker analysis
 npm run review   # block stale, unsupported, or generic output
 npm run render   # generate index.html and issue archives

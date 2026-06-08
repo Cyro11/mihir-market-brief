@@ -174,7 +174,7 @@ function storySpecificPrivateRead(item, segment) {
       }
     };
   }
-  if (segment === "private_equity" && /\bsponsor\b|\bexit\b|\bipo\b|\bsecondary\b|\bsecondaries\b|\bcontinuation fund\b|\bsale process\b|\bblackstone\b|\bkkr\b|\bapollo\b/.test(text)) {
+  if (segment === "private_equity" && /\bsponsor\b|\bexit\b|\bipo\b|\bsecondary\b|\bsecondaries\b|\bcontinuation fund\b|\bsale process\b|\bacquisition\b|\bmajority stake\b|\bstrategic acquisitions\b|\bcarlyle\b|\bblackstone\b|\bkkr\b|\bapollo\b/.test(text)) {
     return {
       kind: "sponsor_exits",
       summaryTail: "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
@@ -946,10 +946,11 @@ function buildMarketWatch(marketData, analyses) {
     { id: "IWM", label: "IWM", display: "Russell 2000" },
     { id: "GLD", label: "GLD", display: "Gold" },
     { id: "USO", label: "USO", display: "Oil proxy (USO ETF)" },
-    { id: "DCOILWTICO", label: "WTI", display: "Oil" }
+    { id: "DCOILWTICO", fallbackId: "USO", label: "WTI", display: "Oil" }
   ];
   const rows = watchList.map((target) => {
-    const series = marketData?.series?.find((item) => item.id === target.id);
+    const series = marketData?.series?.find((item) => item.id === target.id)
+      || marketData?.series?.find((item) => item.id === target.fallbackId);
     const point = latestSeriesPoint(series);
     if (!series || !point) return null;
     return {
@@ -969,6 +970,28 @@ function buildMarketWatch(marketData, analyses) {
   return rows.some((item) => item.id === "USO")
     ? rows.filter((item) => item.id !== "DCOILWTICO")
     : rows;
+}
+
+function buildOpenBbMarketPack(marketData) {
+  const pack = marketData?.openbbMarketPack;
+  if (!pack || typeof pack !== "object") return null;
+  const topRows = (rows = [], field = "oneDayPct", limit = 6) => rows
+    .filter((row) => Number.isFinite(row?.[field]))
+    .sort((a, b) => Math.abs(b[field]) - Math.abs(a[field]))
+    .slice(0, limit);
+
+  return {
+    runDate: pack.runDate,
+    fetchedAt: pack.fetchedAt,
+    provider: pack.provider,
+    sourceNote: pack.sourceNote,
+    sourceTrail: pack.sourceTrail || [],
+    summary: pack.summary || {},
+    indices: pack.indices || [],
+    sectors: topRows(pack.sectors, "oneDayPct", 6),
+    watchlist: topRows(pack.watchlist, "oneDayPct", 8),
+    failures: pack.failures || []
+  };
 }
 
 async function main() {
@@ -991,6 +1014,7 @@ async function main() {
   const sections = attachMacroCalendar(selectLaneItems(sectionAnalyses, 3), analyses, calendarPayload, runDate);
   const dealTape = buildDealTape(scored, { now, limit: 8 });
   const marketWatch = buildMarketWatch(marketData, analyses);
+  const openbbMarketPack = buildOpenBbMarketPack(marketData);
   const themePulse = themes
     .map((theme) => ({
       id: theme.id,
@@ -1026,6 +1050,7 @@ async function main() {
     sections,
     dealTape,
     marketWatch,
+    openbbMarketPack,
     deepDive: analyses[0] || null,
     continuingStories: analyses.filter((item) => item.continuity),
     themePulse,

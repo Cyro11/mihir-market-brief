@@ -1,6 +1,12 @@
 import path from "node:path";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+import { fileURLToPath } from "node:url";
 import { marketDataDir } from "./config.js";
 import { editionDate, ensureDir, writeJson } from "./utils.js";
+
+const execFileAsync = promisify(execFile);
+const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 
 const fredSeries = [
   {
@@ -150,7 +156,7 @@ const marketSeries = [
   }
 ];
 
-async function fetchWithTimeout(url, options = {}, timeoutMs = 12000) {
+async function fetchWithTimeout(url, options = {}, timeoutMs = 25000) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
@@ -158,6 +164,22 @@ async function fetchWithTimeout(url, options = {}, timeoutMs = 12000) {
   } finally {
     clearTimeout(timer);
   }
+}
+
+async function fetchWithRetry(url, options = {}, timeoutMs = 25000, attempts = 3) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await fetchWithTimeout(url, options, timeoutMs);
+      if (response.ok || attempt === attempts) return response;
+      lastError = new Error(`HTTP ${response.status}`);
+    } catch (error) {
+      lastError = error;
+      if (attempt === attempts) throw error;
+    }
+    await new Promise((resolve) => setTimeout(resolve, 750 * attempt));
+  }
+  throw lastError;
 }
 
 function parseFredCsv(csv, limit = 90) {
@@ -203,7 +225,7 @@ function parseYahooChart(json, limit = 90) {
 }
 
 async function fetchFred(series) {
-  const response = await fetchWithTimeout(`https://fred.stlouisfed.org/graph/fredgraph.csv?id=${series.id}`, {
+  const response = await fetchWithRetry(`https://fred.stlouisfed.org/graph/fredgraph.csv?id=${series.id}`, {
     headers: { "user-agent": "TheOpeningLedger/0.1 public educational market brief" }
   });
   if (!response.ok) throw new Error(`${series.id} returned ${response.status}`);
@@ -248,6 +270,20 @@ async function fetchMarketSeries(series) {
   };
 }
 
+async function fetchOpenBbMarketPack(runDate) {
+  const python = process.env.OPENBB_PYTHON || "/home/norse/openbb-finance-lab/.venv/bin/python";
+  const script = path.join(scriptDir, "openbb-market-pack.py");
+  const { stdout } = await execFileAsync(python, [script, "--date", runDate], {
+    maxBuffer: 1024 * 1024 * 8,
+    timeout: 180000
+  });
+  const payload = JSON.parse(stdout);
+  return {
+    ...payload,
+    sourceNote: payload.sourceNote || "OpenBB market pack uses public provider data as market context, not live trading data."
+  };
+}
+
 async function main() {
   const runDate = process.env.BRIEF_DATE || editionDate();
   const cutoffDate = (process.env.BRIEF_NOW || `${runDate}T23:59:59-04:00`).slice(0, 10);
@@ -269,11 +305,22 @@ async function main() {
     }
   }
 
+  let openbbMarketPack = null;
+  try {
+    openbbMarketPack = await fetchOpenBbMarketPack(cutoffDate);
+    for (const failure of openbbMarketPack.failures || []) {
+      failures.push({ id: `OPENBB_${failure.id}`, message: failure.message });
+    }
+  } catch (error) {
+    failures.push({ id: "OPENBB_MARKET_PACK", message: error.message });
+  }
+
   const payload = {
     runDate,
     fetchedAt: new Date().toISOString(),
     sourceNote: "Numeric market visuals use public FRED CSV downloads and preserve source links.",
     marketSourceNote: "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data.",
+    openbbMarketPack,
     series: series.map((item) => ({
       ...item,
       observations: (item.observations || []).filter((point) => point.date <= cutoffDate)
