@@ -61,10 +61,11 @@ test("section buckets cap each lane and private-market segment", () => {
 
 test("rendered edition includes first-class section tabs and empty-state language", async () => {
   const html = await fs.readFile("index.html", "utf8");
-  assert.match(html, /macro\.html/);
-  assert.match(html, /markets\.html/);
-  assert.match(html, /deals\.html/);
-  assert.match(html, /private-markets\.html/);
+  assert.match(html, /macro\.html\?v=2026-06-08/);
+  assert.match(html, /markets\.html\?v=2026-06-08/);
+  assert.match(html, /deals\.html\?v=2026-06-08/);
+  assert.match(html, /private-markets\.html\?v=2026-06-08/);
+  assert.match(html, /private-markets\.html\?v=2026-06-08#privateCredit-1|private-markets\.html\?v=2026-06-08#privateEquity-1/);
   assert.match(html, /Section Tape/);
 
   const macroHtml = await fs.readFile("macro.html", "utf8");

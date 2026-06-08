@@ -299,6 +299,13 @@ function pageForMove(edition, move) {
   return "index.html";
 }
 
+function internalHref(target, edition, base = "") {
+  const [file, hash = ""] = target.split("#");
+  const separator = file.includes("?") ? "&" : "?";
+  const cacheBust = edition?.runDate ? `${separator}v=${encodeURIComponent(edition.runDate)}` : "";
+  return `${base}${file}${cacheBust}${hash ? `#${hash}` : ""}`;
+}
+
 function liveWatchSymbol(item) {
   return item.id === "DCOILWTICO" || item.symbol === "WTI" ? "USO" : item.symbol;
 }
@@ -384,16 +391,16 @@ function dedupeVisualTitles(items, activePage, base = "") {
   }).join("");
 }
 
-function nav(active, base = "") {
+function nav(active, edition, base = "") {
   const isUtilityPage = !mainNavPageIds.has(active);
   return `<nav class="tabs" aria-label="Brief pages">
-    ${pages.filter(([id]) => mainNavPageIds.has(id)).map(([id, label, file]) => `<a class="${id === active ? "active" : ""}" href="${base}${file}">${label}</a>`).join("")}
+    ${pages.filter(([id]) => mainNavPageIds.has(id)).map(([id, label, file]) => `<a class="${id === active ? "active" : ""}" href="${internalHref(file, edition, base)}">${label}</a>`).join("")}
     <div class="section-menu${isUtilityPage ? " is-open" : ""}" data-section-menu>
       <button class="section-menu-trigger" type="button" aria-expanded="${isUtilityPage ? "true" : "false"}">All Sections</button>
       <div class="section-menu-panel"${isUtilityPage ? "" : " hidden"}>
         ${sectionMenuGroups.map((group) => `<section>
           <b>${escapeHtml(group.label)}</b>
-          ${group.items.map(([id, label, file]) => `<a class="${id === active ? "active" : ""}" href="${base}${file}">${escapeHtml(label)}</a>`).join("")}
+          ${group.items.map(([id, label, file]) => `<a class="${id === active ? "active" : ""}" href="${internalHref(file, edition, base)}">${escapeHtml(label)}</a>`).join("")}
         </section>`).join("")}
       </div>
     </div>
@@ -402,7 +409,7 @@ function nav(active, base = "") {
 
 function overview(edition, base = "") {
   const cards = edition.moves.length
-    ? edition.moves.map((move, index) => `<a class="summary-card" href="${base}${pageForMove(edition, move)}">
+    ? edition.moves.map((move, index) => `<a class="summary-card" href="${internalHref(pageForMove(edition, move), edition, base)}">
         <span class="meta">Move ${index + 1}</span>
         <b>${escapeHtml(move.title)}</b>
         <p>${escapeHtml(move.whyItMoved)}</p>
@@ -436,7 +443,7 @@ function sectionSummaryPagelet(edition, base = "") {
       ${sections.map(([key, label, file, description]) => {
         const count = key === "deals" ? (edition.dealTape?.length || 0) : (edition.sections?.[key]?.items?.length || 0);
         const first = key === "deals" ? edition.dealTape?.[0] : edition.sections?.[key]?.items?.[0];
-        return `<a class="summary-card" href="${base}${file}">
+        return `<a class="summary-card" href="${internalHref(file, edition, base)}">
           <span class="meta">${count} ${key === "deals" ? "ranked" : "selected"}</span>
           <b>${escapeHtml(label)}</b>
           <p>${escapeHtml(first?.whyItMoved || first?.whyItRanks || description)}</p>
@@ -451,7 +458,7 @@ function continuingStoriesPagelet(edition, base = "") {
   return `<section class="panel compact">
     <div class="panel-head"><div><span class="eyebrow">Continuing Stories</span><h2>Updates From Earlier Issues</h2></div></div>
     <div class="summary-grid">
-      ${edition.continuingStories.map((move) => `<a class="summary-card" href="${base}${pageForMove(edition, move)}">
+      ${edition.continuingStories.map((move) => `<a class="summary-card" href="${internalHref(pageForMove(edition, move), edition, base)}">
         <span class="meta">${escapeHtml(move.continuity.status)}</span>
         <b>${escapeHtml(move.storyline.name)}</b>
         <p>${escapeHtml(move.continuity.whatChanged)}</p>
@@ -1077,14 +1084,14 @@ function renderHtml(active, edition, review, archiveEntries, base = "") {
       <div class="topbar-tools">
         <span class="chip">${escapeHtml(edition.runDate)}</span>
         <span class="chip">Generated edition</span>
-        <a class="chip archive-open" href="${escapeHtml(base)}archive.html">Archive</a>
+        <a class="chip archive-open" href="${escapeHtml(internalHref("archive.html", edition, base))}">Archive</a>
         <select class="issue-jump" aria-label="Open past issue" onchange="if (this.value) location.href=this.value;">
           <option value="${escapeHtml(latestIssueHref(base))}">Latest issue</option>
           ${issueOptions}
         </select>
       </div>
     </div>
-    ${nav(active, base)}
+    ${nav(active, edition, base)}
     <div class="workspace">${pageContent(active, edition, review, archiveEntries, base)}</div>
   </main>
   <div id="highlightComposer" class="highlight-composer hidden" role="dialog" aria-label="Save highlighted question">
