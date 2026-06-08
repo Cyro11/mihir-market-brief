@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
-import { bankerAnalysis, editorialLaneFor, privateMarketSegmentFor, selectLaneItems, selectMainCandidates } from "../scripts/build-edition.js";
+import { bankerAnalysis, backfillWeekdaySections, editorialLaneFor, privateMarketSegmentFor, selectLaneItems, selectMainCandidates, weekdaySectionBackfillCandidates } from "../scripts/build-edition.js";
 
 test("editorial lane classification separates macro, markets, deals, and private markets", () => {
   assert.equal(editorialLaneFor({
@@ -57,6 +57,81 @@ test("section buckets cap each lane and private-market segment", () => {
   assert.equal(sections.privateMarkets.items.length, 3);
   assert.equal(sections.privateMarkets.segments.privateEquity.items.length, 2);
   assert.equal(sections.privateMarkets.segments.privateCredit.items.length, 2);
+});
+
+test("weekday section backfill keeps macro, markets, and deals tabs from showing no signal on trading days", () => {
+  const scored = [
+    {
+      id: "macro-backfill",
+      title: "Fed rate path stays in focus as Treasury yields rise",
+      summary: "A source-backed macro read with rates, Treasury yields, inflation expectations, and financing implications for the market.",
+      source: "Yahoo Finance",
+      sourceType: "reputable",
+      url: "https://finance.yahoo.com/news/fed-rate-path-example",
+      publishedAt: "2026-06-08T15:47:00.000Z",
+      fetchedAt: "2026-06-08T20:00:00.000Z",
+      freshnessStatus: "LIVE",
+      topics: ["macro", "rates", "fed"],
+      matchedThemes: [],
+      scores: { evidence: 3, total: 31 }
+    },
+    {
+      id: "markets-backfill",
+      title: "Stock market today: S&P 500 and Nasdaq surge as chip stocks rebound",
+      summary: "The public-market tape moved as AI and semiconductor leadership came back into focus after Friday's weakness.",
+      source: "CNBC",
+      sourceType: "reputable",
+      url: "https://www.cnbc.com/2026/06/07/stock-market-today-live-updates.html",
+      publishedAt: "2026-06-08T20:30:00.000Z",
+      fetchedAt: "2026-06-08T20:31:00.000Z",
+      freshnessStatus: "LIVE",
+      topics: ["markets", "companies", "ai"],
+      matchedThemes: [],
+      scores: { evidence: 3, total: 30 }
+    },
+    {
+      id: "deals-backfill",
+      title: "J&J to buy cancer drug technology developer Firefly Bio for $1 billion",
+      summary: "A Reuters-reported acquisition gives the deals desk a source-backed read on strategic pharma M&A and transaction appetite.",
+      source: "Reuters",
+      sourceType: "reputable",
+      url: "https://www.reuters.com/markets/deals/jj-buy-cancer-drug-technology-developer-firefly-bio-1-billion-2026-06-08/",
+      publishedAt: "2026-06-08T14:00:00.000Z",
+      fetchedAt: "2026-06-08T20:01:00.000Z",
+      freshnessStatus: "LIVE",
+      topics: ["deals", "companies"],
+      matchedThemes: [],
+      scores: { evidence: 3, total: 33 }
+    }
+  ];
+
+  assert.equal(editorialLaneFor(scored[1]), "markets");
+  assert.equal(weekdaySectionBackfillCandidates(scored, "markets", "2026-06-08")[0].id, "markets-backfill");
+
+  const sections = backfillWeekdaySections(selectLaneItems([], 3), scored, { series: [] }, "2026-06-08");
+  assert.equal(sections.macro.items.length, 1);
+  assert.equal(sections.markets.items.length, 1);
+  assert.equal(sections.deals.items.length, 1);
+  assert.equal(sections.macro.items[0].sectionBackfill, true);
+});
+
+test("weekday section backfill stays off on weekends", () => {
+  const scored = [{
+    id: "markets-backfill",
+    title: "Stock market today: S&P 500 moves",
+    summary: "A source-backed markets read with enough support.",
+    source: "CNBC",
+    sourceType: "reputable",
+    url: "https://www.cnbc.com/example",
+    publishedAt: "2026-06-06T14:00:00.000Z",
+    freshnessStatus: "LIVE",
+    topics: ["markets", "companies"],
+    matchedThemes: [],
+    scores: { evidence: 3, total: 31 }
+  }];
+
+  const sections = backfillWeekdaySections(selectLaneItems([], 3), scored, { series: [] }, "2026-06-06");
+  assert.equal(sections.markets.items.length, 0);
 });
 
 test("rendered edition includes first-class section tabs and empty-state language", async () => {

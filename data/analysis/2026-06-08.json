@@ -1,122 +1,513 @@
 {
   "runDate": "2026-06-08",
-  "generatedAt": "2026-06-08T20:27:25.657Z",
-  "selectedCount": 2,
-  "quietDay": true,
+  "generatedAt": "2026-06-08T21:43:29.486Z",
+  "selectedCount": 5,
+  "quietDay": false,
   "analyses": [
     {
-      "id": "private-credit-public-proxies-b2527230",
-      "title": "ARES CAPITAL CORPORATION ANNOUNCES INAUGURAL $1 BILLION COMMERCIAL PAPER PROGRAM",
-      "editorialLane": "private_markets",
-      "editorialLaneLabel": "Private Markets",
-      "privateMarketSegment": "private_credit",
+      "id": "macro-yahoo-fed-rate-path-2026-06-08",
+      "title": "The market is starting to think the Federal Reserve's next move is raising interest rates",
+      "editorialLane": "macro",
+      "editorialLaneLabel": "Macro Environment",
+      "privateMarketSegment": null,
       "sourceTrail": [
         {
-          "source": "Yahoo Finance / Private Credit Proxies",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-corporation-announces-inaugural-113000452.html?.tsrc=rss",
-          "publishedAt": "2026-06-08T11:30:00.000Z",
-          "fetchedAt": "2026-06-08T20:22:56.983Z"
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/the-market-is-starting-to-think-the-federal-reserves-next-move-is-raising-interest-rates-154704986.html",
+          "publishedAt": "2026-06-08T15:47:00.000Z",
+          "fetchedAt": "2026-06-08T21:34:06.722Z"
         }
       ],
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "Ares Capital Corporation (\"Ares Capital\" or the \"Company\") (NASDAQ: ARCC) announced today the establishment of its inaugural commercial paper program. The program allows the Company to issue up to a maximum aggregate amount outstanding at any time of $1 billion of short-term, unsecured commercial paper notes. The notes will be sold under customary terms in the United States commercial paper note market and will rank pari passu with the Company's other senior unsecured indebtedness. The Company e The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
-      "whatHappened": "Ares Capital Corporation (\"Ares Capital\" or the \"Company\") (NASDAQ: ARCC) announced today the establishment of its inaugural commercial paper program. The program allows the Company to issue up to a maximum aggregate amount outstanding at any time of $1 billion of short-term, unsecured commercial paper notes. The notes will be sold under customary terms in the United States commercial paper note market and will rank pari passu with the Company's other senior unsecured indebtedness. The Company e",
-      "whatMoved": "The main move is in deal certainty, shareholder pressure, and whether the financing still works.",
-      "whyItMoved": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
-      "valuationImpact": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt.",
-      "financingImplication": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today.",
-      "sectorReadThrough": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings.",
+      "summary": "Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "whatHappened": "Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike.",
+      "whatMoved": "The main move is in rates, inflation expectations, and the cost of capital.",
+      "whyItMoved": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+      "financingImplication": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening.",
+      "sectorReadThrough": "Connects to Rates and Cost of Capital, Consumer and Staples.",
       "parallel": {
-        "precedent": "Activist pressure around pending strategic deals.",
-        "outcome": "Past cases often forced companies to explain synergies, timing, and capital allocation more clearly.",
-        "whatRhymes": "The deal window becomes a pressure point for proving the math.",
-        "whatDiffers": "The strength of the parallel depends on the activist's actual ask and ownership level.",
-        "soWhat": "Treat it as a deal-risk lens until more facts are public.",
+        "precedent": "Past inflation scares where stocks held up for a while even as rates made financing harder.",
+        "outcome": "Valuations and leverage became less forgiving even when the equity market still looked constructive.",
+        "whatRhymes": "The useful comparison is how rates flow into valuation and deal math.",
+        "whatDiffers": "This setup depends on the inflation mix, the Fed's reaction, and the shape of the Treasury curve.",
+        "soWhat": "Use the precedent to stress-test rates and financing, not to predict the next index move.",
         "sourceTrail": [
           {
-            "source": "Yahoo Finance / Private Credit Proxies",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-corporation-announces-inaugural-113000452.html?.tsrc=rss"
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/news/the-market-is-starting-to-think-the-federal-reserves-next-move-is-raising-interest-rates-154704986.html"
           }
         ]
       },
-      "watchNext": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms.",
+      "watchNext": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal.",
       "longform": {
         "sections": [
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+            "body": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
           },
           {
-            "id": "signal",
-            "heading": "What the public signal is actually telling us",
-            "body": "Ares Capital Corporation (\"Ares Capital\" or the \"Company\") (NASDAQ: ARCC) announced today the establishment of its inaugural commercial paper program. The program allows the Company to issue up to a maximum aggregate amount outstanding at any time of $1 billion of short-term, unsecured commercial paper notes. The notes will be sold under customary terms in the United States commercial paper note market and will rank pari passu with the Company's other senior unsecured indebtedness. The Company e Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+            "id": "release",
+            "heading": "What the release actually said",
+            "body": "The analytical read starts with the mix beneath the headline: which component is still running hot, which piece is cooling, and whether the data changes the market's confidence in the next Fed move. Source detail: Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike."
           },
           {
-            "id": "interpretation",
-            "heading": "How to interpret the financing signal",
-            "body": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt. Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+            "id": "mechanism",
+            "heading": "How the transmission works",
+            "body": "The main move is in rates, inflation expectations, and the cost of capital. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
           },
           {
-            "id": "evidence",
-            "heading": "Where the evidence is strong versus indirect",
-            "body": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
-          },
-          {
-            "id": "parallel",
-            "heading": "Relevant comparison",
-            "body": "A useful parallel is Activist pressure around pending strategic deals. In that earlier setup, past cases often forced companies to explain synergies, timing, and capital allocation more clearly. What rhymes is the deal window becomes a pressure point for proving the math. What is different this time is the strength of the parallel depends on the activist's actual ask and ownership level. The bottom line is treat it as a deal-risk lens until more facts are public."
+            "id": "market-read",
+            "heading": "How the market may read it",
+            "body": "Connects to Rates and Cost of Capital, Consumer and Staples. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
           },
           {
             "id": "watch-next",
-            "heading": "What would confirm or weaken the read",
-            "body": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+            "heading": "What would confirm or break the read",
+            "body": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
           }
         ]
       },
-      "visual": null,
+      "visual": {
+        "type": "line-chart",
+        "title": "Rate backdrop",
+        "subtitle": "Latest public FRED observations. This is not live trading data.",
+        "relevanceNote": "This chart fits because the story is about the rate backdrop itself, not just a company reacting to it.",
+        "allowedPages": [
+          "macro",
+          "deep-dive"
+        ],
+        "series": [
+          {
+            "id": "FEDFUNDS",
+            "label": "Effective Federal Funds Rate",
+            "source": "FRED / Federal Reserve",
+            "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+            "fetchedAt": "2026-06-08T21:36:41.630Z",
+            "observations": [
+              {
+                "date": "2018-12-01",
+                "value": 2.27
+              },
+              {
+                "date": "2019-01-01",
+                "value": 2.4
+              },
+              {
+                "date": "2019-02-01",
+                "value": 2.4
+              },
+              {
+                "date": "2019-03-01",
+                "value": 2.41
+              },
+              {
+                "date": "2019-04-01",
+                "value": 2.42
+              },
+              {
+                "date": "2019-05-01",
+                "value": 2.39
+              },
+              {
+                "date": "2019-06-01",
+                "value": 2.38
+              },
+              {
+                "date": "2019-07-01",
+                "value": 2.4
+              },
+              {
+                "date": "2019-08-01",
+                "value": 2.13
+              },
+              {
+                "date": "2019-09-01",
+                "value": 2.04
+              },
+              {
+                "date": "2019-10-01",
+                "value": 1.83
+              },
+              {
+                "date": "2019-11-01",
+                "value": 1.55
+              },
+              {
+                "date": "2019-12-01",
+                "value": 1.55
+              },
+              {
+                "date": "2020-01-01",
+                "value": 1.55
+              },
+              {
+                "date": "2020-02-01",
+                "value": 1.58
+              },
+              {
+                "date": "2020-03-01",
+                "value": 0.65
+              },
+              {
+                "date": "2020-04-01",
+                "value": 0.05
+              },
+              {
+                "date": "2020-05-01",
+                "value": 0.05
+              },
+              {
+                "date": "2020-06-01",
+                "value": 0.08
+              },
+              {
+                "date": "2020-07-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-08-01",
+                "value": 0.1
+              },
+              {
+                "date": "2020-09-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-10-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-11-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-12-01",
+                "value": 0.09
+              },
+              {
+                "date": "2021-01-01",
+                "value": 0.09
+              },
+              {
+                "date": "2021-02-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-03-01",
+                "value": 0.07
+              },
+              {
+                "date": "2021-04-01",
+                "value": 0.07
+              },
+              {
+                "date": "2021-05-01",
+                "value": 0.06
+              },
+              {
+                "date": "2021-06-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-07-01",
+                "value": 0.1
+              },
+              {
+                "date": "2021-08-01",
+                "value": 0.09
+              },
+              {
+                "date": "2021-09-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-10-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-11-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-12-01",
+                "value": 0.08
+              },
+              {
+                "date": "2022-01-01",
+                "value": 0.08
+              },
+              {
+                "date": "2022-02-01",
+                "value": 0.08
+              },
+              {
+                "date": "2022-03-01",
+                "value": 0.2
+              },
+              {
+                "date": "2022-04-01",
+                "value": 0.33
+              },
+              {
+                "date": "2022-05-01",
+                "value": 0.77
+              },
+              {
+                "date": "2022-06-01",
+                "value": 1.21
+              },
+              {
+                "date": "2022-07-01",
+                "value": 1.68
+              },
+              {
+                "date": "2022-08-01",
+                "value": 2.33
+              },
+              {
+                "date": "2022-09-01",
+                "value": 2.56
+              },
+              {
+                "date": "2022-10-01",
+                "value": 3.08
+              },
+              {
+                "date": "2022-11-01",
+                "value": 3.78
+              },
+              {
+                "date": "2022-12-01",
+                "value": 4.1
+              },
+              {
+                "date": "2023-01-01",
+                "value": 4.33
+              },
+              {
+                "date": "2023-02-01",
+                "value": 4.57
+              },
+              {
+                "date": "2023-03-01",
+                "value": 4.65
+              },
+              {
+                "date": "2023-04-01",
+                "value": 4.83
+              },
+              {
+                "date": "2023-05-01",
+                "value": 5.06
+              },
+              {
+                "date": "2023-06-01",
+                "value": 5.08
+              },
+              {
+                "date": "2023-07-01",
+                "value": 5.12
+              },
+              {
+                "date": "2023-08-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-09-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-10-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-11-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-12-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-01-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-02-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-03-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-04-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-05-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-06-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-07-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-08-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-09-01",
+                "value": 5.13
+              },
+              {
+                "date": "2024-10-01",
+                "value": 4.83
+              },
+              {
+                "date": "2024-11-01",
+                "value": 4.64
+              },
+              {
+                "date": "2024-12-01",
+                "value": 4.48
+              },
+              {
+                "date": "2025-01-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-02-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-03-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-04-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-05-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-06-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-07-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-08-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-09-01",
+                "value": 4.22
+              },
+              {
+                "date": "2025-10-01",
+                "value": 4.09
+              },
+              {
+                "date": "2025-11-01",
+                "value": 3.88
+              },
+              {
+                "date": "2025-12-01",
+                "value": 3.72
+              },
+              {
+                "date": "2026-01-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-02-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-03-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-04-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-05-01",
+                "value": 3.63
+              }
+            ]
+          }
+        ],
+        "sourceNote": "Numeric market visuals use public FRED CSV downloads and preserve source links."
+      },
       "relatedLinks": [],
-      "storyline": null,
+      "storyline": {
+        "id": "rates-inflation-cost-of-capital",
+        "name": "Rates and cost of capital",
+        "threshold": 3
+      },
       "concepts": [
-        "debt",
-        "credit",
-        "private_credit"
-      ]
+        "fed",
+        "rates",
+        "treasury",
+        "yield",
+        "inflation"
+      ],
+      "continuity": {
+        "previousDate": "2026-05-29",
+        "previousTitle": "Personal Income and Outlays, April 2026",
+        "previousUrl": "issues/2026-05-29.html",
+        "whatChanged": "This updates the rates and cost of capital thread from 2026-05-29. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.",
+        "updatedRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+        "status": "Developing"
+      }
     },
     {
-      "id": "private-equity-public-proxies-6a1f7aa0",
-      "title": "DEMIRE Deutsche Mittelstand Real Estate AG: Major shareholders commence structured sale process for their shareholding",
+      "id": "private-equity-public-proxies-6c39634c",
+      "title": "Blackstone Eyes $2B Fund Stake Sale",
       "editorialLane": "private_markets",
       "editorialLaneLabel": "Private Markets",
       "privateMarketSegment": "private_equity",
       "sourceTrail": [
         {
           "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/demire-deutsche-mittelstand-real-estate-114200664.html?.tsrc=rss",
-          "publishedAt": "2026-06-08T11:42:00.000Z",
-          "fetchedAt": "2026-06-08T20:22:56.743Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-eyes-2b-fund-stake-201332578.html?.tsrc=rss",
+          "publishedAt": "2026-06-08T20:13:32.000Z",
+          "fetchedAt": "2026-06-08T21:34:05.912Z"
         }
       ],
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "LIVE",
       "confidence": "Medium",
-      "summary": "DEMIRE Deutsche Mittelstand Real Estate AG / Keyword: Mergers and Acquisitions / Sale of Business Units DEMIRE Deutsche Mittelstand Real Estate AG: Major shareholders commence structured sale process for their shareholding 08. Jun 2026 / 13:42 CET/CEST Disclosure of an inside information acc. to Article 17 of the Regulation (EU) No 596/2014, transmitted by GlobeNewswire. The issuer is solely responsible for the content of this announcement. DEMIRE Deutsche Mittelstand Real Estate AG: Major share The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
-      "whatHappened": "DEMIRE Deutsche Mittelstand Real Estate AG / Keyword: Mergers and Acquisitions / Sale of Business Units DEMIRE Deutsche Mittelstand Real Estate AG: Major shareholders commence structured sale process for their shareholding 08. Jun 2026 / 13:42 CET/CEST Disclosure of an inside information acc. to Article 17 of the Regulation (EU) No 596/2014, transmitted by GlobeNewswire. The issuer is solely responsible for the content of this announcement. DEMIRE Deutsche Mittelstand Real Estate AG: Major share",
+      "summary": "The deal would test investor demand for older private equity holdings. The banking read is not simply 'AI demand is large'; it is whether contracted compute demand can be packaged into financeable infrastructure cash flows without leaving lenders exposed to chip obsolescence, power constraints, or one-customer concentration.",
+      "whatHappened": "The deal would test investor demand for older private equity holdings.",
       "whatMoved": "The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
       "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
       "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
       "financingImplication": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk.",
       "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
       "parallel": {
-        "precedent": "Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit.",
-        "outcome": "Companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks.",
-        "whatRhymes": "The useful comparison is whether today's public-market signal improves or limits exit routes for private owners.",
-        "whatDiffers": "Private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors.",
-        "soWhat": "Use the signal to judge exit timing and financing appetite, not to guess private marks without evidence.",
+        "precedent": "DigitalBridge, Equinix, and hyperscale data-center financings showed that infrastructure investors will fund compute-adjacent assets when cash flows look contracted and repeatable.",
+        "outcome": "Those transactions attracted infrastructure capital, but valuation and leverage depended on tenant quality, power access, utilization visibility, and confidence that the asset would not become obsolete too quickly.",
+        "whatRhymes": "The rhyme is the attempt to convert explosive cloud or AI demand into long-duration infrastructure cash flows that private capital can own or lend against.",
+        "whatDiffers": "TPU and frontier-model infrastructure carry faster technology-cycle risk than a generic leased data center, so lenders need stronger contracts, collateral discipline, or sponsor support.",
+        "soWhat": "Treat the story as a test of whether private capital can finance the AI buildout prudently, not as proof that every AI infrastructure asset deserves infrastructure multiples.",
         "sourceTrail": [
           {
             "source": "Yahoo Finance / Public PE Managers",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/demire-deutsche-mittelstand-real-estate-114200664.html?.tsrc=rss"
+            "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-eyes-2b-fund-stake-201332578.html?.tsrc=rss"
           }
         ]
       },
@@ -126,32 +517,32 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+            "body": "In plain English, this is an infrastructure-finance story wearing an AI headline: the key question is who owns the expensive compute assets, who guarantees enough usage to service debt, and whether the collateral still has value if model economics or chip cycles shift."
           },
           {
             "id": "signal",
             "heading": "What the public signal is actually telling us",
-            "body": "DEMIRE Deutsche Mittelstand Real Estate AG / Keyword: Mergers and Acquisitions / Sale of Business Units DEMIRE Deutsche Mittelstand Real Estate AG: Major shareholders commence structured sale process for their shareholding 08. Jun 2026 / 13:42 CET/CEST Disclosure of an inside information acc. to Article 17 of the Regulation (EU) No 596/2014, transmitted by GlobeNewswire. The issuer is solely responsible for the content of this announcement. DEMIRE Deutsche Mittelstand Real Estate AG: Major share The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+            "body": "The public signal is the named counterparties and asset type. Anthropic/Google/TPU language points to real compute demand; Blackstone or other private-capital involvement points to a financing stack trying to turn that demand into durable, underwritable infrastructure exposure."
           },
           {
             "id": "interpretation",
             "heading": "How to read the sponsor or exit implication",
-            "body": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round. Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+            "body": "Read the structure like a project-finance underwrite: contracted usage and creditworthy customers support leverage, but residual value, power availability, depreciation, and replacement-cycle risk decide how much debt is actually safe."
           },
           {
             "id": "evidence",
             "heading": "Where the evidence is strong versus indirect",
-            "body": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+            "body": "The strongest evidence would be disclosed commitment size, duration, collateral package, customer concentration, and lender protections. The weaker evidence is a broad AI partnership headline that does not show who bears utilization, technology, and refinancing risk."
           },
           {
             "id": "parallel",
             "heading": "Relevant comparison",
-            "body": "A useful parallel is Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit. In that earlier setup, companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks. What rhymes is the useful comparison is whether today's public-market signal improves or limits exit routes for private owners. What is different this time is private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors. The bottom line is use the signal to judge exit timing and financing appetite, not to guess private marks without evidence."
+            "body": "A useful parallel is DigitalBridge, Equinix, and hyperscale data-center financings showed that infrastructure investors will fund compute-adjacent assets when cash flows look contracted and repeatable. In that earlier setup, those transactions attracted infrastructure capital, but valuation and leverage depended on tenant quality, power access, utilization visibility, and confidence that the asset would not become obsolete too quickly. What rhymes is the rhyme is the attempt to convert explosive cloud or ai demand into long-duration infrastructure cash flows that private capital can own or lend against. What is different this time is tpu and frontier-model infrastructure carry faster technology-cycle risk than a generic leased data center, so lenders need stronger contracts, collateral discipline, or sponsor support. The bottom line is treat the story as a test of whether private capital can finance the ai buildout prudently, not as proof that every ai infrastructure asset deserves infrastructure multiples."
           },
           {
             "id": "watch-next",
             "heading": "What would confirm or weaken the read",
-            "body": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+            "body": "Watch for disclosed facility terms, lease or offtake duration, power commitments, utilization guarantees, lender group composition, and whether similar TPU/data-center financings clear at tighter or wider economics. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
           }
         ]
       },
@@ -214,9 +605,843 @@
       "relatedLinks": [],
       "storyline": null,
       "concepts": [
-        "merger",
-        "acquisition",
+        "private equity",
+        "private equity",
         "private_equity"
+      ]
+    },
+    {
+      "id": "private-credit-public-proxies-66669c66",
+      "title": "Blue Owl Fund Hit by Redemptions Sells $500 Million Bonds",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_credit",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Private Credit Proxies",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-fund-hit-redemptions-161205877.html?.tsrc=rss",
+          "publishedAt": "2026-06-08T18:49:25.000Z",
+          "fetchedAt": "2026-06-08T21:34:06.224Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "(Bloomberg) -- One of Blue Owl Capital Inc.’s private credit funds that capped redemptions earlier this year raised $500 million in the investment-grade bond market on Monday.Most Read from BloombergHouse Republican Says Hegseth’s D-Day Remarks ‘Inappropriate’LA Mayor Race Flips as Socialist Beats Reality TV Star PrattTrump Says He, Not Congress, Is in Charge of Kennedy Center in ReversalWhy Oil’s Not at $200 After the Biggest Supply Shock in HistoryIsrael Strikes Iran After Missile Attack, Impe The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "whatHappened": "(Bloomberg) -- One of Blue Owl Capital Inc.’s private credit funds that capped redemptions earlier this year raised $500 million in the investment-grade bond market on Monday.Most Read from BloombergHouse Republican Says Hegseth’s D-Day Remarks ‘Inappropriate’LA Mayor Race Flips as Socialist Beats Reality TV Star PrattTrump Says He, Not Congress, Is in Charge of Kennedy Center in ReversalWhy Oil’s Not at $200 After the Biggest Supply Shock in HistoryIsrael Strikes Iran After Missile Attack, Impe",
+      "whatMoved": "The main move is in deal certainty, shareholder pressure, and whether the financing still works.",
+      "whyItMoved": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+      "valuationImpact": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt.",
+      "financingImplication": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today.",
+      "sectorReadThrough": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings.",
+      "parallel": {
+        "precedent": "Business-development companies such as Ares Capital and Blue Owl Capital Corp became useful public proxies for private-credit cycles after direct lending took share from broadly syndicated loans.",
+        "outcome": "The managers benefited from demand for floating-rate private loans, but investors watched non-accruals, realized losses, funding costs, and portfolio marks to separate durable income from credit drift.",
+        "whatRhymes": "Today's structured-note or direct-lending signal still has the same core tradeoff: attractive yield can support demand, while weak collateral or rising losses can erase the premium quickly.",
+        "whatDiffers": "Structured notes add tranche, collateral, and liquidity complexity, so headline coupon is less informative than attachment point, collateral pool quality, and who keeps first-loss risk.",
+        "soWhat": "Use the item to underwrite terms and credit protection, not to conclude that private-credit appetite alone validates valuations.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / Private Credit Proxies",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-fund-hit-redemptions-161205877.html?.tsrc=rss"
+          }
+        ]
+      },
+      "watchNext": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to interpret the financing signal",
+            "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Business-development companies such as Ares Capital and Blue Owl Capital Corp became useful public proxies for private-credit cycles after direct lending took share from broadly syndicated loans. In that earlier setup, the managers benefited from demand for floating-rate private loans, but investors watched non-accruals, realized losses, funding costs, and portfolio marks to separate durable income from credit drift. What rhymes is today's structured-note or direct-lending signal still has the same core tradeoff: attractive yield can support demand, while weak collateral or rising losses can erase the premium quickly. What is different this time is structured notes add tranche, collateral, and liquidity complexity, so headline coupon is less informative than attachment point, collateral pool quality, and who keeps first-loss risk. The bottom line is use the item to underwrite terms and credit protection, not to conclude that private-credit appetite alone validates valuations."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
+          }
+        ]
+      },
+      "visual": null,
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "credit",
+        "private credit",
+        "private credit",
+        "private_credit"
+      ]
+    },
+    {
+      "id": "markets-cnbc-chip-rebound-2026-06-08",
+      "title": "S&P 500 and Nasdaq gain as chipmakers rebound from rout, Iran halts Israel attacks",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/07/stock-market-today-live-updates.html",
+          "publishedAt": "2026-06-08T18:55:00.000Z",
+          "fetchedAt": "2026-06-08T21:34:06.722Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "CNBC reported that U.S. stocks rose Monday as semiconductor shares rebounded from Friday's rout and investors assessed a fragile Iran-Israel ceasefire. The S&P 500 gained about 0.6%, the Nasdaq Composite rose about 1.2%, and the Dow was near flat, while Micron, Marvell, Intel, Nvidia, Broadcom, and the SOXX semiconductor ETF led the risk-on move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "CNBC reported that U.S. stocks rose Monday as semiconductor shares rebounded from Friday's rout and investors assessed a fragile Iran-Israel ceasefire. The S&P 500 gained about 0.6%, the Nasdaq Composite rose about 1.2%, and the Dow was near flat, while Micron, Marvell, Intel, Nvidia, Broadcom, and the SOXX semiconductor ETF led the risk-on move.",
+      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
+      "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+      "sectorReadThrough": "Connects to AI Infrastructure.",
+      "parallel": {
+        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+        "whatRhymes": "The current story shows demand spreading across the value chain.",
+        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+        "sourceTrail": [
+          {
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/06/07/stock-market-today-live-updates.html"
+          }
+        ]
+      },
+      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: CNBC reported that U.S. stocks rose Monday as semiconductor shares rebounded from Friday's rout and investors assessed a fragile Iran-Israel ceasefire. The S&P 500 gained about 0.6%, the Nasdaq Composite rose about 1.2%, and the Dow was near flat, while Micron, Marvell, Intel, Nvidia, Broadcom, and the SOXX semiconductor ETF led the risk-on move."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": {
+        "type": "line-chart",
+        "title": "Stock reaction",
+        "subtitle": "Public market-data context for the company/peer move.",
+        "relevanceNote": "This chart belongs here because the core question is how the market repriced the company and its closest read-through peer.",
+        "allowedPages": [
+          "markets",
+          "deep-dive"
+        ],
+        "axisTitle": "Price",
+        "axisSuffix": "",
+        "visualSource": "Public market data",
+        "series": [
+          {
+            "id": "DELL",
+            "label": "Dell Technologies",
+            "source": "Yahoo Finance public chart data",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?range=3mo&interval=1d",
+            "yahooSymbol": "DELL",
+            "stooqSymbol": "dell.us",
+            "fetchedAt": "2026-06-08T21:37:59.237Z",
+            "observations": [
+              {
+                "date": "2026-03-09",
+                "value": 146.50999450683594
+              },
+              {
+                "date": "2026-03-10",
+                "value": 143.8000030517578
+              },
+              {
+                "date": "2026-03-11",
+                "value": 147.3699951171875
+              },
+              {
+                "date": "2026-03-12",
+                "value": 149.91000366210938
+              },
+              {
+                "date": "2026-03-13",
+                "value": 151.6199951171875
+              },
+              {
+                "date": "2026-03-16",
+                "value": 156.5399932861328
+              },
+              {
+                "date": "2026-03-17",
+                "value": 153.00999450683594
+              },
+              {
+                "date": "2026-03-18",
+                "value": 149.2100067138672
+              },
+              {
+                "date": "2026-03-19",
+                "value": 156.75999450683594
+              },
+              {
+                "date": "2026-03-20",
+                "value": 157.6699981689453
+              },
+              {
+                "date": "2026-03-23",
+                "value": 164.58999633789062
+              },
+              {
+                "date": "2026-03-24",
+                "value": 176.91000366210938
+              },
+              {
+                "date": "2026-03-25",
+                "value": 184.00999450683594
+              },
+              {
+                "date": "2026-03-26",
+                "value": 175.82000732421875
+              },
+              {
+                "date": "2026-03-27",
+                "value": 171.80999755859375
+              },
+              {
+                "date": "2026-03-30",
+                "value": 164.66000366210938
+              },
+              {
+                "date": "2026-03-31",
+                "value": 164.1300048828125
+              },
+              {
+                "date": "2026-04-01",
+                "value": 169.3800048828125
+              },
+              {
+                "date": "2026-04-02",
+                "value": 174.3699951171875
+              },
+              {
+                "date": "2026-04-06",
+                "value": 173.17999267578125
+              },
+              {
+                "date": "2026-04-07",
+                "value": 177.69000244140625
+              },
+              {
+                "date": "2026-04-08",
+                "value": 185.47000122070312
+              },
+              {
+                "date": "2026-04-09",
+                "value": 181.4600067138672
+              },
+              {
+                "date": "2026-04-10",
+                "value": 177.8000030517578
+              },
+              {
+                "date": "2026-04-13",
+                "value": 189.7899932861328
+              },
+              {
+                "date": "2026-04-14",
+                "value": 184.50999450683594
+              },
+              {
+                "date": "2026-04-15",
+                "value": 177.27999877929688
+              },
+              {
+                "date": "2026-04-16",
+                "value": 193.08999633789062
+              },
+              {
+                "date": "2026-04-17",
+                "value": 196.5500030517578
+              },
+              {
+                "date": "2026-04-20",
+                "value": 204.24000549316406
+              },
+              {
+                "date": "2026-04-21",
+                "value": 212.36000061035156
+              },
+              {
+                "date": "2026-04-22",
+                "value": 214.64999389648438
+              },
+              {
+                "date": "2026-04-23",
+                "value": 212.13999938964844
+              },
+              {
+                "date": "2026-04-24",
+                "value": 216.08999633789062
+              },
+              {
+                "date": "2026-04-27",
+                "value": 215.97000122070312
+              },
+              {
+                "date": "2026-04-28",
+                "value": 205.92999267578125
+              },
+              {
+                "date": "2026-04-29",
+                "value": 205.66000366210938
+              },
+              {
+                "date": "2026-04-30",
+                "value": 208.9499969482422
+              },
+              {
+                "date": "2026-05-01",
+                "value": 210.1699981689453
+              },
+              {
+                "date": "2026-05-04",
+                "value": 211.63999938964844
+              },
+              {
+                "date": "2026-05-05",
+                "value": 216.32000732421875
+              },
+              {
+                "date": "2026-05-06",
+                "value": 238.8000030517578
+              },
+              {
+                "date": "2026-05-07",
+                "value": 230.27000427246094
+              },
+              {
+                "date": "2026-05-08",
+                "value": 260.4599914550781
+              },
+              {
+                "date": "2026-05-11",
+                "value": 247.0399932861328
+              },
+              {
+                "date": "2026-05-12",
+                "value": 238.94000244140625
+              },
+              {
+                "date": "2026-05-13",
+                "value": 243.8699951171875
+              },
+              {
+                "date": "2026-05-14",
+                "value": 247.88999938964844
+              },
+              {
+                "date": "2026-05-15",
+                "value": 241.99000549316406
+              },
+              {
+                "date": "2026-05-18",
+                "value": 238.02999877929688
+              },
+              {
+                "date": "2026-05-19",
+                "value": 235.25999450683594
+              },
+              {
+                "date": "2026-05-20",
+                "value": 242.92999267578125
+              },
+              {
+                "date": "2026-05-21",
+                "value": 252.8000030517578
+              },
+              {
+                "date": "2026-05-22",
+                "value": 295.19000244140625
+              },
+              {
+                "date": "2026-05-26",
+                "value": 305.0799865722656
+              },
+              {
+                "date": "2026-05-27",
+                "value": 305.32000732421875
+              },
+              {
+                "date": "2026-05-28",
+                "value": 317.04998779296875
+              },
+              {
+                "date": "2026-05-29",
+                "value": 420.9100036621094
+              },
+              {
+                "date": "2026-06-01",
+                "value": 465.9599914550781
+              },
+              {
+                "date": "2026-06-02",
+                "value": 435.30999755859375
+              },
+              {
+                "date": "2026-06-03",
+                "value": 421.0799865722656
+              },
+              {
+                "date": "2026-06-04",
+                "value": 422.04998779296875
+              },
+              {
+                "date": "2026-06-05",
+                "value": 394.3900146484375
+              },
+              {
+                "date": "2026-06-08",
+                "value": 400.7699890136719
+              }
+            ]
+          },
+          {
+            "id": "NVDA",
+            "label": "Nvidia",
+            "source": "Yahoo Finance public chart data",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d",
+            "yahooSymbol": "NVDA",
+            "stooqSymbol": "nvda.us",
+            "fetchedAt": "2026-06-08T21:37:59.323Z",
+            "observations": [
+              {
+                "date": "2026-03-09",
+                "value": 182.64999389648438
+              },
+              {
+                "date": "2026-03-10",
+                "value": 184.77000427246094
+              },
+              {
+                "date": "2026-03-11",
+                "value": 186.02999877929688
+              },
+              {
+                "date": "2026-03-12",
+                "value": 183.13999938964844
+              },
+              {
+                "date": "2026-03-13",
+                "value": 180.25
+              },
+              {
+                "date": "2026-03-16",
+                "value": 183.22000122070312
+              },
+              {
+                "date": "2026-03-17",
+                "value": 181.92999267578125
+              },
+              {
+                "date": "2026-03-18",
+                "value": 180.39999389648438
+              },
+              {
+                "date": "2026-03-19",
+                "value": 178.55999755859375
+              },
+              {
+                "date": "2026-03-20",
+                "value": 172.6999969482422
+              },
+              {
+                "date": "2026-03-23",
+                "value": 175.63999938964844
+              },
+              {
+                "date": "2026-03-24",
+                "value": 175.1999969482422
+              },
+              {
+                "date": "2026-03-25",
+                "value": 178.67999267578125
+              },
+              {
+                "date": "2026-03-26",
+                "value": 171.24000549316406
+              },
+              {
+                "date": "2026-03-27",
+                "value": 167.52000427246094
+              },
+              {
+                "date": "2026-03-30",
+                "value": 165.1699981689453
+              },
+              {
+                "date": "2026-03-31",
+                "value": 174.39999389648438
+              },
+              {
+                "date": "2026-04-01",
+                "value": 175.75
+              },
+              {
+                "date": "2026-04-02",
+                "value": 177.38999938964844
+              },
+              {
+                "date": "2026-04-06",
+                "value": 177.63999938964844
+              },
+              {
+                "date": "2026-04-07",
+                "value": 178.10000610351562
+              },
+              {
+                "date": "2026-04-08",
+                "value": 182.0800018310547
+              },
+              {
+                "date": "2026-04-09",
+                "value": 183.91000366210938
+              },
+              {
+                "date": "2026-04-10",
+                "value": 188.6300048828125
+              },
+              {
+                "date": "2026-04-13",
+                "value": 189.30999755859375
+              },
+              {
+                "date": "2026-04-14",
+                "value": 196.50999450683594
+              },
+              {
+                "date": "2026-04-15",
+                "value": 198.8699951171875
+              },
+              {
+                "date": "2026-04-16",
+                "value": 198.35000610351562
+              },
+              {
+                "date": "2026-04-17",
+                "value": 201.67999267578125
+              },
+              {
+                "date": "2026-04-20",
+                "value": 202.05999755859375
+              },
+              {
+                "date": "2026-04-21",
+                "value": 199.8800048828125
+              },
+              {
+                "date": "2026-04-22",
+                "value": 202.5
+              },
+              {
+                "date": "2026-04-23",
+                "value": 199.63999938964844
+              },
+              {
+                "date": "2026-04-24",
+                "value": 208.27000427246094
+              },
+              {
+                "date": "2026-04-27",
+                "value": 216.61000061035156
+              },
+              {
+                "date": "2026-04-28",
+                "value": 213.1699981689453
+              },
+              {
+                "date": "2026-04-29",
+                "value": 209.25
+              },
+              {
+                "date": "2026-04-30",
+                "value": 199.57000732421875
+              },
+              {
+                "date": "2026-05-01",
+                "value": 198.4499969482422
+              },
+              {
+                "date": "2026-05-04",
+                "value": 198.47999572753906
+              },
+              {
+                "date": "2026-05-05",
+                "value": 196.5
+              },
+              {
+                "date": "2026-05-06",
+                "value": 207.8300018310547
+              },
+              {
+                "date": "2026-05-07",
+                "value": 211.5
+              },
+              {
+                "date": "2026-05-08",
+                "value": 215.1999969482422
+              },
+              {
+                "date": "2026-05-11",
+                "value": 219.44000244140625
+              },
+              {
+                "date": "2026-05-12",
+                "value": 220.77999877929688
+              },
+              {
+                "date": "2026-05-13",
+                "value": 225.8300018310547
+              },
+              {
+                "date": "2026-05-14",
+                "value": 235.74000549316406
+              },
+              {
+                "date": "2026-05-15",
+                "value": 225.32000732421875
+              },
+              {
+                "date": "2026-05-18",
+                "value": 222.32000732421875
+              },
+              {
+                "date": "2026-05-19",
+                "value": 220.61000061035156
+              },
+              {
+                "date": "2026-05-20",
+                "value": 223.47000122070312
+              },
+              {
+                "date": "2026-05-21",
+                "value": 219.50999450683594
+              },
+              {
+                "date": "2026-05-22",
+                "value": 215.3300018310547
+              },
+              {
+                "date": "2026-05-26",
+                "value": 214.86000061035156
+              },
+              {
+                "date": "2026-05-27",
+                "value": 212.60000610351562
+              },
+              {
+                "date": "2026-05-28",
+                "value": 214.25
+              },
+              {
+                "date": "2026-05-29",
+                "value": 211.13999938964844
+              },
+              {
+                "date": "2026-06-01",
+                "value": 224.36000061035156
+              },
+              {
+                "date": "2026-06-02",
+                "value": 222.82000732421875
+              },
+              {
+                "date": "2026-06-03",
+                "value": 214.75
+              },
+              {
+                "date": "2026-06-04",
+                "value": 218.66000366210938
+              },
+              {
+                "date": "2026-06-05",
+                "value": 205.10000610351562
+              },
+              {
+                "date": "2026-06-08",
+                "value": 208.63999938964844
+              }
+            ]
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": {
+        "id": "ai-infrastructure-dell-servers",
+        "name": "AI infrastructure buildout",
+        "threshold": 2
+      },
+      "concepts": [
+        "ai",
+        "semiconductor",
+        "nvidia",
+        "capex"
+      ],
+      "continuity": {
+        "previousDate": "2026-06-05",
+        "previousTitle": "How Blue Owl’s Sila Realty Deal and Credit Expansion Will Impact Blue Owl Capital (OWL) Investors",
+        "previousUrl": "issues/2026-06-05.html",
+        "whatChanged": "This updates the ai infrastructure buildout thread from 2026-06-05. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+        "updatedRead": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+        "status": "Developing"
+      }
+    },
+    {
+      "id": "deals-reuters-jj-firefly-2026-06-08",
+      "title": "J&J to buy cancer drug technology developer Firefly Bio for $1 billion",
+      "editorialLane": "deals",
+      "editorialLaneLabel": "Deals",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "Reuters",
+          "url": "https://www.reuters.com/markets/deals/jj-buy-cancer-drug-technology-developer-firefly-bio-1-billion-2026-06-08/",
+          "publishedAt": "2026-06-08T13:00:00.000Z",
+          "fetchedAt": "2026-06-08T21:34:06.722Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "Reuters reported that Johnson & Johnson agreed to buy cancer drug technology developer Firefly Bio for $1 billion. The transaction gives the deals desk a clean strategic-pharma M&A read: large-cap drugmakers are still using bolt-on acquisitions to buy pipeline or platform exposure where internal R&D timelines and patent cliffs make external innovation valuable. What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.",
+      "whatHappened": "Reuters reported that Johnson & Johnson agreed to buy cancer drug technology developer Firefly Bio for $1 billion. The transaction gives the deals desk a clean strategic-pharma M&A read: large-cap drugmakers are still using bolt-on acquisitions to buy pipeline or platform exposure where internal R&D timelines and patent cliffs make external innovation valuable.",
+      "whatMoved": "The main move is in deal certainty, shareholder pressure, and whether the financing still works.",
+      "whyItMoved": "This was selected because it links deals news to Deal Financing Window and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today.",
+      "sectorReadThrough": "Connects to Deal Financing Window.",
+      "parallel": {
+        "precedent": "Activist pressure around pending strategic deals.",
+        "outcome": "Past cases often forced companies to explain synergies, timing, and capital allocation more clearly.",
+        "whatRhymes": "The deal window becomes a pressure point for proving the math.",
+        "whatDiffers": "The strength of the parallel depends on the activist's actual ask and ownership level.",
+        "soWhat": "Treat it as a deal-risk lens until more facts are public.",
+        "sourceTrail": [
+          {
+            "source": "Reuters",
+            "url": "https://www.reuters.com/markets/deals/jj-buy-cancer-drug-technology-developer-firefly-bio-1-billion-2026-06-08/"
+          }
+        ]
+      },
+      "watchNext": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "This was selected because it links deals news to Deal Financing Window and has enough source support to analyze rather than merely mention. This is the kind of story where the headline matters less than whether the deal logic survives pressure from lenders, shareholders, and the approval process."
+          },
+          {
+            "id": "transaction",
+            "heading": "What is happening in the transaction",
+            "body": "The main move is in deal certainty, shareholder pressure, and whether the financing still works. In deals, the useful question is what changed in certainty, strategic need, financing tolerance, or the board's room to maneuver. Source detail: Reuters reported that Johnson & Johnson agreed to buy cancer drug technology developer Firefly Bio for $1 billion. The transaction gives the deals desk a clean strategic-pharma M&A read: large-cap drugmakers are still using bolt-on acquisitions to buy pipeline or platform exposure where internal R&D timelines and patent cliffs make external innovation valuable."
+          },
+          {
+            "id": "deal-read",
+            "heading": "Why the deal is being read this way",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today. Market participants are effectively rerunning the transaction math: what price still works, how much debt still works, and whether the strategic case is strong enough to absorb friction."
+          },
+          {
+            "id": "precedent",
+            "heading": "Relevant precedent",
+            "body": "A useful parallel is Activist pressure around pending strategic deals. In that earlier setup, past cases often forced companies to explain synergies, timing, and capital allocation more clearly. What rhymes is the deal window becomes a pressure point for proving the math. What is different this time is the strength of the parallel depends on the activist's actual ask and ownership level. The bottom line is treat it as a deal-risk lens until more facts are public."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would change the outcome",
+            "body": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms. The next disclosed fact can change the whole read if it affects financing certainty, regulatory path, or the amount of value the buyer still expects to capture from the transaction."
+          }
+        ]
+      },
+      "visual": {
+        "type": "deal-timeline",
+        "title": "Deal risk map",
+        "subtitle": "Sourced transaction structure and watchpoints.",
+        "relevanceNote": "This visual fits because the useful question is where the deal can change, not whether one market series moved.",
+        "allowedPages": [
+          "deals",
+          "deep-dive"
+        ],
+        "sourceTrail": [
+          {
+            "source": "Reuters",
+            "url": "https://www.reuters.com/markets/deals/jj-buy-cancer-drug-technology-developer-firefly-bio-1-billion-2026-06-08/"
+          }
+        ],
+        "steps": [
+          {
+            "label": "Deal announced",
+            "detail": "Strategic scale and synergy case"
+          },
+          {
+            "label": "Activist overlay",
+            "detail": "Toms Capital stake adds scrutiny"
+          },
+          {
+            "label": "Approvals",
+            "detail": "Shareholder and regulatory path"
+          },
+          {
+            "label": "Financing / leverage",
+            "detail": "Debt, dilution, capital plan"
+          },
+          {
+            "label": "Outcome",
+            "detail": "Close, change terms, or defend deal"
+          }
+        ]
+      },
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "acquisition"
       ]
     }
   ]

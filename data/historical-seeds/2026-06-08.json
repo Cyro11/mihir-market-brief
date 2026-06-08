@@ -1,0 +1,53 @@
+[
+  {
+    "id": "macro-yahoo-fed-rate-path-2026-06-08",
+    "source": "Yahoo Finance",
+    "sourceType": "reputable",
+    "title": "The market is starting to think the Federal Reserve's next move is raising interest rates",
+    "url": "https://finance.yahoo.com/news/the-market-is-starting-to-think-the-federal-reserves-next-move-is-raising-interest-rates-154704986.html",
+    "publishedAt": "2026-06-08T15:47:00.000Z",
+    "summary": "Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike.",
+    "facts": [
+      "Yahoo Finance reported that the 10-year Treasury yield rose as high as roughly 4.46% and the 2-year Treasury yield climbed near 4%.",
+      "The article said markets assigned no probability to a rate cut within six months after previously pricing a greater than 90% chance of at least one cut by September.",
+      "The macro read was tied to oil-price inflation risk, Treasury yields, and geopolitical uncertainty around Iran."
+    ],
+    "tickers": ["^TNX", "CL=F", "BZ=F"],
+    "topics": ["macro", "fed", "rates", "inflation", "markets"],
+    "feedId": "historical-seed"
+  },
+  {
+    "id": "markets-cnbc-chip-rebound-2026-06-08",
+    "source": "CNBC",
+    "sourceType": "reputable",
+    "title": "S&P 500 and Nasdaq gain as chipmakers rebound from rout, Iran halts Israel attacks",
+    "url": "https://www.cnbc.com/2026/06/07/stock-market-today-live-updates.html",
+    "publishedAt": "2026-06-08T18:55:00.000Z",
+    "summary": "CNBC reported that U.S. stocks rose Monday as semiconductor shares rebounded from Friday's rout and investors assessed a fragile Iran-Israel ceasefire. The S&P 500 gained about 0.6%, the Nasdaq Composite rose about 1.2%, and the Dow was near flat, while Micron, Marvell, Intel, Nvidia, Broadcom, and the SOXX semiconductor ETF led the risk-on move.",
+    "facts": [
+      "CNBC said the S&P 500 rose about 0.6% and the Nasdaq Composite rose about 1.2% on Monday while the Dow was near flat.",
+      "CNBC reported that the SOXX semiconductor ETF was up nearly 7% intraday after a 10% Friday drop, its worst one-day rout since March 2020.",
+      "CNBC tied the move to chip-stock recovery and investor assessment of Iran-Israel ceasefire headlines."
+    ],
+    "tickers": ["^GSPC", "^IXIC", "SOXX", "MU", "NVDA", "MRVL", "INTC"],
+    "topics": ["markets", "companies", "ai", "capex"],
+    "feedId": "historical-seed"
+  },
+  {
+    "id": "deals-reuters-jj-firefly-2026-06-08",
+    "source": "Reuters",
+    "sourceType": "reputable",
+    "title": "J&J to buy cancer drug technology developer Firefly Bio for $1 billion",
+    "url": "https://www.reuters.com/markets/deals/jj-buy-cancer-drug-technology-developer-firefly-bio-1-billion-2026-06-08/",
+    "publishedAt": "2026-06-08T13:00:00.000Z",
+    "summary": "Reuters reported that Johnson & Johnson agreed to buy cancer drug technology developer Firefly Bio for $1 billion. The transaction gives the deals desk a clean strategic-pharma M&A read: large-cap drugmakers are still using bolt-on acquisitions to buy pipeline or platform exposure where internal R&D timelines and patent cliffs make external innovation valuable.",
+    "facts": [
+      "Reuters reported on June 8, 2026 that Johnson & Johnson would buy Firefly Bio for $1 billion.",
+      "The target was described as a cancer drug technology developer.",
+      "The item appeared in Reuters' Deals market headlines on June 8, 2026."
+    ],
+    "tickers": ["JNJ"],
+    "topics": ["deals", "companies", "healthcare"],
+    "feedId": "historical-seed"
+  }
+]

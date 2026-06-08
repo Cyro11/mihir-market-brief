@@ -1,11 +1,14 @@
 {
   "runDate": "2026-06-08",
-  "reviewedAt": "2026-06-08T20:27:25.806Z",
+  "reviewedAt": "2026-06-08T21:43:29.641Z",
   "status": "APPROVED",
   "reviewers": {
     "deterministic": {
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "The market is starting to think the Federal Reserve's next move is raising interest rates: longform section release is very close to the summary; add story-specific analysis.",
+        "J&J to buy cancer drug technology developer Firefly Bio for $1 billion: longform section transaction is very close to the summary; add story-specific analysis."
+      ]
     },
     "openai": {
       "skipped": true,
@@ -13,5 +16,8 @@
     }
   },
   "blockers": [],
-  "warnings": []
+  "warnings": [
+    "The market is starting to think the Federal Reserve's next move is raising interest rates: longform section release is very close to the summary; add story-specific analysis.",
+    "J&J to buy cancer drug technology developer Firefly Bio for $1 billion: longform section transaction is very close to the summary; add story-specific analysis."
+  ]
 }

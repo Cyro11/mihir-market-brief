@@ -86,7 +86,13 @@ function attachContinuity(analyses, prior) {
 export function editorialLaneFor(item) {
   const text = `${item.title} ${item.summary} ${(item.tickers || []).join(" ")} ${(item.topics || []).join(" ")}`.toLowerCase();
   const topics = new Set(item.topics || []);
-  if (topics.has("private_markets") || topics.has("private_credit") || topics.has("private_equity")) {
+  const privateTagged = topics.has("private_markets") || topics.has("private_credit") || topics.has("private_equity");
+  const explicitTapeStory = /\bequity futures\b|\bpre-?bell\b|\bchip stocks? rebound\b|\bstock market today\b/.test(text)
+    || (/\bs&p 500\b|\bnasdaq composite\b|\bdow jones\b/.test(text) && /\bgain\b|\bsurge\b|\brally\b|\brebound\b|\bclose[sd]? higher\b|\btape\b/.test(text));
+  if (explicitTapeStory && !privateTagged) {
+    return "markets";
+  }
+  if (privateTagged) {
     return "private_markets";
   }
   if (
@@ -498,7 +504,7 @@ function buildLongformSections({
       {
         id: "release",
         heading: "What the release actually said",
-        body: `${whatHappened} The part that matters is not just the headline number, but which part of the report is still running hot and which part is starting to cool.`
+        body: `The analytical read starts with the mix beneath the headline: which component is still running hot, which piece is cooling, and whether the data changes the market's confidence in the next Fed move. Source detail: ${whatHappened}`
       },
       {
         id: "mechanism",
@@ -527,7 +533,7 @@ function buildLongformSections({
       {
         id: "tape",
         heading: "What moved and what it suggests",
-        body: `${whatHappened} ${whatMoved} A single stock move matters when it gives the market a cleaner signal about a broader theme than the theme had before.`
+        body: `${whatMoved} The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: ${whatHappened}`
       },
       {
         id: "mechanism",
@@ -561,7 +567,7 @@ function buildLongformSections({
       {
         id: "transaction",
         heading: "What is happening in the transaction",
-        body: `${whatHappened} ${whatMoved} In deals, the most useful way to read the situation is to ask what changed in certainty, leverage tolerance, or the sponsor or board's room to maneuver.`
+        body: `${whatMoved} In deals, the useful question is what changed in certainty, strategic need, financing tolerance, or the board's room to maneuver. Source detail: ${whatHappened}`
       },
       {
         id: "deal-read",
@@ -827,9 +833,42 @@ function eligibleSectionCandidates(scored) {
     .sort((a, b) => b.scores.total - a.scores.total);
 }
 
-function matchCalendarEvent(move, events) {
+function isWeekendRun(runDate) {
+  const day = new Date(`${runDate}T12:00:00-04:00`).getDay();
+  return day === 0 || day === 6;
+}
+
+export function weekdaySectionBackfillCandidates(scored, lane, runDate) {
+  if (isWeekendRun(runDate)) return [];
+  return [...scored]
+    .filter((item) => editorialLaneFor(item) === lane)
+    .filter((item) => item.url && item.publishedAt)
+    .filter((item) => item.scores.evidence >= 3)
+    .filter((item) => item.freshnessStatus !== "FUTURE" && item.freshnessStatus !== "INVALID")
+    .filter((item) => item.freshnessStatus !== "BACKGROUND" || (item.sourceType === "official" && lane === "macro"))
+    .filter((item) => item.scores.total >= 24)
+    .sort((a, b) => b.scores.total - a.scores.total);
+}
+
+export function backfillWeekdaySections(sections, scored, marketData, runDate) {
+  if (isWeekendRun(runDate)) return sections;
+  for (const lane of ["macro", "markets", "deals"]) {
+    if (sections[lane].items.length) continue;
+    const item = weekdaySectionBackfillCandidates(scored, lane, runDate)[0];
+    if (!item) continue;
+    sections[lane].items.push({
+      ...bankerAnalysis(item, marketData),
+      sectionBackfill: true,
+      confidence: item.sourceType === "official" ? "High" : "Medium"
+    });
+  }
+  return sections;
+}
+
+function matchCalendarEvent(move, events, runDate) {
   const title = `${move.title} ${move.whatHappened}`.toLowerCase();
-  const preferred = events.filter((event) => {
+  const upcomingEvents = events.filter((event) => event.scheduledDate >= runDate);
+  const preferred = upcomingEvents.filter((event) => {
     const eventTitle = event.title.toLowerCase();
     if (/personal income and outlays/.test(title)) return /personal income and outlays/.test(eventTitle);
     if (/\bpce\b|\binflation\b/.test(title)) return /personal income and outlays|consumer price index|producer price index/.test(eventTitle);
@@ -852,7 +891,7 @@ function attachMacroCalendar(sections, analyses, calendarPayload, runDate) {
         whyItMatters: latestMove.whyItMoved,
         watchNext: latestMove.watchNext,
         sourceTrail: latestMove.sourceTrail,
-        scheduledEvent: matchCalendarEvent(latestMove, events)
+        scheduledEvent: matchCalendarEvent(latestMove, events, runDate)
       }
     : null;
 
@@ -1011,7 +1050,7 @@ async function main() {
   const selected = selectMainCandidates(scored, 5, prior);
   const analyses = attachContinuity(selected.map((item) => bankerAnalysis(item, marketData)), prior);
   const sectionAnalyses = attachContinuity(eligibleSectionCandidates(scored).map((item) => bankerAnalysis(item, marketData)), prior);
-  const sections = attachMacroCalendar(selectLaneItems(sectionAnalyses, 3), analyses, calendarPayload, runDate);
+  const sections = attachMacroCalendar(backfillWeekdaySections(selectLaneItems(sectionAnalyses, 3), scored, marketData, runDate), analyses, calendarPayload, runDate);
   const dealTape = buildDealTape(scored, { now, limit: 8 });
   const marketWatch = buildMarketWatch(marketData, analyses);
   const openbbMarketPack = buildOpenBbMarketPack(marketData);
@@ -1037,6 +1076,10 @@ async function main() {
     quietDay: analyses.length < 3,
     analyses
   };
+  const sourceRunAt = sourcePayload.fetchedAt;
+  const sourceRunDate = new Date(sourceRunAt);
+  const sourceFreshnessAt = Number.isNaN(sourceRunDate.getTime()) || sourceRunDate <= now ? sourceRunAt : now.toISOString();
+
   const edition = {
     runDate,
     title: analyses[0]?.title || "Quiet Tape, Clean Sources",
@@ -1044,8 +1087,8 @@ async function main() {
       ? "A selective banker-grade read of the few fresh items with enough evidence to support real analysis."
       : "No source-backed item cleared the evidence bar; the system is intentionally holding the main tape quiet.",
     generatedAt: new Date().toISOString(),
-    sourceRunAt: sourcePayload.fetchedAt,
-    freshnessStatus: freshnessStatus(sourcePayload.fetchedAt, now),
+    sourceRunAt,
+    freshnessStatus: freshnessStatus(sourceFreshnessAt, now),
     moves: analyses,
     sections,
     dealTape,

@@ -309,7 +309,7 @@
   <div class="ticker">
     <span>Focused tape: 3-5 items max</span>
     <span>No source, no claim</span>
-    <span>Freshness: FUTURE</span>
+    <span>Freshness: LIVE</span>
     <span>Review: APPROVED</span>
   </div>
   <main class="shell">
@@ -321,7 +321,7 @@
         <a class="chip archive-open" href="archive.html?v=2026-06-08">Archive</a>
         <select class="issue-jump" aria-label="Open past issue" onchange="if (this.value) location.href=this.value;">
           <option value="issues/latest.html">Latest issue</option>
-          <option value="issues/2026-06-08.html" selected>2026-06-08 - ARES CAPITAL CORPORATION ANNOUNCES INAUGURAL $1 BILLION COMMERCIAL PAPER PROGRAM</option><option value="issues/2026-06-05.html">2026-06-05 - How Blue Owl’s Sila Realty Deal and Credit Expansion Will Impact Blue Owl Capital (OWL) Investors</option><option value="issues/2026-06-03.html">2026-06-03 - HGV Announces Pricing of Secondary Public Offering of Common Stock and Concurrent Share Repurchase</option><option value="issues/2026-06-02.html">2026-06-02 - Pricing details emerge on $36B private credit deal for Anthropic</option><option value="issues/2026-06-01.html">2026-06-01 - Quiet Tape, Clean Sources</option><option value="issues/2026-05-30.html">2026-05-30 - Quiet Tape, Clean Sources</option><option value="issues/2026-05-29.html">2026-05-29 - Blue Owl direct-lending earnings keep private credit in focus</option><option value="issues/2026-05-28.html">2026-05-28 - Dell AI server demand starts to matter for the infrastructure trade</option><option value="issues/2026-05-27.html">2026-05-27 - Sponsor appetite looks selective rather than shut</option><option value="issues/2026-05-26.html">2026-05-26 - Private credit still looks open, but sponsors do not get a free pass</option>
+          <option value="issues/2026-06-08.html" selected>2026-06-08 - The market is starting to think the Federal Reserve&#39;s next move is raising interest rates</option><option value="issues/2026-06-05.html">2026-06-05 - How Blue Owl’s Sila Realty Deal and Credit Expansion Will Impact Blue Owl Capital (OWL) Investors</option><option value="issues/2026-06-03.html">2026-06-03 - HGV Announces Pricing of Secondary Public Offering of Common Stock and Concurrent Share Repurchase</option><option value="issues/2026-06-02.html">2026-06-02 - Pricing details emerge on $36B private credit deal for Anthropic</option><option value="issues/2026-06-01.html">2026-06-01 - Quiet Tape, Clean Sources</option><option value="issues/2026-05-30.html">2026-05-30 - Quiet Tape, Clean Sources</option><option value="issues/2026-05-29.html">2026-05-29 - Blue Owl direct-lending earnings keep private credit in focus</option><option value="issues/2026-05-28.html">2026-05-28 - Dell AI server demand starts to matter for the infrastructure trade</option><option value="issues/2026-05-27.html">2026-05-27 - Sponsor appetite looks selective rather than shut</option><option value="issues/2026-05-26.html">2026-05-26 - Private credit still looks open, but sponsors do not get a free pass</option>
         </select>
       </div>
     </div>
@@ -344,9 +344,13 @@
     </div>
   </nav>
     <div class="workspace"><section class="panel compact">
-      <div class="panel-head"><div><span class="eyebrow">Latest Event</span><h2>No fresh macro release</h2></div></div>
-      <p>The macro desk stays quiet when there is no new official release or no clean market read to make from it.</p>
-    </section>
+    <div class="panel-head"><div><span class="eyebrow">Latest Event</span><h2>The market is starting to think the Federal Reserve&#39;s next move is raising interest rates</h2></div></div>
+    <p><strong>What happened:</strong> Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike.</p>
+    <p><strong>What it means:</strong> This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.</p>
+    <p><strong>Watch next:</strong> Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal.</p>
+    <p class="source-line"><strong>Primary sources:</strong> <a href="https://finance.yahoo.com/news/the-market-is-starting-to-think-the-federal-reserves-next-move-is-raising-interest-rates-154704986.html" target="_blank" rel="noreferrer">Yahoo Finance</a></p>
+    <p class="source-line"><strong>Calendar match:</strong> <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noreferrer">FOMC meeting (June 16-17)</a> on 2026-06-17</p>
+  </section>
   <section class="panel compact">
     <div class="panel-head"><div><span class="eyebrow">Economic Calendar</span><h2>Coming Up</h2></div></div>
     <div class="theme-grid"><article class="theme-card calendar-card">
@@ -392,9 +396,84 @@
       </article></div>
   </section>
   <section class="panel">
-    <div class="panel-head"><div><span class="eyebrow">Macro Environment</span><h1>Rates, Inflation, and The Tape Behind The Tape</h1></div><span class="chip">0 selected</span></div>
+    <div class="panel-head"><div><span class="eyebrow">Macro Environment</span><h1>Rates, Inflation, and The Tape Behind The Tape</h1></div><span class="chip">1 selected</span></div>
     <p class="lede">This is where the economic backdrop lives now: the latest official release, what it means for the market, and the next scheduled events that could change the read.</p>
-    <article class="move-card"><h2>No strong macro signal today</h2><p>No fresh official release or policy development cleared the evidence bar. The desk stayed quiet instead of forcing a macro take.</p></article>
+    <div id="macro-1"><article class="move-card" data-context="{&quot;title&quot;:&quot;The market is starting to think the Federal Reserve&#39;s next move is raising interest rates&quot;,&quot;editorialLane&quot;:&quot;macro&quot;,&quot;privateMarketSegment&quot;:null,&quot;summary&quot;:&quot;Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike. The practical question is how that changes the rate path and the market&#39;s comfort with the current valuation backdrop.&quot;,&quot;whatHappened&quot;:&quot;Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike.&quot;,&quot;whyItMatters&quot;:&quot;This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.&quot;,&quot;whatChanged&quot;:&quot;The main move is in rates, inflation expectations, and the cost of capital.&quot;,&quot;valuation&quot;:&quot;Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.&quot;,&quot;financingDeals&quot;:&quot;Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening.&quot;,&quot;companyRead&quot;:&quot;Connects to Rates and Cost of Capital, Consumer and Staples.&quot;,&quot;longform&quot;:{&quot;sections&quot;:[{&quot;id&quot;:&quot;takeaway&quot;,&quot;heading&quot;:&quot;Plain-English takeaway&quot;,&quot;body&quot;:&quot;This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices.&quot;},{&quot;id&quot;:&quot;release&quot;,&quot;heading&quot;:&quot;What the release actually said&quot;,&quot;body&quot;:&quot;The analytical read starts with the mix beneath the headline: which component is still running hot, which piece is cooling, and whether the data changes the market&#39;s confidence in the next Fed move. Source detail: Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike.&quot;},{&quot;id&quot;:&quot;mechanism&quot;,&quot;heading&quot;:&quot;How the transmission works&quot;,&quot;body&quot;:&quot;The main move is in rates, inflation expectations, and the cost of capital. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets.&quot;},{&quot;id&quot;:&quot;market-read&quot;,&quot;heading&quot;:&quot;How the market may read it&quot;,&quot;body&quot;:&quot;Connects to Rates and Cost of Capital, Consumer and Staples. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day.&quot;},{&quot;id&quot;:&quot;watch-next&quot;,&quot;heading&quot;:&quot;What would confirm or break the read&quot;,&quot;body&quot;:&quot;Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast.&quot;}]},&quot;parallel&quot;:{&quot;precedent&quot;:&quot;Past inflation scares where stocks held up for a while even as rates made financing harder.&quot;,&quot;outcome&quot;:&quot;Valuations and leverage became less forgiving even when the equity market still looked constructive.&quot;,&quot;whatRhymes&quot;:&quot;The useful comparison is how rates flow into valuation and deal math.&quot;,&quot;whatDiffers&quot;:&quot;This setup depends on the inflation mix, the Fed&#39;s reaction, and the shape of the Treasury curve.&quot;,&quot;soWhat&quot;:&quot;Use the precedent to stress-test rates and financing, not to predict the next index move.&quot;,&quot;sourceTrail&quot;:[{&quot;source&quot;:&quot;Yahoo Finance&quot;,&quot;url&quot;:&quot;https://finance.yahoo.com/news/the-market-is-starting-to-think-the-federal-reserves-next-move-is-raising-interest-rates-154704986.html&quot;}]},&quot;watchNext&quot;:&quot;Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal.&quot;,&quot;continuity&quot;:{&quot;previousDate&quot;:&quot;2026-05-29&quot;,&quot;previousTitle&quot;:&quot;Personal Income and Outlays, April 2026&quot;,&quot;previousUrl&quot;:&quot;issues/2026-05-29.html&quot;,&quot;whatChanged&quot;:&quot;This updates the rates and cost of capital thread from 2026-05-29. The new item adds fresh source evidence and shifts the read toward today&#39;s specific market/deal question.&quot;,&quot;priorRead&quot;:&quot;The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.&quot;,&quot;updatedRead&quot;:&quot;This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.&quot;,&quot;status&quot;:&quot;Developing&quot;},&quot;primarySources&quot;:[{&quot;source&quot;:&quot;Yahoo Finance&quot;,&quot;url&quot;:&quot;https://finance.yahoo.com/news/the-market-is-starting-to-think-the-federal-reserves-next-move-is-raising-interest-rates-154704986.html&quot;,&quot;publishedAt&quot;:&quot;2026-06-08T15:47:00.000Z&quot;,&quot;fetchedAt&quot;:&quot;2026-06-08T21:34:06.722Z&quot;}],&quot;relatedLinks&quot;:[]}">
+    <div class="meta">Move 1 / Macro Environment / FRESH / Confidence Medium</div>
+    <h2>The market is starting to think the Federal Reserve&#39;s next move is raising interest rates</h2>
+    <p class="story-summary">Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike. The practical question is how that changes the rate path and the market&#39;s comfort with the current valuation backdrop.</p>
+    <details class="story-details" open>
+      <summary>Hide full analysis</summary>
+      <div class="story-detail-body">
+        <p><strong>What happened:</strong> Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike.</p>
+        <p><strong>What changed:</strong> The main move is in rates, inflation expectations, and the cost of capital.</p>
+        <section class="visual-card">
+      <div class="visual-head"><div><span class="meta">Visual / FRED data</span><h3>Rate backdrop</h3></div><span>Latest public FRED observations. This is not live trading data.</span></div>
+      <p class="visual-why"><strong>Why this visual fits:</strong> This chart fits because the story is about the rate backdrop itself, not just a company reacting to it.</p>
+      <svg viewBox="0 0 760 240" role="img" aria-label="Rate backdrop">
+        <rect x="0" y="0" width="760" height="240" fill="#f7f4ec"></rect>
+        <line x1="62" y1="192" x2="742" y2="192" stroke="#9d9488"></line>
+        <line x1="62" y1="20" x2="62" y2="192" stroke="#9d9488"></line>
+        <line x1="62" y1="20" x2="742" y2="20" stroke="#d5cec3" stroke-dasharray="4 6"></line>
+        <line x1="62" y1="106" x2="742" y2="106" stroke="#d5cec3" stroke-dasharray="4 6"></line>
+        <text x="16" y="24" class="axis-label">6.0%</text>
+        <text x="16" y="110" class="axis-label">2.7%</text>
+        <text x="16" y="196" class="axis-label">-0.6%</text>
+        <text x="62" y="222" class="axis-label">2018-12-01</text>
+        <text x="742" y="222" class="axis-label axis-right">2026-05-01</text>
+        <text x="380" y="234" class="axis-title axis-center">Date</text>
+        <text x="13" y="120" transform="rotate(-90 13 120)" class="axis-title axis-center">Rate (%)</text>
+        <path d="M 62.00 117.03 L 69.64 113.62 L 77.28 113.62 L 84.92 113.36 L 92.56 113.09 L 100.20 113.88 L 107.84 114.14 L 115.48 113.62 L 123.12 120.71 L 130.76 123.08 L 138.40 128.59 L 146.04 135.95 L 153.69 135.95 L 161.33 135.95 L 168.97 135.16 L 176.61 159.59 L 184.25 175.35 L 191.89 175.35 L 199.53 174.57 L 207.17 174.30 L 214.81 174.04 L 222.45 174.30 L 230.09 174.30 L 237.73 174.30 L 245.37 174.30 L 253.01 174.30 L 260.65 174.57 L 268.29 174.83 L 275.93 174.83 L 283.57 175.09 L 291.21 174.57 L 298.85 174.04 L 306.49 174.30 L 314.13 174.57 L 321.78 174.57 L 329.42 174.57 L 337.06 174.57 L 344.70 174.57 L 352.34 174.57 L 359.98 171.41 L 367.62 168.00 L 375.26 156.44 L 382.90 144.88 L 390.54 132.53 L 398.18 115.46 L 405.82 109.42 L 413.46 95.75 L 421.10 77.36 L 428.74 68.96 L 436.38 62.92 L 444.02 56.61 L 451.66 54.51 L 459.30 49.78 L 466.94 43.74 L 474.58 43.21 L 482.22 42.16 L 489.87 36.65 L 497.51 36.65 L 505.15 36.65 L 512.79 36.65 L 520.43 36.65 L 528.07 36.65 L 535.71 36.65 L 543.35 36.65 L 550.99 36.65 L 558.63 36.65 L 566.27 36.65 L 573.91 36.65 L 581.55 36.65 L 589.19 41.90 L 596.83 49.78 L 604.47 54.77 L 612.11 58.98 L 619.75 62.92 L 627.39 62.92 L 635.03 62.92 L 642.67 62.92 L 650.31 62.92 L 657.96 62.92 L 665.60 62.92 L 673.24 62.92 L 680.88 65.81 L 688.52 69.22 L 696.16 74.74 L 703.80 78.94 L 711.44 81.04 L 719.08 81.04 L 726.72 81.04 L 734.36 81.04 L 742.00 81.31" fill="none" stroke="#b5121b" stroke-width="4" stroke-linecap="square"></path>
+      </svg>
+      <div class="legend-grid">
+        <div><i style="background:#b5121b"></i><b>Effective Federal Funds Rate</b><span>3.63 on 2026-05-01</span></div>
+      </div>
+      <p class="source-line">Numeric market visuals use public FRED CSV downloads and preserve source links. <a href="https://fred.stlouisfed.org/series/FEDFUNDS" target="_blank" rel="noreferrer">FEDFUNDS</a></p>
+    </section>
+        <section class="continuity-block">
+    <div class="meta">Continuing Story / Developing</div>
+    <h3>What changed since 2026-05-29</h3>
+    <p>This updates the rates and cost of capital thread from 2026-05-29. The new item adds fresh source evidence and shifts the read toward today&#39;s specific market/deal question.</p>
+    <p><strong>Prior read:</strong> The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.</p>
+    <p><strong>Updated read:</strong> This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.</p>
+    <p class="source-line"><a href="issues/2026-05-29.html">Previous coverage: 2026-05-29</a></p>
+  </section>
+        <section class="narrative-stack">
+          <section class="narrative-section">
+            <h3>Plain-English takeaway</h3>
+            <p>This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices.</p>
+          </section><section class="narrative-section">
+            <h3>What the release actually said</h3>
+            <p>The analytical read starts with the mix beneath the headline: which component is still running hot, which piece is cooling, and whether the data changes the market&#39;s confidence in the next Fed move. Source detail: Yahoo Finance reported that markets were repricing the Fed path toward higher-for-longer and even possible hikes as oil-price anxiety, Treasury yields, and geopolitical risk tightened financial conditions. The article cited the 10-year yield reaching roughly 4.46%, the 2-year near 4%, no Fed-cut probability within six months, and Polymarket odds around 40% for no 2026 cut and 25% for a later-year hike.</p>
+          </section><section class="narrative-section">
+            <h3>How the transmission works</h3>
+            <p>The main move is in rates, inflation expectations, and the cost of capital. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets.</p>
+          </section><section class="narrative-section">
+            <h3>How the market may read it</h3>
+            <p>Connects to Rates and Cost of Capital, Consumer and Staples. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day.</p>
+          </section><section class="narrative-section">
+            <h3>What would confirm or break the read</h3>
+            <p>Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast.</p>
+          </section>
+        </section>
+        
+      </div>
+    </details>
+    <p class="source-line"><strong>Primary sources:</strong> <a href="https://finance.yahoo.com/news/the-market-is-starting-to-think-the-federal-reserves-next-move-is-raising-interest-rates-154704986.html" target="_blank" rel="noreferrer">Yahoo Finance</a></p>
+    <div class="read-more">
+    <b>Read More On This Topic</b>
+    <span>Curated links go to related company/data pages. Search links open the topic already filled in so you can find deeper articles, posts, and threads.</span>
+    
+    <div class="link-row" aria-label="Search this topic">
+      <a href="https://www.google.com/search?q=The%20market%20is%20starting%20to%20think%20the%20Federal%20Reserve's%20next%20move%20is%20raising%20interest%20rates%20fed%20rates%20treasury%20yield%20inflation" rel="noreferrer">Google</a>
+      <a href="https://www.wsj.com/search?query=The%20market%20is%20starting%20to%20think%20the%20Federal%20Reserve's%20next%20move%20is%20raising%20interest%20rates%20fed%20rates%20treasury%20yield%20inflation" rel="noreferrer">WSJ</a>
+      <a href="https://www.ft.com/search?q=The%20market%20is%20starting%20to%20think%20the%20Federal%20Reserve's%20next%20move%20is%20raising%20interest%20rates%20fed%20rates%20treasury%20yield%20inflation" rel="noreferrer">FT</a>
+      <a href="https://www.nytimes.com/search?query=The%20market%20is%20starting%20to%20think%20the%20Federal%20Reserve's%20next%20move%20is%20raising%20interest%20rates%20fed%20rates%20treasury%20yield%20inflation" rel="noreferrer">NYT</a>
+      <a href="https://www.tradingview.com/search/?query=The%20market%20is%20starting%20to%20think%20the%20Federal%20Reserve's%20next%20move%20is%20raising%20interest%20rates%20fed%20rates%20treasury%20yield%20inflation" rel="noreferrer">TradingView</a>
+      <a href="https://x.com/search?q=The%20market%20is%20starting%20to%20think%20the%20Federal%20Reserve's%20next%20move%20is%20raising%20interest%20rates%20fed%20rates%20treasury%20yield%20inflation" rel="noreferrer">X</a>
+    </div>
+  </div>
+  </article></div>
   </section></div>
   </main>
   <div id="highlightComposer" class="highlight-composer hidden" role="dialog" aria-label="Save highlighted question">
