@@ -1,7 +1,7 @@
 {
   "runDate": "2026-06-09",
-  "generatedAt": "2026-06-09T03:00:59.331Z",
-  "selectedCount": 2,
+  "generatedAt": "2026-06-09T12:10:29.704Z",
+  "selectedCount": 1,
   "quietDay": true,
   "analyses": [
     {
@@ -15,13 +15,13 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/sectors/technology/articles/apollo-wraps-35-billion-debt-210229236.html?.tsrc=rss",
           "publishedAt": "2026-06-09T02:15:21.000Z",
-          "fetchedAt": "2026-06-09T02:56:31.994Z"
+          "fetchedAt": "2026-06-09T12:05:54.083Z"
         }
       ],
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "confidence": "Medium",
-      "summary": "(Bloomberg) -- Apollo Global Management Inc. and Blackstone Inc. have finalized a $35 billion financing package for Anthropic PBC to expand its AI infrastructure, marking the latest mega-deal in the artificial intelligence race.Most Read from BloombergHouse Republican Says Hegseth’s D-Day Remarks ‘Inappropriate’LA Mayor Race Flips as Socialist Beats Reality TV Star PrattTrump Says He, Not Congress, Is in Charge of Kennedy Center in ReversalWhy Oil’s Not at $200 After the Biggest Supply Shock in The banking read is not simply 'AI demand is large'; it is whether contracted compute demand can be packaged into financeable infrastructure cash flows without leaving lenders exposed to chip obsolescence, power constraints, or one-customer concentration.",
-      "whatHappened": "(Bloomberg) -- Apollo Global Management Inc. and Blackstone Inc. have finalized a $35 billion financing package for Anthropic PBC to expand its AI infrastructure, marking the latest mega-deal in the artificial intelligence race.Most Read from BloombergHouse Republican Says Hegseth’s D-Day Remarks ‘Inappropriate’LA Mayor Race Flips as Socialist Beats Reality TV Star PrattTrump Says He, Not Congress, Is in Charge of Kennedy Center in ReversalWhy Oil’s Not at $200 After the Biggest Supply Shock in",
+      "summary": "(Bloomberg) -- Apollo Global Management Inc. and Blackstone Inc. have finalized a $35 billion financing package for Anthropic PBC to expand its AI infrastructure, marking the latest mega-deal in the artificial intelligence race.Most Read from BloombergHouse Republican Says Hegseth’s D-Day Remarks ‘Inappropriate’LA Mayor Race Flips as Socialist Beats Reality TV Star PrattTrump’s $100,000 H-1B Visa Application Fee Rejected by JudgeTrump Says He, Not Congress, Is in Charge of Kennedy Center in Reve The banking read is not simply 'AI demand is large'; it is whether contracted compute demand can be packaged into financeable infrastructure cash flows without leaving lenders exposed to chip obsolescence, power constraints, or one-customer concentration.",
+      "whatHappened": "(Bloomberg) -- Apollo Global Management Inc. and Blackstone Inc. have finalized a $35 billion financing package for Anthropic PBC to expand its AI infrastructure, marking the latest mega-deal in the artificial intelligence race.Most Read from BloombergHouse Republican Says Hegseth’s D-Day Remarks ‘Inappropriate’LA Mayor Race Flips as Socialist Beats Reality TV Star PrattTrump’s $100,000 H-1B Visa Application Fee Rejected by JudgeTrump Says He, Not Congress, Is in Charge of Kennedy Center in Reve",
       "whatMoved": "The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
       "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
       "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
@@ -150,141 +150,6 @@
         "updatedRead": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
         "status": "Developing"
       }
-    },
-    {
-      "id": "private-equity-public-proxies-6c39634c",
-      "title": "Blackstone Eyes $2B Fund Stake Sale",
-      "editorialLane": "private_markets",
-      "editorialLaneLabel": "Private Markets",
-      "privateMarketSegment": "private_equity",
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-eyes-2b-fund-stake-201332578.html?.tsrc=rss",
-          "publishedAt": "2026-06-08T20:13:32.000Z",
-          "fetchedAt": "2026-06-09T02:56:31.994Z"
-        }
-      ],
-      "freshnessStatus": "FRESH",
-      "confidence": "Medium",
-      "summary": "The deal would test investor demand for older private equity holdings. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
-      "whatHappened": "The deal would test investor demand for older private equity holdings.",
-      "whatMoved": "The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
-      "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
-      "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
-      "financingImplication": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk.",
-      "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
-      "parallel": {
-        "precedent": "Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023.",
-        "outcome": "Those tools created liquidity for some LPs but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved.",
-        "whatRhymes": "The same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark.",
-        "whatDiffers": "Today the highest-quality assets may access IPO or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures.",
-        "soWhat": "Treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity.",
-        "sourceTrail": [
-          {
-            "source": "Yahoo Finance / Public PE Managers",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-eyes-2b-fund-stake-201332578.html?.tsrc=rss"
-          }
-        ]
-      },
-      "watchNext": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions.",
-      "longform": {
-        "sections": [
-          {
-            "id": "takeaway",
-            "heading": "Plain-English takeaway",
-            "body": "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
-          },
-          {
-            "id": "signal",
-            "heading": "What the public signal is actually telling us",
-            "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
-          },
-          {
-            "id": "interpretation",
-            "heading": "How to read the sponsor or exit implication",
-            "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
-          },
-          {
-            "id": "evidence",
-            "heading": "Where the evidence is strong versus indirect",
-            "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
-          },
-          {
-            "id": "parallel",
-            "heading": "Relevant comparison",
-            "body": "A useful parallel is Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023. In that earlier setup, those tools created liquidity for some lps but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved. What rhymes is the same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark. What is different this time is today the highest-quality assets may access ipo or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures. The bottom line is treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity."
-          },
-          {
-            "id": "watch-next",
-            "heading": "What would confirm or weaken the read",
-            "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
-          }
-        ]
-      },
-      "visual": {
-        "type": "bar-chart",
-        "title": "Public sponsor proxies",
-        "subtitle": "Three-month public market context for large alternative-asset managers tied to sponsor sentiment.",
-        "relevanceNote": "This board belongs here because public sponsor stocks often give the cleanest available read on how the market feels about exits, fundraising, and deployment.",
-        "allowedPages": [
-          "private-markets",
-          "deep-dive"
-        ],
-        "axisTitle": "3-month change",
-        "visualSource": "Public market data",
-        "items": [
-          {
-            "id": "BX",
-            "label": "Blackstone",
-            "value": 3.1992777828379926,
-            "displayValue": 3.1992777828379926,
-            "suffix": "%",
-            "latestDate": "2026-06-08",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
-          },
-          {
-            "id": "KKR",
-            "label": "KKR",
-            "value": 2.496147550170776,
-            "displayValue": 2.496147550170776,
-            "suffix": "%",
-            "latestDate": "2026-06-08",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
-          },
-          {
-            "id": "APO",
-            "label": "Apollo Global Management",
-            "value": 17.9674499859815,
-            "displayValue": 17.9674499859815,
-            "suffix": "%",
-            "latestDate": "2026-06-08",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
-          }
-        ],
-        "sourceTrail": [
-          {
-            "source": "Blackstone",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
-          },
-          {
-            "source": "KKR",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
-          },
-          {
-            "source": "Apollo Global Management",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
-          }
-        ],
-        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
-      },
-      "relatedLinks": [],
-      "storyline": null,
-      "concepts": [
-        "private equity",
-        "private equity",
-        "private_equity"
-      ]
     }
   ]
 }
