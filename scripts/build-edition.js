@@ -230,6 +230,7 @@ function laneDisplayName(lane) {
 
 export function selectLaneItems(analyses, limit = 3, privateSegmentLimit = 2) {
   const sections = {
+    overnight: { label: "Overnight", items: [] },
     macro: { label: "Macro Environment", items: [], latestEvent: null, economicCalendar: [] },
     markets: { label: "Markets", items: [] },
     deals: { label: "Deals", items: [] },
@@ -259,6 +260,43 @@ export function selectLaneItems(analyses, limit = 3, privateSegmentLimit = 2) {
     }
   }
   return sections;
+}
+
+function overnightWindow(now) {
+  const end = new Date(now);
+  const start = new Date(end.getTime() - 15 * 36e5);
+  return { start, end };
+}
+
+export function overnightCandidates(scored, now = new Date(), limit = 5) {
+  const { start, end } = overnightWindow(now);
+  return [...scored]
+    .filter((item) => item.url && item.publishedAt)
+    .filter((item) => {
+      const published = new Date(item.publishedAt);
+      return !Number.isNaN(published.getTime()) && published >= start && published <= end;
+    })
+    .filter((item) => item.freshnessStatus !== "FUTURE" && item.freshnessStatus !== "INVALID" && item.freshnessStatus !== "BACKGROUND")
+    .filter((item) => item.scores.evidence >= 4 && item.scores.marketSignal >= 2)
+    .filter((item) => item.scores.trustedDomain || item.sourceType === "official")
+    .filter((item) => item.scores.total >= 24)
+    .sort((a, b) => b.scores.total - a.scores.total)
+    .slice(0, limit);
+}
+
+export function buildOvernightSection(scored, marketData, now = new Date(), limit = 5) {
+  const window = overnightWindow(now);
+  return {
+    label: "Overnight",
+    window: {
+      start: window.start.toISOString(),
+      end: window.end.toISOString()
+    },
+    items: overnightCandidates(scored, now, limit).map((item) => ({
+      ...bankerAnalysis(item, marketData),
+      overnightSignal: true
+    }))
+  };
 }
 
 function visualFor(item, marketData) {
@@ -873,7 +911,7 @@ export function weekdaySectionBackfillCandidates(scored, lane, runDate) {
     .filter((item) => item.url && item.publishedAt)
     .filter((item) => item.scores.evidence >= 3)
     .filter((item) => item.freshnessStatus !== "FUTURE" && item.freshnessStatus !== "INVALID")
-    .filter((item) => item.freshnessStatus !== "BACKGROUND" || (item.sourceType === "official" && lane === "macro"))
+    .filter((item) => item.freshnessStatus !== "BACKGROUND")
     .filter((item) => item.scores.total >= 24)
     .sort((a, b) => b.scores.total - a.scores.total);
 }
@@ -1079,6 +1117,7 @@ async function main() {
   const analyses = attachContinuity(selected.map((item) => bankerAnalysis(item, marketData)), prior);
   const sectionAnalyses = attachContinuity(eligibleSectionCandidates(scored).map((item) => bankerAnalysis(item, marketData)), prior);
   const sections = attachMacroCalendar(backfillWeekdaySections(selectLaneItems(sectionAnalyses, 3), scored, marketData, runDate), analyses, calendarPayload, runDate);
+  sections.overnight = buildOvernightSection(scored, marketData, now, 3);
   const dealTape = buildDealTape(scored, { now, limit: 8 });
   const marketWatch = buildMarketWatch(marketData, analyses);
   const openbbMarketPack = buildOpenBbMarketPack(marketData);

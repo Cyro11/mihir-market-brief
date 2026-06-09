@@ -5,6 +5,7 @@ import { editionDate, ensureDir, escapeHtml, readJson } from "./utils.js";
 
 const pages = [
   ["overview", "Overview", "index.html"],
+  ["overnight", "Overnight", "overnight.html"],
   ["moves", "Market Watch", "moves.html"],
   ["macro", "Macro Environment", "macro.html"],
   ["markets", "Markets", "markets.html"],
@@ -16,12 +17,13 @@ const pages = [
   ["archive", "Archive", "archive.html"],
   ["notes", "Notes / Questions", "notes.html"]
 ];
-const mainNavPageIds = new Set(["overview", "moves", "macro", "markets", "deals", "private-markets"]);
+const mainNavPageIds = new Set(["overview", "overnight", "moves", "macro", "markets", "deals", "private-markets"]);
 const sectionMenuGroups = [
   {
     label: "Read",
     items: [
       ["overview", "Overview", "index.html"],
+      ["overnight", "Overnight", "overnight.html"],
       ["deep-dive", "Deep Dive", "deep-dive.html"],
       ["themes", "Themes", "themes.html"]
     ]
@@ -433,13 +435,14 @@ function overview(edition, base = "") {
 
 function sectionSummaryPagelet(edition, base = "") {
   const sections = [
+    ["overnight", "Overnight", "overnight.html", "Big source-backed stories that hit before the U.S. open and what they change."],
     ["macro", "Macro Environment", "macro.html", "Rates, inflation, GDP, jobs, and the cost-of-capital backdrop."],
     ["markets", "Markets", "markets.html", "Public-market moves and cross-asset signals."],
     ["deals", "Deals", "deals.html", "M&A, activism, IPOs, and financing updates."],
     ["privateMarkets", "Private Markets", "private-markets.html", "Private-credit, sponsor, fundraising, and exit-window signals."]
   ];
   return `<section class="panel compact">
-    <div class="panel-head"><div><span class="eyebrow">Section Tape</span><h2>Macro, Markets, Deals, Private Markets</h2></div></div>
+    <div class="panel-head"><div><span class="eyebrow">Section Tape</span><h2>Overnight, Macro, Markets, Deals, Private Markets</h2></div></div>
     <div class="summary-grid">
       ${sections.map(([key, label, file, description]) => {
         const count = key === "deals" ? (edition.dealTape?.length || 0) : (edition.sections?.[key]?.items?.length || 0);
@@ -533,6 +536,26 @@ function todayMarketMap(edition) {
     <div class="panel-head"><div><span class="eyebrow">Visual Dashboard</span><h2>Today’s Market Map</h2></div><span class="chip">recent data</span></div>
     <p class="lede">A compact, story-aware read of the live issue’s market context. It uses the same recent market-data feed as the section visuals, so stale one-off charts do not carry forward by default.</p>
     <div class="theme-grid">${tiles}</div>
+  </section>`;
+}
+
+function overnightPage(edition, base = "") {
+  const section = edition.sections?.overnight || { items: [], window: null };
+  const items = section.items || [];
+  const windowText = section.window?.start && section.window?.end
+    ? `${new Date(section.window.start).toLocaleString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })} ET to ${new Date(section.window.end).toLocaleString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })} ET`
+    : "latest overnight source window";
+  const body = items.length
+    ? items.map((move, index) => `<div id="overnight-${index + 1}">
+        ${moveCard(move, index, { activePage: "overnight", base, expanded: index < 2 })}
+        ${insightGrid(move)}
+      </div>`).join("")
+    : `<article class="move-card"><h2>No major overnight signal</h2><p>No source-backed overnight story cleared the evidence and market-impact bar. The tab stays quiet instead of filling with generic headlines.</p></article>`;
+  return `<section class="panel">
+    <div class="panel-head"><div><span class="eyebrow">Overnight</span><h1>Big News Before The Open</h1></div><span class="chip">${items.length} selected</span></div>
+    <p class="lede">The biggest source-backed headlines from the overnight window, analyzed for market impact, valuation read-through, financing conditions, and deal implications.</p>
+    <p class="source-line"><strong>Window:</strong> ${escapeHtml(windowText)}</p>
+    ${body}
   </section>`;
 }
 
@@ -786,6 +809,7 @@ function archivePage(archiveEntries, base = "") {
 }
 
 function pageContent(active, edition, review, archiveEntries, base = "") {
+  if (active === "overnight") return overnightPage(edition, base);
   if (active === "moves") return movesPage(edition);
   if (active === "macro") return macroPage(edition, base);
   if (active === "markets") return lanePage(edition, "markets", "Markets", "Public Market Tape", "Equities, sector moves, peer reactions, and company-specific market repricings that change the banker read.", base);

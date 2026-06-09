@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
-import { bankerAnalysis, backfillWeekdaySections, editorialLaneFor, privateMarketSegmentFor, selectLaneItems, selectMainCandidates, weekdaySectionBackfillCandidates } from "../scripts/build-edition.js";
+import { bankerAnalysis, backfillWeekdaySections, buildOvernightSection, editorialLaneFor, overnightCandidates, privateMarketSegmentFor, selectLaneItems, selectMainCandidates, weekdaySectionBackfillCandidates } from "../scripts/build-edition.js";
 
 test("editorial lane classification separates macro, markets, deals, and private markets", () => {
   assert.equal(editorialLaneFor({
@@ -51,12 +51,49 @@ test("section buckets cap each lane and private-market segment", () => {
     ...Array.from({ length: 4 }, (_, index) => ({ id: `p-${index}`, editorialLane: "private_markets", privateMarketSegment: index % 2 ? "private_credit" : "private_equity" }))
   ];
   const sections = selectLaneItems(analyses, 3);
+  assert.deepEqual(sections.overnight.items, []);
   assert.equal(sections.macro.items.length, 3);
   assert.equal(sections.markets.items.length, 3);
   assert.equal(sections.deals.items.length, 3);
   assert.equal(sections.privateMarkets.items.length, 3);
   assert.equal(sections.privateMarkets.segments.privateEquity.items.length, 2);
   assert.equal(sections.privateMarkets.segments.privateCredit.items.length, 2);
+});
+
+test("overnight tab selects source-backed high-impact stories from the overnight window", () => {
+  const now = new Date("2026-06-09T08:00:00-04:00");
+  const overnight = {
+    id: "overnight-ai",
+    title: "Nasdaq futures rise as chip stocks rally before the open",
+    summary: "A source-backed overnight market story with enough detail to analyze index futures, chip leadership, and risk appetite before the U.S. open.",
+    source: "CNBC",
+    sourceType: "reputable",
+    url: "https://www.cnbc.com/2026/06/09/stock-market-today-live-updates.html",
+    publishedAt: "2026-06-09T10:30:00.000Z",
+    freshnessStatus: "FRESH",
+    topics: ["markets", "companies", "ai"],
+    matchedThemes: [],
+    scores: { evidence: 5, marketSignal: 3, trustedDomain: 1, total: 38 }
+  };
+  const stale = {
+    ...overnight,
+    id: "stale",
+    title: "Old market story",
+    publishedAt: "2026-06-08T12:00:00.000Z",
+    scores: { evidence: 5, marketSignal: 3, trustedDomain: 1, total: 40 }
+  };
+  const weak = {
+    ...overnight,
+    id: "weak",
+    title: "Lifestyle item",
+    scores: { evidence: 5, marketSignal: 1, trustedDomain: 1, total: 50 }
+  };
+
+  assert.deepEqual(overnightCandidates([stale, weak, overnight], now).map((item) => item.id), ["overnight-ai"]);
+  const section = buildOvernightSection([overnight], { series: [] }, now);
+  assert.equal(section.items.length, 1);
+  assert.equal(section.items[0].overnightSignal, true);
+  assert.match(section.items[0].valuationImpact, /valuation|multiples|earnings|cash flows|discount rate|revenue|margin|growth/i);
 });
 
 test("weekday section backfill keeps macro, markets, and deals tabs from showing no signal on trading days", () => {
@@ -136,14 +173,19 @@ test("weekday section backfill stays off on weekends", () => {
 
 test("rendered edition includes first-class section tabs and empty-state language", async () => {
   const html = await fs.readFile("index.html", "utf8");
-  assert.match(html, /macro\.html\?v=2026-06-08/);
-  assert.match(html, /markets\.html\?v=2026-06-08/);
-  assert.match(html, /deals\.html\?v=2026-06-08/);
-  assert.match(html, /private-markets\.html\?v=2026-06-08/);
-  assert.match(html, /private-markets\.html\?v=2026-06-08#privateCredit-1|private-markets\.html\?v=2026-06-08#privateEquity-1/);
+  assert.match(html, /overnight\.html\?v=\d{4}-\d{2}-\d{2}/);
+  assert.match(html, /macro\.html\?v=\d{4}-\d{2}-\d{2}/);
+  assert.match(html, /markets\.html\?v=\d{4}-\d{2}-\d{2}/);
+  assert.match(html, /deals\.html\?v=\d{4}-\d{2}-\d{2}/);
+  assert.match(html, /private-markets\.html\?v=\d{4}-\d{2}-\d{2}/);
+  assert.match(html, /private-markets\.html\?v=\d{4}-\d{2}-\d{2}#private(?:Credit|Equity)-1/);
   assert.match(html, /Section Tape/);
 
   const macroHtml = await fs.readFile("macro.html", "utf8");
+  const overnightHtml = await fs.readFile("overnight.html", "utf8");
+  assert.match(overnightHtml, /Big News Before The Open/);
+  assert.match(overnightHtml, /market impact|No major overnight signal/i);
+  assert.match(overnightHtml, /Valuation|No major overnight signal/);
   assert.match(macroHtml, /Macro Environment/);
   assert.match(macroHtml, /Economic Calendar/);
   assert.match(macroHtml, /Latest Event|No fresh macro release/);
