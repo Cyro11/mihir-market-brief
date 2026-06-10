@@ -375,6 +375,30 @@ test("markets visual routing replaces stale Dell/Nvidia chart for semiconductor 
   assert.match(analysis.visual.subtitle, /latest daily move/i);
 });
 
+test("macro release longform adds analysis instead of repeating source summary", () => {
+  const item = {
+    id: "bls-cpi",
+    title: "Consumer Price Index Summary",
+    source: "BLS CPI",
+    sourceType: "official",
+    url: "https://www.bls.gov/news.release/cpi.nr0.htm",
+    publishedAt: "2026-06-10T12:30:00.000Z",
+    fetchedAt: "2026-06-10T13:00:00.000Z",
+    summary: "The Consumer Price Index for All Urban Consumers increased 0.5 percent in May, while energy rose 3.9 percent and core CPI rose 0.2 percent.",
+    facts: ["CPI-U increased 0.5 percent in May.", "Energy rose 3.9 percent.", "Core CPI rose 0.2 percent."],
+    topics: ["macro", "inflation", "rates", "fed"],
+    matchedThemes: [],
+    freshnessStatus: "FRESH",
+    scores: { evidence: 6, marketSignal: 3, trustedDomain: 1, total: 44 }
+  };
+
+  const analysis = bankerAnalysis(item, { series: [] });
+  const releaseSection = analysis.longform.sections.find((section) => section.id === "release");
+  assert.ok(releaseSection);
+  assert.doesNotMatch(releaseSection.body, /The Consumer Price Index for All Urban Consumers increased 0\.5 percent in May, while energy rose 3\.9 percent and core CPI rose 0\.2 percent\./);
+  assert.match(releaseSection.body, /headline|core|components|Fed|Treasury/i);
+});
+
 test("macro visual routing uses current yield stack for Fed path stories", () => {
   const analysis = bankerAnalysis({
     title: "Markets reprice Fed path toward higher-for-longer rates",

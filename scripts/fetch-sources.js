@@ -1,4 +1,5 @@
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { dataDir, sourceFeeds, sourcesDir } from "./config.js";
 import { absoluteUrl, editionDate, ensureDir, hashKey, normalizeText, readJson, slugify, writeJson } from "./utils.js";
 
@@ -104,6 +105,88 @@ function parseBeaCurrentReleases(html, feed, fetchedAt) {
   }).filter(Boolean).slice(0, 10);
 }
 
+function decodeEntities(value) {
+  return String(value || "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'");
+}
+
+function releaseText(html) {
+  return normalizeText(decodeEntities(
+    html
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+  ));
+}
+
+function parseBlsReleaseTimestamp(text, fetchedAt) {
+  const embargo = text.match(/(?:embargoed until|transmission of material in this release is embargoed until)\s+(\d{1,2}:\d{2})\s*a\.m\.\s*\(ET\)\s*(?:[A-Za-z]+,\s*)?([A-Za-z]+\s+\d{1,2},\s+\d{4})/i);
+  if (embargo) {
+    const [, timeText, dateText] = embargo;
+    const [hour, minute] = timeText.split(":").map(Number);
+    const local = new Date(`${dateText} ${hour}:${String(minute).padStart(2, "0")}:00 GMT-0400`);
+    if (!Number.isNaN(local.getTime())) return local.toISOString();
+  }
+  const modified = text.match(/Last Modified Date:\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})/i)
+    || text.match(/Last modified:\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})/i);
+  if (modified) {
+    const local = new Date(`${modified[1]} 08:30:00 GMT-0400`);
+    if (!Number.isNaN(local.getTime())) return local.toISOString();
+  }
+  return fetchedAt;
+}
+
+function pickReleaseTitle(html, text, feed) {
+  const heading = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
+  const title = normalizeText(decodeEntities(heading?.[1] || ""));
+  if (title && !/official website|skip to main content/i.test(title)) return title;
+  const preTitle = text.match(/\b(CONSUMER PRICE INDEX|PRODUCER PRICE INDEXES?|EMPLOYMENT SITUATION)\b/i)?.[1];
+  return preTitle ? preTitle.replace(/\s+/g, " ") : feed.name;
+}
+
+function sentenceFacts(text) {
+  const releaseStart = text.search(/\b(CONSUMER PRICE INDEX\s*-|PRODUCER PRICE INDEXES?\s*-|THE EMPLOYMENT SITUATION|EMPLOYMENT SITUATION\s*-)/i);
+  const body = (releaseStart >= 0 ? text.slice(releaseStart) : text)
+    .replace(/\bU\.S\./g, "U.S")
+    .replace(/\bBureau of Labor Statistics\b[\s\S]*?Search button/gi, " ");
+  const sentences = body
+    .split(/(?<=[.!?])\s+/)
+    .map((sentence) => sentence.trim())
+    .filter(Boolean);
+  const factPattern = /\b(increased|decreased|rose|fell|declined|edged|changed|added|unchanged|percent|payroll|unemployment|earnings|index)\b/i;
+  return sentences
+    .filter((sentence) => factPattern.test(sentence) && /\d|percent|unchanged/i.test(sentence))
+    .slice(0, 5);
+}
+
+export function parseBlsReleasePage(html, feed, fetchedAt) {
+  const text = releaseText(html);
+  const title = pickReleaseTitle(html, text, feed);
+  const publishedAt = parseBlsReleaseTimestamp(text, fetchedAt);
+  const facts = sentenceFacts(text);
+  if (!title || facts.length < 2) return [];
+
+  const summary = facts.slice(0, 4).join(" ");
+  return [{
+    id: `${feed.id}-${slugify(title)}`,
+    source: feed.name,
+    sourceType: feed.sourceType,
+    title,
+    url: feed.url,
+    publishedAt,
+    fetchedAt,
+    summary,
+    facts,
+    tickers: [],
+    topics: feed.topics,
+    feedId: feed.id
+  }];
+}
+
 async function fetchWithTimeout(url, options = {}, timeoutMs = 12000) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
@@ -126,6 +209,7 @@ async function fetchFeed(feed) {
   const text = await response.text();
   if (feed.mode === "sec-press-page") return parseSecPressPage(text, feed, fetchedAt);
   if (feed.mode === "bea-current-releases") return parseBeaCurrentReleases(text, feed, fetchedAt);
+  if (feed.mode === "bls-release-page") return parseBlsReleasePage(text, feed, fetchedAt);
   return parseRss(text, feed, fetchedAt);
 }
 
@@ -175,7 +259,9 @@ async function main() {
   console.log(`Fetched ${payload.sourceCount} source items for ${runDate}; failures: ${failures.length}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}

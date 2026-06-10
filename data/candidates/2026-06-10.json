@@ -1,6 +1,6 @@
 {
   "runDate": "2026-06-10",
-  "generatedAt": "2026-06-10T19:47:46.295Z",
+  "generatedAt": "2026-06-10T20:05:00.362Z",
   "window": "Latest fetched source set; main tape excludes weak or unsupported items.",
   "candidates": [
     {
@@ -10,7 +10,7 @@
       "title": "U.S. International Trade in Goods and Services, April 2026",
       "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026",
       "publishedAt": "2026-06-09T12:31:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:33.734Z",
+      "fetchedAt": "2026-06-10T20:00:48.854Z",
       "summary": "U.S. International Trade in Goods and Services, April 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: U.S. International Trade in Goods and Services, April 2026."
@@ -51,7 +51,7 @@
       "title": "U.S. International Trade in Goods and Services, Annual Revision",
       "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-annual-revision",
       "publishedAt": "2026-06-09T12:30:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:33.734Z",
+      "fetchedAt": "2026-06-10T20:00:48.854Z",
       "summary": "U.S. International Trade in Goods and Services, Annual Revision. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: U.S. International Trade in Goods and Services, Annual Revision."
@@ -92,7 +92,7 @@
       "title": "Personal Income and Outlays, April 2026",
       "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
       "publishedAt": "2026-05-28T12:30:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:33.734Z",
+      "fetchedAt": "2026-06-10T20:00:48.854Z",
       "summary": "Personal Income and Outlays, April 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Personal Income and Outlays, April 2026."
@@ -133,7 +133,7 @@
       "title": "GDP (Second Estimate) and Corporate Profits, 1st Quarter 2026",
       "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026",
       "publishedAt": "2026-05-28T12:30:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:33.734Z",
+      "fetchedAt": "2026-06-10T20:00:48.854Z",
       "summary": "GDP (Second Estimate) and Corporate Profits, 1st Quarter 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: GDP (Second Estimate) and Corporate Profits, 1st Quarter 2026."
@@ -174,7 +174,7 @@
       "title": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
       "url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
       "publishedAt": "2026-03-25T12:30:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:33.734Z",
+      "fetchedAt": "2026-06-10T20:00:48.854Z",
       "summary": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: U.S. International Transactions and Investment Position, 4th Quarter and Year 2025."
@@ -215,7 +215,7 @@
       "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
       "url": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024",
       "publishedAt": "2026-02-19T13:30:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:33.734Z",
+      "fetchedAt": "2026-06-10T20:00:48.854Z",
       "summary": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024."
@@ -256,7 +256,7 @@
       "title": "Gross Domestic Product by County and Personal Income by County, 2024",
       "url": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024",
       "publishedAt": "2026-02-05T13:30:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:33.734Z",
+      "fetchedAt": "2026-06-10T20:00:48.854Z",
       "summary": "Gross Domestic Product by County and Personal Income by County, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Gross Domestic Product by County and Personal Income by County, 2024."
@@ -297,7 +297,7 @@
       "title": "Direct Investment by Country and Industry, 2024",
       "url": "https://www.bea.gov/news/2025/direct-investment-country-and-industry-2024",
       "publishedAt": "2025-07-22T12:30:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:33.734Z",
+      "fetchedAt": "2026-06-10T20:00:48.854Z",
       "summary": "Direct Investment by Country and Industry, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Direct Investment by Country and Industry, 2024."
@@ -332,13 +332,167 @@
       "exclusionReason": "background item; not eligible for main tape"
     },
     {
+      "id": "bls-cpi-consumer-price-index-summary",
+      "source": "BLS CPI",
+      "sourceType": "official",
+      "title": "Consumer Price Index Summary",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "publishedAt": "2026-06-10T12:30:00.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.134Z",
+      "summary": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.",
+      "facts": [
+        "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.",
+        "Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment.",
+        "The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March.",
+        "The energy index accounted for over sixty percent of the monthly all items increase.",
+        "The index for shelter also increased in May, rising 0.3 percent."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "inflation",
+        "rates",
+        "fed"
+      ],
+      "feedId": "bls-cpi",
+      "freshnessStatus": "FRESH",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed",
+            "rates",
+            "inflation",
+            "cpi"
+          ]
+        },
+        {
+          "id": "consumer-and-staples",
+          "name": "Consumer and Staples",
+          "hits": [
+            "consumer"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 4,
+        "sourceQuality": 5,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 3,
+        "trustedDomain": 0,
+        "total": 55
+      },
+      "eligible": true,
+      "exclusionReason": ""
+    },
+    {
+      "id": "bls-ppi-producer-price-index-news-release-summary",
+      "source": "BLS PPI",
+      "sourceType": "official",
+      "title": "Producer Price Index News Release summary",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "publishedAt": "2026-05-13T12:30:00.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.283Z",
+      "summary": "PRODUCER PRICE INDEXES - APRIL 2026 The Producer Price Index for final demand increased 1.4 percent in April, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 0.7 percent in March and 0.6 percent in February. (See table A.) The April increase is the largest advance since rising 1.7 percent in March 2022. On an unadjusted basis, the index for final demand rose 6.0 percent for the 12 months ended in April, the largest 12-month increase since moving up 6.4 percent in December 2022.",
+      "facts": [
+        "PRODUCER PRICE INDEXES - APRIL 2026 The Producer Price Index for final demand increased 1.4 percent in April, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.",
+        "Final demand prices advanced 0.7 percent in March and 0.6 percent in February.",
+        "(See table A.) The April increase is the largest advance since rising 1.7 percent in March 2022.",
+        "On an unadjusted basis, the index for final demand rose 6.0 percent for the 12 months ended in April, the largest 12-month increase since moving up 6.4 percent in December 2022.",
+        "Nearly 60 percent of the April rise in final demand prices can be attributed to a 1.2-percent advance in the index for final demand services."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "inflation",
+        "rates",
+        "fed"
+      ],
+      "feedId": "bls-ppi",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed",
+            "rates",
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 19,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 3,
+        "trustedDomain": 0,
+        "total": 46
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
+      "id": "bls-employment-employment-situation-summary",
+      "source": "BLS Employment Situation",
+      "sourceType": "official",
+      "title": "Employment Situation Summary",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "publishedAt": "2026-06-05T12:30:00.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.326Z",
+      "summary": "THE EMPLOYMENT SITUATION - MAY 2026 Total nonfarm payroll employment increased by 172,000 in May, and the unemployment rate was unchanged at 4.3 percent, the U.S Bureau of Labor Statistics reported today. The unemployment rate held at 4.3 percent and has remained in a narrow range of 4.3 percent to 4.5 percent since July 2025. The number of unemployed people, at 7.3 million, changed little over the month. (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in May for adult men (4.0 percent), adult women (3.8 percent), teenagers (14.7 percent), and people who are White (3.8 percent), Black (6.6 percent), Asian (3.8 percent), or Hispanic (5.0 percent).",
+      "facts": [
+        "THE EMPLOYMENT SITUATION - MAY 2026 Total nonfarm payroll employment increased by 172,000 in May, and the unemployment rate was unchanged at 4.3 percent, the U.S Bureau of Labor Statistics reported today.",
+        "The unemployment rate held at 4.3 percent and has remained in a narrow range of 4.3 percent to 4.5 percent since July 2025.",
+        "The number of unemployed people, at 7.3 million, changed little over the month.",
+        "(See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in May for adult men (4.0 percent), adult women (3.8 percent), teenagers (14.7 percent), and people who are White (3.8 percent), Black (6.6 percent), Asian (3.8 percent), or Hispanic (5.0 percent).",
+        "(See tables A-1, A-2, and A-3.) The number of people jobless less than 5 weeks declined by 286,000 to 2.2 million in May, largely offsetting an increase in the prior month."
+      ],
+      "tickers": [],
+      "topics": [
+        "macro",
+        "employment",
+        "rates",
+        "fed"
+      ],
+      "feedId": "bls-employment",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed",
+            "rates"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 3,
+        "trustedDomain": 0,
+        "total": 42
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
+    },
+    {
       "id": "sec-current-events-b7124828",
       "source": "SEC",
       "sourceType": "official",
       "title": "SEC Establishes Joint Data Standards as Required Under the Financial Data Transparency Act of 2022",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022",
       "publishedAt": "2026-06-08T14:36:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The U.S. Securities and Exchange Commission established joint data standards under the Financial Data Transparency Act of 2022. The final rule establishes technical standards for data submitted to certain financial regulatory agencies. Eight additional…",
       "facts": [
         "The U.S. Securities and Exchange Commission established joint data standards under the Financial Data Transparency Act of 2022. The final rule establishes technical standards for data submitted to certain financial regulatory agencies. Eight additional…"
@@ -370,7 +524,7 @@
       "title": "SEC Announces New Members of Small Business Capital Formation Advisory Committee",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-52-sec-announces-new-members-small-business-capital-formation-advisory-committee",
       "publishedAt": "2026-06-04T18:39:49.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission today announced five new members of the&amp;nbsp;Small Business Capital Formation Advisory Committee. The new members were appointed to four-year terms&amp;nbsp;and&amp;nbsp;will join&amp;nbsp;the&amp;nbsp;15&amp;nbsp;current&amp;nbsp;…",
       "facts": [
         "The Securities and Exchange Commission today announced five new members of the&amp;nbsp;Small Business Capital Formation Advisory Committee. The new members were appointed to four-year terms&amp;nbsp;and&amp;nbsp;will join&amp;nbsp;the&amp;nbsp;15&amp;nbsp;current&amp;nbsp;…"
@@ -402,7 +556,7 @@
       "title": "SEC Publishes Draft Strategic Plan for Public Comment",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-51-sec-publishes-draft-strategic-plan-public-comment",
       "publishedAt": "2026-06-02T14:30:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission today published a&amp;nbsp;Draft Strategic Plan&amp;nbsp;that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient…",
       "facts": [
         "The Securities and Exchange Commission today published a&amp;nbsp;Draft Strategic Plan&amp;nbsp;that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient…"
@@ -434,7 +588,7 @@
       "title": "SEC Announces Four New Members of Investor Advisory Committee",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-50-sec-announces-four-new-members-investor-advisory-committee",
       "publishedAt": "2026-06-01T16:39:44.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission today announced&amp;nbsp;four&amp;nbsp;new members to fill vacancies on its Investor Advisory Committee.&amp;nbsp;Three of the four new members&amp;nbsp;will serve four-year terms,&amp;nbsp;while the fourth new member will serve as the…",
       "facts": [
         "The Securities and Exchange Commission today announced&amp;nbsp;four&amp;nbsp;new members to fill vacancies on its Investor Advisory Committee.&amp;nbsp;Three of the four new members&amp;nbsp;will serve four-year terms,&amp;nbsp;while the fourth new member will serve as the…"
@@ -466,7 +620,7 @@
       "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
       "publishedAt": "2026-05-29T14:50:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission today proposed the rescission of overly burdensome and costly rules that require companies to provide certain climate-related information in their registration statements and annual reports. The Commission’s…",
       "facts": [
         "The Securities and Exchange Commission today proposed the rescission of overly burdensome and costly rules that require companies to provide certain climate-related information in their registration statements and annual reports. The Commission’s…"
@@ -498,7 +652,7 @@
       "title": "SEC Investor Advisory Committee to Host June 4 Meeting",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting",
       "publishedAt": "2026-05-27T14:59:13.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission’s&amp;nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…",
       "facts": [
         "The Securities and Exchange Commission’s&amp;nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…"
@@ -530,7 +684,7 @@
       "title": "SEC and NFA Announce Memorandum of Understanding to Further Harmonize Regulatory Coordination",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-47-sec-nfa-announce-memorandum-understanding-further-harmonize-regulatory-coordination",
       "publishedAt": "2026-05-21T12:51:10.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission and National Futures Association (NFA) today announced that they have entered into a Memorandum of Understanding (MOU) to enhance their cooperation, coordination, and information sharing in areas of common…",
       "facts": [
         "The Securities and Exchange Commission and National Futures Association (NFA) today announced that they have entered into a Memorandum of Understanding (MOU) to enhance their cooperation, coordination, and information sharing in areas of common…"
@@ -562,7 +716,7 @@
       "title": "SEC Proposes Transformative Reforms to Help Public Companies Conduct Registered Offerings and Simplify Reporting Requirements",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-46-sec-proposes-transformative-reforms-help-public-companies-conduct-registered-offerings-simplify",
       "publishedAt": "2026-05-19T14:55:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission today proposed amendments to its rules and forms governing registered offerings that are designed to increase efficiency, flexibility, and cost savings for public companies while maintaining robust investor…",
       "facts": [
         "The Securities and Exchange Commission today proposed amendments to its rules and forms governing registered offerings that are designed to increase efficiency, flexibility, and cost savings for public companies while maintaining robust investor…"
@@ -594,7 +748,7 @@
       "title": "SEC Rescinds Policy Regarding Denials of Settlements in Enforcement Actions",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-45-sec-rescinds-policy-regarding-denials-settlements-enforcement-actions",
       "publishedAt": "2026-05-18T16:33:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission today rescinded a policy, codified in Rule 202.5(e) of its informal rules of procedures, stating that when it chooses to settle an enforcement action in which a sanction is imposed, it will not settle unless the…",
       "facts": [
         "The Securities and Exchange Commission today rescinded a policy, codified in Rule 202.5(e) of its informal rules of procedures, stating that when it chooses to settle an enforcement action in which a sanction is imposed, it will not settle unless the…"
@@ -626,7 +780,7 @@
       "title": "SEC Charges 21 Individuals With Alleged Wide-Reaching Insider Trading Scheme",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-44-sec-charges-21-individuals-alleged-wide-reaching-insider-trading-scheme",
       "publishedAt": "2026-05-06T23:24:19.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission today charged 21 individuals for their alleged involvement in a decade-long insider trading scheme that used information misappropriated from multiple global law firms and resulted in millions of dollars in illicit…",
       "facts": [
         "The Securities and Exchange Commission today charged 21 individuals for their alleged involvement in a decade-long insider trading scheme that used information misappropriated from multiple global law firms and resulted in millions of dollars in illicit…"
@@ -658,7 +812,7 @@
       "title": "SEC Divisions of Investment Management and Corporation Finance Issue Staff Guidance Supporting Retirement Plans for Small Businesses",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-43-sec-divisions-investment-management-corporation-finance-issue-staff-guidance-supporting-retirement",
       "publishedAt": "2026-05-05T20:23:55.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "Staff in the Securities and Exchange Commission’s Divisions of Investment Management and Corporation Finance issued guidance addressing certain questions regarding the application of the federal securities laws to pooled employer plans (PEPs), which help…",
       "facts": [
         "Staff in the Securities and Exchange Commission’s Divisions of Investment Management and Corporation Finance issued guidance addressing certain questions regarding the application of the federal securities laws to pooled employer plans (PEPs), which help…"
@@ -690,7 +844,7 @@
       "title": "SEC Proposes Amendments to Permit Optional Semiannual Reporting by Public Companies",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-42-sec-proposes-amendments-permit-optional-semiannual-reporting-public-companies",
       "publishedAt": "2026-05-05T15:54:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.127Z",
+      "fetchedAt": "2026-06-10T20:00:49.351Z",
       "summary": "The Securities and Exchange Commission today proposed rule and form amendments that would give public companies the option of filing semiannual reports in lieu of quarterly reports to meet their interim reporting obligations under the federal securities…",
       "facts": [
         "The Securities and Exchange Commission today proposed rule and form amendments that would give public companies the option of filing semiannual reports in lieu of quarterly reports to meet their interim reporting obligations under the federal securities…"
@@ -722,170 +876,7 @@
       "title": "National mall footwear giant closes 82 stores as shoppers trade up",
       "url": "https://finance.yahoo.com/economy/policy/articles/national-mall-footwear-giant-closes-160709525.html",
       "publishedAt": "2026-06-09T16:07:09.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "BACKGROUND",
-      "matchedThemes": [],
-      "scores": {
-        "freshness": 1,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 0,
-        "evidence": 3,
-        "marketSignal": 0,
-        "trustedDomain": 1,
-        "total": 21
-      },
-      "eligible": false,
-      "exclusionReason": "insufficient factual support"
-    },
-    {
-      "id": "yahoo-finance-news-2f882dfc",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Stocks Set to Extend Rebound Amid AI Dip-Buying",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-set-extend-rebound-amid-103635003.html",
-      "publishedAt": "2026-06-09T10:36:35.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "BACKGROUND",
-      "matchedThemes": [
-        {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
-          "hits": [
-            "ai"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 1,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 3,
-        "evidence": 3,
-        "marketSignal": 2,
-        "trustedDomain": 1,
-        "total": 28
-      },
-      "eligible": false,
-      "exclusionReason": "insufficient factual support"
-    },
-    {
-      "id": "yahoo-finance-news-ddfc5f3c",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Morning Bid: Buy the chip",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-buy-chip-103351520.html",
-      "publishedAt": "2026-06-09T10:33:51.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "BACKGROUND",
-      "matchedThemes": [],
-      "scores": {
-        "freshness": 1,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 0,
-        "evidence": 3,
-        "marketSignal": 0,
-        "trustedDomain": 1,
-        "total": 21
-      },
-      "eligible": false,
-      "exclusionReason": "insufficient factual support"
-    },
-    {
-      "id": "yahoo-finance-news-c66d7bd1",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Is Kroger Stock Underperforming the S&amp;P 500?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kroger-stock-underperforming-p-500-105051483.html",
-      "publishedAt": "2026-06-09T10:50:51.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "BACKGROUND",
-      "matchedThemes": [],
-      "scores": {
-        "freshness": 1,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 0,
-        "evidence": 3,
-        "marketSignal": 2,
-        "trustedDomain": 1,
-        "total": 25
-      },
-      "eligible": false,
-      "exclusionReason": "insufficient factual support"
-    },
-    {
-      "id": "yahoo-finance-news-46d60e5f",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "How Is Arch Capital Group's Stock Performance Compared to Other Insurance Stocks?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/arch-capital-groups-stock-performance-104623846.html",
-      "publishedAt": "2026-06-09T10:46:23.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "BACKGROUND",
-      "matchedThemes": [],
-      "scores": {
-        "freshness": 1,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 0,
-        "evidence": 3,
-        "marketSignal": 2,
-        "trustedDomain": 1,
-        "total": 25
-      },
-      "eligible": false,
-      "exclusionReason": "insufficient factual support"
-    },
-    {
-      "id": "yahoo-finance-news-37d7ea4",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "BP awards SLB OneSubsea boosting contract for Thunder Horse",
-      "url": "https://finance.yahoo.com/sectors/energy/articles/bp-awards-slb-onesubsea-boosting-104138185.html",
-      "publishedAt": "2026-06-09T10:41:38.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -916,7 +907,7 @@
       "title": "The $600/month Medicare mistake too many 65-year-old retirees make. Don’t fall for the same trap",
       "url": "https://finance.yahoo.com/sectors/healthcare/articles/600-month-medicare-mistake-too-105500075.html",
       "publishedAt": "2026-06-09T10:55:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -941,13 +932,137 @@
       "exclusionReason": "insufficient factual support"
     },
     {
+      "id": "yahoo-finance-news-46d60e5f",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "How Is Arch Capital Group's Stock Performance Compared to Other Insurance Stocks?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arch-capital-groups-stock-performance-104623846.html",
+      "publishedAt": "2026-06-09T10:46:23.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "total": 25
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
+    },
+    {
+      "id": "yahoo-finance-news-58d2120",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Creating a 65% “Dividend” on RKLB Stock Using Options",
+      "url": "https://finance.yahoo.com/markets/options/articles/creating-65-dividend-rklb-stock-110002245.html",
+      "publishedAt": "2026-06-09T11:00:02.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "total": 25
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
+    },
+    {
+      "id": "yahoo-finance-news-c66d7bd1",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Is Kroger Stock Underperforming the S&amp;P 500?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kroger-stock-underperforming-p-500-105051483.html",
+      "publishedAt": "2026-06-09T10:50:51.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "total": 25
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
+    },
+    {
+      "id": "yahoo-finance-news-69553e49",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "GSK to Buy Nuvalent for $10.6 Billion in Oncology Push",
+      "url": "https://www.wsj.com/business/deals/gsk-to-buy-nuvalent-for-10-6-billion-in-oncology-push-8ae5c408?siteid=yhoof2&amp;yptr=yahoo",
+      "publishedAt": "2026-06-09T10:52:00.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 0,
+        "trustedDomain": 0,
+        "total": 21
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
+    },
+    {
       "id": "yahoo-finance-news-a9b22713",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
       "title": "Gold prices today, Tuesday, June 9: Prices settling into a lower range ahead of inflation reports",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-june-9-prices-settling-into-a-lower-range-ahead-of-inflation-reports-105721184.html",
       "publishedAt": "2026-06-09T10:57:21.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -980,52 +1095,13 @@
       "exclusionReason": "insufficient factual support"
     },
     {
-      "id": "yahoo-finance-news-6ad9d41f",
+      "id": "yahoo-finance-news-48fd02bb",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "How Is Royal Caribbean Cruises' Stock Performance Compared to Other Consumer Discretionary Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-cruises-stock-performance-102727086.html",
-      "publishedAt": "2026-06-09T10:27:27.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "BACKGROUND",
-      "matchedThemes": [
-        {
-          "id": "consumer-and-staples",
-          "name": "Consumer and Staples",
-          "hits": [
-            "consumer"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 1,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 3,
-        "evidence": 3,
-        "marketSignal": 2,
-        "trustedDomain": 1,
-        "total": 28
-      },
-      "eligible": false,
-      "exclusionReason": "insufficient factual support"
-    },
-    {
-      "id": "yahoo-finance-news-58d2120",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Creating a 65% “Dividend” on RKLB Stock Using Options",
-      "url": "https://finance.yahoo.com/markets/options/articles/creating-65-dividend-rklb-stock-110002245.html",
-      "publishedAt": "2026-06-09T11:00:02.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
+      "title": "Trump praised IBM's 'legend' CEO, government floated a $1B quantum award — is the stock still a 'very nice price'?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-praised-ibms-legend-ceo-111500982.html",
+      "publishedAt": "2026-06-09T11:15:00.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1050,13 +1126,83 @@
       "exclusionReason": "insufficient factual support"
     },
     {
+      "id": "yahoo-finance-news-8a1c7991",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "'You are some rich guy's exit strategy': Vivian Tu says 'your guy friends are getting duped' by Elon Musk's SpaceX IPO",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rich-guys-exit-strategy-vivian-111500705.html",
+      "publishedAt": "2026-06-09T11:15:00.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "ipo"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 3,
+        "evidence": 3,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "total": 28
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
+    },
+    {
+      "id": "yahoo-finance-news-1f90bdbc",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Silver prices today, Tuesday, June 9: Settling into a lower range to start the week",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-tuesday-june-9-settling-into-a-lower-range-to-start-the-week-111821243.html",
+      "publishedAt": "2026-06-09T11:18:21.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "total": 21
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
+    },
+    {
       "id": "yahoo-finance-news-3489f29f",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
       "title": "Technical Assessment: Bullish in the Intermediate-Term",
       "url": "https://finance.yahoo.com/research/reports/ARGUS_47283_TechnicalAnalysis_1781090326000?yptr=yahoo&amp;ncid=yahooproperties_plusresear_nm5q6ze1cei",
       "publishedAt": "2026-06-10T11:18:46.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1081,13 +1227,13 @@
       "exclusionReason": "insufficient factual support"
     },
     {
-      "id": "yahoo-finance-news-ddd174b0",
+      "id": "yahoo-finance-news-ae66468b",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "Markets News, June 9, 2026: Chip Stocks Pull Back as Nasdaq, S&amp;P 500 End Lower; Trump Says US Must 'Respond' After Iran Shot Down Helicopter",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-june-9-2026-104650529.html",
-      "publishedAt": "2026-06-09T10:46:50.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.342Z",
+      "title": "YKK plans new $150m manufacturing factory in southern India",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ykk-plans-150m-manufacturing-factory-105206482.html",
+      "publishedAt": "2026-06-09T10:52:06.000Z",
+      "fetchedAt": "2026-06-10T20:00:49.485Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1104,9 +1250,9 @@
         "topicBankerWeight": 8,
         "themeRelevance": 0,
         "evidence": 3,
-        "marketSignal": 2,
+        "marketSignal": 0,
         "trustedDomain": 1,
-        "total": 25
+        "total": 21
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -1118,7 +1264,7 @@
       "title": "KKR Releases 2026 Mid-Year Global Macro Outlook",
       "url": "https://finance.yahoo.com/economy/articles/kkr-releases-2026-mid-global-110000454.html?.tsrc=rss",
       "publishedAt": "2026-06-10T11:00:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "NEW YORK, June 10, 2026--KKR, a leading global investment firm, today released \"The Divergence Conundrum,\" the 2026 Mid-Year Global Macro Outlook by Henry McVey, CIO of KKR’s Balance Sheet and Head of Global Macro and Asset Allocation (GMAA).",
       "facts": [
         "NEW YORK, June 10, 2026--KKR, a leading global investment firm, today released \"The Divergence Conundrum,\" the 2026 Mid-Year Global Macro Outlook by Henry McVey, CIO of KKR’s Balance Sheet and Head of Global Macro and Asset Allocation (GMAA)."
@@ -1161,7 +1307,7 @@
       "title": "Apollo Adds Senior Policy and Government Affairs Leaders in Europe",
       "url": "https://finance.yahoo.com/economy/policy/articles/apollo-adds-senior-policy-government-050000737.html?.tsrc=rss",
       "publishedAt": "2026-06-10T05:00:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "Huw van Steenis to Join as European Economic &amp; Policy Strategist Sarah Jenkins to Join as Head of Government Affairs, Europe LONDON and NEW YORK, June 10, 2026 (GLOBE NEWSWIRE) -- Apollo (NYSE: APO) today announced that Huw van Steenis will join the firm as a Partner and European Economic &amp; Policy Strategist, and that Sarah Jenkins will join the firm as a Managing Director and Head of Government Affairs for Europe. Both newly created positions start in August and are based in London, Apollo’s Eu",
       "facts": [
         "Huw van Steenis to Join as European Economic &amp; Policy Strategist Sarah Jenkins to Join as Head of Government Affairs, Europe LONDON and NEW YORK, June 10, 2026 (GLOBE NEWSWIRE) -- Apollo (NYSE: APO) today announced that Huw van Steenis will join the firm as a Partner and European Economic &amp; Policy Strategist, and that Sarah Jenkins will join the firm as a Managing Director and Head of Government Affairs for Europe. Both newly created positions start in August and are based in London, Apollo’s Eu"
@@ -1204,7 +1350,7 @@
       "title": "Blackstone Weighs $2b Fund Liquidity Push Against TXNM Energy Setback",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-weighs-2b-fund-liquidity-190855977.html?.tsrc=rss",
       "publishedAt": "2026-06-09T19:08:55.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "Blackstone (NYSE:BX) is pursuing a collateralized fund obligation of more than $2 billion tied to private fund stakes, one of the largest planned deals in the private equity secondary market. At the same time, state regulators are recommending the reversal of Blackstone's $400 million acquisition of TXNM Energy, citing legal violations around the utility transaction. These developments come as Blackstone explores new ways to source liquidity from private equity holdings while facing added...",
       "facts": [
         "Blackstone (NYSE:BX) is pursuing a collateralized fund obligation of more than $2 billion tied to private fund stakes, one of the largest planned deals in the private equity secondary market. At the same time, state regulators are recommending the reversal of Blackstone's $400 million acquisition of TXNM Energy, citing legal violations around the utility transaction. These developments come as Blackstone explores new ways to source liquidity from private equity holdings while facing added..."
@@ -1257,7 +1403,7 @@
       "title": "Broadcom’s US$35b AI XPV Platform And What It Means For Growth",
       "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-us-35b-ai-xpv-181020827.html?.tsrc=rss",
       "publishedAt": "2026-06-09T18:10:20.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "Broadcom (NasdaqGS:AVGO) has launched a $35b AI infrastructure financing platform, called the AI XPV Platform, in partnership with Apollo Global Management and Blackstone. The platform is designed to support more than 20 gigawatts of AI compute capacity by 2028, with Anthropic and OpenAI as initial customers. Broadcom will provide custom XPUs and networking solutions, while Apollo and Blackstone focus on financing and leasing structures. For investors tracking AI infrastructure, this move...",
       "facts": [
         "Broadcom (NasdaqGS:AVGO) has launched a $35b AI infrastructure financing platform, called the AI XPV Platform, in partnership with Apollo Global Management and Blackstone. The platform is designed to support more than 20 gigawatts of AI compute capacity by 2028, with Anthropic and OpenAI as initial customers. Broadcom will provide custom XPUs and networking solutions, while Apollo and Blackstone focus on financing and leasing structures. For investors tracking AI infrastructure, this move..."
@@ -1307,7 +1453,7 @@
       "title": "CG Advances Wealth Management Push With Majority Stake in MAI",
       "url": "https://finance.yahoo.com/markets/stocks/articles/cg-advances-wealth-management-push-172900593.html?.tsrc=rss",
       "publishedAt": "2026-06-09T17:29:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "Carlyle has completed its majority stake acquisition in MAI, advancing its wealth management strategy and expanding its fee-based revenue platform.",
       "facts": [
         "Carlyle has completed its majority stake acquisition in MAI, advancing its wealth management strategy and expanding its fee-based revenue platform."
@@ -1357,7 +1503,7 @@
       "title": "Broadcom Teams Up With Apollo and Blackstone on AI Infrastructure Push",
       "url": "https://finance.yahoo.com/m/7e814d06-a8d0-3bf1-9366-22087d7eb52a/broadcom-teams-up-with-apollo.html?.tsrc=rss",
       "publishedAt": "2026-06-09T17:07:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "Broadcom, Apollo Global Management and Blackstone are launching a platform aimed at financing AI infrastructure, beginning with Anthropic’s expansion plans.",
       "facts": [
         "Broadcom, Apollo Global Management and Blackstone are launching a platform aimed at financing AI infrastructure, beginning with Anthropic’s expansion plans."
@@ -1407,7 +1553,7 @@
       "title": "Broadcom, Apollo, and Blackstone Launch $35 Billion AI Infrastructure Platform",
       "url": "https://finance.yahoo.com/sectors/technology/articles/broadcom-apollo-blackstone-launch-35-170145533.html?.tsrc=rss",
       "publishedAt": "2026-06-09T17:01:45.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "The AI XPV Platform targets 20 gigawatts of compute capacity through 2028",
       "facts": [
         "The AI XPV Platform targets 20 gigawatts of compute capacity through 2028"
@@ -1457,7 +1603,7 @@
       "title": "Apollo Global (APO) and Britain’s Bodycote End Talks Over a £1.52 Billion Takeover Proposal, Reuters Reports",
       "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-global-apo-britain-bodycote-164339789.html?.tsrc=rss",
       "publishedAt": "2026-06-09T16:43:39.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "Apollo Global Management, Inc. (NYSE:APO) is one of the best NYSE stocks to buy for long-term investment. Reuters reported on June 5 that Apollo Global Management, Inc. (NYSE:APO) and Britain’s Bodycote announced on Friday that they have ended talks over a £1.52 billion ($2 billion) takeover proposal, which resulted in shares of the British thermal processing […]",
       "facts": [
         "Apollo Global Management, Inc. (NYSE:APO) is one of the best NYSE stocks to buy for long-term investment. Reuters reported on June 5 that Apollo Global Management, Inc. (NYSE:APO) and Britain’s Bodycote announced on Friday that they have ended talks over a £1.52 billion ($2 billion) takeover proposal, which resulted in shares of the British thermal processing […]"
@@ -1500,7 +1646,7 @@
       "title": "Here’s What the Street is Saying About KKR &amp; Co. (KKR)",
       "url": "https://finance.yahoo.com/markets/stocks/articles/street-saying-kkr-co-kkr-164331985.html?.tsrc=rss",
       "publishedAt": "2026-06-09T16:43:31.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "KKR &amp; Co. Inc. (NYSE:KKR) is one of the best NYSE stocks to buy for long-term investment. KKR &amp; Co. Inc. (NYSE:KKR) received several rating updates from analysts following the release of its fiscal Q1 results. Oppenheimer lifted the price target on KKR &amp; Co. Inc. (NYSE:KKR) to $143 from $140 on May 7 and maintained […]",
       "facts": [
         "KKR &amp; Co. Inc. (NYSE:KKR) is one of the best NYSE stocks to buy for long-term investment. KKR &amp; Co. Inc. (NYSE:KKR) received several rating updates from analysts following the release of its fiscal Q1 results. Oppenheimer lifted the price target on KKR &amp; Co. Inc. (NYSE:KKR) to $143 from $140 on May 7 and maintained […]"
@@ -1543,7 +1689,7 @@
       "title": "Broadcom, Apollo, Blackstone launch $35 billion AI platform",
       "url": "https://qz.com/broadcom-apollo-blackstone-ai-infrastructure-platform-060926?.tsrc=rss",
       "publishedAt": "2026-06-09T14:46:24.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "The AI XPV Platform is designed to enable more than 20 gigawatts of compute capacity for frontier AI labs through 2028",
       "facts": [
         "The AI XPV Platform is designed to enable more than 20 gigawatts of compute capacity for frontier AI labs through 2028"
@@ -1593,7 +1739,7 @@
       "title": "Apollo Leads $35 Billion Capital Solution for Broadcom AI XPV Platform in Partnership with Blackstone and Leading Global Banks",
       "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-leads-35-billion-capital-130000846.html?.tsrc=rss",
       "publishedAt": "2026-06-09T13:00:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "Initial Investment to Accelerate Anthropic’s Compute Capacity as Part of Broader Global AI Infrastructure PlatformNEW YORK, June 09, 2026 (GLOBE NEWSWIRE) -- Apollo (NYSE: APO) today announced that Apollo-managed funds and affiliates are leading an initial $35 billion capital solution as part of Broadcom’s new AI XPV Platform (the “Platform”), in partnership with Blackstone (NYSE: BX) and leading global banks. The Platform is designed to enable over 20GW in compute capacity for leading frontier",
       "facts": [
         "Initial Investment to Accelerate Anthropic’s Compute Capacity as Part of Broader Global AI Infrastructure PlatformNEW YORK, June 09, 2026 (GLOBE NEWSWIRE) -- Apollo (NYSE: APO) today announced that Apollo-managed funds and affiliates are leading an initial $35 billion capital solution as part of Broadcom’s new AI XPV Platform (the “Platform”), in partnership with Blackstone (NYSE: BX) and leading global banks. The Platform is designed to enable over 20GW in compute capacity for leading frontier"
@@ -1643,7 +1789,7 @@
       "title": "Market Chatter: Blackstone Boosts Significant Risk Transfer Investments, With Talks Underway for Additional Deals",
       "url": "https://finance.yahoo.com/markets/options/articles/market-chatter-blackstone-boosts-significant-114933256.html?.tsrc=rss",
       "publishedAt": "2026-06-09T11:49:33.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.465Z",
+      "fetchedAt": "2026-06-10T20:00:49.617Z",
       "summary": "Blackstone (BX) is increasing its investments in significant risk transfers as banks seek to hedge p",
       "facts": [
         "Blackstone (BX) is increasing its investments in significant risk transfers as banks seek to hedge p"
@@ -1686,7 +1832,7 @@
       "title": "Private Credit Keeps Making Headlines. Is Ares Capital's Big Dividend Still Safe?",
       "url": "https://www.fool.com/investing/2026/06/10/private-credit-keeps-making-headlines-is-ares-capi/?.tsrc=rss",
       "publishedAt": "2026-06-10T12:35:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.678Z",
+      "fetchedAt": "2026-06-10T20:00:49.832Z",
       "summary": "Ares Capital offers a 10% dividend yield, but investors need to tread carefully.",
       "facts": [
         "Ares Capital offers a 10% dividend yield, but investors need to tread carefully."
@@ -1745,7 +1891,7 @@
       "title": "Ares Raises $12.7 Billion to Invest in Asset-Based Finance Through the Pathfinder Closed-End Strategy",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ares-raises-12-7-billion-104500902.html?.tsrc=rss",
       "publishedAt": "2026-06-10T10:45:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.678Z",
+      "fetchedAt": "2026-06-10T20:00:49.832Z",
       "summary": "NEW YORK, June 10, 2026--Ares Management Corporation (NYSE: ARES) (\"Ares\"), a leading global alternative investment manager, announced today the final closing of Ares Pathfinder Fund III, L.P. and Ares Pathfinder Fund III (Offshore), L.P. (together, \"Pathfinder III\" or the \"Fund\") at $8.5 billion in LP commitments. The Fund was oversubscribed and closed at its increased hard cap, well in excess of its $6.5 billion target and its $6.6 billion 2023 vintage Pathfinder II fund. The Fund held its fir",
       "facts": [
         "NEW YORK, June 10, 2026--Ares Management Corporation (NYSE: ARES) (\"Ares\"), a leading global alternative investment manager, announced today the final closing of Ares Pathfinder Fund III, L.P. and Ares Pathfinder Fund III (Offshore), L.P. (together, \"Pathfinder III\" or the \"Fund\") at $8.5 billion in LP commitments. The Fund was oversubscribed and closed at its increased hard cap, well in excess of its $6.5 billion target and its $6.6 billion 2023 vintage Pathfinder II fund. The Fund held its fir"
@@ -1795,7 +1941,7 @@
       "title": "Goldman Sachs Removes Ares Management (ARES) From its US Conviction List",
       "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-removes-ares-management-164421670.html?.tsrc=rss",
       "publishedAt": "2026-06-09T16:44:21.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.678Z",
+      "fetchedAt": "2026-06-10T20:00:49.832Z",
       "summary": "Ares Management Corp (NYSE:ARES) is one of the best NYSE stocks to buy for long-term investment. Goldman Sachs removed Ares Management Corp (NYSE:ARES) from the firm’s US Conviction List as part of its monthly update on June 1. In another development, Oppenheimer cut the price target on the stock to $146 from $147 on May 4 […]",
       "facts": [
         "Ares Management Corp (NYSE:ARES) is one of the best NYSE stocks to buy for long-term investment. Goldman Sachs removed Ares Management Corp (NYSE:ARES) from the firm’s US Conviction List as part of its monthly update on June 1. In another development, Oppenheimer cut the price target on the stock to $146 from $147 on May 4 […]"
@@ -1845,7 +1991,7 @@
       "title": "Brookfield Asset Management vs. Ares Management: Which Financial Stock Is a Better Buy in 2026?",
       "url": "https://www.fool.com/coverage/better-buy/2026/06/09/brookfield-asset-management-vs-ares-management-which-financial-stock-is-a-better-buy-in-2026/?.tsrc=rss",
       "publishedAt": "2026-06-09T15:19:21.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.678Z",
+      "fetchedAt": "2026-06-10T20:00:49.832Z",
       "summary": "One firm boasts a trillion-dollar global footprint and robust margins, while the other leads private credit with rapid revenue growth but higher leverage.",
       "facts": [
         "One firm boasts a trillion-dollar global footprint and robust margins, while the other leads private credit with rapid revenue growth but higher leverage."
@@ -1904,7 +2050,7 @@
       "title": "Blue Owl Strengthens Global Presence with Opening of Abu Dhabi Office",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-strengthens-global-presence-120000581.html?.tsrc=rss",
       "publishedAt": "2026-06-09T12:00:00.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.678Z",
+      "fetchedAt": "2026-06-10T20:00:49.832Z",
       "summary": "Blue Owl Capital (\"Blue Owl\") (NYSE: OWL) today announced the opening of its new office in ADGM, the international financial center strategically located in Abu Dhabi, the capital of the United Arab Emirates (UAE). The office opening strengthens Blue Owl's global and regional footprint and underscores its long-term commitment to the Middle East and focus on best supporting clients in the region.",
       "facts": [
         "Blue Owl Capital (\"Blue Owl\") (NYSE: OWL) today announced the opening of its new office in ADGM, the international financial center strategically located in Abu Dhabi, the capital of the United Arab Emirates (UAE). The office opening strengthens Blue Owl's global and regional footprint and underscores its long-term commitment to the Middle East and focus on best supporting clients in the region."
@@ -1961,7 +2107,7 @@
       "title": "Blue Owl Fund Hit by Redemptions Sells $500 Million Bonds",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-fund-hit-redemptions-161205877.html?.tsrc=rss",
       "publishedAt": "2026-06-08T18:49:25.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.678Z",
+      "fetchedAt": "2026-06-10T20:00:49.832Z",
       "summary": "(Bloomberg) -- One of Blue Owl Capital Inc.’s private credit funds that capped redemptions earlier this year raised $500 million in the investment-grade bond market on Monday.Most Read from BloombergHouse Republican Says Hegseth’s D-Day Remarks ‘Inappropriate’LA Mayor Race Flips as Socialist Beats Reality TV Star PrattTrump Says He, Not Congress, Is in Charge of Kennedy Center in ReversalWhy Oil’s Not at $200 After the Biggest Supply Shock in HistoryIsrael Strikes Iran After Missile Attack, Impe",
       "facts": [
         "(Bloomberg) -- One of Blue Owl Capital Inc.’s private credit funds that capped redemptions earlier this year raised $500 million in the investment-grade bond market on Monday.Most Read from BloombergHouse Republican Says Hegseth’s D-Day Remarks ‘Inappropriate’LA Mayor Race Flips as Socialist Beats Reality TV Star PrattTrump Says He, Not Congress, Is in Charge of Kennedy Center in ReversalWhy Oil’s Not at $200 After the Biggest Supply Shock in HistoryIsrael Strikes Iran After Missile Attack, Impe"
@@ -2013,7 +2159,7 @@
       "title": "Forget JEPI: Three Business Development Company ETFs Yielding Over 12% From Private Credit Loans",
       "url": "https://247wallst.com/investing/2026/06/08/forget-jepi-three-business-development-company-etfs-yielding-over-12-from-private-credit-loans/?.tsrc=rss",
       "publishedAt": "2026-06-08T15:37:52.000Z",
-      "fetchedAt": "2026-06-10T19:43:34.678Z",
+      "fetchedAt": "2026-06-10T20:00:49.832Z",
       "summary": "Many retirees who decided to buy the JP Morgan Equity Premium ETF (NYSE: JEPI) were wowed by its 8% yield and JP Morgan pedigree after seeing it advertised on Fox Business News and MS Now. While that’s certainly a solidly high yield, there are some more adventurous investors who have been receiving double-digit yields ... Forget JEPI: Three Business Development Company ETFs Yielding Over 12% From Private Credit Loans",
       "facts": [
         "Many retirees who decided to buy the JP Morgan Equity Premium ETF (NYSE: JEPI) were wowed by its 8% yield and JP Morgan pedigree after seeing it advertised on Fox Business News and MS Now. While that’s certainly a solidly high yield, there are some more adventurous investors who have been receiving double-digit yields ... Forget JEPI: Three Business Development Company ETFs Yielding Over 12% From Private Credit Loans"
@@ -2139,7 +2285,7 @@
         },
         "watchNext": "Watch Dell's AI backlog, gross margin, memory supply, and whether large cloud customers keep raising capex plans."
       },
-      "fetchedAt": "2026-06-10T19:43:35.103Z",
+      "fetchedAt": "2026-06-10T20:00:50.281Z",
       "freshnessStatus": "BACKGROUND",
       "matchedThemes": [
         {
@@ -2228,7 +2374,7 @@
         },
         "watchNext": "Watch Toms Capital's asks, shareholder reaction, regulatory milestones, synergy details, and any change in deal timing."
       },
-      "fetchedAt": "2026-06-10T19:43:35.103Z",
+      "fetchedAt": "2026-06-10T20:00:50.281Z",
       "freshnessStatus": "BACKGROUND",
       "matchedThemes": [
         {
@@ -2308,7 +2454,7 @@
         },
         "watchNext": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes."
       },
-      "fetchedAt": "2026-06-10T19:43:35.103Z",
+      "fetchedAt": "2026-06-10T20:00:50.281Z",
       "freshnessStatus": "BACKGROUND",
       "matchedThemes": [
         {
@@ -2408,7 +2554,7 @@
         },
         "watchNext": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction."
       },
-      "fetchedAt": "2026-06-10T19:43:35.103Z",
+      "fetchedAt": "2026-06-10T20:00:50.281Z",
       "freshnessStatus": "BACKGROUND",
       "matchedThemes": [
         {
@@ -2444,93 +2590,6 @@
       },
       "eligible": false,
       "exclusionReason": "background item; not eligible for main tape"
-    },
-    {
-      "id": "macro-bls-cpi-may-2026-06-10",
-      "source": "BLS",
-      "sourceType": "official",
-      "title": "May CPI rises 0.5% as energy drives the inflation shock",
-      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
-      "publishedAt": "2026-06-10T12:30:00.000Z",
-      "summary": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year.",
-      "facts": [
-        "BLS reported CPI-U increased 0.5% seasonally adjusted in May 2026 after rising 0.6% in April.",
-        "BLS said the all-items index increased 4.2% over the 12 months ending May before seasonal adjustment.",
-        "BLS said energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase.",
-        "BLS reported core CPI rose 0.2% in May and 2.9% over the year."
-      ],
-      "tickers": [
-        "^TNX",
-        "^IRX",
-        "^TYX",
-        "SPY",
-        "QQQ"
-      ],
-      "topics": [
-        "macro",
-        "inflation",
-        "rates",
-        "fed",
-        "markets"
-      ],
-      "feedId": "historical-seed",
-      "relatedLinks": [
-        {
-          "source": "Reuters",
-          "url": "https://www.reuters.com/world/us/us-consumer-prices-increase-expected-may-2026-06-10/"
-        },
-        {
-          "source": "CNBC Treasury yields",
-          "url": "https://www.cnbc.com/2026/06/10/us-treasury-yields-inflation-data.html"
-        }
-      ],
-      "analysis": {
-        "whatMoved": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic.",
-        "whyItMoved": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
-        "valuationImpact": "For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story.",
-        "financingImplication": "For financing and deal math, the read is that capital costs stay sensitive to inflation prints. If energy keeps bleeding into expectations, lenders demand more cushion; if core keeps cooling, the refinancing window remains more usable.",
-        "sectorReadThrough": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path.",
-        "watchNext": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services.",
-        "parallel": {
-          "precedent": "Past energy-led inflation scares often created an awkward split between hot headline CPI and calmer core readings.",
-          "outcome": "Markets could look through some of the shock when core stayed contained, but financing conditions tightened quickly when energy fed into expectations and longer-term yields.",
-          "whatRhymes": "The same split matters here: headline inflation argues for caution, while core inflation decides whether the Fed has to reprice the whole policy path.",
-          "whatDiffers": "This release arrives with the market already watching oil, geopolitics, and a near-term FOMC meeting, so the tolerance for another hot print is lower.",
-          "soWhat": "Treat the print as a rates-and-financing stress test, not just a CPI headline.",
-          "sourceTrail": [
-            {
-              "source": "BLS",
-              "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
-            }
-          ]
-        }
-      },
-      "fetchedAt": "2026-06-10T19:43:35.103Z",
-      "freshnessStatus": "FRESH",
-      "matchedThemes": [
-        {
-          "id": "rates-cost-of-capital",
-          "name": "Rates and Cost of Capital",
-          "hits": [
-            "fed",
-            "rates",
-            "inflation",
-            "cpi"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 4,
-        "sourceQuality": 5,
-        "topicBankerWeight": 23,
-        "themeRelevance": 3,
-        "evidence": 6,
-        "marketSignal": 3,
-        "trustedDomain": 0,
-        "total": 56
-      },
-      "eligible": true,
-      "exclusionReason": ""
     }
   ]
 }

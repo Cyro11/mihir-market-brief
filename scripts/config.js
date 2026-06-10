@@ -59,6 +59,30 @@ export const sourceFeeds = [
     topics: ["macro", "inflation"]
   },
   {
+    id: "bls-cpi",
+    name: "BLS CPI",
+    sourceType: "official",
+    url: "https://www.bls.gov/news.release/cpi.nr0.htm",
+    mode: "bls-release-page",
+    topics: ["macro", "inflation", "rates", "fed"]
+  },
+  {
+    id: "bls-ppi",
+    name: "BLS PPI",
+    sourceType: "official",
+    url: "https://www.bls.gov/news.release/ppi.nr0.htm",
+    mode: "bls-release-page",
+    topics: ["macro", "inflation", "rates", "fed"]
+  },
+  {
+    id: "bls-employment",
+    name: "BLS Employment Situation",
+    sourceType: "official",
+    url: "https://www.bls.gov/news.release/empsit.nr0.htm",
+    mode: "bls-release-page",
+    topics: ["macro", "employment", "rates", "fed"]
+  },
+  {
     id: "sec-current-events",
     name: "SEC",
     sourceType: "official",

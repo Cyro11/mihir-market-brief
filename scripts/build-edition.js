@@ -579,7 +579,7 @@ function buildLongformSections({
       {
         id: "release",
         heading: "What the release actually said",
-        body: `The analytical read starts with the mix beneath the headline: which component is still running hot, which piece is cooling, and whether the data changes the market's confidence in the next Fed move. Source detail: ${whatHappened}`
+        body: "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
       },
       {
         id: "mechanism",

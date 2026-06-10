@@ -2,8 +2,8 @@
   "runDate": "2026-06-10",
   "title": "Ares Raises $12.7 Billion to Invest in Asset-Based Finance Through the Pathfinder Closed-End Strategy",
   "dek": "A selective banker-grade read of the few fresh items with enough evidence to support real analysis.",
-  "generatedAt": "2026-06-10T19:47:46.295Z",
-  "sourceRunAt": "2026-06-10T19:43:35.103Z",
+  "generatedAt": "2026-06-10T20:05:00.362Z",
+  "sourceRunAt": "2026-06-10T20:00:50.281Z",
   "freshnessStatus": "LIVE",
   "moves": [
     {
@@ -17,7 +17,7 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ares-raises-12-7-billion-104500902.html?.tsrc=rss",
           "publishedAt": "2026-06-10T10:45:00.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.678Z"
+          "fetchedAt": "2026-06-10T20:00:49.832Z"
         }
       ],
       "freshnessStatus": "TODAY",
@@ -92,8 +92,8 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 8.002912991111922,
-            "displayValue": 8.002912991111922,
+            "value": 10.48951048951049,
+            "displayValue": 10.48951048951049,
             "suffix": "%",
             "latestDate": "2026-06-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -101,8 +101,8 @@
           {
             "id": "OWL",
             "label": "Blue Owl Capital",
-            "value": 0.26426657959263994,
-            "displayValue": 0.26426657959263994,
+            "value": 5.0443447961737995,
+            "displayValue": 5.0443447961737995,
             "suffix": "%",
             "latestDate": "2026-06-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
@@ -110,8 +110,8 @@
           {
             "id": "ARCC",
             "label": "Ares Capital",
-            "value": 3.082745818713164,
-            "displayValue": 3.082745818713164,
+            "value": 2.974587080678579,
+            "displayValue": 2.974587080678579,
             "suffix": "%",
             "latestDate": "2026-06-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
@@ -119,8 +119,8 @@
           {
             "id": "BXSL",
             "label": "Blackstone Secured Lending Fund",
-            "value": -0.5008302857679626,
-            "displayValue": -0.5008302857679626,
+            "value": -0.25010198630604763,
+            "displayValue": -0.25010198630604763,
             "suffix": "%",
             "latestDate": "2026-06-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
@@ -154,68 +154,68 @@
       ]
     },
     {
-      "id": "macro-bls-cpi-may-2026-06-10",
-      "title": "May CPI rises 0.5% as energy drives the inflation shock",
+      "id": "bls-cpi-consumer-price-index-summary",
+      "title": "Consumer Price Index Summary",
       "editorialLane": "macro",
       "editorialLaneLabel": "Macro Environment",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
-          "source": "BLS",
+          "source": "BLS CPI",
           "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
           "publishedAt": "2026-06-10T12:30:00.000Z",
-          "fetchedAt": "2026-06-10T19:43:35.103Z"
+          "fetchedAt": "2026-06-10T20:00:49.134Z"
         }
       ],
       "freshnessStatus": "FRESH",
       "confidence": "High",
-      "summary": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
-      "whatHappened": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year.",
-      "whatMoved": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic.",
-      "whyItMoved": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
-      "valuationImpact": "For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story.",
-      "financingImplication": "For financing and deal math, the read is that capital costs stay sensitive to inflation prints. If energy keeps bleeding into expectations, lenders demand more cushion; if core keeps cooling, the refinancing window remains more usable.",
-      "sectorReadThrough": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path.",
+      "summary": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "whatHappened": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.",
+      "whatMoved": "The main move is in rates, inflation expectations, and the cost of capital.",
+      "whyItMoved": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+      "financingImplication": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening.",
+      "sectorReadThrough": "Connects to Rates and Cost of Capital, Consumer and Staples.",
       "parallel": {
-        "precedent": "Past energy-led inflation scares often created an awkward split between hot headline CPI and calmer core readings.",
-        "outcome": "Markets could look through some of the shock when core stayed contained, but financing conditions tightened quickly when energy fed into expectations and longer-term yields.",
-        "whatRhymes": "The same split matters here: headline inflation argues for caution, while core inflation decides whether the Fed has to reprice the whole policy path.",
-        "whatDiffers": "This release arrives with the market already watching oil, geopolitics, and a near-term FOMC meeting, so the tolerance for another hot print is lower.",
-        "soWhat": "Treat the print as a rates-and-financing stress test, not just a CPI headline.",
+        "precedent": "Past inflation scares where stocks held up for a while even as rates made financing harder.",
+        "outcome": "Valuations and leverage became less forgiving even when the equity market still looked constructive.",
+        "whatRhymes": "The useful comparison is how rates flow into valuation and deal math.",
+        "whatDiffers": "This setup depends on the inflation mix, the Fed's reaction, and the shape of the Treasury curve.",
+        "soWhat": "Use the precedent to stress-test rates and financing, not to predict the next index move.",
         "sourceTrail": [
           {
-            "source": "BLS",
+            "source": "BLS CPI",
             "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
           }
         ]
       },
-      "watchNext": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services.",
+      "watchNext": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal.",
       "longform": {
         "sections": [
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
+            "body": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
           },
           {
             "id": "release",
             "heading": "What the release actually said",
-            "body": "The analytical read starts with the mix beneath the headline: which component is still running hot, which piece is cooling, and whether the data changes the market's confidence in the next Fed move. Source detail: BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year."
+            "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
           },
           {
             "id": "mechanism",
             "heading": "How the transmission works",
-            "body": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic. For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
+            "body": "The main move is in rates, inflation expectations, and the cost of capital. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
           },
           {
             "id": "market-read",
             "heading": "How the market may read it",
-            "body": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
+            "body": "Connects to Rates and Cost of Capital, Consumer and Staples. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
           },
           {
             "id": "watch-next",
             "heading": "What would confirm or break the read",
-            "body": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
+            "body": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
           }
         ]
       },
@@ -237,7 +237,7 @@
             "label": "Effective Federal Funds Rate",
             "source": "FRED / Federal Reserve",
             "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
-            "fetchedAt": "2026-06-10T19:46:10.015Z",
+            "fetchedAt": "2026-06-10T20:03:25.128Z",
             "observations": [
               {
                 "date": "2018-12-01",
@@ -608,7 +608,7 @@
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=3mo&interval=1d",
             "yahooSymbol": "^TNX",
             "stooqSymbol": "",
-            "fetchedAt": "2026-06-10T19:47:27.472Z",
+            "fetchedAt": "2026-06-10T20:04:42.685Z",
             "observations": [
               {
                 "date": "2026-03-10",
@@ -887,7 +887,7 @@
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIRX?range=3mo&interval=1d",
             "yahooSymbol": "^IRX",
             "stooqSymbol": "",
-            "fetchedAt": "2026-06-10T19:47:27.566Z",
+            "fetchedAt": "2026-06-10T20:04:42.760Z",
             "observations": [
               {
                 "date": "2026-03-10",
@@ -1166,7 +1166,7 @@
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETYX?range=3mo&interval=1d",
             "yahooSymbol": "^TYX",
             "stooqSymbol": "",
-            "fetchedAt": "2026-06-10T19:47:27.673Z",
+            "fetchedAt": "2026-06-10T20:04:42.837Z",
             "observations": [
               {
                 "date": "2026-03-10",
@@ -1441,16 +1441,7 @@
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "source": "Reuters",
-          "url": "https://www.reuters.com/world/us/us-consumer-prices-increase-expected-may-2026-06-10/"
-        },
-        {
-          "source": "CNBC Treasury yields",
-          "url": "https://www.cnbc.com/2026/06/10/us-treasury-yields-inflation-data.html"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "rates-inflation-cost-of-capital",
         "name": "Rates and cost of capital",
@@ -1460,7 +1451,8 @@
         "fed",
         "rates",
         "inflation",
-        "cpi"
+        "cpi",
+        "consumer"
       ],
       "continuity": {
         "previousDate": "2026-06-08",
@@ -1468,7 +1460,7 @@
         "previousUrl": "issues/2026-06-08.html",
         "whatChanged": "This updates the rates and cost of capital thread from 2026-06-08. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
         "priorRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
-        "updatedRead": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
+        "updatedRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
         "status": "Stronger evidence"
       }
     }
@@ -1482,68 +1474,68 @@
       },
       "items": [
         {
-          "id": "macro-bls-cpi-may-2026-06-10",
-          "title": "May CPI rises 0.5% as energy drives the inflation shock",
+          "id": "bls-cpi-consumer-price-index-summary",
+          "title": "Consumer Price Index Summary",
           "editorialLane": "macro",
           "editorialLaneLabel": "Macro Environment",
           "privateMarketSegment": null,
           "sourceTrail": [
             {
-              "source": "BLS",
+              "source": "BLS CPI",
               "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
               "publishedAt": "2026-06-10T12:30:00.000Z",
-              "fetchedAt": "2026-06-10T19:43:35.103Z"
+              "fetchedAt": "2026-06-10T20:00:49.134Z"
             }
           ],
           "freshnessStatus": "FRESH",
           "confidence": "High",
-          "summary": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
-          "whatHappened": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year.",
-          "whatMoved": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic.",
-          "whyItMoved": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
-          "valuationImpact": "For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story.",
-          "financingImplication": "For financing and deal math, the read is that capital costs stay sensitive to inflation prints. If energy keeps bleeding into expectations, lenders demand more cushion; if core keeps cooling, the refinancing window remains more usable.",
-          "sectorReadThrough": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path.",
+          "summary": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+          "whatHappened": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.",
+          "whatMoved": "The main move is in rates, inflation expectations, and the cost of capital.",
+          "whyItMoved": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+          "valuationImpact": "Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+          "financingImplication": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening.",
+          "sectorReadThrough": "Connects to Rates and Cost of Capital, Consumer and Staples.",
           "parallel": {
-            "precedent": "Past energy-led inflation scares often created an awkward split between hot headline CPI and calmer core readings.",
-            "outcome": "Markets could look through some of the shock when core stayed contained, but financing conditions tightened quickly when energy fed into expectations and longer-term yields.",
-            "whatRhymes": "The same split matters here: headline inflation argues for caution, while core inflation decides whether the Fed has to reprice the whole policy path.",
-            "whatDiffers": "This release arrives with the market already watching oil, geopolitics, and a near-term FOMC meeting, so the tolerance for another hot print is lower.",
-            "soWhat": "Treat the print as a rates-and-financing stress test, not just a CPI headline.",
+            "precedent": "Past inflation scares where stocks held up for a while even as rates made financing harder.",
+            "outcome": "Valuations and leverage became less forgiving even when the equity market still looked constructive.",
+            "whatRhymes": "The useful comparison is how rates flow into valuation and deal math.",
+            "whatDiffers": "This setup depends on the inflation mix, the Fed's reaction, and the shape of the Treasury curve.",
+            "soWhat": "Use the precedent to stress-test rates and financing, not to predict the next index move.",
             "sourceTrail": [
               {
-                "source": "BLS",
+                "source": "BLS CPI",
                 "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
               }
             ]
           },
-          "watchNext": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services.",
+          "watchNext": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal.",
           "longform": {
             "sections": [
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
+                "body": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
               },
               {
                 "id": "release",
                 "heading": "What the release actually said",
-                "body": "The analytical read starts with the mix beneath the headline: which component is still running hot, which piece is cooling, and whether the data changes the market's confidence in the next Fed move. Source detail: BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year."
+                "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
               },
               {
                 "id": "mechanism",
                 "heading": "How the transmission works",
-                "body": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic. For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
+                "body": "The main move is in rates, inflation expectations, and the cost of capital. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
               },
               {
                 "id": "market-read",
                 "heading": "How the market may read it",
-                "body": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
+                "body": "Connects to Rates and Cost of Capital, Consumer and Staples. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
               },
               {
                 "id": "watch-next",
                 "heading": "What would confirm or break the read",
-                "body": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
+                "body": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
               }
             ]
           },
@@ -1565,7 +1557,7 @@
                 "label": "Effective Federal Funds Rate",
                 "source": "FRED / Federal Reserve",
                 "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
-                "fetchedAt": "2026-06-10T19:46:10.015Z",
+                "fetchedAt": "2026-06-10T20:03:25.128Z",
                 "observations": [
                   {
                     "date": "2018-12-01",
@@ -1936,7 +1928,7 @@
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=3mo&interval=1d",
                 "yahooSymbol": "^TNX",
                 "stooqSymbol": "",
-                "fetchedAt": "2026-06-10T19:47:27.472Z",
+                "fetchedAt": "2026-06-10T20:04:42.685Z",
                 "observations": [
                   {
                     "date": "2026-03-10",
@@ -2215,7 +2207,7 @@
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIRX?range=3mo&interval=1d",
                 "yahooSymbol": "^IRX",
                 "stooqSymbol": "",
-                "fetchedAt": "2026-06-10T19:47:27.566Z",
+                "fetchedAt": "2026-06-10T20:04:42.760Z",
                 "observations": [
                   {
                     "date": "2026-03-10",
@@ -2494,7 +2486,7 @@
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETYX?range=3mo&interval=1d",
                 "yahooSymbol": "^TYX",
                 "stooqSymbol": "",
-                "fetchedAt": "2026-06-10T19:47:27.673Z",
+                "fetchedAt": "2026-06-10T20:04:42.837Z",
                 "observations": [
                   {
                     "date": "2026-03-10",
@@ -2769,16 +2761,7 @@
             ],
             "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
           },
-          "relatedLinks": [
-            {
-              "source": "Reuters",
-              "url": "https://www.reuters.com/world/us/us-consumer-prices-increase-expected-may-2026-06-10/"
-            },
-            {
-              "source": "CNBC Treasury yields",
-              "url": "https://www.cnbc.com/2026/06/10/us-treasury-yields-inflation-data.html"
-            }
-          ],
+          "relatedLinks": [],
           "storyline": {
             "id": "rates-inflation-cost-of-capital",
             "name": "Rates and cost of capital",
@@ -2788,7 +2771,8 @@
             "fed",
             "rates",
             "inflation",
-            "cpi"
+            "cpi",
+            "consumer"
           ],
           "overnightSignal": true
         },
@@ -2803,7 +2787,7 @@
               "source": "Yahoo Finance / Private Credit Proxies",
               "url": "https://finance.yahoo.com/markets/stocks/articles/ares-raises-12-7-billion-104500902.html?.tsrc=rss",
               "publishedAt": "2026-06-10T10:45:00.000Z",
-              "fetchedAt": "2026-06-10T19:43:34.678Z"
+              "fetchedAt": "2026-06-10T20:00:49.832Z"
             }
           ],
           "freshnessStatus": "TODAY",
@@ -2878,8 +2862,8 @@
               {
                 "id": "BX",
                 "label": "Blackstone",
-                "value": 8.002912991111922,
-                "displayValue": 8.002912991111922,
+                "value": 10.48951048951049,
+                "displayValue": 10.48951048951049,
                 "suffix": "%",
                 "latestDate": "2026-06-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -2887,8 +2871,8 @@
               {
                 "id": "OWL",
                 "label": "Blue Owl Capital",
-                "value": 0.26426657959263994,
-                "displayValue": 0.26426657959263994,
+                "value": 5.0443447961737995,
+                "displayValue": 5.0443447961737995,
                 "suffix": "%",
                 "latestDate": "2026-06-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
@@ -2896,8 +2880,8 @@
               {
                 "id": "ARCC",
                 "label": "Ares Capital",
-                "value": 3.082745818713164,
-                "displayValue": 3.082745818713164,
+                "value": 2.974587080678579,
+                "displayValue": 2.974587080678579,
                 "suffix": "%",
                 "latestDate": "2026-06-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
@@ -2905,8 +2889,8 @@
               {
                 "id": "BXSL",
                 "label": "Blackstone Secured Lending Fund",
-                "value": -0.5008302857679626,
-                "displayValue": -0.5008302857679626,
+                "value": -0.25010198630604763,
+                "displayValue": -0.25010198630604763,
                 "suffix": "%",
                 "latestDate": "2026-06-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
@@ -2946,68 +2930,68 @@
       "label": "Macro Environment",
       "items": [
         {
-          "id": "macro-bls-cpi-may-2026-06-10",
-          "title": "May CPI rises 0.5% as energy drives the inflation shock",
+          "id": "bls-cpi-consumer-price-index-summary",
+          "title": "Consumer Price Index Summary",
           "editorialLane": "macro",
           "editorialLaneLabel": "Macro Environment",
           "privateMarketSegment": null,
           "sourceTrail": [
             {
-              "source": "BLS",
+              "source": "BLS CPI",
               "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
               "publishedAt": "2026-06-10T12:30:00.000Z",
-              "fetchedAt": "2026-06-10T19:43:35.103Z"
+              "fetchedAt": "2026-06-10T20:00:49.134Z"
             }
           ],
           "freshnessStatus": "FRESH",
           "confidence": "High",
-          "summary": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
-          "whatHappened": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year.",
-          "whatMoved": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic.",
-          "whyItMoved": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
-          "valuationImpact": "For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story.",
-          "financingImplication": "For financing and deal math, the read is that capital costs stay sensitive to inflation prints. If energy keeps bleeding into expectations, lenders demand more cushion; if core keeps cooling, the refinancing window remains more usable.",
-          "sectorReadThrough": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path.",
+          "summary": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+          "whatHappened": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.",
+          "whatMoved": "The main move is in rates, inflation expectations, and the cost of capital.",
+          "whyItMoved": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+          "valuationImpact": "Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+          "financingImplication": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening.",
+          "sectorReadThrough": "Connects to Rates and Cost of Capital, Consumer and Staples.",
           "parallel": {
-            "precedent": "Past energy-led inflation scares often created an awkward split between hot headline CPI and calmer core readings.",
-            "outcome": "Markets could look through some of the shock when core stayed contained, but financing conditions tightened quickly when energy fed into expectations and longer-term yields.",
-            "whatRhymes": "The same split matters here: headline inflation argues for caution, while core inflation decides whether the Fed has to reprice the whole policy path.",
-            "whatDiffers": "This release arrives with the market already watching oil, geopolitics, and a near-term FOMC meeting, so the tolerance for another hot print is lower.",
-            "soWhat": "Treat the print as a rates-and-financing stress test, not just a CPI headline.",
+            "precedent": "Past inflation scares where stocks held up for a while even as rates made financing harder.",
+            "outcome": "Valuations and leverage became less forgiving even when the equity market still looked constructive.",
+            "whatRhymes": "The useful comparison is how rates flow into valuation and deal math.",
+            "whatDiffers": "This setup depends on the inflation mix, the Fed's reaction, and the shape of the Treasury curve.",
+            "soWhat": "Use the precedent to stress-test rates and financing, not to predict the next index move.",
             "sourceTrail": [
               {
-                "source": "BLS",
+                "source": "BLS CPI",
                 "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
               }
             ]
           },
-          "watchNext": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services.",
+          "watchNext": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal.",
           "longform": {
             "sections": [
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
+                "body": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
               },
               {
                 "id": "release",
                 "heading": "What the release actually said",
-                "body": "The analytical read starts with the mix beneath the headline: which component is still running hot, which piece is cooling, and whether the data changes the market's confidence in the next Fed move. Source detail: BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year."
+                "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
               },
               {
                 "id": "mechanism",
                 "heading": "How the transmission works",
-                "body": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic. For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
+                "body": "The main move is in rates, inflation expectations, and the cost of capital. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
               },
               {
                 "id": "market-read",
                 "heading": "How the market may read it",
-                "body": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
+                "body": "Connects to Rates and Cost of Capital, Consumer and Staples. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
               },
               {
                 "id": "watch-next",
                 "heading": "What would confirm or break the read",
-                "body": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
+                "body": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
               }
             ]
           },
@@ -3029,7 +3013,7 @@
                 "label": "Effective Federal Funds Rate",
                 "source": "FRED / Federal Reserve",
                 "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
-                "fetchedAt": "2026-06-10T19:46:10.015Z",
+                "fetchedAt": "2026-06-10T20:03:25.128Z",
                 "observations": [
                   {
                     "date": "2018-12-01",
@@ -3400,7 +3384,7 @@
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=3mo&interval=1d",
                 "yahooSymbol": "^TNX",
                 "stooqSymbol": "",
-                "fetchedAt": "2026-06-10T19:47:27.472Z",
+                "fetchedAt": "2026-06-10T20:04:42.685Z",
                 "observations": [
                   {
                     "date": "2026-03-10",
@@ -3679,7 +3663,7 @@
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIRX?range=3mo&interval=1d",
                 "yahooSymbol": "^IRX",
                 "stooqSymbol": "",
-                "fetchedAt": "2026-06-10T19:47:27.566Z",
+                "fetchedAt": "2026-06-10T20:04:42.760Z",
                 "observations": [
                   {
                     "date": "2026-03-10",
@@ -3958,7 +3942,7 @@
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETYX?range=3mo&interval=1d",
                 "yahooSymbol": "^TYX",
                 "stooqSymbol": "",
-                "fetchedAt": "2026-06-10T19:47:27.673Z",
+                "fetchedAt": "2026-06-10T20:04:42.837Z",
                 "observations": [
                   {
                     "date": "2026-03-10",
@@ -4233,16 +4217,7 @@
             ],
             "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
           },
-          "relatedLinks": [
-            {
-              "source": "Reuters",
-              "url": "https://www.reuters.com/world/us/us-consumer-prices-increase-expected-may-2026-06-10/"
-            },
-            {
-              "source": "CNBC Treasury yields",
-              "url": "https://www.cnbc.com/2026/06/10/us-treasury-yields-inflation-data.html"
-            }
-          ],
+          "relatedLinks": [],
           "storyline": {
             "id": "rates-inflation-cost-of-capital",
             "name": "Rates and cost of capital",
@@ -4252,7 +4227,8 @@
             "fed",
             "rates",
             "inflation",
-            "cpi"
+            "cpi",
+            "consumer"
           ],
           "continuity": {
             "previousDate": "2026-06-08",
@@ -4260,36 +4236,26 @@
             "previousUrl": "issues/2026-06-08.html",
             "whatChanged": "This updates the rates and cost of capital thread from 2026-06-08. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
             "priorRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
-            "updatedRead": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
+            "updatedRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
             "status": "Stronger evidence"
           }
         }
       ],
       "latestEvent": {
-        "title": "May CPI rises 0.5% as energy drives the inflation shock",
+        "title": "Consumer Price Index Summary",
         "happenedAt": "2026-06-10T12:30:00.000Z",
-        "whatHappened": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year.",
-        "whyItMatters": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
-        "watchNext": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services.",
+        "whatHappened": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.",
+        "whyItMatters": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+        "watchNext": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal.",
         "sourceTrail": [
           {
-            "source": "BLS",
+            "source": "BLS CPI",
             "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
             "publishedAt": "2026-06-10T12:30:00.000Z",
-            "fetchedAt": "2026-06-10T19:43:35.103Z"
+            "fetchedAt": "2026-06-10T20:00:49.134Z"
           }
         ],
-        "scheduledEvent": {
-          "id": "bls-consumer-price-index-2026-06-10",
-          "source": "BLS",
-          "url": "https://www.bls.gov/schedule/news_release/bls.ics",
-          "title": "Consumer Price Index",
-          "category": "inflation",
-          "significance": "high",
-          "scheduledFor": "2026-06-10T12:30:00.000Z",
-          "scheduledDate": "2026-06-10",
-          "fetchedAt": "2026-06-10T19:47:45.098Z"
-        }
+        "scheduledEvent": null
       },
       "economicCalendar": [
         {
@@ -4301,7 +4267,7 @@
           "significance": "high",
           "scheduledFor": "2026-06-10T12:30:00.000Z",
           "scheduledDate": "2026-06-10",
-          "fetchedAt": "2026-06-10T19:47:45.098Z"
+          "fetchedAt": "2026-06-10T20:04:59.306Z"
         },
         {
           "id": "fed-fomc-june-2026-06-17",
@@ -4312,7 +4278,7 @@
           "significance": "high",
           "scheduledFor": "2026-06-17T18:00:00.000Z",
           "scheduledDate": "2026-06-17",
-          "fetchedAt": "2026-06-10T19:47:45.098Z"
+          "fetchedAt": "2026-06-10T20:04:59.306Z"
         },
         {
           "id": "bea-gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-inc-2026-06-25",
@@ -4323,7 +4289,7 @@
           "significance": "high",
           "scheduledFor": "2026-06-25T12:30:00.000Z",
           "scheduledDate": "2026-06-25",
-          "fetchedAt": "2026-06-10T19:47:45.098Z"
+          "fetchedAt": "2026-06-10T20:04:59.306Z"
         },
         {
           "id": "bea-personal-income-and-outlays-may-2026-2026-06-25",
@@ -4334,7 +4300,7 @@
           "significance": "high",
           "scheduledFor": "2026-06-25T12:30:00.000Z",
           "scheduledDate": "2026-06-25",
-          "fetchedAt": "2026-06-10T19:47:45.098Z"
+          "fetchedAt": "2026-06-10T20:04:59.306Z"
         },
         {
           "id": "bls-employment-situation-2026-07-02",
@@ -4345,7 +4311,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-02T12:30:00.000Z",
           "scheduledDate": "2026-07-02",
-          "fetchedAt": "2026-06-10T19:47:45.098Z"
+          "fetchedAt": "2026-06-10T20:04:59.306Z"
         },
         {
           "id": "bls-consumer-price-index-2026-07-14",
@@ -4356,7 +4322,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-14T12:30:00.000Z",
           "scheduledDate": "2026-07-14",
-          "fetchedAt": "2026-06-10T19:47:45.098Z"
+          "fetchedAt": "2026-06-10T20:04:59.306Z"
         },
         {
           "id": "fed-fomc-july-2026-07-29",
@@ -4367,7 +4333,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-29T18:00:00.000Z",
           "scheduledDate": "2026-07-29",
-          "fetchedAt": "2026-06-10T19:47:45.098Z"
+          "fetchedAt": "2026-06-10T20:04:59.306Z"
         },
         {
           "id": "bea-gdp-advance-estimate-2nd-quarter-2026-2026-07-30",
@@ -4378,7 +4344,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-30T12:30:00.000Z",
           "scheduledDate": "2026-07-30",
-          "fetchedAt": "2026-06-10T19:47:45.098Z"
+          "fetchedAt": "2026-06-10T20:04:59.306Z"
         }
       ]
     },
@@ -4396,7 +4362,7 @@
               "source": "Yahoo Finance",
               "url": "https://finance.yahoo.com/research/reports/ARGUS_47283_TechnicalAnalysis_1781090326000?yptr=yahoo&amp;ncid=yahooproperties_plusresear_nm5q6ze1cei",
               "publishedAt": "2026-06-10T11:18:46.000Z",
-              "fetchedAt": "2026-06-10T19:43:34.342Z"
+              "fetchedAt": "2026-06-10T20:00:49.485Z"
             }
           ],
           "freshnessStatus": "TODAY",
@@ -4482,7 +4448,7 @@
               "source": "Yahoo Finance / Private Credit Proxies",
               "url": "https://finance.yahoo.com/markets/stocks/articles/ares-raises-12-7-billion-104500902.html?.tsrc=rss",
               "publishedAt": "2026-06-10T10:45:00.000Z",
-              "fetchedAt": "2026-06-10T19:43:34.678Z"
+              "fetchedAt": "2026-06-10T20:00:49.832Z"
             }
           ],
           "freshnessStatus": "TODAY",
@@ -4557,8 +4523,8 @@
               {
                 "id": "BX",
                 "label": "Blackstone",
-                "value": 8.002912991111922,
-                "displayValue": 8.002912991111922,
+                "value": 10.48951048951049,
+                "displayValue": 10.48951048951049,
                 "suffix": "%",
                 "latestDate": "2026-06-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -4566,8 +4532,8 @@
               {
                 "id": "OWL",
                 "label": "Blue Owl Capital",
-                "value": 0.26426657959263994,
-                "displayValue": 0.26426657959263994,
+                "value": 5.0443447961737995,
+                "displayValue": 5.0443447961737995,
                 "suffix": "%",
                 "latestDate": "2026-06-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
@@ -4575,8 +4541,8 @@
               {
                 "id": "ARCC",
                 "label": "Ares Capital",
-                "value": 3.082745818713164,
-                "displayValue": 3.082745818713164,
+                "value": 2.974587080678579,
+                "displayValue": 2.974587080678579,
                 "suffix": "%",
                 "latestDate": "2026-06-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
@@ -4584,8 +4550,8 @@
               {
                 "id": "BXSL",
                 "label": "Blackstone Secured Lending Fund",
-                "value": -0.5008302857679626,
-                "displayValue": -0.5008302857679626,
+                "value": -0.25010198630604763,
+                "displayValue": -0.25010198630604763,
                 "suffix": "%",
                 "latestDate": "2026-06-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
@@ -4638,7 +4604,7 @@
                   "source": "Yahoo Finance / Private Credit Proxies",
                   "url": "https://finance.yahoo.com/markets/stocks/articles/ares-raises-12-7-billion-104500902.html?.tsrc=rss",
                   "publishedAt": "2026-06-10T10:45:00.000Z",
-                  "fetchedAt": "2026-06-10T19:43:34.678Z"
+                  "fetchedAt": "2026-06-10T20:00:49.832Z"
                 }
               ],
               "freshnessStatus": "TODAY",
@@ -4713,8 +4679,8 @@
                   {
                     "id": "BX",
                     "label": "Blackstone",
-                    "value": 8.002912991111922,
-                    "displayValue": 8.002912991111922,
+                    "value": 10.48951048951049,
+                    "displayValue": 10.48951048951049,
                     "suffix": "%",
                     "latestDate": "2026-06-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -4722,8 +4688,8 @@
                   {
                     "id": "OWL",
                     "label": "Blue Owl Capital",
-                    "value": 0.26426657959263994,
-                    "displayValue": 0.26426657959263994,
+                    "value": 5.0443447961737995,
+                    "displayValue": 5.0443447961737995,
                     "suffix": "%",
                     "latestDate": "2026-06-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
@@ -4731,8 +4697,8 @@
                   {
                     "id": "ARCC",
                     "label": "Ares Capital",
-                    "value": 3.082745818713164,
-                    "displayValue": 3.082745818713164,
+                    "value": 2.974587080678579,
+                    "displayValue": 2.974587080678579,
                     "suffix": "%",
                     "latestDate": "2026-06-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
@@ -4740,8 +4706,8 @@
                   {
                     "id": "BXSL",
                     "label": "Blackstone Secured Lending Fund",
-                    "value": -0.5008302857679626,
-                    "displayValue": -0.5008302857679626,
+                    "value": -0.25010198630604763,
+                    "displayValue": -0.25010198630604763,
                     "suffix": "%",
                     "latestDate": "2026-06-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
@@ -4800,25 +4766,25 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://www.fool.com/investing/2026/06/10/private-credit-keeps-making-headlines-is-ares-capi/?.tsrc=rss",
           "publishedAt": "2026-06-10T12:35:00.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.678Z"
+          "fetchedAt": "2026-06-10T20:00:49.832Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://www.fool.com/coverage/better-buy/2026/06/09/brookfield-asset-management-vs-ares-management-which-financial-stock-is-a-better-buy-in-2026/?.tsrc=rss",
           "publishedAt": "2026-06-09T15:19:21.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.678Z"
+          "fetchedAt": "2026-06-10T20:00:49.832Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ares-raises-12-7-billion-104500902.html?.tsrc=rss",
           "publishedAt": "2026-06-10T10:45:00.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.678Z"
+          "fetchedAt": "2026-06-10T20:00:49.832Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-removes-ares-management-164421670.html?.tsrc=rss",
           "publishedAt": "2026-06-09T16:44:21.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.678Z"
+          "fetchedAt": "2026-06-10T20:00:49.832Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -4853,7 +4819,7 @@
           "source": "KKR",
           "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
           "publishedAt": "2026-05-29T10:05:00-04:00",
-          "fetchedAt": "2026-06-10T19:43:35.103Z"
+          "fetchedAt": "2026-06-10T20:00:50.281Z"
         }
       ],
       "watchNext": "Watch financing details, regulatory path, shareholder vote, timing, and any change in price or certainty.",
@@ -4885,13 +4851,13 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-weighs-2b-fund-liquidity-190855977.html?.tsrc=rss",
           "publishedAt": "2026-06-09T19:08:55.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.465Z"
+          "fetchedAt": "2026-06-10T20:00:49.617Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/options/articles/market-chatter-blackstone-boosts-significant-114933256.html?.tsrc=rss",
           "publishedAt": "2026-06-09T11:49:33.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.465Z"
+          "fetchedAt": "2026-06-10T20:00:49.617Z"
         }
       ],
       "watchNext": "Watch ownership filings, the investor's ask, board response, and whether the campaign changes deal timing or valuation.",
@@ -4924,25 +4890,25 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-us-35b-ai-xpv-181020827.html?.tsrc=rss",
           "publishedAt": "2026-06-09T18:10:20.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.465Z"
+          "fetchedAt": "2026-06-10T20:00:49.617Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/m/7e814d06-a8d0-3bf1-9366-22087d7eb52a/broadcom-teams-up-with-apollo.html?.tsrc=rss",
           "publishedAt": "2026-06-09T17:07:00.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.465Z"
+          "fetchedAt": "2026-06-10T20:00:49.617Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/sectors/technology/articles/broadcom-apollo-blackstone-launch-35-170145533.html?.tsrc=rss",
           "publishedAt": "2026-06-09T17:01:45.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.465Z"
+          "fetchedAt": "2026-06-10T20:00:49.617Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://qz.com/broadcom-apollo-blackstone-ai-infrastructure-platform-060926?.tsrc=rss",
           "publishedAt": "2026-06-09T14:46:24.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.465Z"
+          "fetchedAt": "2026-06-10T20:00:49.617Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -4977,13 +4943,13 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-global-apo-britain-bodycote-164339789.html?.tsrc=rss",
           "publishedAt": "2026-06-09T16:43:39.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.465Z"
+          "fetchedAt": "2026-06-10T20:00:49.617Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/economy/policy/articles/apollo-adds-senior-policy-government-050000737.html?.tsrc=rss",
           "publishedAt": "2026-06-10T05:00:00.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.465Z"
+          "fetchedAt": "2026-06-10T20:00:49.617Z"
         }
       ],
       "watchNext": "Watch financing details, regulatory path, shareholder vote, timing, and any change in price or certainty.",
@@ -5016,13 +4982,13 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-fund-hit-redemptions-161205877.html?.tsrc=rss",
           "publishedAt": "2026-06-08T18:49:25.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.678Z"
+          "fetchedAt": "2026-06-10T20:00:49.832Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-strengthens-global-presence-120000581.html?.tsrc=rss",
           "publishedAt": "2026-06-09T12:00:00.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.678Z"
+          "fetchedAt": "2026-06-10T20:00:49.832Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -5055,7 +5021,7 @@
           "source": "Blue Owl Capital",
           "url": "https://ir.blueowl.com/",
           "publishedAt": "2026-05-29T11:30:00-04:00",
-          "fetchedAt": "2026-06-10T19:43:35.103Z"
+          "fetchedAt": "2026-06-10T20:00:50.281Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -5087,7 +5053,7 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://247wallst.com/investing/2026/06/08/forget-jepi-three-business-development-company-etfs-yielding-over-12-from-private-credit-loans/?.tsrc=rss",
           "publishedAt": "2026-06-08T15:37:52.000Z",
-          "fetchedAt": "2026-06-10T19:43:34.678Z"
+          "fetchedAt": "2026-06-10T20:00:49.832Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -5107,11 +5073,11 @@
       "name": "S&P 500",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-10T19:47:29.518Z",
+      "fetchedAt": "2026-06-10T20:04:44.095Z",
       "latestDate": "2026-06-10",
-      "price": 726.8800048828125,
-      "change": -10.16998291015625,
-      "percentChange": -1.3798226821235513,
+      "price": 725.489990234375,
+      "change": -11.55999755859375,
+      "percentChange": -1.5684143206092633,
       "whyItMoved": "SPY was held back by the macro read: headline inflation stayed sticky enough to keep the cost-of-capital discussion alive."
     },
     {
@@ -5120,11 +5086,11 @@
       "name": "Nasdaq 100",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-10T19:47:29.625Z",
+      "fetchedAt": "2026-06-10T20:04:44.189Z",
       "latestDate": "2026-06-10",
-      "price": 695.3300170898438,
-      "change": -12.5,
-      "percentChange": -1.765960710650873,
+      "price": 693.6900024414062,
+      "change": -14.1400146484375,
+      "percentChange": -1.9976568253734752,
       "whyItMoved": "QQQ mostly tracked large-cap growth sentiment; no cleaner tech-wide catalyst cleared the tape than the stories already in the brief."
     },
     {
@@ -5133,11 +5099,11 @@
       "name": "Russell 2000",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-10T19:47:29.726Z",
+      "fetchedAt": "2026-06-10T20:04:44.296Z",
       "latestDate": "2026-06-10",
-      "price": 282.3999938964844,
-      "change": -2.6199951171875,
-      "percentChange": -0.9192320602685251,
+      "price": 281.9800109863281,
+      "change": -3.03997802734375,
+      "percentChange": -1.0665841500674285,
       "whyItMoved": "Small caps stay more sensitive to financing and refinancing conditions, so IWM is reading through the rate backdrop and the credit-window discussion faster than mega-cap tech."
     },
     {
@@ -5146,11 +5112,11 @@
       "name": "Gold",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-10T19:47:29.819Z",
+      "fetchedAt": "2026-06-10T20:04:44.367Z",
       "latestDate": "2026-06-10",
-      "price": 375.239990234375,
-      "change": -15.540008544921875,
-      "percentChange": -3.9766642595488872,
+      "price": 374.6600036621094,
+      "change": -16.1199951171875,
+      "percentChange": -4.125081930380906,
       "whyItMoved": "Gold is trading against the same inflation-and-Fed uncertainty in the macro tab: sticky inflation can support defensive demand, but higher real rates can lean the other way."
     },
     {
@@ -5159,17 +5125,17 @@
       "name": "Oil proxy (USO ETF)",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-10T19:47:29.903Z",
+      "fetchedAt": "2026-06-10T20:04:44.537Z",
       "latestDate": "2026-06-10",
-      "price": 134.52999877929688,
-      "change": 3.2299957275390625,
-      "percentChange": 2.4600119211465774,
+      "price": 134.30999755859375,
+      "change": 3.0099945068359375,
+      "percentChange": 2.2924557782755057,
       "whyItMoved": "Oil is mostly reading through growth and inflation expectations here. No separate energy headline cleared the brief, so treat this as macro context rather than an oil thesis."
     }
   ],
   "openbbMarketPack": {
     "runDate": "2026-06-10",
-    "fetchedAt": "2026-06-10T19:47:44.109764+00:00",
+    "fetchedAt": "2026-06-10T20:04:58.330221+00:00",
     "provider": "OpenBB equity.price.historical(provider='yfinance')",
     "sourceNote": "OpenBB market pack uses Yahoo Finance through OpenBB as market context, not live trading data or investment advice.",
     "sourceTrail": [
@@ -5183,10 +5149,10 @@
       }
     ],
     "summary": {
-      "headline": "Balanced tape: index moves are not showing a clean one-factor leadership signal. Sector leadership: Energy led at +1.85%, while Industrials lagged at -3.23%.",
+      "headline": "Balanced tape: index moves are not showing a clean one-factor leadership signal. Sector leadership: Consumer Staples led at +1.63%, while Industrials lagged at -3.41%.",
       "riskTone": "Balanced tape: index moves are not showing a clean one-factor leadership signal.",
-      "leadership": "Sector leadership: Energy led at +1.85%, while Industrials lagged at -3.23%.",
-      "movers": "Watchlist extremes: CVX +2.04% vs. TSLA -3.70%.",
+      "leadership": "Sector leadership: Consumer Staples led at +1.63%, while Industrials lagged at -3.41%.",
+      "movers": "Watchlist extremes: CVX +1.64% vs. TSLA -3.80%.",
       "watchNext": "Check whether leadership broadens beyond the first index/sector leaders, and whether watchlist volume confirms the price move."
     },
     "indices": [
@@ -5194,13 +5160,13 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "latestDate": "2026-06-10",
-        "lastClose": 726.83,
-        "oneDayPct": -1.39,
-        "fiveDayPct": -3.63,
-        "oneMonthPct": -1.69,
-        "ytdPct": 6.39,
-        "volume": 44851606,
-        "volumeVs20DayAvg": 0.88,
+        "lastClose": 725.49,
+        "oneDayPct": -1.57,
+        "fiveDayPct": -3.81,
+        "oneMonthPct": -1.87,
+        "ytdPct": 6.19,
+        "volume": 51756696,
+        "volumeVs20DayAvg": 1.01,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/SPY"
       },
@@ -5208,13 +5174,13 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "latestDate": "2026-06-10",
-        "lastClose": 695.21,
-        "oneDayPct": -1.78,
-        "fiveDayPct": -6.58,
-        "oneMonthPct": -2.53,
-        "ytdPct": 13.39,
-        "volume": 53925200,
-        "volumeVs20DayAvg": 1.2,
+        "lastClose": 693.69,
+        "oneDayPct": -2,
+        "fiveDayPct": -6.79,
+        "oneMonthPct": -2.75,
+        "ytdPct": 13.14,
+        "volume": 60321643,
+        "volumeVs20DayAvg": 1.34,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/QQQ"
       },
@@ -5222,13 +5188,13 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "latestDate": "2026-06-10",
-        "lastClose": 282.37,
-        "oneDayPct": -0.93,
-        "fiveDayPct": -1.84,
-        "oneMonthPct": -1.04,
-        "ytdPct": 13.5,
-        "volume": 33895959,
-        "volumeVs20DayAvg": 1.24,
+        "lastClose": 281.98,
+        "oneDayPct": -1.07,
+        "fiveDayPct": -1.98,
+        "oneMonthPct": -1.17,
+        "ytdPct": 13.35,
+        "volume": 37763334,
+        "volumeVs20DayAvg": 1.38,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/IWM"
       },
@@ -5236,13 +5202,13 @@
         "symbol": "DIA",
         "label": "Dow Industrials",
         "latestDate": "2026-06-10",
-        "lastClose": 501.3499,
-        "oneDayPct": -1.58,
-        "fiveDayPct": -1.36,
-        "oneMonthPct": 0.85,
-        "ytdPct": 3.66,
-        "volume": 4292758,
-        "volumeVs20DayAvg": 0.82,
+        "lastClose": 500.21,
+        "oneDayPct": -1.81,
+        "fiveDayPct": -1.58,
+        "oneMonthPct": 0.62,
+        "ytdPct": 3.43,
+        "volume": 4950370,
+        "volumeVs20DayAvg": 0.94,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/DIA"
       }
@@ -5252,85 +5218,85 @@
         "symbol": "XLI",
         "label": "Industrials",
         "latestDate": "2026-06-10",
-        "lastClose": 169.93,
-        "oneDayPct": -3.23,
-        "fiveDayPct": -2.37,
-        "oneMonthPct": -2.92,
-        "ytdPct": 7.56,
-        "volume": 12158069,
-        "volumeVs20DayAvg": 1.57,
+        "lastClose": 169.61,
+        "oneDayPct": -3.41,
+        "fiveDayPct": -2.55,
+        "oneMonthPct": -3.1,
+        "ytdPct": 7.36,
+        "volume": 13803439,
+        "volumeVs20DayAvg": 1.78,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLI"
-      },
-      {
-        "symbol": "XLB",
-        "label": "Materials",
-        "latestDate": "2026-06-10",
-        "lastClose": 49.625,
-        "oneDayPct": -2.26,
-        "fiveDayPct": -3.88,
-        "oneMonthPct": -5.04,
-        "ytdPct": 7.6,
-        "volume": 7886957,
-        "volumeVs20DayAvg": 0.64,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLB"
       },
       {
         "symbol": "XLK",
         "label": "Technology",
         "latestDate": "2026-06-10",
-        "lastClose": 176.89,
-        "oneDayPct": -2.15,
-        "fiveDayPct": -9.86,
-        "oneMonthPct": -0.56,
-        "ytdPct": 22.58,
-        "volume": 17936439,
-        "volumeVs20DayAvg": 1.21,
+        "lastClose": 176.48,
+        "oneDayPct": -2.37,
+        "fiveDayPct": -10.06,
+        "oneMonthPct": -0.79,
+        "ytdPct": 22.3,
+        "volume": 19457379,
+        "volumeVs20DayAvg": 1.31,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLK"
+      },
+      {
+        "symbol": "XLB",
+        "label": "Materials",
+        "latestDate": "2026-06-10",
+        "lastClose": 49.59,
+        "oneDayPct": -2.32,
+        "fiveDayPct": -3.95,
+        "oneMonthPct": -5.11,
+        "ytdPct": 7.52,
+        "volume": 9502620,
+        "volumeVs20DayAvg": 0.78,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XLB"
       },
       {
         "symbol": "XLY",
         "label": "Consumer Discretionary",
         "latestDate": "2026-06-10",
-        "lastClose": 113.605,
-        "oneDayPct": -1.95,
-        "fiveDayPct": -2.68,
-        "oneMonthPct": -4.83,
-        "ytdPct": -4.01,
-        "volume": 6027384,
-        "volumeVs20DayAvg": 0.77,
+        "lastClose": 113.47,
+        "oneDayPct": -2.07,
+        "fiveDayPct": -2.79,
+        "oneMonthPct": -4.94,
+        "ytdPct": -4.12,
+        "volume": 7277406,
+        "volumeVs20DayAvg": 0.93,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLY"
-      },
-      {
-        "symbol": "XLE",
-        "label": "Energy",
-        "latestDate": "2026-06-10",
-        "lastClose": 58.45,
-        "oneDayPct": 1.85,
-        "fiveDayPct": -0.44,
-        "oneMonthPct": 2.24,
-        "ytdPct": 28.04,
-        "volume": 30540792,
-        "volumeVs20DayAvg": 0.81,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLE"
       },
       {
         "symbol": "XLP",
         "label": "Consumer Staples",
         "latestDate": "2026-06-10",
-        "lastClose": 85.455,
-        "oneDayPct": 1.61,
-        "fiveDayPct": 4.01,
-        "oneMonthPct": 2.5,
-        "ytdPct": 9.99,
-        "volume": 10885204,
-        "volumeVs20DayAvg": 0.88,
+        "lastClose": 85.47,
+        "oneDayPct": 1.63,
+        "fiveDayPct": 4.03,
+        "oneMonthPct": 2.52,
+        "ytdPct": 10.01,
+        "volume": 12596942,
+        "volumeVs20DayAvg": 1.02,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLP"
+      },
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "latestDate": "2026-06-10",
+        "lastClose": 58.25,
+        "oneDayPct": 1.5,
+        "fiveDayPct": -0.78,
+        "oneMonthPct": 1.89,
+        "ytdPct": 27.6,
+        "volume": 34395768,
+        "volumeVs20DayAvg": 0.91,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XLE"
       }
     ],
     "watchlist": [
@@ -5338,13 +5304,13 @@
         "symbol": "TSLA",
         "label": "Tesla",
         "latestDate": "2026-06-10",
-        "lastClose": 382.0001,
-        "oneDayPct": -3.7,
-        "fiveDayPct": -9.84,
-        "oneMonthPct": -14.16,
-        "ytdPct": -12.8,
-        "volume": 41865434,
-        "volumeVs20DayAvg": 0.87,
+        "lastClose": 381.59,
+        "oneDayPct": -3.8,
+        "fiveDayPct": -9.94,
+        "oneMonthPct": -14.25,
+        "ytdPct": -12.89,
+        "volume": 47173605,
+        "volumeVs20DayAvg": 0.98,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/TSLA"
       },
@@ -5352,13 +5318,13 @@
         "symbol": "NVDA",
         "label": "Nvidia",
         "latestDate": "2026-06-10",
-        "lastClose": 201.1201,
-        "oneDayPct": -3.4,
-        "fiveDayPct": -6.35,
-        "oneMonthPct": -8.35,
-        "ytdPct": 6.5,
-        "volume": 126222005,
-        "volumeVs20DayAvg": 0.71,
+        "lastClose": 200.42,
+        "oneDayPct": -3.73,
+        "fiveDayPct": -6.67,
+        "oneMonthPct": -8.67,
+        "ytdPct": 6.13,
+        "volume": 150398224,
+        "volumeVs20DayAvg": 0.84,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/NVDA"
       },
@@ -5366,13 +5332,13 @@
         "symbol": "GS",
         "label": "Goldman Sachs",
         "latestDate": "2026-06-10",
-        "lastClose": 1004.25,
-        "oneDayPct": -2.69,
-        "fiveDayPct": -3.53,
-        "oneMonthPct": 6.29,
-        "ytdPct": 9.83,
-        "volume": 1642337,
-        "volumeVs20DayAvg": 0.72,
+        "lastClose": 1000.61,
+        "oneDayPct": -3.04,
+        "fiveDayPct": -3.88,
+        "oneMonthPct": 5.9,
+        "ytdPct": 9.44,
+        "volume": 1868336,
+        "volumeVs20DayAvg": 0.82,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/GS"
       },
@@ -5380,13 +5346,13 @@
         "symbol": "AMZN",
         "label": "Amazon",
         "latestDate": "2026-06-10",
-        "lastClose": 238.12,
-        "oneDayPct": -2.49,
-        "fiveDayPct": -4.76,
-        "oneMonthPct": -11.48,
-        "ytdPct": 5.13,
-        "volume": 28036941,
-        "volumeVs20DayAvg": 0.69,
+        "lastClose": 238,
+        "oneDayPct": -2.53,
+        "fiveDayPct": -4.81,
+        "oneMonthPct": -11.52,
+        "ytdPct": 5.08,
+        "volume": 36783337,
+        "volumeVs20DayAvg": 0.91,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/AMZN"
       },
@@ -5394,57 +5360,57 @@
         "symbol": "META",
         "label": "Meta",
         "latestDate": "2026-06-10",
-        "lastClose": 572.62,
-        "oneDayPct": -2.05,
-        "fiveDayPct": -8.08,
-        "oneMonthPct": -4.38,
-        "ytdPct": -11.96,
-        "volume": 10573329,
-        "volumeVs20DayAvg": 0.62,
+        "lastClose": 570.98,
+        "oneDayPct": -2.33,
+        "fiveDayPct": -8.35,
+        "oneMonthPct": -4.66,
+        "ytdPct": -12.21,
+        "volume": 14448169,
+        "volumeVs20DayAvg": 0.84,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/META"
-      },
-      {
-        "symbol": "CVX",
-        "label": "Chevron",
-        "latestDate": "2026-06-10",
-        "lastClose": 190.565,
-        "oneDayPct": 2.04,
-        "fiveDayPct": 0.45,
-        "oneMonthPct": 3.15,
-        "ytdPct": 22.24,
-        "volume": 6524479,
-        "volumeVs20DayAvg": 0.72,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/CVX"
       },
       {
         "symbol": "GOOGL",
         "label": "Alphabet",
         "latestDate": "2026-06-10",
-        "lastClose": 356.87,
-        "oneDayPct": -2.03,
-        "fiveDayPct": -0.59,
-        "oneMonthPct": -8.17,
-        "ytdPct": 13.24,
-        "volume": 24053330,
-        "volumeVs20DayAvg": 0.76,
+        "lastClose": 356.38,
+        "oneDayPct": -2.16,
+        "fiveDayPct": -0.73,
+        "oneMonthPct": -8.3,
+        "ytdPct": 13.08,
+        "volume": 30683028,
+        "volumeVs20DayAvg": 0.97,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/GOOGL"
       },
       {
-        "symbol": "XOM",
-        "label": "Exxon Mobil",
+        "symbol": "CVX",
+        "label": "Chevron",
         "latestDate": "2026-06-10",
-        "lastClose": 151.01,
-        "oneDayPct": 1.41,
-        "fiveDayPct": -1,
-        "oneMonthPct": 0.89,
-        "ytdPct": 23.12,
-        "volume": 9805482,
-        "volumeVs20DayAvg": 0.59,
+        "lastClose": 189.83,
+        "oneDayPct": 1.64,
+        "fiveDayPct": 0.06,
+        "oneMonthPct": 2.76,
+        "ytdPct": 21.76,
+        "volume": 7311922,
+        "volumeVs20DayAvg": 0.8,
         "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XOM"
+        "url": "https://finance.yahoo.com/quote/CVX"
+      },
+      {
+        "symbol": "MSFT",
+        "label": "Microsoft",
+        "latestDate": "2026-06-10",
+        "lastClose": 397.36,
+        "oneDayPct": -1.5,
+        "fiveDayPct": -7.02,
+        "oneMonthPct": -3.71,
+        "ytdPct": -15.98,
+        "volume": 28477975,
+        "volumeVs20DayAvg": 0.77,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/MSFT"
       }
     ],
     "failures": []
@@ -5460,7 +5426,7 @@
         "source": "Yahoo Finance / Private Credit Proxies",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ares-raises-12-7-billion-104500902.html?.tsrc=rss",
         "publishedAt": "2026-06-10T10:45:00.000Z",
-        "fetchedAt": "2026-06-10T19:43:34.678Z"
+        "fetchedAt": "2026-06-10T20:00:49.832Z"
       }
     ],
     "freshnessStatus": "TODAY",
@@ -5535,8 +5501,8 @@
         {
           "id": "BX",
           "label": "Blackstone",
-          "value": 8.002912991111922,
-          "displayValue": 8.002912991111922,
+          "value": 10.48951048951049,
+          "displayValue": 10.48951048951049,
           "suffix": "%",
           "latestDate": "2026-06-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -5544,8 +5510,8 @@
         {
           "id": "OWL",
           "label": "Blue Owl Capital",
-          "value": 0.26426657959263994,
-          "displayValue": 0.26426657959263994,
+          "value": 5.0443447961737995,
+          "displayValue": 5.0443447961737995,
           "suffix": "%",
           "latestDate": "2026-06-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
@@ -5553,8 +5519,8 @@
         {
           "id": "ARCC",
           "label": "Ares Capital",
-          "value": 3.082745818713164,
-          "displayValue": 3.082745818713164,
+          "value": 2.974587080678579,
+          "displayValue": 2.974587080678579,
           "suffix": "%",
           "latestDate": "2026-06-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
@@ -5562,8 +5528,8 @@
         {
           "id": "BXSL",
           "label": "Blackstone Secured Lending Fund",
-          "value": -0.5008302857679626,
-          "displayValue": -0.5008302857679626,
+          "value": -0.25010198630604763,
+          "displayValue": -0.25010198630604763,
           "suffix": "%",
           "latestDate": "2026-06-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
@@ -5598,68 +5564,68 @@
   },
   "continuingStories": [
     {
-      "id": "macro-bls-cpi-may-2026-06-10",
-      "title": "May CPI rises 0.5% as energy drives the inflation shock",
+      "id": "bls-cpi-consumer-price-index-summary",
+      "title": "Consumer Price Index Summary",
       "editorialLane": "macro",
       "editorialLaneLabel": "Macro Environment",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
-          "source": "BLS",
+          "source": "BLS CPI",
           "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
           "publishedAt": "2026-06-10T12:30:00.000Z",
-          "fetchedAt": "2026-06-10T19:43:35.103Z"
+          "fetchedAt": "2026-06-10T20:00:49.134Z"
         }
       ],
       "freshnessStatus": "FRESH",
       "confidence": "High",
-      "summary": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
-      "whatHappened": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year.",
-      "whatMoved": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic.",
-      "whyItMoved": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
-      "valuationImpact": "For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story.",
-      "financingImplication": "For financing and deal math, the read is that capital costs stay sensitive to inflation prints. If energy keeps bleeding into expectations, lenders demand more cushion; if core keeps cooling, the refinancing window remains more usable.",
-      "sectorReadThrough": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path.",
+      "summary": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "whatHappened": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.",
+      "whatMoved": "The main move is in rates, inflation expectations, and the cost of capital.",
+      "whyItMoved": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+      "financingImplication": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening.",
+      "sectorReadThrough": "Connects to Rates and Cost of Capital, Consumer and Staples.",
       "parallel": {
-        "precedent": "Past energy-led inflation scares often created an awkward split between hot headline CPI and calmer core readings.",
-        "outcome": "Markets could look through some of the shock when core stayed contained, but financing conditions tightened quickly when energy fed into expectations and longer-term yields.",
-        "whatRhymes": "The same split matters here: headline inflation argues for caution, while core inflation decides whether the Fed has to reprice the whole policy path.",
-        "whatDiffers": "This release arrives with the market already watching oil, geopolitics, and a near-term FOMC meeting, so the tolerance for another hot print is lower.",
-        "soWhat": "Treat the print as a rates-and-financing stress test, not just a CPI headline.",
+        "precedent": "Past inflation scares where stocks held up for a while even as rates made financing harder.",
+        "outcome": "Valuations and leverage became less forgiving even when the equity market still looked constructive.",
+        "whatRhymes": "The useful comparison is how rates flow into valuation and deal math.",
+        "whatDiffers": "This setup depends on the inflation mix, the Fed's reaction, and the shape of the Treasury curve.",
+        "soWhat": "Use the precedent to stress-test rates and financing, not to predict the next index move.",
         "sourceTrail": [
           {
-            "source": "BLS",
+            "source": "BLS CPI",
             "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
           }
         ]
       },
-      "watchNext": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services.",
+      "watchNext": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal.",
       "longform": {
         "sections": [
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
+            "body": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
           },
           {
             "id": "release",
             "heading": "What the release actually said",
-            "body": "The analytical read starts with the mix beneath the headline: which component is still running hot, which piece is cooling, and whether the data changes the market's confidence in the next Fed move. Source detail: BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year."
+            "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
           },
           {
             "id": "mechanism",
             "heading": "How the transmission works",
-            "body": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic. For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
+            "body": "The main move is in rates, inflation expectations, and the cost of capital. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
           },
           {
             "id": "market-read",
             "heading": "How the market may read it",
-            "body": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
+            "body": "Connects to Rates and Cost of Capital, Consumer and Staples. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
           },
           {
             "id": "watch-next",
             "heading": "What would confirm or break the read",
-            "body": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
+            "body": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
           }
         ]
       },
@@ -5681,7 +5647,7 @@
             "label": "Effective Federal Funds Rate",
             "source": "FRED / Federal Reserve",
             "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
-            "fetchedAt": "2026-06-10T19:46:10.015Z",
+            "fetchedAt": "2026-06-10T20:03:25.128Z",
             "observations": [
               {
                 "date": "2018-12-01",
@@ -6052,7 +6018,7 @@
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=3mo&interval=1d",
             "yahooSymbol": "^TNX",
             "stooqSymbol": "",
-            "fetchedAt": "2026-06-10T19:47:27.472Z",
+            "fetchedAt": "2026-06-10T20:04:42.685Z",
             "observations": [
               {
                 "date": "2026-03-10",
@@ -6331,7 +6297,7 @@
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIRX?range=3mo&interval=1d",
             "yahooSymbol": "^IRX",
             "stooqSymbol": "",
-            "fetchedAt": "2026-06-10T19:47:27.566Z",
+            "fetchedAt": "2026-06-10T20:04:42.760Z",
             "observations": [
               {
                 "date": "2026-03-10",
@@ -6610,7 +6576,7 @@
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETYX?range=3mo&interval=1d",
             "yahooSymbol": "^TYX",
             "stooqSymbol": "",
-            "fetchedAt": "2026-06-10T19:47:27.673Z",
+            "fetchedAt": "2026-06-10T20:04:42.837Z",
             "observations": [
               {
                 "date": "2026-03-10",
@@ -6885,16 +6851,7 @@
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "source": "Reuters",
-          "url": "https://www.reuters.com/world/us/us-consumer-prices-increase-expected-may-2026-06-10/"
-        },
-        {
-          "source": "CNBC Treasury yields",
-          "url": "https://www.cnbc.com/2026/06/10/us-treasury-yields-inflation-data.html"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "rates-inflation-cost-of-capital",
         "name": "Rates and cost of capital",
@@ -6904,7 +6861,8 @@
         "fed",
         "rates",
         "inflation",
-        "cpi"
+        "cpi",
+        "consumer"
       ],
       "continuity": {
         "previousDate": "2026-06-08",
@@ -6912,7 +6870,7 @@
         "previousUrl": "issues/2026-06-08.html",
         "whatChanged": "This updates the rates and cost of capital thread from 2026-06-08. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
         "priorRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
-        "updatedRead": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
+        "updatedRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
         "status": "Stronger evidence"
       }
     }
@@ -6944,11 +6902,20 @@
         "Are public markets and credit conditions good enough for sponsors to exit assets?",
         "Are private companies raising capital from strength or because public exits remain closed?"
       ]
+    },
+    {
+      "id": "consumer-and-staples",
+      "name": "Consumer and Staples",
+      "freshItems": 1,
+      "openQuestions": [
+        "Are companies still able to pass through cost pressure?",
+        "Do strategic deals solve growth problems or import integration risk?"
+      ]
     }
   ],
   "watchNext": [
     "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals.",
-    "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services."
+    "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal."
   ],
   "sourceFailures": [],
   "visualDataFailures": [
@@ -6968,7 +6935,7 @@
   "calendarFailures": [],
   "review": {
     "status": "APPROVED",
-    "reviewedAt": "2026-06-10T19:47:46.469Z",
+    "reviewedAt": "2026-06-10T20:05:00.537Z",
     "blockerCount": 0,
     "warningCount": 0
   }
