@@ -1,0 +1,51 @@
+[
+  {
+    "id": "macro-bls-cpi-may-2026-06-10",
+    "source": "BLS",
+    "sourceType": "official",
+    "title": "May CPI rises 0.5% as energy drives the inflation shock",
+    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "publishedAt": "2026-06-10T12:30:00.000Z",
+    "summary": "BLS reported that CPI-U rose 0.5% in May after a 0.6% April increase, pushing the all-items index up 4.2% over the last 12 months. Energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase, while core CPI rose a cooler 0.2% month over month and 2.9% year over year.",
+    "facts": [
+      "BLS reported CPI-U increased 0.5% seasonally adjusted in May 2026 after rising 0.6% in April.",
+      "BLS said the all-items index increased 4.2% over the 12 months ending May before seasonal adjustment.",
+      "BLS said energy rose 3.9% in May and accounted for over 60% of the monthly all-items increase.",
+      "BLS reported core CPI rose 0.2% in May and 2.9% over the year."
+    ],
+    "tickers": ["^TNX", "^IRX", "^TYX", "SPY", "QQQ"],
+    "topics": ["macro", "inflation", "rates", "fed", "markets"],
+    "feedId": "historical-seed",
+    "relatedLinks": [
+      {
+        "source": "Reuters",
+        "url": "https://www.reuters.com/world/us/us-consumer-prices-increase-expected-may-2026-06-10/"
+      },
+      {
+        "source": "CNBC Treasury yields",
+        "url": "https://www.cnbc.com/2026/06/10/us-treasury-yields-inflation-data.html"
+      }
+    ],
+    "analysis": {
+      "whatMoved": "The macro signal is a split CPI print: headline inflation stayed hot because energy and gasoline surged, but core CPI cooled enough to keep the immediate Fed-path reaction from becoming a one-way tightening panic.",
+      "whyItMoved": "This matters because a 4.2% headline CPI rate keeps inflation risk in the market narrative, while the 0.2% core print gives investors a reason to treat part of the shock as energy-driven rather than broad services inflation.",
+      "valuationImpact": "For valuation, the release keeps discount-rate discipline in place: long-duration equities can lean on the softer core number, but higher headline inflation and energy volatility make it harder to justify a clean multiple expansion story.",
+      "financingImplication": "For financing and deal math, the read is that capital costs stay sensitive to inflation prints. If energy keeps bleeding into expectations, lenders demand more cushion; if core keeps cooling, the refinancing window remains more usable.",
+      "sectorReadThrough": "Read-through is strongest for rate-sensitive equities, consumer-exposed companies, transportation and energy users, and sponsor-backed borrowers whose leverage cases depend on a benign Fed path.",
+      "watchNext": "Watch Treasury yields, Fed commentary before the June 16-17 FOMC meeting, gasoline and oil follow-through, and the next PCE/CPI prints to see whether the energy shock stays isolated or broadens into core services.",
+      "parallel": {
+        "precedent": "Past energy-led inflation scares often created an awkward split between hot headline CPI and calmer core readings.",
+        "outcome": "Markets could look through some of the shock when core stayed contained, but financing conditions tightened quickly when energy fed into expectations and longer-term yields.",
+        "whatRhymes": "The same split matters here: headline inflation argues for caution, while core inflation decides whether the Fed has to reprice the whole policy path.",
+        "whatDiffers": "This release arrives with the market already watching oil, geopolitics, and a near-term FOMC meeting, so the tolerance for another hot print is lower.",
+        "soWhat": "Treat the print as a rates-and-financing stress test, not just a CPI headline.",
+        "sourceTrail": [
+          {
+            "source": "BLS",
+            "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+          }
+        ]
+      }
+    }
+  }
+]
