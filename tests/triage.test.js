@@ -81,6 +81,41 @@ test("noise items are excluded even when finance-adjacent feeds label them broad
   assert.match(scored.exclusionReason, /weak market signal/);
 });
 
+test("official page chrome cannot qualify as a source title", () => {
+  const scored = scoreCandidate({
+    id: "bea-boilerplate",
+    source: "BEA",
+    sourceType: "official",
+    title: "Skip to main content An official website of the United States government Toggle navigation Main navigation New Foreign Direct Investment in the United States, 2025",
+    url: "https://www.bea.gov/news/current-releases#main-content",
+    publishedAt: "2026-06-10T12:30:00Z",
+    summary: "BEA official economic release with enough source detail to otherwise look eligible for macro scoring.",
+    facts: ["BEA official release."],
+    topics: ["rates", "inflation"]
+  }, themes, new Date("2026-06-10T15:00:00Z"));
+
+  assert.equal(scored.eligible, false);
+  assert.match(scored.exclusionReason, /malformed source title/);
+});
+
+test("private-market capital raises clear proxy-feed signal gates", () => {
+  const scored = scoreCandidate({
+    id: "ares-pathfinder",
+    source: "Yahoo Finance / Private Credit Proxies",
+    sourceType: "reputable",
+    feedId: "private-credit-public-proxies",
+    title: "Ares Raises $12.7 Billion to Invest in Asset-Based Finance Through the Pathfinder Closed-End Strategy",
+    url: "https://finance.yahoo.com/news/ares-raises-12-7-billion-invest-asset-based-finance-123000000.html",
+    publishedAt: "2026-06-10T12:30:00Z",
+    summary: "Ares raised capital for asset-based finance, a private-credit fundraising signal with direct implications for nonbank lending capacity.",
+    facts: ["Ares raised $12.7 billion.", "The capital targets asset-based finance."],
+    topics: ["private_markets", "private_credit", "credit", "markets"]
+  }, themes, new Date("2026-06-10T15:00:00Z"));
+
+  assert.equal(scored.eligible, true);
+  assert.ok(scored.scores.marketSignal >= 2);
+});
+
 test("market signal scoring keeps real deal items above generic conference promos", () => {
   assert.ok(marketSignalScore({
     title: "Yum Brands in talks to sell Pizza Hut to private equity firm",

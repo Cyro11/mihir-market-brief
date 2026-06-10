@@ -527,22 +527,31 @@ function visualFor(item, marketData) {
 }
 
 function summaryFor(item, lane, segment, storyRead = null) {
+  const sourceBlurb = cleanSourceBlurb(item);
   if (storyRead?.summaryTail) {
-    return `${item.summary || item.title} ${storyRead.summaryTail}`;
+    return `${sourceBlurb} ${storyRead.summaryTail}`;
   }
   if (lane === "macro") {
-    return `${item.summary || item.title} The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.`;
+    return `${sourceBlurb} The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.`;
   }
   if (lane === "deals") {
-    return `${item.summary || item.title} What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.`;
+    return `${sourceBlurb} What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.`;
   }
   if (lane === "private_markets" && segment === "private_credit") {
-    return `${item.summary || item.title} The useful read is what this says about credit availability, lender appetite, underwriting protection, and refinancing capacity.`;
+    return `${sourceBlurb} The useful read is what this says about credit availability, lender appetite, underwriting protection, and refinancing capacity.`;
   }
   if (lane === "private_markets") {
-    return `${item.summary || item.title} The useful read is what this says about sponsor activity, valuation discipline, true exit liquidity, and financing conditions.`;
+    return `${sourceBlurb} The useful read is what this says about sponsor activity, valuation discipline, true exit liquidity, and financing conditions.`;
   }
-  return `${item.summary || item.title} The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.`;
+  return `${sourceBlurb} The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.`;
+}
+
+function cleanSourceBlurb(item) {
+  const summary = String(item.summary || "").trim();
+  if (!summary) return item.title;
+  const looksTruncated = summary.length > 240 && !/[.!?]["')\]]?$/.test(summary);
+  const hasPageChrome = /\b(skip to main content|toggle navigation|main navigation|official website of the united states government)\b/i.test(summary);
+  return looksTruncated || hasPageChrome ? item.title : summary;
 }
 
 function buildLongformSections({
@@ -726,8 +735,8 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
   const theme = item.matchedThemes?.[0]?.name || "Market discipline";
   const topic = item.topics?.[0] || "markets";
   const isMacro = editorialLane === "macro" || ["macro", "rates", "inflation", "fed"].some((t) => item.topics?.includes(t));
-  const isDeal = editorialLane === "deals" || ["deals", "filings", "credit"].some((t) => item.topics?.includes(t));
   const isPrivate = editorialLane === "private_markets";
+  const isDeal = !isPrivate && (editorialLane === "deals" || ["deals", "filings", "credit"].some((t) => item.topics?.includes(t)));
   const isPrivateCredit = privateMarketSegment === "private_credit";
   const isPrivateEquity = privateMarketSegment === "private_equity";
   const isCompany = ["companies", "ai", "capex", "consumer"].some((t) => item.topics?.includes(t));
@@ -800,6 +809,8 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
           sourceTrail: [{ source: item.source, url: item.url }]
         };
 
+  const sourceBlurb = cleanSourceBlurb(item);
+
   return {
     id: item.id,
     title: item.title,
@@ -810,7 +821,7 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
     freshnessStatus: item.freshnessStatus,
     confidence: item.sourceType === "official" ? "High" : "Medium",
     summary: summaryFor(item, editorialLane, privateMarketSegment, storyRead),
-    whatHappened: item.summary || item.title,
+    whatHappened: sourceBlurb,
     whatMoved: item.analysis?.whatMoved || (isMacro
       ? "The main move is in rates, inflation expectations, and the cost of capital."
       : isDeal
@@ -849,7 +860,7 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
         lane: editorialLane,
         segment: privateMarketSegment,
         item,
-        whatHappened: item.summary || item.title,
+        whatHappened: sourceBlurb,
         whatMoved: item.analysis?.whatMoved || (isMacro
           ? "The main move is in rates, inflation expectations, and the cost of capital."
           : isDeal

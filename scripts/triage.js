@@ -1,8 +1,8 @@
 import { sourceQuality, topicBankerWeights } from "./config.js";
 import { absoluteUrl, freshnessStatus, normalizeText } from "./utils.js";
 
-const positiveSignalPattern = /\b(pce|cpi|ppi|gdp|payrolls|employment|unemployment|fomc|fed|treasury|yield|inflation|earnings|guidance|revenue|margin|shares?|stock|stocks|index|indices|s&p|nasdaq|russell|dow|gold|oil|crude|spread|spreads|credit|direct lending|refinanc|financing|debt|mega-?deal|chip deal|default|non-accrual|lbo|buyout|merger|acquisition|acquire|stake|activist|ipo|spin-?off|sale process|auction|restructur|bankruptcy|filing|offering|fundraising|secondaries|continuation fund|sponsor)\b/i;
-const strongProxySignalPattern = /\b(acquire|acquisition|buyout|stake|activist|sale|sold|sells|ipo|earnings|originations|direct lending|loan|loans|credit|refinanc|default|write-?down|non-accrual|spread|fundraising|secondaries|continuation fund|merger|financing|notes offering|debt offering|equity offering|share offering|stock offering|public offering|offering priced)\b/i;
+const positiveSignalPattern = /\b(pce|cpi|ppi|gdp|payrolls|employment|unemployment|fomc|fed|treasury|yield|inflation|earnings|guidance|revenue|margin|shares?|stock|stocks|index|indices|s&p|nasdaq|russell|dow|gold|oil|crude|spread|spreads|credit|direct lending|asset-?based finance|refinanc|financing|debt|mega-?deal|chip deal|default|non-accrual|lbo|buyout|merger|acquisition|acquire|stake|activist|ipo|spin-?off|sale process|auction|restructur|bankruptcy|filing|offering|fundraising|rais(?:e|es|ed|ing)|secondaries|continuation fund|sponsor)\b/i;
+const strongProxySignalPattern = /\b(acquire|acquisition|buyout|stake|activist|sale|sold|sells|ipo|earnings|originations|direct lending|asset-?based finance|loan|loans|credit|refinanc|default|write-?down|non-accrual|spread|fundraising|rais(?:e|es|ed|ing)|secondaries|continuation fund|merger|financing|notes offering|debt offering|equity offering|share offering|stock offering|public offering|offering priced)\b/i;
 const noisePattern = /\b(route revealed|power tour|celebrates|duplex|tenant calls|retirement portfolio|retirees|dividend stocks to buy|oversold dividend growth stocks|stocks to buy|price recommendation|price target|hold rating|buy rating|sell rating|turns more cautious|analyst upgrades?|analyst downgrades?|leadership appointment|conference|forum|watch highlights|podcast|sessions|bringing|launches|reveals new look|creative space|investigates|5 facts|how a digital agency transformed|fitness experience|data incident|law group|contribution limits|racing|balanced plan|present at|to present at|announces key leadership|declares .*distribution)\b/i;
 const trustedDomainPattern = /\b(sec\.gov|bea\.gov|federalreserve\.gov|fred\.stlouisfed\.org|reuters\.com|cnbc\.com|finance\.yahoo\.com|marketwatch\.com|apnews\.com|kkr\.com|blueowl\.com|arescapitalcorp\.com|investor\.)\b/i;
 
@@ -44,6 +44,9 @@ export function hasTrustedDomain(item) {
 }
 
 export function scoreCandidate(item, themes, now = new Date()) {
+  const cleanTitle = normalizeText(item.title);
+  const malformedTitle = cleanTitle.length > 220
+    || /\b(skip to main content|toggle navigation|main navigation|official website of the united states government)\b/i.test(cleanTitle);
   const status = freshnessStatus(item.publishedAt, now);
   const freshnessScore = { LIVE: 5, FRESH: 4, TODAY: 3, BACKGROUND: 1, FUTURE: 0, INVALID: 0 }[status] ?? 0;
   const qualityScore = sourceQuality[item.sourceType] ?? 2;
@@ -77,20 +80,22 @@ export function scoreCandidate(item, themes, now = new Date()) {
       trustedDomain: trustedDomain ? 1 : 0,
       total
     },
-    eligible: Boolean(absoluteUrl(item.url)) && item.publishedAt && evidenceScore >= 4 && mainTapeFreshEnough && strongEnoughSignal && trustedEnough,
-    exclusionReason: !absoluteUrl(item.url)
-      ? "missing source URL"
-      : !item.publishedAt
-        ? "missing published timestamp"
-        : evidenceScore < 4
-          ? "insufficient factual support"
-          : !mainTapeFreshEnough
-            ? "background item; not eligible for main tape"
-            : !strongEnoughSignal
-              ? "weak market signal"
-              : !trustedEnough
-                ? "source domain is outside the trusted publication set"
-            : ""
+    eligible: !malformedTitle && Boolean(absoluteUrl(item.url)) && item.publishedAt && evidenceScore >= 4 && mainTapeFreshEnough && strongEnoughSignal && trustedEnough,
+    exclusionReason: malformedTitle
+      ? "malformed source title"
+      : !absoluteUrl(item.url)
+        ? "missing source URL"
+        : !item.publishedAt
+          ? "missing published timestamp"
+          : evidenceScore < 4
+            ? "insufficient factual support"
+            : !mainTapeFreshEnough
+              ? "background item; not eligible for main tape"
+              : !strongEnoughSignal
+                ? "weak market signal"
+                : !trustedEnough
+                  ? "source domain is outside the trusted publication set"
+                  : ""
   };
 }
 

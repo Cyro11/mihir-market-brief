@@ -71,20 +71,29 @@ function parseSecPressPage(html, feed, fetchedAt) {
 }
 
 function parseBeaCurrentReleases(html, feed, fetchedAt) {
-  const blocks = [...html.matchAll(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>[\s\S]{0,300}?([A-Z][a-z]+ \d{1,2}, \d{4})/g)];
+  const rows = [...html.matchAll(/<tr\b[^>]*class="[^"]*release-row[^"]*"[^>]*>([\s\S]*?)<\/tr>/gi)];
   const seen = new Set();
-  return blocks.map((block) => {
-    const [, href, rawTitle, dateText] = block;
+  return rows.map((row) => {
+    const block = row[1];
+    const link = block.match(/<td[^>]*headers="view-title-table-column"[\s\S]*?<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/i)
+      || block.match(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/i);
+    const time = block.match(/<time[^>]+datetime="([^"]+)"[^>]*>([\s\S]*?)<\/time>/i);
+    if (!link || !time) return null;
+
+    const [, href, rawTitle] = link;
+    if (!/^\/news\/20\d{2}\//.test(href)) return null;
+
     const title = normalizeText(rawTitle);
     if (!title || seen.has(title) || !/(GDP|Personal Income|Outlays|PCE|Trade|Profits|Industry|International|Regional)/i.test(title)) return null;
     seen.add(title);
+    const publishedAt = new Date(time[1]);
     return {
       id: `${feed.id}-${slugify(title)}`,
       source: feed.name,
       sourceType: feed.sourceType,
       title,
       url: absoluteFrom(feed.url, href),
-      publishedAt: new Date(`${dateText} 08:30:00 GMT-0400`).toISOString(),
+      publishedAt: Number.isNaN(publishedAt.getTime()) ? fetchedAt : publishedAt.toISOString(),
       fetchedAt,
       summary: `${title}. BEA official economic release with potential macro, rate, valuation, and sector implications.`,
       facts: [`BEA official release: ${title}.`],
