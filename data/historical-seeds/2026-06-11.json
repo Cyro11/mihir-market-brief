@@ -1,0 +1,55 @@
+[
+  {
+    "id": "private-credit-redemption-gates-2026-06-11",
+    "source": "Yahoo Finance / TipRanks",
+    "sourceType": "reputable",
+    "title": "Private-credit funds face $20B pullout demands as redemption gates spread across alts",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/apo-kkr-owl-confront-20b-102750059.html",
+    "publishedAt": "2026-06-11T10:27:50.000Z",
+    "summary": "Yahoo Finance / TipRanks cited Financial Times calculations that investors attempted to withdraw more than $20 billion from semi-liquid private-credit funds in Q1, including $5.4 billion from two Blue Owl funds and a record $3.7 billion from Blackstone's BCRED. CNBC separately reported that Partners Group capped withdrawals from its $8.6 billion Global Value SICAV evergreen private-equity fund after requests hit 9.8% versus a 5% NAV cap, showing liquidity pressure spreading beyond private credit.",
+    "facts": [
+      "Financial Times calculations cited by Yahoo Finance / TipRanks put Q1 attempted redemptions from such private-credit funds above $20 billion.",
+      "Two Blue Owl private-credit funds received a record $5.4 billion of redemption requests and capped withdrawals at 5% of assets.",
+      "Blackstone's flagship BCRED private-credit fund saw record $3.7 billion of withdrawals.",
+      "CNBC reported Partners Group capped withdrawals from its $8.6 billion Global Value SICAV evergreen private-equity fund after redemption requests reached 9.8% versus a 5% NAV cap."
+    ],
+    "tickers": ["OWL", "BX", "KKR", "APO", "ARES", "CG"],
+    "topics": ["private_markets", "private_credit", "credit", "markets", "companies"],
+    "feedId": "historical-seed",
+    "relatedLinks": [
+      {
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/03/private-credit-jitters-kkr-blackstone-blue-owl-ares-partners-group-pressure.html"
+      },
+      {
+        "source": "WSJ",
+        "url": "https://www.wsj.com/finance/investing/blue-owls-36-billion-private-credit-fund-hit-by-22-withdrawal-request-6209c568"
+      }
+    ],
+    "analysis": {
+      "whatMoved": "The move is not that Apollo or Blackstone are large alternative managers; it is that the semi-liquid private-markets wrapper is being stress-tested as investors ask for cash faster than private loans and private-equity holdings can naturally liquidate.",
+      "whyItMoved": "The $20 billion-plus redemption wave makes the liquidity mismatch visible: funds marketed with periodic liquidity still own assets that are hard to sell quickly without either marking them down, gating redemptions, or forcing remaining investors to absorb the cost of exits.",
+      "valuationImpact": "For valuation, the risk is that reported private marks become less trusted when public investors see gates, caps, and withdrawal queues. Listed alts can derate if fee growth looks less durable or if investors demand a bigger discount for hard-to-verify NAVs.",
+      "financingImplication": "For financing and deal math, redemption pressure can force private-credit managers to preserve liquidity, slow originations, tighten underwriting, or charge more for incremental risk. That makes sponsor refinancings and dividend recaps harder even if headline dry powder still looks large.",
+      "sectorReadThrough": "Read-through is strongest for BDCs, evergreen private-credit funds, wealth-channel alts products, sponsor-backed software borrowers, and public alternative managers with retail/semi-liquid fundraising exposure.",
+      "watchNext": "Watch quarterly redemption queues, whether more BDCs or interval funds hit caps, private-credit non-accruals, software-borrower markdowns, manager fundraising commentary, and whether public alt-manager stocks trade more like liquidity-risk proxies than fee-growth compounders.",
+      "parallel": {
+        "precedent": "The 2022-2023 real-estate fund gates, especially in semi-liquid vehicles sold to wealth clients, showed how quickly promised liquidity can collide with illiquid underlying assets.",
+        "outcome": "The funds did not necessarily fail, but redemption limits changed the market's perception of product liquidity, valuation certainty, and how much retail capital could be treated as permanent fee-bearing AUM.",
+        "whatRhymes": "Private credit and evergreen private equity now face the same wrapper problem: quarterly liquidity expectations sit on top of loans, portfolio companies, and marks that cannot be converted to cash on demand.",
+        "whatDiffers": "Credit portfolios can generate repayments and interest income, but they also carry borrower-quality and mark-to-model risk; private equity adds an even slower exit path when IPO and M&A windows are weak.",
+        "soWhat": "Treat the story as a liquidity and trust test for retail alts, not as another generic private-credit-growth story.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / TipRanks",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/apo-kkr-owl-confront-20b-102750059.html"
+          },
+          {
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/06/03/private-credit-jitters-kkr-blackstone-blue-owl-ares-partners-group-pressure.html"
+          }
+        ]
+      }
+    }
+  }
+]
