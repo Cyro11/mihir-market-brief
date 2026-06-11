@@ -7,7 +7,7 @@ function parseRss(xml, feed, fetchedAt) {
   const items = [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)];
   return items.map((match) => {
     const block = match[0];
-    const pick = (tag) => normalizeText(block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"))?.[1] ?? "");
+    const pick = (tag) => normalizeText(decodeEntities(block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"))?.[1] ?? ""));
     const title = pick("title");
     const url = absoluteUrl(pick("link"));
     const publishedAt = new Date(pick("pubDate") || pick("dc:date") || fetchedAt).toISOString();
