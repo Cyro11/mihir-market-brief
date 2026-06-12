@@ -1,0 +1,17 @@
+{
+  "runDate": "2026-06-12",
+  "reviewedAt": "2026-06-12T12:32:00.455Z",
+  "status": "APPROVED",
+  "reviewers": {
+    "deterministic": {
+      "blockers": [],
+      "warnings": []
+    },
+    "openai": {
+      "skipped": true,
+      "reason": "OPENAI_API_KEY not configured"
+    }
+  },
+  "blockers": [],
+  "warnings": []
+}

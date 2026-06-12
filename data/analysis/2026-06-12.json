@@ -1,0 +1,391 @@
+{
+  "runDate": "2026-06-12",
+  "generatedAt": "2026-06-12T12:32:00.289Z",
+  "selectedCount": 2,
+  "quietDay": true,
+  "analyses": [
+    {
+      "id": "openbb-listed-alts-credit-proxies-2026-06-12",
+      "title": "Listed alts and direct-lending proxies join the risk-on tape",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_credit",
+      "sourceTrail": [
+        {
+          "source": "OpenBB / Yahoo Finance market data",
+          "url": "https://finance.yahoo.com/quote/OWL",
+          "publishedAt": "2026-06-12T12:00:23.000Z",
+          "fetchedAt": "2026-06-12T12:27:50.805Z"
+        }
+      ],
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "summary": "Listed alts and direct-lending proxies join the risk-on tape The useful read is what this says about credit availability, lender appetite, underwriting protection, and refinancing capacity.",
+      "whatHappened": "Listed alts and direct-lending proxies join the risk-on tape",
+      "whatMoved": "The move was in listed private-market and capital-markets proxies participating with the broader risk-on tape rather than trading as a separate stress signal.",
+      "whyItMoved": "Private-credit and alts proxies matter because they sit close to the financing window. When OWL, APO, GS, and the broader equity tape rise together, the market is saying financing appetite and sponsor-exit optionality look better at the margin.",
+      "valuationImpact": "For valuation, stronger listed alts and bank proxies can support private-market marks only if the public-comp improvement persists. A one-day move helps sentiment, but it does not automatically validate private NAVs or fee-growth assumptions.",
+      "financingImplication": "For financing, the read-through is most useful for sponsor-backed borrowers, direct lenders, BDCs, IPO candidates, and M&A pipelines that need a receptive equity and credit backdrop.",
+      "sectorReadThrough": "Read-through is strongest for listed alternative managers, private-credit lenders, BDCs, banks with capital-markets exposure, and sponsor-owned companies waiting for a transaction window.",
+      "parallel": {
+        "precedent": "In earlier reopening windows, public alternative managers and capital-markets banks often moved before private deal activity fully showed up in announced transactions.",
+        "outcome": "The public stocks improved first, but durable private-market activity required follow-through in financing terms, IPO demand, and actual sale processes.",
+        "whatRhymes": "Today’s move rhymes because listed proxies are again reacting faster than the slower private-market data can update.",
+        "whatDiffers": "This is market-data evidence, not direct evidence of new originations or exits, so it should be treated as a tone check rather than a completed-deal signal.",
+        "soWhat": "Use the listed proxy move to judge financing tone and exit optionality, then confirm it with spreads, filings, lender commentary, and announced transactions.",
+        "sourceTrail": [
+          {
+            "source": "OpenBB / Yahoo Finance market data",
+            "url": "https://finance.yahoo.com/quote/OWL"
+          },
+          {
+            "source": "Yahoo Finance APO quote",
+            "url": "https://finance.yahoo.com/quote/APO"
+          }
+        ]
+      },
+      "watchNext": "Watch OWL, APO, BX, KKR, ARES, BDC proxies, high-yield spreads, IPO filings, and whether capital-markets fee proxies keep confirming the risk-on equity move.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "Private-credit and alts proxies matter because they sit close to the financing window. When OWL, APO, GS, and the broader equity tape rise together, the market is saying financing appetite and sponsor-exit optionality look better at the margin. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable after fees, covenants, and downside risk."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "Listed alts and direct-lending proxies join the risk-on tape Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, pricing, covenant protection, and whether lenders are stretching or pulling back."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to interpret the financing signal",
+            "body": "For valuation, stronger listed alts and bank proxies can support private-market marks only if the public-comp improvement persists. A one-day move helps sentiment, but it does not automatically validate private NAVs or fee-growth assumptions. For financing, the read-through is most useful for sponsor-backed borrowers, direct lenders, BDCs, IPO candidates, and M&A pipelines that need a receptive equity and credit backdrop. For learning purposes, the key mechanism is simple: if private debt stays available on protected terms, more assets can refinance or transact; if spreads widen, covenants weaken, or losses rise, equity checks grow and valuations have to adjust."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "Read-through is strongest for listed alternative managers, private-credit lenders, BDCs, banks with capital-markets exposure, and sponsor-owned companies waiting for a transaction window. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, collateral, covenants, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is In earlier reopening windows, public alternative managers and capital-markets banks often moved before private deal activity fully showed up in announced transactions. In that earlier setup, the public stocks improved first, but durable private-market activity required follow-through in financing terms, ipo demand, and actual sale processes. What rhymes is today’s move rhymes because listed proxies are again reacting faster than the slower private-market data can update. What is different this time is this is market-data evidence, not direct evidence of new originations or exits, so it should be treated as a tone check rather than a completed-deal signal. The bottom line is use the listed proxy move to judge financing tone and exit optionality, then confirm it with spreads, filings, lender commentary, and announced transactions."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch OWL, APO, BX, KKR, ARES, BDC proxies, high-yield spreads, IPO filings, and whether capital-markets fee proxies keep confirming the risk-on equity move. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Direct-lending public proxies",
+        "subtitle": "Three-month public market context for listed lenders and private-credit managers.",
+        "relevanceNote": "This board works here because the story is about how investors are marking the lenders themselves, not just what one spread series says.",
+        "allowedPages": [
+          "private-markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "BX",
+            "label": "Blackstone",
+            "value": 18.37053858428714,
+            "displayValue": 18.37053858428714,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "id": "OWL",
+            "label": "Blue Owl Capital",
+            "value": 12.891993665652848,
+            "displayValue": 12.891993665652848,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "id": "ARCC",
+            "label": "Ares Capital",
+            "value": 5.534034404474448,
+            "displayValue": 5.534034404474448,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "id": "BXSL",
+            "label": "Blackstone Secured Lending Fund",
+            "value": 0.8013519249017849,
+            "displayValue": 0.8013519249017849,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Blackstone",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blue Owl Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Ares Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blackstone Secured Lending Fund",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [
+        {
+          "source": "Yahoo Finance OWL quote",
+          "url": "https://finance.yahoo.com/quote/OWL"
+        },
+        {
+          "source": "Yahoo Finance APO quote",
+          "url": "https://finance.yahoo.com/quote/APO"
+        },
+        {
+          "source": "Yahoo Finance GS quote",
+          "url": "https://finance.yahoo.com/quote/GS"
+        }
+      ],
+      "storyline": {
+        "id": "ai-infrastructure-dell-servers",
+        "name": "AI infrastructure buildout",
+        "threshold": 2
+      },
+      "concepts": [
+        "nvidia",
+        "credit",
+        "sponsor",
+        "private_credit",
+        "sponsor"
+      ],
+      "continuity": {
+        "previousDate": "2026-06-09",
+        "previousTitle": "Apollo Wraps Up $35 Billion Chip Deal for Anthropic",
+        "previousUrl": "issues/2026-06-09.html",
+        "whatChanged": "This updates the ai infrastructure buildout thread from 2026-06-09. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
+        "updatedRead": "Private-credit and alts proxies matter because they sit close to the financing window. When OWL, APO, GS, and the broader equity tape rise together, the market is saying financing appetite and sponsor-exit optionality look better at the margin.",
+        "status": "Developing"
+      }
+    },
+    {
+      "id": "openbb-risk-on-tech-led-tape-2026-06-12",
+      "title": "Nasdaq 100 jumps 3.38% as technology leads a broad risk-on tape",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "OpenBB / Yahoo Finance market data",
+          "url": "https://finance.yahoo.com/quote/QQQ",
+          "publishedAt": "2026-06-12T12:00:23.000Z",
+          "fetchedAt": "2026-06-12T12:27:50.805Z"
+        }
+      ],
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "summary": "OpenBB's Yahoo Finance market pack showed a broad June 11 risk-on close: QQQ rose 3.38%, SPY rose 1.70%, IWM rose 2.96%, and DIA rose 1.82%, while the technology sector ETF XLK gained 3.73% and led the sector board. The move puts the market read-through on growth leadership, breadth, and whether financing-sensitive small caps can keep participating. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "OpenBB's Yahoo Finance market pack showed a broad June 11 risk-on close: QQQ rose 3.38%, SPY rose 1.70%, IWM rose 2.96%, and DIA rose 1.82%, while the technology sector ETF XLK gained 3.73% and led the sector board. The move puts the market read-through on growth leadership, breadth, and whether financing-sensitive small caps can keep participating.",
+      "whatMoved": "The tape moved through broad equity risk appetite: Nasdaq 100 leadership was strong, but the Russell 2000, Dow, industrials, and materials also participated, which makes the session more than a one-stock growth bounce.",
+      "whyItMoved": "The useful read is that investors were willing to re-risk into growth and cyclicals at the same time. That matters because a tech-led rally with small-cap and industrial participation sends a stronger breadth signal than a narrow mega-cap-only move.",
+      "valuationImpact": "For valuation, a 3%+ Nasdaq move can quickly re-expand multiples for long-duration growth, but the breadth test is whether earnings revisions and rates support the move rather than forcing it back into a short-covering frame.",
+      "financingImplication": "For financing, the small-cap bid matters because IWM is more sensitive to debt costs and refinancing windows. If small caps keep participating, capital-markets tone and sponsor exit math usually look healthier; if they fade first, the rally is less useful for financing conditions.",
+      "sectorReadThrough": "Read-through is strongest for software, semiconductors, AI infrastructure suppliers, industrial cyclicals, IPO candidates, and sponsor-owned assets waiting for better public-market comps.",
+      "parallel": {
+        "precedent": "Prior soft-landing rallies often began with mega-cap technology and then became more durable only when small caps, industrials, and credit-sensitive assets joined.",
+        "outcome": "The rallies that broadened tended to support IPO windows and sponsor exit confidence; narrow tech-only rallies were more vulnerable to rates or earnings disappointment.",
+        "whatRhymes": "Today’s broad participation rhymes with the healthier version of that setup because growth leadership and financing-sensitive breadth both improved in the same session.",
+        "whatDiffers": "This read is based on market-data context rather than a single company catalyst, so it needs follow-through in earnings, rates, and volume before being treated as a regime shift.",
+        "soWhat": "Use the move as a breadth and capital-markets tone check, not as proof that every growth multiple deserves to reset higher.",
+        "sourceTrail": [
+          {
+            "source": "OpenBB / Yahoo Finance market data",
+            "url": "https://finance.yahoo.com/quote/QQQ"
+          },
+          {
+            "source": "Yahoo Finance SPY quote",
+            "url": "https://finance.yahoo.com/quote/SPY"
+          }
+        ]
+      },
+      "watchNext": "Watch whether QQQ leadership holds with improving breadth, whether XLK continues to lead without rates moving against it, whether IWM confirms easier financing conditions, and whether lagging energy signals a rotation rather than a durable growth scare.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "The useful read is that investors were willing to re-risk into growth and cyclicals at the same time. That matters because a tech-led rally with small-cap and industrial participation sends a stronger breadth signal than a narrow mega-cap-only move. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The tape moved through broad equity risk appetite: Nasdaq 100 leadership was strong, but the Russell 2000, Dow, industrials, and materials also participated, which makes the session more than a one-stock growth bounce. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: OpenBB's Yahoo Finance market pack showed a broad June 11 risk-on close: QQQ rose 3.38%, SPY rose 1.70%, IWM rose 2.96%, and DIA rose 1.82%, while the technology sector ETF XLK gained 3.73% and led the sector board. The move puts the market read-through on growth leadership, breadth, and whether financing-sensitive small caps can keep participating."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "For valuation, a 3%+ Nasdaq move can quickly re-expand multiples for long-duration growth, but the breadth test is whether earnings revisions and rates support the move rather than forcing it back into a short-covering frame. Read-through is strongest for software, semiconductors, AI infrastructure suppliers, industrial cyclicals, IPO candidates, and sponsor-owned assets waiting for better public-market comps. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "For financing, the small-cap bid matters because IWM is more sensitive to debt costs and refinancing windows. If small caps keep participating, capital-markets tone and sponsor exit math usually look healthier; if they fade first, the rally is less useful for financing conditions. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Prior soft-landing rallies often began with mega-cap technology and then became more durable only when small caps, industrials, and credit-sensitive assets joined. In that earlier setup, the rallies that broadened tended to support ipo windows and sponsor exit confidence; narrow tech-only rallies were more vulnerable to rates or earnings disappointment. What rhymes is today’s broad participation rhymes with the healthier version of that setup because growth leadership and financing-sensitive breadth both improved in the same session. What is different this time is this read is based on market-data context rather than a single company catalyst, so it needs follow-through in earnings, rates, and volume before being treated as a regime shift. The bottom line is use the move as a breadth and capital-markets tone check, not as proof that every growth multiple deserves to reset higher."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch whether QQQ leadership holds with improving breadth, whether XLK continues to lead without rates moving against it, whether IWM confirms easier financing conditions, and whether lagging energy signals a rotation rather than a durable growth scare. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Semiconductor rebound board",
+        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
+        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
+        "allowedPages": [
+          "markets",
+          "deep-dive"
+        ],
+        "axisTitle": "Latest daily change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "NVDA",
+            "label": "Nvidia",
+            "value": 2.2203357892913633,
+            "displayValue": 2.2203357892913633,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+          },
+          {
+            "id": "SOXX",
+            "label": "iShares Semiconductor ETF",
+            "value": 8.3876534304167,
+            "displayValue": 8.3876534304167,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+          },
+          {
+            "id": "AVGO",
+            "label": "Broadcom",
+            "value": 3.619994893780212,
+            "displayValue": 3.619994893780212,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+          },
+          {
+            "id": "MU",
+            "label": "Micron Technology",
+            "value": 11.659639151573831,
+            "displayValue": 11.659639151573831,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "id": "MRVL",
+            "label": "Marvell Technology",
+            "value": 11.132663812850003,
+            "displayValue": 11.132663812850003,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "id": "INTC",
+            "label": "Intel",
+            "value": 9.26756173775995,
+            "displayValue": 9.26756173775995,
+            "suffix": "%",
+            "latestDate": "2026-06-11",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Nvidia",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+          },
+          {
+            "source": "iShares Semiconductor ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+          },
+          {
+            "source": "Broadcom",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+          },
+          {
+            "source": "Micron Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "source": "Marvell Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Intel",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [
+        {
+          "source": "Yahoo Finance QQQ quote",
+          "url": "https://finance.yahoo.com/quote/QQQ"
+        },
+        {
+          "source": "Yahoo Finance SPY quote",
+          "url": "https://finance.yahoo.com/quote/SPY"
+        },
+        {
+          "source": "Yahoo Finance XLK quote",
+          "url": "https://finance.yahoo.com/quote/XLK"
+        }
+      ],
+      "storyline": {
+        "id": "ai-infrastructure-dell-servers",
+        "name": "AI infrastructure buildout",
+        "threshold": 2
+      },
+      "concepts": [
+        "ai",
+        "capex"
+      ],
+      "continuity": {
+        "previousDate": "2026-06-09",
+        "previousTitle": "Apollo Wraps Up $35 Billion Chip Deal for Anthropic",
+        "previousUrl": "issues/2026-06-09.html",
+        "whatChanged": "This updates the ai infrastructure buildout thread from 2026-06-09. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
+        "updatedRead": "The useful read is that investors were willing to re-risk into growth and cyclicals at the same time. That matters because a tech-led rally with small-cap and industrial participation sends a stronger breadth signal than a narrow mega-cap-only move.",
+        "status": "Developing"
+      }
+    }
+  ]
+}
