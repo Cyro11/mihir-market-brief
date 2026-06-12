@@ -1,6 +1,6 @@
 {
   "runDate": "2026-06-12",
-  "fetchedAt": "2026-06-12T12:31:59.139Z",
+  "fetchedAt": "2026-06-12T18:16:36.615Z",
   "failures": [],
   "eventCount": 123,
   "events": [
@@ -13,7 +13,7 @@
       "significance": "medium",
       "scheduledFor": "2025-01-07T14:00:00.000Z",
       "scheduledDate": "2025-01-07",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-01-10",
@@ -24,7 +24,7 @@
       "significance": "high",
       "scheduledFor": "2025-01-10T12:30:00.000Z",
       "scheduledDate": "2025-01-10",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-01-14",
@@ -35,7 +35,7 @@
       "significance": "medium",
       "scheduledFor": "2025-01-14T12:30:00.000Z",
       "scheduledDate": "2025-01-14",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-01-15",
@@ -46,7 +46,7 @@
       "significance": "high",
       "scheduledFor": "2025-01-15T12:30:00.000Z",
       "scheduledDate": "2025-01-15",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-02-04",
@@ -57,7 +57,7 @@
       "significance": "medium",
       "scheduledFor": "2025-02-04T14:00:00.000Z",
       "scheduledDate": "2025-02-04",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-02-07",
@@ -68,7 +68,7 @@
       "significance": "high",
       "scheduledFor": "2025-02-07T12:30:00.000Z",
       "scheduledDate": "2025-02-07",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-02-12",
@@ -79,7 +79,7 @@
       "significance": "high",
       "scheduledFor": "2025-02-12T12:30:00.000Z",
       "scheduledDate": "2025-02-12",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-02-13",
@@ -90,7 +90,7 @@
       "significance": "medium",
       "scheduledFor": "2025-02-13T12:30:00.000Z",
       "scheduledDate": "2025-02-13",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-03-07",
@@ -101,7 +101,7 @@
       "significance": "high",
       "scheduledFor": "2025-03-07T12:30:00.000Z",
       "scheduledDate": "2025-03-07",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-03-11",
@@ -112,7 +112,7 @@
       "significance": "medium",
       "scheduledFor": "2025-03-11T14:00:00.000Z",
       "scheduledDate": "2025-03-11",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-03-12",
@@ -123,7 +123,7 @@
       "significance": "high",
       "scheduledFor": "2025-03-12T12:30:00.000Z",
       "scheduledDate": "2025-03-12",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-03-13",
@@ -134,7 +134,7 @@
       "significance": "medium",
       "scheduledFor": "2025-03-13T12:30:00.000Z",
       "scheduledDate": "2025-03-13",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-of-veterans-2025-03-20",
@@ -145,7 +145,7 @@
       "significance": "high",
       "scheduledFor": "2025-03-20T14:00:00.000Z",
       "scheduledDate": "2025-03-20",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-04-01",
@@ -156,7 +156,7 @@
       "significance": "medium",
       "scheduledFor": "2025-04-01T14:00:00.000Z",
       "scheduledDate": "2025-04-01",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-04-04",
@@ -167,7 +167,7 @@
       "significance": "high",
       "scheduledFor": "2025-04-04T12:30:00.000Z",
       "scheduledDate": "2025-04-04",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-04-10",
@@ -178,7 +178,7 @@
       "significance": "high",
       "scheduledFor": "2025-04-10T12:30:00.000Z",
       "scheduledDate": "2025-04-10",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-04-11",
@@ -189,7 +189,7 @@
       "significance": "medium",
       "scheduledFor": "2025-04-11T12:30:00.000Z",
       "scheduledDate": "2025-04-11",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-04-29",
@@ -200,7 +200,7 @@
       "significance": "medium",
       "scheduledFor": "2025-04-29T14:00:00.000Z",
       "scheduledDate": "2025-04-29",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-05-02",
@@ -211,7 +211,7 @@
       "significance": "high",
       "scheduledFor": "2025-05-02T12:30:00.000Z",
       "scheduledDate": "2025-05-02",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-05-13",
@@ -222,7 +222,7 @@
       "significance": "high",
       "scheduledFor": "2025-05-13T12:30:00.000Z",
       "scheduledDate": "2025-05-13",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-05-15",
@@ -233,7 +233,7 @@
       "significance": "medium",
       "scheduledFor": "2025-05-15T12:30:00.000Z",
       "scheduledDate": "2025-05-15",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-06-03",
@@ -244,7 +244,7 @@
       "significance": "medium",
       "scheduledFor": "2025-06-03T14:00:00.000Z",
       "scheduledDate": "2025-06-03",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-06-06",
@@ -255,7 +255,7 @@
       "significance": "high",
       "scheduledFor": "2025-06-06T12:30:00.000Z",
       "scheduledDate": "2025-06-06",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-06-11",
@@ -266,7 +266,7 @@
       "significance": "high",
       "scheduledFor": "2025-06-11T12:30:00.000Z",
       "scheduledDate": "2025-06-11",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-06-12",
@@ -277,7 +277,7 @@
       "significance": "medium",
       "scheduledFor": "2025-06-12T12:30:00.000Z",
       "scheduledDate": "2025-06-12",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-07-01",
@@ -288,7 +288,7 @@
       "significance": "medium",
       "scheduledFor": "2025-07-01T14:00:00.000Z",
       "scheduledDate": "2025-07-01",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-07-03",
@@ -299,7 +299,7 @@
       "significance": "high",
       "scheduledFor": "2025-07-03T12:30:00.000Z",
       "scheduledDate": "2025-07-03",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-07-15",
@@ -310,7 +310,7 @@
       "significance": "high",
       "scheduledFor": "2025-07-15T12:30:00.000Z",
       "scheduledDate": "2025-07-15",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-07-16",
@@ -321,7 +321,7 @@
       "significance": "medium",
       "scheduledFor": "2025-07-16T12:30:00.000Z",
       "scheduledDate": "2025-07-16",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-07-29",
@@ -332,7 +332,7 @@
       "significance": "medium",
       "scheduledFor": "2025-07-29T14:00:00.000Z",
       "scheduledDate": "2025-07-29",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-08-01",
@@ -343,7 +343,7 @@
       "significance": "high",
       "scheduledFor": "2025-08-01T12:30:00.000Z",
       "scheduledDate": "2025-08-01",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-08-12",
@@ -354,7 +354,7 @@
       "significance": "high",
       "scheduledFor": "2025-08-12T12:30:00.000Z",
       "scheduledDate": "2025-08-12",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-08-14",
@@ -365,7 +365,7 @@
       "significance": "medium",
       "scheduledFor": "2025-08-14T12:30:00.000Z",
       "scheduledDate": "2025-08-14",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-09-03",
@@ -376,7 +376,7 @@
       "significance": "medium",
       "scheduledFor": "2025-09-03T14:00:00.000Z",
       "scheduledDate": "2025-09-03",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-09-05",
@@ -387,7 +387,7 @@
       "significance": "high",
       "scheduledFor": "2025-09-05T12:30:00.000Z",
       "scheduledDate": "2025-09-05",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-09-10",
@@ -398,7 +398,7 @@
       "significance": "medium",
       "scheduledFor": "2025-09-10T12:30:00.000Z",
       "scheduledDate": "2025-09-10",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-09-11",
@@ -409,7 +409,7 @@
       "significance": "high",
       "scheduledFor": "2025-09-11T12:30:00.000Z",
       "scheduledDate": "2025-09-11",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-09-30",
@@ -420,7 +420,7 @@
       "significance": "medium",
       "scheduledFor": "2025-09-30T14:00:00.000Z",
       "scheduledDate": "2025-09-30",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-10-24",
@@ -431,7 +431,7 @@
       "significance": "high",
       "scheduledFor": "2025-10-24T12:30:00.000Z",
       "scheduledDate": "2025-10-24",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-11-20",
@@ -442,7 +442,7 @@
       "significance": "high",
       "scheduledFor": "2025-11-20T12:30:00.000Z",
       "scheduledDate": "2025-11-20",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2025-11-25",
@@ -453,7 +453,7 @@
       "significance": "medium",
       "scheduledFor": "2025-11-25T12:30:00.000Z",
       "scheduledDate": "2025-11-25",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2025-12-09",
@@ -464,7 +464,7 @@
       "significance": "medium",
       "scheduledFor": "2025-12-09T14:00:00.000Z",
       "scheduledDate": "2025-12-09",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2025-12-16",
@@ -475,7 +475,7 @@
       "significance": "high",
       "scheduledFor": "2025-12-16T12:30:00.000Z",
       "scheduledDate": "2025-12-16",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2025-12-18",
@@ -486,7 +486,7 @@
       "significance": "high",
       "scheduledFor": "2025-12-18T12:30:00.000Z",
       "scheduledDate": "2025-12-18",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-01-07",
@@ -497,7 +497,7 @@
       "significance": "medium",
       "scheduledFor": "2026-01-07T14:00:00.000Z",
       "scheduledDate": "2026-01-07",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-01-09",
@@ -508,7 +508,7 @@
       "significance": "high",
       "scheduledFor": "2026-01-09T12:30:00.000Z",
       "scheduledDate": "2026-01-09",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-01-13",
@@ -519,7 +519,7 @@
       "significance": "high",
       "scheduledFor": "2026-01-13T12:30:00.000Z",
       "scheduledDate": "2026-01-13",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-01-14",
@@ -530,7 +530,7 @@
       "significance": "medium",
       "scheduledFor": "2026-01-14T12:30:00.000Z",
       "scheduledDate": "2026-01-14",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "fed-fomc-january-2026-01-28",
@@ -541,7 +541,7 @@
       "significance": "high",
       "scheduledFor": "2026-01-28T18:00:00.000Z",
       "scheduledDate": "2026-01-28",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-01-30",
@@ -552,7 +552,7 @@
       "significance": "medium",
       "scheduledFor": "2026-01-30T12:30:00.000Z",
       "scheduledDate": "2026-01-30",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-02-05",
@@ -563,7 +563,7 @@
       "significance": "medium",
       "scheduledFor": "2026-02-05T14:00:00.000Z",
       "scheduledDate": "2026-02-05",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-02-11",
@@ -574,7 +574,7 @@
       "significance": "high",
       "scheduledFor": "2026-02-11T12:30:00.000Z",
       "scheduledDate": "2026-02-11",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-02-13",
@@ -585,7 +585,7 @@
       "significance": "high",
       "scheduledFor": "2026-02-13T12:30:00.000Z",
       "scheduledDate": "2026-02-13",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-02-27",
@@ -596,7 +596,7 @@
       "significance": "medium",
       "scheduledFor": "2026-02-27T12:30:00.000Z",
       "scheduledDate": "2026-02-27",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-03-06",
@@ -607,7 +607,7 @@
       "significance": "high",
       "scheduledFor": "2026-03-06T12:30:00.000Z",
       "scheduledDate": "2026-03-06",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-03-11",
@@ -618,7 +618,7 @@
       "significance": "high",
       "scheduledFor": "2026-03-11T12:30:00.000Z",
       "scheduledDate": "2026-03-11",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-03-13",
@@ -629,7 +629,7 @@
       "significance": "medium",
       "scheduledFor": "2026-03-13T14:00:00.000Z",
       "scheduledDate": "2026-03-13",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-03-18",
@@ -640,7 +640,7 @@
       "significance": "medium",
       "scheduledFor": "2026-03-18T12:30:00.000Z",
       "scheduledDate": "2026-03-18",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "fed-fomc-march-2026-03-18",
@@ -651,7 +651,7 @@
       "significance": "high",
       "scheduledFor": "2026-03-18T18:00:00.000Z",
       "scheduledDate": "2026-03-18",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-03-31",
@@ -662,7 +662,7 @@
       "significance": "medium",
       "scheduledFor": "2026-03-31T14:00:00.000Z",
       "scheduledDate": "2026-03-31",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-04-03",
@@ -673,7 +673,7 @@
       "significance": "high",
       "scheduledFor": "2026-04-03T12:30:00.000Z",
       "scheduledDate": "2026-04-03",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-04-10",
@@ -684,7 +684,7 @@
       "significance": "high",
       "scheduledFor": "2026-04-10T12:30:00.000Z",
       "scheduledDate": "2026-04-10",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-04-14",
@@ -695,7 +695,7 @@
       "significance": "medium",
       "scheduledFor": "2026-04-14T12:30:00.000Z",
       "scheduledDate": "2026-04-14",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-of-veterans-2026-04-28",
@@ -706,7 +706,7 @@
       "significance": "high",
       "scheduledFor": "2026-04-28T14:00:00.000Z",
       "scheduledDate": "2026-04-28",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "fed-fomc-april-2026-04-29",
@@ -717,7 +717,7 @@
       "significance": "high",
       "scheduledFor": "2026-04-29T18:00:00.000Z",
       "scheduledDate": "2026-04-29",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-05-05",
@@ -728,7 +728,7 @@
       "significance": "medium",
       "scheduledFor": "2026-05-05T14:00:00.000Z",
       "scheduledDate": "2026-05-05",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-05-08",
@@ -739,7 +739,7 @@
       "significance": "high",
       "scheduledFor": "2026-05-08T12:30:00.000Z",
       "scheduledDate": "2026-05-08",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-05-12",
@@ -750,7 +750,7 @@
       "significance": "high",
       "scheduledFor": "2026-05-12T12:30:00.000Z",
       "scheduledDate": "2026-05-12",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-05-13",
@@ -761,7 +761,7 @@
       "significance": "medium",
       "scheduledFor": "2026-05-13T12:30:00.000Z",
       "scheduledDate": "2026-05-13",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-06-02",
@@ -772,7 +772,7 @@
       "significance": "medium",
       "scheduledFor": "2026-06-02T14:00:00.000Z",
       "scheduledDate": "2026-06-02",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-06-05",
@@ -783,7 +783,7 @@
       "significance": "high",
       "scheduledFor": "2026-06-05T12:30:00.000Z",
       "scheduledDate": "2026-06-05",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-06-10",
@@ -794,7 +794,7 @@
       "significance": "high",
       "scheduledFor": "2026-06-10T12:30:00.000Z",
       "scheduledDate": "2026-06-10",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-06-11",
@@ -805,7 +805,7 @@
       "significance": "medium",
       "scheduledFor": "2026-06-11T12:30:00.000Z",
       "scheduledDate": "2026-06-11",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "fed-fomc-june-2026-06-17",
@@ -816,7 +816,7 @@
       "significance": "high",
       "scheduledFor": "2026-06-17T18:00:00.000Z",
       "scheduledDate": "2026-06-17",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-inc-2026-06-25",
@@ -827,7 +827,7 @@
       "significance": "high",
       "scheduledFor": "2026-06-25T12:30:00.000Z",
       "scheduledDate": "2026-06-25",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-personal-income-and-outlays-may-2026-2026-06-25",
@@ -838,7 +838,7 @@
       "significance": "high",
       "scheduledFor": "2026-06-25T12:30:00.000Z",
       "scheduledDate": "2026-06-25",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-06-30",
@@ -849,7 +849,7 @@
       "significance": "medium",
       "scheduledFor": "2026-06-30T14:00:00.000Z",
       "scheduledDate": "2026-06-30",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-07-02",
@@ -860,7 +860,7 @@
       "significance": "high",
       "scheduledFor": "2026-07-02T12:30:00.000Z",
       "scheduledDate": "2026-07-02",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-u-s-international-trade-in-goods-and-services-may-2026-2026-07-07",
@@ -871,7 +871,7 @@
       "significance": "medium",
       "scheduledFor": "2026-07-07T12:30:00.000Z",
       "scheduledDate": "2026-07-07",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-07-14",
@@ -882,7 +882,7 @@
       "significance": "high",
       "scheduledFor": "2026-07-14T12:30:00.000Z",
       "scheduledDate": "2026-07-14",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-07-15",
@@ -893,7 +893,7 @@
       "significance": "medium",
       "scheduledFor": "2026-07-15T12:30:00.000Z",
       "scheduledDate": "2026-07-15",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "fed-fomc-july-2026-07-29",
@@ -904,7 +904,7 @@
       "significance": "high",
       "scheduledFor": "2026-07-29T18:00:00.000Z",
       "scheduledDate": "2026-07-29",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-gdp-advance-estimate-2nd-quarter-2026-2026-07-30",
@@ -915,7 +915,7 @@
       "significance": "high",
       "scheduledFor": "2026-07-30T12:30:00.000Z",
       "scheduledDate": "2026-07-30",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-personal-income-and-outlays-june-2026-2026-07-30",
@@ -926,7 +926,7 @@
       "significance": "high",
       "scheduledFor": "2026-07-30T12:30:00.000Z",
       "scheduledDate": "2026-07-30",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-u-s-international-trade-in-goods-and-services-june-2026-2026-08-04",
@@ -937,7 +937,7 @@
       "significance": "medium",
       "scheduledFor": "2026-08-04T12:30:00.000Z",
       "scheduledDate": "2026-08-04",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-08-04",
@@ -948,7 +948,7 @@
       "significance": "medium",
       "scheduledFor": "2026-08-04T14:00:00.000Z",
       "scheduledDate": "2026-08-04",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-08-07",
@@ -959,7 +959,7 @@
       "significance": "high",
       "scheduledFor": "2026-08-07T12:30:00.000Z",
       "scheduledDate": "2026-08-07",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-08-12",
@@ -970,7 +970,7 @@
       "significance": "high",
       "scheduledFor": "2026-08-12T12:30:00.000Z",
       "scheduledDate": "2026-08-12",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-08-13",
@@ -981,7 +981,7 @@
       "significance": "medium",
       "scheduledFor": "2026-08-13T12:30:00.000Z",
       "scheduledDate": "2026-08-13",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-gdp-second-estimate-and-corporate-profits-2nd-quarter-2026-2026-08-26",
@@ -992,7 +992,7 @@
       "significance": "high",
       "scheduledFor": "2026-08-26T12:30:00.000Z",
       "scheduledDate": "2026-08-26",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-personal-income-and-outlays-july-2026-2026-08-26",
@@ -1003,7 +1003,7 @@
       "significance": "high",
       "scheduledFor": "2026-08-26T12:30:00.000Z",
       "scheduledDate": "2026-08-26",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-09-01",
@@ -1014,7 +1014,7 @@
       "significance": "medium",
       "scheduledFor": "2026-09-01T14:00:00.000Z",
       "scheduledDate": "2026-09-01",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-u-s-international-trade-in-goods-and-services-july-2026-2026-09-03",
@@ -1025,7 +1025,7 @@
       "significance": "medium",
       "scheduledFor": "2026-09-03T12:30:00.000Z",
       "scheduledDate": "2026-09-03",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-09-04",
@@ -1036,7 +1036,7 @@
       "significance": "high",
       "scheduledFor": "2026-09-04T12:30:00.000Z",
       "scheduledDate": "2026-09-04",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-09-10",
@@ -1047,7 +1047,7 @@
       "significance": "medium",
       "scheduledFor": "2026-09-10T12:30:00.000Z",
       "scheduledDate": "2026-09-10",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-09-11",
@@ -1058,7 +1058,7 @@
       "significance": "high",
       "scheduledFor": "2026-09-11T12:30:00.000Z",
       "scheduledDate": "2026-09-11",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "fed-fomc-september-2026-09-16",
@@ -1069,7 +1069,7 @@
       "significance": "high",
       "scheduledFor": "2026-09-16T18:00:00.000Z",
       "scheduledDate": "2026-09-16",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-09-29",
@@ -1080,7 +1080,7 @@
       "significance": "medium",
       "scheduledFor": "2026-09-29T14:00:00.000Z",
       "scheduledDate": "2026-09-29",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-inc-2026-09-30",
@@ -1091,7 +1091,7 @@
       "significance": "high",
       "scheduledFor": "2026-09-30T12:30:00.000Z",
       "scheduledDate": "2026-09-30",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-personal-income-and-outlays-august-2026-2026-09-30",
@@ -1102,7 +1102,7 @@
       "significance": "high",
       "scheduledFor": "2026-09-30T12:30:00.000Z",
       "scheduledDate": "2026-09-30",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-10-02",
@@ -1113,7 +1113,7 @@
       "significance": "high",
       "scheduledFor": "2026-10-02T12:30:00.000Z",
       "scheduledDate": "2026-10-02",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-u-s-international-trade-in-goods-and-services-august-2026-2026-10-06",
@@ -1124,7 +1124,7 @@
       "significance": "medium",
       "scheduledFor": "2026-10-06T12:30:00.000Z",
       "scheduledDate": "2026-10-06",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-10-14",
@@ -1135,7 +1135,7 @@
       "significance": "high",
       "scheduledFor": "2026-10-14T12:30:00.000Z",
       "scheduledDate": "2026-10-14",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-10-15",
@@ -1146,7 +1146,7 @@
       "significance": "medium",
       "scheduledFor": "2026-10-15T12:30:00.000Z",
       "scheduledDate": "2026-10-15",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "fed-fomc-october-2026-10-28",
@@ -1157,7 +1157,7 @@
       "significance": "high",
       "scheduledFor": "2026-10-28T18:00:00.000Z",
       "scheduledDate": "2026-10-28",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-gdp-advance-estimate-3rd-quarter-2026-2026-10-29",
@@ -1168,7 +1168,7 @@
       "significance": "high",
       "scheduledFor": "2026-10-29T12:30:00.000Z",
       "scheduledDate": "2026-10-29",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-personal-income-and-outlays-september-2026-2026-10-29",
@@ -1179,7 +1179,7 @@
       "significance": "high",
       "scheduledFor": "2026-10-29T12:30:00.000Z",
       "scheduledDate": "2026-10-29",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-11-03",
@@ -1190,7 +1190,7 @@
       "significance": "medium",
       "scheduledFor": "2026-11-03T14:00:00.000Z",
       "scheduledDate": "2026-11-03",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-u-s-international-trade-in-goods-and-services-september-2026-2026-11-04",
@@ -1201,7 +1201,7 @@
       "significance": "medium",
       "scheduledFor": "2026-11-04T12:30:00.000Z",
       "scheduledDate": "2026-11-04",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-11-06",
@@ -1212,7 +1212,7 @@
       "significance": "high",
       "scheduledFor": "2026-11-06T12:30:00.000Z",
       "scheduledDate": "2026-11-06",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-11-10",
@@ -1223,7 +1223,7 @@
       "significance": "high",
       "scheduledFor": "2026-11-10T12:30:00.000Z",
       "scheduledDate": "2026-11-10",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-11-13",
@@ -1234,7 +1234,7 @@
       "significance": "medium",
       "scheduledFor": "2026-11-13T12:30:00.000Z",
       "scheduledDate": "2026-11-13",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-gdp-second-estimate-and-corporate-profits-3rd-quarter-2026-2026-11-25",
@@ -1245,7 +1245,7 @@
       "significance": "high",
       "scheduledFor": "2026-11-25T12:30:00.000Z",
       "scheduledDate": "2026-11-25",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-personal-income-and-outlays-october-2026-2026-11-25",
@@ -1256,7 +1256,7 @@
       "significance": "high",
       "scheduledFor": "2026-11-25T12:30:00.000Z",
       "scheduledDate": "2026-11-25",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-job-openings-and-labor-turnover-survey-2026-12-01",
@@ -1267,7 +1267,7 @@
       "significance": "medium",
       "scheduledFor": "2026-12-01T14:00:00.000Z",
       "scheduledDate": "2026-12-01",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-gdp-by-county-and-personal-income-by-county-2025-2026-12-02",
@@ -1278,7 +1278,7 @@
       "significance": "high",
       "scheduledFor": "2026-12-02T12:30:00.000Z",
       "scheduledDate": "2026-12-02",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-employment-situation-2026-12-04",
@@ -1289,7 +1289,7 @@
       "significance": "high",
       "scheduledFor": "2026-12-04T12:30:00.000Z",
       "scheduledDate": "2026-12-04",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-u-s-international-trade-in-goods-and-services-october-2026-2026-12-08",
@@ -1300,7 +1300,7 @@
       "significance": "medium",
       "scheduledFor": "2026-12-08T12:30:00.000Z",
       "scheduledDate": "2026-12-08",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "fed-fomc-december-2026-12-09",
@@ -1311,7 +1311,7 @@
       "significance": "high",
       "scheduledFor": "2026-12-09T18:00:00.000Z",
       "scheduledDate": "2026-12-09",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-consumer-price-index-2026-12-10",
@@ -1322,7 +1322,7 @@
       "significance": "high",
       "scheduledFor": "2026-12-10T12:30:00.000Z",
       "scheduledDate": "2026-12-10",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bls-producer-price-index-2026-12-15",
@@ -1333,7 +1333,7 @@
       "significance": "medium",
       "scheduledFor": "2026-12-15T12:30:00.000Z",
       "scheduledDate": "2026-12-15",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-inc-2026-12-23",
@@ -1344,7 +1344,7 @@
       "significance": "high",
       "scheduledFor": "2026-12-23T12:30:00.000Z",
       "scheduledDate": "2026-12-23",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     },
     {
       "id": "bea-personal-income-and-outlays-november-2026-2026-12-23",
@@ -1355,7 +1355,7 @@
       "significance": "high",
       "scheduledFor": "2026-12-23T12:30:00.000Z",
       "scheduledDate": "2026-12-23",
-      "fetchedAt": "2026-06-12T12:31:59.139Z"
+      "fetchedAt": "2026-06-12T18:16:36.615Z"
     }
   ]
 }

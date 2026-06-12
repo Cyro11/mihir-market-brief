@@ -37,6 +37,7 @@ export const topicBankerWeights = {
   private_equity: 5,
   private_credit: 5,
   ipo: 5,
+  breaking: 6,
   regulation: 2,
   commodities: 3,
   consumer: 3

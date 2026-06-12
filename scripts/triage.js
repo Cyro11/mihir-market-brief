@@ -5,6 +5,7 @@ const positiveSignalPattern = /\b(pce|cpi|ppi|gdp|payrolls|employment|unemployme
 const strongProxySignalPattern = /\b(acquire|acquisition|buyout|stake|activist|sale|sold|sells|ipo|earnings|originations|direct lending|asset-?based finance|loan|loans|credit|refinanc|default|write-?down|non-accrual|spread|fundraising|rais(?:e|es|ed|ing)|secondaries|continuation fund|merger|financing|notes offering|debt offering|equity offering|share offering|stock offering|public offering|offering priced)\b/i;
 const noisePattern = /\b(route revealed|power tour|celebrates|duplex|tenant calls|retirement portfolio|retirees|dividend stocks to buy|oversold dividend growth stocks|stocks to buy|deep value stock to invest in now|price recommendation|price target|hold rating|buy rating|sell rating|turns more cautious|analyst upgrades?|analyst downgrades?|leadership appointment|conference|forum|watch highlights|podcast|sessions|bringing|launches|reveals new look|creative space|investigates|5 facts|how a digital agency transformed|fitness experience|data incident|law group|contribution limits|racing|balanced plan|present at|to present at|announces key leadership|declares .*distribution)\b/i;
 const trustedDomainPattern = /\b(sec\.gov|bea\.gov|federalreserve\.gov|fred\.stlouisfed\.org|reuters\.com|cnbc\.com|finance\.yahoo\.com|marketwatch\.com|apnews\.com|kkr\.com|blueowl\.com|arescapitalcorp\.com|investor\.)\b/i;
+const majorBreakingPattern = /\b(ipo|initial public offering|record (?:raise|offering|ipo)|priced|debut|starts trading|begins trading|nasdaq debut|nyse debut|valuation|raises? \$?\d|\$\d+(?:\.\d+)?\s*(?:billion|bn|trillion|tn)|public debut)\b/i;
 
 export function themeMatches(item, themes) {
   const haystack = normalizeText(`${item.title} ${item.summary} ${(item.topics || []).join(" ")}`).toLowerCase();
@@ -43,6 +44,13 @@ export function hasTrustedDomain(item) {
   return trustedDomainPattern.test(absoluteUrl(item.url) || "");
 }
 
+export function isMajorBreakingEvent(item) {
+  const text = normalizeText(`${item.title} ${item.summary} ${(item.topics || []).join(" ")}`);
+  const trusted = hasTrustedDomain(item) || ["official", "reputable", "company"].includes(item.sourceType);
+  const seededBreaking = (item.topics || []).includes("breaking") || Boolean(item.forceBreaking);
+  return trusted && (seededBreaking || majorBreakingPattern.test(text)) && /\b(ipo|debut|starts trading|begins trading|priced|record|valuation|raise|offering)\b/i.test(text);
+}
+
 export function scoreCandidate(item, themes, now = new Date()) {
   const cleanTitle = normalizeText(item.title);
   const malformedTitle = cleanTitle.length > 220
@@ -54,6 +62,7 @@ export function scoreCandidate(item, themes, now = new Date()) {
   const matches = themeMatches(item, themes);
   const signalScore = marketSignalScore(item);
   const trustedDomain = hasTrustedDomain(item);
+  const majorBreakingEvent = isMajorBreakingEvent(item);
   const evidenceScore = [
     absoluteUrl(item.url) ? 2 : 0,
     item.publishedAt ? 1 : 0,
@@ -65,6 +74,8 @@ export function scoreCandidate(item, themes, now = new Date()) {
   const mainTapeFreshEnough = freshnessScore >= 3;
   const strongEnoughSignal = signalScore >= 2;
   const trustedEnough = trustedDomain || item.sourceType === "official";
+  const eligibleByEvidence = evidenceScore >= 4;
+  const eligibleByMajorBreaking = majorBreakingEvent && trustedEnough && evidenceScore >= 3;
 
   return {
     ...item,
@@ -78,16 +89,17 @@ export function scoreCandidate(item, themes, now = new Date()) {
       evidence: evidenceScore,
       marketSignal: signalScore,
       trustedDomain: trustedDomain ? 1 : 0,
+      majorBreakingEvent: majorBreakingEvent ? 1 : 0,
       total
     },
-    eligible: !malformedTitle && Boolean(absoluteUrl(item.url)) && item.publishedAt && evidenceScore >= 4 && mainTapeFreshEnough && strongEnoughSignal && trustedEnough,
+    eligible: !malformedTitle && Boolean(absoluteUrl(item.url)) && item.publishedAt && (eligibleByEvidence || eligibleByMajorBreaking) && mainTapeFreshEnough && strongEnoughSignal && trustedEnough,
     exclusionReason: malformedTitle
       ? "malformed source title"
       : !absoluteUrl(item.url)
         ? "missing source URL"
         : !item.publishedAt
           ? "missing published timestamp"
-          : evidenceScore < 4
+          : !(eligibleByEvidence || eligibleByMajorBreaking)
             ? "insufficient factual support"
             : !mainTapeFreshEnough
               ? "background item; not eligible for main tape"

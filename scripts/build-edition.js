@@ -86,6 +86,9 @@ function attachContinuity(analyses, prior) {
 export function editorialLaneFor(item) {
   const text = `${item.title} ${item.summary} ${(item.tickers || []).join(" ")} ${(item.topics || []).join(" ")}`.toLowerCase();
   const topics = new Set(item.topics || []);
+  if (topics.has("breaking") || /\b(record\s+(?:ipo|raise|offering)|priced\s+.*\bipo\b|\bipo\b.*\bpriced\b|\bstarts trading\b|\bbegins trading\b|\bpublic debut\b|\bnasdaq debut\b|\bnyse debut\b|\bvaluation\b.*\b(?:ipo|debut|offering)\b)/.test(text)) {
+    return "breaking";
+  }
   const privateTagged = topics.has("private_markets") || topics.has("private_credit") || topics.has("private_equity");
   const explicitTapeStory = /\bequity futures\b|\bpre-?bell\b|\bchip stocks? rebound\b|\bstock market today\b/.test(text)
     || (/\bs&p 500\b|\bnasdaq composite\b|\bdow jones\b/.test(text) && /\bgain\b|\bsurge\b|\brally\b|\brebound\b|\bclose[sd]? higher\b|\btape\b/.test(text));
@@ -221,6 +224,7 @@ function recentLeadThemeKeys(prior, lookback = 3) {
 
 function laneDisplayName(lane) {
   return {
+    breaking: "Breaking",
     macro: "Macro Environment",
     markets: "Markets",
     deals: "Deals",
@@ -231,6 +235,7 @@ function laneDisplayName(lane) {
 export function selectLaneItems(analyses, limit = 3, privateSegmentLimit = 2) {
   const sections = {
     overnight: { label: "Overnight", items: [] },
+    breaking: { label: "Breaking", items: [] },
     macro: { label: "Macro Environment", items: [], latestEvent: null, economicCalendar: [] },
     markets: { label: "Markets", items: [] },
     deals: { label: "Deals", items: [] },
@@ -246,6 +251,8 @@ export function selectLaneItems(analyses, limit = 3, privateSegmentLimit = 2) {
   for (const item of analyses) {
     const key = item.editorialLane === "private_markets"
       ? "privateMarkets"
+      : item.editorialLane === "breaking"
+        ? "breaking"
       : item.editorialLane === "macro"
         ? "macro"
       : item.editorialLane === "deals"
@@ -531,6 +538,9 @@ function summaryFor(item, lane, segment, storyRead = null) {
   if (storyRead?.summaryTail) {
     return `${sourceBlurb} ${storyRead.summaryTail}`;
   }
+  if (lane === "breaking") {
+    return `${sourceBlurb} The key question is how quickly this first-order headline changes valuation marks, financing windows, investor demand, and the broader capital-markets read.`;
+  }
   if (lane === "macro") {
     return `${sourceBlurb} The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.`;
   }
@@ -569,6 +579,16 @@ function buildLongformSections({
   storyRead = null
 }) {
   const parallelText = `A useful parallel is ${parallel.precedent} In that earlier setup, ${parallel.outcome.toLowerCase()} What rhymes is ${parallel.whatRhymes.toLowerCase()} What is different this time is ${parallel.whatDiffers.toLowerCase()} The bottom line is ${parallel.soWhat.toLowerCase()}`;
+  if (lane === "breaking") {
+    return [
+      { id: "takeaway", heading: "Plain-English takeaway", body: `${whyItMoved} A breaking capital-markets headline can reset the comparable set before slower private-market marks, banker pitches, and follow-on financing plans catch up.` },
+      { id: "facts", heading: "What the sources say", body: `${whatMoved} The source facts matter because they create a hard public reference point: deal size, IPO price, valuation, allocation, and order-book demand. Anchor the read to those named facts first, then separate direct evidence from valuation and deal-market implications.` },
+      { id: "market-mechanism", heading: "Why the market may care immediately", body: `${valuationImpact} ${sectorReadThrough} A large fresh price, valuation, order-book, or trading reference becomes a new public benchmark investors can compare against prior private marks and peer multiples.` },
+      { id: "deal-financing-read", heading: "Capital-markets and deal read-through", body: `${financingImplication} The read-through is strongest when the event shows investors are willing to fund a story at a specific price, size, and timetable.` },
+      { id: "parallel", heading: "Relevant comparison", body: parallelText },
+      { id: "watch-next", heading: "What would confirm or weaken the read", body: `${watchNext} Confirmation should come from trading performance, allocation details, follow-on issuance, comparable repricing, or whether other IPO-ready companies accelerate plans.` }
+    ];
+  }
   if (lane === "macro") {
     return [
       {
@@ -735,14 +755,17 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
   const theme = item.matchedThemes?.[0]?.name || "Market discipline";
   const topic = item.topics?.[0] || "markets";
   const isMacro = editorialLane === "macro" || ["macro", "rates", "inflation", "fed"].some((t) => item.topics?.includes(t));
+  const isBreaking = editorialLane === "breaking";
   const isPrivate = editorialLane === "private_markets";
-  const isDeal = !isPrivate && (editorialLane === "deals" || ["deals", "filings", "credit"].some((t) => item.topics?.includes(t)));
+  const isDeal = !isPrivate && (isBreaking || editorialLane === "deals" || ["deals", "filings", "credit", "ipo"].some((t) => item.topics?.includes(t)));
   const isPrivateCredit = privateMarketSegment === "private_credit";
   const isPrivateEquity = privateMarketSegment === "private_equity";
   const isCompany = ["companies", "ai", "capex", "consumer"].some((t) => item.topics?.includes(t));
   const storyRead = isPrivate ? storySpecificPrivateRead(item, privateMarketSegment) : null;
 
-  const valuationImpact = isMacro
+  const valuationImpact = isBreaking
+    ? "Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story."
+    : isMacro
     ? "Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite."
     : isPrivateCredit
       ? "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt."
@@ -752,7 +775,9 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
       ? "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story."
       : "Use the item to test whether the transaction still works at today's public multiples and financing costs.";
 
-  const financingImplication = isDeal
+  const financingImplication = isBreaking
+    ? "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support."
+    : isDeal
     ? "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today."
     : isPrivateCredit
       ? "Translate the item into direct-lending capacity, refinancing risk, debt cost, and whether lenders are still willing to finance sponsor-owned companies."
@@ -764,6 +789,8 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
 
   const fallbackParallel = storyRead?.parallel
     ? { ...storyRead.parallel, sourceTrail: [{ source: item.source, url: item.url }] }
+    : isBreaking
+    ? { precedent: "Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO became large technology debut benchmarks.", outcome: "Large IPOs can clear when issuers are scarce and high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether follow-on issuers share the same scarcity value.", whatRhymes: "A mega-IPO creates a public trading reference and demand signal that can influence other IPO candidates.", whatDiffers: "SpaceX has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so one-company scarcity may not equal a broad reopening.", soWhat: "Treat the debut as a benchmark, not proof that every late-stage private mark is money-good.", sourceTrail: [{ source: item.source, url: item.url }] }
     : isMacro
     ? {
         precedent: "Past inflation scares where stocks held up for a while even as rates made financing harder.",
@@ -822,7 +849,9 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
     confidence: item.sourceType === "official" ? "High" : "Medium",
     summary: summaryFor(item, editorialLane, privateMarketSegment, storyRead),
     whatHappened: sourceBlurb,
-    whatMoved: item.analysis?.whatMoved || (isMacro
+    whatMoved: item.analysis?.whatMoved || (isBreaking
+      ? "The main move is that private-market narrative now has a public IPO price, trading date, allocation structure, and aftermarket test."
+      : isMacro
       ? "The main move is in rates, inflation expectations, and the cost of capital."
       : isDeal
         ? "The main move is in deal certainty, shareholder pressure, and whether the financing still works."
@@ -831,14 +860,18 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
         : isPrivateEquity
           ? "The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective."
         : "The main move is in sector leadership, company valuation, and what the news says about peers."),
-    whyItMoved: item.analysis?.whyItMoved || (isPrivateCredit
+    whyItMoved: item.analysis?.whyItMoved || (isBreaking
+      ? "Breaking IPO news matters because it turns private-market narrative into observable public-market evidence: price, size, allocation, demand, and trading performance."
+      : isPrivateCredit
       ? "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back."
       : isPrivateEquity
         ? "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs."
         : `This was selected because it links ${topic} news to ${theme} and has enough source support to analyze rather than merely mention.`),
     valuationImpact: item.analysis?.valuationImpact || valuationImpact,
     financingImplication: item.analysis?.financingImplication || financingImplication,
-    sectorReadThrough: item.analysis?.sectorReadThrough || (isPrivateCredit
+    sectorReadThrough: item.analysis?.sectorReadThrough || (isBreaking
+      ? "Read-through is strongest for late-stage venture-backed companies, IPO-ready private issuers, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb large deals."
+      : isPrivateCredit
       ? "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings."
       : isPrivateEquity
         ? "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies."
@@ -846,7 +879,9 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
       ? `Connects to ${item.matchedThemes.map((match) => match.name).join(", ")}.`
       : "No tracked theme has a strong enough fresh signal; treat as general context."),
     parallel: item.analysis?.parallel || fallbackParallel,
-    watchNext: item.analysis?.watchNext || (isMacro
+    watchNext: item.analysis?.watchNext || (isBreaking
+      ? "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans."
+      : isMacro
       ? "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal."
       : isDeal
         ? "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms."
@@ -861,7 +896,9 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
         segment: privateMarketSegment,
         item,
         whatHappened: sourceBlurb,
-        whatMoved: item.analysis?.whatMoved || (isMacro
+        whatMoved: item.analysis?.whatMoved || (isBreaking
+          ? "The main move is that private-market narrative now has a public IPO price, trading date, allocation structure, and aftermarket test."
+          : isMacro
           ? "The main move is in rates, inflation expectations, and the cost of capital."
           : isDeal
             ? "The main move is in deal certainty, shareholder pressure, and whether the financing still works."

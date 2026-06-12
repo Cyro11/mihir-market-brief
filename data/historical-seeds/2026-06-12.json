@@ -1,116 +1,82 @@
 [
   {
-    "id": "openbb-risk-on-tech-led-tape-2026-06-12",
-    "source": "OpenBB / Yahoo Finance market data",
-    "sourceType": "market_data",
-    "title": "Nasdaq 100 jumps 3.38% as technology leads a broad risk-on tape",
-    "url": "https://finance.yahoo.com/quote/QQQ",
-    "publishedAt": "2026-06-12T12:00:23.000Z",
-    "summary": "OpenBB's Yahoo Finance market pack showed a broad June 11 risk-on close: QQQ rose 3.38%, SPY rose 1.70%, IWM rose 2.96%, and DIA rose 1.82%, while the technology sector ETF XLK gained 3.73% and led the sector board. The move puts the market read-through on growth leadership, breadth, and whether financing-sensitive small caps can keep participating.",
+    "id": "historical-spacex-record-ipo-2026-06-12",
+    "source": "Reuters",
+    "sourceType": "reputable",
+    "title": "SpaceX prices record $75 billion IPO at $135 per share before Nasdaq debut",
+    "url": "https://www.reuters.com/world/musks-spacex-prices-record-75-billion-ipo-135-share-2026-06-11",
+    "publishedAt": "2026-06-12T12:00:00Z",
+    "summary": "Reuters reported SpaceX priced a record $75 billion IPO at $135 per share, selling about 555.6 million shares at an implied valuation of roughly $1.77 trillion, with about 30% of the allocation reserved for retail investors. CNBC reported the Nasdaq debut was set for Friday, June 12 under ticker SPCX, while Bloomberg reported more than $70 billion of retail orders.",
     "facts": [
-      "OpenBB / Yahoo Finance market pack recorded QQQ up 3.38% on 2026-06-11, with volume at 1.56 times its 20-day average.",
-      "SPY rose 1.70%, IWM rose 2.96%, and DIA rose 1.82% on the same latest close, pointing to breadth beyond mega-cap growth.",
-      "Technology led the sector board with XLK up 3.73%; industrials rose 3.24% and materials rose 3.27%.",
-      "Energy lagged with XLE down 1.94%, so the tape was led by growth/industrial breadth rather than a commodity bid."
+      "Reuters reported SpaceX priced a record $75 billion IPO at $135 per share.",
+      "The offering size implies about 555.6 million shares sold.",
+      "Reuters put the implied valuation at roughly $1.77 trillion.",
+      "Reuters reported about 30% of the allocation was reserved for retail investors.",
+      "CNBC reported SpaceX was set to debut on Nasdaq on Friday, June 12 under ticker SPCX.",
+      "Bloomberg reported more than $70 billion of retail orders for the deal."
     ],
-    "tickers": ["QQQ", "SPY", "IWM", "DIA", "XLK", "XLI", "XLB", "XLE"],
-    "topics": ["markets", "companies", "ai", "capex"],
-    "feedId": "historical-seed",
+    "tickers": ["SPCX"],
+    "topics": ["breaking", "ipo", "deals", "private_markets", "markets"],
+    "forceBreaking": true,
+    "sourceTrail": [
+      {
+        "source": "Reuters",
+        "url": "https://www.reuters.com/world/musks-spacex-prices-record-75-billion-ipo-135-share-2026-06-11"
+      },
+      {
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/11/spacex-raises-75-billion-in-record-setting-ipo-ahead-of-nasdaq-debut.html"
+      },
+      {
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-ipo-draws-more-than-70-billion-in-retail-orders"
+      }
+    ],
     "relatedLinks": [
       {
-        "source": "Yahoo Finance QQQ quote",
-        "url": "https://finance.yahoo.com/quote/QQQ"
+        "label": "Reuters SpaceX IPO pricing report",
+        "url": "https://www.reuters.com/world/musks-spacex-prices-record-75-billion-ipo-135-share-2026-06-11",
+        "type": "Source"
       },
       {
-        "source": "Yahoo Finance SPY quote",
-        "url": "https://finance.yahoo.com/quote/SPY"
+        "label": "CNBC SpaceX Nasdaq debut report",
+        "url": "https://www.cnbc.com/2026/06/11/spacex-raises-75-billion-in-record-setting-ipo-ahead-of-nasdaq-debut.html",
+        "type": "Source"
       },
       {
-        "source": "Yahoo Finance XLK quote",
-        "url": "https://finance.yahoo.com/quote/XLK"
+        "label": "Bloomberg retail orders report",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-ipo-draws-more-than-70-billion-in-retail-orders",
+        "type": "Source"
       }
     ],
     "analysis": {
-      "whatMoved": "The tape moved through broad equity risk appetite: Nasdaq 100 leadership was strong, but the Russell 2000, Dow, industrials, and materials also participated, which makes the session more than a one-stock growth bounce.",
-      "whyItMoved": "The useful read is that investors were willing to re-risk into growth and cyclicals at the same time. That matters because a tech-led rally with small-cap and industrial participation sends a stronger breadth signal than a narrow mega-cap-only move.",
-      "valuationImpact": "For valuation, a 3%+ Nasdaq move can quickly re-expand multiples for long-duration growth, but the breadth test is whether earnings revisions and rates support the move rather than forcing it back into a short-covering frame.",
-      "financingImplication": "For financing, the small-cap bid matters because IWM is more sensitive to debt costs and refinancing windows. If small caps keep participating, capital-markets tone and sponsor exit math usually look healthier; if they fade first, the rally is less useful for financing conditions.",
-      "sectorReadThrough": "Read-through is strongest for software, semiconductors, AI infrastructure suppliers, industrial cyclicals, IPO candidates, and sponsor-owned assets waiting for better public-market comps.",
-      "watchNext": "Watch whether QQQ leadership holds with improving breadth, whether XLK continues to lead without rates moving against it, whether IWM confirms easier financing conditions, and whether lagging energy signals a rotation rather than a durable growth scare.",
+      "whatMoved": "SpaceX converted one of the largest private-market valuation stories into a public IPO price, a trading date, and a stated allocation structure.",
+      "whyItMoved": "The deal matters because a record $75 billion IPO at a roughly $1.77 trillion valuation creates a public benchmark for late-stage private marks, retail demand, and the IPO window for scaled technology issuers.",
+      "valuationImpact": "The $135 per share IPO price gives the market a fresh observable mark. The first trading sessions will show whether investors accept that $1.77 trillion reference point or demand a discount after the scarcity premium is tested publicly.",
+      "financingImplication": "A successful debut would tell bankers that very large IPO supply can clear when the issuer is scarce and demand is broad. Weak trading would warn other issuers that order-book size is not the same as durable aftermarket support.",
+      "sectorReadThrough": "Read-through is strongest for late-stage venture-backed companies, defense and space infrastructure names, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb mega-cap private issuers.",
       "parallel": {
-        "precedent": "Prior soft-landing rallies often began with mega-cap technology and then became more durable only when small caps, industrials, and credit-sensitive assets joined.",
-        "outcome": "The rallies that broadened tended to support IPO windows and sponsor exit confidence; narrow tech-only rallies were more vulnerable to rates or earnings disappointment.",
-        "whatRhymes": "Today’s broad participation rhymes with the healthier version of that setup because growth leadership and financing-sensitive breadth both improved in the same session.",
-        "whatDiffers": "This read is based on market-data context rather than a single company catalyst, so it needs follow-through in earnings, rates, and volume before being treated as a regime shift.",
-        "soWhat": "Use the move as a breadth and capital-markets tone check, not as proof that every growth multiple deserves to reset higher.",
+        "precedent": "Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO are useful large technology debut comparisons because each became a benchmark for investor appetite beyond its own company.",
+        "outcome": "Those deals showed that large IPOs can clear when the issuer is high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether the next issuers share similar scarcity value.",
+        "whatRhymes": "SpaceX similarly gives bankers and investors a headline valuation, a public trading reference, and a demand signal that can influence other IPO candidates.",
+        "whatDiffers": "SpaceX has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so its IPO may say more about scarce strategic assets than about every late-stage technology company.",
+        "soWhat": "Treat the debut as a powerful benchmark, but separate a one-company scarcity trade from a broad reopening of the IPO market.",
         "sourceTrail": [
           {
-            "source": "OpenBB / Yahoo Finance market data",
-            "url": "https://finance.yahoo.com/quote/QQQ"
+            "source": "Reuters",
+            "url": "https://www.reuters.com/world/musks-spacex-prices-record-75-billion-ipo-135-share-2026-06-11"
           },
           {
-            "source": "Yahoo Finance SPY quote",
-            "url": "https://finance.yahoo.com/quote/SPY"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "openbb-listed-alts-credit-proxies-2026-06-12",
-    "source": "OpenBB / Yahoo Finance market data",
-    "sourceType": "market_data",
-    "title": "Listed alts and direct-lending proxies join the risk-on tape",
-    "url": "https://finance.yahoo.com/quote/OWL",
-    "publishedAt": "2026-06-12T12:00:23.000Z",
-    "summary": "OpenBB's Yahoo Finance market pack showed private-market and direct-lending proxies participating in the June 11 risk-on session: Blue Owl rose 2.64%, Apollo rose 2.11%, Goldman Sachs rose 3.43%, and Nvidia rose 2.22%. The signal is not a new fund close; it is that public investors marked lenders, sponsor-adjacent managers, and capital-markets proxies higher alongside the broader equity rebound while financing-sensitive equities also participated",
-    "facts": [
-      "OpenBB / Yahoo Finance market pack recorded OWL up 2.64% on 2026-06-11.",
-      "APO rose 2.11% and GS rose 3.43%, giving the listed alts/capital-markets proxy group positive participation in the same session.",
-      "QQQ rose 3.38% and SPY rose 1.70%, so the alts proxy move came in a broader risk-on tape.",
-      "Energy lagged with XLE down 1.94%, making the private-market proxy read more tied to equity financing tone than to a commodity rally."
-    ],
-    "tickers": ["OWL", "APO", "GS", "BX", "KKR", "ARES", "QQQ", "SPY"],
-    "topics": ["private_markets", "private_credit", "markets"],
-    "feedId": "historical-seed",
-    "relatedLinks": [
-      {
-        "source": "Yahoo Finance OWL quote",
-        "url": "https://finance.yahoo.com/quote/OWL"
-      },
-      {
-        "source": "Yahoo Finance APO quote",
-        "url": "https://finance.yahoo.com/quote/APO"
-      },
-      {
-        "source": "Yahoo Finance GS quote",
-        "url": "https://finance.yahoo.com/quote/GS"
-      }
-    ],
-    "analysis": {
-      "whatMoved": "The move was in listed private-market and capital-markets proxies participating with the broader risk-on tape rather than trading as a separate stress signal.",
-      "whyItMoved": "Private-credit and alts proxies matter because they sit close to the financing window. When OWL, APO, GS, and the broader equity tape rise together, the market is saying financing appetite and sponsor-exit optionality look better at the margin.",
-      "valuationImpact": "For valuation, stronger listed alts and bank proxies can support private-market marks only if the public-comp improvement persists. A one-day move helps sentiment, but it does not automatically validate private NAVs or fee-growth assumptions.",
-      "financingImplication": "For financing, the read-through is most useful for sponsor-backed borrowers, direct lenders, BDCs, IPO candidates, and M&A pipelines that need a receptive equity and credit backdrop.",
-      "sectorReadThrough": "Read-through is strongest for listed alternative managers, private-credit lenders, BDCs, banks with capital-markets exposure, and sponsor-owned companies waiting for a transaction window.",
-      "watchNext": "Watch OWL, APO, BX, KKR, ARES, BDC proxies, high-yield spreads, IPO filings, and whether capital-markets fee proxies keep confirming the risk-on equity move.",
-      "parallel": {
-        "precedent": "In earlier reopening windows, public alternative managers and capital-markets banks often moved before private deal activity fully showed up in announced transactions.",
-        "outcome": "The public stocks improved first, but durable private-market activity required follow-through in financing terms, IPO demand, and actual sale processes.",
-        "whatRhymes": "Today’s move rhymes because listed proxies are again reacting faster than the slower private-market data can update.",
-        "whatDiffers": "This is market-data evidence, not direct evidence of new originations or exits, so it should be treated as a tone check rather than a completed-deal signal.",
-        "soWhat": "Use the listed proxy move to judge financing tone and exit optionality, then confirm it with spreads, filings, lender commentary, and announced transactions.",
-        "sourceTrail": [
-          {
-            "source": "OpenBB / Yahoo Finance market data",
-            "url": "https://finance.yahoo.com/quote/OWL"
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/2026/06/11/spacex-raises-75-billion-in-record-setting-ipo-ahead-of-nasdaq-debut.html"
           },
           {
-            "source": "Yahoo Finance APO quote",
-            "url": "https://finance.yahoo.com/quote/APO"
+            "source": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-ipo-draws-more-than-70-billion-in-retail-orders"
           }
         ]
-      }
+      },
+      "watchNext": "Watch the opening print, first-day close versus $135, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans after the SpaceX debut."
     }
   }
 ]

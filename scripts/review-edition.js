@@ -60,7 +60,7 @@ function deterministicReview(edition) {
     if (!move.sourceTrail?.length || move.sourceTrail.some((source) => !absoluteUrl(source.url))) {
       blockers.push(`${move.title}: missing source trail URL.`);
     }
-    if (!move.editorialLane || !["macro", "markets", "deals", "private_markets"].includes(move.editorialLane)) {
+    if (!move.editorialLane || !["breaking", "macro", "markets", "deals", "private_markets"].includes(move.editorialLane)) {
       blockers.push(`${move.title}: missing valid editorial lane.`);
     }
     if (!move.summary || String(move.summary).length < 80) {

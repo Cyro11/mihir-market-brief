@@ -5,6 +5,7 @@ import { editionDate, ensureDir, escapeHtml, readJson } from "./utils.js";
 
 const pages = [
   ["overview", "Overview", "index.html"],
+  ["breaking", "Breaking", "breaking.html"],
   ["overnight", "Overnight", "overnight.html"],
   ["moves", "Market Watch", "moves.html"],
   ["macro", "Macro Environment", "macro.html"],
@@ -17,12 +18,13 @@ const pages = [
   ["archive", "Archive", "archive.html"],
   ["notes", "Notes / Questions", "notes.html"]
 ];
-const mainNavPageIds = new Set(["overview", "overnight", "moves", "macro", "markets", "deals", "private-markets"]);
+const mainNavPageIds = new Set(["overview", "breaking", "overnight", "moves", "macro", "markets", "deals", "private-markets"]);
 const sectionMenuGroups = [
   {
     label: "Read",
     items: [
       ["overview", "Overview", "index.html"],
+      ["breaking", "Breaking", "breaking.html"],
       ["overnight", "Overnight", "overnight.html"],
       ["deep-dive", "Deep Dive", "deep-dive.html"],
       ["themes", "Themes", "themes.html"]
@@ -278,6 +280,10 @@ function moveContext(move) {
 }
 
 function pageForMove(edition, move) {
+  if (move.editorialLane === "breaking") {
+    const index = edition.sections?.breaking?.items?.findIndex((item) => item.id === move.id) ?? -1;
+    return index >= 0 ? `breaking.html#breaking-${index + 1}` : "breaking.html";
+  }
   if (move.editorialLane === "macro") {
     const index = edition.sections?.macro?.items?.findIndex((item) => item.id === move.id) ?? -1;
     return index >= 0 ? `macro.html#macro-${index + 1}` : "macro.html";
@@ -435,6 +441,7 @@ function overview(edition, base = "") {
 
 function sectionSummaryPagelet(edition, base = "") {
   const sections = [
+    ["breaking", "Breaking", "breaking.html", "Major source-backed headlines that can reset the market or capital-markets read."],
     ["overnight", "Overnight", "overnight.html", "Big source-backed stories that hit before the U.S. open and what they change."],
     ["macro", "Macro Environment", "macro.html", "Rates, inflation, GDP, jobs, and the cost-of-capital backdrop."],
     ["markets", "Markets", "markets.html", "Public-market moves and cross-asset signals."],
@@ -442,7 +449,7 @@ function sectionSummaryPagelet(edition, base = "") {
     ["privateMarkets", "Private Markets", "private-markets.html", "Private-credit, sponsor, fundraising, and exit-window signals."]
   ];
   return `<section class="panel compact">
-    <div class="panel-head"><div><span class="eyebrow">Section Tape</span><h2>Overnight, Macro, Markets, Deals, Private Markets</h2></div></div>
+    <div class="panel-head"><div><span class="eyebrow">Section Tape</span><h2>Breaking, Overnight, Macro, Markets, Deals, Private Markets</h2></div></div>
     <div class="summary-grid">
       ${sections.map(([key, label, file, description]) => {
         const count = key === "deals" ? (edition.dealTape?.length || 0) : (edition.sections?.[key]?.items?.length || 0);
@@ -809,6 +816,7 @@ function archivePage(archiveEntries, base = "") {
 }
 
 function pageContent(active, edition, review, archiveEntries, base = "") {
+  if (active === "breaking") return lanePage(edition, "breaking", "Breaking", "Breaking Tape", "Source-backed major events that can quickly reset valuation marks, IPO windows, financing conditions, or sector leadership.", base);
   if (active === "overnight") return overnightPage(edition, base);
   if (active === "moves") return movesPage(edition);
   if (active === "macro") return macroPage(edition, base);

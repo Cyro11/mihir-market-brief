@@ -1,9 +1,16 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
+import { scoreCandidate } from "../scripts/triage.js";
 import { bankerAnalysis, backfillWeekdaySections, buildOvernightSection, editorialLaneFor, overnightCandidates, privateMarketSegmentFor, selectLaneItems, selectMainCandidates, weekdaySectionBackfillCandidates } from "../scripts/build-edition.js";
 
 test("editorial lane classification separates macro, markets, deals, and private markets", () => {
+  assert.equal(editorialLaneFor({
+    title: "SpaceX prices record IPO before Nasdaq debut",
+    summary: "Reuters says SpaceX priced a record IPO with a valuation read-through.",
+    topics: ["breaking", "ipo", "deals", "private_markets", "markets"]
+  }), "breaking");
+
   assert.equal(editorialLaneFor({
     title: "Personal Income and Outlays, April 2026",
     summary: "PCE and rates are back in focus after the latest official release.",
@@ -52,6 +59,7 @@ test("section buckets cap each lane and private-market segment", () => {
   ];
   const sections = selectLaneItems(analyses, 3);
   assert.deepEqual(sections.overnight.items, []);
+  assert.ok(sections.breaking);
   assert.equal(sections.macro.items.length, 3);
   assert.equal(sections.markets.items.length, 3);
   assert.equal(sections.deals.items.length, 3);
@@ -171,6 +179,35 @@ test("weekday section backfill stays off on weekends", () => {
   assert.equal(sections.markets.items.length, 0);
 });
 
+
+test("major trusted IPO headlines can surface as breaking without lowering evidence threshold globally", () => {
+  const now = new Date("2026-06-12T13:30:00Z");
+  const themes = [];
+  const titleOnlyTrustedIpo = scoreCandidate({
+    id: "spacex-title-only",
+    title: "SpaceX prices record IPO before Nasdaq debut",
+    summary: "",
+    source: "Yahoo Finance",
+    sourceType: "reputable",
+    url: "https://finance.yahoo.com/news/spacex-prices-record-ipo",
+    publishedAt: "2026-06-12T12:00:00Z",
+    topics: ["breaking", "ipo", "deals", "private_markets", "markets"]
+  }, themes, now);
+  assert.equal(titleOnlyTrustedIpo.scores.evidence, 3);
+  assert.equal(titleOnlyTrustedIpo.scores.majorBreakingEvent, 1);
+  assert.equal(titleOnlyTrustedIpo.eligible, true);
+  assert.equal(editorialLaneFor(titleOnlyTrustedIpo), "breaking");
+
+  const titleOnlyOrdinary = scoreCandidate({
+    ...titleOnlyTrustedIpo,
+    id: "ordinary-title-only",
+    title: "Analyst turns cautious on dividend stock",
+    topics: ["companies"]
+  }, themes, now);
+  assert.equal(titleOnlyOrdinary.scores.majorBreakingEvent, 0);
+  assert.equal(titleOnlyOrdinary.eligible, false);
+});
+
 test("rendered edition includes first-class section tabs and empty-state language", async () => {
   const html = await fs.readFile("index.html", "utf8");
   assert.match(html, /overnight\.html\?v=\d{4}-\d{2}-\d{2}/);
@@ -182,6 +219,10 @@ test("rendered edition includes first-class section tabs and empty-state languag
   assert.match(html, /Section Tape/);
 
   const macroHtml = await fs.readFile("macro.html", "utf8");
+  const breakingHtml = await fs.readFile("breaking.html", "utf8");
+  assert.match(breakingHtml, /Breaking Tape/);
+  assert.match(breakingHtml, /Read full analysis|Hide full analysis|No strong signal today/);
+
   const overnightHtml = await fs.readFile("overnight.html", "utf8");
   assert.match(overnightHtml, /Big News Before The Open/);
   assert.match(overnightHtml, /market impact|No major overnight signal/i);
