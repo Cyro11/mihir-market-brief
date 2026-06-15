@@ -90,8 +90,8 @@ export function editorialLaneFor(item) {
     return "breaking";
   }
   const privateTagged = topics.has("private_markets") || topics.has("private_credit") || topics.has("private_equity");
-  const explicitTapeStory = /\bequity futures\b|\bpre-?bell\b|\bchip stocks? rebound\b|\bstock market today\b/.test(text)
-    || (/\bs&p 500\b|\bnasdaq composite\b|\bdow jones\b/.test(text) && /\bgain\b|\bsurge\b|\brally\b|\brebound\b|\bclose[sd]? higher\b|\btape\b/.test(text));
+  const explicitTapeStory = /\bequity futures\b|\bpre-?bell\b|\bchip stocks? rebound\b|\bstock market today\b|\bmagnificent seven\b|\bmarket drags?\b|\bmarket leaders?\b|\bstocks? surges?\b|\bshares? surges?\b/.test(text)
+    || (/\bstocks?\b|\bshares?\b|\bmarket\b|\bs&p 500\b|\bnasdaq composite\b|\bdow jones\b/.test(text) && /\bgain\b|\bsurge\b|\brally\b|\brebound\b|\bdrag\b|\bclose[sd]? higher\b|\btape\b/.test(text));
   if (explicitTapeStory && !privateTagged) {
     return "markets";
   }
@@ -724,7 +724,7 @@ function buildLongformSections({
     {
       id: "signal",
       heading: "What the public signal is actually telling us",
-      body: storyRead?.publicSignal || `${whatHappened} ${whatMoved} In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment.`
+      body: storyRead?.publicSignal || `The signal is not the headline alone; it is the observable transaction, financing, filing, or issuer action behind it. ${whatMoved} In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment. Source detail: ${whatHappened}`
     },
     {
       id: "interpretation",
@@ -975,6 +975,19 @@ export function backfillWeekdaySections(sections, scored, marketData, runDate) {
       sectionBackfill: true,
       confidence: item.sourceType === "official" ? "High" : "Medium"
     });
+  }
+  if (!sections.privateMarkets.items.length) {
+    const item = weekdaySectionBackfillCandidates(scored, "private_markets", runDate)[0];
+    if (item) {
+      const analysis = {
+        ...bankerAnalysis(item, marketData),
+        sectionBackfill: true,
+        confidence: item.sourceType === "official" ? "High" : "Medium"
+      };
+      sections.privateMarkets.items.push(analysis);
+      const segmentKey = analysis.privateMarketSegment === "private_credit" ? "privateCredit" : "privateEquity";
+      sections.privateMarkets.segments[segmentKey].items.push(analysis);
+    }
   }
   return sections;
 }

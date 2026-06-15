@@ -3,6 +3,24 @@ import { fileURLToPath } from "node:url";
 import { dataDir, sourceFeeds, sourcesDir } from "./config.js";
 import { absoluteUrl, editionDate, ensureDir, hashKey, normalizeText, readJson, slugify, writeJson } from "./utils.js";
 
+function marketHeadlineNeedsDerivedSummary(item) {
+  if (item.sourceType !== "reputable") return false;
+  if (normalizeText(item.summary).length >= 60 || (item.facts || []).length) return false;
+  const text = `${item.title} ${item.url}`;
+  return /(investors\.com|finance\.yahoo\.com|marketwatch\.com|cnbc\.com|reuters\.com)/i.test(text)
+    && /\b(stocks?|shares?|market|nasdaq|s&p|dow|russell|index|indices|futures|oil|crude|gold|dollar|treasury|yield|rates?|buy|acquire|acquisition|merger|deal|ipo|offering)\b/i.test(text);
+}
+
+function withDerivedMarketSummary(item) {
+  if (!marketHeadlineNeedsDerivedSummary(item)) return item;
+  const summary = `${item.title}. Current reputable-market headline with source URL, timestamp, and public-market/deal keywords; use as a thin RSS item only when the headline itself identifies the market move.`;
+  return {
+    ...item,
+    summary,
+    facts: [summary]
+  };
+}
+
 function parseRss(xml, feed, fetchedAt) {
   const items = [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)];
   return items.map((match) => {
@@ -12,7 +30,7 @@ function parseRss(xml, feed, fetchedAt) {
     const url = absoluteUrl(pick("link"));
     const publishedAt = new Date(pick("pubDate") || pick("dc:date") || fetchedAt).toISOString();
     const summary = pick("description");
-    return {
+    return withDerivedMarketSummary({
       id: `${feed.id}-${hashKey(`${title}${url}`)}`,
       source: feed.name,
       sourceType: feed.sourceType,
@@ -25,7 +43,7 @@ function parseRss(xml, feed, fetchedAt) {
       tickers: [],
       topics: feed.topics,
       feedId: feed.id
-    };
+    });
   })
     .filter((item) => item.title && item.url)
     .filter((item) => {

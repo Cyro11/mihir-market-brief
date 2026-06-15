@@ -171,6 +171,7 @@ test("proxy-feed analyst-rating listicles do not clear private-market signal", (
 
 test("trusted-domain gate excludes syndicated or promotional domains outside the source set", () => {
   assert.equal(hasTrustedDomain({ url: "https://finance.yahoo.com/markets/stocks/articles/kkr-present-morgan-stanley-us-201500545.html" }), true);
+  assert.equal(hasTrustedDomain({ url: "https://www.investors.com/news/magnificent-seven-stocks-market-drags-apple-nvidia-tesla/?src=A00220&yptr=yahoo" }), true);
   assert.equal(hasTrustedDomain({ url: "https://247wallst.com/investing/example" }), false);
   assert.equal(hasTrustedDomain({ url: "https://www.prnewswire.com/news-releases/example.html" }), false);
 });

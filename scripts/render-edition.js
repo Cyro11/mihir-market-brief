@@ -454,7 +454,10 @@ function sectionSummaryPagelet(edition, base = "") {
       ${sections.map(([key, label, file, description]) => {
         const count = key === "deals" ? (edition.dealTape?.length || 0) : (edition.sections?.[key]?.items?.length || 0);
         const first = key === "deals" ? edition.dealTape?.[0] : edition.sections?.[key]?.items?.[0];
-        return `<a class="summary-card" href="${internalHref(file, edition, base)}">
+        const href = key === "privateMarkets" && first
+          ? pageForMove(edition, first)
+          : file;
+        return `<a class="summary-card" href="${internalHref(href, edition, base)}">
           <span class="meta">${count} ${key === "deals" ? "ranked" : "selected"}</span>
           <b>${escapeHtml(label)}</b>
           <p>${escapeHtml(first?.whyItMoved || first?.whyItRanks || description)}</p>
