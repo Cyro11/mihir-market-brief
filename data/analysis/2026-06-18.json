@@ -1,0 +1,306 @@
+{
+  "runDate": "2026-06-18",
+  "generatedAt": "2026-06-18T12:00:57.530Z",
+  "selectedCount": 2,
+  "quietDay": true,
+  "analyses": [
+    {
+      "id": "private-credit-public-proxies-62f56c59",
+      "title": "Ares Appoints Brent Canada as Head of Infrastructure Debt",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_credit",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Private Credit Proxies",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ares-appoints-brent-canada-head-103000293.html?.tsrc=rss",
+          "publishedAt": "2026-06-18T10:30:00.000Z",
+          "fetchedAt": "2026-06-18T12:00:38.542Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "Ares Appoints Brent Canada as Head of Infrastructure Debt The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "whatHappened": "Ares Appoints Brent Canada as Head of Infrastructure Debt",
+      "whatMoved": "The main move is in private-credit capacity: whether direct lenders are still funding sponsor deals and refinancings at workable terms.",
+      "whyItMoved": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+      "valuationImpact": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt.",
+      "financingImplication": "Translate the item into direct-lending capacity, refinancing risk, debt cost, and whether lenders are still willing to finance sponsor-owned companies.",
+      "sectorReadThrough": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings.",
+      "parallel": {
+        "precedent": "Business-development companies such as Ares Capital and Blue Owl Capital Corp became useful public proxies for private-credit cycles after direct lending took share from broadly syndicated loans.",
+        "outcome": "The managers benefited from demand for floating-rate private loans, but investors watched non-accruals, realized losses, funding costs, and portfolio marks to separate durable income from credit drift.",
+        "whatRhymes": "Today's structured-note or direct-lending signal still has the same core tradeoff: attractive yield can support demand, while weak collateral or rising losses can erase the premium quickly.",
+        "whatDiffers": "Structured notes add tranche, collateral, and liquidity complexity, so headline coupon is less informative than attachment point, collateral pool quality, and who keeps first-loss risk.",
+        "soWhat": "Use the item to underwrite terms and credit protection, not to conclude that private-credit appetite alone validates valuations.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / Private Credit Proxies",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/ares-appoints-brent-canada-head-103000293.html?.tsrc=rss"
+          }
+        ]
+      },
+      "watchNext": "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to interpret the financing signal",
+            "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Business-development companies such as Ares Capital and Blue Owl Capital Corp became useful public proxies for private-credit cycles after direct lending took share from broadly syndicated loans. In that earlier setup, the managers benefited from demand for floating-rate private loans, but investors watched non-accruals, realized losses, funding costs, and portfolio marks to separate durable income from credit drift. What rhymes is today's structured-note or direct-lending signal still has the same core tradeoff: attractive yield can support demand, while weak collateral or rising losses can erase the premium quickly. What is different this time is structured notes add tranche, collateral, and liquidity complexity, so headline coupon is less informative than attachment point, collateral pool quality, and who keeps first-loss risk. The bottom line is use the item to underwrite terms and credit protection, not to conclude that private-credit appetite alone validates valuations."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Direct-lending public proxies",
+        "subtitle": "Three-month public market context for listed lenders and private-credit managers.",
+        "relevanceNote": "This board works here because the story is about how investors are marking the lenders themselves, not just what one spread series says.",
+        "allowedPages": [
+          "private-markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "BX",
+            "label": "Blackstone",
+            "value": 10.11186777095876,
+            "displayValue": 10.11186777095876,
+            "suffix": "%",
+            "latestDate": "2026-06-17",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "id": "OWL",
+            "label": "Blue Owl Capital",
+            "value": 4.171241808581122,
+            "displayValue": 4.171241808581122,
+            "suffix": "%",
+            "latestDate": "2026-06-17",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "id": "ARCC",
+            "label": "Ares Capital",
+            "value": -0.9846843458123108,
+            "displayValue": -0.9846843458123108,
+            "suffix": "%",
+            "latestDate": "2026-06-17",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "id": "BXSL",
+            "label": "Blackstone Secured Lending Fund",
+            "value": -3.452528381512374,
+            "displayValue": -3.452528381512374,
+            "suffix": "%",
+            "latestDate": "2026-06-17",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Blackstone",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blue Owl Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Ares Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blackstone Secured Lending Fund",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "acquisition",
+        "debt",
+        "credit",
+        "private_credit"
+      ]
+    },
+    {
+      "id": "private-equity-public-proxies-3dcc1126",
+      "title": "Apollo (APO) Opens Private Markets To Individual Investors With New Model Portfolios",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_credit",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Public PE Managers",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-apo-opens-private-markets-081709168.html?.tsrc=rss",
+          "publishedAt": "2026-06-18T08:17:09.000Z",
+          "fetchedAt": "2026-06-18T12:00:38.219Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "Apollo Global Management (NYSE:APO) has partnered with Morningstar, Franklin Templeton, and J.P. Morgan Asset Management to launch public/private model portfolios. The new portfolios are designed to give individual investors access to private markets such as private credit and real estate. The partnership focuses on research-driven models that blend public securities with private market exposure for use by financial advisors and their clients. Apollo Global Management is known for its focus... The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "whatHappened": "Apollo Global Management (NYSE:APO) has partnered with Morningstar, Franklin Templeton, and J.P. Morgan Asset Management to launch public/private model portfolios. The new portfolios are designed to give individual investors access to private markets such as private credit and real estate. The partnership focuses on research-driven models that blend public securities with private market exposure for use by financial advisors and their clients. Apollo Global Management is known for its focus...",
+      "whatMoved": "The main move is in private-credit capacity: whether direct lenders are still funding sponsor deals and refinancings at workable terms.",
+      "whyItMoved": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+      "valuationImpact": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt.",
+      "financingImplication": "Translate the item into direct-lending capacity, refinancing risk, debt cost, and whether lenders are still willing to finance sponsor-owned companies.",
+      "sectorReadThrough": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings.",
+      "parallel": {
+        "precedent": "Business-development companies such as Ares Capital and Blue Owl Capital Corp became useful public proxies for private-credit cycles after direct lending took share from broadly syndicated loans.",
+        "outcome": "The managers benefited from demand for floating-rate private loans, but investors watched non-accruals, realized losses, funding costs, and portfolio marks to separate durable income from credit drift.",
+        "whatRhymes": "Today's structured-note or direct-lending signal still has the same core tradeoff: attractive yield can support demand, while weak collateral or rising losses can erase the premium quickly.",
+        "whatDiffers": "Structured notes add tranche, collateral, and liquidity complexity, so headline coupon is less informative than attachment point, collateral pool quality, and who keeps first-loss risk.",
+        "soWhat": "Use the item to underwrite terms and credit protection, not to conclude that private-credit appetite alone validates valuations.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / Public PE Managers",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-apo-opens-private-markets-081709168.html?.tsrc=rss"
+          }
+        ]
+      },
+      "watchNext": "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to interpret the financing signal",
+            "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Business-development companies such as Ares Capital and Blue Owl Capital Corp became useful public proxies for private-credit cycles after direct lending took share from broadly syndicated loans. In that earlier setup, the managers benefited from demand for floating-rate private loans, but investors watched non-accruals, realized losses, funding costs, and portfolio marks to separate durable income from credit drift. What rhymes is today's structured-note or direct-lending signal still has the same core tradeoff: attractive yield can support demand, while weak collateral or rising losses can erase the premium quickly. What is different this time is structured notes add tranche, collateral, and liquidity complexity, so headline coupon is less informative than attachment point, collateral pool quality, and who keeps first-loss risk. The bottom line is use the item to underwrite terms and credit protection, not to conclude that private-credit appetite alone validates valuations."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Direct-lending public proxies",
+        "subtitle": "Three-month public market context for listed lenders and private-credit managers.",
+        "relevanceNote": "This board works here because the story is about how investors are marking the lenders themselves, not just what one spread series says.",
+        "allowedPages": [
+          "private-markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "BX",
+            "label": "Blackstone",
+            "value": 10.11186777095876,
+            "displayValue": 10.11186777095876,
+            "suffix": "%",
+            "latestDate": "2026-06-17",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "id": "OWL",
+            "label": "Blue Owl Capital",
+            "value": 4.171241808581122,
+            "displayValue": 4.171241808581122,
+            "suffix": "%",
+            "latestDate": "2026-06-17",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "id": "ARCC",
+            "label": "Ares Capital",
+            "value": -0.9846843458123108,
+            "displayValue": -0.9846843458123108,
+            "suffix": "%",
+            "latestDate": "2026-06-17",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "id": "BXSL",
+            "label": "Blackstone Secured Lending Fund",
+            "value": -3.452528381512374,
+            "displayValue": -3.452528381512374,
+            "suffix": "%",
+            "latestDate": "2026-06-17",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Blackstone",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blue Owl Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Ares Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blackstone Secured Lending Fund",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "credit",
+        "private credit",
+        "private credit",
+        "private_equity"
+      ]
+    }
+  ]
+}

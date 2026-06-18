@@ -1,9 +1,8 @@
 {
   "runDate": "2026-06-18",
-  "fetchedAt": "2026-06-18T12:00:39.079Z",
-  "sourceCount": 74,
-  "failures": [],
-  "items": [
+  "generatedAt": "2026-06-18T12:00:57.530Z",
+  "window": "Latest fetched source set; main tape excludes weak or unsupported items.",
+  "candidates": [
     {
       "id": "bea-news-u-s-international-trade-in-goods-and-services-april-2026",
       "source": "BEA",
@@ -21,7 +20,30 @@
         "macro",
         "inflation"
       ],
-      "feedId": "bea-news"
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bea-news-u-s-international-trade-in-goods-and-services-annual-revision",
@@ -40,7 +62,30 @@
         "macro",
         "inflation"
       ],
-      "feedId": "bea-news"
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bea-news-personal-income-and-outlays-april-2026",
@@ -59,7 +104,30 @@
         "macro",
         "inflation"
       ],
-      "feedId": "bea-news"
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bea-news-gdp-second-estimate-and-corporate-profits-1st-quarter-2026",
@@ -78,7 +146,30 @@
         "macro",
         "inflation"
       ],
-      "feedId": "bea-news"
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 3,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 36
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bea-news-u-s-international-transactions-and-investment-position-4th-quarter-and-year-2025",
@@ -97,7 +188,30 @@
         "macro",
         "inflation"
       ],
-      "feedId": "bea-news"
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bea-news-real-personal-consumption-expenditures-by-state-and-real-personal-income-by-stat",
@@ -116,7 +230,30 @@
         "macro",
         "inflation"
       ],
-      "feedId": "bea-news"
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bea-news-gross-domestic-product-by-county-and-personal-income-by-county-2024",
@@ -135,7 +272,30 @@
         "macro",
         "inflation"
       ],
-      "feedId": "bea-news"
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bea-news-direct-investment-by-country-and-industry-2024",
@@ -154,7 +314,30 @@
         "macro",
         "inflation"
       ],
-      "feedId": "bea-news"
+      "feedId": "bea-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 9,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 32
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bls-cpi-consumer-price-index-summary",
@@ -179,7 +362,40 @@
         "rates",
         "fed"
       ],
-      "feedId": "bls-cpi"
+      "feedId": "bls-cpi",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed",
+            "rates",
+            "inflation",
+            "cpi"
+          ]
+        },
+        {
+          "id": "consumer-and-staples",
+          "name": "Consumer and Staples",
+          "hits": [
+            "consumer"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 49
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bls-ppi-producer-price-index-news-release-summary",
@@ -204,7 +420,32 @@
         "rates",
         "fed"
       ],
-      "feedId": "bls-ppi"
+      "feedId": "bls-ppi",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed",
+            "rates",
+            "inflation"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 19,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 46
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "bls-employment-employment-situation-summary",
@@ -229,7 +470,31 @@
         "rates",
         "fed"
       ],
-      "feedId": "bls-employment"
+      "feedId": "bls-employment",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed",
+            "rates"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 42
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-6b7574a1",
@@ -247,7 +512,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-ee0d11ee",
@@ -265,7 +545,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-b7124828",
@@ -283,7 +578,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-81619c82",
@@ -301,7 +611,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-6a423be",
@@ -319,7 +644,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-bcbd5700",
@@ -337,7 +677,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-214915a8",
@@ -355,7 +710,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-4049fa3b",
@@ -373,7 +743,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 3,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 26
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-eb3b59fb",
@@ -391,7 +776,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-2b413651",
@@ -409,7 +809,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-3fc2cc3",
@@ -427,7 +842,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "sec-current-events-346f3e63",
@@ -445,7 +875,22 @@
       "topics": [
         "regulation"
       ],
-      "feedId": "sec-current-events"
+      "feedId": "sec-current-events",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 5,
+        "topicBankerWeight": 2,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 22
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "yahoo-finance-news-77044760",
@@ -462,7 +907,22 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 21
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
     },
     {
       "id": "yahoo-finance-news-d453c590",
@@ -481,7 +941,22 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 24
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "yahoo-finance-news-417ddeca",
@@ -498,7 +973,30 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 3,
+        "evidence": 3,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 24
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
     },
     {
       "id": "yahoo-finance-news-55c42364",
@@ -515,7 +1013,22 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 21
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
     },
     {
       "id": "yahoo-finance-news-e0813c50",
@@ -534,7 +1047,22 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 28
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "yahoo-finance-news-b17ca000",
@@ -551,7 +1079,22 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 21
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
     },
     {
       "id": "yahoo-finance-news-2184ffda",
@@ -570,7 +1113,22 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 24
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "yahoo-finance-news-af84147",
@@ -587,7 +1145,22 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 21
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
     },
     {
       "id": "yahoo-finance-news-2421d65",
@@ -606,7 +1179,30 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 27
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "yahoo-finance-news-61b8f878",
@@ -625,7 +1221,22 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 24
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "yahoo-finance-news-97b42166",
@@ -642,7 +1253,30 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "FRESH",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "fed"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 4,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 3,
+        "evidence": 3,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 34
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
     },
     {
       "id": "yahoo-finance-news-fbb69280",
@@ -659,7 +1293,22 @@
         "markets",
         "companies"
       ],
-      "feedId": "yahoo-finance-news"
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 21
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
     },
     {
       "id": "private-equity-public-proxies-3dcc1126",
@@ -680,7 +1329,39 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "FRESH",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit",
+            "private credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private credit",
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 4,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 50
+      },
+      "eligible": true,
+      "exclusionReason": ""
     },
     {
       "id": "private-equity-public-proxies-a32ffa94",
@@ -701,7 +1382,37 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "TODAY",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        },
+        {
+          "id": "consumer-and-staples",
+          "name": "Consumer and Staples",
+          "hits": [
+            "margin"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 3,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 42
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "private-equity-public-proxies-ac0b315a",
@@ -722,7 +1433,47 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        },
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "debt",
+            "credit",
+            "private credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private credit",
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 9,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 47
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-equity-public-proxies-3ae4fb41",
@@ -743,7 +1494,30 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 31
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-equity-public-proxies-472ac29d",
@@ -764,7 +1538,30 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 41
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-equity-public-proxies-ee9645ad",
@@ -785,7 +1582,39 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit",
+            "private credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private credit",
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 44
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-equity-public-proxies-68e4e67d",
@@ -806,7 +1635,46 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "nvidia"
+          ]
+        },
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit",
+            "private credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private credit",
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 9,
+        "evidence": 4,
+        "marketSignal": 2,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 45
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-equity-public-proxies-9808c8d3",
@@ -827,7 +1695,37 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 38
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-equity-public-proxies-e27aeca1",
@@ -848,7 +1746,37 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "yield"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 38
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-equity-public-proxies-4ffc7b8b",
@@ -869,7 +1797,30 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-equity-public-proxies-f5f89ab4",
@@ -890,7 +1841,40 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai",
+            "data center",
+            "nvidia"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity",
+            "venture"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 34
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-equity-public-proxies-5845a76d",
@@ -911,7 +1895,30 @@
         "markets",
         "companies"
       ],
-      "feedId": "private-equity-public-proxies"
+      "feedId": "private-equity-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 18,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 37
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-credit-public-proxies-62f56c59",
@@ -932,7 +1939,39 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "FRESH",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "acquisition",
+            "debt",
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 4,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 51
+      },
+      "eligible": true,
+      "exclusionReason": ""
     },
     {
       "id": "private-credit-public-proxies-afffc724",
@@ -953,7 +1992,37 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "FRESH",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 4,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 45
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "private-credit-public-proxies-d6bc9a1a",
@@ -974,7 +2043,37 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 41
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-credit-public-proxies-683180d8",
@@ -995,7 +2094,44 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "rates"
+          ]
+        },
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 9,
+        "evidence": 6,
+        "marketSignal": -4,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 36
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-credit-public-proxies-9e76a9d2",
@@ -1016,7 +2152,37 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 39
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-credit-public-proxies-f2a47a15",
@@ -1037,7 +2203,37 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -6,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 29
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-credit-public-proxies-2db2310e",
@@ -1058,7 +2254,44 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "rates"
+          ]
+        },
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 9,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 48
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-credit-public-proxies-600b2d1e",
@@ -1079,7 +2312,37 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-credit-public-proxies-a4b30991",
@@ -1100,7 +2363,39 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit",
+            "private credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private credit",
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 1,
+        "total": 45
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-credit-public-proxies-5ade95bf",
@@ -1121,7 +2416,37 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -1,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 39
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "private-credit-public-proxies-2fdb9575",
@@ -1142,7 +2467,38 @@
         "credit",
         "markets"
       ],
-      "feedId": "private-credit-public-proxies"
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "ipo",
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 1,
+        "total": 45
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "prnewswire-private-equity-1c3580dc",
@@ -1162,7 +2518,37 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 39
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-ec88f7dc",
@@ -1182,7 +2568,44 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "power"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        },
+        {
+          "id": "consumer-and-staples",
+          "name": "Consumer and Staples",
+          "hits": [
+            "retail"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 9,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 42
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-66995e7a",
@@ -1202,7 +2625,30 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -6,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 30
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-6701c4cc",
@@ -1222,7 +2668,38 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai",
+            "power"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 1,
+        "total": 49
+      },
+      "eligible": false,
+      "exclusionReason": "source domain is outside the trusted publication set"
     },
     {
       "id": "prnewswire-private-equity-61490037",
@@ -1242,7 +2719,38 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "data center",
+            "power"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 39
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-8977d10a",
@@ -1262,7 +2770,30 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 36
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-dfda6df7",
@@ -1282,7 +2813,37 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "rates"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -6,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 33
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-ad457d9c",
@@ -1302,7 +2863,30 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -1,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 40
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-eb406c14",
@@ -1322,7 +2906,30 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -6,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 30
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-2ed57dd4",
@@ -1342,7 +2949,37 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
+          "hits": [
+            "rates"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 39
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-e59cf5c",
@@ -1362,7 +2999,30 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -6,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 30
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "prnewswire-private-equity-f20fd0",
@@ -1382,7 +3042,30 @@
         "private_equity",
         "deals"
       ],
-      "feedId": "prnewswire-private-equity"
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 36
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
     },
     {
       "id": "seed-dell-ai-servers",
@@ -1457,7 +3140,32 @@
         },
         "watchNext": "Watch Dell's AI backlog, gross margin, memory supply, and whether large cloud customers keep raising capex plans."
       },
-      "fetchedAt": "2026-06-18T12:00:39.079Z"
+      "fetchedAt": "2026-06-18T12:00:39.079Z",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai",
+            "dell",
+            "capex"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 16,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 4,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 43
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "seed-mccormick-activist",
@@ -1522,7 +3230,31 @@
         },
         "watchNext": "Watch Toms Capital's asks, shareholder reaction, regulatory milestones, synergy details, and any change in deal timing."
       },
-      "fetchedAt": "2026-06-18T12:00:39.079Z"
+      "fetchedAt": "2026-06-18T12:00:39.079Z",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "consumer-and-staples",
+          "name": "Consumer and Staples",
+          "hits": [
+            "consumer",
+            "mccormick"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 12,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 4,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 39
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "seed-private-equity-kkr-healthium",
@@ -1579,7 +3311,39 @@
         },
         "watchNext": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes."
       },
-      "fetchedAt": "2026-06-18T12:00:39.079Z"
+      "fetchedAt": "2026-06-18T12:00:39.079Z",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "acquisition",
+            "sponsor"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity",
+            "sponsor"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 4,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 49
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     },
     {
       "id": "seed-private-credit-ipo-window",
@@ -1648,7 +3412,43 @@
         },
         "watchNext": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction."
       },
-      "fetchedAt": "2026-06-18T12:00:39.079Z"
+      "fetchedAt": "2026-06-18T12:00:39.079Z",
+      "freshnessStatus": "BACKGROUND",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "debt",
+            "credit",
+            "spread",
+            "private credit",
+            "sponsor"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private credit",
+            "private_credit",
+            "sponsor"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 1,
+        "sourceQuality": 4,
+        "topicBankerWeight": 23,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 4,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 53
+      },
+      "eligible": false,
+      "exclusionReason": "background item; not eligible for main tape"
     }
   ]
 }
