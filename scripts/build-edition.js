@@ -964,12 +964,96 @@ export function weekdaySectionBackfillCandidates(scored, lane, runDate) {
     .sort((a, b) => b.scores.total - a.scores.total);
 }
 
+function formatPct(value) {
+  return `${value >= 0 ? "+" : ""}${value.toFixed(2)}%`;
+}
+
+function previousCalendarDate(runDate) {
+  const date = new Date(`${runDate}T12:00:00Z`);
+  date.setUTCDate(date.getUTCDate() - 1);
+  return date.toISOString().slice(0, 10);
+}
+
+function buildMarketPackBackfill(marketData, runDate) {
+  const pack = marketData?.openbbMarketPack;
+  if (!pack || isWeekendRun(runDate)) return null;
+  const indices = (pack.indices || []).filter((row) => Number.isFinite(row.oneDayPct));
+  const sectors = (pack.sectors || []).filter((row) => Number.isFinite(row.oneDayPct));
+  if (!indices.length || !sectors.length) return null;
+  const freshestDate = [...indices, ...sectors]
+    .map((row) => row.latestDate)
+    .filter(Boolean)
+    .sort()
+    .pop();
+  if (!freshestDate || freshestDate < previousCalendarDate(runDate)) return null;
+  const indexLeader = [...indices].sort((a, b) => Math.abs(b.oneDayPct) - Math.abs(a.oneDayPct))[0];
+  const sectorLeader = [...sectors].sort((a, b) => Math.abs(b.oneDayPct) - Math.abs(a.oneDayPct))[0];
+  if (Math.abs(indexLeader.oneDayPct) < 0.75 && Math.abs(sectorLeader.oneDayPct) < 1.5) return null;
+  const spy = indices.find((row) => row.symbol === "SPY") || indices[0];
+  const qqq = indices.find((row) => row.symbol === "QQQ") || indexLeader;
+  const smallCaps = indices.find((row) => row.symbol === "IWM");
+  const title = `Market tape: ${indexLeader.label || indexLeader.symbol} ${indexLeader.oneDayPct >= 0 ? "led" : "lagged"} as ${sectorLeader.label || sectorLeader.symbol} ${sectorLeader.oneDayPct >= 0 ? "outperformed" : "sold off"}`;
+  const summary = `${pack.provider || "OpenBB/Yahoo Finance market data"} shows ${indexLeader.label || indexLeader.symbol} at ${formatPct(indexLeader.oneDayPct)} on ${indexLeader.latestDate}, while ${sectorLeader.label || sectorLeader.symbol} moved ${formatPct(sectorLeader.oneDayPct)}. SPY was ${formatPct(spy.oneDayPct)} and QQQ was ${formatPct(qqq.oneDayPct)}${smallCaps ? `, with IWM at ${formatPct(smallCaps.oneDayPct)}` : ""}. This gives the markets tab a source-backed tape read when no single news headline clears the evidence gate.`;
+  const sourceTrail = [indexLeader, sectorLeader, spy, qqq]
+    .filter(Boolean)
+    .filter((row, idx, arr) => arr.findIndex((other) => other.symbol === row.symbol) === idx)
+    .map((row) => ({
+      source: row.source || "OpenBB / Yahoo Finance provider",
+      url: row.url || `https://finance.yahoo.com/quote/${row.symbol}`,
+      publishedAt: pack.fetchedAt || marketData?.fetchedAt || `${runDate}T12:00:00.000Z`,
+      fetchedAt: pack.fetchedAt || marketData?.fetchedAt
+    }));
+  return {
+    id: `market-pack-tape-${runDate}`,
+    title,
+    editorialLane: "markets",
+    editorialLaneLabel: "Markets",
+    sourceTrail,
+    freshnessStatus: "LIVE",
+    confidence: "Medium",
+    summary,
+    whatHappened: summary,
+    whatMoved: `${indexLeader.label || indexLeader.symbol} moved ${formatPct(indexLeader.oneDayPct)} and ${sectorLeader.label || sectorLeader.symbol} moved ${formatPct(sectorLeader.oneDayPct)}, making the tape read about leadership and breadth rather than a single-company catalyst.`,
+    whyItMoved: "The market-pack signal matters because it shows where investors were willing to add or remove risk across indexes and sectors even when the source feed did not produce a standalone markets headline with enough evidence.",
+    valuationImpact: "A broad growth-led advance supports higher near-term multiples; narrow or defensive leadership would argue for more caution on cyclicals, small caps, and financing-sensitive stories.",
+    financingImplication: "Use the tape as a cost-of-capital read: stronger equity breadth can reopen issuance windows, while weakness in small caps or cyclicals keeps refinancing and sponsor-exit math tighter.",
+    sectorReadThrough: `${sectorLeader.label || sectorLeader.symbol} leadership is the first read-through; compare it with SPY, QQQ, IWM, and financials to separate broad risk appetite from narrow mega-cap support.`,
+    parallel: {
+      precedent: "Prior risk-on sessions with Nasdaq or technology leadership often helped issuance windows and sponsor marks before the benefit reached smaller, financing-sensitive companies.",
+      outcome: "Those rallies were most durable when breadth followed leadership; narrow index gains without small-cap or financial participation were easier to fade.",
+      whatRhymes: "The rhyme is the same leadership-versus-breadth test: headline index performance matters less than whether the move spreads into the parts of the market that need capital.",
+      whatDiffers: "This item is built from market-pack price data rather than a single reported article, so treat it as tape context and not as proof of a named fundamental catalyst.",
+      soWhat: "Use the market-pack read to frame valuation and financing conditions while waiting for a cleaner reported catalyst.",
+      sourceTrail
+    },
+    watchNext: "Watch whether QQQ/SPY leadership broadens into IWM, financials, and cyclicals, and whether volume confirms the move rather than leaving it as a narrow index rally.",
+    longform: {
+      sections: [
+        { id: "takeaway", heading: "Plain-English takeaway", body: "In plain English, the tape is saying where investors accepted risk most recently. A strong index print matters, but the better question is whether leadership is broad enough to support earnings multiples, issuance, and financing-sensitive assets." },
+        { id: "signal", heading: "What the public signal is actually telling us", body: `The source-backed signal is the OpenBB/Yahoo market pack: ${indexLeader.label || indexLeader.symbol} at ${formatPct(indexLeader.oneDayPct)}, ${sectorLeader.label || sectorLeader.symbol} at ${formatPct(sectorLeader.oneDayPct)}, SPY at ${formatPct(spy.oneDayPct)}, and QQQ at ${formatPct(qqq.oneDayPct)} through ${freshestDate}. That is a tape read, not a company-specific thesis.` },
+        { id: "interpretation", heading: "How to interpret the tape", body: "Interpret the move through leadership, breadth, and financing sensitivity. If growth and technology lead while small caps and financials lag, the market is paying for duration and quality more than for a broad economic acceleration." },
+        { id: "evidence", heading: "Where the evidence is strong versus indirect", body: "The evidence is strongest on observed price action, latest close, and relative sector/index performance. It is indirect on causality because price data alone does not prove the macro, earnings, or positioning driver behind the move." },
+        { id: "watch-next", heading: "What would confirm or weaken the read", body: "Confirmation would be follow-through across SPY, QQQ, IWM, financials, and cyclicals with healthy volume. The read weakens if leadership stays narrow, defensive sectors outperform, or rate-sensitive groups reverse the move." }
+      ]
+    },
+    visual: null,
+    relatedLinks: [],
+    marketPackBackfill: true
+  };
+}
+
 export function backfillWeekdaySections(sections, scored, marketData, runDate) {
   if (isWeekendRun(runDate)) return sections;
   for (const lane of ["macro", "markets", "deals"]) {
     if (sections[lane].items.length) continue;
     const item = weekdaySectionBackfillCandidates(scored, lane, runDate)[0];
-    if (!item) continue;
+    if (!item) {
+      if (lane === "markets") {
+        const tapeItem = buildMarketPackBackfill(marketData, runDate);
+        if (tapeItem) sections[lane].items.push(tapeItem);
+      }
+      continue;
+    }
     sections[lane].items.push({
       ...bankerAnalysis(item, marketData),
       sectionBackfill: true,
