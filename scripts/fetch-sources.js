@@ -13,7 +13,7 @@ function marketHeadlineNeedsDerivedSummary(item) {
 
 function withDerivedMarketSummary(item) {
   if (!marketHeadlineNeedsDerivedSummary(item)) return item;
-  const summary = `${item.title}. Current reputable-market headline with source URL, timestamp, and public-market/deal keywords; use as a thin RSS item only when the headline itself identifies the market move.`;
+  const summary = `${item.title}. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.`;
   return {
     ...item,
     summary,
