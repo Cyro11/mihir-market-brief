@@ -1,9 +1,157 @@
 {
   "runDate": "2026-06-25",
-  "generatedAt": "2026-06-25T12:01:29.790Z",
-  "selectedCount": 1,
-  "quietDay": true,
+  "generatedAt": "2026-06-25T17:44:56.201Z",
+  "selectedCount": 4,
+  "quietDay": false,
   "analyses": [
+    {
+      "id": "private-credit-public-proxies-ef755bc7",
+      "title": "Blue Owl in Advanced Talks to Buy Stake in Cleveland Cavaliers",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_credit",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Private Credit Proxies",
+          "url": "https://finance.yahoo.com/media-advertising/articles/blue-owl-advanced-talks-buy-132724834.html?.tsrc=rss",
+          "publishedAt": "2026-06-25T13:27:24.000Z",
+          "fetchedAt": "2026-06-25T17:44:36.787Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "summary": "Blue Owl in Advanced Talks to Buy Stake in Cleveland Cavaliers The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "whatHappened": "Blue Owl in Advanced Talks to Buy Stake in Cleveland Cavaliers",
+      "whatMoved": "The main move is in private-credit capacity: whether direct lenders are still funding sponsor deals and refinancings at workable terms.",
+      "whyItMoved": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+      "valuationImpact": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt.",
+      "financingImplication": "Translate the item into direct-lending capacity, refinancing risk, debt cost, and whether lenders are still willing to finance sponsor-owned companies.",
+      "sectorReadThrough": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings.",
+      "parallel": {
+        "precedent": "Business-development companies such as Ares Capital and Blue Owl Capital Corp became useful public proxies for private-credit cycles after direct lending took share from broadly syndicated loans.",
+        "outcome": "The managers benefited from demand for floating-rate private loans, but investors watched non-accruals, realized losses, funding costs, and portfolio marks to separate durable income from credit drift.",
+        "whatRhymes": "Today's structured-note or direct-lending signal still has the same core tradeoff: attractive yield can support demand, while weak collateral or rising losses can erase the premium quickly.",
+        "whatDiffers": "Structured notes add tranche, collateral, and liquidity complexity, so headline coupon is less informative than attachment point, collateral pool quality, and who keeps first-loss risk.",
+        "soWhat": "Use the item to underwrite terms and credit protection, not to conclude that private-credit appetite alone validates valuations.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / Private Credit Proxies",
+            "url": "https://finance.yahoo.com/media-advertising/articles/blue-owl-advanced-talks-buy-132724834.html?.tsrc=rss"
+          }
+        ]
+      },
+      "watchNext": "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to interpret the financing signal",
+            "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Business-development companies such as Ares Capital and Blue Owl Capital Corp became useful public proxies for private-credit cycles after direct lending took share from broadly syndicated loans. In that earlier setup, the managers benefited from demand for floating-rate private loans, but investors watched non-accruals, realized losses, funding costs, and portfolio marks to separate durable income from credit drift. What rhymes is today's structured-note or direct-lending signal still has the same core tradeoff: attractive yield can support demand, while weak collateral or rising losses can erase the premium quickly. What is different this time is structured notes add tranche, collateral, and liquidity complexity, so headline coupon is less informative than attachment point, collateral pool quality, and who keeps first-loss risk. The bottom line is use the item to underwrite terms and credit protection, not to conclude that private-credit appetite alone validates valuations."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Direct-lending public proxies",
+        "subtitle": "Three-month public market context for listed lenders and private-credit managers.",
+        "relevanceNote": "This board works here because the story is about how investors are marking the lenders themselves, not just what one spread series says.",
+        "allowedPages": [
+          "private-markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "BX",
+            "label": "Blackstone",
+            "value": 6.324970963880891,
+            "displayValue": 6.324970963880891,
+            "suffix": "%",
+            "latestDate": "2026-06-25",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "id": "OWL",
+            "label": "Blue Owl Capital",
+            "value": -5.647832672080397,
+            "displayValue": -5.647832672080397,
+            "suffix": "%",
+            "latestDate": "2026-06-25",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "id": "ARCC",
+            "label": "Ares Capital",
+            "value": -0.7519347285423537,
+            "displayValue": -0.7519347285423537,
+            "suffix": "%",
+            "latestDate": "2026-06-25",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "id": "BXSL",
+            "label": "Blackstone Secured Lending Fund",
+            "value": -1.1598955525116637,
+            "displayValue": -1.1598955525116637,
+            "suffix": "%",
+            "latestDate": "2026-06-25",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Blackstone",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blue Owl Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Ares Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blackstone Secured Lending Fund",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "ai",
+        "credit",
+        "private_credit"
+      ]
+    },
     {
       "id": "private-credit-public-proxies-ef31fa71",
       "title": "Private Credit’s Big Arbitrage Trade Gains Backing From Advisers",
@@ -15,10 +163,10 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/private-credit-big-arbitrage-trade-111000527.html?.tsrc=rss",
           "publishedAt": "2026-06-25T11:10:00.000Z",
-          "fetchedAt": "2026-06-25T12:01:06.722Z"
+          "fetchedAt": "2026-06-25T17:44:36.787Z"
         }
       ],
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "summary": "Private Credit’s Big Arbitrage Trade Gains Backing From Advisers The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
       "whatHappened": "Private Credit’s Big Arbitrage Trade Gains Backing From Advisers",
@@ -90,37 +238,37 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 4.253552986878469,
-            "displayValue": 4.253552986878469,
+            "value": 6.324970963880891,
+            "displayValue": 6.324970963880891,
             "suffix": "%",
-            "latestDate": "2026-06-24",
+            "latestDate": "2026-06-25",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
           },
           {
             "id": "OWL",
             "label": "Blue Owl Capital",
-            "value": -6.201544656725289,
-            "displayValue": -6.201544656725289,
+            "value": -5.647832672080397,
+            "displayValue": -5.647832672080397,
             "suffix": "%",
-            "latestDate": "2026-06-24",
+            "latestDate": "2026-06-25",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
           },
           {
             "id": "ARCC",
             "label": "Ares Capital",
-            "value": -1.1627856626943613,
-            "displayValue": -1.1627856626943613,
+            "value": -0.7519347285423537,
+            "displayValue": -0.7519347285423537,
             "suffix": "%",
-            "latestDate": "2026-06-24",
+            "latestDate": "2026-06-25",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
           },
           {
             "id": "BXSL",
             "label": "Blackstone Secured Lending Fund",
-            "value": -1.8226952685742894,
-            "displayValue": -1.8226952685742894,
+            "value": -1.1598955525116637,
+            "displayValue": -1.1598955525116637,
             "suffix": "%",
-            "latestDate": "2026-06-24",
+            "latestDate": "2026-06-25",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
           }
         ],
@@ -152,6 +300,1360 @@
         "private credit",
         "private credit",
         "private_credit"
+      ]
+    },
+    {
+      "id": "bea-news-gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-inc",
+      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
+      "editorialLane": "macro",
+      "editorialLaneLabel": "Macro Environment",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "BEA",
+          "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-1st",
+          "publishedAt": "2026-06-25T12:30:00.000Z",
+          "fetchedAt": "2026-06-25T17:44:35.554Z"
+        }
+      ],
+      "freshnessStatus": "FRESH",
+      "confidence": "High",
+      "summary": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026. BEA official economic release with potential macro, rate, valuation, and sector implications. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "whatHappened": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
+      "whatMoved": "The main move is in rates, inflation expectations, and the cost of capital.",
+      "whyItMoved": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+      "financingImplication": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening.",
+      "sectorReadThrough": "Connects to Rates and Cost of Capital.",
+      "parallel": {
+        "precedent": "Past inflation scares where stocks held up for a while even as rates made financing harder.",
+        "outcome": "Valuations and leverage became less forgiving even when the equity market still looked constructive.",
+        "whatRhymes": "The useful comparison is how rates flow into valuation and deal math.",
+        "whatDiffers": "This setup depends on the inflation mix, the Fed's reaction, and the shape of the Treasury curve.",
+        "soWhat": "Use the precedent to stress-test rates and financing, not to predict the next index move.",
+        "sourceTrail": [
+          {
+            "source": "BEA",
+            "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-1st"
+          }
+        ]
+      },
+      "watchNext": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
+          },
+          {
+            "id": "release",
+            "heading": "What the release actually said",
+            "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
+          },
+          {
+            "id": "mechanism",
+            "heading": "How the transmission works",
+            "body": "The main move is in rates, inflation expectations, and the cost of capital. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
+          },
+          {
+            "id": "market-read",
+            "heading": "How the market may read it",
+            "body": "Connects to Rates and Cost of Capital. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or break the read",
+            "body": "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
+          }
+        ]
+      },
+      "visual": {
+        "type": "line-chart",
+        "title": "Yield stack and Fed-path pressure",
+        "subtitle": "Latest available public rate observations through the brief date; uses Yahoo Treasury proxies when FRED daily Treasury feeds are unavailable.",
+        "relevanceNote": "This chart fits because the story is about Fed-path repricing and the discount-rate stack that drives equity multiples, financing costs, and deal math.",
+        "allowedPages": [
+          "macro",
+          "deep-dive"
+        ],
+        "axisTitle": "Rate",
+        "axisSuffix": "%",
+        "visualSource": "Public rate data",
+        "series": [
+          {
+            "id": "DGS10",
+            "label": "10-Year Treasury Yield",
+            "source": "FRED / U.S. Treasury",
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "fetchedAt": "2026-06-25T17:44:37.749Z",
+            "observations": [
+              {
+                "date": "2026-02-18",
+                "value": 4.09
+              },
+              {
+                "date": "2026-02-19",
+                "value": 4.08
+              },
+              {
+                "date": "2026-02-20",
+                "value": 4.08
+              },
+              {
+                "date": "2026-02-23",
+                "value": 4.03
+              },
+              {
+                "date": "2026-02-24",
+                "value": 4.04
+              },
+              {
+                "date": "2026-02-25",
+                "value": 4.05
+              },
+              {
+                "date": "2026-02-26",
+                "value": 4.02
+              },
+              {
+                "date": "2026-02-27",
+                "value": 3.97
+              },
+              {
+                "date": "2026-03-02",
+                "value": 4.05
+              },
+              {
+                "date": "2026-03-03",
+                "value": 4.06
+              },
+              {
+                "date": "2026-03-04",
+                "value": 4.09
+              },
+              {
+                "date": "2026-03-05",
+                "value": 4.13
+              },
+              {
+                "date": "2026-03-06",
+                "value": 4.15
+              },
+              {
+                "date": "2026-03-09",
+                "value": 4.12
+              },
+              {
+                "date": "2026-03-10",
+                "value": 4.15
+              },
+              {
+                "date": "2026-03-11",
+                "value": 4.21
+              },
+              {
+                "date": "2026-03-12",
+                "value": 4.27
+              },
+              {
+                "date": "2026-03-13",
+                "value": 4.28
+              },
+              {
+                "date": "2026-03-16",
+                "value": 4.23
+              },
+              {
+                "date": "2026-03-17",
+                "value": 4.2
+              },
+              {
+                "date": "2026-03-18",
+                "value": 4.26
+              },
+              {
+                "date": "2026-03-19",
+                "value": 4.25
+              },
+              {
+                "date": "2026-03-20",
+                "value": 4.39
+              },
+              {
+                "date": "2026-03-23",
+                "value": 4.34
+              },
+              {
+                "date": "2026-03-24",
+                "value": 4.39
+              },
+              {
+                "date": "2026-03-25",
+                "value": 4.33
+              },
+              {
+                "date": "2026-03-26",
+                "value": 4.42
+              },
+              {
+                "date": "2026-03-27",
+                "value": 4.44
+              },
+              {
+                "date": "2026-03-30",
+                "value": 4.35
+              },
+              {
+                "date": "2026-03-31",
+                "value": 4.3
+              },
+              {
+                "date": "2026-04-01",
+                "value": 4.33
+              },
+              {
+                "date": "2026-04-02",
+                "value": 4.31
+              },
+              {
+                "date": "2026-04-03",
+                "value": 4.35
+              },
+              {
+                "date": "2026-04-06",
+                "value": 4.34
+              },
+              {
+                "date": "2026-04-07",
+                "value": 4.33
+              },
+              {
+                "date": "2026-04-08",
+                "value": 4.29
+              },
+              {
+                "date": "2026-04-09",
+                "value": 4.29
+              },
+              {
+                "date": "2026-04-10",
+                "value": 4.31
+              },
+              {
+                "date": "2026-04-13",
+                "value": 4.3
+              },
+              {
+                "date": "2026-04-14",
+                "value": 4.26
+              },
+              {
+                "date": "2026-04-15",
+                "value": 4.29
+              },
+              {
+                "date": "2026-04-16",
+                "value": 4.32
+              },
+              {
+                "date": "2026-04-17",
+                "value": 4.26
+              },
+              {
+                "date": "2026-04-20",
+                "value": 4.26
+              },
+              {
+                "date": "2026-04-21",
+                "value": 4.3
+              },
+              {
+                "date": "2026-04-22",
+                "value": 4.3
+              },
+              {
+                "date": "2026-04-23",
+                "value": 4.34
+              },
+              {
+                "date": "2026-04-24",
+                "value": 4.31
+              },
+              {
+                "date": "2026-04-27",
+                "value": 4.35
+              },
+              {
+                "date": "2026-04-28",
+                "value": 4.36
+              },
+              {
+                "date": "2026-04-29",
+                "value": 4.42
+              },
+              {
+                "date": "2026-04-30",
+                "value": 4.4
+              },
+              {
+                "date": "2026-05-01",
+                "value": 4.39
+              },
+              {
+                "date": "2026-05-04",
+                "value": 4.45
+              },
+              {
+                "date": "2026-05-05",
+                "value": 4.43
+              },
+              {
+                "date": "2026-05-06",
+                "value": 4.36
+              },
+              {
+                "date": "2026-05-07",
+                "value": 4.41
+              },
+              {
+                "date": "2026-05-08",
+                "value": 4.38
+              },
+              {
+                "date": "2026-05-11",
+                "value": 4.42
+              },
+              {
+                "date": "2026-05-12",
+                "value": 4.46
+              },
+              {
+                "date": "2026-05-13",
+                "value": 4.46
+              },
+              {
+                "date": "2026-05-14",
+                "value": 4.47
+              },
+              {
+                "date": "2026-05-15",
+                "value": 4.59
+              },
+              {
+                "date": "2026-05-18",
+                "value": 4.61
+              },
+              {
+                "date": "2026-05-19",
+                "value": 4.67
+              },
+              {
+                "date": "2026-05-20",
+                "value": 4.57
+              },
+              {
+                "date": "2026-05-21",
+                "value": 4.57
+              },
+              {
+                "date": "2026-05-22",
+                "value": 4.56
+              },
+              {
+                "date": "2026-05-25",
+                "value": 0
+              },
+              {
+                "date": "2026-05-26",
+                "value": 4.5
+              },
+              {
+                "date": "2026-05-27",
+                "value": 4.48
+              },
+              {
+                "date": "2026-05-28",
+                "value": 4.45
+              },
+              {
+                "date": "2026-05-29",
+                "value": 4.45
+              },
+              {
+                "date": "2026-06-01",
+                "value": 4.47
+              },
+              {
+                "date": "2026-06-02",
+                "value": 4.46
+              },
+              {
+                "date": "2026-06-03",
+                "value": 4.49
+              },
+              {
+                "date": "2026-06-04",
+                "value": 4.47
+              },
+              {
+                "date": "2026-06-05",
+                "value": 4.55
+              },
+              {
+                "date": "2026-06-08",
+                "value": 4.56
+              },
+              {
+                "date": "2026-06-09",
+                "value": 4.53
+              },
+              {
+                "date": "2026-06-10",
+                "value": 4.55
+              },
+              {
+                "date": "2026-06-11",
+                "value": 4.45
+              },
+              {
+                "date": "2026-06-12",
+                "value": 4.48
+              },
+              {
+                "date": "2026-06-15",
+                "value": 4.47
+              },
+              {
+                "date": "2026-06-16",
+                "value": 4.43
+              },
+              {
+                "date": "2026-06-17",
+                "value": 4.49
+              },
+              {
+                "date": "2026-06-18",
+                "value": 4.46
+              },
+              {
+                "date": "2026-06-19",
+                "value": 0
+              },
+              {
+                "date": "2026-06-22",
+                "value": 4.51
+              },
+              {
+                "date": "2026-06-23",
+                "value": 4.5
+              }
+            ]
+          },
+          {
+            "id": "DGS2",
+            "label": "2-Year Treasury Yield",
+            "source": "FRED / U.S. Treasury",
+            "url": "https://fred.stlouisfed.org/series/DGS2",
+            "fetchedAt": "2026-06-25T17:44:37.894Z",
+            "observations": [
+              {
+                "date": "2026-02-18",
+                "value": 3.47
+              },
+              {
+                "date": "2026-02-19",
+                "value": 3.47
+              },
+              {
+                "date": "2026-02-20",
+                "value": 3.48
+              },
+              {
+                "date": "2026-02-23",
+                "value": 3.43
+              },
+              {
+                "date": "2026-02-24",
+                "value": 3.43
+              },
+              {
+                "date": "2026-02-25",
+                "value": 3.45
+              },
+              {
+                "date": "2026-02-26",
+                "value": 3.42
+              },
+              {
+                "date": "2026-02-27",
+                "value": 3.38
+              },
+              {
+                "date": "2026-03-02",
+                "value": 3.47
+              },
+              {
+                "date": "2026-03-03",
+                "value": 3.51
+              },
+              {
+                "date": "2026-03-04",
+                "value": 3.54
+              },
+              {
+                "date": "2026-03-05",
+                "value": 3.57
+              },
+              {
+                "date": "2026-03-06",
+                "value": 3.56
+              },
+              {
+                "date": "2026-03-09",
+                "value": 3.56
+              },
+              {
+                "date": "2026-03-10",
+                "value": 3.57
+              },
+              {
+                "date": "2026-03-11",
+                "value": 3.64
+              },
+              {
+                "date": "2026-03-12",
+                "value": 3.76
+              },
+              {
+                "date": "2026-03-13",
+                "value": 3.73
+              },
+              {
+                "date": "2026-03-16",
+                "value": 3.68
+              },
+              {
+                "date": "2026-03-17",
+                "value": 3.68
+              },
+              {
+                "date": "2026-03-18",
+                "value": 3.76
+              },
+              {
+                "date": "2026-03-19",
+                "value": 3.79
+              },
+              {
+                "date": "2026-03-20",
+                "value": 3.88
+              },
+              {
+                "date": "2026-03-23",
+                "value": 3.83
+              },
+              {
+                "date": "2026-03-24",
+                "value": 3.9
+              },
+              {
+                "date": "2026-03-25",
+                "value": 3.84
+              },
+              {
+                "date": "2026-03-26",
+                "value": 3.96
+              },
+              {
+                "date": "2026-03-27",
+                "value": 3.88
+              },
+              {
+                "date": "2026-03-30",
+                "value": 3.82
+              },
+              {
+                "date": "2026-03-31",
+                "value": 3.79
+              },
+              {
+                "date": "2026-04-01",
+                "value": 3.81
+              },
+              {
+                "date": "2026-04-02",
+                "value": 3.79
+              },
+              {
+                "date": "2026-04-03",
+                "value": 3.84
+              },
+              {
+                "date": "2026-04-06",
+                "value": 3.84
+              },
+              {
+                "date": "2026-04-07",
+                "value": 3.81
+              },
+              {
+                "date": "2026-04-08",
+                "value": 3.79
+              },
+              {
+                "date": "2026-04-09",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-10",
+                "value": 3.81
+              },
+              {
+                "date": "2026-04-13",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-14",
+                "value": 3.76
+              },
+              {
+                "date": "2026-04-15",
+                "value": 3.76
+              },
+              {
+                "date": "2026-04-16",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-17",
+                "value": 3.71
+              },
+              {
+                "date": "2026-04-20",
+                "value": 3.72
+              },
+              {
+                "date": "2026-04-21",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-22",
+                "value": 3.79
+              },
+              {
+                "date": "2026-04-23",
+                "value": 3.83
+              },
+              {
+                "date": "2026-04-24",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-27",
+                "value": 3.78
+              },
+              {
+                "date": "2026-04-28",
+                "value": 3.84
+              },
+              {
+                "date": "2026-04-29",
+                "value": 3.92
+              },
+              {
+                "date": "2026-04-30",
+                "value": 3.88
+              },
+              {
+                "date": "2026-05-01",
+                "value": 3.88
+              },
+              {
+                "date": "2026-05-04",
+                "value": 3.95
+              },
+              {
+                "date": "2026-05-05",
+                "value": 3.93
+              },
+              {
+                "date": "2026-05-06",
+                "value": 3.87
+              },
+              {
+                "date": "2026-05-07",
+                "value": 3.92
+              },
+              {
+                "date": "2026-05-08",
+                "value": 3.9
+              },
+              {
+                "date": "2026-05-11",
+                "value": 3.95
+              },
+              {
+                "date": "2026-05-12",
+                "value": 4
+              },
+              {
+                "date": "2026-05-13",
+                "value": 3.98
+              },
+              {
+                "date": "2026-05-14",
+                "value": 4
+              },
+              {
+                "date": "2026-05-15",
+                "value": 4.09
+              },
+              {
+                "date": "2026-05-18",
+                "value": 4.07
+              },
+              {
+                "date": "2026-05-19",
+                "value": 4.13
+              },
+              {
+                "date": "2026-05-20",
+                "value": 4.04
+              },
+              {
+                "date": "2026-05-21",
+                "value": 4.08
+              },
+              {
+                "date": "2026-05-22",
+                "value": 4.13
+              },
+              {
+                "date": "2026-05-25",
+                "value": 0
+              },
+              {
+                "date": "2026-05-26",
+                "value": 4.01
+              },
+              {
+                "date": "2026-05-27",
+                "value": 4
+              },
+              {
+                "date": "2026-05-28",
+                "value": 3.99
+              },
+              {
+                "date": "2026-05-29",
+                "value": 3.98
+              },
+              {
+                "date": "2026-06-01",
+                "value": 4.05
+              },
+              {
+                "date": "2026-06-02",
+                "value": 4.05
+              },
+              {
+                "date": "2026-06-03",
+                "value": 4.08
+              },
+              {
+                "date": "2026-06-04",
+                "value": 4.05
+              },
+              {
+                "date": "2026-06-05",
+                "value": 4.17
+              },
+              {
+                "date": "2026-06-08",
+                "value": 4.15
+              },
+              {
+                "date": "2026-06-09",
+                "value": 4.13
+              },
+              {
+                "date": "2026-06-10",
+                "value": 4.13
+              },
+              {
+                "date": "2026-06-11",
+                "value": 4.05
+              },
+              {
+                "date": "2026-06-12",
+                "value": 4.09
+              },
+              {
+                "date": "2026-06-15",
+                "value": 4.07
+              },
+              {
+                "date": "2026-06-16",
+                "value": 4.05
+              },
+              {
+                "date": "2026-06-17",
+                "value": 4.2
+              },
+              {
+                "date": "2026-06-18",
+                "value": 4.19
+              },
+              {
+                "date": "2026-06-19",
+                "value": 0
+              },
+              {
+                "date": "2026-06-22",
+                "value": 4.24
+              },
+              {
+                "date": "2026-06-23",
+                "value": 4.16
+              }
+            ]
+          },
+          {
+            "id": "FEDFUNDS",
+            "label": "Effective Federal Funds Rate",
+            "source": "FRED / Federal Reserve",
+            "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+            "fetchedAt": "2026-06-25T17:44:37.942Z",
+            "observations": [
+              {
+                "date": "2018-12-01",
+                "value": 2.27
+              },
+              {
+                "date": "2019-01-01",
+                "value": 2.4
+              },
+              {
+                "date": "2019-02-01",
+                "value": 2.4
+              },
+              {
+                "date": "2019-03-01",
+                "value": 2.41
+              },
+              {
+                "date": "2019-04-01",
+                "value": 2.42
+              },
+              {
+                "date": "2019-05-01",
+                "value": 2.39
+              },
+              {
+                "date": "2019-06-01",
+                "value": 2.38
+              },
+              {
+                "date": "2019-07-01",
+                "value": 2.4
+              },
+              {
+                "date": "2019-08-01",
+                "value": 2.13
+              },
+              {
+                "date": "2019-09-01",
+                "value": 2.04
+              },
+              {
+                "date": "2019-10-01",
+                "value": 1.83
+              },
+              {
+                "date": "2019-11-01",
+                "value": 1.55
+              },
+              {
+                "date": "2019-12-01",
+                "value": 1.55
+              },
+              {
+                "date": "2020-01-01",
+                "value": 1.55
+              },
+              {
+                "date": "2020-02-01",
+                "value": 1.58
+              },
+              {
+                "date": "2020-03-01",
+                "value": 0.65
+              },
+              {
+                "date": "2020-04-01",
+                "value": 0.05
+              },
+              {
+                "date": "2020-05-01",
+                "value": 0.05
+              },
+              {
+                "date": "2020-06-01",
+                "value": 0.08
+              },
+              {
+                "date": "2020-07-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-08-01",
+                "value": 0.1
+              },
+              {
+                "date": "2020-09-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-10-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-11-01",
+                "value": 0.09
+              },
+              {
+                "date": "2020-12-01",
+                "value": 0.09
+              },
+              {
+                "date": "2021-01-01",
+                "value": 0.09
+              },
+              {
+                "date": "2021-02-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-03-01",
+                "value": 0.07
+              },
+              {
+                "date": "2021-04-01",
+                "value": 0.07
+              },
+              {
+                "date": "2021-05-01",
+                "value": 0.06
+              },
+              {
+                "date": "2021-06-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-07-01",
+                "value": 0.1
+              },
+              {
+                "date": "2021-08-01",
+                "value": 0.09
+              },
+              {
+                "date": "2021-09-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-10-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-11-01",
+                "value": 0.08
+              },
+              {
+                "date": "2021-12-01",
+                "value": 0.08
+              },
+              {
+                "date": "2022-01-01",
+                "value": 0.08
+              },
+              {
+                "date": "2022-02-01",
+                "value": 0.08
+              },
+              {
+                "date": "2022-03-01",
+                "value": 0.2
+              },
+              {
+                "date": "2022-04-01",
+                "value": 0.33
+              },
+              {
+                "date": "2022-05-01",
+                "value": 0.77
+              },
+              {
+                "date": "2022-06-01",
+                "value": 1.21
+              },
+              {
+                "date": "2022-07-01",
+                "value": 1.68
+              },
+              {
+                "date": "2022-08-01",
+                "value": 2.33
+              },
+              {
+                "date": "2022-09-01",
+                "value": 2.56
+              },
+              {
+                "date": "2022-10-01",
+                "value": 3.08
+              },
+              {
+                "date": "2022-11-01",
+                "value": 3.78
+              },
+              {
+                "date": "2022-12-01",
+                "value": 4.1
+              },
+              {
+                "date": "2023-01-01",
+                "value": 4.33
+              },
+              {
+                "date": "2023-02-01",
+                "value": 4.57
+              },
+              {
+                "date": "2023-03-01",
+                "value": 4.65
+              },
+              {
+                "date": "2023-04-01",
+                "value": 4.83
+              },
+              {
+                "date": "2023-05-01",
+                "value": 5.06
+              },
+              {
+                "date": "2023-06-01",
+                "value": 5.08
+              },
+              {
+                "date": "2023-07-01",
+                "value": 5.12
+              },
+              {
+                "date": "2023-08-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-09-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-10-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-11-01",
+                "value": 5.33
+              },
+              {
+                "date": "2023-12-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-01-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-02-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-03-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-04-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-05-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-06-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-07-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-08-01",
+                "value": 5.33
+              },
+              {
+                "date": "2024-09-01",
+                "value": 5.13
+              },
+              {
+                "date": "2024-10-01",
+                "value": 4.83
+              },
+              {
+                "date": "2024-11-01",
+                "value": 4.64
+              },
+              {
+                "date": "2024-12-01",
+                "value": 4.48
+              },
+              {
+                "date": "2025-01-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-02-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-03-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-04-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-05-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-06-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-07-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-08-01",
+                "value": 4.33
+              },
+              {
+                "date": "2025-09-01",
+                "value": 4.22
+              },
+              {
+                "date": "2025-10-01",
+                "value": 4.09
+              },
+              {
+                "date": "2025-11-01",
+                "value": 3.88
+              },
+              {
+                "date": "2025-12-01",
+                "value": 3.72
+              },
+              {
+                "date": "2026-01-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-02-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-03-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-04-01",
+                "value": 3.64
+              },
+              {
+                "date": "2026-05-01",
+                "value": 3.63
+              }
+            ]
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": {
+        "id": "rates-inflation-cost-of-capital",
+        "name": "Rates and cost of capital",
+        "threshold": 3
+      },
+      "concepts": [
+        "inflation"
+      ],
+      "continuity": {
+        "previousDate": "2026-06-24",
+        "previousTitle": "Dow Jones Futures: Nasdaq Set To Regain Key Level As Korea's Kospi Rebounds, Micron Due; FedEx, Cerebras Tumble",
+        "previousUrl": "issues/2026-06-24.html",
+        "whatChanged": "This updates the rates and cost of capital thread from 2026-06-24. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
+        "updatedRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+        "status": "Stronger evidence"
+      }
+    },
+    {
+      "id": "yahoo-finance-news-69af46e7",
+      "title": "Two Major Indexes Prepare To Add SpaceX As Shares Sink After IPO Surge",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance",
+          "url": "https://www.investors.com/news/spacex-stock-russell-1000-nasdaq-index-funds-etfs-elon-musk/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-06-25T17:21:35.000Z",
+          "fetchedAt": "2026-06-25T17:44:36.410Z"
+        }
+      ],
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "summary": "Two Major Indexes Prepare To Add SpaceX As Shares Sink After IPO Surge. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Two Major Indexes Prepare To Add SpaceX As Shares Sink After IPO Surge. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
+      "whyItMoved": "This was selected because it links markets news to Deal Financing Window and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+      "sectorReadThrough": "Connects to Deal Financing Window.",
+      "parallel": {
+        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+        "whatRhymes": "The current story shows demand spreading across the value chain.",
+        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance",
+            "url": "https://www.investors.com/news/spacex-stock-russell-1000-nasdaq-index-funds-etfs-elon-musk/?src=A00220&yptr=yahoo"
+          }
+        ]
+      },
+      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "This was selected because it links markets news to Deal Financing Window and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Two Major Indexes Prepare To Add SpaceX As Shares Sink After IPO Surge. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to Deal Financing Window. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Cross-asset reaction board",
+        "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
+        "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
+        "allowedPages": [
+          "markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "SPY",
+            "label": "SPDR S&P 500 ETF Trust",
+            "value": 11.538926522061985,
+            "displayValue": 11.538926522061985,
+            "suffix": "%",
+            "latestDate": "2026-06-25",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+          },
+          {
+            "id": "QQQ",
+            "label": "Invesco QQQ Trust",
+            "value": 21.771967417597814,
+            "displayValue": 21.771967417597814,
+            "suffix": "%",
+            "latestDate": "2026-06-25",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+          },
+          {
+            "id": "IWM",
+            "label": "iShares Russell 2000 ETF",
+            "value": 18.398056240470073,
+            "displayValue": 18.398056240470073,
+            "suffix": "%",
+            "latestDate": "2026-06-25",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+          },
+          {
+            "id": "GLD",
+            "label": "SPDR Gold Shares",
+            "value": -11.117058870576193,
+            "displayValue": -11.117058870576193,
+            "suffix": "%",
+            "latestDate": "2026-06-25",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "SPDR S&P 500 ETF Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+          },
+          {
+            "source": "Invesco QQQ Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+          },
+          {
+            "source": "iShares Russell 2000 ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+          },
+          {
+            "source": "SPDR Gold Shares",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "ipo"
       ]
     }
   ]
