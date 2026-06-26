@@ -151,6 +151,24 @@ test("generic financial-sector proxy-feed articles do not clear private-market s
   assert.match(scored.exclusionReason, /weak market signal/);
 });
 
+test("generic daily insider-picks reports do not backfill the markets lane", () => {
+  const scored = scoreCandidate({
+    id: "vickers-insider-picks",
+    source: "Yahoo Finance",
+    sourceType: "reputable",
+    feedId: "yahoo-finance-news",
+    title: "Daily – Vickers Top Insider Picks for 06/26/2026",
+    url: "https://finance.yahoo.com/research/reports/ARGUS_47446_InsiderActivity_1782472085000?yptr=yahoo",
+    publishedAt: "2026-06-26T11:08:05.000Z",
+    summary: "A daily screen of insider-activity picks without a reported market-moving catalyst, source facts, or index/sector tape read.",
+    facts: ["Daily insider-picks screen."],
+    topics: ["markets", "companies"]
+  }, themes, new Date("2026-06-26T13:31:00Z"));
+
+  assert.equal(scored.eligible, false);
+  assert.match(scored.exclusionReason, /weak market signal/);
+});
+
 test("proxy-feed analyst-rating listicles do not clear private-market signal", () => {
   const scored = scoreCandidate({
     id: "generic-carlyle-rating",

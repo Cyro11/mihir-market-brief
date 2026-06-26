@@ -1,0 +1,52 @@
+[
+  {
+    "id": "seed-sila-blue-owl-acquisition-2026-06-26",
+    "source": "Yahoo Finance / Business Wire",
+    "sourceType": "reputable",
+    "feedId": "private-credit-public-proxies",
+    "title": "Sila Realty Trust, Inc. Stockholders Approve Acquisition by Affiliates of Blue Owl Capital Inc.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sila-realty-trust-inc-stockholders-131800702.html?.tsrc=rss",
+    "publishedAt": "2026-06-26T13:18:00.000Z",
+    "summary": "Sila Realty Trust stockholders approved the company's acquisition by affiliates of Blue Owl Capital Inc., keeping Blue Owl's private-capital deployment and real-estate transaction appetite in focus at the market open.",
+    "facts": [
+      "Sila Realty Trust stockholders approved an acquisition by affiliates of Blue Owl Capital Inc.",
+      "The announcement was published on June 26, 2026 through Yahoo Finance / Business Wire.",
+      "The transaction is a private-capital and real-estate acquisition signal tied to Blue Owl's deployment capacity."
+    ],
+    "tickers": ["OWL"],
+    "topics": ["private_markets", "private_equity", "markets", "deals"],
+    "relatedLinks": [
+      {
+        "label": "Blue Owl Capital Investor Relations",
+        "url": "https://ir.blueowl.com/",
+        "type": "Company"
+      },
+      {
+        "label": "Sila Realty Trust Investor Relations",
+        "url": "https://investors.silarealtytrust.com/",
+        "type": "Company"
+      }
+    ],
+    "analysis": {
+      "whatMoved": "The live signal is Blue Owl-affiliated capital continuing to close real-asset transactions while public investors mark private-credit and alternative-asset managers selectively.",
+      "whyItMoved": "A completed stockholder approval reduces transaction uncertainty and gives the market a cleaner read on sponsor/private-capital appetite in real estate-linked assets.",
+      "valuationImpact": "For Blue Owl, the read-through is less about one target's headline price and more about whether deployment, fee-bearing AUM, and credit quality can support the manager multiple.",
+      "financingImplication": "The financing question is whether private-capital buyers can keep closing deals without leaning on aggressive leverage, weak collateral, or optimistic real-estate marks.",
+      "sectorReadThrough": "Read-through is strongest for listed alternative managers, BDCs, real-estate credit platforms, and public REIT transaction comps.",
+      "parallel": {
+        "precedent": "Alternative managers such as Blackstone, KKR, Ares, and Blue Owl have historically used downturns or selective windows to add real-asset and credit exposure when traditional financing is less available.",
+        "outcome": "The best outcomes came when managers paired deployment with disciplined underwriting; weaker cycles exposed marks, non-accruals, and refinancing risk.",
+        "whatRhymes": "This deal rhymes with that deployment test: private capital can still transact, but investors need evidence on price, funding, collateral, and post-close asset performance.",
+        "whatDiffers": "The story is a transaction approval rather than a full earnings release, so the source confirms process progress more than long-term return economics.",
+        "soWhat": "Treat it as a live private-capital capacity signal, not a blanket green light for every private-credit or real-estate mark.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / Business Wire",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/sila-realty-trust-inc-stockholders-131800702.html?.tsrc=rss"
+          }
+        ]
+      },
+      "watchNext": "Watch final close timing, Blue Owl commentary on funding and expected returns, OWL share reaction, and whether comparable REIT/private-credit deals clear at similar terms."
+    }
+  }
+]
