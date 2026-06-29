@@ -1,29 +1,214 @@
 {
   "runDate": "2026-06-29",
-  "title": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues",
+  "title": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands",
   "dek": "A selective banker-grade read of the few fresh items with enough evidence to support real analysis.",
-  "generatedAt": "2026-06-29T12:00:59.677Z",
-  "sourceRunAt": "2026-06-29T12:00:41.306Z",
+  "generatedAt": "2026-06-29T13:31:31.652Z",
+  "sourceRunAt": "2026-06-29T13:31:12.568Z",
   "freshnessStatus": "LIVE",
   "moves": [
     {
-      "id": "yahoo-finance-news-918a9469",
-      "title": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues",
+      "id": "yahoo-finance-news-1bc561c",
+      "title": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
           "source": "Yahoo Finance",
-          "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-06-29T11:44:13.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.074Z"
+          "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html",
+          "publishedAt": "2026-06-29T13:07:53.000Z",
+          "fetchedAt": "2026-06-29T13:31:11.521Z"
         }
       ],
       "freshnessStatus": "LIVE",
       "confidence": "Medium",
-      "summary": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "summary": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
+      "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+      "sectorReadThrough": "Connects to AI Infrastructure.",
+      "parallel": {
+        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+        "whatRhymes": "The current story shows demand spreading across the value chain.",
+        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html"
+          }
+        ]
+      },
+      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Semiconductor rebound board",
+        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
+        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
+        "allowedPages": [
+          "markets",
+          "deep-dive"
+        ],
+        "axisTitle": "Latest daily change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "NVDA",
+            "label": "Nvidia",
+            "value": 0.36877718712349356,
+            "displayValue": 0.36877718712349356,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+          },
+          {
+            "id": "SOXX",
+            "label": "iShares Semiconductor ETF",
+            "value": 0.47462246692566823,
+            "displayValue": 0.47462246692566823,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+          },
+          {
+            "id": "AVGO",
+            "label": "Broadcom",
+            "value": 2.44644771851793,
+            "displayValue": 2.44644771851793,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+          },
+          {
+            "id": "MU",
+            "label": "Micron Technology",
+            "value": -1.9476292002401454,
+            "displayValue": -1.9476292002401454,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "id": "MRVL",
+            "label": "Marvell Technology",
+            "value": 0.5623278974741117,
+            "displayValue": 0.5623278974741117,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "id": "INTC",
+            "label": "Intel",
+            "value": -2.033983861262988,
+            "displayValue": -2.033983861262988,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Nvidia",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+          },
+          {
+            "source": "iShares Semiconductor ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+          },
+          {
+            "source": "Broadcom",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+          },
+          {
+            "source": "Micron Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "source": "Marvell Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Intel",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": {
+        "id": "ai-infrastructure-dell-servers",
+        "name": "AI infrastructure buildout",
+        "threshold": 2
+      },
+      "concepts": [
+        "nvidia"
+      ],
+      "continuity": {
+        "previousDate": "2026-06-19",
+        "previousTitle": "How SablePointe’s Launch And New Leadership At Blackstone (BX) Has Changed Its Investment Story",
+        "previousUrl": "issues/2026-06-19.html",
+        "whatChanged": "This updates the ai infrastructure buildout thread from 2026-06-19. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+        "updatedRead": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+        "status": "Developing"
+      }
+    },
+    {
+      "id": "yahoo-finance-news-6a164150",
+      "title": "Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance",
+          "url": "https://www.investors.com/news/rocket-lab-iridium-communications-spacex-space-satellite/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-06-29T12:58:25.000Z",
+          "fetchedAt": "2026-06-29T13:31:11.521Z"
+        }
+      ],
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "summary": "Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
       "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
       "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -38,7 +223,7 @@
         "sourceTrail": [
           {
             "source": "Yahoo Finance",
-            "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo"
+            "url": "https://www.investors.com/news/rocket-lab-iridium-communications-spacex-space-satellite/?src=A00220&yptr=yahoo"
           }
         ]
       },
@@ -53,7 +238,7 @@
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
           },
           {
             "id": "mechanism",
@@ -92,37 +277,37 @@
           {
             "id": "SPY",
             "label": "SPDR S&P 500 ETF Trust",
-            "value": 14.96632329158794,
-            "displayValue": 14.96632329158794,
+            "value": 16.518192238199855,
+            "displayValue": 16.518192238199855,
             "suffix": "%",
-            "latestDate": "2026-06-26",
+            "latestDate": "2026-06-29",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
             "id": "QQQ",
             "label": "Invesco QQQ Trust",
-            "value": 25.585694135740887,
-            "displayValue": 25.585694135740887,
+            "value": 27.72532869203202,
+            "displayValue": 27.72532869203202,
             "suffix": "%",
-            "latestDate": "2026-06-26",
+            "latestDate": "2026-06-29",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
             "id": "IWM",
             "label": "iShares Russell 2000 ETF",
-            "value": 23.336067068872687,
-            "displayValue": 23.336067068872687,
+            "value": 24.185132841128436,
+            "displayValue": 24.185132841128436,
             "suffix": "%",
-            "latestDate": "2026-06-26",
+            "latestDate": "2026-06-29",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
             "id": "GLD",
             "label": "SPDR Gold Shares",
-            "value": -9.903546205760735,
-            "displayValue": -9.903546205760735,
+            "value": -10.544405845377353,
+            "displayValue": -10.544405845377353,
             "suffix": "%",
-            "latestDate": "2026-06-26",
+            "latestDate": "2026-06-29",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],
@@ -149,209 +334,39 @@
       "relatedLinks": [],
       "storyline": null,
       "concepts": []
-    },
-    {
-      "id": "yahoo-finance-news-a98b06df",
-      "title": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7",
-      "editorialLane": "markets",
-      "editorialLaneLabel": "Markets",
-      "privateMarketSegment": null,
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance",
-          "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-06-29T11:25:16.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.074Z"
-        }
-      ],
-      "freshnessStatus": "LIVE",
-      "confidence": "Medium",
-      "summary": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-      "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
-      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
-      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
-      "parallel": {
-        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
-        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
-        "whatRhymes": "The current story shows demand spreading across the value chain.",
-        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
-        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
-        "sourceTrail": [
-          {
-            "source": "Yahoo Finance",
-            "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/?src=A00220&yptr=yahoo"
-          }
-        ]
-      },
-      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
-      "longform": {
-        "sections": [
-          {
-            "id": "takeaway",
-            "heading": "Plain-English takeaway",
-            "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
-          },
-          {
-            "id": "tape",
-            "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: SpaceX Stock Will Join The Nasdaq-100 Index On July 7. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
-          },
-          {
-            "id": "mechanism",
-            "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
-          },
-          {
-            "id": "interpretation",
-            "heading": "What the market may be pricing in right or wrong",
-            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
-          },
-          {
-            "id": "parallel",
-            "heading": "Relevant comparison",
-            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
-          },
-          {
-            "id": "watch-next",
-            "heading": "What to watch next",
-            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
-          }
-        ]
-      },
-      "visual": {
-        "type": "bar-chart",
-        "title": "Semiconductor rebound board",
-        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
-        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
-        "allowedPages": [
-          "markets",
-          "deep-dive"
-        ],
-        "axisTitle": "Latest daily change",
-        "visualSource": "Public market data",
-        "items": [
-          {
-            "id": "NVDA",
-            "label": "Nvidia",
-            "value": -1.6399339040476795,
-            "displayValue": -1.6399339040476795,
-            "suffix": "%",
-            "latestDate": "2026-06-26",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
-          },
-          {
-            "id": "SOXX",
-            "label": "iShares Semiconductor ETF",
-            "value": -5.639796717398153,
-            "displayValue": -5.639796717398153,
-            "suffix": "%",
-            "latestDate": "2026-06-26",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
-          },
-          {
-            "id": "AVGO",
-            "label": "Broadcom",
-            "value": -3.6657819836353105,
-            "displayValue": -3.6657819836353105,
-            "suffix": "%",
-            "latestDate": "2026-06-26",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
-          },
-          {
-            "id": "MU",
-            "label": "Micron Technology",
-            "value": -6.693537906413168,
-            "displayValue": -6.693537906413168,
-            "suffix": "%",
-            "latestDate": "2026-06-26",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
-          },
-          {
-            "id": "MRVL",
-            "label": "Marvell Technology",
-            "value": -5.151824023624159,
-            "displayValue": -5.151824023624159,
-            "suffix": "%",
-            "latestDate": "2026-06-26",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
-          },
-          {
-            "id": "INTC",
-            "label": "Intel",
-            "value": -3.4243907279109873,
-            "displayValue": -3.4243907279109873,
-            "suffix": "%",
-            "latestDate": "2026-06-26",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
-          }
-        ],
-        "sourceTrail": [
-          {
-            "source": "Nvidia",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
-          },
-          {
-            "source": "iShares Semiconductor ETF",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
-          },
-          {
-            "source": "Broadcom",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
-          },
-          {
-            "source": "Micron Technology",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
-          },
-          {
-            "source": "Marvell Technology",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
-          },
-          {
-            "source": "Intel",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
-          }
-        ],
-        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
-      },
-      "relatedLinks": [],
-      "storyline": null,
-      "concepts": []
     }
   ],
   "sections": {
     "overnight": {
       "label": "Overnight",
       "window": {
-        "start": "2026-06-28T21:00:30.000Z",
-        "end": "2026-06-29T12:00:30.000Z"
+        "start": "2026-06-28T22:31:31.577Z",
+        "end": "2026-06-29T13:31:31.577Z"
       },
       "items": [
         {
-          "id": "yahoo-finance-news-918a9469",
-          "title": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues",
+          "id": "yahoo-finance-news-1bc561c",
+          "title": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands",
           "editorialLane": "markets",
           "editorialLaneLabel": "Markets",
           "privateMarketSegment": null,
           "sourceTrail": [
             {
               "source": "Yahoo Finance",
-              "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo",
-              "publishedAt": "2026-06-29T11:44:13.000Z",
-              "fetchedAt": "2026-06-29T12:00:40.074Z"
+              "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html",
+              "publishedAt": "2026-06-29T13:07:53.000Z",
+              "fetchedAt": "2026-06-29T13:31:11.521Z"
             }
           ],
           "freshnessStatus": "LIVE",
           "confidence": "Medium",
-          "summary": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-          "whatHappened": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+          "summary": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+          "whatHappened": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
           "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-          "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
+          "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
           "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
           "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-          "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
+          "sectorReadThrough": "Connects to AI Infrastructure.",
           "parallel": {
             "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
             "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -361,7 +376,7 @@
             "sourceTrail": [
               {
                 "source": "Yahoo Finance",
-                "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo"
+                "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html"
               }
             ]
           },
@@ -371,162 +386,17 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+                "body": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
               },
               {
                 "id": "tape",
                 "heading": "What moved and what it suggests",
-                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
               },
               {
                 "id": "mechanism",
                 "heading": "Mechanism behind the move",
-                "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
-              },
-              {
-                "id": "interpretation",
-                "heading": "What the market may be pricing in right or wrong",
-                "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
-              },
-              {
-                "id": "parallel",
-                "heading": "Relevant comparison",
-                "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
-              },
-              {
-                "id": "watch-next",
-                "heading": "What to watch next",
-                "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
-              }
-            ]
-          },
-          "visual": {
-            "type": "bar-chart",
-            "title": "Cross-asset reaction board",
-            "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
-            "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
-            "allowedPages": [
-              "markets",
-              "deep-dive"
-            ],
-            "axisTitle": "3-month change",
-            "visualSource": "Public market data",
-            "items": [
-              {
-                "id": "SPY",
-                "label": "SPDR S&P 500 ETF Trust",
-                "value": 14.96632329158794,
-                "displayValue": 14.96632329158794,
-                "suffix": "%",
-                "latestDate": "2026-06-26",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
-              },
-              {
-                "id": "QQQ",
-                "label": "Invesco QQQ Trust",
-                "value": 25.585694135740887,
-                "displayValue": 25.585694135740887,
-                "suffix": "%",
-                "latestDate": "2026-06-26",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
-              },
-              {
-                "id": "IWM",
-                "label": "iShares Russell 2000 ETF",
-                "value": 23.336067068872687,
-                "displayValue": 23.336067068872687,
-                "suffix": "%",
-                "latestDate": "2026-06-26",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
-              },
-              {
-                "id": "GLD",
-                "label": "SPDR Gold Shares",
-                "value": -9.903546205760735,
-                "displayValue": -9.903546205760735,
-                "suffix": "%",
-                "latestDate": "2026-06-26",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
-              }
-            ],
-            "sourceTrail": [
-              {
-                "source": "SPDR S&P 500 ETF Trust",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
-              },
-              {
-                "source": "Invesco QQQ Trust",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
-              },
-              {
-                "source": "iShares Russell 2000 ETF",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
-              },
-              {
-                "source": "SPDR Gold Shares",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
-              }
-            ],
-            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
-          },
-          "relatedLinks": [],
-          "storyline": null,
-          "concepts": [],
-          "overnightSignal": true
-        },
-        {
-          "id": "yahoo-finance-news-a98b06df",
-          "title": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7",
-          "editorialLane": "markets",
-          "editorialLaneLabel": "Markets",
-          "privateMarketSegment": null,
-          "sourceTrail": [
-            {
-              "source": "Yahoo Finance",
-              "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/?src=A00220&yptr=yahoo",
-              "publishedAt": "2026-06-29T11:25:16.000Z",
-              "fetchedAt": "2026-06-29T12:00:40.074Z"
-            }
-          ],
-          "freshnessStatus": "LIVE",
-          "confidence": "Medium",
-          "summary": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-          "whatHappened": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-          "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-          "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
-          "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
-          "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-          "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
-          "parallel": {
-            "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
-            "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
-            "whatRhymes": "The current story shows demand spreading across the value chain.",
-            "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
-            "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
-            "sourceTrail": [
-              {
-                "source": "Yahoo Finance",
-                "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/?src=A00220&yptr=yahoo"
-              }
-            ]
-          },
-          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
-          "longform": {
-            "sections": [
-              {
-                "id": "takeaway",
-                "heading": "Plain-English takeaway",
-                "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
-              },
-              {
-                "id": "tape",
-                "heading": "What moved and what it suggests",
-                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: SpaceX Stock Will Join The Nasdaq-100 Index On July 7. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
-              },
-              {
-                "id": "mechanism",
-                "heading": "Mechanism behind the move",
-                "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+                "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
               },
               {
                 "id": "interpretation",
@@ -560,55 +430,55 @@
               {
                 "id": "NVDA",
                 "label": "Nvidia",
-                "value": -1.6399339040476795,
-                "displayValue": -1.6399339040476795,
+                "value": 0.36877718712349356,
+                "displayValue": 0.36877718712349356,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
               },
               {
                 "id": "SOXX",
                 "label": "iShares Semiconductor ETF",
-                "value": -5.639796717398153,
-                "displayValue": -5.639796717398153,
+                "value": 0.47462246692566823,
+                "displayValue": 0.47462246692566823,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
               },
               {
                 "id": "AVGO",
                 "label": "Broadcom",
-                "value": -3.6657819836353105,
-                "displayValue": -3.6657819836353105,
+                "value": 2.44644771851793,
+                "displayValue": 2.44644771851793,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
               },
               {
                 "id": "MU",
                 "label": "Micron Technology",
-                "value": -6.693537906413168,
-                "displayValue": -6.693537906413168,
+                "value": -1.9476292002401454,
+                "displayValue": -1.9476292002401454,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
               },
               {
                 "id": "MRVL",
                 "label": "Marvell Technology",
-                "value": -5.151824023624159,
-                "displayValue": -5.151824023624159,
+                "value": 0.5623278974741117,
+                "displayValue": 0.5623278974741117,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
               },
               {
                 "id": "INTC",
                 "label": "Intel",
-                "value": -3.4243907279109873,
-                "displayValue": -3.4243907279109873,
+                "value": -2.033983861262988,
+                "displayValue": -2.033983861262988,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
               }
             ],
@@ -641,28 +511,34 @@
             "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
           },
           "relatedLinks": [],
-          "storyline": null,
-          "concepts": [],
+          "storyline": {
+            "id": "ai-infrastructure-dell-servers",
+            "name": "AI infrastructure buildout",
+            "threshold": 2
+          },
+          "concepts": [
+            "nvidia"
+          ],
           "overnightSignal": true
         },
         {
-          "id": "yahoo-finance-news-379061b",
-          "title": "Figma (FIG): The Best New Stock to Buy Other Than SpaceX",
+          "id": "yahoo-finance-news-6a164150",
+          "title": "Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications",
           "editorialLane": "markets",
           "editorialLaneLabel": "Markets",
           "privateMarketSegment": null,
           "sourceTrail": [
             {
               "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/figma-fig-best-stock-buy-111334264.html",
-              "publishedAt": "2026-06-29T11:13:34.000Z",
-              "fetchedAt": "2026-06-29T12:00:40.074Z"
+              "url": "https://www.investors.com/news/rocket-lab-iridium-communications-spacex-space-satellite/?src=A00220&yptr=yahoo",
+              "publishedAt": "2026-06-29T12:58:25.000Z",
+              "fetchedAt": "2026-06-29T13:31:11.521Z"
             }
           ],
           "freshnessStatus": "LIVE",
           "confidence": "Medium",
-          "summary": "Figma (FIG): The Best New Stock to Buy Other Than SpaceX. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-          "whatHappened": "Figma (FIG): The Best New Stock to Buy Other Than SpaceX. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+          "summary": "Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+          "whatHappened": "Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
           "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
           "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
           "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -677,7 +553,7 @@
             "sourceTrail": [
               {
                 "source": "Yahoo Finance",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/figma-fig-best-stock-buy-111334264.html"
+                "url": "https://www.investors.com/news/rocket-lab-iridium-communications-spacex-space-satellite/?src=A00220&yptr=yahoo"
               }
             ]
           },
@@ -692,7 +568,7 @@
               {
                 "id": "tape",
                 "heading": "What moved and what it suggests",
-                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Figma (FIG): The Best New Stock to Buy Other Than SpaceX. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
               },
               {
                 "id": "mechanism",
@@ -731,37 +607,182 @@
               {
                 "id": "SPY",
                 "label": "SPDR S&P 500 ETF Trust",
-                "value": 14.96632329158794,
-                "displayValue": 14.96632329158794,
+                "value": 16.518192238199855,
+                "displayValue": 16.518192238199855,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
               },
               {
                 "id": "QQQ",
                 "label": "Invesco QQQ Trust",
-                "value": 25.585694135740887,
-                "displayValue": 25.585694135740887,
+                "value": 27.72532869203202,
+                "displayValue": 27.72532869203202,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
               },
               {
                 "id": "IWM",
                 "label": "iShares Russell 2000 ETF",
-                "value": 23.336067068872687,
-                "displayValue": 23.336067068872687,
+                "value": 24.185132841128436,
+                "displayValue": 24.185132841128436,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
               },
               {
                 "id": "GLD",
                 "label": "SPDR Gold Shares",
-                "value": -9.903546205760735,
-                "displayValue": -9.903546205760735,
+                "value": -10.544405845377353,
+                "displayValue": -10.544405845377353,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+              }
+            ],
+            "sourceTrail": [
+              {
+                "source": "SPDR S&P 500 ETF Trust",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+              },
+              {
+                "source": "Invesco QQQ Trust",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+              },
+              {
+                "source": "iShares Russell 2000 ETF",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+              },
+              {
+                "source": "SPDR Gold Shares",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+              }
+            ],
+            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+          },
+          "relatedLinks": [],
+          "storyline": null,
+          "concepts": [],
+          "overnightSignal": true
+        },
+        {
+          "id": "yahoo-finance-news-7be4f20c",
+          "title": "Is Alphabet (GOOGL) the Best Stock to Buy in Chris Hohn’s TCI Fund Portfolio?",
+          "editorialLane": "markets",
+          "editorialLaneLabel": "Markets",
+          "privateMarketSegment": null,
+          "sourceTrail": [
+            {
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-best-stock-buy-125740195.html",
+              "publishedAt": "2026-06-29T12:57:40.000Z",
+              "fetchedAt": "2026-06-29T13:31:11.521Z"
+            }
+          ],
+          "freshnessStatus": "LIVE",
+          "confidence": "Medium",
+          "summary": "Is Alphabet (GOOGL) the Best Stock to Buy in Chris Hohn’s TCI Fund Portfolio?. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+          "whatHappened": "Is Alphabet (GOOGL) the Best Stock to Buy in Chris Hohn’s TCI Fund Portfolio?. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+          "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
+          "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
+          "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+          "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
+          "parallel": {
+            "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+            "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+            "whatRhymes": "The current story shows demand spreading across the value chain.",
+            "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+            "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+            "sourceTrail": [
+              {
+                "source": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-best-stock-buy-125740195.html"
+              }
+            ]
+          },
+          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+              },
+              {
+                "id": "tape",
+                "heading": "What moved and what it suggests",
+                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Is Alphabet (GOOGL) the Best Stock to Buy in Chris Hohn’s TCI Fund Portfolio?. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+              },
+              {
+                "id": "mechanism",
+                "heading": "Mechanism behind the move",
+                "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+              },
+              {
+                "id": "interpretation",
+                "heading": "What the market may be pricing in right or wrong",
+                "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+              },
+              {
+                "id": "parallel",
+                "heading": "Relevant comparison",
+                "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What to watch next",
+                "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+              }
+            ]
+          },
+          "visual": {
+            "type": "bar-chart",
+            "title": "Cross-asset reaction board",
+            "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
+            "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
+            "allowedPages": [
+              "markets",
+              "deep-dive"
+            ],
+            "axisTitle": "3-month change",
+            "visualSource": "Public market data",
+            "items": [
+              {
+                "id": "SPY",
+                "label": "SPDR S&P 500 ETF Trust",
+                "value": 16.518192238199855,
+                "displayValue": 16.518192238199855,
+                "suffix": "%",
+                "latestDate": "2026-06-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+              },
+              {
+                "id": "QQQ",
+                "label": "Invesco QQQ Trust",
+                "value": 27.72532869203202,
+                "displayValue": 27.72532869203202,
+                "suffix": "%",
+                "latestDate": "2026-06-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+              },
+              {
+                "id": "IWM",
+                "label": "iShares Russell 2000 ETF",
+                "value": 24.185132841128436,
+                "displayValue": 24.185132841128436,
+                "suffix": "%",
+                "latestDate": "2026-06-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+              },
+              {
+                "id": "GLD",
+                "label": "SPDR Gold Shares",
+                "value": -10.544405845377353,
+                "displayValue": -10.544405845377353,
+                "suffix": "%",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
               }
             ],
@@ -810,7 +831,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-02T12:30:00.000Z",
           "scheduledDate": "2026-07-02",
-          "fetchedAt": "2026-06-29T12:00:58.730Z"
+          "fetchedAt": "2026-06-29T13:31:30.650Z"
         },
         {
           "id": "bls-consumer-price-index-2026-07-14",
@@ -821,7 +842,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-14T12:30:00.000Z",
           "scheduledDate": "2026-07-14",
-          "fetchedAt": "2026-06-29T12:00:58.730Z"
+          "fetchedAt": "2026-06-29T13:31:30.650Z"
         },
         {
           "id": "fed-fomc-july-2026-07-29",
@@ -832,7 +853,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-29T18:00:00.000Z",
           "scheduledDate": "2026-07-29",
-          "fetchedAt": "2026-06-29T12:00:58.730Z"
+          "fetchedAt": "2026-06-29T13:31:30.650Z"
         },
         {
           "id": "bea-gdp-advance-estimate-2nd-quarter-2026-2026-07-30",
@@ -843,7 +864,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-30T12:30:00.000Z",
           "scheduledDate": "2026-07-30",
-          "fetchedAt": "2026-06-29T12:00:58.730Z"
+          "fetchedAt": "2026-06-29T13:31:30.650Z"
         },
         {
           "id": "bea-personal-income-and-outlays-june-2026-2026-07-30",
@@ -854,7 +875,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-30T12:30:00.000Z",
           "scheduledDate": "2026-07-30",
-          "fetchedAt": "2026-06-29T12:00:58.730Z"
+          "fetchedAt": "2026-06-29T13:31:30.650Z"
         },
         {
           "id": "bls-employment-situation-2026-08-07",
@@ -865,7 +886,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-07T12:30:00.000Z",
           "scheduledDate": "2026-08-07",
-          "fetchedAt": "2026-06-29T12:00:58.730Z"
+          "fetchedAt": "2026-06-29T13:31:30.650Z"
         },
         {
           "id": "bls-consumer-price-index-2026-08-12",
@@ -876,7 +897,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-12T12:30:00.000Z",
           "scheduledDate": "2026-08-12",
-          "fetchedAt": "2026-06-29T12:00:58.730Z"
+          "fetchedAt": "2026-06-29T13:31:30.650Z"
         },
         {
           "id": "bea-gdp-second-estimate-and-corporate-profits-2nd-quarter-2026-2026-08-26",
@@ -887,7 +908,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-26T12:30:00.000Z",
           "scheduledDate": "2026-08-26",
-          "fetchedAt": "2026-06-29T12:00:58.730Z"
+          "fetchedAt": "2026-06-29T13:31:30.650Z"
         }
       ]
     },
@@ -895,28 +916,28 @@
       "label": "Markets",
       "items": [
         {
-          "id": "yahoo-finance-news-918a9469",
-          "title": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues",
+          "id": "yahoo-finance-news-1bc561c",
+          "title": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands",
           "editorialLane": "markets",
           "editorialLaneLabel": "Markets",
           "privateMarketSegment": null,
           "sourceTrail": [
             {
               "source": "Yahoo Finance",
-              "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo",
-              "publishedAt": "2026-06-29T11:44:13.000Z",
-              "fetchedAt": "2026-06-29T12:00:40.074Z"
+              "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html",
+              "publishedAt": "2026-06-29T13:07:53.000Z",
+              "fetchedAt": "2026-06-29T13:31:11.521Z"
             }
           ],
           "freshnessStatus": "LIVE",
           "confidence": "Medium",
-          "summary": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-          "whatHappened": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+          "summary": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+          "whatHappened": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
           "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-          "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
+          "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
           "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
           "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-          "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
+          "sectorReadThrough": "Connects to AI Infrastructure.",
           "parallel": {
             "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
             "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -926,7 +947,7 @@
             "sourceTrail": [
               {
                 "source": "Yahoo Finance",
-                "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo"
+                "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html"
               }
             ]
           },
@@ -936,161 +957,17 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+                "body": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
               },
               {
                 "id": "tape",
                 "heading": "What moved and what it suggests",
-                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
               },
               {
                 "id": "mechanism",
                 "heading": "Mechanism behind the move",
-                "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
-              },
-              {
-                "id": "interpretation",
-                "heading": "What the market may be pricing in right or wrong",
-                "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
-              },
-              {
-                "id": "parallel",
-                "heading": "Relevant comparison",
-                "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
-              },
-              {
-                "id": "watch-next",
-                "heading": "What to watch next",
-                "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
-              }
-            ]
-          },
-          "visual": {
-            "type": "bar-chart",
-            "title": "Cross-asset reaction board",
-            "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
-            "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
-            "allowedPages": [
-              "markets",
-              "deep-dive"
-            ],
-            "axisTitle": "3-month change",
-            "visualSource": "Public market data",
-            "items": [
-              {
-                "id": "SPY",
-                "label": "SPDR S&P 500 ETF Trust",
-                "value": 14.96632329158794,
-                "displayValue": 14.96632329158794,
-                "suffix": "%",
-                "latestDate": "2026-06-26",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
-              },
-              {
-                "id": "QQQ",
-                "label": "Invesco QQQ Trust",
-                "value": 25.585694135740887,
-                "displayValue": 25.585694135740887,
-                "suffix": "%",
-                "latestDate": "2026-06-26",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
-              },
-              {
-                "id": "IWM",
-                "label": "iShares Russell 2000 ETF",
-                "value": 23.336067068872687,
-                "displayValue": 23.336067068872687,
-                "suffix": "%",
-                "latestDate": "2026-06-26",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
-              },
-              {
-                "id": "GLD",
-                "label": "SPDR Gold Shares",
-                "value": -9.903546205760735,
-                "displayValue": -9.903546205760735,
-                "suffix": "%",
-                "latestDate": "2026-06-26",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
-              }
-            ],
-            "sourceTrail": [
-              {
-                "source": "SPDR S&P 500 ETF Trust",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
-              },
-              {
-                "source": "Invesco QQQ Trust",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
-              },
-              {
-                "source": "iShares Russell 2000 ETF",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
-              },
-              {
-                "source": "SPDR Gold Shares",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
-              }
-            ],
-            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
-          },
-          "relatedLinks": [],
-          "storyline": null,
-          "concepts": []
-        },
-        {
-          "id": "yahoo-finance-news-a98b06df",
-          "title": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7",
-          "editorialLane": "markets",
-          "editorialLaneLabel": "Markets",
-          "privateMarketSegment": null,
-          "sourceTrail": [
-            {
-              "source": "Yahoo Finance",
-              "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/?src=A00220&yptr=yahoo",
-              "publishedAt": "2026-06-29T11:25:16.000Z",
-              "fetchedAt": "2026-06-29T12:00:40.074Z"
-            }
-          ],
-          "freshnessStatus": "LIVE",
-          "confidence": "Medium",
-          "summary": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-          "whatHappened": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-          "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-          "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
-          "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
-          "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-          "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
-          "parallel": {
-            "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
-            "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
-            "whatRhymes": "The current story shows demand spreading across the value chain.",
-            "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
-            "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
-            "sourceTrail": [
-              {
-                "source": "Yahoo Finance",
-                "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/?src=A00220&yptr=yahoo"
-              }
-            ]
-          },
-          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
-          "longform": {
-            "sections": [
-              {
-                "id": "takeaway",
-                "heading": "Plain-English takeaway",
-                "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
-              },
-              {
-                "id": "tape",
-                "heading": "What moved and what it suggests",
-                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: SpaceX Stock Will Join The Nasdaq-100 Index On July 7. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
-              },
-              {
-                "id": "mechanism",
-                "heading": "Mechanism behind the move",
-                "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+                "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
               },
               {
                 "id": "interpretation",
@@ -1124,55 +1001,55 @@
               {
                 "id": "NVDA",
                 "label": "Nvidia",
-                "value": -1.6399339040476795,
-                "displayValue": -1.6399339040476795,
+                "value": 0.36877718712349356,
+                "displayValue": 0.36877718712349356,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
               },
               {
                 "id": "SOXX",
                 "label": "iShares Semiconductor ETF",
-                "value": -5.639796717398153,
-                "displayValue": -5.639796717398153,
+                "value": 0.47462246692566823,
+                "displayValue": 0.47462246692566823,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
               },
               {
                 "id": "AVGO",
                 "label": "Broadcom",
-                "value": -3.6657819836353105,
-                "displayValue": -3.6657819836353105,
+                "value": 2.44644771851793,
+                "displayValue": 2.44644771851793,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
               },
               {
                 "id": "MU",
                 "label": "Micron Technology",
-                "value": -6.693537906413168,
-                "displayValue": -6.693537906413168,
+                "value": -1.9476292002401454,
+                "displayValue": -1.9476292002401454,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
               },
               {
                 "id": "MRVL",
                 "label": "Marvell Technology",
-                "value": -5.151824023624159,
-                "displayValue": -5.151824023624159,
+                "value": 0.5623278974741117,
+                "displayValue": 0.5623278974741117,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
               },
               {
                 "id": "INTC",
                 "label": "Intel",
-                "value": -3.4243907279109873,
-                "displayValue": -3.4243907279109873,
+                "value": -2.033983861262988,
+                "displayValue": -2.033983861262988,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
               }
             ],
@@ -1205,27 +1082,42 @@
             "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
           },
           "relatedLinks": [],
-          "storyline": null,
-          "concepts": []
+          "storyline": {
+            "id": "ai-infrastructure-dell-servers",
+            "name": "AI infrastructure buildout",
+            "threshold": 2
+          },
+          "concepts": [
+            "nvidia"
+          ],
+          "continuity": {
+            "previousDate": "2026-06-19",
+            "previousTitle": "How SablePointe’s Launch And New Leadership At Blackstone (BX) Has Changed Its Investment Story",
+            "previousUrl": "issues/2026-06-19.html",
+            "whatChanged": "This updates the ai infrastructure buildout thread from 2026-06-19. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+            "priorRead": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+            "updatedRead": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+            "status": "Developing"
+          }
         },
         {
-          "id": "yahoo-finance-news-379061b",
-          "title": "Figma (FIG): The Best New Stock to Buy Other Than SpaceX",
+          "id": "yahoo-finance-news-6a164150",
+          "title": "Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications",
           "editorialLane": "markets",
           "editorialLaneLabel": "Markets",
           "privateMarketSegment": null,
           "sourceTrail": [
             {
               "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/figma-fig-best-stock-buy-111334264.html",
-              "publishedAt": "2026-06-29T11:13:34.000Z",
-              "fetchedAt": "2026-06-29T12:00:40.074Z"
+              "url": "https://www.investors.com/news/rocket-lab-iridium-communications-spacex-space-satellite/?src=A00220&yptr=yahoo",
+              "publishedAt": "2026-06-29T12:58:25.000Z",
+              "fetchedAt": "2026-06-29T13:31:11.521Z"
             }
           ],
           "freshnessStatus": "LIVE",
           "confidence": "Medium",
-          "summary": "Figma (FIG): The Best New Stock to Buy Other Than SpaceX. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-          "whatHappened": "Figma (FIG): The Best New Stock to Buy Other Than SpaceX. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+          "summary": "Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+          "whatHappened": "Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
           "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
           "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
           "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -1240,7 +1132,7 @@
             "sourceTrail": [
               {
                 "source": "Yahoo Finance",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/figma-fig-best-stock-buy-111334264.html"
+                "url": "https://www.investors.com/news/rocket-lab-iridium-communications-spacex-space-satellite/?src=A00220&yptr=yahoo"
               }
             ]
           },
@@ -1255,7 +1147,7 @@
               {
                 "id": "tape",
                 "heading": "What moved and what it suggests",
-                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Figma (FIG): The Best New Stock to Buy Other Than SpaceX. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Rocket Lab Stock Soars After Acquiring Satellite Company Iridium Communications. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
               },
               {
                 "id": "mechanism",
@@ -1294,37 +1186,181 @@
               {
                 "id": "SPY",
                 "label": "SPDR S&P 500 ETF Trust",
-                "value": 14.96632329158794,
-                "displayValue": 14.96632329158794,
+                "value": 16.518192238199855,
+                "displayValue": 16.518192238199855,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
               },
               {
                 "id": "QQQ",
                 "label": "Invesco QQQ Trust",
-                "value": 25.585694135740887,
-                "displayValue": 25.585694135740887,
+                "value": 27.72532869203202,
+                "displayValue": 27.72532869203202,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
               },
               {
                 "id": "IWM",
                 "label": "iShares Russell 2000 ETF",
-                "value": 23.336067068872687,
-                "displayValue": 23.336067068872687,
+                "value": 24.185132841128436,
+                "displayValue": 24.185132841128436,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
               },
               {
                 "id": "GLD",
                 "label": "SPDR Gold Shares",
-                "value": -9.903546205760735,
-                "displayValue": -9.903546205760735,
+                "value": -10.544405845377353,
+                "displayValue": -10.544405845377353,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+              }
+            ],
+            "sourceTrail": [
+              {
+                "source": "SPDR S&P 500 ETF Trust",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+              },
+              {
+                "source": "Invesco QQQ Trust",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+              },
+              {
+                "source": "iShares Russell 2000 ETF",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+              },
+              {
+                "source": "SPDR Gold Shares",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+              }
+            ],
+            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+          },
+          "relatedLinks": [],
+          "storyline": null,
+          "concepts": []
+        },
+        {
+          "id": "yahoo-finance-news-7be4f20c",
+          "title": "Is Alphabet (GOOGL) the Best Stock to Buy in Chris Hohn’s TCI Fund Portfolio?",
+          "editorialLane": "markets",
+          "editorialLaneLabel": "Markets",
+          "privateMarketSegment": null,
+          "sourceTrail": [
+            {
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-best-stock-buy-125740195.html",
+              "publishedAt": "2026-06-29T12:57:40.000Z",
+              "fetchedAt": "2026-06-29T13:31:11.521Z"
+            }
+          ],
+          "freshnessStatus": "LIVE",
+          "confidence": "Medium",
+          "summary": "Is Alphabet (GOOGL) the Best Stock to Buy in Chris Hohn’s TCI Fund Portfolio?. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+          "whatHappened": "Is Alphabet (GOOGL) the Best Stock to Buy in Chris Hohn’s TCI Fund Portfolio?. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+          "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
+          "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
+          "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+          "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
+          "parallel": {
+            "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+            "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+            "whatRhymes": "The current story shows demand spreading across the value chain.",
+            "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+            "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+            "sourceTrail": [
+              {
+                "source": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-best-stock-buy-125740195.html"
+              }
+            ]
+          },
+          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+              },
+              {
+                "id": "tape",
+                "heading": "What moved and what it suggests",
+                "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Is Alphabet (GOOGL) the Best Stock to Buy in Chris Hohn’s TCI Fund Portfolio?. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+              },
+              {
+                "id": "mechanism",
+                "heading": "Mechanism behind the move",
+                "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+              },
+              {
+                "id": "interpretation",
+                "heading": "What the market may be pricing in right or wrong",
+                "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+              },
+              {
+                "id": "parallel",
+                "heading": "Relevant comparison",
+                "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What to watch next",
+                "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+              }
+            ]
+          },
+          "visual": {
+            "type": "bar-chart",
+            "title": "Cross-asset reaction board",
+            "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
+            "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
+            "allowedPages": [
+              "markets",
+              "deep-dive"
+            ],
+            "axisTitle": "3-month change",
+            "visualSource": "Public market data",
+            "items": [
+              {
+                "id": "SPY",
+                "label": "SPDR S&P 500 ETF Trust",
+                "value": 16.518192238199855,
+                "displayValue": 16.518192238199855,
+                "suffix": "%",
+                "latestDate": "2026-06-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+              },
+              {
+                "id": "QQQ",
+                "label": "Invesco QQQ Trust",
+                "value": 27.72532869203202,
+                "displayValue": 27.72532869203202,
+                "suffix": "%",
+                "latestDate": "2026-06-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+              },
+              {
+                "id": "IWM",
+                "label": "iShares Russell 2000 ETF",
+                "value": 24.185132841128436,
+                "displayValue": 24.185132841128436,
+                "suffix": "%",
+                "latestDate": "2026-06-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+              },
+              {
+                "id": "GLD",
+                "label": "SPDR Gold Shares",
+                "value": -10.544405845377353,
+                "displayValue": -10.544405845377353,
+                "suffix": "%",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
               }
             ],
@@ -1362,38 +1398,38 @@
       "label": "Private Markets",
       "items": [
         {
-          "id": "prnewswire-private-equity-b3d2ac11",
-          "title": "Power Sustainable Infrastructure Credit Closes Senior Secured Financing for Novilla RNG's Dairy Renewable Natural Gas Platform",
+          "id": "prnewswire-private-equity-2a1a5d58",
+          "title": "H.I.G. Capital Completes Acquisition of Premier Forge Group",
           "editorialLane": "private_markets",
           "editorialLaneLabel": "Private Markets",
           "privateMarketSegment": "private_equity",
           "sourceTrail": [
             {
               "source": "PR Newswire Private Equity",
-              "url": "https://www.prnewswire.com/news-releases/power-sustainable-infrastructure-credit-closes-senior-secured-financing-for-novilla-rngs-dairy-renewable-natural-gas-platform-302812634.html",
-              "publishedAt": "2026-06-29T12:00:00.000Z",
-              "fetchedAt": "2026-06-29T12:00:40.702Z"
+              "url": "https://www.prnewswire.com/news-releases/hig-capital-completes-acquisition-of-premier-forge-group-302813220.html",
+              "publishedAt": "2026-06-29T13:30:00.000Z",
+              "fetchedAt": "2026-06-29T13:31:12.092Z"
             }
           ],
           "freshnessStatus": "LIVE",
           "confidence": "Medium",
-          "summary": "Power Sustainable Infrastructure Credit Closes Senior Secured Financing for Novilla RNG's Dairy Renewable Natural Gas Platform The useful read is what this says about sponsor activity, valuation discipline, true exit liquidity, and financing conditions.",
-          "whatHappened": "Power Sustainable Infrastructure Credit Closes Senior Secured Financing for Novilla RNG's Dairy Renewable Natural Gas Platform",
+          "summary": "H.I.G. Capital Completes Acquisition of Premier Forge Group The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+          "whatHappened": "H.I.G. Capital Completes Acquisition of Premier Forge Group",
           "whatMoved": "The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
           "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
           "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
           "financingImplication": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk.",
           "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
           "parallel": {
-            "precedent": "Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit.",
-            "outcome": "Companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks.",
-            "whatRhymes": "The useful comparison is whether today's public-market signal improves or limits exit routes for private owners.",
-            "whatDiffers": "Private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors.",
-            "soWhat": "Use the signal to judge exit timing and financing appetite, not to guess private marks without evidence.",
+            "precedent": "Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023.",
+            "outcome": "Those tools created liquidity for some LPs but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved.",
+            "whatRhymes": "The same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark.",
+            "whatDiffers": "Today the highest-quality assets may access IPO or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures.",
+            "soWhat": "Treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity.",
             "sourceTrail": [
               {
                 "source": "PR Newswire Private Equity",
-                "url": "https://www.prnewswire.com/news-releases/power-sustainable-infrastructure-credit-closes-senior-secured-financing-for-novilla-rngs-dairy-renewable-natural-gas-platform-302812634.html"
+                "url": "https://www.prnewswire.com/news-releases/hig-capital-completes-acquisition-of-premier-forge-group-302813220.html"
               }
             ]
           },
@@ -1403,32 +1439,32 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, buyer depth, and valuation discipline rather than treating it as gossip about private marks."
+                "body": "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
               },
               {
                 "id": "signal",
                 "heading": "What the public signal is actually telling us",
-                "body": "The signal is not the headline alone; it is the observable transaction, financing, filing, or issuer action behind it. The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment. Source detail: Power Sustainable Infrastructure Credit Closes Senior Secured Financing for Novilla RNG's Dairy Renewable Natural Gas Platform"
+                "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
               },
               {
                 "id": "interpretation",
                 "heading": "How to read the sponsor or exit implication",
-                "body": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round. Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+                "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
               },
               {
                 "id": "evidence",
                 "heading": "Where the evidence is strong versus indirect",
-                "body": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+                "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
               },
               {
                 "id": "parallel",
                 "heading": "Relevant comparison",
-                "body": "A useful parallel is Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit. In that earlier setup, companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks. What rhymes is the useful comparison is whether today's public-market signal improves or limits exit routes for private owners. What is different this time is private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors. The bottom line is use the signal to judge exit timing and financing appetite, not to guess private marks without evidence."
+                "body": "A useful parallel is Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023. In that earlier setup, those tools created liquidity for some lps but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved. What rhymes is the same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark. What is different this time is today the highest-quality assets may access ipo or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures. The bottom line is treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity."
               },
               {
                 "id": "watch-next",
                 "heading": "What would confirm or weaken the read",
-                "body": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+                "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
               }
             ]
           },
@@ -1447,28 +1483,28 @@
               {
                 "id": "BX",
                 "label": "Blackstone",
-                "value": 6.782642594386666,
-                "displayValue": 6.782642594386666,
+                "value": 4.489249287393348,
+                "displayValue": 4.489249287393348,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
               },
               {
                 "id": "KKR",
                 "label": "KKR",
-                "value": 1.8418048061219987,
-                "displayValue": 1.8418048061219987,
+                "value": 1.1841519340379913,
+                "displayValue": 1.1841519340379913,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
               },
               {
                 "id": "APO",
                 "label": "Apollo Global Management",
-                "value": 9.103489128640376,
-                "displayValue": 9.103489128640376,
+                "value": 9.631654625938998,
+                "displayValue": 9.631654625938998,
                 "suffix": "%",
-                "latestDate": "2026-06-26",
+                "latestDate": "2026-06-29",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
               }
             ],
@@ -1491,8 +1527,7 @@
           "relatedLinks": [],
           "storyline": null,
           "concepts": [
-            "power",
-            "credit",
+            "acquisition",
             "private_equity"
           ],
           "sectionBackfill": true
@@ -1503,38 +1538,38 @@
           "label": "Private Equity",
           "items": [
             {
-              "id": "prnewswire-private-equity-b3d2ac11",
-              "title": "Power Sustainable Infrastructure Credit Closes Senior Secured Financing for Novilla RNG's Dairy Renewable Natural Gas Platform",
+              "id": "prnewswire-private-equity-2a1a5d58",
+              "title": "H.I.G. Capital Completes Acquisition of Premier Forge Group",
               "editorialLane": "private_markets",
               "editorialLaneLabel": "Private Markets",
               "privateMarketSegment": "private_equity",
               "sourceTrail": [
                 {
                   "source": "PR Newswire Private Equity",
-                  "url": "https://www.prnewswire.com/news-releases/power-sustainable-infrastructure-credit-closes-senior-secured-financing-for-novilla-rngs-dairy-renewable-natural-gas-platform-302812634.html",
-                  "publishedAt": "2026-06-29T12:00:00.000Z",
-                  "fetchedAt": "2026-06-29T12:00:40.702Z"
+                  "url": "https://www.prnewswire.com/news-releases/hig-capital-completes-acquisition-of-premier-forge-group-302813220.html",
+                  "publishedAt": "2026-06-29T13:30:00.000Z",
+                  "fetchedAt": "2026-06-29T13:31:12.092Z"
                 }
               ],
               "freshnessStatus": "LIVE",
               "confidence": "Medium",
-              "summary": "Power Sustainable Infrastructure Credit Closes Senior Secured Financing for Novilla RNG's Dairy Renewable Natural Gas Platform The useful read is what this says about sponsor activity, valuation discipline, true exit liquidity, and financing conditions.",
-              "whatHappened": "Power Sustainable Infrastructure Credit Closes Senior Secured Financing for Novilla RNG's Dairy Renewable Natural Gas Platform",
+              "summary": "H.I.G. Capital Completes Acquisition of Premier Forge Group The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+              "whatHappened": "H.I.G. Capital Completes Acquisition of Premier Forge Group",
               "whatMoved": "The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
               "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
               "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
               "financingImplication": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk.",
               "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
               "parallel": {
-                "precedent": "Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit.",
-                "outcome": "Companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks.",
-                "whatRhymes": "The useful comparison is whether today's public-market signal improves or limits exit routes for private owners.",
-                "whatDiffers": "Private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors.",
-                "soWhat": "Use the signal to judge exit timing and financing appetite, not to guess private marks without evidence.",
+                "precedent": "Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023.",
+                "outcome": "Those tools created liquidity for some LPs but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved.",
+                "whatRhymes": "The same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark.",
+                "whatDiffers": "Today the highest-quality assets may access IPO or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures.",
+                "soWhat": "Treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity.",
                 "sourceTrail": [
                   {
                     "source": "PR Newswire Private Equity",
-                    "url": "https://www.prnewswire.com/news-releases/power-sustainable-infrastructure-credit-closes-senior-secured-financing-for-novilla-rngs-dairy-renewable-natural-gas-platform-302812634.html"
+                    "url": "https://www.prnewswire.com/news-releases/hig-capital-completes-acquisition-of-premier-forge-group-302813220.html"
                   }
                 ]
               },
@@ -1544,32 +1579,32 @@
                   {
                     "id": "takeaway",
                     "heading": "Plain-English takeaway",
-                    "body": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, buyer depth, and valuation discipline rather than treating it as gossip about private marks."
+                    "body": "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
                   },
                   {
                     "id": "signal",
                     "heading": "What the public signal is actually telling us",
-                    "body": "The signal is not the headline alone; it is the observable transaction, financing, filing, or issuer action behind it. The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment. Source detail: Power Sustainable Infrastructure Credit Closes Senior Secured Financing for Novilla RNG's Dairy Renewable Natural Gas Platform"
+                    "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
                   },
                   {
                     "id": "interpretation",
                     "heading": "How to read the sponsor or exit implication",
-                    "body": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round. Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+                    "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
                   },
                   {
                     "id": "evidence",
                     "heading": "Where the evidence is strong versus indirect",
-                    "body": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+                    "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
                   },
                   {
                     "id": "parallel",
                     "heading": "Relevant comparison",
-                    "body": "A useful parallel is Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit. In that earlier setup, companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks. What rhymes is the useful comparison is whether today's public-market signal improves or limits exit routes for private owners. What is different this time is private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors. The bottom line is use the signal to judge exit timing and financing appetite, not to guess private marks without evidence."
+                    "body": "A useful parallel is Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023. In that earlier setup, those tools created liquidity for some lps but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved. What rhymes is the same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark. What is different this time is today the highest-quality assets may access ipo or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures. The bottom line is treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity."
                   },
                   {
                     "id": "watch-next",
                     "heading": "What would confirm or weaken the read",
-                    "body": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+                    "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
                   }
                 ]
               },
@@ -1588,28 +1623,28 @@
                   {
                     "id": "BX",
                     "label": "Blackstone",
-                    "value": 6.782642594386666,
-                    "displayValue": 6.782642594386666,
+                    "value": 4.489249287393348,
+                    "displayValue": 4.489249287393348,
                     "suffix": "%",
-                    "latestDate": "2026-06-26",
+                    "latestDate": "2026-06-29",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
                   },
                   {
                     "id": "KKR",
                     "label": "KKR",
-                    "value": 1.8418048061219987,
-                    "displayValue": 1.8418048061219987,
+                    "value": 1.1841519340379913,
+                    "displayValue": 1.1841519340379913,
                     "suffix": "%",
-                    "latestDate": "2026-06-26",
+                    "latestDate": "2026-06-29",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
                   },
                   {
                     "id": "APO",
                     "label": "Apollo Global Management",
-                    "value": 9.103489128640376,
-                    "displayValue": 9.103489128640376,
+                    "value": 9.631654625938998,
+                    "displayValue": 9.631654625938998,
                     "suffix": "%",
-                    "latestDate": "2026-06-26",
+                    "latestDate": "2026-06-29",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
                   }
                 ],
@@ -1632,8 +1667,7 @@
               "relatedLinks": [],
               "storyline": null,
               "concepts": [
-                "power",
-                "credit",
+                "acquisition",
                 "private_equity"
               ],
               "sectionBackfill": true
@@ -1648,6 +1682,38 @@
     }
   },
   "dealTape": [
+    {
+      "id": "deal-title-capital-completes-acquisition-premier-forge",
+      "title": "H.I.G. Capital Completes Acquisition of Premier Forge Group",
+      "summary": "MIAMI, June 29, 2026 /PRNewswire/ -- H.I.G. Capital (\"H.I.G.\"), a leading global alternative investment firm with $75 billion of capital under management, is pleased to announce that one of its affiliates has completed the acquisition of Premier Forge Group (\"PFG\" or the \"Company\"), a... ]]>",
+      "primaryLane": null,
+      "rankScore": 78,
+      "dealStrength": {
+        "score": 94.6,
+        "label": "High"
+      },
+      "updateStrength": {
+        "score": 40,
+        "label": "Developing"
+      },
+      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
+      "sourceTrail": [
+        {
+          "source": "PR Newswire Private Equity",
+          "url": "https://www.prnewswire.com/news-releases/hig-capital-completes-acquisition-of-premier-forge-group-302813220.html",
+          "publishedAt": "2026-06-29T13:30:00.000Z",
+          "fetchedAt": "2026-06-29T13:31:12.092Z"
+        }
+      ],
+      "watchNext": "Watch financing details, regulatory path, shareholder vote, timing, and any change in price or certainty.",
+      "clusteredItemCount": 1,
+      "relatedItemIds": [
+        "prnewswire-private-equity-2a1a5d58"
+      ],
+      "freshnessStatus": "LIVE",
+      "publishedAt": "2026-06-29T13:30:00.000Z",
+      "rank": 1
+    },
     {
       "id": "deal-names-kkr",
       "title": "KKR (KKR) Eyes $1 Billion Plus Medicover Hospitals India Deal",
@@ -1668,25 +1734,25 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/healthcare/articles/kkr-kkr-eyes-1-billion-001421908.html?.tsrc=rss",
           "publishedAt": "2026-06-27T00:14:21.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/does-kkr-kkr-india-hospital-070756313.html?.tsrc=rss",
           "publishedAt": "2026-06-27T07:07:56.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/kkr-kkr-stock-28-slide-090736778.html?.tsrc=rss",
           "publishedAt": "2026-06-26T09:07:36.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://www.proactiveinvestors.com/companies/news/1094519/kkr-shares-rise-after-firm-reports-increased-monetization-activity-1094519.html?.tsrc=rss",
           "publishedAt": "2026-06-25T16:12:00.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         }
       ],
       "watchNext": "Watch ownership filings, the investor's ask, board response, and whether the campaign changes deal timing or valuation.",
@@ -1699,7 +1765,7 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-06-27T00:14:21.000Z",
-      "rank": 1
+      "rank": 2
     },
     {
       "id": "deal-names-blue-owl",
@@ -1721,19 +1787,19 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/media-advertising/articles/blue-owl-advanced-talks-buy-132724834.html?.tsrc=rss",
           "publishedAt": "2026-06-25T13:27:24.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.521Z"
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/sila-realty-trust-inc-stockholders-131800702.html?.tsrc=rss",
           "publishedAt": "2026-06-26T13:18:00.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.521Z"
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-obdc-stock-140728475.html?.tsrc=rss",
           "publishedAt": "2026-06-27T14:07:28.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.521Z"
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
         }
       ],
       "watchNext": "Watch ownership filings, the investor's ask, board response, and whether the campaign changes deal timing or valuation.",
@@ -1745,38 +1811,6 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-06-25T13:27:24.000Z",
-      "rank": 2
-    },
-    {
-      "id": "deal-title-power-sustainable-infrastructure-credit-closes",
-      "title": "Power Sustainable Infrastructure Credit Closes Senior Secured Financing for Novilla RNG's Dairy Renewable Natural Gas Platform",
-      "summary": "MIAMI, June 29, 2026 /PRNewswire/ - Power Sustainable Infrastructure Credit (\"PSIC\") recently closed a US$45 million senior secured financing for Novilla RNG (\"Novilla\" or the \"Company\"), a vertically integrated developer, owner and operator of dairy renewable natural gas (\"RNG\") assets... ]]>",
-      "primaryLane": null,
-      "rankScore": 71,
-      "dealStrength": {
-        "score": 83.8,
-        "label": "High"
-      },
-      "updateStrength": {
-        "score": 40,
-        "label": "Developing"
-      },
-      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
-      "sourceTrail": [
-        {
-          "source": "PR Newswire Private Equity",
-          "url": "https://www.prnewswire.com/news-releases/power-sustainable-infrastructure-credit-closes-senior-secured-financing-for-novilla-rngs-dairy-renewable-natural-gas-platform-302812634.html",
-          "publishedAt": "2026-06-29T12:00:00.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.702Z"
-        }
-      ],
-      "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
-      "clusteredItemCount": 1,
-      "relatedItemIds": [
-        "prnewswire-private-equity-b3d2ac11"
-      ],
-      "freshnessStatus": "LIVE",
-      "publishedAt": "2026-06-29T12:00:00.000Z",
       "rank": 3
     },
     {
@@ -1799,7 +1833,7 @@
           "source": "KKR",
           "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
           "publishedAt": "2026-05-29T10:05:00-04:00",
-          "fetchedAt": "2026-06-29T12:00:41.306Z"
+          "fetchedAt": "2026-06-29T13:31:12.568Z"
         }
       ],
       "watchNext": "Watch financing details, regulatory path, shareholder vote, timing, and any change in price or certainty.",
@@ -1810,38 +1844,6 @@
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-05-29T10:05:00-04:00",
       "rank": 4
-    },
-    {
-      "id": "deal-title-wave-power-announces-closing-million",
-      "title": "Eco Wave Power Announces Closing of $4.0 Million Strategic Financing Priced at a Premium to Market to Advance Global Project Deployment and AI-Driven Technology",
-      "summary": "STOCKHOLM, June 29, 2026 /PRNewswire/ -- Eco Wave Power Global AB (publ) (NASDAQ: WAVE) (\"Eco Wave Power\" or the \"Company\"), a leading innovator in onshore wave energy technology, today announced the successful closing on June 26, 2026 of its previously announced registered direct... ]]>",
-      "primaryLane": null,
-      "rankScore": 70,
-      "dealStrength": {
-        "score": 82.6,
-        "label": "High"
-      },
-      "updateStrength": {
-        "score": 40,
-        "label": "Developing"
-      },
-      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
-      "sourceTrail": [
-        {
-          "source": "PR Newswire Private Equity",
-          "url": "https://www.prnewswire.com/news-releases/eco-wave-power-announces-closing-of-4-0-million-strategic-financing-priced-at-a-premium-to-market-to-advance-global-project-deployment-and-ai-driven-technology-302813118.html",
-          "publishedAt": "2026-06-29T12:00:00.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.702Z"
-        }
-      ],
-      "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
-      "clusteredItemCount": 1,
-      "relatedItemIds": [
-        "prnewswire-private-equity-86a58879"
-      ],
-      "freshnessStatus": "LIVE",
-      "publishedAt": "2026-06-29T12:00:00.000Z",
-      "rank": 5
     },
     {
       "id": "deal-names-blackstone",
@@ -1863,31 +1865,31 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://www.fool.com/investing/2026/06/28/blackstone-private-credit-limits-redemptions-its-a/?.tsrc=rss",
           "publishedAt": "2026-06-28T16:35:00.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/real-estate/articles/blackstone-bx-funds-buy-hyatt-000811107.html?.tsrc=rss",
           "publishedAt": "2026-06-28T00:08:11.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/technology/ai/articles/blackstone-bx-launches-sablepointe-plans-130744945.html?.tsrc=rss",
           "publishedAt": "2026-06-27T13:07:44.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-secured-lending-fund-bxsl-150701493.html?.tsrc=rss",
           "publishedAt": "2026-06-27T15:07:01.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.521Z"
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-bx-stock-27-slide-180748978.html?.tsrc=rss",
           "publishedAt": "2026-06-27T18:07:48.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -1901,7 +1903,7 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-06-28T16:35:00.000Z",
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "deal-names-apollo",
@@ -1923,25 +1925,25 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-nyse-apo-caps-withdrawals-160738383.html?.tsrc=rss",
           "publishedAt": "2026-06-26T16:07:38.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://247wallst.com/investing/2026/06/25/a-private-credit-veteran-warns-a-canary-in-the-coal-mine-is-coming-as-a-1-8-trillion-market-cracks/?.tsrc=rss",
           "publishedAt": "2026-06-25T19:05:15.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/small-business/articles/26-june-2026-apl-sweets-060000527.html?.tsrc=rss",
           "publishedAt": "2026-06-29T06:00:00.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-announce-second-quarter-2026-120000836.html?.tsrc=rss",
           "publishedAt": "2026-06-25T12:00:00.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.223Z"
+          "fetchedAt": "2026-06-29T13:31:11.612Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -1954,7 +1956,7 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-06-26T16:07:38.000Z",
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "deal-names-ares",
@@ -1976,31 +1978,31 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ares-management-ares-expands-infrastructure-160747459.html?.tsrc=rss",
           "publishedAt": "2026-06-26T16:07:47.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.521Z"
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-arcc-stock-sees-130524540.html?.tsrc=rss",
           "publishedAt": "2026-06-28T13:05:24.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.521Z"
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/month-end-portfolio-data-now-201500035.html?.tsrc=rss",
           "publishedAt": "2026-06-25T20:15:00.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.521Z"
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/m/2ef5abf4-19e0-3e90-aab1-63400535b6f8/ares-caps-private-credit-fund.html?.tsrc=rss",
           "publishedAt": "2026-06-25T16:12:00.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.521Z"
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-arcc-gains-market-215003824.html?.tsrc=rss",
           "publishedAt": "2026-06-26T21:50:03.000Z",
-          "fetchedAt": "2026-06-29T12:00:40.521Z"
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -2014,6 +2016,38 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-06-26T16:07:47.000Z",
+      "rank": 7
+    },
+    {
+      "id": "deal-title-private-credit-arbitrage-trade-gains",
+      "title": "Private Credit’s Big Arbitrage Trade Gains Backing From Advisers",
+      "summary": "(Bloomberg) -- On paper, it seems like a no-brainer trade: Cash out of one private credit fund at 100% of net asset value and plow the money back into a similar vehicle that’s trading at a substantially discounted price.Most Read from BloombergInvestor Who Scored 900% Win in 2008 Crisis Has New Big Short BetGrand Ole Opry House Up For Sale by Owner Ryman HospitalityStocks Slide as Wall Street Gets AI Wake-Up Call: Markets WrapStocks Climb Late After Micron’s Blowout Outlook: Markets WrapOracle C",
+      "primaryLane": null,
+      "rankScore": 58,
+      "dealStrength": {
+        "score": 72.2,
+        "label": "High"
+      },
+      "updateStrength": {
+        "score": 20,
+        "label": "Developing"
+      },
+      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Private Credit Proxies",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/private-credit-big-arbitrage-trade-111000527.html?.tsrc=rss",
+          "publishedAt": "2026-06-25T11:10:00.000Z",
+          "fetchedAt": "2026-06-29T13:31:11.945Z"
+        }
+      ],
+      "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
+      "clusteredItemCount": 1,
+      "relatedItemIds": [
+        "private-credit-public-proxies-ef31fa71"
+      ],
+      "freshnessStatus": "BACKGROUND",
+      "publishedAt": "2026-06-25T11:10:00.000Z",
       "rank": 8
     }
   ],
@@ -2024,11 +2058,11 @@
       "name": "S&P 500",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-29T12:00:43.758Z",
-      "latestDate": "2026-06-26",
-      "price": 728.989990234375,
-      "change": -5.30999755859375,
-      "percentChange": -0.7231373616869609,
+      "fetchedAt": "2026-06-29T13:31:15.113Z",
+      "latestDate": "2026-06-29",
+      "price": 736.3599853515625,
+      "change": 7.3699951171875,
+      "percentChange": 1.0109871487834832,
       "whyItMoved": "SPY moved with the broad tape; no separate S&P-specific headline cleared the brief beyond the macro backdrop."
     },
     {
@@ -2037,11 +2071,11 @@
       "name": "Nasdaq 100",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-29T12:00:43.851Z",
-      "latestDate": "2026-06-26",
-      "price": 706.52001953125,
-      "change": -9.8599853515625,
-      "percentChange": -1.3763624451209278,
+      "fetchedAt": "2026-06-29T13:31:15.254Z",
+      "latestDate": "2026-06-29",
+      "price": 713.0650024414062,
+      "change": 6.54498291015625,
+      "percentChange": 0.9263690665833652,
       "whyItMoved": "QQQ mostly tracked large-cap growth sentiment; no cleaner tech-wide catalyst cleared the tape than the stories already in the brief."
     },
     {
@@ -2050,11 +2084,11 @@
       "name": "Russell 2000",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-29T12:00:43.972Z",
-      "latestDate": "2026-06-26",
-      "price": 299.8299865722656,
-      "change": 0.91998291015625,
-      "percentChange": 0.30777923083370845,
+      "fetchedAt": "2026-06-29T13:31:15.399Z",
+      "latestDate": "2026-06-29",
+      "price": 297.55999755859375,
+      "change": -2.269989013671875,
+      "percentChange": -0.7570920572765185,
       "whyItMoved": "IWM moved on financing sensitivity more than on a single company headline in this edition."
     },
     {
@@ -2063,11 +2097,11 @@
       "name": "Gold",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-29T12:00:44.049Z",
-      "latestDate": "2026-06-26",
-      "price": 373.6300048828125,
-      "change": 4.170013427734375,
-      "percentChange": 1.12867794190955,
+      "fetchedAt": "2026-06-29T13:31:15.475Z",
+      "latestDate": "2026-06-29",
+      "price": 370.864990234375,
+      "change": -2.7650146484375,
+      "percentChange": -0.7400408458375112,
       "whyItMoved": "Gold moved with the broader inflation and policy backdrop; no gold-specific story cleared the brief."
     },
     {
@@ -2076,17 +2110,17 @@
       "name": "Oil proxy (USO ETF)",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=3mo&interval=1d",
-      "fetchedAt": "2026-06-29T12:00:44.200Z",
-      "latestDate": "2026-06-26",
-      "price": 105.4800033569336,
-      "change": -3.8299942016601562,
-      "percentChange": -3.5037913157093916,
+      "fetchedAt": "2026-06-29T13:31:15.629Z",
+      "latestDate": "2026-06-29",
+      "price": 106.49500274658203,
+      "change": 1.0149993896484375,
+      "percentChange": 0.9622671192129022,
       "whyItMoved": "Oil is mostly reading through growth and inflation expectations here. No separate energy headline cleared the brief, so treat this as macro context rather than an oil thesis."
     }
   ],
   "openbbMarketPack": {
     "runDate": "2026-06-29",
-    "fetchedAt": "2026-06-29T12:00:57.763843+00:00",
+    "fetchedAt": "2026-06-29T13:31:29.714465+00:00",
     "provider": "OpenBB equity.price.historical(provider='yfinance')",
     "sourceNote": "OpenBB market pack uses Yahoo Finance through OpenBB as market context, not live trading data or investment advice.",
     "sourceTrail": [
@@ -2100,295 +2134,295 @@
       }
     ],
     "summary": {
-      "headline": "Cyclical/breadth improvement: small caps are beating the S&P 500. Sector leadership: Health Care led at +3.03%, while Technology lagged at -1.87%.",
-      "riskTone": "Cyclical/breadth improvement: small caps are beating the S&P 500.",
-      "leadership": "Sector leadership: Health Care led at +3.03%, while Technology lagged at -1.87%.",
-      "movers": "Watchlist extremes: MSFT +5.71% vs. GS -4.27%.",
+      "headline": "Balanced tape: index moves are not showing a clean one-factor leadership signal. Sector leadership: Consumer Discretionary led at +0.96%, while Materials lagged at -1.01%.",
+      "riskTone": "Balanced tape: index moves are not showing a clean one-factor leadership signal.",
+      "leadership": "Sector leadership: Consumer Discretionary led at +0.96%, while Materials lagged at -1.01%.",
+      "movers": "Watchlist extremes: MSTR +4.80% vs. JPM -0.42%.",
       "watchNext": "Check whether leadership broadens beyond the first index/sector leaders, and whether watchlist volume confirms the price move."
     },
     "indices": [
       {
         "symbol": "SPY",
         "label": "S&P 500",
-        "latestDate": "2026-06-26",
-        "lastClose": 728.99,
-        "oneDayPct": -0.72,
-        "fiveDayPct": -2.38,
-        "oneMonthPct": -2.86,
-        "ytdPct": 6.71,
-        "volume": 70932800,
-        "volumeVs20DayAvg": 1.16,
+        "latestDate": "2026-06-29",
+        "lastClose": 736.38,
+        "oneDayPct": 1.01,
+        "fiveDayPct": -1.08,
+        "oneMonthPct": -2.41,
+        "ytdPct": 7.79,
+        "volume": 1811843,
+        "volumeVs20DayAvg": 0.03,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/SPY"
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
-        "latestDate": "2026-06-26",
-        "lastClose": 706.52,
-        "oneDayPct": -1.38,
-        "fiveDayPct": -4.6,
-        "oneMonthPct": -3.14,
-        "ytdPct": 15.23,
-        "volume": 46937400,
-        "volumeVs20DayAvg": 0.91,
+        "latestDate": "2026-06-29",
+        "lastClose": 713.45,
+        "oneDayPct": 0.98,
+        "fiveDayPct": -3.32,
+        "oneMonthPct": -3.01,
+        "ytdPct": 16.36,
+        "volume": 2231649,
+        "volumeVs20DayAvg": 0.04,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/QQQ"
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
-        "latestDate": "2026-06-26",
-        "lastClose": 299.83,
-        "oneDayPct": 0.31,
-        "fiveDayPct": 1.43,
-        "oneMonthPct": 3.26,
-        "ytdPct": 20.52,
-        "volume": 39794200,
-        "volumeVs20DayAvg": 1.34,
+        "latestDate": "2026-06-29",
+        "lastClose": 297.535,
+        "oneDayPct": -0.77,
+        "fiveDayPct": -0.22,
+        "oneMonthPct": 1.89,
+        "ytdPct": 19.6,
+        "volume": 1174045,
+        "volumeVs20DayAvg": 0.04,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/IWM"
       },
       {
         "symbol": "DIA",
         "label": "Dow Industrials",
-        "latestDate": "2026-06-26",
-        "lastClose": 517.75,
-        "oneDayPct": -0.29,
-        "fiveDayPct": 0.43,
-        "oneMonthPct": 2.14,
-        "ytdPct": 7.05,
-        "volume": 3819800,
-        "volumeVs20DayAvg": 0.68,
+        "latestDate": "2026-06-29",
+        "lastClose": 520.05,
+        "oneDayPct": 0.44,
+        "fiveDayPct": 0.57,
+        "oneMonthPct": 2.56,
+        "ytdPct": 7.53,
+        "volume": 272068,
+        "volumeVs20DayAvg": 0.05,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/DIA"
       }
     ],
     "sectors": [
       {
-        "symbol": "XLV",
-        "label": "Health Care",
-        "latestDate": "2026-06-26",
-        "lastClose": 160.34,
-        "oneDayPct": 3.03,
-        "fiveDayPct": 7.32,
-        "oneMonthPct": 7.76,
-        "ytdPct": 3.11,
-        "volume": 16556900,
-        "volumeVs20DayAvg": 1.45,
+        "symbol": "XLB",
+        "label": "Materials",
+        "latestDate": "2026-06-29",
+        "lastClose": 51.08,
+        "oneDayPct": -1.01,
+        "fiveDayPct": -1.05,
+        "oneMonthPct": -0.55,
+        "ytdPct": 10.75,
+        "volume": 473049,
+        "volumeVs20DayAvg": 0.04,
         "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLV"
-      },
-      {
-        "symbol": "XLK",
-        "label": "Technology",
-        "latestDate": "2026-06-26",
-        "lastClose": 181.11,
-        "oneDayPct": -1.87,
-        "fiveDayPct": -5.4,
-        "oneMonthPct": -1.8,
-        "ytdPct": 25.51,
-        "volume": 13425800,
-        "volumeVs20DayAvg": 0.88,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLK"
-      },
-      {
-        "symbol": "XLI",
-        "label": "Industrials",
-        "latestDate": "2026-06-26",
-        "lastClose": 181.2,
-        "oneDayPct": -1.59,
-        "fiveDayPct": 0.16,
-        "oneMonthPct": 3.96,
-        "ytdPct": 14.7,
-        "volume": 8855200,
-        "volumeVs20DayAvg": 1.05,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLI"
-      },
-      {
-        "symbol": "XLRE",
-        "label": "Real Estate",
-        "latestDate": "2026-06-26",
-        "lastClose": 45.24,
-        "oneDayPct": 1.46,
-        "fiveDayPct": 3.15,
-        "oneMonthPct": 1.37,
-        "ytdPct": 12.04,
-        "volume": 5421600,
-        "volumeVs20DayAvg": 0.99,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLRE"
-      },
-      {
-        "symbol": "XLP",
-        "label": "Consumer Staples",
-        "latestDate": "2026-06-26",
-        "lastClose": 84.71,
-        "oneDayPct": 0.92,
-        "fiveDayPct": 1.69,
-        "oneMonthPct": 0.15,
-        "ytdPct": 9.04,
-        "volume": 11368500,
-        "volumeVs20DayAvg": 0.87,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLP"
+        "url": "https://finance.yahoo.com/quote/XLB"
       },
       {
         "symbol": "XLY",
         "label": "Consumer Discretionary",
-        "latestDate": "2026-06-26",
-        "lastClose": 114.37,
-        "oneDayPct": 0.9,
-        "fiveDayPct": -2.38,
-        "oneMonthPct": -5.91,
-        "ytdPct": -3.36,
-        "volume": 8948900,
-        "volumeVs20DayAvg": 1.16,
+        "latestDate": "2026-06-29",
+        "lastClose": 115.47,
+        "oneDayPct": 0.96,
+        "fiveDayPct": 0.46,
+        "oneMonthPct": -5.4,
+        "ytdPct": -2.43,
+        "volume": 165641,
+        "volumeVs20DayAvg": 0.02,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLY"
+      },
+      {
+        "symbol": "XLK",
+        "label": "Technology",
+        "latestDate": "2026-06-29",
+        "lastClose": 182.56,
+        "oneDayPct": 0.8,
+        "fiveDayPct": -4.99,
+        "oneMonthPct": -2.3,
+        "ytdPct": 26.51,
+        "volume": 262399,
+        "volumeVs20DayAvg": 0.02,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XLK"
+      },
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "latestDate": "2026-06-29",
+        "lastClose": 54.15,
+        "oneDayPct": 0.58,
+        "fiveDayPct": 0.17,
+        "oneMonthPct": -4.92,
+        "ytdPct": 18.62,
+        "volume": 733418,
+        "volumeVs20DayAvg": 0.02,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XLE"
+      },
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "latestDate": "2026-06-29",
+        "lastClose": 53.76,
+        "oneDayPct": 0.35,
+        "fiveDayPct": 0.11,
+        "oneMonthPct": 4.86,
+        "ytdPct": -2.13,
+        "volume": 756667,
+        "volumeVs20DayAvg": 0.02,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XLF"
+      },
+      {
+        "symbol": "XLRE",
+        "label": "Real Estate",
+        "latestDate": "2026-06-29",
+        "lastClose": 45.12,
+        "oneDayPct": -0.27,
+        "fiveDayPct": 2.5,
+        "oneMonthPct": 1.6,
+        "ytdPct": 11.74,
+        "volume": 232206,
+        "volumeVs20DayAvg": 0.04,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XLRE"
       }
     ],
     "watchlist": [
       {
-        "symbol": "MSFT",
-        "label": "Microsoft",
-        "latestDate": "2026-06-26",
-        "lastClose": 372.97,
-        "oneDayPct": 5.71,
-        "fiveDayPct": -1.69,
-        "oneMonthPct": -9.62,
-        "ytdPct": -21.14,
-        "volume": 186112200,
-        "volumeVs20DayAvg": 4.32,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/MSFT"
-      },
-      {
-        "symbol": "COIN",
-        "label": "Coinbase",
-        "latestDate": "2026-06-26",
-        "lastClose": 149.06,
-        "oneDayPct": 4.59,
-        "fiveDayPct": -8.7,
-        "oneMonthPct": -14.22,
-        "ytdPct": -36.98,
-        "volume": 10480600,
-        "volumeVs20DayAvg": 1.18,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/COIN"
-      },
-      {
-        "symbol": "GS",
-        "label": "Goldman Sachs",
-        "latestDate": "2026-06-26",
-        "lastClose": 1019.61,
-        "oneDayPct": -4.27,
-        "fiveDayPct": -7.02,
-        "oneMonthPct": 2.32,
-        "ytdPct": 11.51,
-        "volume": 4007300,
-        "volumeVs20DayAvg": 1.66,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/GS"
-      },
-      {
         "symbol": "MSTR",
         "label": "Strategy",
-        "latestDate": "2026-06-26",
-        "lastClose": 82.31,
-        "oneDayPct": -3.54,
-        "fiveDayPct": -26.86,
-        "oneMonthPct": -46.62,
-        "ytdPct": -47.63,
-        "volume": 45485400,
-        "volumeVs20DayAvg": 1.85,
+        "latestDate": "2026-06-29",
+        "lastClose": 86.26,
+        "oneDayPct": 4.8,
+        "fiveDayPct": -21.19,
+        "oneMonthPct": -43.12,
+        "ytdPct": -45.11,
+        "volume": 4251245,
+        "volumeVs20DayAvg": 0.16,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/MSTR"
       },
       {
-        "symbol": "AAPL",
-        "label": "Apple",
-        "latestDate": "2026-06-26",
-        "lastClose": 283.78,
-        "oneDayPct": 3.14,
-        "fiveDayPct": -4.78,
-        "oneMonthPct": -8.71,
-        "ytdPct": 4.71,
-        "volume": 261693600,
-        "volumeVs20DayAvg": 4.65,
+        "symbol": "GOOGL",
+        "label": "Alphabet",
+        "latestDate": "2026-06-29",
+        "lastClose": 344.83,
+        "oneDayPct": 2.21,
+        "fiveDayPct": -1.39,
+        "oneMonthPct": -11.61,
+        "ytdPct": 9.42,
+        "volume": 1913473,
+        "volumeVs20DayAvg": 0.05,
         "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/AAPL"
+        "url": "https://finance.yahoo.com/quote/GOOGL"
       },
       {
-        "symbol": "KKR",
-        "label": "KKR",
-        "latestDate": "2026-06-26",
-        "lastClose": 90.13,
-        "oneDayPct": -2.72,
-        "fiveDayPct": -7.09,
-        "oneMonthPct": -5.16,
-        "ytdPct": -30.08,
-        "volume": 8722700,
-        "volumeVs20DayAvg": 1.81,
+        "symbol": "META",
+        "label": "Meta",
+        "latestDate": "2026-06-29",
+        "lastClose": 562.365,
+        "oneDayPct": 2.2,
+        "fiveDayPct": -0.26,
+        "oneMonthPct": -11.48,
+        "ytdPct": -13.54,
+        "volume": 875345,
+        "volumeVs20DayAvg": 0.05,
         "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/KKR"
-      },
-      {
-        "symbol": "APO",
-        "label": "Apollo",
-        "latestDate": "2026-06-26",
-        "lastClose": 118.29,
-        "oneDayPct": -2.65,
-        "fiveDayPct": -13.97,
-        "oneMonthPct": -9.2,
-        "ytdPct": -19.32,
-        "volume": 11693800,
-        "volumeVs20DayAvg": 3.07,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/APO"
+        "url": "https://finance.yahoo.com/quote/META"
       },
       {
         "symbol": "AMZN",
         "label": "Amazon",
-        "latestDate": "2026-06-26",
-        "lastClose": 232.69,
-        "oneDayPct": 2.5,
-        "fiveDayPct": -4.79,
-        "oneMonthPct": -14.41,
-        "ytdPct": 2.73,
-        "volume": 248291300,
-        "volumeVs20DayAvg": 4.88,
+        "latestDate": "2026-06-29",
+        "lastClose": 236.96,
+        "oneDayPct": 1.84,
+        "fiveDayPct": 1.79,
+        "oneMonthPct": -13.52,
+        "ytdPct": 4.62,
+        "volume": 2807580,
+        "volumeVs20DayAvg": 0.05,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/AMZN"
+      },
+      {
+        "symbol": "COIN",
+        "label": "Coinbase",
+        "latestDate": "2026-06-29",
+        "lastClose": 151.6999,
+        "oneDayPct": 1.77,
+        "fiveDayPct": -7.97,
+        "oneMonthPct": -16.76,
+        "ytdPct": -35.86,
+        "volume": 427973,
+        "volumeVs20DayAvg": 0.05,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/COIN"
+      },
+      {
+        "symbol": "OWL",
+        "label": "Blue Owl",
+        "latestDate": "2026-06-29",
+        "lastClose": 8.71,
+        "oneDayPct": 1.63,
+        "fiveDayPct": -5.63,
+        "oneMonthPct": -12.29,
+        "ytdPct": -43.11,
+        "volume": 282501,
+        "volumeVs20DayAvg": 0.01,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/OWL"
+      },
+      {
+        "symbol": "APO",
+        "label": "Apollo",
+        "latestDate": "2026-06-29",
+        "lastClose": 119.965,
+        "oneDayPct": 1.42,
+        "fiveDayPct": -11.28,
+        "oneMonthPct": -5.92,
+        "ytdPct": -18.17,
+        "volume": 38094,
+        "volumeVs20DayAvg": 0.01,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/APO"
+      },
+      {
+        "symbol": "KKR",
+        "label": "KKR",
+        "latestDate": "2026-06-29",
+        "lastClose": 91.335,
+        "oneDayPct": 1.34,
+        "fiveDayPct": -5.74,
+        "oneMonthPct": -2.87,
+        "ytdPct": -29.14,
+        "volume": 34369,
+        "volumeVs20DayAvg": 0.01,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/KKR"
       }
     ],
     "failures": []
   },
   "deepDive": {
-    "id": "yahoo-finance-news-918a9469",
-    "title": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues",
+    "id": "yahoo-finance-news-1bc561c",
+    "title": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands",
     "editorialLane": "markets",
     "editorialLaneLabel": "Markets",
     "privateMarketSegment": null,
     "sourceTrail": [
       {
         "source": "Yahoo Finance",
-        "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo",
-        "publishedAt": "2026-06-29T11:44:13.000Z",
-        "fetchedAt": "2026-06-29T12:00:40.074Z"
+        "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html",
+        "publishedAt": "2026-06-29T13:07:53.000Z",
+        "fetchedAt": "2026-06-29T13:31:11.521Z"
       }
     ],
     "freshnessStatus": "LIVE",
     "confidence": "Medium",
-    "summary": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-    "whatHappened": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+    "summary": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+    "whatHappened": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
     "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-    "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
+    "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
     "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
     "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-    "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
+    "sectorReadThrough": "Connects to AI Infrastructure.",
     "parallel": {
       "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
       "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -2398,7 +2432,7 @@
       "sourceTrail": [
         {
           "source": "Yahoo Finance",
-          "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo"
+          "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html"
         }
       ]
     },
@@ -2408,17 +2442,17 @@
         {
           "id": "takeaway",
           "heading": "Plain-English takeaway",
-          "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          "body": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
         },
         {
           "id": "tape",
           "heading": "What moved and what it suggests",
-          "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+          "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
         },
         {
           "id": "mechanism",
           "heading": "Mechanism behind the move",
-          "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
         },
         {
           "id": "interpretation",
@@ -2439,83 +2473,310 @@
     },
     "visual": {
       "type": "bar-chart",
-      "title": "Cross-asset reaction board",
-      "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
-      "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
+      "title": "Semiconductor rebound board",
+      "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
+      "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
       "allowedPages": [
         "markets",
         "deep-dive"
       ],
-      "axisTitle": "3-month change",
+      "axisTitle": "Latest daily change",
       "visualSource": "Public market data",
       "items": [
         {
-          "id": "SPY",
-          "label": "SPDR S&P 500 ETF Trust",
-          "value": 14.96632329158794,
-          "displayValue": 14.96632329158794,
+          "id": "NVDA",
+          "label": "Nvidia",
+          "value": 0.36877718712349356,
+          "displayValue": 0.36877718712349356,
           "suffix": "%",
-          "latestDate": "2026-06-26",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+          "latestDate": "2026-06-29",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
         },
         {
-          "id": "QQQ",
-          "label": "Invesco QQQ Trust",
-          "value": 25.585694135740887,
-          "displayValue": 25.585694135740887,
+          "id": "SOXX",
+          "label": "iShares Semiconductor ETF",
+          "value": 0.47462246692566823,
+          "displayValue": 0.47462246692566823,
           "suffix": "%",
-          "latestDate": "2026-06-26",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+          "latestDate": "2026-06-29",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
         },
         {
-          "id": "IWM",
-          "label": "iShares Russell 2000 ETF",
-          "value": 23.336067068872687,
-          "displayValue": 23.336067068872687,
+          "id": "AVGO",
+          "label": "Broadcom",
+          "value": 2.44644771851793,
+          "displayValue": 2.44644771851793,
           "suffix": "%",
-          "latestDate": "2026-06-26",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+          "latestDate": "2026-06-29",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
         },
         {
-          "id": "GLD",
-          "label": "SPDR Gold Shares",
-          "value": -9.903546205760735,
-          "displayValue": -9.903546205760735,
+          "id": "MU",
+          "label": "Micron Technology",
+          "value": -1.9476292002401454,
+          "displayValue": -1.9476292002401454,
           "suffix": "%",
-          "latestDate": "2026-06-26",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+          "latestDate": "2026-06-29",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+        },
+        {
+          "id": "MRVL",
+          "label": "Marvell Technology",
+          "value": 0.5623278974741117,
+          "displayValue": 0.5623278974741117,
+          "suffix": "%",
+          "latestDate": "2026-06-29",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+        },
+        {
+          "id": "INTC",
+          "label": "Intel",
+          "value": -2.033983861262988,
+          "displayValue": -2.033983861262988,
+          "suffix": "%",
+          "latestDate": "2026-06-29",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
         }
       ],
       "sourceTrail": [
         {
-          "source": "SPDR S&P 500 ETF Trust",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+          "source": "Nvidia",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
         },
         {
-          "source": "Invesco QQQ Trust",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+          "source": "iShares Semiconductor ETF",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
         },
         {
-          "source": "iShares Russell 2000 ETF",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+          "source": "Broadcom",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
         },
         {
-          "source": "SPDR Gold Shares",
-          "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+          "source": "Micron Technology",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+        },
+        {
+          "source": "Marvell Technology",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+        },
+        {
+          "source": "Intel",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
         }
       ],
       "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
     },
     "relatedLinks": [],
-    "storyline": null,
-    "concepts": []
+    "storyline": {
+      "id": "ai-infrastructure-dell-servers",
+      "name": "AI infrastructure buildout",
+      "threshold": 2
+    },
+    "concepts": [
+      "nvidia"
+    ],
+    "continuity": {
+      "previousDate": "2026-06-19",
+      "previousTitle": "How SablePointe’s Launch And New Leadership At Blackstone (BX) Has Changed Its Investment Story",
+      "previousUrl": "issues/2026-06-19.html",
+      "whatChanged": "This updates the ai infrastructure buildout thread from 2026-06-19. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+      "priorRead": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+      "updatedRead": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+      "status": "Developing"
+    }
   },
-  "continuingStories": [],
+  "continuingStories": [
+    {
+      "id": "yahoo-finance-news-1bc561c",
+      "title": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html",
+          "publishedAt": "2026-06-29T13:07:53.000Z",
+          "fetchedAt": "2026-06-29T13:31:11.521Z"
+        }
+      ],
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "summary": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
+      "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+      "sectorReadThrough": "Connects to AI Infrastructure.",
+      "parallel": {
+        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+        "whatRhymes": "The current story shows demand spreading across the value chain.",
+        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/article/nvidia-micron-and-broadcom-hold-the-stock-markets-fate-in-the-palm-of-their-hands-130753236.html"
+          }
+        ]
+      },
+      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Semiconductor rebound board",
+        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
+        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
+        "allowedPages": [
+          "markets",
+          "deep-dive"
+        ],
+        "axisTitle": "Latest daily change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "NVDA",
+            "label": "Nvidia",
+            "value": 0.36877718712349356,
+            "displayValue": 0.36877718712349356,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+          },
+          {
+            "id": "SOXX",
+            "label": "iShares Semiconductor ETF",
+            "value": 0.47462246692566823,
+            "displayValue": 0.47462246692566823,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+          },
+          {
+            "id": "AVGO",
+            "label": "Broadcom",
+            "value": 2.44644771851793,
+            "displayValue": 2.44644771851793,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+          },
+          {
+            "id": "MU",
+            "label": "Micron Technology",
+            "value": -1.9476292002401454,
+            "displayValue": -1.9476292002401454,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "id": "MRVL",
+            "label": "Marvell Technology",
+            "value": 0.5623278974741117,
+            "displayValue": 0.5623278974741117,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "id": "INTC",
+            "label": "Intel",
+            "value": -2.033983861262988,
+            "displayValue": -2.033983861262988,
+            "suffix": "%",
+            "latestDate": "2026-06-29",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Nvidia",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+          },
+          {
+            "source": "iShares Semiconductor ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+          },
+          {
+            "source": "Broadcom",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+          },
+          {
+            "source": "Micron Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "source": "Marvell Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Intel",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": {
+        "id": "ai-infrastructure-dell-servers",
+        "name": "AI infrastructure buildout",
+        "threshold": 2
+      },
+      "concepts": [
+        "nvidia"
+      ],
+      "continuity": {
+        "previousDate": "2026-06-19",
+        "previousTitle": "How SablePointe’s Launch And New Leadership At Blackstone (BX) Has Changed Its Investment Story",
+        "previousUrl": "issues/2026-06-19.html",
+        "whatChanged": "This updates the ai infrastructure buildout thread from 2026-06-19. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+        "updatedRead": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+        "status": "Developing"
+      }
+    }
+  ],
   "themePulse": [
     {
       "id": "rates-cost-of-capital",
       "name": "Rates and Cost of Capital",
-      "freshItems": 1,
+      "freshItems": 3,
       "openQuestions": [
         "Are long-end yields changing valuation math more than equity headlines imply?",
         "Does the rate setup support or constrain sponsor-backed deal activity?"
@@ -2524,7 +2785,7 @@
     {
       "id": "ai-infrastructure",
       "name": "AI Infrastructure",
-      "freshItems": 6,
+      "freshItems": 2,
       "openQuestions": [
         "Is AI demand broadening from chips into systems, power, and financing?",
         "Which companies convert AI capex into durable revenue rather than one-time orders?"
@@ -2558,7 +2819,7 @@
   "calendarFailures": [],
   "review": {
     "status": "APPROVED",
-    "reviewedAt": "2026-06-29T12:00:59.849Z",
+    "reviewedAt": "2026-06-29T13:31:31.821Z",
     "blockerCount": 0,
     "warningCount": 0
   }
