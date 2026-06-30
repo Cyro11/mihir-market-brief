@@ -1,9 +1,171 @@
 {
   "runDate": "2026-06-30",
-  "generatedAt": "2026-06-30T12:01:32.598Z",
+  "generatedAt": "2026-06-30T13:31:49.694Z",
   "selectedCount": 3,
   "quietDay": false,
   "analyses": [
+    {
+      "id": "private-credit-public-proxies-8d4ba25f",
+      "title": "SummitIG Strengthens Market Footprint with Acquisition of Dark Fiber & Infrastructure",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_credit",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Private Credit Proxies",
+          "url": "https://finance.yahoo.com/technology/articles/summitig-strengthens-market-footprint-acquisition-130500346.html?.tsrc=rss",
+          "publishedAt": "2026-06-30T13:05:00.000Z",
+          "fetchedAt": "2026-06-30T13:31:27.911Z"
+        }
+      ],
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "summary": "SummitIG, the premier pure-play dark fiber provider with unmatched network quality and scale for data center connectivity solutions, today announced it has completed the acquisition of Dark Fiber and Infrastructure, LLC (\"DF&I\") from funds managed by Blue Owl Capital Inc. (\"Blue Owl\") (NYSE: OWL), a leading alternative asset manager. SDC Capital Partners, LLC (\"SDC\"), a leading digital infrastructure investment firm, has been the majority owner of SummitIG since 2019. The banking read is not simply 'AI demand is large'; it is whether contracted compute demand can be packaged into financeable infrastructure cash flows without leaving lenders exposed to chip obsolescence, power constraints, or one-customer concentration.",
+      "whatHappened": "SummitIG, the premier pure-play dark fiber provider with unmatched network quality and scale for data center connectivity solutions, today announced it has completed the acquisition of Dark Fiber and Infrastructure, LLC (\"DF&I\") from funds managed by Blue Owl Capital Inc. (\"Blue Owl\") (NYSE: OWL), a leading alternative asset manager. SDC Capital Partners, LLC (\"SDC\"), a leading digital infrastructure investment firm, has been the majority owner of SummitIG since 2019.",
+      "whatMoved": "The main move is in private-credit capacity: whether direct lenders are still funding sponsor deals and refinancings at workable terms.",
+      "whyItMoved": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+      "valuationImpact": "Read this as a financing-capacity signal: lender appetite, credit quality, spreads, and whether sponsor math still works with private debt.",
+      "financingImplication": "Translate the item into direct-lending capacity, refinancing risk, debt cost, and whether lenders are still willing to finance sponsor-owned companies.",
+      "sectorReadThrough": "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings.",
+      "parallel": {
+        "precedent": "DigitalBridge, Equinix, and hyperscale data-center financings showed that infrastructure investors will fund compute-adjacent assets when cash flows look contracted and repeatable.",
+        "outcome": "Those transactions attracted infrastructure capital, but valuation and leverage depended on tenant quality, power access, utilization visibility, and confidence that the asset would not become obsolete too quickly.",
+        "whatRhymes": "The rhyme is the attempt to convert explosive cloud or AI demand into long-duration infrastructure cash flows that private capital can own or lend against.",
+        "whatDiffers": "TPU and frontier-model infrastructure carry faster technology-cycle risk than a generic leased data center, so lenders need stronger contracts, collateral discipline, or sponsor support.",
+        "soWhat": "Treat the story as a test of whether private capital can finance the AI buildout prudently, not as proof that every AI infrastructure asset deserves infrastructure multiples.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance / Private Credit Proxies",
+            "url": "https://finance.yahoo.com/technology/articles/summitig-strengthens-market-footprint-acquisition-130500346.html?.tsrc=rss"
+          }
+        ]
+      },
+      "watchNext": "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "In plain English, this is an infrastructure-finance story wearing an AI headline: the key question is who owns the expensive compute assets, who guarantees enough usage to service debt, and whether the collateral still has value if model economics or chip cycles shift."
+          },
+          {
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "The public signal is the named counterparties and asset type. Anthropic/Google/TPU language points to real compute demand; Blackstone or other private-capital involvement points to a financing stack trying to turn that demand into durable, underwritable infrastructure exposure."
+          },
+          {
+            "id": "interpretation",
+            "heading": "How to interpret the financing signal",
+            "body": "Read the structure like a project-finance underwrite: contracted usage and creditworthy customers support leverage, but residual value, power availability, depreciation, and replacement-cycle risk decide how much debt is actually safe."
+          },
+          {
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "The strongest evidence would be disclosed commitment size, duration, collateral package, customer concentration, and lender protections. The weaker evidence is a broad AI partnership headline that does not show who bears utilization, technology, and refinancing risk."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is DigitalBridge, Equinix, and hyperscale data-center financings showed that infrastructure investors will fund compute-adjacent assets when cash flows look contracted and repeatable. In that earlier setup, those transactions attracted infrastructure capital, but valuation and leverage depended on tenant quality, power access, utilization visibility, and confidence that the asset would not become obsolete too quickly. What rhymes is the rhyme is the attempt to convert explosive cloud or ai demand into long-duration infrastructure cash flows that private capital can own or lend against. What is different this time is tpu and frontier-model infrastructure carry faster technology-cycle risk than a generic leased data center, so lenders need stronger contracts, collateral discipline, or sponsor support. The bottom line is treat the story as a test of whether private capital can finance the ai buildout prudently, not as proof that every ai infrastructure asset deserves infrastructure multiples."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch for disclosed facility terms, lease or offtake duration, power commitments, utilization guarantees, lender group composition, and whether similar TPU/data-center financings clear at tighter or wider economics. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Direct-lending public proxies",
+        "subtitle": "Three-month public market context for listed lenders and private-credit managers.",
+        "relevanceNote": "This board works here because the story is about how investors are marking the lenders themselves, not just what one spread series says.",
+        "allowedPages": [
+          "private-markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "BX",
+            "label": "Blackstone",
+            "value": 3.04659639100921,
+            "displayValue": 3.04659639100921,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "id": "OWL",
+            "label": "Blue Owl Capital",
+            "value": -6.00882133000455,
+            "displayValue": -6.00882133000455,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "id": "ARCC",
+            "label": "Ares Capital",
+            "value": 4.904176158163286,
+            "displayValue": 4.904176158163286,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "id": "BXSL",
+            "label": "Blackstone Secured Lending Fund",
+            "value": 0.27321826064563465,
+            "displayValue": 0.27321826064563465,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Blackstone",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blue Owl Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Ares Capital",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+          },
+          {
+            "source": "Blackstone Secured Lending Fund",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": {
+        "id": "ai-infrastructure-dell-servers",
+        "name": "AI infrastructure buildout",
+        "threshold": 2
+      },
+      "concepts": [
+        "data center",
+        "acquisition",
+        "credit",
+        "private_credit"
+      ],
+      "continuity": {
+        "previousDate": "2026-06-29",
+        "previousTitle": "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands",
+        "previousUrl": "issues/2026-06-29.html",
+        "whatChanged": "This updates the ai infrastructure buildout thread from 2026-06-29. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+        "updatedRead": "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back.",
+        "status": "Developing"
+      }
+    },
     {
       "id": "private-equity-public-proxies-37d1b0a3",
       "title": "Digital Realty Prices Secondary Offering of Common Stock by Blackstone",
@@ -15,10 +177,10 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/digital-realty-prices-secondary-offering-042600437.html?.tsrc=rss",
           "publishedAt": "2026-06-30T04:26:00.000Z",
-          "fetchedAt": "2026-06-30T12:01:12.463Z"
+          "fetchedAt": "2026-06-30T13:31:27.601Z"
         }
       ],
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "confidence": "Medium",
       "summary": "Digital Realty Prices Secondary Offering of Common Stock by Blackstone The banking read is not simply 'AI demand is large'; it is whether contracted compute demand can be packaged into financeable infrastructure cash flows without leaving lenders exposed to chip obsolescence, power constraints, or one-customer concentration.",
       "whatHappened": "Digital Realty Prices Secondary Offering of Common Stock by Blackstone",
@@ -90,28 +252,28 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 2.939067046723548,
-            "displayValue": 2.939067046723548,
+            "value": 3.04659639100921,
+            "displayValue": 3.04659639100921,
             "suffix": "%",
-            "latestDate": "2026-06-29",
+            "latestDate": "2026-06-30",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
           },
           {
             "id": "KKR",
             "label": "KKR",
-            "value": -1.5714897735211377,
-            "displayValue": -1.5714897735211377,
+            "value": 0.02212997225690086,
+            "displayValue": 0.02212997225690086,
             "suffix": "%",
-            "latestDate": "2026-06-29",
+            "latestDate": "2026-06-30",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
           },
           {
             "id": "APO",
             "label": "Apollo Global Management",
-            "value": 4.438385646440455,
-            "displayValue": 4.438385646440455,
+            "value": 5.58253811609531,
+            "displayValue": 5.58253811609531,
             "suffix": "%",
-            "latestDate": "2026-06-29",
+            "latestDate": "2026-06-30",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
           }
         ],
@@ -155,170 +317,23 @@
       }
     },
     {
-      "id": "yahoo-finance-news-fe1c96aa",
-      "title": "Cognizant (CTSH) Selects Oracle (ORCL) Fusion Cloud Recruiting to Scale Global Talent Acquisition",
+      "id": "yahoo-finance-news-a180cb6e",
+      "title": "Stock Market Today: Dow Wobbles Ahead Of Key Economic Data; AeroVironment Soars On Earnings (Live Coverage)",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
           "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/ai/articles/cognizant-ctsh-selects-oracle-orcl-111516553.html",
-          "publishedAt": "2026-06-30T11:15:16.000Z",
-          "fetchedAt": "2026-06-30T12:01:12.369Z"
+          "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-economic-data-aerovironment-avav/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-06-30T12:55:00.000Z",
+          "fetchedAt": "2026-06-30T13:31:27.528Z"
         }
       ],
       "freshnessStatus": "LIVE",
       "confidence": "Medium",
-      "summary": "Cognizant (CTSH) Selects Oracle (ORCL) Fusion Cloud Recruiting to Scale Global Talent Acquisition. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "Cognizant (CTSH) Selects Oracle (ORCL) Fusion Cloud Recruiting to Scale Global Talent Acquisition. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-      "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
-      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
-      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "Connects to AI Infrastructure, Deal Financing Window.",
-      "parallel": {
-        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
-        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
-        "whatRhymes": "The current story shows demand spreading across the value chain.",
-        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
-        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
-        "sourceTrail": [
-          {
-            "source": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/technology/ai/articles/cognizant-ctsh-selects-oracle-orcl-111516553.html"
-          }
-        ]
-      },
-      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
-      "longform": {
-        "sections": [
-          {
-            "id": "takeaway",
-            "heading": "Plain-English takeaway",
-            "body": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
-          },
-          {
-            "id": "tape",
-            "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Cognizant (CTSH) Selects Oracle (ORCL) Fusion Cloud Recruiting to Scale Global Talent Acquisition. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
-          },
-          {
-            "id": "mechanism",
-            "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure, Deal Financing Window. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
-          },
-          {
-            "id": "interpretation",
-            "heading": "What the market may be pricing in right or wrong",
-            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
-          },
-          {
-            "id": "parallel",
-            "heading": "Relevant comparison",
-            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
-          },
-          {
-            "id": "watch-next",
-            "heading": "What to watch next",
-            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
-          }
-        ]
-      },
-      "visual": {
-        "type": "bar-chart",
-        "title": "Cross-asset reaction board",
-        "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
-        "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
-        "allowedPages": [
-          "markets",
-          "deep-dive"
-        ],
-        "axisTitle": "3-month change",
-        "visualSource": "Public market data",
-        "items": [
-          {
-            "id": "SPY",
-            "label": "SPDR S&P 500 ETF Trust",
-            "value": 17.252406657165846,
-            "displayValue": 17.252406657165846,
-            "suffix": "%",
-            "latestDate": "2026-06-29",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
-          },
-          {
-            "id": "QQQ",
-            "label": "Invesco QQQ Trust",
-            "value": 29.698355501232115,
-            "displayValue": 29.698355501232115,
-            "suffix": "%",
-            "latestDate": "2026-06-29",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
-          },
-          {
-            "id": "IWM",
-            "label": "iShares Russell 2000 ETF",
-            "value": 24.773590609384236,
-            "displayValue": 24.773590609384236,
-            "suffix": "%",
-            "latestDate": "2026-06-29",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
-          },
-          {
-            "id": "GLD",
-            "label": "SPDR Gold Shares",
-            "value": -11.095566956892098,
-            "displayValue": -11.095566956892098,
-            "suffix": "%",
-            "latestDate": "2026-06-29",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
-          }
-        ],
-        "sourceTrail": [
-          {
-            "source": "SPDR S&P 500 ETF Trust",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
-          },
-          {
-            "source": "Invesco QQQ Trust",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
-          },
-          {
-            "source": "iShares Russell 2000 ETF",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
-          },
-          {
-            "source": "SPDR Gold Shares",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
-          }
-        ],
-        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
-      },
-      "relatedLinks": [],
-      "storyline": null,
-      "concepts": [
-        "cloud",
-        "acquisition"
-      ]
-    },
-    {
-      "id": "yahoo-finance-news-9f94e51",
-      "title": "SpaceX Stock Vaporizes $811 Billion In Value",
-      "editorialLane": "markets",
-      "editorialLaneLabel": "Markets",
-      "privateMarketSegment": null,
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/spacex-stock-vaporizes-billion-in-value/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-06-30T11:30:29.000Z",
-          "fetchedAt": "2026-06-30T12:01:12.369Z"
-        }
-      ],
-      "freshnessStatus": "LIVE",
-      "confidence": "Medium",
-      "summary": "SpaceX Stock Vaporizes $811 Billion In Value. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "SpaceX Stock Vaporizes $811 Billion In Value. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "summary": "Stock Market Today: Dow Wobbles Ahead Of Key Economic Data; AeroVironment Soars On Earnings (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Stock Market Today: Dow Wobbles Ahead Of Key Economic Data; AeroVironment Soars On Earnings (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
       "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
       "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -333,7 +348,7 @@
         "sourceTrail": [
           {
             "source": "Yahoo Finance",
-            "url": "https://www.investors.com/etfs-and-funds/sectors/spacex-stock-vaporizes-billion-in-value/?src=A00220&yptr=yahoo"
+            "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-economic-data-aerovironment-avav/?src=A00220&yptr=yahoo"
           }
         ]
       },
@@ -348,7 +363,7 @@
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: SpaceX Stock Vaporizes $811 Billion In Value. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Stock Market Today: Dow Wobbles Ahead Of Key Economic Data; AeroVironment Soars On Earnings (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
           },
           {
             "id": "mechanism",
@@ -387,37 +402,37 @@
           {
             "id": "SPY",
             "label": "SPDR S&P 500 ETF Trust",
-            "value": 17.252406657165846,
-            "displayValue": 17.252406657165846,
+            "value": 17.38690285561525,
+            "displayValue": 17.38690285561525,
             "suffix": "%",
-            "latestDate": "2026-06-29",
+            "latestDate": "2026-06-30",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
             "id": "QQQ",
             "label": "Invesco QQQ Trust",
-            "value": 29.698355501232115,
-            "displayValue": 29.698355501232115,
+            "value": 30.042265870473585,
+            "displayValue": 30.042265870473585,
             "suffix": "%",
-            "latestDate": "2026-06-29",
+            "latestDate": "2026-06-30",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
             "id": "IWM",
             "label": "iShares Russell 2000 ETF",
-            "value": 24.773590609384236,
-            "displayValue": 24.773590609384236,
+            "value": 24.43136477484896,
+            "displayValue": 24.43136477484896,
             "suffix": "%",
-            "latestDate": "2026-06-29",
+            "latestDate": "2026-06-30",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
             "id": "GLD",
             "label": "SPDR Gold Shares",
-            "value": -11.095566956892098,
-            "displayValue": -11.095566956892098,
+            "value": -10.886026359892048,
+            "displayValue": -10.886026359892048,
             "suffix": "%",
-            "latestDate": "2026-06-29",
+            "latestDate": "2026-06-30",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],

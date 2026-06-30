@@ -1,6 +1,6 @@
 {
   "runDate": "2026-06-30",
-  "generatedAt": "2026-06-30T12:01:32.598Z",
+  "generatedAt": "2026-06-30T13:31:49.694Z",
   "window": "Latest fetched source set; main tape excludes weak or unsupported items.",
   "candidates": [
     {
@@ -10,7 +10,7 @@
       "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
       "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-1st",
       "publishedAt": "2026-06-25T12:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.315Z",
+      "fetchedAt": "2026-06-30T13:31:26.407Z",
       "summary": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026."
@@ -52,7 +52,7 @@
       "title": "Personal Income and Outlays, May 2026",
       "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
       "publishedAt": "2026-06-25T12:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.315Z",
+      "fetchedAt": "2026-06-30T13:31:26.407Z",
       "summary": "Personal Income and Outlays, May 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Personal Income and Outlays, May 2026."
@@ -94,7 +94,7 @@
       "title": "U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update",
       "url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-1st-quarter-2026-and-annual-update",
       "publishedAt": "2026-06-24T12:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.315Z",
+      "fetchedAt": "2026-06-30T13:31:26.407Z",
       "summary": "U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update."
@@ -136,7 +136,7 @@
       "title": "U.S. International Trade in Goods and Services, April 2026",
       "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026",
       "publishedAt": "2026-06-09T12:31:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.315Z",
+      "fetchedAt": "2026-06-30T13:31:26.407Z",
       "summary": "U.S. International Trade in Goods and Services, April 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: U.S. International Trade in Goods and Services, April 2026."
@@ -178,7 +178,7 @@
       "title": "U.S. International Trade in Goods and Services, Annual Revision",
       "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-annual-revision",
       "publishedAt": "2026-06-09T12:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.315Z",
+      "fetchedAt": "2026-06-30T13:31:26.407Z",
       "summary": "U.S. International Trade in Goods and Services, Annual Revision. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: U.S. International Trade in Goods and Services, Annual Revision."
@@ -220,7 +220,7 @@
       "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
       "url": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024",
       "publishedAt": "2026-02-19T13:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.315Z",
+      "fetchedAt": "2026-06-30T13:31:26.407Z",
       "summary": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024."
@@ -262,7 +262,7 @@
       "title": "Gross Domestic Product by County and Personal Income by County, 2024",
       "url": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024",
       "publishedAt": "2026-02-05T13:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.315Z",
+      "fetchedAt": "2026-06-30T13:31:26.407Z",
       "summary": "Gross Domestic Product by County and Personal Income by County, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Gross Domestic Product by County and Personal Income by County, 2024."
@@ -304,7 +304,7 @@
       "title": "Direct Investment by Country and Industry, 2024",
       "url": "https://www.bea.gov/news/2025/direct-investment-country-and-industry-2024",
       "publishedAt": "2025-07-22T12:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.315Z",
+      "fetchedAt": "2026-06-30T13:31:26.407Z",
       "summary": "Direct Investment by Country and Industry, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Direct Investment by Country and Industry, 2024."
@@ -346,7 +346,7 @@
       "title": "Consumer Price Index Summary",
       "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
       "publishedAt": "2026-06-10T12:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.609Z",
+      "fetchedAt": "2026-06-30T13:31:26.674Z",
       "summary": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.",
       "facts": [
         "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.",
@@ -404,7 +404,7 @@
       "title": "Producer Price Index News Release summary",
       "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
       "publishedAt": "2026-06-11T12:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.830Z",
+      "fetchedAt": "2026-06-30T13:31:26.936Z",
       "summary": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022. Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.",
       "facts": [
         "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.",
@@ -454,7 +454,7 @@
       "title": "Employment Situation Summary",
       "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
       "publishedAt": "2026-06-05T12:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:11.954Z",
+      "fetchedAt": "2026-06-30T13:31:27.152Z",
       "summary": "THE EMPLOYMENT SITUATION - MAY 2026 Total nonfarm payroll employment increased by 172,000 in May, and the unemployment rate was unchanged at 4.3 percent, the U.S Bureau of Labor Statistics reported today. The unemployment rate held at 4.3 percent and has remained in a narrow range of 4.3 percent to 4.5 percent since July 2025. The number of unemployed people, at 7.3 million, changed little over the month. (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in May for adult men (4.0 percent), adult women (3.8 percent), teenagers (14.7 percent), and people who are White (3.8 percent), Black (6.6 percent), Asian (3.8 percent), or Hispanic (5.0 percent).",
       "facts": [
         "THE EMPLOYMENT SITUATION - MAY 2026 Total nonfarm payroll employment increased by 172,000 in May, and the unemployment rate was unchanged at 4.3 percent, the U.S Bureau of Labor Statistics reported today.",
@@ -503,7 +503,7 @@
       "title": "SEC, CFTC Seek Public Comment on the Harmonization of Portfolio Margining Frameworks",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-public-comment-harmonization-portfolio-margining-frameworks",
       "publishedAt": "2026-06-26T12:58:32.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential approaches to further harmonize regulatory frameworks applicable to portfolio margining across securities,…",
       "facts": [
         "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential approaches to further harmonize regulatory frameworks applicable to portfolio margining across securities,…"
@@ -544,7 +544,7 @@
       "title": "SEC Appoints Kathleen Hutchinson as Director of Office of International Affairs",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-58-sec-appoints-kathleen-hutchinson-director-office-international-affairs",
       "publishedAt": "2026-06-24T18:32:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission has appointed Kathleen M. Hutchinson as Director of the agency’s Office of International Affairs (OIA). OIA advises the Commission on international policy matters, coordinates with foreign authorities across the…",
       "facts": [
         "The Securities and Exchange Commission has appointed Kathleen M. Hutchinson as Director of the agency’s Office of International Affairs (OIA). OIA advises the Commission on international policy matters, coordinates with foreign authorities across the…"
@@ -577,7 +577,7 @@
       "title": "SEC, CFTC Seek Public Comment to Further Clarify and Harmonize Derivatives Product Definitions",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-57-sec-cftc-seek-public-comment-further-clarify-harmonize-derivatives-product-definitions",
       "publishedAt": "2026-06-18T18:42:47.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential opportunities to further update, clarify, and harmonize certain derivatives product definitions and…",
       "facts": [
         "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential opportunities to further update, clarify, and harmonize certain derivatives product definitions and…"
@@ -610,7 +610,7 @@
       "title": "SEC, CFTC Seek Public Input on Data Reporting Frameworks for Security-Based Swap and Swap Markets",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-56-sec-cftc-seek-public-input-data-reporting-frameworks-security-based-swap-swap-markets",
       "publishedAt": "2026-06-18T18:17:55.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission and Commodity Futures Trading Commission today issued a joint request for public comment on potential opportunities to harmonize, modernize, and streamline data reporting requirements in their regulation of the…",
       "facts": [
         "The Securities and Exchange Commission and Commodity Futures Trading Commission today issued a joint request for public comment on potential opportunities to harmonize, modernize, and streamline data reporting requirements in their regulation of the…"
@@ -643,7 +643,7 @@
       "title": "SEC Appoints John Moses as Director of the Office of Investor Education and Assistance",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-55-sec-appoints-john-moses-director-office-investor-education-assistance",
       "publishedAt": "2026-06-12T16:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission has appointed John Moses as Director of the agency’s Office of Investor Education and Assistance, which provides services and resources to help investors build their financial futures and protect against investment…",
       "facts": [
         "The Securities and Exchange Commission has appointed John Moses as Director of the agency’s Office of Investor Education and Assistance, which provides services and resources to help investors build their financial futures and protect against investment…"
@@ -676,7 +676,7 @@
       "title": "SEC Proposes Rescission of Regulation NMS Rules 611 and 610(e)",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-54-sec-proposes-rescission-regulation-nms-rules-611-610e",
       "publishedAt": "2026-06-11T14:55:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission today proposed amendments to rescind Rules 611 and 610(e) of Regulation NMS.“After two decades of Rule 611, it is high time that the Commission review its unintended consequences that have hindered — rather than…",
       "facts": [
         "The Securities and Exchange Commission today proposed amendments to rescind Rules 611 and 610(e) of Regulation NMS.“After two decades of Rule 611, it is high time that the Commission review its unintended consequences that have hindered — rather than…"
@@ -709,7 +709,7 @@
       "title": "SEC Establishes Joint Data Standards as Required Under the Financial Data Transparency Act of 2022",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022",
       "publishedAt": "2026-06-08T14:36:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The U.S. Securities and Exchange Commission established joint data standards under the Financial Data Transparency Act of 2022. The final rule establishes technical standards for data submitted to certain financial regulatory agencies. Eight additional…",
       "facts": [
         "The U.S. Securities and Exchange Commission established joint data standards under the Financial Data Transparency Act of 2022. The final rule establishes technical standards for data submitted to certain financial regulatory agencies. Eight additional…"
@@ -742,7 +742,7 @@
       "title": "SEC Announces New Members of Small Business Capital Formation Advisory Committee",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-52-sec-announces-new-members-small-business-capital-formation-advisory-committee",
       "publishedAt": "2026-06-04T18:39:49.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission today announced five new members of the&nbsp;Small Business Capital Formation Advisory Committee. The new members were appointed to four-year terms&nbsp;and&nbsp;will join&nbsp;the&nbsp;15&nbsp;current&nbsp;…",
       "facts": [
         "The Securities and Exchange Commission today announced five new members of the&nbsp;Small Business Capital Formation Advisory Committee. The new members were appointed to four-year terms&nbsp;and&nbsp;will join&nbsp;the&nbsp;15&nbsp;current&nbsp;…"
@@ -775,7 +775,7 @@
       "title": "SEC Publishes Draft Strategic Plan for Public Comment",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-51-sec-publishes-draft-strategic-plan-public-comment",
       "publishedAt": "2026-06-02T14:30:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission today published a&nbsp;Draft Strategic Plan&nbsp;that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient…",
       "facts": [
         "The Securities and Exchange Commission today published a&nbsp;Draft Strategic Plan&nbsp;that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient…"
@@ -808,7 +808,7 @@
       "title": "SEC Announces Four New Members of Investor Advisory Committee",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-50-sec-announces-four-new-members-investor-advisory-committee",
       "publishedAt": "2026-06-01T16:39:44.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission today announced&nbsp;four&nbsp;new members to fill vacancies on its Investor Advisory Committee.&nbsp;Three of the four new members&nbsp;will serve four-year terms,&nbsp;while the fourth new member will serve as the…",
       "facts": [
         "The Securities and Exchange Commission today announced&nbsp;four&nbsp;new members to fill vacancies on its Investor Advisory Committee.&nbsp;Three of the four new members&nbsp;will serve four-year terms,&nbsp;while the fourth new member will serve as the…"
@@ -841,7 +841,7 @@
       "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
       "publishedAt": "2026-05-29T14:50:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission today proposed the rescission of overly burdensome and costly rules that require companies to provide certain climate-related information in their registration statements and annual reports. The Commission’s…",
       "facts": [
         "The Securities and Exchange Commission today proposed the rescission of overly burdensome and costly rules that require companies to provide certain climate-related information in their registration statements and annual reports. The Commission’s…"
@@ -874,7 +874,7 @@
       "title": "SEC Investor Advisory Committee to Host June 4 Meeting",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting",
       "publishedAt": "2026-05-27T14:59:13.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.113Z",
+      "fetchedAt": "2026-06-30T13:31:27.182Z",
       "summary": "The Securities and Exchange Commission’s&nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…",
       "facts": [
         "The Securities and Exchange Commission’s&nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…"
@@ -907,7 +907,7 @@
       "title": "79-year-old fashion retailer closed 136 stores, killed one of its brands",
       "url": "https://finance.yahoo.com/markets/stocks/articles/h-m-closed-136-stores-012815718.html",
       "publishedAt": "2026-06-29T01:28:15.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
       "summary": "79-year-old fashion retailer closed 136 stores, killed one of its brands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
       "facts": [
         "79-year-old fashion retailer closed 136 stores, killed one of its brands. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
@@ -943,17 +943,15 @@
       "exclusionReason": "background item; not eligible for main tape"
     },
     {
-      "id": "yahoo-finance-news-148cf044",
+      "id": "yahoo-finance-news-16c2d39d",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "Stocks surge in stellar quarter; dollar hits gold and yen",
-      "url": "https://finance.yahoo.com/news/asian-stocks-set-record-breaking-023905584.html",
-      "publishedAt": "2026-06-30T11:37:07.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
-      "summary": "Stocks surge in stellar quarter; dollar hits gold and yen. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-      "facts": [
-        "Stocks surge in stellar quarter; dollar hits gold and yen. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
-      ],
+      "title": "Joby, Toyota announce joint venture for air taxi production",
+      "url": "https://finance.yahoo.com/technology/articles/joby-toyota-announce-joint-venture-130238661.html",
+      "publishedAt": "2026-06-30T13:02:38.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
+      "summary": "",
+      "facts": [],
       "tickers": [],
       "topics": [
         "markets",
@@ -961,97 +959,37 @@
       ],
       "feedId": "yahoo-finance-news",
       "freshnessStatus": "LIVE",
-      "matchedThemes": [],
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "venture"
+          ]
+        }
+      ],
       "scores": {
         "freshness": 5,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
-        "themeRelevance": 0,
-        "evidence": 6,
-        "marketSignal": 2,
+        "themeRelevance": 3,
+        "evidence": 3,
+        "marketSignal": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 36
-      },
-      "eligible": true,
-      "exclusionReason": ""
-    },
-    {
-      "id": "yahoo-finance-news-a9213a4f",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures steady after record-setting session",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-steady-after-record-setting-session-224823556.html",
-      "publishedAt": "2026-06-29T22:48:23.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
-      "summary": "Stock market today: Dow, S&P 500, Nasdaq futures steady after record-setting session. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-      "facts": [
-        "Stock market today: Dow, S&P 500, Nasdaq futures steady after record-setting session. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "BACKGROUND",
-      "matchedThemes": [],
-      "scores": {
-        "freshness": 1,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 0,
-        "evidence": 6,
-        "marketSignal": 2,
-        "trustedDomain": 1,
-        "majorBreakingEvent": 0,
-        "total": 28
+        "total": 32
       },
       "eligible": false,
-      "exclusionReason": "background item; not eligible for main tape"
+      "exclusionReason": "insufficient factual support"
     },
     {
-      "id": "yahoo-finance-news-9f94e51",
+      "id": "yahoo-finance-news-b87644b7",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "SpaceX Stock Vaporizes $811 Billion In Value",
-      "url": "https://www.investors.com/etfs-and-funds/sectors/spacex-stock-vaporizes-billion-in-value/?src=A00220&yptr=yahoo",
-      "publishedAt": "2026-06-30T11:30:29.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
-      "summary": "SpaceX Stock Vaporizes $811 Billion In Value. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-      "facts": [
-        "SpaceX Stock Vaporizes $811 Billion In Value. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 0,
-        "evidence": 6,
-        "marketSignal": 3,
-        "trustedDomain": 1,
-        "majorBreakingEvent": 0,
-        "total": 38
-      },
-      "eligible": true,
-      "exclusionReason": ""
-    },
-    {
-      "id": "yahoo-finance-news-741b8e4f",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Comtech Telecom (CMTL) to Sell S&S Segment to Gilat Satellite Networks for $157.5M",
-      "url": "https://finance.yahoo.com/technology/articles/comtech-telecom-cmtl-sell-segment-111609132.html",
-      "publishedAt": "2026-06-30T11:16:09.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
+      "title": "Why the Best LTL Carriers Are Built, Not Bought",
+      "url": "https://finance.yahoo.com/small-business/articles/why-best-ltl-carriers-built-130000609.html",
+      "publishedAt": "2026-06-30T13:00:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1077,13 +1015,79 @@
       "exclusionReason": "insufficient factual support"
     },
     {
+      "id": "yahoo-finance-news-bd626f30",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Saia REV: Rapid, Expanded and Visible",
+      "url": "https://finance.yahoo.com/small-business/articles/saia-rev-rapid-expanded-visible-130000770.html",
+      "publishedAt": "2026-06-30T13:00:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 3,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 29
+      },
+      "eligible": false,
+      "exclusionReason": "insufficient factual support"
+    },
+    {
+      "id": "yahoo-finance-news-87d9c64c",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Is Heron Therapeutics, Inc. (HRTX) Stock a Recovery Opportunity After Cinvanti Patent Court Ruling?",
+      "url": "https://finance.yahoo.com/healthcare/articles/heron-therapeutics-inc-hrtx-stock-125848847.html",
+      "publishedAt": "2026-06-30T12:58:48.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
+      "summary": "Is Heron Therapeutics, Inc. (HRTX) Stock a Recovery Opportunity After Cinvanti Patent Court Ruling?. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "facts": [
+        "Is Heron Therapeutics, Inc. (HRTX) Stock a Recovery Opportunity After Cinvanti Patent Court Ruling?. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 36
+      },
+      "eligible": true,
+      "exclusionReason": ""
+    },
+    {
       "id": "yahoo-finance-news-a1cedf17",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
       "title": "Analyst Report: MDU Resources Group Inc",
       "url": "https://finance.yahoo.com/research/reports/ARGUS_3181_AnalystReport_1782817097000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
       "publishedAt": "2026-06-30T10:58:17.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1109,47 +1113,13 @@
       "exclusionReason": "insufficient factual support"
     },
     {
-      "id": "yahoo-finance-news-b1c0d2bb",
+      "id": "yahoo-finance-news-71490554",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "General Atlantic in talks to buy PAG’s stake in Nuvama Wealth – report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/general-atlantic-talks-buy-pag-114727857.html",
-      "publishedAt": "2026-06-30T11:47:27.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
-      "summary": "General Atlantic in talks to buy PAG’s stake in Nuvama Wealth – report. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-      "facts": [
-        "General Atlantic in talks to buy PAG’s stake in Nuvama Wealth – report. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 0,
-        "evidence": 6,
-        "marketSignal": 2,
-        "trustedDomain": 1,
-        "majorBreakingEvent": 0,
-        "total": 36
-      },
-      "eligible": true,
-      "exclusionReason": ""
-    },
-    {
-      "id": "yahoo-finance-news-2efb8230",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "SunPower’s (SPWR) Cobalt Power Systems Partners with Wunder Power for Solar Installation at San Francisco’s Waterfront Plaza",
-      "url": "https://finance.yahoo.com/energy/articles/sunpower-spwr-cobalt-power-systems-111540556.html",
-      "publishedAt": "2026-06-30T11:15:40.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
+      "title": "Inflation in Eurozone’s Biggest Economies Cools More Than Expected",
+      "url": "https://finance.yahoo.com/economy/policy/articles/french-italian-inflation-cool-more-095700969.html",
+      "publishedAt": "2026-06-30T13:07:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1161,10 +1131,10 @@
       "freshnessStatus": "LIVE",
       "matchedThemes": [
         {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
+          "id": "rates-cost-of-capital",
+          "name": "Rates and Cost of Capital",
           "hits": [
-            "power"
+            "inflation"
           ]
         }
       ],
@@ -1174,25 +1144,67 @@
         "topicBankerWeight": 8,
         "themeRelevance": 3,
         "evidence": 3,
-        "marketSignal": 0,
+        "marketSignal": 2,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 32
+        "total": 36
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
     },
     {
-      "id": "yahoo-finance-news-4cd73a61",
+      "id": "yahoo-finance-news-ee766596",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "Verra Mobility (VRRM) Announces Organizational Realignment, Appoints Stacey Moser as Chief Customer Officer",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/verra-mobility-vrrm-announces-organizational-111532522.html",
-      "publishedAt": "2026-06-30T11:15:32.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
-      "summary": "Verra Mobility (VRRM) Announces Organizational Realignment, Appoints Stacey Moser as Chief Customer Officer. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "title": "Ross Stores (ROST) Rose on a Favorable Consumer Environment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ross-stores-rost-rose-favorable-125816151.html",
+      "publishedAt": "2026-06-30T12:58:16.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
+      "summary": "Ross Stores (ROST) Rose on a Favorable Consumer Environment. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
       "facts": [
-        "Verra Mobility (VRRM) Announces Organizational Realignment, Appoints Stacey Moser as Chief Customer Officer. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+        "Ross Stores (ROST) Rose on a Favorable Consumer Environment. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "consumer-and-staples",
+          "name": "Consumer and Staples",
+          "hits": [
+            "consumer"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 35
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
+    },
+    {
+      "id": "yahoo-finance-news-5c2d9397",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "MKS (MKSI) Advanced on Sales Strength",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mks-mksi-advanced-sales-strength-125553543.html",
+      "publishedAt": "2026-06-30T12:55:53.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
+      "summary": "MKS (MKSI) Advanced on Sales Strength. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "facts": [
+        "MKS (MKSI) Advanced on Sales Strength. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
       ],
       "tickers": [],
       "topics": [
@@ -1217,13 +1229,47 @@
       "exclusionReason": "weak market signal"
     },
     {
-      "id": "yahoo-finance-news-8cbd28da",
+      "id": "yahoo-finance-news-a180cb6e",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "Leidos (LDOS) Partners with The Modern Data Company to Unify Federal Agency Data for AI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/leidos-ldos-partners-modern-data-111525221.html",
-      "publishedAt": "2026-06-30T11:15:25.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
+      "title": "Stock Market Today: Dow Wobbles Ahead Of Key Economic Data; AeroVironment Soars On Earnings (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-economic-data-aerovironment-avav/?src=A00220&yptr=yahoo",
+      "publishedAt": "2026-06-30T12:55:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
+      "summary": "Stock Market Today: Dow Wobbles Ahead Of Key Economic Data; AeroVironment Soars On Earnings (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "facts": [
+        "Stock Market Today: Dow Wobbles Ahead Of Key Economic Data; AeroVironment Soars On Earnings (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 8,
+        "themeRelevance": 0,
+        "evidence": 6,
+        "marketSignal": 3,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 38
+      },
+      "eligible": true,
+      "exclusionReason": ""
+    },
+    {
+      "id": "yahoo-finance-news-e9a05b71",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-june-30-prices-sliding-down-about-40-from-last-year-124424056.html",
+      "publishedAt": "2026-06-30T12:44:24.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1233,77 +1279,20 @@
       ],
       "feedId": "yahoo-finance-news",
       "freshnessStatus": "LIVE",
-      "matchedThemes": [
-        {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
-          "hits": [
-            "ai"
-          ]
-        }
-      ],
+      "matchedThemes": [],
       "scores": {
         "freshness": 5,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
-        "themeRelevance": 3,
+        "themeRelevance": 0,
         "evidence": 3,
         "marketSignal": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 32
+        "total": 29
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
-    },
-    {
-      "id": "yahoo-finance-news-fe1c96aa",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Cognizant (CTSH) Selects Oracle (ORCL) Fusion Cloud Recruiting to Scale Global Talent Acquisition",
-      "url": "https://finance.yahoo.com/technology/ai/articles/cognizant-ctsh-selects-oracle-orcl-111516553.html",
-      "publishedAt": "2026-06-30T11:15:16.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
-      "summary": "Cognizant (CTSH) Selects Oracle (ORCL) Fusion Cloud Recruiting to Scale Global Talent Acquisition. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-      "facts": [
-        "Cognizant (CTSH) Selects Oracle (ORCL) Fusion Cloud Recruiting to Scale Global Talent Acquisition. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [
-        {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
-          "hits": [
-            "cloud"
-          ]
-        },
-        {
-          "id": "deal-financing-window",
-          "name": "Deal Financing Window",
-          "hits": [
-            "acquisition"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 8,
-        "themeRelevance": 6,
-        "evidence": 6,
-        "marketSignal": 2,
-        "trustedDomain": 1,
-        "majorBreakingEvent": 0,
-        "total": 42
-      },
-      "eligible": true,
-      "exclusionReason": ""
     },
     {
       "id": "yahoo-finance-news-ebca8eb1",
@@ -1312,7 +1301,7 @@
       "title": "Daily Spotlight: Bond Spreads Narrow",
       "url": "https://finance.yahoo.com/research/reports/ARGUS_47476_MarketOutlook_1782816864000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
       "publishedAt": "2026-06-30T10:54:24.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.369Z",
+      "fetchedAt": "2026-06-30T13:31:27.528Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1352,7 +1341,7 @@
       "title": "Digital Realty Prices Secondary Offering of Common Stock by Blackstone",
       "url": "https://finance.yahoo.com/markets/stocks/articles/digital-realty-prices-secondary-offering-042600437.html?.tsrc=rss",
       "publishedAt": "2026-06-30T04:26:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "AUSTIN, Texas, June 30, 2026 (GLOBE NEWSWIRE) -- Digital Realty (NYSE: DLR), the largest global provider of cloud- and carrier-neutral data center, colocation and interconnection solutions, announced today the pricing of an underwritten registered public offering of 12,310,249 shares of its common stock by affiliates of Blackstone Inc. (collectively, “Blackstone”) at a public offering price of $185.00 per share. The shares of common stock being sold in this offering will be issued to Blackstone",
       "facts": [
         "AUSTIN, Texas, June 30, 2026 (GLOBE NEWSWIRE) -- Digital Realty (NYSE: DLR), the largest global provider of cloud- and carrier-neutral data center, colocation and interconnection solutions, announced today the pricing of an underwritten registered public offering of 12,310,249 shares of its common stock by affiliates of Blackstone Inc. (collectively, “Blackstone”) at a public offering price of $185.00 per share. The shares of common stock being sold in this offering will be issued to Blackstone"
@@ -1365,7 +1354,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "ai-infrastructure",
@@ -1392,7 +1381,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 9,
@@ -1400,7 +1389,7 @@
         "marketSignal": 2,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 53
+        "total": 51
       },
       "eligible": true,
       "exclusionReason": ""
@@ -1412,7 +1401,7 @@
       "title": "Digital Realty Trust Reports $2.35 Billion Common Stock Offering by Blackstone",
       "url": "https://finance.yahoo.com/real-estate/articles/digital-realty-trust-reports-2-203416555.html?.tsrc=rss",
       "publishedAt": "2026-06-29T20:34:16.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "Digital Realty Trust (DLR) said late Monday affiliates of Blackstone (BX) have commenced an underwri",
       "facts": [
         "Digital Realty Trust (DLR) said late Monday affiliates of Blackstone (BX) have commenced an underwri"
@@ -1456,7 +1445,7 @@
       "title": "FS KKR Capital Corp. Closes $150 Million Convertible Preferred Stock Issuance in Connection with Strategic Value Enhancement Actions",
       "url": "https://finance.yahoo.com/markets/stocks/articles/fs-kkr-capital-corp-closes-202000956.html?.tsrc=rss",
       "publishedAt": "2026-06-29T20:20:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "FS KKR Capital Corp. (NYSE: FSK), or the Company, today announced it has closed its previously announced $150 million issuance of cumulative convertible perpetual preferred stock (the \"Convertible Preferred Stock\"), purchased by KKR Alternative Assets L.P., a subsidiary of KKR. The Company intends to use the proceeds from the issuance for general corporate purposes, including funding its common stock repurchase program or for debt repayment.",
       "facts": [
         "FS KKR Capital Corp. (NYSE: FSK), or the Company, today announced it has closed its previously announced $150 million issuance of cumulative convertible perpetual preferred stock (the \"Convertible Preferred Stock\"), purchased by KKR Alternative Assets L.P., a subsidiary of KKR. The Company intends to use the proceeds from the issuance for general corporate purposes, including funding its common stock repurchase program or for debt repayment."
@@ -1507,7 +1496,7 @@
       "title": "Digital Realty Announces Secondary Offering of Common Stock by Blackstone",
       "url": "https://finance.yahoo.com/markets/stocks/articles/digital-realty-announces-secondary-offering-200700512.html?.tsrc=rss",
       "publishedAt": "2026-06-29T20:07:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "AUSTIN, Texas, June 29, 2026 (GLOBE NEWSWIRE) -- Digital Realty (NYSE: DLR), the largest global provider of cloud- and carrier-neutral data center, colocation and interconnection solutions, announced today an underwritten registered public offering of $2,346 million of shares of its common stock by affiliates of Blackstone Inc. (collectively, “Blackstone”). The shares to be sold in the offering consist of shares of non-voting common stock that will be issued to Blackstone only upon the closing o",
       "facts": [
         "AUSTIN, Texas, June 29, 2026 (GLOBE NEWSWIRE) -- Digital Realty (NYSE: DLR), the largest global provider of cloud- and carrier-neutral data center, colocation and interconnection solutions, announced today an underwritten registered public offering of $2,346 million of shares of its common stock by affiliates of Blackstone Inc. (collectively, “Blackstone”). The shares to be sold in the offering consist of shares of non-voting common stock that will be issued to Blackstone only upon the closing o"
@@ -1560,7 +1549,7 @@
       "title": "Digital Realty Announces Purchase of Blackstone Interest in Three Northern Virginia Data Centers",
       "url": "https://finance.yahoo.com/real-estate/articles/digital-realty-announces-purchase-blackstone-200400372.html?.tsrc=rss",
       "publishedAt": "2026-06-29T20:04:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "Increases Ownership in New, High-Quality, Fully-Leased Hyperscale Assets in Top U.S. MarketAUSTIN, Texas and NEW YORK, June 29, 2026 (GLOBE NEWSWIRE) -- Digital Realty (NYSE: DLR), the world’s largest cloud- and carrier-neutral data center platform, and Blackstone Inc. (NYSE: BX) today announced that Digital Realty has agreed to purchase from Blackstone-affiliated funds managed by Real Estate, Infrastructure and Tactical Opportunities (“Blackstone”) a stake in three fully leased data centers con",
       "facts": [
         "Increases Ownership in New, High-Quality, Fully-Leased Hyperscale Assets in Top U.S. MarketAUSTIN, Texas and NEW YORK, June 29, 2026 (GLOBE NEWSWIRE) -- Digital Realty (NYSE: DLR), the world’s largest cloud- and carrier-neutral data center platform, and Blackstone Inc. (NYSE: BX) today announced that Digital Realty has agreed to purchase from Blackstone-affiliated funds managed by Real Estate, Infrastructure and Tactical Opportunities (“Blackstone”) a stake in three fully leased data centers con"
@@ -1612,7 +1601,7 @@
       "title": "Private Credit's Liquidity Crunch: APO & ARES Cap Withdrawals Again",
       "url": "https://finance.yahoo.com/markets/stocks/articles/private-credits-liquidity-crunch-apo-132800803.html?.tsrc=rss",
       "publishedAt": "2026-06-29T13:28:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "APO and ARES cap withdrawals again as redemption requests outpace fund limits, highlighting persistent liquidity pressures across private credit.",
       "facts": [
         "APO and ARES cap withdrawals again as redemption requests outpace fund limits, highlighting persistent liquidity pressures across private credit."
@@ -1665,7 +1654,7 @@
       "title": "On 26 June 2026, APL Sweets OÜ (registry code 17383212), a subsidiary of Apollo Group OÜ, entered into a five-year Development and Franchise Agreement with Krispy Kreme Doughnut Corporation (North Carolina, United States).",
       "url": "https://finance.yahoo.com/small-business/articles/26-june-2026-apl-sweets-060000527.html?.tsrc=rss",
       "publishedAt": "2026-06-29T06:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "Krispy Kreme® is a globally recognized fresh doughnut brand known for its iconic Original Glazed™ doughnut and signature hot-off-the-line, melt-in-your-mouth experience. Founded in 1937, Krispy Kreme operates in more than 40 countries around the world. Under the agreement, APL Sweets OÜ has obtained the right to develop and open up to 25 Krispy Kreme branded outlets of 3 varying sizes across the Baltic States during the period 2026–2030. The agreement is in line with Apollo Group’s long-term gro",
       "facts": [
         "Krispy Kreme® is a globally recognized fresh doughnut brand known for its iconic Original Glazed™ doughnut and signature hot-off-the-line, melt-in-your-mouth experience. Founded in 1937, Krispy Kreme operates in more than 40 countries around the world. Under the agreement, APL Sweets OÜ has obtained the right to develop and open up to 25 Krispy Kreme branded outlets of 3 varying sizes across the Baltic States during the period 2026–2030. The agreement is in line with Apollo Group’s long-term gro"
@@ -1716,7 +1705,7 @@
       "title": "Blackstone Private Credit Limits Redemptions: It's \"a Feature, Not a Bug\"",
       "url": "https://www.fool.com/investing/2026/06/28/blackstone-private-credit-limits-redemptions-its-a/?.tsrc=rss",
       "publishedAt": "2026-06-28T16:35:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "Private credit funds are being swamped with redemption requests, but redemption limits aren't necessarily a bad thing.",
       "facts": [
         "Private credit funds are being swamped with redemption requests, but redemption limits aren't necessarily a bad thing."
@@ -1769,7 +1758,7 @@
       "title": "Blackstone (BX) Funds to Buy Hyatt Regency San Francisco",
       "url": "https://finance.yahoo.com/real-estate/articles/blackstone-bx-funds-buy-hyatt-000811107.html?.tsrc=rss",
       "publishedAt": "2026-06-28T00:08:11.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "Blackstone Inc. (NYSE:BX) is one of the 12 Most Profitable S&P 500 Stocks to Invest In. On June 23, 2026, Sunstone Hotel (SHO) announced a definitive agreement to sell the 821-room Hyatt Regency San Francisco to funds affiliated with Blackstone Inc. (NYSE:BX) Real Estate for a gross sale price of $279M, or about $340,000 per […]",
       "facts": [
         "Blackstone Inc. (NYSE:BX) is one of the 12 Most Profitable S&P 500 Stocks to Invest In. On June 23, 2026, Sunstone Hotel (SHO) announced a definitive agreement to sell the 821-room Hyatt Regency San Francisco to funds affiliated with Blackstone Inc. (NYSE:BX) Real Estate for a gross sale price of $279M, or about $340,000 per […]"
@@ -1813,7 +1802,7 @@
       "title": "Blackstone (BX) Stock After 27% Slide Is The Recent Drop Creating An Opening",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-bx-stock-27-slide-180748978.html?.tsrc=rss",
       "publishedAt": "2026-06-27T18:07:48.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "If you are wondering whether Blackstone at around US$115.40 is starting to look like value or still has more to fall, the stock's recent moves give some useful clues. The share price has fallen 6.8% over the past week, is down 2.2% over the last month and has declined 27.3% year to date, although the 3 year and 5 year returns of 36.2% and 40.2% show a very different picture. Recent headlines around Blackstone have focused on its role as a major global alternative asset manager, touching on...",
       "facts": [
         "If you are wondering whether Blackstone at around US$115.40 is starting to look like value or still has more to fall, the stock's recent moves give some useful clues. The share price has fallen 6.8% over the past week, is down 2.2% over the last month and has declined 27.3% year to date, although the 3 year and 5 year returns of 36.2% and 40.2% show a very different picture. Recent headlines around Blackstone have focused on its role as a major global alternative asset manager, touching on..."
@@ -1857,7 +1846,7 @@
       "title": "Blackstone (BX) Launches SablePointe As It Plans $30 Billion Japan AI Data Centers",
       "url": "https://finance.yahoo.com/technology/ai/articles/blackstone-bx-launches-sablepointe-plans-130744945.html?.tsrc=rss",
       "publishedAt": "2026-06-27T13:07:44.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "Blackstone (NYSE:BX) has launched SablePointe Credit Strategies, an asset based lending platform focused on secured credit. The company plans to invest $30b in AI focused data centers in Japan as part of its digital infrastructure push. Blackstone has appointed Carey S. Roberts as Senior Managing Director and General Counsel, Real Estate. Blackstone, trading at around $115.4, is rolling out these initiatives after a period of weaker share performance, with the stock down 27.3% year to date...",
       "facts": [
         "Blackstone (NYSE:BX) has launched SablePointe Credit Strategies, an asset based lending platform focused on secured credit. The company plans to invest $30b in AI focused data centers in Japan as part of its digital infrastructure push. Blackstone has appointed Carey S. Roberts as Senior Managing Director and General Counsel, Real Estate. Blackstone, trading at around $115.4, is rolling out these initiatives after a period of weaker share performance, with the stock down 27.3% year to date..."
@@ -1916,7 +1905,7 @@
       "title": "Does KKR’s (KKR) India Hospital Deal And Fee Shift Reveal A New Earnings Playbook?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/does-kkr-kkr-india-hospital-070756313.html?.tsrc=rss",
       "publishedAt": "2026-06-27T07:07:56.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.463Z",
+      "fetchedAt": "2026-06-30T13:31:27.601Z",
       "summary": "KKR recently entered advanced talks to acquire Sweden-based Medicover’s 66.9% stake in its Indian hospital business for at least US$1.05 billion, while also reporting quarter-to-date monetization income above US$900 million, mostly from realized performance fees. Alongside these moves, KKR is aligning its reporting of realized performance fees with industry practice, a shift that may help investors better assess the quality and sustainability of its earnings. We’ll now examine how KKR’s...",
       "facts": [
         "KKR recently entered advanced talks to acquire Sweden-based Medicover’s 66.9% stake in its Indian hospital business for at least US$1.05 billion, while also reporting quarter-to-date monetization income above US$900 million, mostly from realized performance fees. Alongside these moves, KKR is aligning its reporting of realized performance fees with industry practice, a shift that may help investors better assess the quality and sustainability of its earnings. We’ll now examine how KKR’s..."
@@ -1954,13 +1943,125 @@
       "exclusionReason": "background item; not eligible for main tape"
     },
     {
+      "id": "private-credit-public-proxies-8d4ba25f",
+      "source": "Yahoo Finance / Private Credit Proxies",
+      "sourceType": "reputable",
+      "title": "SummitIG Strengthens Market Footprint with Acquisition of Dark Fiber & Infrastructure",
+      "url": "https://finance.yahoo.com/technology/articles/summitig-strengthens-market-footprint-acquisition-130500346.html?.tsrc=rss",
+      "publishedAt": "2026-06-30T13:05:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
+      "summary": "SummitIG, the premier pure-play dark fiber provider with unmatched network quality and scale for data center connectivity solutions, today announced it has completed the acquisition of Dark Fiber and Infrastructure, LLC (\"DF&I\") from funds managed by Blue Owl Capital Inc. (\"Blue Owl\") (NYSE: OWL), a leading alternative asset manager. SDC Capital Partners, LLC (\"SDC\"), a leading digital infrastructure investment firm, has been the majority owner of SummitIG since 2019.",
+      "facts": [
+        "SummitIG, the premier pure-play dark fiber provider with unmatched network quality and scale for data center connectivity solutions, today announced it has completed the acquisition of Dark Fiber and Infrastructure, LLC (\"DF&I\") from funds managed by Blue Owl Capital Inc. (\"Blue Owl\") (NYSE: OWL), a leading alternative asset manager. SDC Capital Partners, LLC (\"SDC\"), a leading digital infrastructure investment firm, has been the majority owner of SummitIG since 2019."
+      ],
+      "tickers": [],
+      "topics": [
+        "private_markets",
+        "private_credit",
+        "credit",
+        "markets"
+      ],
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "data center"
+          ]
+        },
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "acquisition",
+            "credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 9,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 56
+      },
+      "eligible": true,
+      "exclusionReason": ""
+    },
+    {
+      "id": "private-credit-public-proxies-757e82b5",
+      "source": "Yahoo Finance / Private Credit Proxies",
+      "sourceType": "reputable",
+      "title": "The Private Credit Boom Faces a Real Test. What It Means for Ares Capital.",
+      "url": "https://www.fool.com/investing/2026/06/30/the-private-credit-boom-faces-a-real-test-what-it/?.tsrc=rss",
+      "publishedAt": "2026-06-30T12:35:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
+      "summary": "Private credit tends to go through cycles, and investors appear worried that too much money is chasing too few ideas.",
+      "facts": [
+        "Private credit tends to go through cycles, and investors appear worried that too much money is chasing too few ideas."
+      ],
+      "tickers": [],
+      "topics": [
+        "private_markets",
+        "private_credit",
+        "credit",
+        "markets"
+      ],
+      "feedId": "private-credit-public-proxies",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "credit",
+            "private credit"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private credit",
+            "private_credit"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 19,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 53
+      },
+      "eligible": false,
+      "exclusionReason": "source domain is outside the trusted publication set"
+    },
+    {
       "id": "private-credit-public-proxies-a262d4f9",
       "source": "Yahoo Finance / Private Credit Proxies",
       "sourceType": "reputable",
       "title": "Blue Owl Capital Eyes Minority Investment in Cleveland Cavaliers, Bloomberg Reports",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-eyes-minority-183216121.html?.tsrc=rss",
       "publishedAt": "2026-06-29T18:32:16.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
       "summary": "With an annual dividend yield of 10.74%, Blue Owl Capital Inc. (NYSE:OWL) is included among the Top 10 Dividend Stocks with 10%+ Yield. On June 25, Bloomberg reported that Blue Owl Capital Inc. (NYSE:OWL) is in advanced talks to acquire a minority stake in the NBA’s Cleveland Cavaliers, citing people familiar with the matter. According […]",
       "facts": [
         "With an annual dividend yield of 10.74%, Blue Owl Capital Inc. (NYSE:OWL) is included among the Top 10 Dividend Stocks with 10%+ Yield. On June 25, Bloomberg reported that Blue Owl Capital Inc. (NYSE:OWL) is in advanced talks to acquire a minority stake in the NBA’s Cleveland Cavaliers, citing people familiar with the matter. According […]"
@@ -2018,7 +2119,7 @@
       "title": "Ares Capital (ARCC) Stock Sees Fair Value Cut As Analysts Turn More Cautious",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-arcc-stock-sees-130524540.html?.tsrc=rss",
       "publishedAt": "2026-06-28T13:05:24.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
       "summary": "Ares Capital is back in focus after its fair value estimate in one model moved from about US$22.64 to roughly US$20.77, putting a tighter ceiling on where some analysts see the stock. Street commentary has tilted more cautious, with several firms trimming price targets and resetting ratings as they weigh risks around earnings, dividend coverage, and credit quality. In the sections that follow, you will see how this evolving narrative around Ares Capital might shape the way you track the stock...",
       "facts": [
         "Ares Capital is back in focus after its fair value estimate in one model moved from about US$22.64 to roughly US$20.77, putting a tighter ceiling on where some analysts see the stock. Street commentary has tilted more cautious, with several firms trimming price targets and resetting ratings as they weigh risks around earnings, dividend coverage, and credit quality. In the sections that follow, you will see how this evolving narrative around Ares Capital might shape the way you track the stock..."
@@ -2069,7 +2170,7 @@
       "title": "Blackstone Secured Lending Fund (BXSL) Stock Fair Value Moves Lower After Analyst Target Cuts",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-secured-lending-fund-bxsl-150701493.html?.tsrc=rss",
       "publishedAt": "2026-06-27T15:07:01.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
       "summary": "The analyst fair value estimate for Blackstone Secured Lending Fund has been cut from about US$29.77 to US$24.60, putting the current narrative squarely on a reset in price targets into the mid US$20s. This shift lines up with recent Street research, where bullish and bearish analysts alike are recalibrating risk and reward after the latest quarterly update. As you read on, you will see what is driving these revisions and how to keep track of the evolving story around Blackstone Secured...",
       "facts": [
         "The analyst fair value estimate for Blackstone Secured Lending Fund has been cut from about US$29.77 to US$24.60, putting the current narrative squarely on a reset in price targets into the mid US$20s. This shift lines up with recent Street research, where bullish and bearish analysts alike are recalibrating risk and reward after the latest quarterly update. As you read on, you will see what is driving these revisions and how to keep track of the evolving story around Blackstone Secured..."
@@ -2120,7 +2221,7 @@
       "title": "Blue Owl Capital (OBDC) Stock Fair Value Falls As Analysts Cut Targets On Yield Pressure",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-obdc-stock-140728475.html?.tsrc=rss",
       "publishedAt": "2026-06-27T14:07:28.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
       "summary": "Blue Owl Capital has seen its fair value price target trimmed from US$14.50 to US$13.31, signaling a reset in how analysts are framing the stock today. The change lines up with more cautious Wall Street commentary around lower interest yields, softer capital deployment, and credit pressure across the broader business development company group. As you read on, you will see how these updated assumptions are shaping the evolving narrative around Blue Owl Capital and what to watch next. Stay...",
       "facts": [
         "Blue Owl Capital has seen its fair value price target trimmed from US$14.50 to US$13.31, signaling a reset in how analysts are framing the stock today. The change lines up with more cautious Wall Street commentary around lower interest yields, softer capital deployment, and credit pressure across the broader business development company group. As you read on, you will see how these updated assumptions are shaping the evolving narrative around Blue Owl Capital and what to watch next. Stay..."
@@ -2178,7 +2279,7 @@
       "title": "Private credit default fears spook BDC investors",
       "url": "https://www.thestreet.com/investing/main-street-capital-bdc-private-credit-edge?.tsrc=rss",
       "publishedAt": "2026-06-26T22:17:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
       "summary": "Business development company (BDC) portfolios have likely taken a hit this year, with sector pressures showing few signs of easing. High-profile collapses, including Wheel Pros' bankruptcy and the unwinding of United Site Services, have exposed embedded losses across the private credit ...",
       "facts": [
         "Business development company (BDC) portfolios have likely taken a hit this year, with sector pressures showing few signs of easing. High-profile collapses, including Wheel Pros' bankruptcy and the unwinding of United Site Services, have exposed embedded losses across the private credit ..."
@@ -2231,7 +2332,7 @@
       "title": "Ares Capital (ARCC) Gains As Market Dips: What You Should Know",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-arcc-gains-market-215003824.html?.tsrc=rss",
       "publishedAt": "2026-06-26T21:50:03.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
       "summary": "In the closing of the recent trading day, Ares Capital (ARCC) stood at $18.19, denoting a +1.11% move from the preceding trading day.",
       "facts": [
         "In the closing of the recent trading day, Ares Capital (ARCC) stood at $18.19, denoting a +1.11% move from the preceding trading day."
@@ -2282,7 +2383,7 @@
       "title": "Ares Management (ARES) Expands Infrastructure Team As Pathfinder Fund III Closes Above Target",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ares-management-ares-expands-infrastructure-160747459.html?.tsrc=rss",
       "publishedAt": "2026-06-26T16:07:47.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
       "summary": "Ares Management expanded its infrastructure debt leadership team by adding senior hires to deepen its focus on the asset class. The firm held the final close of Pathfinder Fund III above its original target, securing substantial commitments for alternative investments. Ares is participating in a Bank of England stress test for private markets, focused on financial stability under stressed scenarios. The company also launched a major industrial real estate development in the Raleigh Durham...",
       "facts": [
         "Ares Management expanded its infrastructure debt leadership team by adding senior hires to deepen its focus on the asset class. The firm held the final close of Pathfinder Fund III above its original target, securing substantial commitments for alternative investments. Ares is participating in a Bank of England stress test for private markets, focused on financial stability under stressed scenarios. The company also launched a major industrial real estate development in the Raleigh Durham..."
@@ -2334,7 +2435,7 @@
       "title": "Sila Realty Trust, Inc. Stockholders Approve Acquisition by Affiliates of Blue Owl Capital Inc.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sila-realty-trust-inc-stockholders-131800702.html?.tsrc=rss",
       "publishedAt": "2026-06-26T13:18:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
       "summary": "TAMPA, Fla., June 26, 2026--Sila Realty Trust, Inc. Stockholders Approve Acquisition by Affiliates of Blue Owl Capital Inc.",
       "facts": [
         "TAMPA, Fla., June 26, 2026--Sila Realty Trust, Inc. Stockholders Approve Acquisition by Affiliates of Blue Owl Capital Inc."
@@ -2386,7 +2487,7 @@
       "title": "MONTH-END PORTFOLIO DATA NOW AVAILABLE FOR ARES DYNAMIC CREDIT ALLOCATION FUND, INC.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/month-end-portfolio-data-now-201500035.html?.tsrc=rss",
       "publishedAt": "2026-06-25T20:15:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
+      "fetchedAt": "2026-06-30T13:31:27.911Z",
       "summary": "Ares Capital Management II LLC today announced that monthly fund composition and performance data for Ares Dynamic Credit Allocation Fund, Inc. (NYSE: ARDC) as of May 31, 2026, is now available via www.arespublicfunds.com.",
       "facts": [
         "Ares Capital Management II LLC today announced that monthly fund composition and performance data for Ares Dynamic Credit Allocation Fund, Inc. (NYSE: ARDC) as of May 31, 2026, is now available via www.arespublicfunds.com."
@@ -2431,125 +2532,60 @@
       "exclusionReason": "background item; not eligible for main tape"
     },
     {
-      "id": "private-credit-public-proxies-35b2aec8",
-      "source": "Yahoo Finance / Private Credit Proxies",
-      "sourceType": "reputable",
-      "title": "Ares Caps Private-Credit Fund Redemptions Again as 14% Seek Exits",
-      "url": "https://finance.yahoo.com/m/2ef5abf4-19e0-3e90-aab1-63400535b6f8/ares-caps-private-credit-fund.html?.tsrc=rss",
-      "publishedAt": "2026-06-25T16:12:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
-      "summary": "Ares Management limited withdrawals from its Strategic Income Fund after investors sought to redeem 14.4% of shares, though the firm expects to clear its redemption backlog by year-end.",
-      "facts": [
-        "Ares Management limited withdrawals from its Strategic Income Fund after investors sought to redeem 14.4% of shares, though the firm expects to clear its redemption backlog by year-end."
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_credit",
-        "credit",
-        "markets"
-      ],
-      "feedId": "private-credit-public-proxies",
-      "freshnessStatus": "BACKGROUND",
-      "matchedThemes": [
-        {
-          "id": "deal-financing-window",
-          "name": "Deal Financing Window",
-          "hits": [
-            "credit"
-          ]
-        },
-        {
-          "id": "private-markets-exit-window",
-          "name": "Private Markets Exit Window",
-          "hits": [
-            "private_credit"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 1,
-        "sourceQuality": 4,
-        "topicBankerWeight": 19,
-        "themeRelevance": 6,
-        "evidence": 6,
-        "marketSignal": 2,
-        "trustedDomain": 1,
-        "majorBreakingEvent": 0,
-        "total": 45
-      },
-      "eligible": false,
-      "exclusionReason": "background item; not eligible for main tape"
-    },
-    {
-      "id": "private-credit-public-proxies-ef755bc7",
-      "source": "Yahoo Finance / Private Credit Proxies",
-      "sourceType": "reputable",
-      "title": "Blue Owl in Advanced Talks to Buy Stake in Cleveland Cavaliers",
-      "url": "https://finance.yahoo.com/media-advertising/articles/blue-owl-advanced-talks-buy-132724834.html?.tsrc=rss",
-      "publishedAt": "2026-06-25T13:27:24.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.773Z",
-      "summary": "(Bloomberg) -- Blue Owl Capital Inc. is in advanced talks to buy a minority stake of the NBA’s Cleveland Cavaliers, according to people familiar with the matter. Most Read from BloombergInvestor Who Scored 900% Win in 2008 Crisis Has New Big Short BetGrand Ole Opry House Up For Sale by Owner Ryman HospitalityStocks Slide as Wall Street Gets AI Wake-Up Call: Markets WrapMicron Soars After AI-Fueled Forecast Shatters EstimatesStocks Climb Late After Micron’s Blowout Outlook: Markets WrapThe transa",
-      "facts": [
-        "(Bloomberg) -- Blue Owl Capital Inc. is in advanced talks to buy a minority stake of the NBA’s Cleveland Cavaliers, according to people familiar with the matter. Most Read from BloombergInvestor Who Scored 900% Win in 2008 Crisis Has New Big Short BetGrand Ole Opry House Up For Sale by Owner Ryman HospitalityStocks Slide as Wall Street Gets AI Wake-Up Call: Markets WrapMicron Soars After AI-Fueled Forecast Shatters EstimatesStocks Climb Late After Micron’s Blowout Outlook: Markets WrapThe transa"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_credit",
-        "credit",
-        "markets"
-      ],
-      "feedId": "private-credit-public-proxies",
-      "freshnessStatus": "BACKGROUND",
-      "matchedThemes": [
-        {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
-          "hits": [
-            "ai"
-          ]
-        },
-        {
-          "id": "deal-financing-window",
-          "name": "Deal Financing Window",
-          "hits": [
-            "credit"
-          ]
-        },
-        {
-          "id": "private-markets-exit-window",
-          "name": "Private Markets Exit Window",
-          "hits": [
-            "private_credit"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 1,
-        "sourceQuality": 4,
-        "topicBankerWeight": 19,
-        "themeRelevance": 9,
-        "evidence": 6,
-        "marketSignal": 2,
-        "trustedDomain": 1,
-        "majorBreakingEvent": 0,
-        "total": 48
-      },
-      "eligible": false,
-      "exclusionReason": "background item; not eligible for main tape"
-    },
-    {
-      "id": "prnewswire-private-equity-16a3865b",
+      "id": "prnewswire-private-equity-d1a8e014",
       "source": "PR Newswire Private Equity",
       "sourceType": "company",
-      "title": "Many Pet Owners May Be Underestimating Heartworm Risk, New Claims Data Shows",
-      "url": "https://www.prnewswire.com/news-releases/many-pet-owners-may-be-underestimating-heartworm-risk-new-claims-data-shows-302813919.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "New data from Embrace Pet Insurance suggests heartworm may be affecting more pets in more places, with diagnosis claims up 201% since 2020 and occurring year-round. CLEVELAND, June 30, 2026 /PRNewswire/ -- Heartworm disease may be one of the most misunderstood threats facing pets today,... ]]>",
+      "title": "Lupus Ventures Appoints Investment Committee, Scientific Advisory Network, and Unique Patient Council to Inform Fund Strategy",
+      "url": "https://www.prnewswire.com/news-releases/lupus-ventures-appoints-investment-committee-scientific-advisory-network-and-unique-patient-council-to-inform-fund-strategy-302814544.html",
+      "publishedAt": "2026-06-30T13:31:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "The Fund recruited an array of perspectives to ensure long-term impact and value alignment NEW YORK, June 30, 2026 /PRNewswire/ -- Lupus Ventures, the philanthropic venture investment fund of the Lupus Research Alliance and the world's only investment fund dedicated exclusively to... ]]>",
       "facts": [
-        "New data from Embrace Pet Insurance suggests heartworm may be affecting more pets in more places, with diagnosis claims up 201% since 2020 and occurring year-round. CLEVELAND, June 30, 2026 /PRNewswire/ -- Heartworm disease may be one of the most misunderstood threats facing pets today,... ]]>"
+        "The Fund recruited an array of perspectives to ensure long-term impact and value alignment NEW YORK, June 30, 2026 /PRNewswire/ -- Lupus Ventures, the philanthropic venture investment fund of the Lupus Research Alliance and the world's only investment fund dedicated exclusively to... ]]>"
+      ],
+      "tickers": [],
+      "topics": [
+        "private_markets",
+        "private_equity",
+        "deals"
+      ],
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity",
+            "venture"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 36
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
+    },
+    {
+      "id": "prnewswire-private-equity-26b08052",
+      "source": "PR Newswire Private Equity",
+      "sourceType": "company",
+      "title": "Printing Limitless Helps Businesses Drive Foot Traffic with Eye-Catching Custom Promotional Flags",
+      "url": "https://www.prnewswire.com/news-releases/printing-limitless-helps-businesses-drive-foot-traffic-with-eye-catching-custom-promotional-flags-302814322.html",
+      "publishedAt": "2026-06-30T13:30:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "NEW YORK and LOS ANGELES, June 30, 2026 /PRNewswire/ -- Businesses are constantly searching for new ways to attract customers in an increasingly competitive marketplace, and visually impactful signage continues to be one of the most effective marketing tools. Printing Limitless is helping... ]]>",
+      "facts": [
+        "NEW YORK and LOS ANGELES, June 30, 2026 /PRNewswire/ -- Businesses are constantly searching for new ways to attract customers in an increasingly competitive marketplace, and visually impactful signage continues to be one of the most effective marketing tools. Printing Limitless is helping... ]]>"
       ],
       "tickers": [],
       "topics": [
@@ -2583,16 +2619,253 @@
       "exclusionReason": "weak market signal"
     },
     {
-      "id": "prnewswire-private-equity-f99a23fd",
+      "id": "prnewswire-private-equity-5a0076fa",
       "source": "PR Newswire Private Equity",
       "sourceType": "company",
-      "title": "TransferMate and onPhase Partner to Extend Cross-Border Payment Capabilities Across North America and Internationally",
-      "url": "https://www.prnewswire.com/news-releases/transfermate-and-onphase-partner-to-extend-cross-border-payment-capabilities-across-north-america-and-internationally-302812318.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "Embedded payment support gives finance teams a single platform to manage AP and execute payments wherever their business operates TAMPA, Fla. and DUBLIN, June 30, 2026 /PRNewswire/ -- onPhase, an AI-powered platform that unifies finance and operations, and TransferMate, the world's... ]]>",
+      "title": "Zoomcar Adds Motorcycle and Scooter Rentals Alongside Cars, Expanding Into India's High-Frequency Daily Mobility Market",
+      "url": "https://www.prnewswire.com/news-releases/zoomcar-adds-motorcycle-and-scooter-rentals-alongside-cars-expanding-into-indias-high-frequency-daily-mobility-market-302814519.html",
+      "publishedAt": "2026-06-30T13:30:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "New category gives Zoomcar access to an estimated $1 billion rental opportunity while extending its asset-light marketplace from occasional car trips to everyday mobility BENGALURU, India, June 30, 2026 /PRNewswire/ -- Zoomcar Holdings, Inc. (OTCQB: ZCAR) (\"Zoomcar\" or the \"Company\"),... ]]>",
       "facts": [
-        "Embedded payment support gives finance teams a single platform to manage AP and execute payments wherever their business operates TAMPA, Fla. and DUBLIN, June 30, 2026 /PRNewswire/ -- onPhase, an AI-powered platform that unifies finance and operations, and TransferMate, the world's... ]]>"
+        "New category gives Zoomcar access to an estimated $1 billion rental opportunity while extending its asset-light marketplace from occasional car trips to everyday mobility BENGALURU, India, June 30, 2026 /PRNewswire/ -- Zoomcar Holdings, Inc. (OTCQB: ZCAR) (\"Zoomcar\" or the \"Company\"),... ]]>"
+      ],
+      "tickers": [],
+      "topics": [
+        "private_markets",
+        "private_equity",
+        "deals"
+      ],
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 36
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
+    },
+    {
+      "id": "prnewswire-private-equity-4154719b",
+      "source": "PR Newswire Private Equity",
+      "sourceType": "company",
+      "title": "Cyberhill Develops AI-Enabled Biosurveillance Mission Applications for the Department of War on the ServiceNow AI Platform",
+      "url": "https://www.prnewswire.com/news-releases/cyberhill-develops-ai-enabled-biosurveillance-mission-applications-for-the-department-of-war-on-the-servicenow-ai-platform-302813739.html",
+      "publishedAt": "2026-06-30T13:30:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "AUSTIN, Texas, June 30, 2026 /PRNewswire/ -- Cyberhill Partners announces the development of the Biosurveillance Information Platform (BIP), an AI-enabled biosurveillance capability being built on the ServiceNow AI Platform under a Defense Innovation Unit (DIU) Other Transaction Authority... ]]>",
+      "facts": [
+        "AUSTIN, Texas, June 30, 2026 /PRNewswire/ -- Cyberhill Partners announces the development of the Biosurveillance Information Platform (BIP), an AI-enabled biosurveillance capability being built on the ServiceNow AI Platform under a Defense Innovation Unit (DIU) Other Transaction Authority... ]]>"
+      ],
+      "tickers": [],
+      "topics": [
+        "private_markets",
+        "private_equity",
+        "deals"
+      ],
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 39
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
+    },
+    {
+      "id": "prnewswire-private-equity-fff6d93b",
+      "source": "PR Newswire Private Equity",
+      "sourceType": "company",
+      "title": "Geotab Acquires Link Labs Asset Tracking Company",
+      "url": "https://www.prnewswire.com/news-releases/geotab-acquires-link-labs-asset-tracking-company-302814250.html",
+      "publishedAt": "2026-06-30T13:30:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "Transaction enhances Geotab's asset tracking portfolio with addition of enterprise-grade small asset tracking solutions ATLANTA, June 30, 2026 /PRNewswire/ - Geotab USA, a global leader in connected operations, video telematics and AI-powered insights, today announced the acquisition of... ]]>",
+      "facts": [
+        "Transaction enhances Geotab's asset tracking portfolio with addition of enterprise-grade small asset tracking solutions ATLANTA, June 30, 2026 /PRNewswire/ - Geotab USA, a global leader in connected operations, video telematics and AI-powered insights, today announced the acquisition of... ]]>"
+      ],
+      "tickers": [],
+      "topics": [
+        "private_markets",
+        "private_equity",
+        "deals"
+      ],
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "ai-infrastructure",
+          "name": "AI Infrastructure",
+          "hits": [
+            "ai",
+            "power"
+          ]
+        },
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "acquisition"
+          ]
+        },
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 9,
+        "evidence": 6,
+        "marketSignal": 2,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 52
+      },
+      "eligible": false,
+      "exclusionReason": "source domain is outside the trusted publication set"
+    },
+    {
+      "id": "prnewswire-private-equity-8b5ab1",
+      "source": "PR Newswire Private Equity",
+      "sourceType": "company",
+      "title": "CELEBRITY RIVER CRUISES INNOVATES PRE- AND POST-CRUISE EXPERIENCES WITH LAUNCH OF BEFORE AND AFTER STAYS IN FOUR EUROPEAN CITIES",
+      "url": "https://www.prnewswire.com/news-releases/celebrity-river-cruises-innovates-pre--and-post-cruise-experiences-with-launch-of-before-and-after-stays-in-four-european-cities-302814591.html",
+      "publishedAt": "2026-06-30T13:30:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "Unlock more of Europe with immersive destination discovery and personalized experiences, all with Celebrity Cruises' signature hospitality, in Prague, Budapest, Amsterdam and Lausanne. MIAMI, June 30, 2026 /PRNewswire/ -- Starting today, Celebrity River Cruises guests can discover even... ]]>",
+      "facts": [
+        "Unlock more of Europe with immersive destination discovery and personalized experiences, all with Celebrity Cruises' signature hospitality, in Prague, Budapest, Amsterdam and Lausanne. MIAMI, June 30, 2026 /PRNewswire/ -- Starting today, Celebrity River Cruises guests can discover even... ]]>"
+      ],
+      "tickers": [],
+      "topics": [
+        "private_markets",
+        "private_equity",
+        "deals"
+      ],
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 36
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
+    },
+    {
+      "id": "prnewswire-private-equity-1662a24b",
+      "source": "PR Newswire Private Equity",
+      "sourceType": "company",
+      "title": "Tatu City désigne CRBC comme maître d'œuvre du projet emblématique des Jabali Towers",
+      "url": "https://www.prnewswire.com/news-releases/tatu-city-designe-crbc-comme-maitre-duvre-du-projet-emblematique-des-jabali-towers-302814589.html",
+      "publishedAt": "2026-06-30T13:29:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "TATU CITY, Kenya, 30 juin 2026 /PRNewswire/ -- Tatu City a désigné China Road and Bridge Corporation (CRBC) comme maître d'œuvre du projet Jabali Towers, marquant ainsi le début de la construction de deux tours résidentielles emblématiques, ainsi que de bureaux et de commerces à Tatu... ]]>",
+      "facts": [
+        "TATU CITY, Kenya, 30 juin 2026 /PRNewswire/ -- Tatu City a désigné China Road and Bridge Corporation (CRBC) comme maître d'œuvre du projet Jabali Towers, marquant ainsi le début de la construction de deux tours résidentielles emblématiques, ainsi que de bureaux et de commerces à Tatu... ]]>"
+      ],
+      "tickers": [],
+      "topics": [
+        "private_markets",
+        "private_equity",
+        "deals"
+      ],
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
+          "hits": [
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 3,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 36
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
+    },
+    {
+      "id": "prnewswire-private-equity-29d87ff5",
+      "source": "PR Newswire Private Equity",
+      "sourceType": "company",
+      "title": "SHAMEFUL HARASSMENT OF PETE BUTTIGIEG'S FAMILY SHOWS NEED TO REFORM CHILD ABUSE REPORTING LAWS, NATIONAL CHILD ADVOCACY ORGANIZATION SAYS",
+      "url": "https://www.prnewswire.com/news-releases/shameful-harassment-of-pete-buttigiegs-family-shows-need-to-reform-child-abuse-reporting-laws-national-child-advocacy-organization-says-302814460.html",
+      "publishedAt": "2026-06-30T13:29:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "ALEXANDRIA, Va., June 30, 2026 /PRNewswire/ --The trauma inflicted on the four-year-old children of former Transportation Secretary Pete Buttigieg, triggered by a ludicrous, anonymous false report to a child abuse hotline, illustrates the urgent need to reform child abuse reporting laws,... ]]>",
+      "facts": [
+        "ALEXANDRIA, Va., June 30, 2026 /PRNewswire/ --The trauma inflicted on the four-year-old children of former Transportation Secretary Pete Buttigieg, triggered by a ludicrous, anonymous false report to a child abuse hotline, illustrates the urgent need to reform child abuse reporting laws,... ]]>"
       ],
       "tickers": [],
       "topics": [
@@ -2611,11 +2884,53 @@
           ]
         },
         {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
+          "id": "private-markets-exit-window",
+          "name": "Private Markets Exit Window",
           "hits": [
-            "ai",
-            "power"
+            "private_equity"
+          ]
+        }
+      ],
+      "scores": {
+        "freshness": 5,
+        "sourceQuality": 4,
+        "topicBankerWeight": 15,
+        "themeRelevance": 6,
+        "evidence": 6,
+        "marketSignal": -3,
+        "trustedDomain": 0,
+        "majorBreakingEvent": 0,
+        "total": 39
+      },
+      "eligible": false,
+      "exclusionReason": "weak market signal"
+    },
+    {
+      "id": "prnewswire-private-equity-d0f1f0ba",
+      "source": "PR Newswire Private Equity",
+      "sourceType": "company",
+      "title": "Gainline Capital Partners Portfolio Company M&amp;M International Acquires KC Tech, Expanding Medical-Grade Tubing Capabilities",
+      "url": "https://www.prnewswire.com/news-releases/gainline-capital-partners-portfolio-company-mm-international-acquires-kc-tech-expanding-medical-grade-tubing-capabilities-302814565.html",
+      "publishedAt": "2026-06-30T13:27:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "Transaction is part of M&M's multi-year organic growth and acquisition strategy STAMFORD, Conn., June 30, 2026 /PRNewswire/ -- Gainline Capital Partners (\"Gainline\") announced today that its portfolio company M&M International (\"M&M\"), a leading manufacturer of precision-engineered... ]]>",
+      "facts": [
+        "Transaction is part of M&M's multi-year organic growth and acquisition strategy STAMFORD, Conn., June 30, 2026 /PRNewswire/ -- Gainline Capital Partners (\"Gainline\") announced today that its portfolio company M&M International (\"M&M\"), a leading manufacturer of precision-engineered... ]]>"
+      ],
+      "tickers": [],
+      "topics": [
+        "private_markets",
+        "private_equity",
+        "deals"
+      ],
+      "feedId": "prnewswire-private-equity",
+      "freshnessStatus": "LIVE",
+      "matchedThemes": [
+        {
+          "id": "deal-financing-window",
+          "name": "Deal Financing Window",
+          "hits": [
+            "acquisition"
           ]
         },
         {
@@ -2630,70 +2945,27 @@
         "freshness": 5,
         "sourceQuality": 4,
         "topicBankerWeight": 15,
-        "themeRelevance": 9,
-        "evidence": 6,
-        "marketSignal": -3,
-        "trustedDomain": 0,
-        "majorBreakingEvent": 0,
-        "total": 42
-      },
-      "eligible": false,
-      "exclusionReason": "weak market signal"
-    },
-    {
-      "id": "prnewswire-private-equity-71c2ce78",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "Wealth Enhancement to Acquire the Shufro-Glass Group of Shufro Rose with Over $760 Million in Client Assets",
-      "url": "https://www.prnewswire.com/news-releases/wealth-enhancement-to-acquire-the-shufro-glass-group-of-shufro-rose-with-over-760-million-in-client-assets-302814088.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "This partnership brings the firm's total client assets to more than $157 billion. MINNEAPOLIS, June 30, 2026 /PRNewswire/ -- Wealth Enhancement, a national independent wealth management firm dedicated to enriching clients' lives, announced it will acquire the Shufro-Glass Group of Shufro... ]]>",
-      "facts": [
-        "This partnership brings the firm's total client assets to more than $157 billion. MINNEAPOLIS, June 30, 2026 /PRNewswire/ -- Wealth Enhancement, a national independent wealth management firm dedicated to enriching clients' lives, announced it will acquire the Shufro-Glass Group of Shufro... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [
-        {
-          "id": "private-markets-exit-window",
-          "name": "Private Markets Exit Window",
-          "hits": [
-            "private_equity"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 15,
-        "themeRelevance": 3,
+        "themeRelevance": 6,
         "evidence": 6,
         "marketSignal": 2,
         "trustedDomain": 0,
         "majorBreakingEvent": 0,
-        "total": 46
+        "total": 49
       },
       "eligible": false,
       "exclusionReason": "source domain is outside the trusted publication set"
     },
     {
-      "id": "prnewswire-private-equity-3743a2da",
+      "id": "prnewswire-private-equity-a43789d",
       "source": "PR Newswire Private Equity",
       "sourceType": "company",
-      "title": "Mazda Brings Legendary 787B to Rolex Monterey Motorsports Reunion",
-      "url": "https://www.prnewswire.com/news-releases/mazda-brings-legendary-787b-to-rolex-monterey-motorsports-reunion-302814116.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "IRVINE, Calif., June 30, 2026 /PRNewswire/ -- The most famous rotary engine in motorsport history is coming to America. Mazda Motorsports will headline the 2026 Rolex Monterey Motorsports Reunion with a landmark gathering of iconic race cars — including, straight from Japan, the legendary... ]]>",
+      "title": "DENSO y TÜV Rheinland Japan confirman la viabilidad del Battery Passport",
+      "url": "https://www.prnewswire.com/news-releases/denso-y-tuv-rheinland-japan-confirman-la-viabilidad-del-battery-passport-302814585.html",
+      "publishedAt": "2026-06-30T13:26:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "-DENSO y TÜV Rheinland Japan confirman la viabilidad del Battery Passport para el producto de almacenamiento de energía de AESC utilizando datos reales KARIYA, Japón y YOKOHAMA, Japón, 30 de junio de 2026 /PRNewswire/ -- DENSO CORPORATION (sede central: ciudad de Kariya, prefectura de... ]]>",
       "facts": [
-        "IRVINE, Calif., June 30, 2026 /PRNewswire/ -- The most famous rotary engine in motorsport history is coming to America. Mazda Motorsports will headline the 2026 Rolex Monterey Motorsports Reunion with a landmark gathering of iconic race cars — including, straight from Japan, the legendary... ]]>"
+        "-DENSO y TÜV Rheinland Japan confirman la viabilidad del Battery Passport para el producto de almacenamiento de energía de AESC utilizando datos reales KARIYA, Japón y YOKOHAMA, Japón, 30 de junio de 2026 /PRNewswire/ -- DENSO CORPORATION (sede central: ciudad de Kariya, prefectura de... ]]>"
       ],
       "tickers": [],
       "topics": [
@@ -2727,109 +2999,16 @@
       "exclusionReason": "weak market signal"
     },
     {
-      "id": "prnewswire-private-equity-58e41fb4",
+      "id": "prnewswire-private-equity-344da736",
       "source": "PR Newswire Private Equity",
       "sourceType": "company",
-      "title": "Colby Public Schools USD 315 Deploys ZeroEyes AI Gun Detection and Intelligent Situational Awareness Technology to Strengthen School Safety",
-      "url": "https://www.prnewswire.com/news-releases/colby-public-schools-usd-315-deploys-zeroeyes-ai-gun-detection-and-intelligent-situational-awareness-technology-to-strengthen-school-safety-302813791.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "Kansas School District Enhances Security Infrastructure with Proactive Solution Funded Through State Firearm Detection Grant Program PHILADELPHIA, June 30, 2026 /PRNewswire/ -- ZeroEyes, creators of the leading multi-analytics weapons detection and threat intelligence platform, today... ]]>",
+      "title": "Salt Medical obtient la certification ISO 13485, renforçant ainsi sa position de partenaire sur l'ensemble du cycle de vie pour les entreprises du secteur des dispositifs médicaux",
+      "url": "https://www.prnewswire.com/news-releases/salt-medical-obtient-la-certification-iso-13485-renforcant-ainsi-sa-position-de-partenaire-sur-lensemble-du-cycle-de-vie-pour-les-entreprises-du-secteur-des-dispositifs-medicaux-302814584.html",
+      "publishedAt": "2026-06-30T13:26:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "GALWAY, Irlande, 30 juin 2026 /PRNewswire/ -- Salt Medical a annoncé aujourd'hui avoir obtenu la certification ISO 13485:2016, norme internationale relative aux systèmes de gestion de la qualité dans le secteur des dispositifs médicaux. Cette certification marque une étape importante dans... ]]>",
       "facts": [
-        "Kansas School District Enhances Security Infrastructure with Proactive Solution Funded Through State Firearm Detection Grant Program PHILADELPHIA, June 30, 2026 /PRNewswire/ -- ZeroEyes, creators of the leading multi-analytics weapons detection and threat intelligence platform, today... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [
-        {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
-          "hits": [
-            "ai"
-          ]
-        },
-        {
-          "id": "private-markets-exit-window",
-          "name": "Private Markets Exit Window",
-          "hits": [
-            "private_equity"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 15,
-        "themeRelevance": 6,
-        "evidence": 6,
-        "marketSignal": -3,
-        "trustedDomain": 0,
-        "majorBreakingEvent": 0,
-        "total": 39
-      },
-      "eligible": false,
-      "exclusionReason": "weak market signal"
-    },
-    {
-      "id": "prnewswire-private-equity-950c592c",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "FROM VACANT MALL ANCHOR TO PEDIATRIC HEALTHCARE: REDBIRD PROJECT TAKES AIM AT CHILDREN'S HEALTH DISPARITIES IN SOUTHERN DALLAS",
-      "url": "https://www.prnewswire.com/news-releases/from-vacant-mall-anchor-to-pediatric-healthcare-redbird-project-takes-aim-at-childrens-health-disparities-in-southern-dallas-302814000.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "Russell Glen Company commences construction on new Children's Health Specialty Center RedBird, turning the former Macy's into a 42,000-square-foot medical center and a national model for impact-driven redevelopment DALLAS, June 30, 2026 /PRNewswire/ -- Russell Glen Company has officially... ]]>",
-      "facts": [
-        "Russell Glen Company commences construction on new Children's Health Specialty Center RedBird, turning the former Macy's into a 42,000-square-foot medical center and a national model for impact-driven redevelopment DALLAS, June 30, 2026 /PRNewswire/ -- Russell Glen Company has officially... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [
-        {
-          "id": "private-markets-exit-window",
-          "name": "Private Markets Exit Window",
-          "hits": [
-            "private_equity"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 15,
-        "themeRelevance": 3,
-        "evidence": 6,
-        "marketSignal": -1,
-        "trustedDomain": 0,
-        "majorBreakingEvent": 0,
-        "total": 40
-      },
-      "eligible": false,
-      "exclusionReason": "weak market signal"
-    },
-    {
-      "id": "prnewswire-private-equity-28cd87b6",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "STARMED Becomes First Company to Receive FDA Clearance for Radiofrequency Ablation of Thyroid Nodules in the United States",
-      "url": "https://www.prnewswire.com/news-releases/starmed-becomes-first-company-to-receive-fda-clearance-for-radiofrequency-ablation-of-thyroid-nodules-in-the-united-states-302809821.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "Twenty-four years of clinical innovation. 300+ clinical studies. One historic first. LOS ANGELES, June 30, 2026 /PRNewswire/ -- STARMED America today announced FDA 510(k) clearance for the first RFA device in U.S. history indicated specifically for the ablation of thyroid nodules, making... ]]>",
-      "facts": [
-        "Twenty-four years of clinical innovation. 300+ clinical studies. One historic first. LOS ANGELES, June 30, 2026 /PRNewswire/ -- STARMED America today announced FDA 510(k) clearance for the first RFA device in U.S. history indicated specifically for the ablation of thyroid nodules, making... ]]>"
+        "GALWAY, Irlande, 30 juin 2026 /PRNewswire/ -- Salt Medical a annoncé aujourd'hui avoir obtenu la certification ISO 13485:2016, norme internationale relative aux systèmes de gestion de la qualité dans le secteur des dispositifs médicaux. Cette certification marque une étape importante dans... ]]>"
       ],
       "tickers": [],
       "topics": [
@@ -2863,160 +3042,16 @@
       "exclusionReason": "weak market signal"
     },
     {
-      "id": "prnewswire-private-equity-f5ba46f8",
+      "id": "prnewswire-private-equity-5771d3d2",
       "source": "PR Newswire Private Equity",
       "sourceType": "company",
-      "title": "Top-Ranked MSSP ACO for Long-Term Care Announces Name Change that Reflects Expanded Offering",
-      "url": "https://www.prnewswire.com/news-releases/top-ranked-mssp-aco-for-long-term-care-announces-name-change-that-reflects-expanded-offering-302812112.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "Sound Long-Term Care Management will become Sound Accountable Care NASHVILLE, Tenn., June 30, 2026 /PRNewswire/ -- Sound Long-Term Care Management (SLTCM), an accountable care organization (ACO) within Sound Physicians, today announces that it will change its name to Sound Accountable... ]]>",
+      "title": "2,700 Customer Calls Reveal Why Travelers Are Buying Cancel For Any Reason Insurance",
+      "url": "https://www.prnewswire.com/news-releases/2-700-customer-calls-reveal-why-travelers-are-buying-cancel-for-any-reason-insurance-302814582.html",
+      "publishedAt": "2026-06-30T13:24:00.000Z",
+      "fetchedAt": "2026-06-30T13:31:28.069Z",
+      "summary": "ST. PETERSBURG, Fla., June 30, 2026 /PRNewswire/ -- Over the past three months, Squaremouth, the nation's largest travel insurance marketplace, has fielded more than 2,700 calls about Cancel For Any Reason (CFAR) coverage, accounting for just over a quarter of all customer service... ]]>",
       "facts": [
-        "Sound Long-Term Care Management will become Sound Accountable Care NASHVILLE, Tenn., June 30, 2026 /PRNewswire/ -- Sound Long-Term Care Management (SLTCM), an accountable care organization (ACO) within Sound Physicians, today announces that it will change its name to Sound Accountable... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [
-        {
-          "id": "private-markets-exit-window",
-          "name": "Private Markets Exit Window",
-          "hits": [
-            "private_equity"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 15,
-        "themeRelevance": 3,
-        "evidence": 6,
-        "marketSignal": -1,
-        "trustedDomain": 0,
-        "majorBreakingEvent": 0,
-        "total": 40
-      },
-      "eligible": false,
-      "exclusionReason": "weak market signal"
-    },
-    {
-      "id": "prnewswire-private-equity-f6c3fcb8",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "With Launch of Care Intelligence, Hyro Becomes the First to Turn Millions of AI Agent Conversations Into Patient Access Signals",
-      "url": "https://www.prnewswire.com/news-releases/with-launch-of-care-intelligence-hyro-becomes-the-first-to-turn-millions-of-ai-agent-conversations-into-patient-access-signals-302813929.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "Care Intelligence enables health systems to measure, benchmark, and optimize access to care using the patient conversations their AI agents handle every day NEW YORK, June 30, 2026 /PRNewswire/ -- Hyro, the leading Agentic Care Communications Platform for healthcare, today announced the... ]]>",
-      "facts": [
-        "Care Intelligence enables health systems to measure, benchmark, and optimize access to care using the patient conversations their AI agents handle every day NEW YORK, June 30, 2026 /PRNewswire/ -- Hyro, the leading Agentic Care Communications Platform for healthcare, today announced the... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [
-        {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
-          "hits": [
-            "ai"
-          ]
-        },
-        {
-          "id": "private-markets-exit-window",
-          "name": "Private Markets Exit Window",
-          "hits": [
-            "private_equity"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 15,
-        "themeRelevance": 6,
-        "evidence": 6,
-        "marketSignal": -3,
-        "trustedDomain": 0,
-        "majorBreakingEvent": 0,
-        "total": 39
-      },
-      "eligible": false,
-      "exclusionReason": "weak market signal"
-    },
-    {
-      "id": "prnewswire-private-equity-eac8fc98",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "Big Tech is Struggling To Power the Multi-Trillion-Dollar AI Boom",
-      "url": "https://www.prnewswire.com/news-releases/big-tech-is-struggling-to-power-the-multi-trillion-dollar-ai-boom-302813718.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "FN Media Group Presents Oilprice.com Market Commentary NEW YORK, June 30, 2026 /PRNewswire/ -- The White House issued a stark warning in July 2025: Without $1.4 trillion in new infrastructure investment, electricity prices could surge as much as 58% by 2030. That's driven mostly by the... ]]>",
-      "facts": [
-        "FN Media Group Presents Oilprice.com Market Commentary NEW YORK, June 30, 2026 /PRNewswire/ -- The White House issued a stark warning in July 2025: Without $1.4 trillion in new infrastructure investment, electricity prices could surge as much as 58% by 2030. That's driven mostly by the... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [
-        {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
-          "hits": [
-            "ai",
-            "power"
-          ]
-        },
-        {
-          "id": "private-markets-exit-window",
-          "name": "Private Markets Exit Window",
-          "hits": [
-            "private_equity"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 15,
-        "themeRelevance": 6,
-        "evidence": 6,
-        "marketSignal": -3,
-        "trustedDomain": 0,
-        "majorBreakingEvent": 0,
-        "total": 39
-      },
-      "eligible": false,
-      "exclusionReason": "weak market signal"
-    },
-    {
-      "id": "prnewswire-private-equity-fc631fe6",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "Nasuni es reconocida por su excelencia en la satisfacción del cliente",
-      "url": "https://www.prnewswire.com/news-releases/nasuni-es-reconocida-por-su-excelencia-en-la-satisfaccion-del-cliente-302809659.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "- Nasuni es reconocida por su excelencia en la satisfacción del cliente y su soporte al cliente para empresas de todo el mundo El sexto premio consecutivo de NorthFace ScoreBoard y los 15 primeros puestos en los informes de verano de 2026 de G2 destacan a Nasuni como un referente de... ]]>",
-      "facts": [
-        "- Nasuni es reconocida por su excelencia en la satisfacción del cliente y su soporte al cliente para empresas de todo el mundo El sexto premio consecutivo de NorthFace ScoreBoard y los 15 primeros puestos en los informes de verano de 2026 de G2 destacan a Nasuni como un referente de... ]]>"
+        "ST. PETERSBURG, Fla., June 30, 2026 /PRNewswire/ -- Over the past three months, Squaremouth, the nation's largest travel insurance marketplace, has fielded more than 2,700 calls about Cancel For Any Reason (CFAR) coverage, accounting for just over a quarter of all customer service... ]]>"
       ],
       "tickers": [],
       "topics": [
@@ -3045,56 +3080,6 @@
         "trustedDomain": 0,
         "majorBreakingEvent": 0,
         "total": 36
-      },
-      "eligible": false,
-      "exclusionReason": "weak market signal"
-    },
-    {
-      "id": "prnewswire-private-equity-cc460a1d",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "Nasuni Recognized for Industry-Leading Customer Satisfaction and Support for Enterprises Across the Globe",
-      "url": "https://www.prnewswire.com/news-releases/nasuni-recognized-for-industry-leading-customer-satisfaction-and-support-for-enterprises-across-the-globe-302808491.html",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "fetchedAt": "2026-06-30T12:01:12.910Z",
-      "summary": "Sixth Consecutive NorthFace ScoreBoard Award and 15 Top Rankings in G2's Summer 2026 Reports Highlight Nasuni as a Gold Standard for Customer Success BOSTON, June 30, 2026 /PRNewswire/ -- Nasuni, a leading unstructured data platform for enterprise teams and AI, announced continued... ]]>",
-      "facts": [
-        "Sixth Consecutive NorthFace ScoreBoard Award and 15 Top Rankings in G2's Summer 2026 Reports Highlight Nasuni as a Gold Standard for Customer Success BOSTON, June 30, 2026 /PRNewswire/ -- Nasuni, a leading unstructured data platform for enterprise teams and AI, announced continued... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity",
-      "freshnessStatus": "LIVE",
-      "matchedThemes": [
-        {
-          "id": "ai-infrastructure",
-          "name": "AI Infrastructure",
-          "hits": [
-            "ai"
-          ]
-        },
-        {
-          "id": "private-markets-exit-window",
-          "name": "Private Markets Exit Window",
-          "hits": [
-            "private_equity"
-          ]
-        }
-      ],
-      "scores": {
-        "freshness": 5,
-        "sourceQuality": 4,
-        "topicBankerWeight": 15,
-        "themeRelevance": 6,
-        "evidence": 6,
-        "marketSignal": -1,
-        "trustedDomain": 0,
-        "majorBreakingEvent": 0,
-        "total": 43
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -3160,7 +3145,7 @@
         },
         "watchNext": "Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high."
       },
-      "fetchedAt": "2026-06-30T12:01:13.566Z",
+      "fetchedAt": "2026-06-30T13:31:28.562Z",
       "freshnessStatus": "BACKGROUND",
       "matchedThemes": [
         {
@@ -3260,7 +3245,7 @@
         },
         "watchNext": "Watch Dell's AI backlog, gross margin, memory supply, and whether large cloud customers keep raising capex plans."
       },
-      "fetchedAt": "2026-06-30T12:01:13.566Z",
+      "fetchedAt": "2026-06-30T13:31:28.562Z",
       "freshnessStatus": "BACKGROUND",
       "matchedThemes": [
         {
@@ -3350,7 +3335,7 @@
         },
         "watchNext": "Watch Toms Capital's asks, shareholder reaction, regulatory milestones, synergy details, and any change in deal timing."
       },
-      "fetchedAt": "2026-06-30T12:01:13.566Z",
+      "fetchedAt": "2026-06-30T13:31:28.562Z",
       "freshnessStatus": "BACKGROUND",
       "matchedThemes": [
         {
@@ -3431,7 +3416,7 @@
         },
         "watchNext": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes."
       },
-      "fetchedAt": "2026-06-30T12:01:13.566Z",
+      "fetchedAt": "2026-06-30T13:31:28.562Z",
       "freshnessStatus": "BACKGROUND",
       "matchedThemes": [
         {
@@ -3532,7 +3517,7 @@
         },
         "watchNext": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction."
       },
-      "fetchedAt": "2026-06-30T12:01:13.566Z",
+      "fetchedAt": "2026-06-30T13:31:28.562Z",
       "freshnessStatus": "BACKGROUND",
       "matchedThemes": [
         {
