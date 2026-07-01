@@ -1,32 +1,32 @@
 {
   "runDate": "2026-07-01",
-  "generatedAt": "2026-07-01T12:04:29.855Z",
+  "generatedAt": "2026-07-01T13:31:31.755Z",
   "selectedCount": 2,
   "quietDay": true,
   "analyses": [
     {
-      "id": "yahoo-finance-news-8ce63903",
-      "title": "Emirates NBD in discussions to acquire HSBC Türkiye arm – report",
+      "id": "yahoo-finance-news-f8556021",
+      "title": "Here’s What Supported Lattice Semiconductor Corp.’s (LSCC) Revenue Growth",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
           "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/emirates-nbd-discussions-acquire-hsbc-114657459.html",
-          "publishedAt": "2026-07-01T11:46:57.000Z",
-          "fetchedAt": "2026-07-01T12:04:11.678Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/supported-lattice-semiconductor-corp-lscc-125706772.html",
+          "publishedAt": "2026-07-01T12:57:06.000Z",
+          "fetchedAt": "2026-07-01T13:31:08.598Z"
         }
       ],
       "freshnessStatus": "LIVE",
       "confidence": "Medium",
-      "summary": "Emirates NBD in discussions to acquire HSBC Türkiye arm – report. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "Emirates NBD in discussions to acquire HSBC Türkiye arm – report. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "summary": "Here’s What Supported Lattice Semiconductor Corp.’s (LSCC) Revenue Growth. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Here’s What Supported Lattice Semiconductor Corp.’s (LSCC) Revenue Growth. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
       "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-      "whyItMoved": "This was selected because it links markets news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+      "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "Connects to Rates and Cost of Capital.",
+      "sectorReadThrough": "Connects to AI Infrastructure.",
       "parallel": {
         "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
         "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -36,7 +36,7 @@
         "sourceTrail": [
           {
             "source": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/emirates-nbd-discussions-acquire-hsbc-114657459.html"
+            "url": "https://finance.yahoo.com/markets/stocks/articles/supported-lattice-semiconductor-corp-lscc-125706772.html"
           }
         ]
       },
@@ -46,17 +46,17 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "This was selected because it links markets news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Emirates NBD in discussions to acquire HSBC Türkiye arm – report. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Here’s What Supported Lattice Semiconductor Corp.’s (LSCC) Revenue Growth. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
           },
           {
             "id": "mechanism",
             "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to Rates and Cost of Capital. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
           },
           {
             "id": "interpretation",
@@ -77,115 +77,128 @@
       },
       "visual": {
         "type": "bar-chart",
-        "title": "Cross-asset reaction board",
-        "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
-        "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
+        "title": "Semiconductor rebound board",
+        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
+        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
         "allowedPages": [
           "markets",
           "deep-dive"
         ],
-        "axisTitle": "3-month change",
+        "axisTitle": "Latest daily change",
         "visualSource": "Public market data",
         "items": [
           {
-            "id": "SPY",
-            "label": "SPDR S&P 500 ETF Trust",
-            "value": 13.968932095267158,
-            "displayValue": 13.968932095267158,
+            "id": "NVDA",
+            "label": "Nvidia",
+            "value": -2.743760475213409,
+            "displayValue": -2.743760475213409,
             "suffix": "%",
-            "latestDate": "2026-06-30",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+            "latestDate": "2026-07-01",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
           },
           {
-            "id": "QQQ",
-            "label": "Invesco QQQ Trust",
-            "value": 26.028996164868357,
-            "displayValue": 26.028996164868357,
+            "id": "SOXX",
+            "label": "iShares Semiconductor ETF",
+            "value": -3.54890909042416,
+            "displayValue": -3.54890909042416,
             "suffix": "%",
-            "latestDate": "2026-06-30",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+            "latestDate": "2026-07-01",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
           },
           {
-            "id": "IWM",
-            "label": "iShares Russell 2000 ETF",
-            "value": 20.391895795114007,
-            "displayValue": 20.391895795114007,
+            "id": "AVGO",
+            "label": "Broadcom",
+            "value": -1.7021820452101255,
+            "displayValue": -1.7021820452101255,
             "suffix": "%",
-            "latestDate": "2026-06-30",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+            "latestDate": "2026-07-01",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
           },
           {
-            "id": "GLD",
-            "label": "SPDR Gold Shares",
-            "value": -15.860399543135511,
-            "displayValue": -15.860399543135511,
+            "id": "MU",
+            "label": "Micron Technology",
+            "value": -6.435126942376139,
+            "displayValue": -6.435126942376139,
             "suffix": "%",
-            "latestDate": "2026-06-30",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+            "latestDate": "2026-07-01",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "id": "MRVL",
+            "label": "Marvell Technology",
+            "value": -5.453363602649658,
+            "displayValue": -5.453363602649658,
+            "suffix": "%",
+            "latestDate": "2026-07-01",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "id": "INTC",
+            "label": "Intel",
+            "value": -3.8458856894572624,
+            "displayValue": -3.8458856894572624,
+            "suffix": "%",
+            "latestDate": "2026-07-01",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
           }
         ],
         "sourceTrail": [
           {
-            "source": "SPDR S&P 500 ETF Trust",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+            "source": "Nvidia",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
           },
           {
-            "source": "Invesco QQQ Trust",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+            "source": "iShares Semiconductor ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
           },
           {
-            "source": "iShares Russell 2000 ETF",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+            "source": "Broadcom",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
           },
           {
-            "source": "SPDR Gold Shares",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+            "source": "Micron Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "source": "Marvell Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Intel",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
           }
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
       "relatedLinks": [],
-      "storyline": {
-        "id": "rates-inflation-cost-of-capital",
-        "name": "Rates and cost of capital",
-        "threshold": 3
-      },
+      "storyline": null,
       "concepts": [
-        "rates"
-      ],
-      "continuity": {
-        "previousDate": "2026-06-25",
-        "previousTitle": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
-        "previousUrl": "issues/2026-06-25.html",
-        "whatChanged": "This updates the rates and cost of capital thread from 2026-06-25. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
-        "priorRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
-        "updatedRead": "This was selected because it links markets news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
-        "status": "Developing"
-      }
+        "semiconductor"
+      ]
     },
     {
-      "id": "yahoo-finance-news-dd730277",
-      "title": "Kotak to acquire Deutsche Bank’s retail and wealth businesses in India",
+      "id": "yahoo-finance-news-2ad7fc7a",
+      "title": "Stock Market Today: Dow Falls Amid Jobs Data, Warsh; SpaceX, Bloom Energy, Meta Move Early (Live Coverage)",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
           "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kotak-acquire-deutsche-bank-retail-114507501.html",
-          "publishedAt": "2026-07-01T11:45:07.000Z",
-          "fetchedAt": "2026-07-01T12:04:11.678Z"
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-report-fed-warsh-spacex-bloom-energy-nike/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-07-01T13:09:08.000Z",
+          "fetchedAt": "2026-07-01T13:31:08.598Z"
         }
       ],
       "freshnessStatus": "LIVE",
       "confidence": "Medium",
-      "summary": "Kotak to acquire Deutsche Bank’s retail and wealth businesses in India. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "Kotak to acquire Deutsche Bank’s retail and wealth businesses in India. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "summary": "Stock Market Today: Dow Falls Amid Jobs Data, Warsh; SpaceX, Bloom Energy, Meta Move Early (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Stock Market Today: Dow Falls Amid Jobs Data, Warsh; SpaceX, Bloom Energy, Meta Move Early (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
       "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-      "whyItMoved": "This was selected because it links markets news to Consumer and Staples and has enough source support to analyze rather than merely mention.",
+      "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "Connects to Consumer and Staples.",
+      "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
       "parallel": {
         "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
         "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -195,7 +208,7 @@
         "sourceTrail": [
           {
             "source": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/kotak-acquire-deutsche-bank-retail-114507501.html"
+            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-report-fed-warsh-spacex-bloom-energy-nike/?src=A00220&yptr=yahoo"
           }
         ]
       },
@@ -205,17 +218,17 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "This was selected because it links markets news to Consumer and Staples and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Kotak to acquire Deutsche Bank’s retail and wealth businesses in India. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Stock Market Today: Dow Falls Amid Jobs Data, Warsh; SpaceX, Bloom Energy, Meta Move Early (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
           },
           {
             "id": "mechanism",
             "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to Consumer and Staples. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
           },
           {
             "id": "interpretation",
@@ -249,37 +262,37 @@
           {
             "id": "SPY",
             "label": "SPDR S&P 500 ETF Trust",
-            "value": 13.968932095267158,
-            "displayValue": 13.968932095267158,
+            "value": 13.526342439982963,
+            "displayValue": 13.526342439982963,
             "suffix": "%",
-            "latestDate": "2026-06-30",
+            "latestDate": "2026-07-01",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
             "id": "QQQ",
             "label": "Invesco QQQ Trust",
-            "value": 26.028996164868357,
-            "displayValue": 26.028996164868357,
+            "value": 24.671830662982128,
+            "displayValue": 24.671830662982128,
             "suffix": "%",
-            "latestDate": "2026-06-30",
+            "latestDate": "2026-07-01",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
             "id": "IWM",
             "label": "iShares Russell 2000 ETF",
-            "value": 20.391895795114007,
-            "displayValue": 20.391895795114007,
+            "value": 20.299729186451447,
+            "displayValue": 20.299729186451447,
             "suffix": "%",
-            "latestDate": "2026-06-30",
+            "latestDate": "2026-07-01",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
             "id": "GLD",
             "label": "SPDR Gold Shares",
-            "value": -15.860399543135511,
-            "displayValue": -15.860399543135511,
+            "value": -15.217440702901044,
+            "displayValue": -15.217440702901044,
             "suffix": "%",
-            "latestDate": "2026-06-30",
+            "latestDate": "2026-07-01",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],
@@ -305,9 +318,7 @@
       },
       "relatedLinks": [],
       "storyline": null,
-      "concepts": [
-        "retail"
-      ]
+      "concepts": []
     }
   ]
 }
