@@ -1,0 +1,313 @@
+{
+  "runDate": "2026-07-01",
+  "generatedAt": "2026-07-01T12:04:29.855Z",
+  "selectedCount": 2,
+  "quietDay": true,
+  "analyses": [
+    {
+      "id": "yahoo-finance-news-8ce63903",
+      "title": "Emirates NBD in discussions to acquire HSBC Türkiye arm – report",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/emirates-nbd-discussions-acquire-hsbc-114657459.html",
+          "publishedAt": "2026-07-01T11:46:57.000Z",
+          "fetchedAt": "2026-07-01T12:04:11.678Z"
+        }
+      ],
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "summary": "Emirates NBD in discussions to acquire HSBC Türkiye arm – report. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Emirates NBD in discussions to acquire HSBC Türkiye arm – report. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
+      "whyItMoved": "This was selected because it links markets news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+      "sectorReadThrough": "Connects to Rates and Cost of Capital.",
+      "parallel": {
+        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+        "whatRhymes": "The current story shows demand spreading across the value chain.",
+        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/emirates-nbd-discussions-acquire-hsbc-114657459.html"
+          }
+        ]
+      },
+      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "This was selected because it links markets news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Emirates NBD in discussions to acquire HSBC Türkiye arm – report. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to Rates and Cost of Capital. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Cross-asset reaction board",
+        "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
+        "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
+        "allowedPages": [
+          "markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "SPY",
+            "label": "SPDR S&P 500 ETF Trust",
+            "value": 13.968932095267158,
+            "displayValue": 13.968932095267158,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+          },
+          {
+            "id": "QQQ",
+            "label": "Invesco QQQ Trust",
+            "value": 26.028996164868357,
+            "displayValue": 26.028996164868357,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+          },
+          {
+            "id": "IWM",
+            "label": "iShares Russell 2000 ETF",
+            "value": 20.391895795114007,
+            "displayValue": 20.391895795114007,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+          },
+          {
+            "id": "GLD",
+            "label": "SPDR Gold Shares",
+            "value": -15.860399543135511,
+            "displayValue": -15.860399543135511,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "SPDR S&P 500 ETF Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+          },
+          {
+            "source": "Invesco QQQ Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+          },
+          {
+            "source": "iShares Russell 2000 ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+          },
+          {
+            "source": "SPDR Gold Shares",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": {
+        "id": "rates-inflation-cost-of-capital",
+        "name": "Rates and cost of capital",
+        "threshold": 3
+      },
+      "concepts": [
+        "rates"
+      ],
+      "continuity": {
+        "previousDate": "2026-06-25",
+        "previousTitle": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
+        "previousUrl": "issues/2026-06-25.html",
+        "whatChanged": "This updates the rates and cost of capital thread from 2026-06-25. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+        "updatedRead": "This was selected because it links markets news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+        "status": "Developing"
+      }
+    },
+    {
+      "id": "yahoo-finance-news-dd730277",
+      "title": "Kotak to acquire Deutsche Bank’s retail and wealth businesses in India",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kotak-acquire-deutsche-bank-retail-114507501.html",
+          "publishedAt": "2026-07-01T11:45:07.000Z",
+          "fetchedAt": "2026-07-01T12:04:11.678Z"
+        }
+      ],
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "summary": "Kotak to acquire Deutsche Bank’s retail and wealth businesses in India. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Kotak to acquire Deutsche Bank’s retail and wealth businesses in India. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
+      "whyItMoved": "This was selected because it links markets news to Consumer and Staples and has enough source support to analyze rather than merely mention.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+      "sectorReadThrough": "Connects to Consumer and Staples.",
+      "parallel": {
+        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+        "whatRhymes": "The current story shows demand spreading across the value chain.",
+        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+        "sourceTrail": [
+          {
+            "source": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/kotak-acquire-deutsche-bank-retail-114507501.html"
+          }
+        ]
+      },
+      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "This was selected because it links markets news to Consumer and Staples and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Kotak to acquire Deutsche Bank’s retail and wealth businesses in India. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to Consumer and Staples. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": {
+        "type": "bar-chart",
+        "title": "Cross-asset reaction board",
+        "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
+        "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
+        "allowedPages": [
+          "markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "SPY",
+            "label": "SPDR S&P 500 ETF Trust",
+            "value": 13.968932095267158,
+            "displayValue": 13.968932095267158,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+          },
+          {
+            "id": "QQQ",
+            "label": "Invesco QQQ Trust",
+            "value": 26.028996164868357,
+            "displayValue": 26.028996164868357,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+          },
+          {
+            "id": "IWM",
+            "label": "iShares Russell 2000 ETF",
+            "value": 20.391895795114007,
+            "displayValue": 20.391895795114007,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+          },
+          {
+            "id": "GLD",
+            "label": "SPDR Gold Shares",
+            "value": -15.860399543135511,
+            "displayValue": -15.860399543135511,
+            "suffix": "%",
+            "latestDate": "2026-06-30",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "SPDR S&P 500 ETF Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+          },
+          {
+            "source": "Invesco QQQ Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+          },
+          {
+            "source": "iShares Russell 2000 ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+          },
+          {
+            "source": "SPDR Gold Shares",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "retail"
+      ]
+    }
+  ]
+}
