@@ -1,0 +1,21 @@
+{
+  "runDate": "2026-07-03",
+  "reviewedAt": "2026-07-03T12:01:08.365Z",
+  "status": "APPROVED",
+  "reviewers": {
+    "deterministic": {
+      "blockers": [],
+      "warnings": [
+        "No selected moves cleared the evidence bar; quiet edition is allowed."
+      ]
+    },
+    "openai": {
+      "skipped": true,
+      "reason": "OPENAI_API_KEY not configured"
+    }
+  },
+  "blockers": [],
+  "warnings": [
+    "No selected moves cleared the evidence bar; quiet edition is allowed."
+  ]
+}
