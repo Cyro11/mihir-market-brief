@@ -1,32 +1,32 @@
 {
   "runDate": "2026-07-06",
-  "generatedAt": "2026-07-06T12:00:51.276Z",
+  "generatedAt": "2026-07-06T13:31:14.515Z",
   "selectedCount": 2,
   "quietDay": true,
   "analyses": [
     {
-      "id": "yahoo-finance-news-a0fecdf7",
-      "title": "Hedge funds dumped chip stocks for a fourth week as AI shares sold off",
+      "id": "yahoo-finance-news-4623b933",
+      "title": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
           "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-dumped-chip-stocks-111514085.html",
-          "publishedAt": "2026-07-06T11:15:14.000Z",
-          "fetchedAt": "2026-07-06T12:00:30.975Z"
+          "url": "https://finance.yahoo.com/markets/article/sk-hynix-seeks-28-billion-in-us-ipo-listing-as-memory-maker-rides-ai-wave-132016294.html",
+          "publishedAt": "2026-07-06T13:20:16.000Z",
+          "fetchedAt": "2026-07-06T13:30:53.949Z"
         }
       ],
       "freshnessStatus": "LIVE",
       "confidence": "Medium",
-      "summary": "Hedge funds dumped chip stocks for a fourth week as AI shares sold off. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "Hedge funds dumped chip stocks for a fourth week as AI shares sold off. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "summary": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
       "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
       "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "Connects to AI Infrastructure.",
+      "sectorReadThrough": "Connects to AI Infrastructure, Deal Financing Window.",
       "parallel": {
         "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
         "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -36,7 +36,7 @@
         "sourceTrail": [
           {
             "source": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-dumped-chip-stocks-111514085.html"
+            "url": "https://finance.yahoo.com/markets/article/sk-hynix-seeks-28-billion-in-us-ipo-listing-as-memory-maker-rides-ai-wave-132016294.html"
           }
         ]
       },
@@ -51,12 +51,12 @@
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Hedge funds dumped chip stocks for a fourth week as AI shares sold off. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
           },
           {
             "id": "mechanism",
             "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure, Deal Financing Window. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
           },
           {
             "id": "interpretation",
@@ -77,95 +77,69 @@
       },
       "visual": {
         "type": "bar-chart",
-        "title": "Semiconductor rebound board",
-        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
-        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
+        "title": "Cross-asset reaction board",
+        "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
+        "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
         "allowedPages": [
           "markets",
           "deep-dive"
         ],
-        "axisTitle": "Latest daily change",
+        "axisTitle": "3-month change",
         "visualSource": "Public market data",
         "items": [
           {
-            "id": "NVDA",
-            "label": "Nvidia",
-            "value": -1.3918412665829665,
-            "displayValue": -1.3918412665829665,
+            "id": "SPY",
+            "label": "SPDR S&P 500 ETF Trust",
+            "value": 13.714658024627663,
+            "displayValue": 13.714658024627663,
             "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
-            "id": "SOXX",
-            "label": "iShares Semiconductor ETF",
-            "value": -5.566117092438693,
-            "displayValue": -5.566117092438693,
+            "id": "QQQ",
+            "label": "Invesco QQQ Trust",
+            "value": 22.46219242844626,
+            "displayValue": 22.46219242844626,
             "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
-            "id": "AVGO",
-            "label": "Broadcom",
-            "value": -2.4069919908501802,
-            "displayValue": -2.4069919908501802,
+            "id": "IWM",
+            "label": "iShares Russell 2000 ETF",
+            "value": 18.279437911101045,
+            "displayValue": 18.279437911101045,
             "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
-            "id": "MU",
-            "label": "Micron Technology",
-            "value": -5.494636157682466,
-            "displayValue": -5.494636157682466,
+            "id": "GLD",
+            "label": "SPDR Gold Shares",
+            "value": -11.10721400162061,
+            "displayValue": -11.10721400162061,
             "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
-          },
-          {
-            "id": "MRVL",
-            "label": "Marvell Technology",
-            "value": -9.83642554955761,
-            "displayValue": -9.83642554955761,
-            "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
-          },
-          {
-            "id": "INTC",
-            "label": "Intel",
-            "value": -5.251140249742249,
-            "displayValue": -5.251140249742249,
-            "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],
         "sourceTrail": [
           {
-            "source": "Nvidia",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+            "source": "SPDR S&P 500 ETF Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
-            "source": "iShares Semiconductor ETF",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+            "source": "Invesco QQQ Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
-            "source": "Broadcom",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+            "source": "iShares Russell 2000 ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
-            "source": "Micron Technology",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
-          },
-          {
-            "source": "Marvell Technology",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
-          },
-          {
-            "source": "Intel",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+            "source": "SPDR Gold Shares",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
@@ -173,27 +147,28 @@
       "relatedLinks": [],
       "storyline": null,
       "concepts": [
-        "ai"
+        "ai",
+        "ipo"
       ]
     },
     {
-      "id": "yahoo-finance-news-20b16ee2",
-      "title": "Dow Jones Futures: Nasdaq Set To Reclaim Key Level; Apple, SpaceX, Sandisk, Robinhood In Focus",
+      "id": "yahoo-finance-news-dfbc46d8",
+      "title": "Stock Market Today: Dow Falls, Tech Futures Rally; Memory Names Micron, Sandisk Bounce Higher (Live Coverage)",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
           "source": "Yahoo Finance",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-spacex-sandisk-robinhood/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-07-06T11:32:19.000Z",
-          "fetchedAt": "2026-07-06T12:00:30.975Z"
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-mu-stock-sandisk-sndk-stock/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-07-06T12:57:35.000Z",
+          "fetchedAt": "2026-07-06T13:30:53.949Z"
         }
       ],
       "freshnessStatus": "LIVE",
       "confidence": "Medium",
-      "summary": "Dow Jones Futures: Nasdaq Set To Reclaim Key Level; Apple, SpaceX, Sandisk, Robinhood In Focus. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "Dow Jones Futures: Nasdaq Set To Reclaim Key Level; Apple, SpaceX, Sandisk, Robinhood In Focus. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+      "summary": "Stock Market Today: Dow Falls, Tech Futures Rally; Memory Names Micron, Sandisk Bounce Higher (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "whatHappened": "Stock Market Today: Dow Falls, Tech Futures Rally; Memory Names Micron, Sandisk Bounce Higher (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
       "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
       "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -208,7 +183,7 @@
         "sourceTrail": [
           {
             "source": "Yahoo Finance",
-            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-spacex-sandisk-robinhood/?src=A00220&yptr=yahoo"
+            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-mu-stock-sandisk-sndk-stock/?src=A00220&yptr=yahoo"
           }
         ]
       },
@@ -223,7 +198,7 @@
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Dow Jones Futures: Nasdaq Set To Reclaim Key Level; Apple, SpaceX, Sandisk, Robinhood In Focus. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Stock Market Today: Dow Falls, Tech Futures Rally; Memory Names Micron, Sandisk Bounce Higher (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
           },
           {
             "id": "mechanism",
@@ -249,95 +224,69 @@
       },
       "visual": {
         "type": "bar-chart",
-        "title": "Semiconductor rebound board",
-        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
-        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
+        "title": "Cross-asset reaction board",
+        "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
+        "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
         "allowedPages": [
           "markets",
           "deep-dive"
         ],
-        "axisTitle": "Latest daily change",
+        "axisTitle": "3-month change",
         "visualSource": "Public market data",
         "items": [
           {
-            "id": "NVDA",
-            "label": "Nvidia",
-            "value": -1.3918412665829665,
-            "displayValue": -1.3918412665829665,
+            "id": "SPY",
+            "label": "SPDR S&P 500 ETF Trust",
+            "value": 13.714658024627663,
+            "displayValue": 13.714658024627663,
             "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
-            "id": "SOXX",
-            "label": "iShares Semiconductor ETF",
-            "value": -5.566117092438693,
-            "displayValue": -5.566117092438693,
+            "id": "QQQ",
+            "label": "Invesco QQQ Trust",
+            "value": 22.46219242844626,
+            "displayValue": 22.46219242844626,
             "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
-            "id": "AVGO",
-            "label": "Broadcom",
-            "value": -2.4069919908501802,
-            "displayValue": -2.4069919908501802,
+            "id": "IWM",
+            "label": "iShares Russell 2000 ETF",
+            "value": 18.279437911101045,
+            "displayValue": 18.279437911101045,
             "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
-            "id": "MU",
-            "label": "Micron Technology",
-            "value": -5.494636157682466,
-            "displayValue": -5.494636157682466,
+            "id": "GLD",
+            "label": "SPDR Gold Shares",
+            "value": -11.10721400162061,
+            "displayValue": -11.10721400162061,
             "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
-          },
-          {
-            "id": "MRVL",
-            "label": "Marvell Technology",
-            "value": -9.83642554955761,
-            "displayValue": -9.83642554955761,
-            "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
-          },
-          {
-            "id": "INTC",
-            "label": "Intel",
-            "value": -5.251140249742249,
-            "displayValue": -5.251140249742249,
-            "suffix": "%",
-            "latestDate": "2026-07-02",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],
         "sourceTrail": [
           {
-            "source": "Nvidia",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+            "source": "SPDR S&P 500 ETF Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
-            "source": "iShares Semiconductor ETF",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+            "source": "Invesco QQQ Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
-            "source": "Broadcom",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+            "source": "iShares Russell 2000 ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
-            "source": "Micron Technology",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
-          },
-          {
-            "source": "Marvell Technology",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
-          },
-          {
-            "source": "Intel",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+            "source": "SPDR Gold Shares",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
