@@ -1,7 +1,7 @@
 {
   "runDate": "2026-07-06",
-  "fetchedAt": "2026-07-07T03:06:57.360Z",
-  "sourceCount": 160,
+  "fetchedAt": "2026-07-07T03:57:59.798Z",
+  "sourceCount": 156,
   "failures": [],
   "items": [
     {
@@ -11,7 +11,7 @@
       "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
       "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-1st",
       "publishedAt": "2026-06-25T12:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.087Z",
+      "fetchedAt": "2026-07-07T03:57:57.468Z",
       "summary": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026."
@@ -30,7 +30,7 @@
       "title": "Personal Income and Outlays, May 2026",
       "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
       "publishedAt": "2026-06-25T12:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.087Z",
+      "fetchedAt": "2026-07-07T03:57:57.468Z",
       "summary": "Personal Income and Outlays, May 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Personal Income and Outlays, May 2026."
@@ -49,7 +49,7 @@
       "title": "U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update",
       "url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-1st-quarter-2026-and-annual-update",
       "publishedAt": "2026-06-24T12:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.087Z",
+      "fetchedAt": "2026-07-07T03:57:57.468Z",
       "summary": "U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update."
@@ -68,7 +68,7 @@
       "title": "U.S. International Trade in Goods and Services, April 2026",
       "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-april-2026",
       "publishedAt": "2026-06-09T12:31:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.087Z",
+      "fetchedAt": "2026-07-07T03:57:57.468Z",
       "summary": "U.S. International Trade in Goods and Services, April 2026. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: U.S. International Trade in Goods and Services, April 2026."
@@ -87,7 +87,7 @@
       "title": "U.S. International Trade in Goods and Services, Annual Revision",
       "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-annual-revision",
       "publishedAt": "2026-06-09T12:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.087Z",
+      "fetchedAt": "2026-07-07T03:57:57.468Z",
       "summary": "U.S. International Trade in Goods and Services, Annual Revision. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: U.S. International Trade in Goods and Services, Annual Revision."
@@ -106,7 +106,7 @@
       "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
       "url": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024",
       "publishedAt": "2026-02-19T13:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.087Z",
+      "fetchedAt": "2026-07-07T03:57:57.468Z",
       "summary": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024."
@@ -125,7 +125,7 @@
       "title": "Gross Domestic Product by County and Personal Income by County, 2024",
       "url": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024",
       "publishedAt": "2026-02-05T13:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.087Z",
+      "fetchedAt": "2026-07-07T03:57:57.468Z",
       "summary": "Gross Domestic Product by County and Personal Income by County, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Gross Domestic Product by County and Personal Income by County, 2024."
@@ -144,7 +144,7 @@
       "title": "Direct Investment by Country and Industry, 2024",
       "url": "https://www.bea.gov/news/2025/direct-investment-country-and-industry-2024",
       "publishedAt": "2025-07-22T12:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.087Z",
+      "fetchedAt": "2026-07-07T03:57:57.468Z",
       "summary": "Direct Investment by Country and Industry, 2024. BEA official economic release with potential macro, rate, valuation, and sector implications.",
       "facts": [
         "BEA official release: Direct Investment by Country and Industry, 2024."
@@ -163,7 +163,7 @@
       "title": "Consumer Price Index Summary",
       "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
       "publishedAt": "2026-06-10T12:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.333Z",
+      "fetchedAt": "2026-07-07T03:57:57.833Z",
       "summary": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.",
       "facts": [
         "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.",
@@ -188,7 +188,7 @@
       "title": "Producer Price Index News Release summary",
       "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
       "publishedAt": "2026-06-11T12:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.519Z",
+      "fetchedAt": "2026-07-07T03:57:58.045Z",
       "summary": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022. Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.",
       "facts": [
         "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.",
@@ -213,7 +213,7 @@
       "title": "Employment Situation Summary",
       "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
       "publishedAt": "2026-07-02T12:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.549Z",
+      "fetchedAt": "2026-07-07T03:57:58.097Z",
       "summary": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June. (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent). (See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.",
       "facts": [
         "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today.",
@@ -238,7 +238,7 @@
       "title": "SEC Names Paul Knight as Chief Operating Officer",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-62-sec-names-paul-knight-chief-operating-officer",
       "publishedAt": "2026-07-06T19:10:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today announced that Paul Knight has been named as the agency’s Chief Operating Officer (COO).As COO, Mr. Knight will oversee the SEC's operational and administrative functions, including the agency's Office of…",
       "facts": [
         "The Securities and Exchange Commission today announced that Paul Knight has been named as the agency’s Chief Operating Officer (COO).As COO, Mr. Knight will oversee the SEC's operational and administrative functions, including the agency's Office of…"
@@ -256,7 +256,7 @@
       "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-61-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
       "publishedAt": "2026-07-01T12:47:58.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission’s Division of Economic and Risk Analysis (DERA) published updated statistics and data visualizations covering key segments of the U.S. capital markets, including three new asset-backed securities (ABS) issuance data…",
       "facts": [
         "The Securities and Exchange Commission’s Division of Economic and Risk Analysis (DERA) published updated statistics and data visualizations covering key segments of the U.S. capital markets, including three new asset-backed securities (ABS) issuance data…"
@@ -274,7 +274,7 @@
       "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds",
       "publishedAt": "2026-06-30T14:15:05.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today issued a request for public comment on exchange-traded funds (ETFs) seeking to invest in innovative asset classes or engage in novel investment strategies. The request focuses on ways to facilitate innovation…",
       "facts": [
         "The Securities and Exchange Commission today issued a request for public comment on exchange-traded funds (ETFs) seeking to invest in innovative asset classes or engage in novel investment strategies. The request focuses on ways to facilitate innovation…"
@@ -292,7 +292,7 @@
       "title": "SEC, CFTC Seek Public Comment on the Harmonization of Portfolio Margining Frameworks",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-public-comment-harmonization-portfolio-margining-frameworks",
       "publishedAt": "2026-06-26T12:58:32.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential approaches to further harmonize regulatory frameworks applicable to portfolio margining across securities,…",
       "facts": [
         "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential approaches to further harmonize regulatory frameworks applicable to portfolio margining across securities,…"
@@ -310,7 +310,7 @@
       "title": "SEC Appoints Kathleen Hutchinson as Director of Office of International Affairs",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-58-sec-appoints-kathleen-hutchinson-director-office-international-affairs",
       "publishedAt": "2026-06-24T18:32:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission has appointed Kathleen M. Hutchinson as Director of the agency’s Office of International Affairs (OIA). OIA advises the Commission on international policy matters, coordinates with foreign authorities across the…",
       "facts": [
         "The Securities and Exchange Commission has appointed Kathleen M. Hutchinson as Director of the agency’s Office of International Affairs (OIA). OIA advises the Commission on international policy matters, coordinates with foreign authorities across the…"
@@ -328,7 +328,7 @@
       "title": "SEC, CFTC Seek Public Comment to Further Clarify and Harmonize Derivatives Product Definitions",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-57-sec-cftc-seek-public-comment-further-clarify-harmonize-derivatives-product-definitions",
       "publishedAt": "2026-06-18T18:42:47.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential opportunities to further update, clarify, and harmonize certain derivatives product definitions and…",
       "facts": [
         "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential opportunities to further update, clarify, and harmonize certain derivatives product definitions and…"
@@ -346,7 +346,7 @@
       "title": "SEC, CFTC Seek Public Input on Data Reporting Frameworks for Security-Based Swap and Swap Markets",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-56-sec-cftc-seek-public-input-data-reporting-frameworks-security-based-swap-swap-markets",
       "publishedAt": "2026-06-18T18:17:55.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission and Commodity Futures Trading Commission today issued a joint request for public comment on potential opportunities to harmonize, modernize, and streamline data reporting requirements in their regulation of the…",
       "facts": [
         "The Securities and Exchange Commission and Commodity Futures Trading Commission today issued a joint request for public comment on potential opportunities to harmonize, modernize, and streamline data reporting requirements in their regulation of the…"
@@ -364,7 +364,7 @@
       "title": "SEC Appoints John Moses as Director of the Office of Investor Education and Assistance",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-55-sec-appoints-john-moses-director-office-investor-education-assistance",
       "publishedAt": "2026-06-12T16:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission has appointed John Moses as Director of the agency’s Office of Investor Education and Assistance, which provides services and resources to help investors build their financial futures and protect against investment…",
       "facts": [
         "The Securities and Exchange Commission has appointed John Moses as Director of the agency’s Office of Investor Education and Assistance, which provides services and resources to help investors build their financial futures and protect against investment…"
@@ -382,7 +382,7 @@
       "title": "SEC Proposes Rescission of Regulation NMS Rules 611 and 610(e)",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-54-sec-proposes-rescission-regulation-nms-rules-611-610e",
       "publishedAt": "2026-06-11T14:55:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today proposed amendments to rescind Rules 611 and 610(e) of Regulation NMS.“After two decades of Rule 611, it is high time that the Commission review its unintended consequences that have hindered — rather than…",
       "facts": [
         "The Securities and Exchange Commission today proposed amendments to rescind Rules 611 and 610(e) of Regulation NMS.“After two decades of Rule 611, it is high time that the Commission review its unintended consequences that have hindered — rather than…"
@@ -400,7 +400,7 @@
       "title": "SEC Establishes Joint Data Standards as Required Under the Financial Data Transparency Act of 2022",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022",
       "publishedAt": "2026-06-08T14:36:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The U.S. Securities and Exchange Commission established joint data standards under the Financial Data Transparency Act of 2022. The final rule establishes technical standards for data submitted to certain financial regulatory agencies. Eight additional…",
       "facts": [
         "The U.S. Securities and Exchange Commission established joint data standards under the Financial Data Transparency Act of 2022. The final rule establishes technical standards for data submitted to certain financial regulatory agencies. Eight additional…"
@@ -418,10 +418,10 @@
       "title": "SEC Announces New Members of Small Business Capital Formation Advisory Committee",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-52-sec-announces-new-members-small-business-capital-formation-advisory-committee",
       "publishedAt": "2026-06-04T18:39:49.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
-      "summary": "The Securities and Exchange Commission today announced five new members of the&nbsp;Small Business Capital Formation Advisory Committee. The new members were appointed to four-year terms&nbsp;and&nbsp;will join&nbsp;the&nbsp;15&nbsp;current&nbsp;…",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
+      "summary": "The Securities and Exchange Commission today announced five new members of the Small Business Capital Formation Advisory Committee. The new members were appointed to four-year terms and will join the 15 current …",
       "facts": [
-        "The Securities and Exchange Commission today announced five new members of the&nbsp;Small Business Capital Formation Advisory Committee. The new members were appointed to four-year terms&nbsp;and&nbsp;will join&nbsp;the&nbsp;15&nbsp;current&nbsp;…"
+        "The Securities and Exchange Commission today announced five new members of the Small Business Capital Formation Advisory Committee. The new members were appointed to four-year terms and will join the 15 current …"
       ],
       "tickers": [],
       "topics": [
@@ -436,10 +436,10 @@
       "title": "SEC Publishes Draft Strategic Plan for Public Comment",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-51-sec-publishes-draft-strategic-plan-public-comment",
       "publishedAt": "2026-06-02T14:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
-      "summary": "The Securities and Exchange Commission today published a&nbsp;Draft Strategic Plan&nbsp;that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient…",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
+      "summary": "The Securities and Exchange Commission today published a Draft Strategic Plan that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient…",
       "facts": [
-        "The Securities and Exchange Commission today published a&nbsp;Draft Strategic Plan&nbsp;that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient…"
+        "The Securities and Exchange Commission today published a Draft Strategic Plan that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient…"
       ],
       "tickers": [],
       "topics": [
@@ -454,10 +454,10 @@
       "title": "SEC Announces Four New Members of Investor Advisory Committee",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-50-sec-announces-four-new-members-investor-advisory-committee",
       "publishedAt": "2026-06-01T16:39:44.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
-      "summary": "The Securities and Exchange Commission today announced&nbsp;four&nbsp;new members to fill vacancies on its Investor Advisory Committee.&nbsp;Three of the four new members&nbsp;will serve four-year terms,&nbsp;while the fourth new member will serve as the…",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
+      "summary": "The Securities and Exchange Commission today announced four new members to fill vacancies on its Investor Advisory Committee. Three of the four new members will serve four-year terms, while the fourth new member will serve as the…",
       "facts": [
-        "The Securities and Exchange Commission today announced&nbsp;four&nbsp;new members to fill vacancies on its Investor Advisory Committee.&nbsp;Three of the four new members&nbsp;will serve four-year terms,&nbsp;while the fourth new member will serve as the…"
+        "The Securities and Exchange Commission today announced four new members to fill vacancies on its Investor Advisory Committee. Three of the four new members will serve four-year terms, while the fourth new member will serve as the…"
       ],
       "tickers": [],
       "topics": [
@@ -472,7 +472,7 @@
       "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules",
       "publishedAt": "2026-05-29T14:50:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today proposed the rescission of overly burdensome and costly rules that require companies to provide certain climate-related information in their registration statements and annual reports. The Commission’s…",
       "facts": [
         "The Securities and Exchange Commission today proposed the rescission of overly burdensome and costly rules that require companies to provide certain climate-related information in their registration statements and annual reports. The Commission’s…"
@@ -490,10 +490,10 @@
       "title": "SEC Investor Advisory Committee to Host June 4 Meeting",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting",
       "publishedAt": "2026-05-27T14:59:13.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
-      "summary": "The Securities and Exchange Commission’s&nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
+      "summary": "The Securities and Exchange Commission’s Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…",
       "facts": [
-        "The Securities and Exchange Commission’s&nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…"
+        "The Securities and Exchange Commission’s Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…"
       ],
       "tickers": [],
       "topics": [
@@ -508,7 +508,7 @@
       "title": "SEC and NFA Announce Memorandum of Understanding to Further Harmonize Regulatory Coordination",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-47-sec-nfa-announce-memorandum-understanding-further-harmonize-regulatory-coordination",
       "publishedAt": "2026-05-21T12:51:10.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission and National Futures Association (NFA) today announced that they have entered into a Memorandum of Understanding (MOU) to enhance their cooperation, coordination, and information sharing in areas of common…",
       "facts": [
         "The Securities and Exchange Commission and National Futures Association (NFA) today announced that they have entered into a Memorandum of Understanding (MOU) to enhance their cooperation, coordination, and information sharing in areas of common…"
@@ -526,7 +526,7 @@
       "title": "SEC Proposes Transformative Reforms to Help Public Companies Conduct Registered Offerings and Simplify Reporting Requirements",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-46-sec-proposes-transformative-reforms-help-public-companies-conduct-registered-offerings-simplify",
       "publishedAt": "2026-05-19T14:55:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today proposed amendments to its rules and forms governing registered offerings that are designed to increase efficiency, flexibility, and cost savings for public companies while maintaining robust investor…",
       "facts": [
         "The Securities and Exchange Commission today proposed amendments to its rules and forms governing registered offerings that are designed to increase efficiency, flexibility, and cost savings for public companies while maintaining robust investor…"
@@ -544,7 +544,7 @@
       "title": "SEC Rescinds Policy Regarding Denials of Settlements in Enforcement Actions",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-45-sec-rescinds-policy-regarding-denials-settlements-enforcement-actions",
       "publishedAt": "2026-05-18T16:33:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today rescinded a policy, codified in Rule 202.5(e) of its informal rules of procedures, stating that when it chooses to settle an enforcement action in which a sanction is imposed, it will not settle unless the…",
       "facts": [
         "The Securities and Exchange Commission today rescinded a policy, codified in Rule 202.5(e) of its informal rules of procedures, stating that when it chooses to settle an enforcement action in which a sanction is imposed, it will not settle unless the…"
@@ -562,7 +562,7 @@
       "title": "SEC Charges 21 Individuals With Alleged Wide-Reaching Insider Trading Scheme",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-44-sec-charges-21-individuals-alleged-wide-reaching-insider-trading-scheme",
       "publishedAt": "2026-05-06T23:24:19.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today charged 21 individuals for their alleged involvement in a decade-long insider trading scheme that used information misappropriated from multiple global law firms and resulted in millions of dollars in illicit…",
       "facts": [
         "The Securities and Exchange Commission today charged 21 individuals for their alleged involvement in a decade-long insider trading scheme that used information misappropriated from multiple global law firms and resulted in millions of dollars in illicit…"
@@ -580,7 +580,7 @@
       "title": "SEC Divisions of Investment Management and Corporation Finance Issue Staff Guidance Supporting Retirement Plans for Small Businesses",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-43-sec-divisions-investment-management-corporation-finance-issue-staff-guidance-supporting-retirement",
       "publishedAt": "2026-05-05T20:23:55.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "Staff in the Securities and Exchange Commission’s Divisions of Investment Management and Corporation Finance issued guidance addressing certain questions regarding the application of the federal securities laws to pooled employer plans (PEPs), which help…",
       "facts": [
         "Staff in the Securities and Exchange Commission’s Divisions of Investment Management and Corporation Finance issued guidance addressing certain questions regarding the application of the federal securities laws to pooled employer plans (PEPs), which help…"
@@ -598,7 +598,7 @@
       "title": "SEC Proposes Amendments to Permit Optional Semiannual Reporting by Public Companies",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-42-sec-proposes-amendments-permit-optional-semiannual-reporting-public-companies",
       "publishedAt": "2026-05-05T15:54:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today proposed rule and form amendments that would give public companies the option of filing semiannual reports in lieu of quarterly reports to meet their interim reporting obligations under the federal securities…",
       "facts": [
         "The Securities and Exchange Commission today proposed rule and form amendments that would give public companies the option of filing semiannual reports in lieu of quarterly reports to meet their interim reporting obligations under the federal securities…"
@@ -616,7 +616,7 @@
       "title": "Deputy Director of Enforcement Jason Burt to Conclude His Tenure at the SEC",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-41-deputy-director-enforcement-jason-burt-conclude-his-tenure-sec",
       "publishedAt": "2026-04-30T20:30:36.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today announced that Jason Burt, Deputy Director of the Division of Enforcement (Specialized Units), will depart the agency on May 1, 2026, after more than 22 years of public service.“Jason’s exceptional leadership…",
       "facts": [
         "The Securities and Exchange Commission today announced that Jason Burt, Deputy Director of the Division of Enforcement (Specialized Units), will depart the agency on May 1, 2026, after more than 22 years of public service.“Jason’s exceptional leadership…"
@@ -634,7 +634,7 @@
       "title": "SEC and CFTC Jointly Propose Amendments to Reduce Private Fund Reporting Burdens",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-40-sec-cftc-jointly-propose-amendments-reduce-private-fund-reporting-burdens",
       "publishedAt": "2026-04-20T14:45:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission (SEC) and the Commodity Futures Trading Commission (CFTC) jointly proposed amendments to reduce private fund reporting burdens while enabling the continued collection of necessary and appropriate information. The…",
       "facts": [
         "The Securities and Exchange Commission (SEC) and the Commodity Futures Trading Commission (CFTC) jointly proposed amendments to reduce private fund reporting burdens while enabling the continued collection of necessary and appropriate information. The…"
@@ -652,7 +652,7 @@
       "title": "Chairman Atkins Launches 'Material Matters' Podcast",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-39-chairman-atkins-launches-material-matters-podcast",
       "publishedAt": "2026-04-16T17:02:47.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission today announced the launch of Material Matters With SEC Chairman Paul Atkins, a new podcast that provides stakeholders and the investing public with exclusive interviews and insights around the agency’s policy and…",
       "facts": [
         "The Securities and Exchange Commission today announced the launch of Material Matters With SEC Chairman Paul Atkins, a new podcast that provides stakeholders and the investing public with exclusive interviews and insights around the agency’s policy and…"
@@ -670,7 +670,7 @@
       "title": "SEC Small Business Advisory Committee to Explore Ways to Encourage More IPOs",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-38-sec-small-business-advisory-committee-explore-ways-encourage-more-ipos",
       "publishedAt": "2026-04-16T15:45:04.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.582Z",
+      "fetchedAt": "2026-07-07T03:57:58.131Z",
       "summary": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, April 28, 2026 at 10:00 a.m. to explore ways to encourage more companies to go public.The meeting will be open…",
       "facts": [
         "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, April 28, 2026 at 10:00 a.m. to explore ways to encourage more companies to go public.The meeting will be open…"
@@ -682,101 +682,13 @@
       "feedId": "sec-current-events"
     },
     {
-      "id": "yahoo-finance-news-4bb05366",
+      "id": "yahoo-finance-news-4780b36e",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
-      "url": "https://finance.yahoo.com/energy/articles/prediction-energy-stock-lot-richer-153500683.html",
-      "publishedAt": "2026-07-05T15:35:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "Prediction: This Energy Stock Will Make You a Lot Richer by 2029. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "Prediction: This Energy Stock Will Make You a Lot Richer by 2029. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "yahoo-finance-news-28095eeb",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Sentiment Could Be Turning Sour on Nvidia. Here’s Where 1 Analyst Thinks NVDA Stock Is Headed Next.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sentiment-could-turning-sour-nvidia-153002046.html",
-      "publishedAt": "2026-07-05T15:30:02.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "Sentiment Could Be Turning Sour on Nvidia. Here’s Where 1 Analyst Thinks NVDA Stock Is Headed Next.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "Sentiment Could Be Turning Sour on Nvidia. Here’s Where 1 Analyst Thinks NVDA Stock Is Headed Next.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "yahoo-finance-news-8ee5a42b",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "The S&P 500’s Best Quarter Since 2020 Produced Big Winners And Losers. Here’s Where to Look Now for Q3 Profits.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-best-quarter-since-150002142.html",
-      "publishedAt": "2026-07-05T15:00:02.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "The S&P 500’s Best Quarter Since 2020 Produced Big Winners And Losers. Here’s Where to Look Now for Q3 Profits.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "The S&P 500’s Best Quarter Since 2020 Produced Big Winners And Losers. Here’s Where to Look Now for Q3 Profits.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "yahoo-finance-news-3d67999f",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Dear Netflix Stock Fans, Mark Your Calendars for July 16",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-netflix-stock-fans-mark-150002883.html",
-      "publishedAt": "2026-07-05T15:00:02.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "Dear Netflix Stock Fans, Mark Your Calendars for July 16. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "Dear Netflix Stock Fans, Mark Your Calendars for July 16. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "yahoo-finance-news-6d68aff8",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Investors with $5M+ are done being landlords — and one passive strategy pays 10% to 12% 'easy money'",
-      "url": "https://finance.yahoo.com/real-estate/articles/investors-5m-done-being-landlords-163000068.html",
-      "publishedAt": "2026-07-05T16:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "title": "Why Strategy, Inc. Plunged in June",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/why-strategy-inc-plunged-june-162500391.html",
+      "publishedAt": "2026-07-05T16:25:00.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -787,13 +699,13 @@
       "feedId": "yahoo-finance-news"
     },
     {
-      "id": "yahoo-finance-news-c718d9e3",
+      "id": "yahoo-finance-news-6d68aff8",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "Shaq Spent $70K At Walmart One Night, But His Amex Got Declined Assuming It Was Stolen — ‘I Ain’t Got No Towels. I Ain’t Got No Pots And Pans’",
-      "url": "https://finance.yahoo.com/small-business/articles/shaq-spent-70k-walmart-one-153126263.html",
-      "publishedAt": "2026-07-05T15:31:26.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "title": "Investors with $5M+ are done being landlords — and one passive strategy pays 10% to 12% 'easy money'",
+      "url": "https://finance.yahoo.com/real-estate/articles/investors-5m-done-being-landlords-163000068.html",
+      "publishedAt": "2026-07-05T16:30:00.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -810,7 +722,7 @@
       "title": "Tech Rotation, FOMC and Other Key Things to Watch this Week",
       "url": "https://finance.yahoo.com/markets/articles/tech-rotation-fomc-other-key-170002288.html",
       "publishedAt": "2026-07-05T17:00:02.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -827,7 +739,7 @@
       "title": "Here’s How Arista Networks Is a Major Beneficiary of Big Tech’s Push to Break Nvidia’s Grip",
       "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-major-beneficiary-big-170002174.html",
       "publishedAt": "2026-07-05T17:00:02.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Here’s How Arista Networks Is a Major Beneficiary of Big Tech’s Push to Break Nvidia’s Grip. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Here’s How Arista Networks Is a Major Beneficiary of Big Tech’s Push to Break Nvidia’s Grip. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -849,7 +761,24 @@
       "title": "A bigger tax hit to save in interest — why raiding your 401(k) to pay off credit cards can backfire badly",
       "url": "https://finance.yahoo.com/markets/articles/bigger-tax-hit-save-interest-173000406.html",
       "publishedAt": "2026-07-05T17:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news"
+    },
+    {
+      "id": "yahoo-finance-news-94181ca7",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "The Backdoor Roth 401(k) Loophole: How High Earners Add $8,600 Tax-Free in 2026",
+      "url": "https://finance.yahoo.com/markets/options/articles/backdoor-roth-401-k-loophole-162259386.html",
+      "publishedAt": "2026-07-05T16:22:59.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -866,32 +795,10 @@
       "title": "Mark Zuckerberg Doubles Down on Raw Computing Power to Challenge AWS and Microsoft. What That Means for META Stock.",
       "url": "https://finance.yahoo.com/technology/articles/mark-zuckerberg-doubles-down-raw-183002829.html",
       "publishedAt": "2026-07-05T18:30:02.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Mark Zuckerberg Doubles Down on Raw Computing Power to Challenge AWS and Microsoft. What That Means for META Stock.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Mark Zuckerberg Doubles Down on Raw Computing Power to Challenge AWS and Microsoft. What That Means for META Stock.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "yahoo-finance-news-e6579d23",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "$4.1 Billion Deal Shows Why Ferrari and Tesla Are Ditching Copper for a Substitute",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/4-1-billion-deal-shows-153132628.html",
-      "publishedAt": "2026-07-05T15:31:32.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "$4.1 Billion Deal Shows Why Ferrari and Tesla Are Ditching Copper for a Substitute. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "$4.1 Billion Deal Shows Why Ferrari and Tesla Are Ditching Copper for a Substitute. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -910,7 +817,7 @@
       "title": "The Era of Cheap U.S. Natural Gas May Be Coming to an End",
       "url": "https://finance.yahoo.com/energy/articles/era-cheap-u-natural-gas-190000577.html",
       "publishedAt": "2026-07-05T19:00:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -927,7 +834,7 @@
       "title": "Cathie Wood Sees Value in This Beaten-Down Growth Stock. I Do Too.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-sees-value-beaten-193002564.html",
       "publishedAt": "2026-07-05T19:30:02.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Cathie Wood Sees Value in This Beaten-Down Growth Stock. I Do Too.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Cathie Wood Sees Value in This Beaten-Down Growth Stock. I Do Too.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -949,7 +856,7 @@
       "title": "Kosmos Energy (KOS) Completes Sale of Equatorial Guinea Interests to Panoro Energy",
       "url": "https://finance.yahoo.com/energy/articles/kosmos-energy-kos-completes-sale-200554093.html",
       "publishedAt": "2026-07-05T20:05:54.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -960,33 +867,16 @@
       "feedId": "yahoo-finance-news"
     },
     {
-      "id": "yahoo-finance-news-493a950d",
+      "id": "yahoo-finance-news-7e56e11e",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "Clarivate (CLVT) Launches IPOne AI-Powered Intelligence Platform for IP Workflows",
-      "url": "https://finance.yahoo.com/technology/ai/articles/clarivate-clvt-launches-ipone-ai-200603192.html",
-      "publishedAt": "2026-07-05T20:06:03.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news"
-    },
-    {
-      "id": "yahoo-finance-news-204cbe16",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "What the Buffett Market Valuation Indicator at Record Highs Means for Investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buffett-market-valuation-indicator-record-153100382.html",
-      "publishedAt": "2026-07-05T15:31:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "What the Buffett Market Valuation Indicator at Record Highs Means for Investors. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "title": "Here's the 1 Crypto I'd Buy If I Could Pick Only 1",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/heres-1-crypto-id-buy-161900759.html",
+      "publishedAt": "2026-07-05T16:19:00.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "Here's the 1 Crypto I'd Buy If I Could Pick Only 1. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
-        "What the Buffett Market Valuation Indicator at Record Highs Means for Investors. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+        "Here's the 1 Crypto I'd Buy If I Could Pick Only 1. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -999,13 +889,30 @@
       "evidenceStrength": "thin_internal"
     },
     {
+      "id": "yahoo-finance-news-493a950d",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Clarivate (CLVT) Launches IPOne AI-Powered Intelligence Platform for IP Workflows",
+      "url": "https://finance.yahoo.com/technology/ai/articles/clarivate-clvt-launches-ipone-ai-200603192.html",
+      "publishedAt": "2026-07-05T20:06:03.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news"
+    },
+    {
       "id": "yahoo-finance-news-4ed5a527",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
       "title": "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?",
       "url": "https://finance.yahoo.com/technology/ai/articles/n-able-nabl-one-best-200617423.html",
       "publishedAt": "2026-07-05T20:06:17.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1027,7 +934,7 @@
       "title": "Here is Why Yext (YEXT) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-yext-yext-one-best-200624657.html",
       "publishedAt": "2026-07-05T20:06:24.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Here is Why Yext (YEXT) is One of the Best Value Penny Stocks to Buy According to Hedge Funds. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Here is Why Yext (YEXT) is One of the Best Value Penny Stocks to Buy According to Hedge Funds. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1049,10 +956,32 @@
       "title": "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds",
       "url": "https://finance.yahoo.com/markets/stocks/articles/galiano-gold-gau-best-value-200634573.html",
       "publishedAt": "2026-07-05T20:06:34.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
+      "id": "yahoo-finance-news-b5676772",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "The AI Supercycle Needs More Than Just Chips. This Growth Stock Builds the Network That Connects Them.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ai-supercycle-needs-more-just-162000663.html",
+      "publishedAt": "2026-07-05T16:20:00.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "The AI Supercycle Needs More Than Just Chips. This Growth Stock Builds the Network That Connects Them.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "The AI Supercycle Needs More Than Just Chips. This Growth Stock Builds the Network That Connects Them.. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -1071,32 +1000,10 @@
       "title": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
       "url": "https://finance.yahoo.com/markets/stocks/articles/petco-woof-one-best-value-200644831.html",
       "publishedAt": "2026-07-05T20:06:44.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "yahoo-finance-news-b979eaf9",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "A Dividend Portfolio That Out-Earns the Average California Family",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dividend-portfolio-earns-average-california-153056845.html",
-      "publishedAt": "2026-07-05T15:30:56.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "A Dividend Portfolio That Out-Earns the Average California Family. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "A Dividend Portfolio That Out-Earns the Average California Family. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -1115,7 +1022,7 @@
       "title": "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management",
       "url": "https://finance.yahoo.com/markets/stocks/articles/repay-holdings-rpay-receives-unsolicited-200653568.html",
       "publishedAt": "2026-07-05T20:06:53.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1137,7 +1044,7 @@
       "title": "Integra Resources (ITGR) Appoints Ausenco to Lead Detailed Engineering for DeLamar Project",
       "url": "https://finance.yahoo.com/markets/stocks/articles/integra-resources-itgr-appoints-ausenco-200701299.html",
       "publishedAt": "2026-07-05T20:07:01.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Integra Resources (ITGR) Appoints Ausenco to Lead Detailed Engineering for DeLamar Project. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Integra Resources (ITGR) Appoints Ausenco to Lead Detailed Engineering for DeLamar Project. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1159,7 +1066,7 @@
       "title": "Wipro (WIT) Completes Data Center Migration for METRO AG",
       "url": "https://finance.yahoo.com/technology/ai/articles/wipro-wit-completes-data-center-200725808.html",
       "publishedAt": "2026-07-05T20:07:25.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1170,13 +1077,206 @@
       "feedId": "yahoo-finance-news"
     },
     {
+      "id": "yahoo-finance-news-e6871fbd",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Starbucks vs Chipotle: Two Restaurant Titans, Two Playbooks, Only One Winner",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-vs-chipotle-two-restaurant-163013348.html",
+      "publishedAt": "2026-07-05T16:30:13.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "Starbucks vs Chipotle: Two Restaurant Titans, Two Playbooks, Only One Winner. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "Starbucks vs Chipotle: Two Restaurant Titans, Two Playbooks, Only One Winner. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
+      "id": "yahoo-finance-news-494200fa",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "LG Display (LPL) Earns ASPICE Level 2 Certification for Automotive Displays",
+      "url": "https://finance.yahoo.com/technology/articles/lg-display-lpl-earns-aspice-200745096.html",
+      "publishedAt": "2026-07-05T20:07:45.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news"
+    },
+    {
+      "id": "yahoo-finance-news-2e24c31d",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Five Energy Stocks Riding Texas's Data Center Power Boom",
+      "url": "https://finance.yahoo.com/energy/articles/five-energy-stocks-riding-texass-210000847.html",
+      "publishedAt": "2026-07-05T21:00:00.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "Five Energy Stocks Riding Texas's Data Center Power Boom. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "Five Energy Stocks Riding Texas's Data Center Power Boom. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
+      "id": "yahoo-finance-news-d6d840c3",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "With Ambitious Growth Plans, SpaceX Stock Is Likely to Surge Higher",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ambitious-growth-plans-spacex-stock-213225932.html",
+      "publishedAt": "2026-07-05T21:32:25.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "With Ambitious Growth Plans, SpaceX Stock Is Likely to Surge Higher. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "With Ambitious Growth Plans, SpaceX Stock Is Likely to Surge Higher. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
+      "id": "yahoo-finance-news-92f470a3",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Here’s What Analysts Say About Petco Health and Wellness (WOOF)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-petco-health-wellness-woof-220640214.html",
+      "publishedAt": "2026-07-05T22:06:40.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "Here’s What Analysts Say About Petco Health and Wellness (WOOF). The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "Here’s What Analysts Say About Petco Health and Wellness (WOOF). The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
+      "id": "yahoo-finance-news-77d459e9",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Forget Micron? This New AI Memory Stock Could Be the Best Buy of the Decade",
+      "url": "https://finance.yahoo.com/technology/ai/articles/forget-micron-ai-memory-stock-161348158.html",
+      "publishedAt": "2026-07-05T16:13:48.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "Forget Micron? This New AI Memory Stock Could Be the Best Buy of the Decade. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "Forget Micron? This New AI Memory Stock Could Be the Best Buy of the Decade. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
+      "id": "yahoo-finance-news-99d045c0",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "Lithium Americas (LAC) Remains On Analysts’ Radar Amid Advancements At Thacker Pass Project",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lithium-americas-lac-remains-analysts-220714372.html",
+      "publishedAt": "2026-07-05T22:07:14.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "Lithium Americas (LAC) Remains On Analysts’ Radar Amid Advancements At Thacker Pass Project. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "Lithium Americas (LAC) Remains On Analysts’ Radar Amid Advancements At Thacker Pass Project. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
+      "id": "yahoo-finance-news-e52dbdf9",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "NIO (NIO) Reports June And Second-Quarter Delivery Results; Vehicles Delivery Up 62.9% YoY",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nio-nio-reports-june-second-220728616.html",
+      "publishedAt": "2026-07-05T22:07:28.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "NIO (NIO) Reports June And Second-Quarter Delivery Results; Vehicles Delivery Up 62.9% YoY. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "NIO (NIO) Reports June And Second-Quarter Delivery Results; Vehicles Delivery Up 62.9% YoY. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
+      "id": "yahoo-finance-news-3f709425",
+      "source": "Yahoo Finance",
+      "sourceType": "reputable",
+      "title": "What Does Tilray Brands (TLRY) Gain From The HelloMD Corporation Acquisition?",
+      "url": "https://finance.yahoo.com/healthcare/articles/does-tilray-brands-tlry-gain-220741121.html",
+      "publishedAt": "2026-07-05T22:07:41.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "What Does Tilray Brands (TLRY) Gain From The HelloMD Corporation Acquisition?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "What Does Tilray Brands (TLRY) Gain From The HelloMD Corporation Acquisition?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "yahoo-finance-news",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
       "id": "yahoo-finance-news-5a8edcf0",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
       "title": "Gold prices today, Monday, July 6: Higher prices following Thursday's jobs report",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-july-6-higher-prices-following-thursdays-jobs-report-121321784.html",
       "publishedAt": "2026-07-06T12:13:21.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Gold prices today, Monday, July 6: Higher prices following Thursday's jobs report. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Gold prices today, Monday, July 6: Higher prices following Thursday's jobs report. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1192,30 +1292,13 @@
       "evidenceStrength": "thin_internal"
     },
     {
-      "id": "yahoo-finance-news-7350e485",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Visa’s Open USD Push Puts Circle’s Stablecoin Moat Under Pressure",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/visa-open-usd-push-puts-154500970.html",
-      "publishedAt": "2026-07-05T15:45:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news"
-    },
-    {
       "id": "yahoo-finance-news-f197e37f",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
       "title": "Silver prices today, Monday, July 6, 2026: Silver prices find room to rise following June jobs report",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-july-6-2026-silver-prices-find-room-to-rise-following-june-jobs-report-124226919.html",
       "publishedAt": "2026-07-06T12:42:26.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1232,7 +1315,7 @@
       "title": "Best CD rates today, Monday, July 6, 2026: Lock in up to 4.2% APY",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-6-2026-lock-in-up-to-42-apy-100000383.html",
       "publishedAt": "2026-07-06T10:00:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Best CD rates today, Monday, July 6, 2026: Lock in up to 4.2% APY. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Best CD rates today, Monday, July 6, 2026: Lock in up to 4.2% APY. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1254,7 +1337,7 @@
       "title": "Bitcoin and ethereum prices today, Monday, July 6, 2026: Prices falling after last week's rebound",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-july-6-2026-prices-falling-after-last-weeks-rebound-131307981.html",
       "publishedAt": "2026-07-06T13:13:07.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1271,7 +1354,7 @@
       "title": "What is the bingo savings challenge? Here's how it works — and how much you can save.",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/bingo-savings-challenge-153459727.html",
       "publishedAt": "2026-07-06T15:34:59.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1282,13 +1365,13 @@
       "feedId": "yahoo-finance-news"
     },
     {
-      "id": "yahoo-finance-news-1650489d",
+      "id": "yahoo-finance-news-308951e5",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "The $185,000 Portfolio That Covers Groceries, Utilities, and the Phone Bill Every Month",
-      "url": "https://finance.yahoo.com/markets/articles/185-000-portfolio-covers-groceries-152105410.html",
-      "publishedAt": "2026-07-05T15:21:05.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "title": "The Real Cost of Retiring in Charleston, SC, at 65 on $975,000 Worry Free",
+      "url": "https://finance.yahoo.com/real-estate/articles/real-cost-retiring-charleston-sc-160959942.html",
+      "publishedAt": "2026-07-05T16:09:59.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1305,7 +1388,7 @@
       "title": "Rate buydown vs. closing costs vs. price reduction",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/rate-buydown-vs-closing-costs-vs-price-reduction-160106245.html",
       "publishedAt": "2026-07-06T16:01:06.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Rate buydown vs. closing costs vs. price reduction. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Rate buydown vs. closing costs vs. price reduction. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1327,7 +1410,7 @@
       "title": "Weekly survey of mortgage lenders with the lowest rates: Rates bubble higher",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-9-170834159.html",
       "publishedAt": "2025-11-03T17:08:34.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Weekly survey of mortgage lenders with the lowest rates: Rates bubble higher. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Weekly survey of mortgage lenders with the lowest rates: Rates bubble higher. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1349,7 +1432,7 @@
       "title": "Mortgage and refinance rates today, Monday, July 6: Purchase rates currently higher than refinance rates",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-july-6-purchase-rates-currently-higher-than-refi-rates-100000511.html",
       "publishedAt": "2026-07-06T10:00:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "Mortgage and refinance rates today, Monday, July 6: Purchase rates currently higher than refinance rates. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Mortgage and refinance rates today, Monday, July 6: Purchase rates currently higher than refinance rates. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1365,57 +1448,13 @@
       "evidenceStrength": "thin_internal"
     },
     {
-      "id": "yahoo-finance-news-a5645f5",
+      "id": "yahoo-finance-news-48a2340b",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "IHE vs. PJP: Which Pharmaceutical ETF Is the Better Buy for Investors?",
-      "url": "https://finance.yahoo.com/healthcare/articles/ihe-vs-pjp-pharmaceutical-etf-153628526.html",
-      "publishedAt": "2026-07-05T15:36:28.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "IHE vs. PJP: Which Pharmaceutical ETF Is the Better Buy for Investors?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "IHE vs. PJP: Which Pharmaceutical ETF Is the Better Buy for Investors?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "yahoo-finance-news-9c82e92a",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "VOO vs. QQQ: Which Is the Better Buy for Long-Term Investors?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/voo-vs-qqq-better-buy-152000776.html",
-      "publishedAt": "2026-07-05T15:20:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "VOO vs. QQQ: Which Is the Better Buy for Long-Term Investors?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "VOO vs. QQQ: Which Is the Better Buy for Long-Term Investors?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "yahoo-finance-news-8298d231",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "IMF Warns Tokenization Will Shift Financial Power From Banks to Code",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/imf-warns-tokenization-shift-financial-154134113.html",
-      "publishedAt": "2026-07-05T15:41:34.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
+      "title": "Term vs. whole life insurance: Which should you choose?",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/term-vs-whole-life-insurance-182345773.html",
+      "publishedAt": "2026-07-06T18:23:45.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1426,55 +1465,16 @@
       "feedId": "yahoo-finance-news"
     },
     {
-      "id": "yahoo-finance-news-4da18944",
+      "id": "yahoo-finance-news-e619995b",
       "source": "Yahoo Finance",
       "sourceType": "reputable",
-      "title": "Why MSTY Shareholders Are Facing Uncapped Losses Despite Weekly Distributions",
-      "url": "https://finance.yahoo.com/markets/options/articles/why-msty-shareholders-facing-uncapped-153931992.html",
-      "publishedAt": "2026-07-05T15:39:31.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news"
-    },
-    {
-      "id": "yahoo-finance-news-c086f76d",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "Why Did QuantumScape Stock Drop Almost 30% in the First Half of 2026?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-quantumscape-stock-drop-154755715.html",
-      "publishedAt": "2026-07-05T15:47:55.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "Why Did QuantumScape Stock Drop Almost 30% in the First Half of 2026?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "title": "Paramount’s Warner deal has a new $650 million problem",
+      "url": "https://finance.yahoo.com/media-advertising/articles/paramount-warner-deal-650-million-160300665.html",
+      "publishedAt": "2026-07-05T16:03:00.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.320Z",
+      "summary": "Paramount’s Warner deal has a new $650 million problem. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
-        "Why Did QuantumScape Stock Drop Almost 30% in the First Half of 2026?. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "yahoo-finance-news",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "yahoo-finance-news-25b5a221",
-      "source": "Yahoo Finance",
-      "sourceType": "reputable",
-      "title": "SpaceX, Alphabet, and SK Hynix Are Sending a Big Signal to the Market, and No One Is Talking About It",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-alphabet-sk-hynix-sending-151400057.html",
-      "publishedAt": "2026-07-05T15:14:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.808Z",
-      "summary": "SpaceX, Alphabet, and SK Hynix Are Sending a Big Signal to the Market, and No One Is Talking About It. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "SpaceX, Alphabet, and SK Hynix Are Sending a Big Signal to the Market, and No One Is Talking About It. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+        "Paramount’s Warner deal has a new $650 million problem. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -1493,7 +1493,7 @@
       "title": "U.S. loses to Belgium 4-1; Balogun plays after Trump calls FIFA",
       "url": "https://www.cnbc.com/2026/07/05/trump-fifa-balogun-world-cup-red-card-suspension.html",
       "publishedAt": "2026-07-07T02:18:50.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1510,7 +1510,7 @@
       "title": "Trump heads to Turkey as NATO is strained by Russian attacks, U.S. impatience",
       "url": "https://www.cnbc.com/2026/07/07/trump-nato-turkey-russia-ukraine-spending.html",
       "publishedAt": "2026-07-07T02:18:31.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1521,16 +1521,16 @@
       "feedId": "cnbc-finance"
     },
     {
-      "id": "cnbc-finance-fbb6e106",
+      "id": "cnbc-finance-aa1af391",
       "source": "CNBC Finance",
       "sourceType": "reputable",
-      "title": "Hanwha Ocean shares sink 23% as it loses bid to build Canada&apos;s next fleet of submarines",
+      "title": "Hanwha Ocean shares sink 23% as it loses bid to build Canada's next fleet of submarines",
       "url": "https://www.cnbc.com/2026/07/07/hanwha-ocean-shares-sink-canada-submarines-tkms.html",
       "publishedAt": "2026-07-07T02:07:43.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
-      "summary": "Hanwha Ocean shares sink 23% as it loses bid to build Canada&apos;s next fleet of submarines. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
+      "summary": "Hanwha Ocean shares sink 23% as it loses bid to build Canada's next fleet of submarines. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
-        "Hanwha Ocean shares sink 23% as it loses bid to build Canada&apos;s next fleet of submarines. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+        "Hanwha Ocean shares sink 23% as it loses bid to build Canada's next fleet of submarines. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -1549,7 +1549,7 @@
       "title": "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
       "url": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html",
       "publishedAt": "2026-07-06T21:37:58.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1566,7 +1566,7 @@
       "title": "Graham Platner denies sex assault claim as Democrats urge him to quit Maine Senate race",
       "url": "https://www.cnbc.com/2026/07/06/graham-platner-maine-senate-allegation-response.html",
       "publishedAt": "2026-07-06T23:12:43.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1583,7 +1583,7 @@
       "title": "Toyota to invest $3.6 billion to move Tacoma pickup truck production from Mexico to Texas",
       "url": "https://www.cnbc.com/2026/07/06/toyota-tacoma-truck-san-antonio-plant.html",
       "publishedAt": "2026-07-06T20:30:01.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1600,7 +1600,7 @@
       "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall",
       "url": "https://www.cnbc.com/2026/07/07/samsung-electronics-preliminary-second-quarter-profit-hits-fresh-high.html",
       "publishedAt": "2026-07-07T00:25:55.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "Samsung Electronics sees record preliminary 2Q profit but shares fall. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Samsung Electronics sees record preliminary 2Q profit but shares fall. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1616,30 +1616,13 @@
       "evidenceStrength": "thin_internal"
     },
     {
-      "id": "cnbc-finance-f6bfe91f",
-      "source": "CNBC Finance",
-      "sourceType": "reputable",
-      "title": "China&apos;s Alibaba bans Anthropic AI for employees after &apos;distillation attack&apos; accusation",
-      "url": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html",
-      "publishedAt": "2026-07-06T21:26:17.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
-      "summary": "",
-      "facts": [],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "cnbc-finance"
-    },
-    {
       "id": "cnbc-finance-2b05f441",
       "source": "CNBC Finance",
       "sourceType": "reputable",
       "title": "World Cup in photos: Belgium beats U.S. 4-1 after Balogun controversy, Ronaldo exits",
       "url": "https://www.cnbc.com/2026/07/07/world-cup-in-photos-balogun-and-us-belgium-match-ronaldo-bows-out.html",
       "publishedAt": "2026-07-07T02:45:13.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1650,16 +1633,33 @@
       "feedId": "cnbc-finance"
     },
     {
-      "id": "cnbc-finance-56f84e9a",
+      "id": "cnbc-finance-8c84cd48",
       "source": "CNBC Finance",
       "sourceType": "reputable",
-      "title": "Here&apos;s how SpaceX&apos;s Nasdaq-100 inclusion might affect options pricing",
+      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
+      "url": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html",
+      "publishedAt": "2026-07-06T21:26:17.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
+      "summary": "",
+      "facts": [],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "cnbc-finance"
+    },
+    {
+      "id": "cnbc-finance-f4e085da",
+      "source": "CNBC Finance",
+      "sourceType": "reputable",
+      "title": "Here's how SpaceX's Nasdaq-100 inclusion might affect options pricing",
       "url": "https://www.cnbc.com/2026/07/06/heres-how-spacexs-nasdaq-100-inclusion-might-affect-options-pricing.html",
       "publishedAt": "2026-07-06T18:27:06.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
-      "summary": "Here&apos;s how SpaceX&apos;s Nasdaq-100 inclusion might affect options pricing. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
+      "summary": "Here's how SpaceX's Nasdaq-100 inclusion might affect options pricing. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
-        "Here&apos;s how SpaceX&apos;s Nasdaq-100 inclusion might affect options pricing. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+        "Here's how SpaceX's Nasdaq-100 inclusion might affect options pricing. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -1678,7 +1678,7 @@
       "title": "Student loan servicers begin 90-day countdown for borrowers to leave SAVE plan",
       "url": "https://www.cnbc.com/2026/07/06/student-loan-servicers-save-plan-exit-notices.html",
       "publishedAt": "2026-07-06T16:37:10.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1689,13 +1689,13 @@
       "feedId": "cnbc-finance"
     },
     {
-      "id": "cnbc-finance-fe47efb0",
+      "id": "cnbc-finance-f31149a7",
       "source": "CNBC Finance",
       "sourceType": "reputable",
-      "title": "Trump defends call urging Balogun red card review: &apos;It wasn&apos;t a foul&apos;",
+      "title": "Trump defends call urging Balogun red card review: 'It wasn't a foul'",
       "url": "https://www.cnbc.com/2026/07/06/trump-balogun-fifa-world-cup-us-belgium.html",
       "publishedAt": "2026-07-06T16:36:28.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1712,7 +1712,7 @@
       "title": "Jim Cramer says these are the 5 stocks to buy during this market rotation",
       "url": "https://www.cnbc.com/2026/07/06/jim-cramer-stocks-buy-during-market-rotation.html",
       "publishedAt": "2026-07-06T22:29:20.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "Jim Cramer says these are the 5 stocks to buy during this market rotation. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Jim Cramer says these are the 5 stocks to buy during this market rotation. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1728,16 +1728,38 @@
       "evidenceStrength": "thin_internal"
     },
     {
-      "id": "cnbc-finance-46839aac",
+      "id": "cnbc-finance-ad9ed9ac",
       "source": "CNBC Finance",
       "sourceType": "reputable",
-      "title": "Rivian, Tesla and the &apos;Holly Index&apos;: How to trade the new EV Main Street battle",
+      "title": "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
       "url": "https://www.cnbc.com/2026/07/06/rivian-tesla-and-the-holly-index-how-to-trade-the-new-ev-main-street-battle.html",
       "publishedAt": "2026-07-06T16:11:03.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
-      "summary": "Rivian, Tesla and the &apos;Holly Index&apos;: How to trade the new EV Main Street battle. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
+      "summary": "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
-        "Rivian, Tesla and the &apos;Holly Index&apos;: How to trade the new EV Main Street battle. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+        "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+      ],
+      "tickers": [],
+      "topics": [
+        "markets",
+        "companies"
+      ],
+      "feedId": "cnbc-finance",
+      "internalDerivedSummary": true,
+      "evidenceType": "internal_derived",
+      "evidenceStrength": "thin_internal"
+    },
+    {
+      "id": "cnbc-finance-28187930",
+      "source": "CNBC Finance",
+      "sourceType": "reputable",
+      "title": "Here's our plan for both Honeywell stocks after a divergent first week of trading",
+      "url": "https://www.cnbc.com/2026/07/06/heres-our-plan-for-both-honeywell-stocks-after-a-divergent-first-week-of-trading.html",
+      "publishedAt": "2026-07-06T19:11:07.000Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
+      "summary": "Here's our plan for both Honeywell stocks after a divergent first week of trading. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "facts": [
+        "Here's our plan for both Honeywell stocks after a divergent first week of trading. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -1756,32 +1778,10 @@
       "title": "SpaceX President Gwynne Shotwell to donate stock to Trump Accounts",
       "url": "https://www.cnbc.com/2026/07/06/spacex-spcx-gwynne-shotwell-stock-trump-accounts.html",
       "publishedAt": "2026-07-06T20:48:45.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "SpaceX President Gwynne Shotwell to donate stock to Trump Accounts. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "SpaceX President Gwynne Shotwell to donate stock to Trump Accounts. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
-      ],
-      "tickers": [],
-      "topics": [
-        "markets",
-        "companies"
-      ],
-      "feedId": "cnbc-finance",
-      "internalDerivedSummary": true,
-      "evidenceType": "internal_derived",
-      "evidenceStrength": "thin_internal"
-    },
-    {
-      "id": "cnbc-finance-7474d027",
-      "source": "CNBC Finance",
-      "sourceType": "reputable",
-      "title": "Here&apos;s our plan for both Honeywell stocks after a divergent first week of trading",
-      "url": "https://www.cnbc.com/2026/07/06/heres-our-plan-for-both-honeywell-stocks-after-a-divergent-first-week-of-trading.html",
-      "publishedAt": "2026-07-06T19:11:07.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
-      "summary": "Here&apos;s our plan for both Honeywell stocks after a divergent first week of trading. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
-      "facts": [
-        "Here&apos;s our plan for both Honeywell stocks after a divergent first week of trading. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -1800,7 +1800,7 @@
       "title": "Record heat, crowds drive offseason boom in international travel",
       "url": "https://www.cnbc.com/2026/07/06/travel-off-season-boom-in-flights-airlines-hotels.html",
       "publishedAt": "2026-07-06T14:11:45.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1817,7 +1817,7 @@
       "title": "Lockheed Martin to buy naval defense firm Ultra Maritime for $3.45 billion",
       "url": "https://www.cnbc.com/2026/07/06/lockheed-martin-leading-race-for-3point5-billion-buy-of-ultra-maritime-.html",
       "publishedAt": "2026-07-06T12:54:26.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "Lockheed Martin to buy naval defense firm Ultra Maritime for $3.45 billion. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Lockheed Martin to buy naval defense firm Ultra Maritime for $3.45 billion. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1839,7 +1839,7 @@
       "title": "Klarna seeks U.S. bank charter in latest push beyond buy now, pay later",
       "url": "https://www.cnbc.com/2026/07/06/klarna-seeks-us-bank-charter-in-push-beyond-buy-now-pay-later.html",
       "publishedAt": "2026-07-06T15:36:23.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "Klarna seeks U.S. bank charter in latest push beyond buy now, pay later. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Klarna seeks U.S. bank charter in latest push beyond buy now, pay later. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1861,7 +1861,7 @@
       "title": "Versant agrees to buy golf simulator company Full Swing for $530 million",
       "url": "https://www.cnbc.com/2026/07/06/versant-to-buy-golf-simulator-company-full-swing.html",
       "publishedAt": "2026-07-06T12:53:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "Versant agrees to buy golf simulator company Full Swing for $530 million. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Versant agrees to buy golf simulator company Full Swing for $530 million. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1883,7 +1883,7 @@
       "title": "NATO tensions are ‘growing pains,’ U.S. ambassador says as Trump presses allies",
       "url": "https://www.cnbc.com/2026/07/06/nato-trump-defense-spending-whitaker.html",
       "publishedAt": "2026-07-06T18:06:58.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1900,7 +1900,7 @@
       "title": "TeraWulf shares soar after Anthropic leases data center in Kentucky",
       "url": "https://www.cnbc.com/2026/07/06/anthropic-terawulf-data-center-ai.html",
       "publishedAt": "2026-07-06T14:52:49.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "TeraWulf shares soar after Anthropic leases data center in Kentucky. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "TeraWulf shares soar after Anthropic leases data center in Kentucky. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1916,13 +1916,13 @@
       "evidenceStrength": "thin_internal"
     },
     {
-      "id": "cnbc-finance-5f32189d",
+      "id": "cnbc-finance-c604b08a",
       "source": "CNBC Finance",
       "sourceType": "reputable",
-      "title": "Trump&apos;s calls, Ukraine&apos;s strikes and Russia&apos;s barrage on Kyiv put markets on alert",
+      "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
       "url": "https://www.cnbc.com/2026/07/06/ukraine-russia-kyiv-trump-putin-zelenskyy.html",
       "publishedAt": "2026-07-06T10:53:27.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -1933,16 +1933,16 @@
       "feedId": "cnbc-finance"
     },
     {
-      "id": "cnbc-finance-4f9afac7",
+      "id": "cnbc-finance-4661a487",
       "source": "CNBC Finance",
       "sourceType": "reputable",
-      "title": "&apos;Electronic warfare is a tech phenomenon&apos;: Why the market is rethinking defense valuations",
+      "title": "'Electronic warfare is a tech phenomenon': Why the market is rethinking defense valuations",
       "url": "https://www.cnbc.com/2026/07/06/defense-tech-stocks-drones-electronic-warfare-valuation.html",
       "publishedAt": "2026-07-06T13:37:33.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
-      "summary": "&apos;Electronic warfare is a tech phenomenon&apos;: Why the market is rethinking defense valuations. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
+      "summary": "'Electronic warfare is a tech phenomenon': Why the market is rethinking defense valuations. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
-        "&apos;Electronic warfare is a tech phenomenon&apos;: Why the market is rethinking defense valuations. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
+        "'Electronic warfare is a tech phenomenon': Why the market is rethinking defense valuations. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
       ],
       "tickers": [],
       "topics": [
@@ -1961,7 +1961,7 @@
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief",
       "url": "https://www.cnbc.com/2026/07/06/iran-oil-supply-hormuz-china-energy.html",
       "publishedAt": "2026-07-06T06:50:12.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "Why Iran may find it difficult to clear its oil inventories even after sanctions relief. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -1983,7 +1983,7 @@
       "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
       "url": "https://www.cnbc.com/2026/07/03/new-jersey-deli-stockfraud-sentence-patten.html",
       "publishedAt": "2026-07-04T01:04:34.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -2000,7 +2000,7 @@
       "title": "As ACA enrollment falls by millions, Trump administration and policy gurus disagree on why",
       "url": "https://www.cnbc.com/2026/07/03/aca-enrollment-enhanced-subsidies-lapse-fraud.html",
       "publishedAt": "2026-07-03T12:00:01.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -2017,7 +2017,7 @@
       "title": "First known congressional SpaceX stock buys surface after record IPO",
       "url": "https://www.cnbc.com/2026/07/03/spacex-stock-congress-meuser-cisneros-ipo-disclosure.html",
       "publishedAt": "2026-07-03T18:16:43.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "First known congressional SpaceX stock buys surface after record IPO. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion.",
       "facts": [
         "First known congressional SpaceX stock buys surface after record IPO. The headline points to a fresh public-market move; read it as a starting signal and confirm the price action, named companies, and follow-through before drawing a stronger conclusion."
@@ -2033,13 +2033,13 @@
       "evidenceStrength": "thin_internal"
     },
     {
-      "id": "cnbc-finance-fab31526",
+      "id": "cnbc-finance-f168a691",
       "source": "CNBC Finance",
       "sourceType": "reputable",
-      "title": "Nvidia&apos;s next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "url": "https://www.cnbc.com/2026/07/06/nvidia-kyber-rack-system-delays-manufacturing-taiwan-rubin-chips-.html",
       "publishedAt": "2026-07-06T17:26:34.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -2056,7 +2056,7 @@
       "title": "Meta’s woes deepen in India as child abuse ads on Instagram draw government ire",
       "url": "https://www.cnbc.com/2026/07/06/meta-instagram-india-warning-whatsapp.html",
       "publishedAt": "2026-07-06T05:24:34.000Z",
-      "fetchedAt": "2026-07-07T03:06:55.899Z",
+      "fetchedAt": "2026-07-07T03:57:58.418Z",
       "summary": "",
       "facts": [],
       "tickers": [],
@@ -2067,16 +2067,16 @@
       "feedId": "cnbc-finance"
     },
     {
-      "id": "marketwatch-top-stories-14389b7",
+      "id": "marketwatch-top-stories-a90a4f62",
       "source": "MarketWatch Top Stories",
       "sourceType": "reputable",
-      "title": "Trump calls Walmart &#x2018;patriotic&#x2019; for cutting beef prices &#x2014; in a stark change of tune",
+      "title": "Trump calls Walmart ‘patriotic’ for cutting beef prices — in a stark change of tune",
       "url": "https://www.marketwatch.com/story/trump-calls-walmart-patriotic-for-cutting-beef-prices-in-a-stark-change-of-tune-96c32712?mod=mw_rss_topstories",
       "publishedAt": "2026-07-07T00:15:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
-      "summary": "The president hasn&#x2019;t always approved of Walmart&#x2019;s moves, having criticized the chain&#x2019;s response to tariffs last year.",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
+      "summary": "The president hasn’t always approved of Walmart’s moves, having criticized the chain’s response to tariffs last year.",
       "facts": [
-        "The president hasn&#x2019;t always approved of Walmart&#x2019;s moves, having criticized the chain&#x2019;s response to tariffs last year."
+        "The president hasn’t always approved of Walmart’s moves, having criticized the chain’s response to tariffs last year."
       ],
       "tickers": [],
       "topics": [
@@ -2092,10 +2092,10 @@
       "title": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
       "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
       "publishedAt": "2026-07-06T22:39:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
-      "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes.",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
+      "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes.",
       "facts": [
-        "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes."
+        "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes."
       ],
       "tickers": [],
       "topics": [
@@ -2111,7 +2111,7 @@
       "title": "U.S.-Belgium match could draw record TV audience amid the Trump World Cup controversy",
       "url": "https://www.marketwatch.com/story/u-s-belgium-match-could-draw-record-tv-audience-amid-the-trump-world-cup-controversy-52783b8f?mod=mw_rss_topstories",
       "publishedAt": "2026-07-06T22:17:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
       "summary": "Some industry experts are predicting all-time viewing records for a U.S. soccer game",
       "facts": [
         "Some industry experts are predicting all-time viewing records for a U.S. soccer game"
@@ -2124,16 +2124,16 @@
       "feedId": "marketwatch-top-stories"
     },
     {
-      "id": "marketwatch-top-stories-257ca016",
+      "id": "marketwatch-top-stories-5ae753a3",
       "source": "MarketWatch Top Stories",
       "sourceType": "reputable",
-      "title": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity",
+      "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
       "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
       "publishedAt": "2026-07-06T21:36:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
-      "summary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money.",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
+      "summary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money.",
       "facts": [
-        "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money."
+        "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money."
       ],
       "tickers": [],
       "topics": [
@@ -2149,7 +2149,7 @@
       "title": "Your investing expectations are more than double the reality. Here is the tough truth.",
       "url": "https://www.marketwatch.com/story/your-investing-expectations-are-more-than-double-the-reality-here-is-the-tough-truth-dea61820?mod=mw_rss_topstories",
       "publishedAt": "2026-07-06T21:19:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
       "summary": "Long-term real returns above 10% annualized are exceedingly rare.",
       "facts": [
         "Long-term real returns above 10% annualized are exceedingly rare."
@@ -2162,13 +2162,13 @@
       "feedId": "marketwatch-top-stories"
     },
     {
-      "id": "marketwatch-top-stories-79b64d96",
+      "id": "marketwatch-top-stories-ad8d4a83",
       "source": "MarketWatch Top Stories",
       "sourceType": "reputable",
-      "title": "Stocks rally when Congress goes on summer break. Here&#x2019;s why.",
+      "title": "Stocks rally when Congress goes on summer break. Here’s why.",
       "url": "https://www.marketwatch.com/story/stocks-rally-when-congress-goes-on-summer-break-here-is-the-hidden-reason-e70a6be3?mod=mw_rss_topstories",
       "publishedAt": "2026-07-06T21:18:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
       "summary": "Stock prices face greater volatility when lawmakers are active, driven entirely by the regulatory uncertainty they create.",
       "facts": [
         "Stock prices face greater volatility when lawmakers are active, driven entirely by the regulatory uncertainty they create."
@@ -2187,10 +2187,10 @@
       "title": "You want a portfolio that matches your morals. Your retirement plan might disagree.",
       "url": "https://www.marketwatch.com/story/you-want-a-portfolio-that-matches-your-morals-but-that-could-sink-your-retirement-plans-0b6fb5bf?mod=mw_rss_topstories",
       "publishedAt": "2026-07-06T21:16:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
-      "summary": "More investors want their money to reflect their values. It feels righteous &#x2014; but the reality is a lot messier.",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
+      "summary": "More investors want their money to reflect their values. It feels righteous — but the reality is a lot messier.",
       "facts": [
-        "More investors want their money to reflect their values. It feels righteous &#x2014; but the reality is a lot messier."
+        "More investors want their money to reflect their values. It feels righteous — but the reality is a lot messier."
       ],
       "tickers": [],
       "topics": [
@@ -2200,13 +2200,13 @@
       "feedId": "marketwatch-top-stories"
     },
     {
-      "id": "marketwatch-top-stories-988d06cc",
+      "id": "marketwatch-top-stories-bd634739",
       "source": "MarketWatch Top Stories",
       "sourceType": "reputable",
-      "title": "If the stock market&#x2019;s double bubble bursts, it could usher in the next crash",
+      "title": "If the stock market’s double bubble bursts, it could usher in the next crash",
       "url": "https://www.marketwatch.com/story/if-the-stock-markets-double-bubble-bursts-it-could-usher-in-the-next-crash-de54c1b2?mod=mw_rss_topstories",
       "publishedAt": "2026-07-06T21:11:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
       "summary": "While valuations still look extreme relative to history, the recent pace of corporate earnings growth has also meaningfully diverged from the long-term trend.",
       "facts": [
         "While valuations still look extreme relative to history, the recent pace of corporate earnings growth has also meaningfully diverged from the long-term trend."
@@ -2219,16 +2219,16 @@
       "feedId": "marketwatch-top-stories"
     },
     {
-      "id": "marketwatch-top-stories-751a0ba1",
+      "id": "marketwatch-top-stories-e6dba01",
       "source": "MarketWatch Top Stories",
       "sourceType": "reputable",
-      "title": "Your 5 biggest &#x2018;Trump account&#x2019; questions, answered",
+      "title": "Your 5 biggest ‘Trump account’ questions, answered",
       "url": "https://www.marketwatch.com/story/your-5-biggest-questions-about-trump-accounts-answered-421d9f6f?mod=mw_rss_topstories",
       "publishedAt": "2026-07-06T20:53:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
-      "summary": "Here&#x2019;s who is eligible for $1,000 in free money &#x2014; and how to sign up.",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
+      "summary": "Here’s who is eligible for $1,000 in free money — and how to sign up.",
       "facts": [
-        "Here&#x2019;s who is eligible for $1,000 in free money &#x2014; and how to sign up."
+        "Here’s who is eligible for $1,000 in free money — and how to sign up."
       ],
       "tickers": [],
       "topics": [
@@ -2238,16 +2238,16 @@
       "feedId": "marketwatch-top-stories"
     },
     {
-      "id": "marketwatch-top-stories-a4a1e740",
+      "id": "marketwatch-top-stories-91929bd5",
       "source": "MarketWatch Top Stories",
       "sourceType": "reputable",
-      "title": "Micron&#x2019;s stock gains, signaling a &#x2018;return to optimism&#x2019; about the chip sector",
+      "title": "Micron’s stock gains, signaling a ‘return to optimism’ about the chip sector",
       "url": "https://www.marketwatch.com/story/microns-stock-gains-signaling-a-return-to-optimism-about-the-chip-sector-0b7f6a8c?mod=mw_rss_topstories",
       "publishedAt": "2026-07-06T20:33:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.328Z",
-      "summary": "Investors are looking forward to Samsung&#x2019;s earnings and SK Hynix&#x2019;s ADR listing, experts say.",
+      "fetchedAt": "2026-07-07T03:57:58.677Z",
+      "summary": "Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say.",
       "facts": [
-        "Investors are looking forward to Samsung&#x2019;s earnings and SK Hynix&#x2019;s ADR listing, experts say."
+        "Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say."
       ],
       "tickers": [],
       "topics": [
@@ -2263,7 +2263,7 @@
       "title": "BASF Wraps Up EUR 7.7B Coatings Sale to Carlyle, Holds 40% Interest",
       "url": "https://finance.yahoo.com/markets/stocks/articles/basf-wraps-eur-7-7b-183100110.html?.tsrc=rss",
       "publishedAt": "2026-07-06T18:31:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "BASFY completed the sale of its coatings business to Carlyle for an enterprise value of EUR 7.7B, while retaining a 40% stake in Surventis for future upside.",
       "facts": [
         "BASFY completed the sale of its coatings business to Carlyle for an enterprise value of EUR 7.7B, while retaining a 40% stake in Surventis for future upside."
@@ -2284,7 +2284,7 @@
       "title": "KKR & Co. (KKR) Fell 27% Despite a Strong Recovery in March",
       "url": "https://finance.yahoo.com/markets/stocks/articles/kkr-co-kkr-fell-27-151230590.html?.tsrc=rss",
       "publishedAt": "2026-07-06T15:12:30.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "RiverPark Advisors, an investment advisory firm and sponsor of the RiverPark family of mutual funds, released its “RiverPark Large Growth Fund” Q1 2026 investor letter. A copy of the letter can be downloaded here. The US stock market declined in the quarter with the S&P 500 index (“S&P”) and the Russell 1000 Growth index (“RLG”) falling […]",
       "facts": [
         "RiverPark Advisors, an investment advisory firm and sponsor of the RiverPark family of mutual funds, released its “RiverPark Large Growth Fund” Q1 2026 investor letter. A copy of the letter can be downloaded here. The US stock market declined in the quarter with the S&P 500 index (“S&P”) and the Russell 1000 Growth index (“RLG”) falling […]"
@@ -2305,7 +2305,7 @@
       "title": "Blackstone Energy Transition Partners Announces Agreement to Acquire Dresser Utility Solutions from First Reserve",
       "url": "https://finance.yahoo.com/energy/articles/blackstone-energy-transition-partners-announces-140000029.html?.tsrc=rss",
       "publishedAt": "2026-07-06T14:00:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "NEW YORK & HOUSTON, July 06, 2026--Blackstone (NYSE: BX) today announced that funds managed by Blackstone Energy Transition Partners (\"Blackstone\") have entered into a definitive agreement to acquire Dresser Utility Solutions (\"Dresser\"), a premier provider of mission-critical natural gas and water measurement, control and infrastructure equipment solutions, from First Reserve. This represents the first investment of the most recent vintage of Blackstone’s private equity energy transition vehicl",
       "facts": [
         "NEW YORK & HOUSTON, July 06, 2026--Blackstone (NYSE: BX) today announced that funds managed by Blackstone Energy Transition Partners (\"Blackstone\") have entered into a definitive agreement to acquire Dresser Utility Solutions (\"Dresser\"), a premier provider of mission-critical natural gas and water measurement, control and infrastructure equipment solutions, from First Reserve. This represents the first investment of the most recent vintage of Blackstone’s private equity energy transition vehicl"
@@ -2326,7 +2326,7 @@
       "title": "Frankfurter Leben lines up offer for Athora’s German unit – report",
       "url": "https://www.lifeinsuranceinternational.com/news/frankfurter-leben-athora-germany-bid/?.tsrc=rss",
       "publishedAt": "2026-07-06T12:13:32.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "Apollo Global Management-backed Athora has been weighing the future of its German operation, including a possible disposal, after finding it difficult to expand the business.",
       "facts": [
         "Apollo Global Management-backed Athora has been weighing the future of its German operation, including a possible disposal, after finding it difficult to expand the business."
@@ -2347,7 +2347,7 @@
       "title": "Jim Cramer Says He Would Avoid Blue Owl and Prefers Blackstone",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-avoid-blue-142020139.html?.tsrc=rss",
       "publishedAt": "2026-07-04T14:20:20.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "Blackstone Inc. (NYSE:BX) was among the stocks Jim Cramer commented on as he advised investors on how to take advantage of Wednesday’s market rotation. Cramer discussed the stock while explaining how doomsayers missed the mark on private credit. He said: How about the gains in the brokerage and private equity stock groups that have been […]",
       "facts": [
         "Blackstone Inc. (NYSE:BX) was among the stocks Jim Cramer commented on as he advised investors on how to take advantage of Wednesday’s market rotation. Cramer discussed the stock while explaining how doomsayers missed the mark on private credit. He said: How about the gains in the brokerage and private equity stock groups that have been […]"
@@ -2368,7 +2368,7 @@
       "title": "Blackstone's BXPE Posts Record 4.3% Monthly Return on AI Bets",
       "url": "https://finance.yahoo.com/technology/ai/articles/blackstones-bxpe-posts-record-4-165754720.html?.tsrc=rss",
       "publishedAt": "2026-07-03T16:57:54.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "Anthropic helped lift BXPE as Blackstone increased AI investments and pointed to improving IPO conditions.",
       "facts": [
         "Anthropic helped lift BXPE as Blackstone increased AI investments and pointed to improving IPO conditions."
@@ -2389,7 +2389,7 @@
       "title": "Blackstone's Virginia AI Buildout Suffers Setback",
       "url": "https://finance.yahoo.com/technology/ai/articles/blackstones-virginia-ai-buildout-suffers-161902908.html?.tsrc=rss",
       "publishedAt": "2026-07-03T16:19:02.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "QTS retreat deals Digital Gateway another blow",
       "facts": [
         "QTS retreat deals Digital Gateway another blow"
@@ -2410,7 +2410,7 @@
       "title": "Blackstone files to take Jersey Mike's public",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-files-jersey-mikes-public-235226854.html?.tsrc=rss",
       "publishedAt": "2026-07-02T23:52:26.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "Kevin Carter/Getty Images Blackstone has moved to exit another of its top-performing portfolio companies, this time iconic American sandwich chain Jersey Mike’s Subs. The New Jersey-based business, known as much for its subs as it is for its association with actor and superfan Danny DeVito, filed an S-1 with the Securities and Exchange Commission on Thursday, paving the way for a debut on the New York Stock Exchange under the ticker “JMKE.” The number of shares on offer and the price range have",
       "facts": [
         "Kevin Carter/Getty Images Blackstone has moved to exit another of its top-performing portfolio companies, this time iconic American sandwich chain Jersey Mike’s Subs. The New Jersey-based business, known as much for its subs as it is for its association with actor and superfan Danny DeVito, filed an S-1 with the Securities and Exchange Commission on Thursday, paving the way for a debut on the New York Stock Exchange under the ticker “JMKE.” The number of shares on offer and the price range have"
@@ -2431,7 +2431,7 @@
       "title": "New Mexico regulators order Blackstone, TXNM to unwind $400 million stock sale",
       "url": "https://www.abqjournal.com/business/new-mexico-regulators-order-blackstone-txnm-to-unwind-400-million-stock-sale/3075270?.tsrc=rss",
       "publishedAt": "2026-07-02T19:02:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "New Mexico regulators on Thursday moved to unravel a $400 million stock sale that gave Blackstone Inc. a foothold in the state’s largest electric utility, ruling that the transaction should have gone through a review process it never received. The three-member New Mexico Public Regulation Commission voted 2-1 on the order, siding with hearing examiners who recommended in early June that ...",
       "facts": [
         "New Mexico regulators on Thursday moved to unravel a $400 million stock sale that gave Blackstone Inc. a foothold in the state’s largest electric utility, ruling that the transaction should have gone through a review process it never received. The three-member New Mexico Public Regulation Commission voted 2-1 on the order, siding with hearing examiners who recommended in early June that ..."
@@ -2452,7 +2452,7 @@
       "title": "Blackstone’s QTS said to abandon Virginia data center project",
       "url": "https://finance.yahoo.com/technology/articles/blackstone-qts-said-abandon-virginia-185842048.html?.tsrc=rss",
       "publishedAt": "2026-07-02T18:58:42.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.563Z",
+      "fetchedAt": "2026-07-07T03:57:58.916Z",
       "summary": "Investing.com -- Blackstone Inc.'s QTS has decided to abandon plans to build its portion of a 2,100-acre data center campus in Virginia, according to a Bloomberg report Thursday.",
       "facts": [
         "Investing.com -- Blackstone Inc.'s QTS has decided to abandon plans to build its portion of a 2,100-acre data center campus in Virginia, according to a Bloomberg report Thursday."
@@ -2473,7 +2473,7 @@
       "title": "Ares Capital (ARCC) Is Considered a Good Investment by Brokers: Is That True?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-arcc-considered-good-133004655.html?.tsrc=rss",
       "publishedAt": "2026-07-06T13:30:04.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.788Z",
+      "fetchedAt": "2026-07-07T03:57:59.173Z",
       "summary": "The average brokerage recommendation (ABR) for Ares Capital (ARCC) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?",
       "facts": [
         "The average brokerage recommendation (ABR) for Ares Capital (ARCC) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
@@ -2494,7 +2494,7 @@
       "title": "Blue Owl's HomeCourt Partners' Fund Announces Minority Equity Investment in Cleveland Cavaliers",
       "url": "https://finance.yahoo.com/media-advertising/articles/blue-owls-homecourt-partners-fund-133000128.html?.tsrc=rss",
       "publishedAt": "2026-07-06T13:30:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.788Z",
+      "fetchedAt": "2026-07-07T03:57:59.173Z",
       "summary": "Blue Owl HomeCourt Partners' fund (\"HomeCourt\"), a division of Blue Owl's GP Strategic Capital platform, today announced it has acquired a minority equity stake in the Cleveland Cavaliers and its accompanying assets. Cleveland Cavaliers Owner Dan Gilbert will maintain his majority stake in the franchise.",
       "facts": [
         "Blue Owl HomeCourt Partners' fund (\"HomeCourt\"), a division of Blue Owl's GP Strategic Capital platform, today announced it has acquired a minority equity stake in the Cleveland Cavaliers and its accompanying assets. Cleveland Cavaliers Owner Dan Gilbert will maintain his majority stake in the franchise."
@@ -2515,7 +2515,7 @@
       "title": "Blue Owl Capital (OWL) Puts Redemption Caps to the Test Is Its ‘Value’ Label Now Better Deserved?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-puts-041615164.html?.tsrc=rss",
       "publishedAt": "2026-07-04T04:16:15.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.788Z",
+      "fetchedAt": "2026-07-07T03:57:59.173Z",
       "summary": "In late June 2026, Blue Owl Capital Inc. (NYSE: OWL) was shifted across several Russell benchmarks, moving out of multiple Growth indices and into a range of Value indices including the Russell 1000 Value, Russell Midcap Value, Russell 3000 Value and Russell 3000E Value. Around the same time, the firm capped quarterly redemptions at 5% in key private credit funds despite multi-billion US$ withdrawal requests, underscoring how its fund structures are designed to handle elevated liquidity...",
       "facts": [
         "In late June 2026, Blue Owl Capital Inc. (NYSE: OWL) was shifted across several Russell benchmarks, moving out of multiple Growth indices and into a range of Value indices including the Russell 1000 Value, Russell Midcap Value, Russell 3000 Value and Russell 3000E Value. Around the same time, the firm capped quarterly redemptions at 5% in key private credit funds despite multi-billion US$ withdrawal requests, underscoring how its fund structures are designed to handle elevated liquidity..."
@@ -2536,7 +2536,7 @@
       "title": "Ares Management (ARES) Stock Looks Reasonable On Fair Value But Rich On Earnings",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ares-management-ares-stock-looks-001517433.html?.tsrc=rss",
       "publishedAt": "2026-07-04T00:15:17.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.788Z",
+      "fetchedAt": "2026-07-07T03:57:59.173Z",
       "summary": "Ares Management stock is coming off a strong 113.7% gain over the last five years, yet current valuation checks show a different picture, with the intrinsic value estimate from the Excess Returns model sitting close to the market price while earnings based multiples lean expensive. Over five years, Ares Management has returned 113.7%, which puts recent weakness in context as a longer term winner that now needs its fundamentals to keep up with the share price. Fresh growth initiatives, such...",
       "facts": [
         "Ares Management stock is coming off a strong 113.7% gain over the last five years, yet current valuation checks show a different picture, with the intrinsic value estimate from the Excess Returns model sitting close to the market price while earnings based multiples lean expensive. Over five years, Ares Management has returned 113.7%, which puts recent weakness in context as a longer term winner that now needs its fundamentals to keep up with the share price. Fresh growth initiatives, such..."
@@ -2557,7 +2557,7 @@
       "title": "Does Ares’ Clearstream Deal and New SPAC IPO Reshape Its Distribution-Led Strategy (ARES)?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/does-ares-clearstream-deal-spac-221637360.html?.tsrc=rss",
       "publishedAt": "2026-07-03T22:16:37.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.788Z",
+      "fetchedAt": "2026-07-07T03:57:59.173Z",
       "summary": "Ares Management has recently drawn attention after analysts highlighted its expanding alternative asset platform, including plans for a larger Asia-focused direct lending fund and fresh capital formation via Ares Acquisition Corporation III’s roughly US$395 million SPAC IPO. At the same time, Ares is broadening investor access to its private market strategies through a new partnership with Clearstream, underlining how distribution alliances are becoming as important as new funds in shaping...",
       "facts": [
         "Ares Management has recently drawn attention after analysts highlighted its expanding alternative asset platform, including plans for a larger Asia-focused direct lending fund and fresh capital formation via Ares Acquisition Corporation III’s roughly US$395 million SPAC IPO. At the same time, Ares is broadening investor access to its private market strategies through a new partnership with Clearstream, underlining how distribution alliances are becoming as important as new funds in shaping..."
@@ -2578,7 +2578,7 @@
       "title": "Blue Owl Capital (OWL) Stock Still Looks Above Fair Value As Sila Deal Closes",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-stock-221619877.html?.tsrc=rss",
       "publishedAt": "2026-07-03T22:16:19.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.788Z",
+      "fetchedAt": "2026-07-07T03:57:59.173Z",
       "summary": "Blue Owl Capital stock has fallen sharply over the last year, yet the valuation checks lean expensive rather than cheap. This creates a clear tension between the recent share price pressure and what the broader metrics are currently suggesting. Over the past 1 year, Blue Owl Capital is down 50.5%, which means anyone who bought a year ago has seen a substantial decline in capital value. Recent headlines around elevated redemption requests in Blue Owl's private credit funds and the acquisition...",
       "facts": [
         "Blue Owl Capital stock has fallen sharply over the last year, yet the valuation checks lean expensive rather than cheap. This creates a clear tension between the recent share price pressure and what the broader metrics are currently suggesting. Over the past 1 year, Blue Owl Capital is down 50.5%, which means anyone who bought a year ago has seen a substantial decline in capital value. Recent headlines around elevated redemption requests in Blue Owl's private credit funds and the acquisition..."
@@ -2599,7 +2599,7 @@
       "title": "Blue Owl Capital (OWL) Caps Redemptions And Closes Sila Realty Trust Deal",
       "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-caps-191503337.html?.tsrc=rss",
       "publishedAt": "2026-07-03T19:15:03.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.788Z",
+      "fetchedAt": "2026-07-07T03:57:59.173Z",
       "summary": "Blue Owl Capital (NYSE:OWL) has enforced quarterly redemption caps on its private credit funds in response to elevated investor withdrawal requests. The company has completed its acquisition of Sila Realty Trust, expanding its footprint in healthcare focused net lease real estate. These moves affect Blue Owl Capital’s liquidity profile, product mix, and exposure to individual and institutional clients. For investors tracking Blue Owl Capital, these updates come at a time when the stock...",
       "facts": [
         "Blue Owl Capital (NYSE:OWL) has enforced quarterly redemption caps on its private credit funds in response to elevated investor withdrawal requests. The company has completed its acquisition of Sila Realty Trust, expanding its footprint in healthcare focused net lease real estate. These moves affect Blue Owl Capital’s liquidity profile, product mix, and exposure to individual and institutional clients. For investors tracking Blue Owl Capital, these updates come at a time when the stock..."
@@ -2620,7 +2620,7 @@
       "title": "Ares Management (ARES) Brings Private Markets To Clearstream And Backs $100 Million Lacrosse Bet",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ares-management-ares-brings-private-010732067.html?.tsrc=rss",
       "publishedAt": "2026-07-03T01:07:32.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.788Z",
+      "fetchedAt": "2026-07-07T03:57:59.173Z",
       "summary": "Ares Management (NYSE:ARES) has partnered with Clearstream to add its private market strategies to Clearstream’s fund platform, aiming to broaden investor access in Europe. The partnership is intended to make private market investing more straightforward for Clearstream’s clients, in line with regulatory efforts to deepen capital markets. Ares has led a US$100 million investment in the Premier Lacrosse League, marking a move into professional sports assets. The firm has also backed...",
       "facts": [
         "Ares Management (NYSE:ARES) has partnered with Clearstream to add its private market strategies to Clearstream’s fund platform, aiming to broaden investor access in Europe. The partnership is intended to make private market investing more straightforward for Clearstream’s clients, in line with regulatory efforts to deepen capital markets. Ares has led a US$100 million investment in the Premier Lacrosse League, marking a move into professional sports assets. The firm has also backed..."
@@ -2641,7 +2641,7 @@
       "title": "Tesla, Rivian, Strategy, Moderna, Sandisk, Blue Owl, and More Stocks That Explain Today’s Market",
       "url": "https://finance.yahoo.com/m/2e642161-0ef1-39fd-9ac2-f1ecca51b063/tesla%2C-rivian%2C-strategy%2C.html?.tsrc=rss",
       "publishedAt": "2026-07-02T20:47:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.788Z",
+      "fetchedAt": "2026-07-07T03:57:59.173Z",
       "summary": "FEATURE Stocks were generally higher Thursday following a jobs report that showed the U.S. labor market grew at a slower pace in June. Strategy advanced 7.9% as higher cryptocurrency prices boosted the largest corporate holder of Bitcoin Robinhood Markets rose 3.",
       "facts": [
         "FEATURE Stocks were generally higher Thursday following a jobs report that showed the U.S. labor market grew at a slower pace in June. Strategy advanced 7.9% as higher cryptocurrency prices boosted the largest corporate holder of Bitcoin Robinhood Markets rose 3."
@@ -2662,7 +2662,7 @@
       "title": "Ray Kurzweil Unveils RAI",
       "url": "https://www.prnewswire.com/news-releases/ray-kurzweil-unveils-rai-302818934.html",
       "publishedAt": "2026-07-07T03:00:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "Human-First Digital Twin Makes Its Debut on Center Stage at the United Nations AI for Good Global Summit GENEVA, July 6, 2026 /PRNewswire/ -- Kurzweil Technologies and Praxis AI today announced a strategic joint venture to introduce RAI, a Human-First Digital Twin built from the lifetime... ]]>",
       "facts": [
         "Human-First Digital Twin Makes Its Debut on Center Stage at the United Nations AI for Good Global Summit GENEVA, July 6, 2026 /PRNewswire/ -- Kurzweil Technologies and Praxis AI today announced a strategic joint venture to introduce RAI, a Human-First Digital Twin built from the lifetime... ]]>"
@@ -2682,7 +2682,7 @@
       "title": "Active Motif gibt eine exklusive weltweite Vertriebsvereinbarung mit Arima Genomics für fortschrittliche 3D-Genomik-Lösungen bekannt",
       "url": "https://www.prnewswire.com/news-releases/active-motif-gibt-eine-exklusive-weltweite-vertriebsvereinbarung-mit-arima-genomics-fur-fortschrittliche-3d-genomik-losungen-bekannt-302818931.html",
       "publishedAt": "2026-07-07T02:12:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "Die Vereinbarung erweitert das Genomik-Forschungsportfolio von Active Motif und unterstützt gleichzeitig Arimas strategische Ausrichtung auf seine Plattform für klinische Diagnostik CARLSBAD, Kalifornien, 7. Juli 2026 /PRNewswire/ -- Active Motif, ein führender Anbieter von Lösungen in... ]]>",
       "facts": [
         "Die Vereinbarung erweitert das Genomik-Forschungsportfolio von Active Motif und unterstützt gleichzeitig Arimas strategische Ausrichtung auf seine Plattform für klinische Diagnostik CARLSBAD, Kalifornien, 7. Juli 2026 /PRNewswire/ -- Active Motif, ein führender Anbieter von Lösungen in... ]]>"
@@ -2696,13 +2696,13 @@
       "feedId": "prnewswire-private-equity"
     },
     {
-      "id": "prnewswire-private-equity-42e6114b",
+      "id": "prnewswire-private-equity-c64217cc",
       "source": "PR Newswire Private Equity",
       "sourceType": "company",
-      "title": "CBME China 2026 Opens July 15-17: Where the Global Baby &amp; Kids Industry Defines Its Next Chapter",
+      "title": "CBME China 2026 Opens July 15-17: Where the Global Baby & Kids Industry Defines Its Next Chapter",
       "url": "https://www.prnewswire.com/news-releases/cbme-china-2026-opens-july-15-17-where-the-global-baby--kids-industry-defines-its-next-chapter-302817971.html",
       "publishedAt": "2026-07-07T02:00:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "The World's Largest Maternity, Baby & Children Expo Unites 2,800+ Exhibitors, 4,200+ Brands, and 270,000 sqm of Trend-Setting Innovation—Positioning Buyers at the Intersection of Market Intelligence and Manufacturing Excellence SHANGHAI, July 6, 2026 /PRNewswire/ -- Organized by Informa... ]]>",
       "facts": [
         "The World's Largest Maternity, Baby & Children Expo Unites 2,800+ Exhibitors, 4,200+ Brands, and 270,000 sqm of Trend-Setting Innovation—Positioning Buyers at the Intersection of Market Intelligence and Manufacturing Excellence SHANGHAI, July 6, 2026 /PRNewswire/ -- Organized by Informa... ]]>"
@@ -2722,7 +2722,7 @@
       "title": "À l'occasion lors de la Coupe du monde de la FIFA 2026™, Hyundai Motor présente son robot humanoïde Atlas pour la toute première intégration de la robotique dans le cadre d'un match en direct",
       "url": "https://www.prnewswire.com/news-releases/a-loccasion-lors-de-la-coupe-du-monde-de-la-fifa-2026-hyundai-motor-presente-son-robot-humanoide-atlas-pour-la-toute-premiere-integration-de-la-robotique-dans-le-cadre-dun-match-en-direct-302818916.html",
       "publishedAt": "2026-07-07T01:53:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "Hyundai Motor présente l'Atlas de Boston Dynamics® dans le cadre d'un déploiement historique lors de la Coupe du monde de la FIFA 2026™, démontrant ainsi les capacités de la robotique en conditions réelles sur l'une des plus grandes scènes sportives La toute première intégration d'un... ]]>",
       "facts": [
         "Hyundai Motor présente l'Atlas de Boston Dynamics® dans le cadre d'un déploiement historique lors de la Coupe du monde de la FIFA 2026™, démontrant ainsi les capacités de la robotique en conditions réelles sur l'une des plus grandes scènes sportives La toute première intégration d'un... ]]>"
@@ -2742,7 +2742,7 @@
       "title": "X Square Robot Launches QUANXTA Zero Series, Reframing Embodied Data Production Through Universal Manipulation Interfaces",
       "url": "https://www.prnewswire.com/news-releases/x-square-robot-launches-quanxta-zero-series-reframing-embodied-data-production-through-universal-manipulation-interfaces-302818902.html",
       "publishedAt": "2026-07-07T01:28:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "SHENZHEN, China, July 6, 2026 /PRNewswire/ -- Data is the source of intelligence for foundation models. The scaling of language models has shown that model capability depends heavily on both data scale and data quality. But robotics data is far harder to obtain than language data. Today,... ]]>",
       "facts": [
         "SHENZHEN, China, July 6, 2026 /PRNewswire/ -- Data is the source of intelligence for foundation models. The scaling of language models has shown that model capability depends heavily on both data scale and data quality. But robotics data is far harder to obtain than language data. Today,... ]]>"
@@ -2762,7 +2762,7 @@
       "title": "Global Times: Grasping the global significance of Chinese modernization through 'China opportunity 2.0'",
       "url": "https://www.prnewswire.com/news-releases/global-times-grasping-the-global-significance-of-chinese-modernization-through-china-opportunity-2-0-302818894.html",
       "publishedAt": "2026-07-07T01:20:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "BEIJING, July 6, 2026 /PRNewswire/ -- At the 17th Summer Davos, \"China opportunity 2.0\" emerged as a globally trending phrase. China's innovative model - forged through relentless and painstaking efforts, tempered through extensive applications across industries as well as nurtured in an... ]]>",
       "facts": [
         "BEIJING, July 6, 2026 /PRNewswire/ -- At the 17th Summer Davos, \"China opportunity 2.0\" emerged as a globally trending phrase. China's innovative model - forged through relentless and painstaking efforts, tempered through extensive applications across industries as well as nurtured in an... ]]>"
@@ -2782,7 +2782,7 @@
       "title": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH",
       "url": "https://www.prnewswire.com/news-releases/manhattan-associates-inc-investor-news-rosen-law-firm-announces-investigation-of-breaches-of-fiduciary-duties-by-the-directors-and-officers-of-manhattan-associates-inc--manh-302818058.html",
       "publishedAt": "2026-07-07T01:14:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "NEW YORK, July 6, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, continues to investigate potential breaches of fiduciary duties by the directors and officers of Manhattan Associates, Inc. (NASDAQ: MANH). If you currently own shares of Manhattan Associates stock,... ]]>",
       "facts": [
         "NEW YORK, July 6, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, continues to investigate potential breaches of fiduciary duties by the directors and officers of Manhattan Associates, Inc. (NASDAQ: MANH). If you currently own shares of Manhattan Associates stock,... ]]>"
@@ -2802,7 +2802,7 @@
       "title": "Rosen Law Firm Encourages FLOW Cryptocurrency Investors to Inquire About Securities Class Action Investigation",
       "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-flow-cryptocurrency-investors-to-inquire-about-securities-class-action-investigation-302818067.html",
       "publishedAt": "2026-07-07T01:11:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "NEW YORK, July 6, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, continues to investigate potential securities claims on behalf of investors in FLOW (FLOW-USD) cryptocurrency, resulting from allegations that Flow Foundation may have issued materially... ]]>",
       "facts": [
         "NEW YORK, July 6, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, continues to investigate potential securities claims on behalf of investors in FLOW (FLOW-USD) cryptocurrency, resulting from allegations that Flow Foundation may have issued materially... ]]>"
@@ -2822,7 +2822,7 @@
       "title": "VIA Investors Have Opportunity to Lead Via Transportation, Inc. Securities Lawsuit",
       "url": "https://www.prnewswire.com/news-releases/via-investors-have-opportunity-to-lead-via-transportation-inc-securities-lawsuit-302818052.html",
       "publishedAt": "2026-07-07T01:02:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "NEW YORK, July 6, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Via Transportation, Inc. (NYSE: VIA) pursuant and/or traceable to the registration statement and related prospectus (collectively, the \"Offering Documents\")... ]]>",
       "facts": [
         "NEW YORK, July 6, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Via Transportation, Inc. (NYSE: VIA) pursuant and/or traceable to the registration statement and related prospectus (collectively, the \"Offering Documents\")... ]]>"
@@ -2842,7 +2842,7 @@
       "title": "Le tout premier patient international commence un traitement par lymphocytes T porteurs de récepteurs antigéniques chimériques (cellules CAR-T) récemment approuvé contre les tumeurs solides au Centre international de cancérologie Jiahui",
       "url": "https://www.prnewswire.com/news-releases/le-tout-premier-patient-international-commence-un-traitement-par-lymphocytes-t-porteurs-de-recepteurs-antigeniques-chimeriques-cellules-car-t-recemment-approuve-contre-les-tumeurs-solides-au-centre-international-de-cancerologie--302818863.html",
       "publishedAt": "2026-07-07T00:45:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "SHANGHAI, 7 juillet 2026 /PRNewswire/ -- Le Centre international de cancérologie Jiahui a accueilli le tout premier patient international à entamer un traitement par Satri-cel, la première thérapie par cellules CAR-T au monde approuvée pour le traitement de tumeurs solides, marquant ainsi... ]]>",
       "facts": [
         "SHANGHAI, 7 juillet 2026 /PRNewswire/ -- Le Centre international de cancérologie Jiahui a accueilli le tout premier patient international à entamer un traitement par Satri-cel, la première thérapie par cellules CAR-T au monde approuvée pour le traitement de tumeurs solides, marquant ainsi... ]]>"
@@ -2862,7 +2862,7 @@
       "title": "Primer paciente internacional del mundo comienza el tratamiento con la terapia CAR-T para tumores sólidos",
       "url": "https://www.prnewswire.com/news-releases/primer-paciente-internacional-del-mundo-comienza-el-tratamiento-con-la-terapia-car-t-para-tumores-solidos-302818861.html",
       "publishedAt": "2026-07-07T00:44:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "- El primer paciente internacional del mundo comienza el tratamiento con la terapia CAR-T para tumores sólidos recientemente aprobada en el Jiahui International Cancer Center SHANGHAI, 7 de julio de 2026 /PRNewswire/ -- Jiahui International Cancer Center (JICC) ha dado la bienvenida al... ]]>",
       "facts": [
         "- El primer paciente internacional del mundo comienza el tratamiento con la terapia CAR-T para tumores sólidos recientemente aprobada en el Jiahui International Cancer Center SHANGHAI, 7 de julio de 2026 /PRNewswire/ -- Jiahui International Cancer Center (JICC) ha dado la bienvenida al... ]]>"
@@ -2882,7 +2882,7 @@
       "title": "Weltweit erster internationaler Patient beginnt im Jiahui International Cancer Center die Behandlung mit einer neu zugelassenen CAR-T-Zelltherapie gegen solide Tumoren",
       "url": "https://www.prnewswire.com/news-releases/weltweit-erster-internationaler-patient-beginnt-im-jiahui-international-cancer-center-die-behandlung-mit-einer-neu-zugelassenen-car-t-zelltherapie-gegen-solide-tumoren-302818852.html",
       "publishedAt": "2026-07-07T00:25:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "SHANGHAI, 7. Juli 2026 /PRNewswire/ -- Das Jiahui International Cancer Center (JICC) hat den weltweit ersten internationalen Patienten für den Beginn einer Behandlung mit Satri-cel – der weltweit ersten zugelassenen CAR-T-Therapie gegen einen soliden Tumor – empfangen; dies markiert einen... ]]>",
       "facts": [
         "SHANGHAI, 7. Juli 2026 /PRNewswire/ -- Das Jiahui International Cancer Center (JICC) hat den weltweit ersten internationalen Patienten für den Beginn einer Behandlung mit Satri-cel – der weltweit ersten zugelassenen CAR-T-Therapie gegen einen soliden Tumor – empfangen; dies markiert einen... ]]>"
@@ -2902,7 +2902,7 @@
       "title": "Are AVB, LPRO, APGE, TMHC Obtaining Fair Deals for their Shareholders?",
       "url": "https://www.prnewswire.com/news-releases/are-avb-lpro-apge-tmhc-obtaining-fair-deals-for-their-shareholders-302818814.html",
       "publishedAt": "2026-07-07T00:02:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or... ]]>",
       "facts": [
         "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or... ]]>"
@@ -2922,7 +2922,7 @@
       "title": "Gravity Game Unite Launches 2nd Open Beta Test for PC MMORPG Ragnarok Zero: Global",
       "url": "https://www.prnewswire.com/news-releases/gravity-game-unite-launches-2nd-open-beta-test-for-pc-mmorpg-ragnarok-zero-global-302818405.html",
       "publishedAt": "2026-07-07T00:00:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "KUALA LUMPUR, Malaysia, July 7, 2026 /PRNewswire/ -- Gravity Game Unite (GGU), the Malaysian subsidiary of global game company Gravity, has officially launched the 2nd Open Beta Test (OBT2) for the PC MMORPG Ragnarok Zero: Global. The 2nd OBT runs from July 7, 2026 at 9:00 AM to July 15,... ]]>",
       "facts": [
         "KUALA LUMPUR, Malaysia, July 7, 2026 /PRNewswire/ -- Gravity Game Unite (GGU), the Malaysian subsidiary of global game company Gravity, has officially launched the 2nd Open Beta Test (OBT2) for the PC MMORPG Ragnarok Zero: Global. The 2nd OBT runs from July 7, 2026 at 9:00 AM to July 15,... ]]>"
@@ -2942,7 +2942,7 @@
       "title": "Aureka Releases OpenDDE, an Open-Source Drug Discovery Engine Designed to Accelerate AI-Driven Therapeutic Discovery",
       "url": "https://www.prnewswire.com/news-releases/aureka-releases-opendde-an-open-source-drug-discovery-engine-designed-to-accelerate-ai-driven-therapeutic-discovery-302818833.html",
       "publishedAt": "2026-07-07T00:00:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "All-atom biomolecular foundation model uses co-folding as the entry point to a scalable drug discovery engine; the release marks a concrete step toward advancing open scientific AI for future biomedical research that benefit patients. LAGUNA HILLS, Calif. and SHANGHAI, July 6, 2026... ]]>",
       "facts": [
         "All-atom biomolecular foundation model uses co-folding as the entry point to a scalable drug discovery engine; the release marks a concrete step toward advancing open scientific AI for future biomedical research that benefit patients. LAGUNA HILLS, Calif. and SHANGHAI, July 6, 2026... ]]>"
@@ -2962,90 +2962,10 @@
       "title": "Greenberg Traurig's Fred Karlinsky Now Chair-Elect of Leadership Florida",
       "url": "https://www.prnewswire.com/news-releases/greenberg-traurigs-fred-karlinsky-now-chair-elect-of-leadership-florida-302818787.html",
       "publishedAt": "2026-07-06T23:45:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
+      "fetchedAt": "2026-07-07T03:57:59.306Z",
       "summary": "FORT LAUDERDALE, Fla., July 6, 2026 /PRNewswire/ -- Fred E. Karlinsky, chair of the Global Insurance Regulatory & Transactions Practice at Greenberg Traurig, P.A., was elected Leadership Florida's Board of Directors chair-elect at the organization's annual meeting in June in Orlando.... ]]>",
       "facts": [
         "FORT LAUDERDALE, Fla., July 6, 2026 /PRNewswire/ -- Fred E. Karlinsky, chair of the Global Insurance Regulatory & Transactions Practice at Greenberg Traurig, P.A., was elected Leadership Florida's Board of Directors chair-elect at the organization's annual meeting in June in Orlando.... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity"
-    },
-    {
-      "id": "prnewswire-private-equity-7f500900",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "Shareholder Alert: Ademi LLP investigates whether Crinetics Pharmaceuticals, Inc. is obtaining a Fair Price for Public Shareholders",
-      "url": "https://www.prnewswire.com/news-releases/shareholder-alert-ademi-llp-investigates-whether-crinetics-pharmaceuticals-inc-is-obtaining-a-fair-price-for-public-shareholders-302818811.html",
-      "publishedAt": "2026-07-06T23:41:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
-      "summary": "MILWAUKEE, July 6, 2026 /PRNewswire/ -- Ademi LLP is investigating Crinetics (Nasdaq: CRNX) for possible breaches of fiduciary duty and other violations of law in its recently announced transaction with Vertex. Click here to learn how to join our investigation and obtain additional... ]]>",
-      "facts": [
-        "MILWAUKEE, July 6, 2026 /PRNewswire/ -- Ademi LLP is investigating Crinetics (Nasdaq: CRNX) for possible breaches of fiduciary duty and other violations of law in its recently announced transaction with Vertex. Click here to learn how to join our investigation and obtain additional... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity"
-    },
-    {
-      "id": "prnewswire-private-equity-cf92120a",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "MNA: Gov. Healey Convenes MGB, Nurse and Clinician Representatives at State House Monday as Historic Strike Approaches",
-      "url": "https://www.prnewswire.com/news-releases/mna-gov-healey-convenes-mgb-nurse-and-clinician-representatives-at-state-house-monday-as-historic-strike-approaches-302818828.html",
-      "publishedAt": "2026-07-06T23:38:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
-      "summary": "Brigham nurses and MGB Home Care clinicians are willing to negotiate until resolution to avoid a strike; MGB did not indicate a willingness to move during Governor's Office meeting BOSTON, July 6, 2026 /PRNewswire/ -- Less than two days ahead of the largest nurse and healthcare... ]]>",
-      "facts": [
-        "Brigham nurses and MGB Home Care clinicians are willing to negotiate until resolution to avoid a strike; MGB did not indicate a willingness to move during Governor's Office meeting BOSTON, July 6, 2026 /PRNewswire/ -- Less than two days ahead of the largest nurse and healthcare... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity"
-    },
-    {
-      "id": "prnewswire-private-equity-8c6366bd",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company",
-      "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-represents-europastry-in-agreement-to-acquire-highland-baking-company-302818782.html",
-      "publishedAt": "2026-07-06T23:36:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
-      "summary": "MIAMI, July 6, 2026 /PRNewswire/ -- Global law firm Greenberg Traurig, P.A. advised Europastry, a global leader in the frozen bakery sector, in its agreement to acquire Highland Baking Company, a family-owned U.S. producer of premium breads for the foodservice channel. The acquisition... ]]>",
-      "facts": [
-        "MIAMI, July 6, 2026 /PRNewswire/ -- Global law firm Greenberg Traurig, P.A. advised Europastry, a global leader in the frozen bakery sector, in its agreement to acquire Highland Baking Company, a family-owned U.S. producer of premium breads for the foodservice channel. The acquisition... ]]>"
-      ],
-      "tickers": [],
-      "topics": [
-        "private_markets",
-        "private_equity",
-        "deals"
-      ],
-      "feedId": "prnewswire-private-equity"
-    },
-    {
-      "id": "prnewswire-private-equity-7efc48ed",
-      "source": "PR Newswire Private Equity",
-      "sourceType": "company",
-      "title": "Are ESI, INM, HUN, OLN Obtaining Fair Deals for their Shareholders?",
-      "url": "https://www.prnewswire.com/news-releases/are-esi-inm-hun-oln-obtaining-fair-deals-for-their-shareholders-302818806.html",
-      "publishedAt": "2026-07-06T23:15:00.000Z",
-      "fetchedAt": "2026-07-07T03:06:56.862Z",
-      "summary": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or... ]]>",
-      "facts": [
-        "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or... ]]>"
       ],
       "tickers": [],
       "topics": [
@@ -3116,7 +3036,7 @@
         },
         "watchNext": "Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high."
       },
-      "fetchedAt": "2026-07-07T03:06:57.360Z"
+      "fetchedAt": "2026-07-07T03:57:59.798Z"
     },
     {
       "id": "seed-dell-ai-servers",
@@ -3191,7 +3111,7 @@
         },
         "watchNext": "Watch Dell's AI backlog, gross margin, memory supply, and whether large cloud customers keep raising capex plans."
       },
-      "fetchedAt": "2026-07-07T03:06:57.360Z"
+      "fetchedAt": "2026-07-07T03:57:59.798Z"
     },
     {
       "id": "seed-mccormick-activist",
@@ -3256,7 +3176,7 @@
         },
         "watchNext": "Watch Toms Capital's asks, shareholder reaction, regulatory milestones, synergy details, and any change in deal timing."
       },
-      "fetchedAt": "2026-07-07T03:06:57.360Z"
+      "fetchedAt": "2026-07-07T03:57:59.798Z"
     },
     {
       "id": "seed-private-equity-kkr-healthium",
@@ -3313,7 +3233,7 @@
         },
         "watchNext": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes."
       },
-      "fetchedAt": "2026-07-07T03:06:57.360Z"
+      "fetchedAt": "2026-07-07T03:57:59.798Z"
     },
     {
       "id": "seed-private-credit-ipo-window",
@@ -3382,7 +3302,7 @@
         },
         "watchNext": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction."
       },
-      "fetchedAt": "2026-07-07T03:06:57.360Z"
+      "fetchedAt": "2026-07-07T03:57:59.798Z"
     }
   ]
 }

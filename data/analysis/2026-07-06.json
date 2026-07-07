@@ -1,6 +1,6 @@
 {
   "runDate": "2026-07-06",
-  "generatedAt": "2026-07-07T03:07:36.993Z",
+  "generatedAt": "2026-07-07T03:58:18.534Z",
   "selectedCount": 2,
   "quietDay": true,
   "analyses": [
@@ -15,7 +15,7 @@
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
           "publishedAt": "2026-07-06T22:39:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.328Z",
+          "fetchedAt": "2026-07-07T03:57:58.677Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
@@ -33,15 +33,15 @@
       },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
       "editorialThesis": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
       "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
       "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-      "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-      "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes.",
+      "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes.",
       "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
       "whyItMoved": "The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -58,7 +58,7 @@
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
             "publishedAt": "2026-07-06T22:39:00.000Z",
-            "fetchedAt": "2026-07-07T03:06:56.328Z",
+            "fetchedAt": "2026-07-07T03:57:58.677Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -70,12 +70,12 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes."
+            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes."
           },
           {
             "id": "mechanism",
@@ -201,8 +201,8 @@
       ]
     },
     {
-      "id": "marketwatch-top-stories-257ca016",
-      "title": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity",
+      "id": "marketwatch-top-stories-5ae753a3",
+      "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
@@ -211,14 +211,14 @@
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
           "publishedAt": "2026-07-06T21:36:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.328Z",
+          "fetchedAt": "2026-07-07T03:57:58.677Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
       ],
       "storyCluster": {
-        "id": "story-big-tech-x2014-100-pocketing-equity",
-        "title": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity",
+        "id": "story-big-tech-100-pocketing-equity-built",
+        "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
         "sourceDiversity": 1,
         "coverageCount": 1,
         "evidenceSourceCount": 1,
@@ -229,15 +229,15 @@
       },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerSummary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerDek": "Your share of the AI wealth is a right &#x2014; not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
-      "editorialThesis": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "summary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "Your share of the AI wealth is a right — not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "editorialThesis": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
       "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
       "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-      "whatChangedToday": "Your share of the AI wealth is a right &#x2014; not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-      "whatHappened": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money.",
+      "whatChangedToday": "Your share of the AI wealth is a right — not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money.",
       "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
       "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -254,7 +254,7 @@
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
             "publishedAt": "2026-07-06T21:36:00.000Z",
-            "fetchedAt": "2026-07-07T03:06:56.328Z",
+            "fetchedAt": "2026-07-07T03:57:58.677Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -266,12 +266,12 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money."
+            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right — not a handout. Here is how we claw back our money."
           },
           {
             "id": "mechanism",

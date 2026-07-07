@@ -2,8 +2,8 @@
   "runDate": "2026-07-06",
   "title": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
   "dek": "A selective banker-grade read of the few fresh items with enough evidence to support real analysis.",
-  "generatedAt": "2026-07-07T03:07:36.993Z",
-  "sourceRunAt": "2026-07-07T03:06:57.360Z",
+  "generatedAt": "2026-07-07T03:58:18.534Z",
+  "sourceRunAt": "2026-07-07T03:57:59.798Z",
   "freshnessStatus": "LIVE",
   "moves": [
     {
@@ -17,7 +17,7 @@
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
           "publishedAt": "2026-07-06T22:39:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.328Z",
+          "fetchedAt": "2026-07-07T03:57:58.677Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
@@ -35,15 +35,15 @@
       },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
       "editorialThesis": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
       "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
       "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-      "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-      "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes.",
+      "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes.",
       "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
       "whyItMoved": "The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -60,7 +60,7 @@
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
             "publishedAt": "2026-07-06T22:39:00.000Z",
-            "fetchedAt": "2026-07-07T03:06:56.328Z",
+            "fetchedAt": "2026-07-07T03:57:58.677Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -72,12 +72,12 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes."
+            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes."
           },
           {
             "id": "mechanism",
@@ -203,8 +203,8 @@
       ]
     },
     {
-      "id": "marketwatch-top-stories-257ca016",
-      "title": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity",
+      "id": "marketwatch-top-stories-5ae753a3",
+      "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
@@ -213,14 +213,14 @@
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
           "publishedAt": "2026-07-06T21:36:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.328Z",
+          "fetchedAt": "2026-07-07T03:57:58.677Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
       ],
       "storyCluster": {
-        "id": "story-big-tech-x2014-100-pocketing-equity",
-        "title": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity",
+        "id": "story-big-tech-100-pocketing-equity-built",
+        "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
         "sourceDiversity": 1,
         "coverageCount": 1,
         "evidenceSourceCount": 1,
@@ -231,15 +231,15 @@
       },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerSummary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerDek": "Your share of the AI wealth is a right &#x2014; not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
-      "editorialThesis": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "summary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "Your share of the AI wealth is a right — not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "editorialThesis": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
       "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
       "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-      "whatChangedToday": "Your share of the AI wealth is a right &#x2014; not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-      "whatHappened": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money.",
+      "whatChangedToday": "Your share of the AI wealth is a right — not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money.",
       "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
       "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -256,7 +256,7 @@
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
             "publishedAt": "2026-07-06T21:36:00.000Z",
-            "fetchedAt": "2026-07-07T03:06:56.328Z",
+            "fetchedAt": "2026-07-07T03:57:58.677Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -268,12 +268,12 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money."
+            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right — not a handout. Here is how we claw back our money."
           },
           {
             "id": "mechanism",
@@ -324,21 +324,21 @@
               "source": "MarketWatch Top Stories",
               "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
               "publishedAt": "2026-07-06T22:39:00.000Z",
-              "fetchedAt": "2026-07-07T03:06:56.328Z"
+              "fetchedAt": "2026-07-07T03:57:58.677Z"
             }
           ],
           "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "Medium",
-          "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-          "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-          "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+          "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
           "editorialThesis": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
           "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
           "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
           "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-          "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-          "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes.",
+          "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+          "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes.",
           "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
           "whyItMoved": "The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
           "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -355,7 +355,7 @@
                 "source": "MarketWatch Top Stories",
                 "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
                 "publishedAt": "2026-07-06T22:39:00.000Z",
-                "fetchedAt": "2026-07-07T03:06:56.328Z"
+                "fetchedAt": "2026-07-07T03:57:58.677Z"
               }
             ]
           },
@@ -365,12 +365,12 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+                "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
               },
               {
                 "id": "tape",
                 "heading": "What moved and what it suggests",
-                "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes."
+                "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes."
               },
               {
                 "id": "mechanism",
@@ -497,8 +497,8 @@
           "overnightSignal": true
         },
         {
-          "id": "marketwatch-top-stories-257ca016",
-          "title": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity",
+          "id": "marketwatch-top-stories-5ae753a3",
+          "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
           "editorialLane": "markets",
           "editorialLaneLabel": "Markets",
           "privateMarketSegment": null,
@@ -507,21 +507,21 @@
               "source": "MarketWatch Top Stories",
               "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
               "publishedAt": "2026-07-06T21:36:00.000Z",
-              "fetchedAt": "2026-07-07T03:06:56.328Z"
+              "fetchedAt": "2026-07-07T03:57:58.677Z"
             }
           ],
           "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "Medium",
-          "summary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-          "readerSummary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-          "readerDek": "Your share of the AI wealth is a right &#x2014; not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
-          "editorialThesis": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "summary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerSummary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerDek": "Your share of the AI wealth is a right — not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+          "editorialThesis": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
           "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
           "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
           "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-          "whatChangedToday": "Your share of the AI wealth is a right &#x2014; not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-          "whatHappened": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money.",
+          "whatChangedToday": "Your share of the AI wealth is a right — not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+          "whatHappened": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money.",
           "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
           "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
           "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -538,7 +538,7 @@
                 "source": "MarketWatch Top Stories",
                 "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
                 "publishedAt": "2026-07-06T21:36:00.000Z",
-                "fetchedAt": "2026-07-07T03:06:56.328Z"
+                "fetchedAt": "2026-07-07T03:57:58.677Z"
               }
             ]
           },
@@ -548,12 +548,12 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+                "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
               },
               {
                 "id": "tape",
                 "heading": "What moved and what it suggests",
-                "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money."
+                "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right — not a handout. Here is how we claw back our money."
               },
               {
                 "id": "mechanism",
@@ -586,8 +586,8 @@
           "overnightSignal": true
         },
         {
-          "id": "marketwatch-top-stories-79b64d96",
-          "title": "Stocks rally when Congress goes on summer break. Here&#x2019;s why.",
+          "id": "marketwatch-top-stories-ad8d4a83",
+          "title": "Stocks rally when Congress goes on summer break. Here’s why.",
           "editorialLane": "markets",
           "editorialLaneLabel": "Markets",
           "privateMarketSegment": null,
@@ -596,7 +596,7 @@
               "source": "MarketWatch Top Stories",
               "url": "https://www.marketwatch.com/story/stocks-rally-when-congress-goes-on-summer-break-here-is-the-hidden-reason-e70a6be3?mod=mw_rss_topstories",
               "publishedAt": "2026-07-06T21:18:00.000Z",
-              "fetchedAt": "2026-07-07T03:06:56.328Z"
+              "fetchedAt": "2026-07-07T03:57:58.677Z"
             }
           ],
           "storyCluster": null,
@@ -605,7 +605,7 @@
           "summary": "Stock prices face greater volatility when lawmakers are active, driven entirely by the regulatory uncertainty they create. The market read is how investors are repricing the story, not just that the headline happened.",
           "readerSummary": "Stock prices face greater volatility when lawmakers are active, driven entirely by the regulatory uncertainty they create. The market read is how investors are repricing the story, not just that the headline happened.",
           "readerDek": "Stock prices face greater volatility when lawmakers are active, driven entirely by the regulatory uncertainty they create. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
-          "editorialThesis": "Stocks rally when Congress goes on summer break. Here&#x2019;s why. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "editorialThesis": "Stocks rally when Congress goes on summer break. Here’s why. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
           "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
           "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
           "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
@@ -627,7 +627,7 @@
                 "source": "MarketWatch Top Stories",
                 "url": "https://www.marketwatch.com/story/stocks-rally-when-congress-goes-on-summer-break-here-is-the-hidden-reason-e70a6be3?mod=mw_rss_topstories",
                 "publishedAt": "2026-07-06T21:18:00.000Z",
-                "fetchedAt": "2026-07-07T03:06:56.328Z"
+                "fetchedAt": "2026-07-07T03:57:58.677Z"
               }
             ]
           },
@@ -692,7 +692,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-14T12:30:00.000Z",
           "scheduledDate": "2026-07-14",
-          "fetchedAt": "2026-07-07T03:07:12.943Z"
+          "fetchedAt": "2026-07-07T03:58:17.283Z"
         },
         {
           "id": "fed-fomc-july-2026-07-29",
@@ -703,7 +703,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-29T18:00:00.000Z",
           "scheduledDate": "2026-07-29",
-          "fetchedAt": "2026-07-07T03:07:12.943Z"
+          "fetchedAt": "2026-07-07T03:58:17.283Z"
         },
         {
           "id": "bea-gdp-advance-estimate-2nd-quarter-2026-2026-07-30",
@@ -714,7 +714,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-30T12:30:00.000Z",
           "scheduledDate": "2026-07-30",
-          "fetchedAt": "2026-07-07T03:07:12.943Z"
+          "fetchedAt": "2026-07-07T03:58:17.283Z"
         },
         {
           "id": "bea-personal-income-and-outlays-june-2026-2026-07-30",
@@ -725,7 +725,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-30T12:30:00.000Z",
           "scheduledDate": "2026-07-30",
-          "fetchedAt": "2026-07-07T03:07:12.943Z"
+          "fetchedAt": "2026-07-07T03:58:17.283Z"
         },
         {
           "id": "bls-employment-situation-2026-08-07",
@@ -736,7 +736,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-07T12:30:00.000Z",
           "scheduledDate": "2026-08-07",
-          "fetchedAt": "2026-07-07T03:07:12.943Z"
+          "fetchedAt": "2026-07-07T03:58:17.283Z"
         },
         {
           "id": "bls-consumer-price-index-2026-08-12",
@@ -747,7 +747,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-12T12:30:00.000Z",
           "scheduledDate": "2026-08-12",
-          "fetchedAt": "2026-07-07T03:07:12.943Z"
+          "fetchedAt": "2026-07-07T03:58:17.283Z"
         },
         {
           "id": "bea-gdp-second-estimate-and-corporate-profits-2nd-quarter-2026-2026-08-26",
@@ -758,7 +758,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-26T12:30:00.000Z",
           "scheduledDate": "2026-08-26",
-          "fetchedAt": "2026-07-07T03:07:12.943Z"
+          "fetchedAt": "2026-07-07T03:58:17.283Z"
         },
         {
           "id": "bea-personal-income-and-outlays-july-2026-2026-08-26",
@@ -769,7 +769,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-26T12:30:00.000Z",
           "scheduledDate": "2026-08-26",
-          "fetchedAt": "2026-07-07T03:07:12.943Z"
+          "fetchedAt": "2026-07-07T03:58:17.283Z"
         }
       ]
     },
@@ -787,21 +787,21 @@
               "source": "MarketWatch Top Stories",
               "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
               "publishedAt": "2026-07-06T22:39:00.000Z",
-              "fetchedAt": "2026-07-07T03:06:56.328Z"
+              "fetchedAt": "2026-07-07T03:57:58.677Z"
             }
           ],
           "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "Medium",
-          "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-          "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-          "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+          "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
           "editorialThesis": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
           "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
           "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
           "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-          "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-          "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes.",
+          "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+          "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes.",
           "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
           "whyItMoved": "The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
           "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -818,7 +818,7 @@
                 "source": "MarketWatch Top Stories",
                 "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
                 "publishedAt": "2026-07-06T22:39:00.000Z",
-                "fetchedAt": "2026-07-07T03:06:56.328Z"
+                "fetchedAt": "2026-07-07T03:57:58.677Z"
               }
             ]
           },
@@ -828,12 +828,12 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+                "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
               },
               {
                 "id": "tape",
                 "heading": "What moved and what it suggests",
-                "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes."
+                "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes."
               },
               {
                 "id": "mechanism",
@@ -959,8 +959,8 @@
           ]
         },
         {
-          "id": "marketwatch-top-stories-257ca016",
-          "title": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity",
+          "id": "marketwatch-top-stories-5ae753a3",
+          "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
           "editorialLane": "markets",
           "editorialLaneLabel": "Markets",
           "privateMarketSegment": null,
@@ -969,21 +969,21 @@
               "source": "MarketWatch Top Stories",
               "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
               "publishedAt": "2026-07-06T21:36:00.000Z",
-              "fetchedAt": "2026-07-07T03:06:56.328Z"
+              "fetchedAt": "2026-07-07T03:57:58.677Z"
             }
           ],
           "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "Medium",
-          "summary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-          "readerSummary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-          "readerDek": "Your share of the AI wealth is a right &#x2014; not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
-          "editorialThesis": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "summary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerSummary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerDek": "Your share of the AI wealth is a right — not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+          "editorialThesis": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
           "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
           "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
           "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-          "whatChangedToday": "Your share of the AI wealth is a right &#x2014; not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-          "whatHappened": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money.",
+          "whatChangedToday": "Your share of the AI wealth is a right — not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+          "whatHappened": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money.",
           "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
           "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
           "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -1000,7 +1000,7 @@
                 "source": "MarketWatch Top Stories",
                 "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
                 "publishedAt": "2026-07-06T21:36:00.000Z",
-                "fetchedAt": "2026-07-07T03:06:56.328Z"
+                "fetchedAt": "2026-07-07T03:57:58.677Z"
               }
             ]
           },
@@ -1010,12 +1010,12 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+                "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
               },
               {
                 "id": "tape",
                 "heading": "What moved and what it suggests",
-                "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money."
+                "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right — not a handout. Here is how we claw back our money."
               },
               {
                 "id": "mechanism",
@@ -1047,8 +1047,8 @@
           ]
         },
         {
-          "id": "marketwatch-top-stories-79b64d96",
-          "title": "Stocks rally when Congress goes on summer break. Here&#x2019;s why.",
+          "id": "marketwatch-top-stories-ad8d4a83",
+          "title": "Stocks rally when Congress goes on summer break. Here’s why.",
           "editorialLane": "markets",
           "editorialLaneLabel": "Markets",
           "privateMarketSegment": null,
@@ -1057,7 +1057,7 @@
               "source": "MarketWatch Top Stories",
               "url": "https://www.marketwatch.com/story/stocks-rally-when-congress-goes-on-summer-break-here-is-the-hidden-reason-e70a6be3?mod=mw_rss_topstories",
               "publishedAt": "2026-07-06T21:18:00.000Z",
-              "fetchedAt": "2026-07-07T03:06:56.328Z"
+              "fetchedAt": "2026-07-07T03:57:58.677Z"
             }
           ],
           "storyCluster": null,
@@ -1066,7 +1066,7 @@
           "summary": "Stock prices face greater volatility when lawmakers are active, driven entirely by the regulatory uncertainty they create. The market read is how investors are repricing the story, not just that the headline happened.",
           "readerSummary": "Stock prices face greater volatility when lawmakers are active, driven entirely by the regulatory uncertainty they create. The market read is how investors are repricing the story, not just that the headline happened.",
           "readerDek": "Stock prices face greater volatility when lawmakers are active, driven entirely by the regulatory uncertainty they create. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
-          "editorialThesis": "Stocks rally when Congress goes on summer break. Here&#x2019;s why. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "editorialThesis": "Stocks rally when Congress goes on summer break. Here’s why. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
           "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
           "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
           "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
@@ -1088,7 +1088,7 @@
                 "source": "MarketWatch Top Stories",
                 "url": "https://www.marketwatch.com/story/stocks-rally-when-congress-goes-on-summer-break-here-is-the-hidden-reason-e70a6be3?mod=mw_rss_topstories",
                 "publishedAt": "2026-07-06T21:18:00.000Z",
-                "fetchedAt": "2026-07-07T03:06:56.328Z"
+                "fetchedAt": "2026-07-07T03:57:58.677Z"
               }
             ]
           },
@@ -1142,48 +1142,48 @@
       "label": "Private Markets",
       "items": [
         {
-          "id": "prnewswire-private-equity-8c6366bd",
-          "title": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company",
+          "id": "prnewswire-private-equity-2281d0e7",
+          "title": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH",
           "editorialLane": "private_markets",
           "editorialLaneLabel": "Private Markets",
           "privateMarketSegment": "private_equity",
           "sourceTrail": [
             {
               "source": "PR Newswire Private Equity",
-              "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-represents-europastry-in-agreement-to-acquire-highland-baking-company-302818782.html",
-              "publishedAt": "2026-07-06T23:36:00.000Z",
-              "fetchedAt": "2026-07-07T03:06:56.862Z"
+              "url": "https://www.prnewswire.com/news-releases/manhattan-associates-inc-investor-news-rosen-law-firm-announces-investigation-of-breaches-of-fiduciary-duties-by-the-directors-and-officers-of-manhattan-associates-inc--manh-302818058.html",
+              "publishedAt": "2026-07-07T01:14:00.000Z",
+              "fetchedAt": "2026-07-07T03:57:59.306Z"
             }
           ],
           "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "Medium",
-          "summary": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
-          "readerSummary": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
-          "readerDek": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company For readers, the issue is how that fact changes exit routes, buyer depth and sponsor marks, not whether the headline is interesting on its own.",
-          "editorialThesis": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
-          "ibAngle": "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+          "summary": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH Read the signal through sponsor activity, valuation discipline, true exit liquidity, and financing conditions.",
+          "readerSummary": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH Read the signal through sponsor activity, valuation discipline, true exit liquidity, and financing conditions.",
+          "readerDek": "Manhattan Associates, Inc. For readers, the issue is how that fact changes exit routes, buyer depth and sponsor marks, not whether the headline is interesting on its own.",
+          "editorialThesis": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH matters as a private markets story because it connects a concrete fact to exit routes, buyer depth and sponsor marks. Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
+          "ibAngle": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
           "interviewLine": "Start with the fact, explain the mechanism through exit routes, buyer depth and sponsor marks, then say what you would watch next: Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions.",
           "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-          "whatChangedToday": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company The new read is The fresh fact tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
-          "whatHappened": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company",
+          "whatChangedToday": "Manhattan Associates, Inc. The new read is The fresh fact tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
+          "whatHappened": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH",
           "whatMoved": "The fresh fact tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
           "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
           "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
           "financingImplication": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk.",
           "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
           "parallel": {
-            "precedent": "Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023.",
-            "outcome": "Those tools created liquidity for some LPs but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved.",
-            "whatRhymes": "The same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark.",
-            "whatDiffers": "Today the highest-quality assets may access IPO or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures.",
-            "soWhat": "Treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity.",
+            "precedent": "Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit.",
+            "outcome": "Companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks.",
+            "whatRhymes": "The useful comparison is whether today's public-market signal improves or limits exit routes for private owners.",
+            "whatDiffers": "Private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors.",
+            "soWhat": "Use the signal to judge exit timing and financing appetite, not to guess private marks without evidence.",
             "sourceTrail": [
               {
                 "source": "PR Newswire Private Equity",
-                "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-represents-europastry-in-agreement-to-acquire-highland-baking-company-302818782.html",
-                "publishedAt": "2026-07-06T23:36:00.000Z",
-                "fetchedAt": "2026-07-07T03:06:56.862Z"
+                "url": "https://www.prnewswire.com/news-releases/manhattan-associates-inc-investor-news-rosen-law-firm-announces-investigation-of-breaches-of-fiduciary-duties-by-the-directors-and-officers-of-manhattan-associates-inc--manh-302818058.html",
+                "publishedAt": "2026-07-07T01:14:00.000Z",
+                "fetchedAt": "2026-07-07T03:57:59.306Z"
               }
             ]
           },
@@ -1193,32 +1193,32 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "Source detail (PR Newswire Private Equity): Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
+                "body": "Source detail (PR Newswire Private Equity): Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, buyer depth, and valuation discipline rather than treating it as gossip about private marks."
               },
               {
                 "id": "signal",
                 "heading": "What the public signal is actually telling us",
-                "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
+                "body": "The signal is not the headline alone; it is the observable transaction, financing, filing, or issuer action behind it. The fresh fact tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment. Source detail: Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH"
               },
               {
                 "id": "interpretation",
                 "heading": "How to read the sponsor or exit implication",
-                "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
+                "body": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round. Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk. The underwriting test is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify risk today."
               },
               {
                 "id": "evidence",
                 "heading": "Where the evidence is strong versus indirect",
-                "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
+                "body": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
               },
               {
                 "id": "parallel",
                 "heading": "Relevant comparison",
-                "body": "A useful parallel is Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023. In that earlier setup, those tools created liquidity for some lps but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved. What rhymes is the same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark. What is different this time is today the highest-quality assets may access ipo or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures. The bottom line is treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity."
+                "body": "A useful parallel is Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit. In that earlier setup, companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks. What rhymes is the useful comparison is whether today's public-market signal improves or limits exit routes for private owners. What is different this time is private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors. The bottom line is use the signal to judge exit timing and financing appetite, not to guess private marks without evidence."
               },
               {
                 "id": "watch-next",
                 "heading": "What would confirm or weaken the read",
-                "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+                "body": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
               }
             ]
           },
@@ -1281,7 +1281,6 @@
           "relatedLinks": [],
           "storyline": null,
           "concepts": [
-            "acquisition",
             "private_equity"
           ],
           "sectionBackfill": true
@@ -1292,48 +1291,48 @@
           "label": "Private Equity",
           "items": [
             {
-              "id": "prnewswire-private-equity-8c6366bd",
-              "title": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company",
+              "id": "prnewswire-private-equity-2281d0e7",
+              "title": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH",
               "editorialLane": "private_markets",
               "editorialLaneLabel": "Private Markets",
               "privateMarketSegment": "private_equity",
               "sourceTrail": [
                 {
                   "source": "PR Newswire Private Equity",
-                  "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-represents-europastry-in-agreement-to-acquire-highland-baking-company-302818782.html",
-                  "publishedAt": "2026-07-06T23:36:00.000Z",
-                  "fetchedAt": "2026-07-07T03:06:56.862Z"
+                  "url": "https://www.prnewswire.com/news-releases/manhattan-associates-inc-investor-news-rosen-law-firm-announces-investigation-of-breaches-of-fiduciary-duties-by-the-directors-and-officers-of-manhattan-associates-inc--manh-302818058.html",
+                  "publishedAt": "2026-07-07T01:14:00.000Z",
+                  "fetchedAt": "2026-07-07T03:57:59.306Z"
                 }
               ],
               "storyCluster": null,
               "freshnessStatus": "FRESH",
               "confidence": "Medium",
-              "summary": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
-              "readerSummary": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
-              "readerDek": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company For readers, the issue is how that fact changes exit routes, buyer depth and sponsor marks, not whether the headline is interesting on its own.",
-              "editorialThesis": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
-              "ibAngle": "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+              "summary": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH Read the signal through sponsor activity, valuation discipline, true exit liquidity, and financing conditions.",
+              "readerSummary": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH Read the signal through sponsor activity, valuation discipline, true exit liquidity, and financing conditions.",
+              "readerDek": "Manhattan Associates, Inc. For readers, the issue is how that fact changes exit routes, buyer depth and sponsor marks, not whether the headline is interesting on its own.",
+              "editorialThesis": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH matters as a private markets story because it connects a concrete fact to exit routes, buyer depth and sponsor marks. Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
+              "ibAngle": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
               "interviewLine": "Start with the fact, explain the mechanism through exit routes, buyer depth and sponsor marks, then say what you would watch next: Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions.",
               "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-              "whatChangedToday": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company The new read is The fresh fact tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
-              "whatHappened": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company",
+              "whatChangedToday": "Manhattan Associates, Inc. The new read is The fresh fact tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
+              "whatHappened": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH",
               "whatMoved": "The fresh fact tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
               "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
               "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
               "financingImplication": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk.",
               "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
               "parallel": {
-                "precedent": "Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023.",
-                "outcome": "Those tools created liquidity for some LPs but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved.",
-                "whatRhymes": "The same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark.",
-                "whatDiffers": "Today the highest-quality assets may access IPO or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures.",
-                "soWhat": "Treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity.",
+                "precedent": "Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit.",
+                "outcome": "Companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks.",
+                "whatRhymes": "The useful comparison is whether today's public-market signal improves or limits exit routes for private owners.",
+                "whatDiffers": "Private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors.",
+                "soWhat": "Use the signal to judge exit timing and financing appetite, not to guess private marks without evidence.",
                 "sourceTrail": [
                   {
                     "source": "PR Newswire Private Equity",
-                    "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-represents-europastry-in-agreement-to-acquire-highland-baking-company-302818782.html",
-                    "publishedAt": "2026-07-06T23:36:00.000Z",
-                    "fetchedAt": "2026-07-07T03:06:56.862Z"
+                    "url": "https://www.prnewswire.com/news-releases/manhattan-associates-inc-investor-news-rosen-law-firm-announces-investigation-of-breaches-of-fiduciary-duties-by-the-directors-and-officers-of-manhattan-associates-inc--manh-302818058.html",
+                    "publishedAt": "2026-07-07T01:14:00.000Z",
+                    "fetchedAt": "2026-07-07T03:57:59.306Z"
                   }
                 ]
               },
@@ -1343,32 +1342,32 @@
                   {
                     "id": "takeaway",
                     "heading": "Plain-English takeaway",
-                    "body": "Source detail (PR Newswire Private Equity): Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
+                    "body": "Source detail (PR Newswire Private Equity): Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, buyer depth, and valuation discipline rather than treating it as gossip about private marks."
                   },
                   {
                     "id": "signal",
                     "heading": "What the public signal is actually telling us",
-                    "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
+                    "body": "The signal is not the headline alone; it is the observable transaction, financing, filing, or issuer action behind it. The fresh fact tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment. Source detail: Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH"
                   },
                   {
                     "id": "interpretation",
                     "heading": "How to read the sponsor or exit implication",
-                    "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
+                    "body": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round. Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk. The underwriting test is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify risk today."
                   },
                   {
                     "id": "evidence",
                     "heading": "Where the evidence is strong versus indirect",
-                    "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
+                    "body": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
                   },
                   {
                     "id": "parallel",
                     "heading": "Relevant comparison",
-                    "body": "A useful parallel is Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023. In that earlier setup, those tools created liquidity for some lps but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved. What rhymes is the same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark. What is different this time is today the highest-quality assets may access ipo or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures. The bottom line is treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity."
+                    "body": "A useful parallel is Earlier private-market slowdowns where IPO windows narrowed and sponsors leaned harder on continuation funds, secondaries, and private credit. In that earlier setup, companies with clean growth and public-market comparables could still exit; weaker stories stayed private longer or accepted lower marks. What rhymes is the useful comparison is whether today's public-market signal improves or limits exit routes for private owners. What is different this time is private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors. The bottom line is use the signal to judge exit timing and financing appetite, not to guess private marks without evidence."
                   },
                   {
                     "id": "watch-next",
                     "heading": "What would confirm or weaken the read",
-                    "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+                    "body": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
                   }
                 ]
               },
@@ -1431,7 +1430,6 @@
               "relatedLinks": [],
               "storyline": null,
               "concepts": [
-                "acquisition",
                 "private_equity"
               ],
               "sectionBackfill": true
@@ -1466,25 +1464,25 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/does-ares-clearstream-deal-spac-221637360.html?.tsrc=rss",
           "publishedAt": "2026-07-03T22:16:37.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.788Z"
+          "fetchedAt": "2026-07-07T03:57:59.173Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ares-management-ares-brings-private-010732067.html?.tsrc=rss",
           "publishedAt": "2026-07-03T01:07:32.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.788Z"
+          "fetchedAt": "2026-07-07T03:57:59.173Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-arcc-considered-good-133004655.html?.tsrc=rss",
           "publishedAt": "2026-07-06T13:30:04.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.788Z"
+          "fetchedAt": "2026-07-07T03:57:59.173Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/ares-management-ares-stock-looks-001517433.html?.tsrc=rss",
           "publishedAt": "2026-07-04T00:15:17.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.788Z"
+          "fetchedAt": "2026-07-07T03:57:59.173Z"
         }
       ],
       "watchNext": "Watch filing updates, valuation range, cornerstone demand, and whether peer multiples support the proposed price.",
@@ -1519,25 +1517,25 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-stock-221619877.html?.tsrc=rss",
           "publishedAt": "2026-07-03T22:16:19.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.788Z"
+          "fetchedAt": "2026-07-07T03:57:59.173Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-caps-191503337.html?.tsrc=rss",
           "publishedAt": "2026-07-03T19:15:03.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.788Z"
+          "fetchedAt": "2026-07-07T03:57:59.173Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/media-advertising/articles/blue-owls-homecourt-partners-fund-133000128.html?.tsrc=rss",
           "publishedAt": "2026-07-06T13:30:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.788Z"
+          "fetchedAt": "2026-07-07T03:57:59.173Z"
         },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-puts-041615164.html?.tsrc=rss",
           "publishedAt": "2026-07-04T04:16:15.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.788Z"
+          "fetchedAt": "2026-07-07T03:57:59.173Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -1551,38 +1549,6 @@
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-07-03T22:16:19.000Z",
       "rank": 2
-    },
-    {
-      "id": "deal-title-greenberg-traurig-represents-europastry-agreement",
-      "title": "Greenberg Traurig Represents Europastry in Agreement to Acquire Highland Baking Company",
-      "summary": "MIAMI, July 6, 2026 /PRNewswire/ -- Global law firm Greenberg Traurig, P.A. advised Europastry, a global leader in the frozen bakery sector, in its agreement to acquire Highland Baking Company, a family-owned U.S. producer of premium breads for the foodservice channel. The acquisition... ]]>",
-      "primaryLane": null,
-      "rankScore": 77,
-      "dealStrength": {
-        "score": 93.8,
-        "label": "High"
-      },
-      "updateStrength": {
-        "score": 40,
-        "label": "Developing"
-      },
-      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
-      "sourceTrail": [
-        {
-          "source": "PR Newswire Private Equity",
-          "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-represents-europastry-in-agreement-to-acquire-highland-baking-company-302818782.html",
-          "publishedAt": "2026-07-06T23:36:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.862Z"
-        }
-      ],
-      "watchNext": "Watch financing details, regulatory path, shareholder vote, timing, and any change in price or certainty.",
-      "clusteredItemCount": 1,
-      "relatedItemIds": [
-        "prnewswire-private-equity-8c6366bd"
-      ],
-      "freshnessStatus": "FRESH",
-      "publishedAt": "2026-07-06T23:36:00.000Z",
-      "rank": 3
     },
     {
       "id": "deal-names-blackstone",
@@ -1604,31 +1570,31 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/energy/articles/blackstone-energy-transition-partners-announces-140000029.html?.tsrc=rss",
           "publishedAt": "2026-07-06T14:00:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.563Z"
+          "fetchedAt": "2026-07-07T03:57:58.916Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://www.abqjournal.com/business/new-mexico-regulators-order-blackstone-txnm-to-unwind-400-million-stock-sale/3075270?.tsrc=rss",
           "publishedAt": "2026-07-02T19:02:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.563Z"
+          "fetchedAt": "2026-07-07T03:57:58.916Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-files-jersey-mikes-public-235226854.html?.tsrc=rss",
           "publishedAt": "2026-07-02T23:52:26.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.563Z"
+          "fetchedAt": "2026-07-07T03:57:58.916Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/technology/articles/blackstone-qts-said-abandon-virginia-185842048.html?.tsrc=rss",
           "publishedAt": "2026-07-02T18:58:42.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.563Z"
+          "fetchedAt": "2026-07-07T03:57:58.916Z"
         },
         {
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/technology/ai/articles/blackstones-virginia-ai-buildout-suffers-161902908.html?.tsrc=rss",
           "publishedAt": "2026-07-03T16:19:02.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.563Z"
+          "fetchedAt": "2026-07-07T03:57:58.916Z"
         }
       ],
       "watchNext": "Watch filings, financing terms, counterparties, approvals, and the next disclosed fact that changes certainty or value.",
@@ -1642,7 +1608,7 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-07-06T14:00:00.000Z",
-      "rank": 4
+      "rank": 3
     },
     {
       "id": "deal-title-kurzweil-unveils",
@@ -1664,7 +1630,7 @@
           "source": "PR Newswire Private Equity",
           "url": "https://www.prnewswire.com/news-releases/ray-kurzweil-unveils-rai-302818934.html",
           "publishedAt": "2026-07-07T03:00:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.862Z"
+          "fetchedAt": "2026-07-07T03:57:59.306Z"
         }
       ],
       "watchNext": "Watch filings, financing terms, counterparties, approvals, and the next disclosed fact that changes certainty or value.",
@@ -1674,7 +1640,7 @@
       ],
       "freshnessStatus": "LIVE",
       "publishedAt": "2026-07-07T03:00:00.000Z",
-      "rank": 5
+      "rank": 4
     },
     {
       "id": "deal-tickers-KKR",
@@ -1696,7 +1662,7 @@
           "source": "KKR",
           "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
           "publishedAt": "2026-05-29T10:05:00-04:00",
-          "fetchedAt": "2026-07-07T03:06:57.360Z"
+          "fetchedAt": "2026-07-07T03:57:59.798Z"
         }
       ],
       "watchNext": "Watch financing details, regulatory path, shareholder vote, timing, and any change in price or certainty.",
@@ -1706,7 +1672,7 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-05-29T10:05:00-04:00",
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "deal-names-blackstone-anthropic",
@@ -1728,7 +1694,7 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/technology/ai/articles/blackstones-bxpe-posts-record-4-165754720.html?.tsrc=rss",
           "publishedAt": "2026-07-03T16:57:54.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.563Z"
+          "fetchedAt": "2026-07-07T03:57:58.916Z"
         }
       ],
       "watchNext": "Watch filing updates, valuation range, cornerstone demand, and whether peer multiples support the proposed price.",
@@ -1738,7 +1704,7 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-07-03T16:57:54.000Z",
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "deal-tickers-ARCC-BXSL-OWL",
@@ -1760,7 +1726,7 @@
           "source": "Blue Owl Capital",
           "url": "https://ir.blueowl.com/",
           "publishedAt": "2026-05-29T11:30:00-04:00",
-          "fetchedAt": "2026-07-07T03:06:57.360Z"
+          "fetchedAt": "2026-07-07T03:57:59.798Z"
         }
       ],
       "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
@@ -1770,6 +1736,38 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-05-29T11:30:00-04:00",
+      "rank": 7
+    },
+    {
+      "id": "deal-names-blue-owl-blackstone",
+      "title": "Jim Cramer Says He Would Avoid Blue Owl and Prefers Blackstone",
+      "summary": "Blackstone Inc. (NYSE:BX) was among the stocks Jim Cramer commented on as he advised investors on how to take advantage of Wednesday’s market rotation. Cramer discussed the stock while explaining how doomsayers missed the mark on private credit. He said: How about the gains in the brokerage and private equity stock groups that have been […]",
+      "primaryLane": null,
+      "rankScore": 57,
+      "dealStrength": {
+        "score": 70.6,
+        "label": "High"
+      },
+      "updateStrength": {
+        "score": 20,
+        "label": "Developing"
+      },
+      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Public PE Managers",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-avoid-blue-142020139.html?.tsrc=rss",
+          "publishedAt": "2026-07-04T14:20:20.000Z",
+          "fetchedAt": "2026-07-07T03:57:58.916Z"
+        }
+      ],
+      "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
+      "clusteredItemCount": 1,
+      "relatedItemIds": [
+        "private-equity-public-proxies-16ba2cc0"
+      ],
+      "freshnessStatus": "BACKGROUND",
+      "publishedAt": "2026-07-04T14:20:20.000Z",
       "rank": 8
     }
   ],
@@ -1780,7 +1778,7 @@
       "name": "S&P 500",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-07T03:06:59.510Z",
+      "fetchedAt": "2026-07-07T03:58:01.965Z",
       "latestDate": "2026-07-06",
       "price": 751.280029296875,
       "change": 6.5,
@@ -1793,7 +1791,7 @@
       "name": "Nasdaq 100",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-07T03:06:59.605Z",
+      "fetchedAt": "2026-07-07T03:58:02.080Z",
       "latestDate": "2026-07-06",
       "price": 722.8200073242188,
       "change": 10.22003173828125,
@@ -1806,7 +1804,7 @@
       "name": "Russell 2000",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-07T03:06:59.708Z",
+      "fetchedAt": "2026-07-07T03:58:02.187Z",
       "latestDate": "2026-07-06",
       "price": 298.8999938964844,
       "change": 1.32000732421875,
@@ -1819,7 +1817,7 @@
       "name": "Gold",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-07T03:06:59.778Z",
+      "fetchedAt": "2026-07-07T03:58:02.261Z",
       "latestDate": "2026-07-06",
       "price": 382.1300048828125,
       "change": 4,
@@ -1832,7 +1830,7 @@
       "name": "Oil proxy (USO ETF)",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-07T03:06:59.842Z",
+      "fetchedAt": "2026-07-07T03:58:02.331Z",
       "latestDate": "2026-07-06",
       "price": 104.3499984741211,
       "change": 0.3699951171875,
@@ -1842,7 +1840,7 @@
   ],
   "openbbMarketPack": {
     "runDate": "2026-07-06",
-    "fetchedAt": "2026-07-07T03:07:12.011912+00:00",
+    "fetchedAt": "2026-07-07T03:58:16.308764+00:00",
     "provider": "OpenBB equity.price.historical(provider='yfinance')",
     "sourceNote": "OpenBB market pack uses Yahoo Finance through OpenBB as market context, not live trading data or investment advice.",
     "sourceTrail": [
@@ -2126,7 +2124,7 @@
     "label": "Editor's Brief",
     "dek": "The 30-second read for readers who need the point before the details.",
     "bullets": [
-      "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
       "Markets: Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
       "Deal tape: Does Ares’ Clearstream Deal and New SPAC IPO Reshape Its Distribution-Led Strategy (ARES)? is the transaction to underwrite for price, certainty, approvals, and financing.",
       "Market context: SPY +0.87%; XLK +1.65%. Use the tape to frame risk appetite, not as a stand-alone thesis."
@@ -2143,7 +2141,7 @@
         "source": "MarketWatch Top Stories",
         "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
         "publishedAt": "2026-07-06T22:39:00.000Z",
-        "fetchedAt": "2026-07-07T03:06:56.328Z",
+        "fetchedAt": "2026-07-07T03:57:58.677Z",
         "feedId": "marketwatch-top-stories",
         "evidenceType": "reported"
       }
@@ -2161,15 +2159,15 @@
     },
     "freshnessStatus": "FRESH",
     "confidence": "Medium",
-    "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-    "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-    "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+    "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+    "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+    "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
     "editorialThesis": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
     "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
     "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
     "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-    "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-    "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes.",
+    "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+    "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes.",
     "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
     "whyItMoved": "The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
     "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
@@ -2186,7 +2184,7 @@
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
           "publishedAt": "2026-07-06T22:39:00.000Z",
-          "fetchedAt": "2026-07-07T03:06:56.328Z",
+          "fetchedAt": "2026-07-07T03:57:58.677Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
@@ -2198,12 +2196,12 @@
         {
           "id": "takeaway",
           "heading": "Plain-English takeaway",
-          "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
         },
         {
           "id": "tape",
           "heading": "What moved and what it suggests",
-          "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes."
+          "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes."
         },
         {
           "id": "mechanism",
@@ -2342,7 +2340,7 @@
     {
       "id": "deal-financing-window",
       "name": "Deal Financing Window",
-      "freshItems": 2,
+      "freshItems": 1,
       "openQuestions": [
         "Are public-market conditions improving enough to reopen issuance?",
         "Are activists forcing clearer deal math and capital allocation discipline?"
@@ -2351,7 +2349,7 @@
     {
       "id": "private-markets-exit-window",
       "name": "Private Markets Exit Window",
-      "freshItems": 20,
+      "freshItems": 16,
       "openQuestions": [
         "Are public markets and credit conditions good enough for sponsors to exit assets?",
         "Are private companies raising capital from strength or because public exits remain closed?"
@@ -2367,7 +2365,7 @@
   "calendarFailures": [],
   "review": {
     "status": "APPROVED",
-    "reviewedAt": "2026-07-07T03:07:37.165Z",
+    "reviewedAt": "2026-07-07T03:58:18.708Z",
     "blockerCount": 0,
     "warningCount": 1
   }

@@ -41,6 +41,18 @@ export function escapeHtml(value) {
     .replace(/'/g, "&#39;");
 }
 
+export function decodeHtmlEntities(value) {
+  return String(value ?? "")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, number) => String.fromCodePoint(parseInt(number, 10)));
+}
+
 export function absoluteUrl(url) {
   try {
     return new URL(url).href;
@@ -61,7 +73,7 @@ export function freshnessStatus(publishedAt, now = new Date()) {
 }
 
 export function normalizeText(value) {
-  return String(value ?? "")
+  return decodeHtmlEntities(value)
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();

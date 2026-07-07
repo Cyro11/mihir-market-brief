@@ -2,7 +2,7 @@ import path from "node:path";
 import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { analysisDir, calendarDir, candidatesDir, dataDir, editionsDir, marketDataDir, sourcesDir } from "./config.js";
-import { editionDate, ensureDir, freshnessStatus, readJson, writeJson } from "./utils.js";
+import { decodeHtmlEntities, editionDate, ensureDir, freshnessStatus, readJson, writeJson } from "./utils.js";
 import { scoreCandidate } from "./triage.js";
 import { buildDealTape } from "./deal-tape.js";
 import { clusterStories, representativeItemsFromClusters } from "./story-clusters.js";
@@ -566,7 +566,7 @@ const INTERNAL_PUBLIC_PHRASES = [
 ];
 
 function publicText(value) {
-  return INTERNAL_PUBLIC_PHRASES.reduce((text, pattern) => text.replace(pattern, ""), String(value || ""))
+  return INTERNAL_PUBLIC_PHRASES.reduce((text, pattern) => text.replace(pattern, ""), decodeHtmlEntities(value))
     .replace(/\s+/g, " ")
     .replace(/\s+([.,;:!?])/g, "$1")
     .trim();

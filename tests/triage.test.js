@@ -1,12 +1,17 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { freshnessStatus } from "../scripts/utils.js";
+import { decodeHtmlEntities, freshnessStatus, normalizeText } from "../scripts/utils.js";
 import { hasTrustedDomain, marketSignalScore, scoreCandidate, selectCandidates } from "../scripts/triage.js";
 
 const themes = [
   { id: "rates", name: "Rates", keywords: ["fed", "yield", "inflation"] },
   { id: "deals", name: "Deals", keywords: ["merger", "activist"] }
 ];
+
+test("html entities are decoded before text reaches public copy", () => {
+  assert.equal(decodeHtmlEntities("SpaceX&#x2019;s IPO &amp; Nasdaq&#8217;s tape"), "SpaceX’s IPO & Nasdaq’s tape");
+  assert.equal(normalizeText("<p>SpaceX&#x2019;s Nasdaq-100 move&nbsp;&amp; S&amp;P 500</p>"), "SpaceX’s Nasdaq-100 move & S&P 500");
+});
 
 test("freshness labels recent and background items", () => {
   const now = new Date("2026-05-29T14:00:00Z");

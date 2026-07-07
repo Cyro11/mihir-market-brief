@@ -1,7 +1,7 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { dataDir, feedItemLimit, sourceFeeds, sourcesDir } from "./config.js";
-import { absoluteUrl, editionDate, ensureDir, hashKey, normalizeText, readJson, slugify, writeJson } from "./utils.js";
+import { absoluteUrl, decodeHtmlEntities, editionDate, ensureDir, hashKey, normalizeText, readJson, slugify, writeJson } from "./utils.js";
 
 function marketHeadlineNeedsDerivedSummary(item) {
   if (item.sourceType !== "reputable") return false;
@@ -127,13 +127,7 @@ function parseBeaCurrentReleases(html, feed, fetchedAt) {
 }
 
 function decodeEntities(value) {
-  return String(value || "")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'");
+  return decodeHtmlEntities(value).replace(/&nbsp;/gi, " ");
 }
 
 function releaseText(html) {
