@@ -1,121 +1,178 @@
 {
   "runDate": "2026-07-07",
-  "generatedAt": "2026-07-07T12:01:20.926Z",
-  "selectedCount": 3,
+  "generatedAt": "2026-07-07T13:31:03.672Z",
+  "selectedCount": 4,
   "quietDay": false,
   "analyses": [
     {
-      "id": "marketwatch-top-stories-d0765f2a",
-      "title": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
-      "editorialLane": "breaking",
-      "editorialLaneLabel": "Breaking",
-      "privateMarketSegment": null,
+      "id": "private-equity-public-proxies-cc46c0bb",
+      "title": "Arctos Announces Final Close of Arctos Keystone Partners Fund I at $6.2 Billion",
+      "editorialLane": "private_markets",
+      "editorialLaneLabel": "Private Markets",
+      "privateMarketSegment": "private_equity",
       "sourceTrail": [
         {
-          "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-07T11:11:00.000Z",
-          "fetchedAt": "2026-07-07T12:01:01.568Z",
-          "feedId": "marketwatch-top-stories",
+          "source": "Yahoo Finance / Public PE Managers",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arctos-announces-final-close-arctos-120000181.html?.tsrc=rss",
+          "publishedAt": "2026-07-07T12:00:00.000Z",
+          "fetchedAt": "2026-07-07T13:30:39.540Z",
+          "feedId": "private-equity-public-proxies",
           "evidenceType": "reported"
         }
       ],
       "storyCluster": {
-        "id": "story-underwriters-valuation-trillion-period-spacex",
-        "title": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
+        "id": "story-arctos-keystone-partners-fund-arctos-announces-final-close-6-2-announces-keyston",
+        "title": "Arctos Announces Final Close of Arctos Keystone Partners Fund I at $6.2 Billion",
         "sourceDiversity": 1,
         "coverageCount": 1,
         "evidenceSourceCount": 1,
-        "importanceCues": 2,
+        "importanceCues": 0,
         "recruitingRelevance": 2,
-        "readerValue": 6,
-        "score": 38
+        "readerValue": 3,
+        "score": 49
       },
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "editorialArticle": {
-        "question": "Does SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as... change the deal math, or is it only a headline with limited read-through?",
-        "dek": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The transaction story is worth reading only if it changes what you would underwrite, not because it fills a section.",
+        "question": "Does Arctos Announces Final Close of Arctos Keystone Partners Fund I at $6.2 Billion prove buyers and sellers are meeting on price, or is the read-through narrower than it looks?",
+        "dek": "NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers. The sponsor story is worth reading only if it changes what you would underwrite, not because it fills a section.",
         "body": [
-          "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The real test is whether the transaction can survive full underwriting: price discipline, financing availability, approval risk, buyer logic, and the public comps lenders and shareholders will use to judge it.",
-          "For banking prep, underwrite the transaction like a live case. Who is paying? What financing is needed? What has to be true about synergies, growth, or margins for the buyer to defend the price? If those answers are vague, the story belongs in the tape, not at the top of the memo.",
+          "NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers. For sponsors, the test is simple: can an owner get a real exit at a price LPs will accept, with financing a buyer can live with? If the answer is no, the headline is mostly noise. If the answer is yes, it becomes a comp for other assets waiting for liquidity.",
+          "For banking prep, treat this as an exit-window check. A real read-through needs a named buyer, a credible asset, a price or valuation clue, and some sign that financing did not break the deal. Without those, it is a short deal-tape item, not a broad sponsor-market thesis.",
           "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it."
         ],
         "bankerSidebar": {
-          "interviewUse": "Say it this way: Does SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as... change the deal math, or is it only a headline with limited read-through? Then tie the answer to valuation, financing, or issuance risk.",
-          "watchNext": "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans."
+          "interviewUse": "Say it this way: Does Arctos Announces Final Close of Arctos Keystone Partners Fund I at $6.2 Billion prove buyers and sellers are meeting on price, or is the read-through narrower than it looks? Then tie the answer to valuation, financing, or issuance risk.",
+          "watchNext": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions."
         }
       },
-      "summary": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The key question is how quickly this first-order headline changes valuation marks, financing windows, investor demand, and the broader capital-markets read.",
-      "readerSummary": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The key question is how quickly this first-order headline changes valuation marks, financing windows, investor demand, and the broader capital-markets read.",
-      "readerDek": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The read-through runs through deal certainty, valuation and financing capacity.",
-      "editorialThesis": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends is a breaking story because it can change deal certainty, valuation and financing capacity. Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story.",
-      "ibAngle": "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
-      "interviewLine": "Lead with the fact, then connect it to deal certainty, valuation and financing capacity. Watch next: Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans.",
+      "summary": "NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "readerSummary": "NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "readerDek": "NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers. The read-through runs through exit routes, buyer depth and sponsor marks.",
+      "editorialThesis": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
+      "ibAngle": "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "interviewLine": "Lead with the fact, then connect it to exit routes, buyer depth and sponsor marks. Watch next: Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions.",
       "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
-      "whatChangedToday": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. A public IPO price, trading date, allocation structure, and aftermarket test turn a private-market story into a live public comp.",
-      "whatHappened": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy.",
-      "whatMoved": "A public IPO price, trading date, allocation structure, and aftermarket test turn a private-market story into a live public comp.",
-      "whyItMoved": "Breaking IPO news matters because it turns private-market narrative into observable public-market evidence: price, size, allocation, demand, and trading performance.",
-      "valuationImpact": "Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story.",
-      "financingImplication": "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support.",
-      "sectorReadThrough": "Read-through is strongest for late-stage venture-backed companies, IPO-ready private issuers, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb large deals.",
+      "whatChangedToday": "NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers. The update tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
+      "whatHappened": "NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers.",
+      "whatMoved": "The update tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
+      "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
+      "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
+      "financingImplication": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk.",
+      "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
       "parallel": {
-        "precedent": "Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO became large technology debut benchmarks.",
-        "outcome": "Large IPOs can clear when issuers are scarce and high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether follow-on issuers share the same scarcity value.",
-        "whatRhymes": "A mega-IPO creates a public trading reference and demand signal that can influence other IPO candidates.",
-        "whatDiffers": "SpaceX has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so one-company scarcity may not equal a broad reopening.",
-        "soWhat": "Treat the debut as a benchmark, not proof that every late-stage private mark is money-good.",
+        "precedent": "Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023.",
+        "outcome": "Those tools created liquidity for some LPs but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved.",
+        "whatRhymes": "The same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark.",
+        "whatDiffers": "Today the highest-quality assets may access IPO or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures.",
+        "soWhat": "Treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity.",
         "sourceTrail": [
           {
-            "source": "MarketWatch Top Stories",
-            "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories",
-            "publishedAt": "2026-07-07T11:11:00.000Z",
-            "fetchedAt": "2026-07-07T12:01:01.568Z",
-            "feedId": "marketwatch-top-stories",
+            "source": "Yahoo Finance / Public PE Managers",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/arctos-announces-final-close-arctos-120000181.html?.tsrc=rss",
+            "publishedAt": "2026-07-07T12:00:00.000Z",
+            "fetchedAt": "2026-07-07T13:30:39.540Z",
+            "feedId": "private-equity-public-proxies",
             "evidenceType": "reported"
           }
         ]
       },
-      "watchNext": "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans.",
+      "watchNext": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions.",
       "longform": {
         "sections": [
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. Breaking IPO news matters because it turns private-market narrative into observable public-market evidence: price, size, allocation, demand, and trading performance. A breaking capital-markets headline can reset the comparable set before slower private-market marks, banker pitches, and follow-on financing plans catch up."
+            "body": "Source detail (Yahoo Finance / Public PE Managers): NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers. In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
           },
           {
-            "id": "facts",
-            "heading": "What the sources say",
-            "body": "A public IPO price, trading date, allocation structure, and aftermarket test turn a private-market story into a live public comp. The source facts matter because they create a hard public reference point: deal size, IPO price, valuation, allocation, and order-book demand. Anchor the read to those named facts first, then separate direct evidence from valuation and deal-market implications."
+            "id": "signal",
+            "heading": "What the public signal is actually telling us",
+            "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
           },
           {
-            "id": "market-mechanism",
-            "heading": "Why the market may care immediately",
-            "body": "Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story. Read-through is strongest for late-stage venture-backed companies, IPO-ready private issuers, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb large deals. A large fresh price, valuation, order-book, or trading reference becomes a new public benchmark investors can compare against prior private marks and peer multiples."
+            "id": "interpretation",
+            "heading": "How to read the sponsor or exit implication",
+            "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
           },
           {
-            "id": "deal-financing-read",
-            "heading": "Capital-markets and deal read-through",
-            "body": "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support. The read-through is strongest when the event shows investors are willing to fund a story at a specific price, size, and timetable."
+            "id": "evidence",
+            "heading": "Where the evidence is strong versus indirect",
+            "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
           },
           {
             "id": "parallel",
             "heading": "Relevant comparison",
-            "body": "A useful parallel is Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO became large technology debut benchmarks. In that earlier setup, large ipos can clear when issuers are scarce and high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether follow-on issuers share the same scarcity value. What rhymes is a mega-ipo creates a public trading reference and demand signal that can influence other ipo candidates. What is different this time is spacex has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so one-company scarcity may not equal a broad reopening. The bottom line is treat the debut as a benchmark, not proof that every late-stage private mark is money-good."
+            "body": "A useful parallel is Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023. In that earlier setup, those tools created liquidity for some lps but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved. What rhymes is the same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark. What is different this time is today the highest-quality assets may access ipo or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures. The bottom line is treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity."
           },
           {
             "id": "watch-next",
             "heading": "What would confirm or weaken the read",
-            "body": "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans. Confirmation should come from trading performance, allocation details, follow-on issuance, comparable repricing, or whether other IPO-ready companies accelerate plans."
+            "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
           }
         ]
       },
-      "visual": null,
+      "visual": {
+        "type": "bar-chart",
+        "title": "Public sponsor proxies",
+        "subtitle": "Three-month public market context for large alternative-asset managers tied to sponsor sentiment.",
+        "relevanceNote": "This board belongs here because public sponsor stocks often give the cleanest available read on how the market feels about exits, fundraising, and deployment.",
+        "allowedPages": [
+          "private-markets",
+          "deep-dive"
+        ],
+        "axisTitle": "3-month change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "BX",
+            "label": "Blackstone",
+            "value": 9.527186679631155,
+            "displayValue": 9.527186679631155,
+            "suffix": "%",
+            "latestDate": "2026-07-07",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "id": "KKR",
+            "label": "KKR",
+            "value": 6.754817910102445,
+            "displayValue": 6.754817910102445,
+            "suffix": "%",
+            "latestDate": "2026-07-07",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+          },
+          {
+            "id": "APO",
+            "label": "Apollo Global Management",
+            "value": 15.893130836729366,
+            "displayValue": 15.893130836729366,
+            "suffix": "%",
+            "latestDate": "2026-07-07",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Blackstone",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+          },
+          {
+            "source": "KKR",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+          },
+          {
+            "source": "Apollo Global Management",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
       "relatedLinks": [],
       "storyline": null,
-      "concepts": []
+      "concepts": [
+        "private_equity"
+      ]
     },
     {
       "id": "marketwatch-top-stories-72cb2554",
@@ -128,7 +185,7 @@
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
           "publishedAt": "2026-07-07T11:41:00.000Z",
-          "fetchedAt": "2026-07-07T12:01:01.568Z",
+          "fetchedAt": "2026-07-07T13:30:39.264Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
@@ -142,9 +199,9 @@
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "score": 40
+        "score": 38
       },
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "Does this make the market more open to scarce growth assets, or just more concentrated around the few names investors already want to own?",
@@ -184,7 +241,7 @@
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
             "publishedAt": "2026-07-07T11:41:00.000Z",
-            "fetchedAt": "2026-07-07T12:01:01.568Z",
+            "fetchedAt": "2026-07-07T13:30:39.264Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -240,55 +297,55 @@
           {
             "id": "NVDA",
             "label": "Nvidia",
-            "value": 0.36955356666652833,
-            "displayValue": 0.36955356666652833,
+            "value": -1.9739199949436488,
+            "displayValue": -1.9739199949436488,
             "suffix": "%",
-            "latestDate": "2026-07-06",
+            "latestDate": "2026-07-07",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
           },
           {
             "id": "SOXX",
             "label": "iShares Semiconductor ETF",
-            "value": 2.682229524818811,
-            "displayValue": 2.682229524818811,
+            "value": -4.749691943078218,
+            "displayValue": -4.749691943078218,
             "suffix": "%",
-            "latestDate": "2026-07-06",
+            "latestDate": "2026-07-07",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
           },
           {
             "id": "AVGO",
             "label": "Broadcom",
-            "value": 3.7314415963253937,
-            "displayValue": 3.7314415963253937,
+            "value": -0.47070855222697117,
+            "displayValue": -0.47070855222697117,
             "suffix": "%",
-            "latestDate": "2026-07-06",
+            "latestDate": "2026-07-07",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
           },
           {
             "id": "MU",
             "label": "Micron Technology",
-            "value": 0.942023295789584,
-            "displayValue": 0.942023295789584,
+            "value": -6.011679330493146,
+            "displayValue": -6.011679330493146,
             "suffix": "%",
-            "latestDate": "2026-07-06",
+            "latestDate": "2026-07-07",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
           },
           {
             "id": "MRVL",
             "label": "Marvell Technology",
-            "value": 1.622573727125268,
-            "displayValue": 1.622573727125268,
+            "value": -5.5522170174763845,
+            "displayValue": -5.5522170174763845,
             "suffix": "%",
-            "latestDate": "2026-07-06",
+            "latestDate": "2026-07-07",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
           },
           {
             "id": "INTC",
             "label": "Intel",
-            "value": 1.537181967242733,
-            "displayValue": 1.537181967242733,
+            "value": -5.842880170179206,
+            "displayValue": -5.842880170179206,
             "suffix": "%",
-            "latestDate": "2026-07-06",
+            "latestDate": "2026-07-07",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
           }
         ],
@@ -327,8 +384,8 @@
       ]
     },
     {
-      "id": "marketwatch-top-stories-4ec9c5f1",
-      "title": "These global stocks benefit from high barriers to entry. And they’re winning the war against AI disruption.",
+      "id": "marketwatch-top-stories-65e70e33",
+      "title": "The trade of the year is entering a new phase, says Goldman Sachs. Here’s what it means for stocks.",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
@@ -336,27 +393,27 @@
         {
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/why-these-global-stocks-with-a-high-barrier-to-entry-are-winning-the-war-on-ai-disruption-43e88c2c?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-07T10:56:00.000Z",
-          "fetchedAt": "2026-07-07T12:01:01.568Z",
+          "publishedAt": "2026-07-07T13:01:00.000Z",
+          "fetchedAt": "2026-07-07T13:30:39.264Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
       ],
       "storyCluster": {
-        "id": "story-disruption-barriers-against-benefit-winning",
-        "title": "These global stocks benefit from high barriers to entry. And they’re winning the war against AI disruption.",
+        "id": "story-goldman-sachs-here-entering-goldman-stocks-sachs",
+        "title": "The trade of the year is entering a new phase, says Goldman Sachs. Here’s what it means for stocks.",
         "sourceDiversity": 1,
         "coverageCount": 1,
         "evidenceSourceCount": 1,
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "score": 38
+        "score": 37
       },
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "LIVE",
       "confidence": "Medium",
       "editorialArticle": {
-        "question": "Does These global stocks benefit from high barriers to entry. And they’re winning the... change the underwriting case, or is the market just reacting to a clean headline?",
+        "question": "Does The trade of the year is entering a new phase, says Goldman Sachs. Here’s what it... change the underwriting case, or is the market just reacting to a clean headline?",
         "dek": "Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The market story is worth reading only if it changes what you would underwrite, not because it fills a section.",
         "body": [
           "Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The mechanism runs through leadership and scarcity. Investors do not reward every growth story equally. They pay up when the asset looks hard to replicate, when margins can survive scrutiny, and when the funding market believes the story is strong enough to finance weaker periods.",
@@ -364,24 +421,24 @@
           "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it."
         ],
         "bankerSidebar": {
-          "interviewUse": "Say it this way: Does These global stocks benefit from high barriers to entry. And they’re winning the... change the underwriting case, or is the market just reacting to a clean headline? Then tie the answer to valuation, financing, or issuance risk.",
+          "interviewUse": "Say it this way: Does The trade of the year is entering a new phase, says Goldman Sachs. Here’s what it... change the underwriting case, or is the market just reacting to a clean headline? Then tie the answer to valuation, financing, or issuance risk.",
           "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
         }
       },
       "summary": "Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The market read is how investors are repricing the story, not just that the headline happened.",
       "readerSummary": "Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The market read is how investors are repricing the story, not just that the headline happened.",
       "readerDek": "Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The read-through runs through leadership, earnings confidence and risk appetite.",
-      "editorialThesis": "These global stocks benefit from high barriers to entry. And they’re winning the war against AI disruption. is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "editorialThesis": "The trade of the year is entering a new phase, says Goldman Sachs. Here’s what it means for stocks. is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
       "interviewLine": "Lead with the fact, then connect it to leadership, earnings confidence and risk appetite. Watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
       "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
       "whatChangedToday": "Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The story changes sector leadership, company valuation, and the peer read-through.",
       "whatHappened": "Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead.",
       "whatMoved": "The story changes sector leadership, company valuation, and the peer read-through.",
-      "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+      "whyItMoved": "The markets news matters because it changes the read on Market discipline: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "Connects to AI Infrastructure.",
+      "sectorReadThrough": "Treat the read-through as general market context until a stronger sector-specific signal develops.",
       "parallel": {
         "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
         "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -392,8 +449,8 @@
           {
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/why-these-global-stocks-with-a-high-barrier-to-entry-are-winning-the-war-on-ai-disruption-43e88c2c?mod=mw_rss_topstories",
-            "publishedAt": "2026-07-07T10:56:00.000Z",
-            "fetchedAt": "2026-07-07T12:01:01.568Z",
+            "publishedAt": "2026-07-07T13:01:00.000Z",
+            "fetchedAt": "2026-07-07T13:30:39.264Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -405,7 +462,7 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "Source detail (MarketWatch Top Stories): Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The markets news matters because it changes the read on Market discipline: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
@@ -415,7 +472,7 @@
           {
             "id": "mechanism",
             "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Treat the read-through as general market context until a stronger sector-specific signal develops. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
           },
           {
             "id": "interpretation",
@@ -437,9 +494,120 @@
       "visual": null,
       "relatedLinks": [],
       "storyline": null,
-      "concepts": [
-        "ai"
-      ]
+      "concepts": []
+    },
+    {
+      "id": "marketwatch-top-stories-d0765f2a",
+      "title": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
+      "editorialLane": "breaking",
+      "editorialLaneLabel": "Breaking",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-07T11:11:00.000Z",
+          "fetchedAt": "2026-07-07T13:30:39.264Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "storyCluster": {
+        "id": "story-underwriters-valuation-trillion-period-spacex",
+        "title": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "score": 36
+      },
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "editorialArticle": {
+        "question": "Does SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as... change the deal math, or is it only a headline with limited read-through?",
+        "dek": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The transaction story is worth reading only if it changes what you would underwrite, not because it fills a section.",
+        "body": [
+          "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The real test is whether the transaction can survive full underwriting: price discipline, financing availability, approval risk, buyer logic, and the public comps lenders and shareholders will use to judge it.",
+          "For banking prep, underwrite the transaction like a live case. Who is paying? What financing is needed? What has to be true about synergies, growth, or margins for the buyer to defend the price? If those answers are vague, the story belongs in the tape, not at the top of the memo.",
+          "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it."
+        ],
+        "bankerSidebar": {
+          "interviewUse": "Say it this way: Does SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as... change the deal math, or is it only a headline with limited read-through? Then tie the answer to valuation, financing, or issuance risk.",
+          "watchNext": "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans."
+        }
+      },
+      "summary": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The key question is how quickly this first-order headline changes valuation marks, financing windows, investor demand, and the broader capital-markets read.",
+      "readerSummary": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The key question is how quickly this first-order headline changes valuation marks, financing windows, investor demand, and the broader capital-markets read.",
+      "readerDek": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The read-through runs through deal certainty, valuation and financing capacity.",
+      "editorialThesis": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends is a breaking story because it can change deal certainty, valuation and financing capacity. Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story.",
+      "ibAngle": "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Lead with the fact, then connect it to deal certainty, valuation and financing capacity. Watch next: Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans.",
+      "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
+      "whatChangedToday": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. A public IPO price, trading date, allocation structure, and aftermarket test turn a private-market story into a live public comp.",
+      "whatHappened": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy.",
+      "whatMoved": "A public IPO price, trading date, allocation structure, and aftermarket test turn a private-market story into a live public comp.",
+      "whyItMoved": "Breaking IPO news matters because it turns private-market narrative into observable public-market evidence: price, size, allocation, demand, and trading performance.",
+      "valuationImpact": "Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story.",
+      "financingImplication": "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support.",
+      "sectorReadThrough": "Read-through is strongest for late-stage venture-backed companies, IPO-ready private issuers, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb large deals.",
+      "parallel": {
+        "precedent": "Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO became large technology debut benchmarks.",
+        "outcome": "Large IPOs can clear when issuers are scarce and high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether follow-on issuers share the same scarcity value.",
+        "whatRhymes": "A mega-IPO creates a public trading reference and demand signal that can influence other IPO candidates.",
+        "whatDiffers": "SpaceX has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so one-company scarcity may not equal a broad reopening.",
+        "soWhat": "Treat the debut as a benchmark, not proof that every late-stage private mark is money-good.",
+        "sourceTrail": [
+          {
+            "source": "MarketWatch Top Stories",
+            "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories",
+            "publishedAt": "2026-07-07T11:11:00.000Z",
+            "fetchedAt": "2026-07-07T13:30:39.264Z",
+            "feedId": "marketwatch-top-stories",
+            "evidenceType": "reported"
+          }
+        ]
+      },
+      "watchNext": "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "Source detail (MarketWatch Top Stories): The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. Breaking IPO news matters because it turns private-market narrative into observable public-market evidence: price, size, allocation, demand, and trading performance. A breaking capital-markets headline can reset the comparable set before slower private-market marks, banker pitches, and follow-on financing plans catch up."
+          },
+          {
+            "id": "facts",
+            "heading": "What the sources say",
+            "body": "A public IPO price, trading date, allocation structure, and aftermarket test turn a private-market story into a live public comp. The source facts matter because they create a hard public reference point: deal size, IPO price, valuation, allocation, and order-book demand. Anchor the read to those named facts first, then separate direct evidence from valuation and deal-market implications."
+          },
+          {
+            "id": "market-mechanism",
+            "heading": "Why the market may care immediately",
+            "body": "Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story. Read-through is strongest for late-stage venture-backed companies, IPO-ready private issuers, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb large deals. A large fresh price, valuation, order-book, or trading reference becomes a new public benchmark investors can compare against prior private marks and peer multiples."
+          },
+          {
+            "id": "deal-financing-read",
+            "heading": "Capital-markets and deal read-through",
+            "body": "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support. The read-through is strongest when the event shows investors are willing to fund a story at a specific price, size, and timetable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO became large technology debut benchmarks. In that earlier setup, large ipos can clear when issuers are scarce and high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether follow-on issuers share the same scarcity value. What rhymes is a mega-ipo creates a public trading reference and demand signal that can influence other ipo candidates. What is different this time is spacex has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so one-company scarcity may not equal a broad reopening. The bottom line is treat the debut as a benchmark, not proof that every late-stage private mark is money-good."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would confirm or weaken the read",
+            "body": "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans. Confirmation should come from trading performance, allocation details, follow-on issuance, comparable repricing, or whether other IPO-ready companies accelerate plans."
+          }
+        ]
+      },
+      "visual": null,
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": []
     }
   ]
 }

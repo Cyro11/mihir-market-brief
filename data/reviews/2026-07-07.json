@@ -1,12 +1,12 @@
 {
   "runDate": "2026-07-07",
-  "reviewedAt": "2026-07-07T12:01:21.101Z",
+  "reviewedAt": "2026-07-07T13:31:03.856Z",
   "status": "APPROVED",
   "reviewers": {
     "deterministic": {
       "blockers": [],
       "warnings": [
-        "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+        "Arctos Announces Final Close of Arctos Keystone Partners Fund I at $6.2 Billion: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
       ]
     },
     "openai": {
@@ -16,6 +16,6 @@
   },
   "blockers": [],
   "warnings": [
-    "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+    "Arctos Announces Final Close of Arctos Keystone Partners Fund I at $6.2 Billion: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
   ]
 }
