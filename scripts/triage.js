@@ -1,5 +1,6 @@
 import { sourceQuality, topicBankerWeights } from "./config.js";
 import { absoluteUrl, freshnessStatus, normalizeText } from "./utils.js";
+import { isInternalDerivedItem } from "./story-clusters.js";
 
 const positiveSignalPattern = /\b(pce|cpi|ppi|gdp|payrolls|employment|unemployment|fomc|fed|treasury|yield|inflation|earnings|guidance|revenue|margin|shares?|stock|stocks|index|indices|s&p|nasdaq|russell|dow|gold|oil|crude|spread|spreads|credit|direct lending|asset-?based finance|refinanc|financing|debt|mega-?deal|chip deal|default|non-accrual|lbo|buyout|merger|acquisition|acquire|sells?|stake|activist|ipo|spin-?off|sale process|asset sale|auction|restructur|bankruptcy|filing|offering|fundraising|rais(?:e|es|ed|ing)|secondaries|continuation fund|sponsor)\b/i;
 const strongProxySignalPattern = /\b(acquire|acquisition|buyout|stake|activist|sale|sold|sells|ipo|earnings|originations|direct lending|asset-?based finance|loan|loans|credit|refinanc|default|write-?down|non-accrual|spread|fundraising|rais(?:e|es|ed|ing)|secondaries|continuation fund|merger|financing|notes offering|debt offering|equity offering|share offering|stock offering|public offering|offering priced)\b/i;
@@ -63,11 +64,13 @@ export function scoreCandidate(item, themes, now = new Date()) {
   const signalScore = marketSignalScore(item);
   const trustedDomain = hasTrustedDomain(item);
   const majorBreakingEvent = isMajorBreakingEvent(item);
+  const internalDerived = isInternalDerivedItem(item);
+  const factualEvidenceCount = internalDerived ? 0 : (item.facts || []).length;
   const evidenceScore = [
     absoluteUrl(item.url) ? 2 : 0,
     item.publishedAt ? 1 : 0,
-    normalizeText(item.summary).length > 60 ? 2 : 0,
-    (item.facts || []).length ? 1 : 0
+    !internalDerived && normalizeText(item.summary).length > 60 ? 2 : 0,
+    factualEvidenceCount ? 1 : 0
   ].reduce((a, b) => a + b, 0);
   const total = freshnessScore * 2 + qualityScore * 2 + topicScore + matches.length * 3 + evidenceScore + signalScore * 2;
 
@@ -75,7 +78,7 @@ export function scoreCandidate(item, themes, now = new Date()) {
   const strongEnoughSignal = signalScore >= 2;
   const trustedEnough = trustedDomain || item.sourceType === "official";
   const eligibleByEvidence = evidenceScore >= 4;
-  const eligibleByMajorBreaking = majorBreakingEvent && trustedEnough && evidenceScore >= 3;
+  const eligibleByMajorBreaking = !internalDerived && majorBreakingEvent && trustedEnough && evidenceScore >= 3;
 
   return {
     ...item,
@@ -88,6 +91,8 @@ export function scoreCandidate(item, themes, now = new Date()) {
       themeRelevance: matches.length * 3,
       evidence: evidenceScore,
       marketSignal: signalScore,
+      factualEvidence: factualEvidenceCount,
+      internalDerived: internalDerived ? 1 : 0,
       trustedDomain: trustedDomain ? 1 : 0,
       majorBreakingEvent: majorBreakingEvent ? 1 : 0,
       total

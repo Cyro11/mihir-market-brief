@@ -3,8 +3,9 @@ import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { analysisDir, calendarDir, candidatesDir, dataDir, editionsDir, marketDataDir, sourcesDir } from "./config.js";
 import { editionDate, ensureDir, freshnessStatus, readJson, writeJson } from "./utils.js";
-import { scoreCandidate, selectCandidates } from "./triage.js";
+import { scoreCandidate } from "./triage.js";
 import { buildDealTape } from "./deal-tape.js";
+import { clusterStories, representativeItemsFromClusters } from "./story-clusters.js";
 
 function storylineFor(item) {
   const text = `${item.title} ${item.summary} ${(item.tickers || []).join(" ")} ${(item.topics || []).join(" ")}`.toLowerCase();
@@ -762,6 +763,8 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
   const isPrivateEquity = privateMarketSegment === "private_equity";
   const isCompany = ["companies", "ai", "capex", "consumer"].some((t) => item.topics?.includes(t));
   const storyRead = isPrivate ? storySpecificPrivateRead(item, privateMarketSegment) : null;
+  const itemSourceTrail = (item.sourceTrail?.length ? item.sourceTrail : [{ source: item.source, url: item.url, publishedAt: item.publishedAt, fetchedAt: item.fetchedAt }])
+    .filter((entry) => entry?.url);
 
   const valuationImpact = isBreaking
     ? "Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story."
@@ -788,9 +791,9 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
       : "Watch whether the story improves access to capital or makes funding harder for weaker peers.";
 
   const fallbackParallel = storyRead?.parallel
-    ? { ...storyRead.parallel, sourceTrail: [{ source: item.source, url: item.url }] }
+    ? { ...storyRead.parallel, sourceTrail: itemSourceTrail }
     : isBreaking
-    ? { precedent: "Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO became large technology debut benchmarks.", outcome: "Large IPOs can clear when issuers are scarce and high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether follow-on issuers share the same scarcity value.", whatRhymes: "A mega-IPO creates a public trading reference and demand signal that can influence other IPO candidates.", whatDiffers: "SpaceX has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so one-company scarcity may not equal a broad reopening.", soWhat: "Treat the debut as a benchmark, not proof that every late-stage private mark is money-good.", sourceTrail: [{ source: item.source, url: item.url }] }
+    ? { precedent: "Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO became large technology debut benchmarks.", outcome: "Large IPOs can clear when issuers are scarce and high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether follow-on issuers share the same scarcity value.", whatRhymes: "A mega-IPO creates a public trading reference and demand signal that can influence other IPO candidates.", whatDiffers: "SpaceX has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so one-company scarcity may not equal a broad reopening.", soWhat: "Treat the debut as a benchmark, not proof that every late-stage private mark is money-good.", sourceTrail: itemSourceTrail }
     : isMacro
     ? {
         precedent: "Past inflation scares where stocks held up for a while even as rates made financing harder.",
@@ -798,7 +801,7 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
         whatRhymes: "The useful comparison is how rates flow into valuation and deal math.",
         whatDiffers: "This setup depends on the inflation mix, the Fed's reaction, and the shape of the Treasury curve.",
         soWhat: "Use the precedent to stress-test rates and financing, not to predict the next index move.",
-        sourceTrail: [{ source: item.source, url: item.url }]
+        sourceTrail: itemSourceTrail
       }
     : isDeal
       ? {
@@ -807,7 +810,7 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
           whatRhymes: "The deal window becomes a pressure point for proving the math.",
           whatDiffers: "The strength of the parallel depends on the activist's actual ask and ownership level.",
           soWhat: "Treat it as a deal-risk lens until more facts are public.",
-          sourceTrail: [{ source: item.source, url: item.url }]
+          sourceTrail: itemSourceTrail
         }
       : isPrivateCredit
         ? {
@@ -816,7 +819,7 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
             whatRhymes: "The same tradeoff matters now: available private debt can keep deal activity alive, but it does not make leverage cheap.",
             whatDiffers: "Public manager results and news items are proxies, not a complete view of private credit. Confirm the read with spreads, originations, and credit performance.",
             soWhat: "Use private-credit signals to judge financing capacity, but still underwrite downside cases and refinancing risk separately.",
-            sourceTrail: [{ source: item.source, url: item.url }]
+            sourceTrail: itemSourceTrail
           }
       : isPrivateEquity
         ? {
@@ -825,7 +828,7 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
             whatRhymes: "The useful comparison is whether today's public-market signal improves or limits exit routes for private owners.",
             whatDiffers: "Private-market data is less transparent, so public filings, announced financings, and issuer commentary matter more than rumors.",
             soWhat: "Use the signal to judge exit timing and financing appetite, not to guess private marks without evidence.",
-            sourceTrail: [{ source: item.source, url: item.url }]
+            sourceTrail: itemSourceTrail
           }
       : {
           precedent: "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
@@ -833,7 +836,7 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
           whatRhymes: "The current story shows demand spreading across the value chain.",
           whatDiffers: "Revenue growth alone does not prove margin quality or durable economics.",
           soWhat: "Use the precedent to test whether demand turns into profit and cash flow.",
-          sourceTrail: [{ source: item.source, url: item.url }]
+          sourceTrail: itemSourceTrail
         };
 
   const sourceBlurb = cleanSourceBlurb(item);
@@ -844,7 +847,8 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
     editorialLane,
     editorialLaneLabel: laneDisplayName(editorialLane),
     privateMarketSegment,
-    sourceTrail: [{ source: item.source, url: item.url, publishedAt: item.publishedAt, fetchedAt: item.fetchedAt }],
+    sourceTrail: itemSourceTrail,
+    storyCluster: item.storyCluster || null,
     freshnessStatus: item.freshnessStatus,
     confidence: item.sourceType === "official" ? "High" : "Medium",
     summary: summaryFor(item, editorialLane, privateMarketSegment, storyRead),
@@ -1118,9 +1122,14 @@ function attachMacroCalendar(sections, analyses, calendarPayload, runDate) {
 export function selectMainCandidates(scored, limit = 5, prior = []) {
   const selected = [];
   const laneCounts = new Map();
-  const candidates = selectCandidates(scored, 10);
+  const candidates = representativeItemsFromClusters(clusterStories(
+    [...scored]
+      .filter((item) => item.eligible && item.scores.total >= 30)
+      .sort((a, b) => b.scores.total - a.scores.total)
+  ));
   const recentLeadKeys = recentLeadThemeKeys(prior);
-  const firstFreshLead = candidates.find((item) => !recentLeadKeys.has(leadThemeKey(item)));
+  const baseOrderedCandidates = [...candidates].sort((a, b) => (b.scores.sourceItemTotal ?? b.scores.total) - (a.scores.sourceItemTotal ?? a.scores.total));
+  const firstFreshLead = baseOrderedCandidates.find((item) => !recentLeadKeys.has(leadThemeKey(item)));
   const topCandidate = candidates[0];
   const repeatedLeadIsClearlyBest = topCandidate
     && firstFreshLead
@@ -1275,11 +1284,22 @@ async function main() {
     }))
     .filter((theme) => theme.freshItems > 0);
 
+  const storyClusters = clusterStories(scored, { includeIneligible: true }).map((cluster) => ({
+    id: cluster.id,
+    title: cluster.title,
+    scores: cluster.scores,
+    sourceDiversity: cluster.sourceDiversity,
+    coverageCount: cluster.coverageCount,
+    evidenceSourceCount: cluster.evidenceSourceCount,
+    sourceTrail: cluster.sourceTrail,
+    itemIds: cluster.items.map((item) => item.id)
+  }));
   const candidatePayload = {
     runDate,
     generatedAt: new Date().toISOString(),
     window: "Latest fetched source set; main tape excludes weak or unsupported items.",
-    candidates: scored
+    candidates: scored,
+    storyClusters
   };
   const analysisPayload = {
     runDate,

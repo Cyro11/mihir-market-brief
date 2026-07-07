@@ -1,6 +1,6 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { dataDir, sourceFeeds, sourcesDir } from "./config.js";
+import { dataDir, feedItemLimit, sourceFeeds, sourcesDir } from "./config.js";
 import { absoluteUrl, editionDate, ensureDir, hashKey, normalizeText, readJson, slugify, writeJson } from "./utils.js";
 
 function marketHeadlineNeedsDerivedSummary(item) {
@@ -16,12 +16,15 @@ function withDerivedMarketSummary(item) {
   const summary = `${item.title}. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.`;
   return {
     ...item,
+    internalDerivedSummary: true,
+    evidenceType: "internal_derived",
+    evidenceStrength: "thin_internal",
     summary,
     facts: [summary]
   };
 }
 
-function parseRss(xml, feed, fetchedAt) {
+export function parseRss(xml, feed, fetchedAt) {
   const items = [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)];
   return items.map((match) => {
     const block = match[0];
@@ -50,7 +53,7 @@ function parseRss(xml, feed, fetchedAt) {
       if (!feed.requiredTextPattern) return true;
       return feed.requiredTextPattern.test(`${item.title} ${item.summary} ${item.url}`);
     })
-    .slice(0, 12);
+    .slice(0, Number.isFinite(feed.itemLimit) ? feed.itemLimit : feedItemLimit);
 }
 
 function parseMonthDate(value, fallbackYear = new Date().getFullYear()) {
