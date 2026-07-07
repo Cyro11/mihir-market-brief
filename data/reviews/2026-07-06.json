@@ -1,11 +1,13 @@
 {
   "runDate": "2026-07-06",
-  "reviewedAt": "2026-07-06T13:31:14.681Z",
+  "reviewedAt": "2026-07-07T03:07:37.165Z",
   "status": "APPROVED",
   "reviewers": {
     "deterministic": {
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+      ]
     },
     "openai": {
       "skipped": true,
@@ -13,5 +15,7 @@
     }
   },
   "blockers": [],
-  "warnings": []
+  "warnings": [
+    "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+  ]
 }

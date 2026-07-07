@@ -1,6 +1,6 @@
 {
   "runDate": "2026-05-29",
-  "generatedAt": "2026-06-01T02:43:48.180Z",
+  "generatedAt": "2026-07-07T03:02:10.204Z",
   "window": "Latest fetched source set; main tape excludes weak or unsupported items.",
   "candidates": [
     {
@@ -83,7 +83,12 @@
         "topicBankerWeight": 14,
         "themeRelevance": 3,
         "evidence": 6,
-        "total": 41
+        "marketSignal": 4,
+        "factualEvidence": 3,
+        "internalDerived": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 49
       },
       "eligible": true,
       "exclusionReason": ""
@@ -180,7 +185,12 @@
         "topicBankerWeight": 16,
         "themeRelevance": 3,
         "evidence": 6,
-        "total": 41
+        "marketSignal": 4,
+        "factualEvidence": 2,
+        "internalDerived": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 49
       },
       "eligible": true,
       "exclusionReason": ""
@@ -266,7 +276,12 @@
         "topicBankerWeight": 12,
         "themeRelevance": 3,
         "evidence": 6,
-        "total": 37
+        "marketSignal": 4,
+        "factualEvidence": 3,
+        "internalDerived": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 45
       },
       "eligible": true,
       "exclusionReason": ""
@@ -352,7 +367,12 @@
         "topicBankerWeight": 19,
         "themeRelevance": 6,
         "evidence": 6,
-        "total": 47
+        "marketSignal": 4,
+        "factualEvidence": 3,
+        "internalDerived": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 55
       },
       "eligible": true,
       "exclusionReason": ""
@@ -454,10 +474,157 @@
         "topicBankerWeight": 23,
         "themeRelevance": 6,
         "evidence": 6,
-        "total": 51
+        "marketSignal": 4,
+        "factualEvidence": 3,
+        "internalDerived": 0,
+        "trustedDomain": 1,
+        "majorBreakingEvent": 0,
+        "total": 59
       },
       "eligible": true,
       "exclusionReason": ""
+    }
+  ],
+  "storyClusters": [
+    {
+      "id": "story-blue-owl-earnings-lending-private-credit",
+      "title": "Blue Owl direct-lending earnings keep private credit in focus",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 2,
+        "readerValue": 3,
+        "total": 61
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "Blue Owl Capital",
+          "url": "https://ir.blueowl.com/",
+          "publishedAt": "2026-05-29T11:30:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "seed-private-credit-ipo-window"
+      ]
+    },
+    {
+      "id": "story-acquisition-healthium-activity-sponsor-window",
+      "title": "KKR signs Healthium acquisition as sponsor deal activity tests the exit window",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "total": 57
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "KKR",
+          "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
+          "publishedAt": "2026-05-29T10:05:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "seed-private-equity-kkr-healthium"
+      ]
+    },
+    {
+      "id": "story-personal-income-personal-outlays-income-april",
+      "title": "Personal Income and Outlays, April 2026",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "total": 51
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "BEA",
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
+          "publishedAt": "2026-05-29T08:30:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "seed-bea-pce"
+      ]
+    },
+    {
+      "id": "story-revenue-server-surges-jumps-dell",
+      "title": "Dell stock jumps as AI server revenue surges",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 50
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+          "publishedAt": "2026-05-29T09:15:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "seed-dell-ai-servers"
+      ]
+    },
+    {
+      "id": "story-unilever-foods-toms-capital-mccormick-unilever-capital",
+      "title": "Toms Capital builds McCormick stake amid Unilever Foods deal",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 0,
+        "readerValue": 5,
+        "total": 47
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/",
+          "publishedAt": "2026-05-29T10:45:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "seed-mccormick-activist"
+      ]
     }
   ]
 }

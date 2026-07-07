@@ -1,6 +1,6 @@
 {
   "runDate": "2026-05-29",
-  "generatedAt": "2026-06-01T02:43:48.181Z",
+  "generatedAt": "2026-07-07T03:02:10.204Z",
   "selectedCount": 5,
   "quietDay": false,
   "analyses": [
@@ -15,12 +15,31 @@
           "source": "Blue Owl Capital",
           "url": "https://ir.blueowl.com/",
           "publishedAt": "2026-05-29T11:30:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-blue-owl-earnings-lending-private-credit",
+        "title": "Blue Owl direct-lending earnings keep private credit in focus",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 2,
+        "readerValue": 3,
+        "score": 61
+      },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+      "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "readerSummary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "readerDek": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. For readers, the issue is how that fact changes credit availability, spreads and lender protections, not whether the headline is interesting on its own.",
+      "editorialThesis": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition.",
+      "ibAngle": "The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "interviewLine": "Start with the fact, explain the mechanism through credit availability, spreads and lender protections, then say what you would watch next: Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The new read is The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
       "whatHappened": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity.",
       "whatMoved": "The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
       "whyItMoved": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite.",
@@ -50,22 +69,22 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+            "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
           },
           {
             "id": "signal",
             "heading": "What the public signal is actually telling us",
-            "body": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+            "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
           },
           {
             "id": "interpretation",
             "heading": "How to interpret the financing signal",
-            "body": "If private credit remains open, sponsors can support more transaction volume. If spreads widen or credit losses rise, equity checks get larger and entry valuations need to fall. Bankers should watch direct-lending yields, non-accruals, repayment activity, and sponsor-backed originations because those determine whether private credit is helping or constraining deals. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+            "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
           },
           {
             "id": "evidence",
             "heading": "Where the evidence is strong versus indirect",
-            "body": "The read-through is strongest for sponsor-backed middle-market companies and dividend recap/refinancing candidates. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+            "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
           },
           {
             "id": "parallel",
@@ -75,7 +94,7 @@
           {
             "id": "watch-next",
             "heading": "What would confirm or weaken the read",
-            "body": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+            "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
           }
         ]
       },
@@ -148,23 +167,7 @@
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "Blue Owl Investor Relations",
-          "url": "https://ir.blueowl.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Ares Capital Investor Relations",
-          "url": "https://www.arescapitalcorp.com/",
-          "type": "Company"
-        },
-        {
-          "label": "FRED High Yield Spread",
-          "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-          "type": "Data"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": null,
       "concepts": [
         "debt",
@@ -185,12 +188,31 @@
           "source": "KKR",
           "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
           "publishedAt": "2026-05-29T10:05:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-acquisition-healthium-activity-sponsor-window",
+        "title": "KKR signs Healthium acquisition as sponsor deal activity tests the exit window",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "score": 57
+      },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
+      "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "readerSummary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "readerDek": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. For readers, the issue is how that fact changes exit routes, buyer depth and sponsor marks, not whether the headline is interesting on its own.",
+      "editorialThesis": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
+      "ibAngle": "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "interviewLine": "Start with the fact, explain the mechanism through exit routes, buyer depth and sponsor marks, then say what you would watch next: Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The new read is The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
       "whatHappened": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read.",
       "whatMoved": "The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
       "whyItMoved": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough.",
@@ -216,22 +238,22 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+            "body": "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
           },
           {
             "id": "signal",
             "heading": "What the public signal is actually telling us",
-            "body": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+            "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
           },
           {
             "id": "interpretation",
             "heading": "How to read the sponsor or exit implication",
-            "body": "The valuation read depends on whether strategic scarcity and growth justify sponsor pricing after higher financing costs. A good asset can still clear; weaker assets may not. For bankers, the key questions are debt capacity, required equity check, lender appetite, and whether the sponsor can underwrite a realistic exit multiple. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+            "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
           },
           {
             "id": "evidence",
             "heading": "Where the evidence is strong versus indirect",
-            "body": "This matters for private healthcare and medtech assets because sponsor demand can support auction confidence when public comps are stable. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+            "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
           },
           {
             "id": "parallel",
@@ -241,7 +263,7 @@
           {
             "id": "watch-next",
             "heading": "What would confirm or weaken the read",
-            "body": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+            "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
           }
         ]
       },
@@ -301,18 +323,7 @@
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "KKR Healthium Announcement",
-          "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
-          "type": "Company"
-        },
-        {
-          "label": "KKR Investor Relations",
-          "url": "https://ir.kkr.com/",
-          "type": "Company"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": null,
       "concepts": [
         "acquisition",
@@ -332,12 +343,31 @@
           "source": "BEA",
           "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
           "publishedAt": "2026-05-29T08:30:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-personal-income-personal-outlays-income-april",
+        "title": "Personal Income and Outlays, April 2026",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "score": 51
+      },
       "freshnessStatus": "FRESH",
       "confidence": "High",
       "summary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "readerSummary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "readerDek": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. For readers, the issue is how that fact changes rates and discount rates, not whether the headline is interesting on its own.",
+      "editorialThesis": "Personal Income and Outlays, April 2026 matters as a macro environment story because it connects a concrete fact to rates and discount rates. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+      "ibAngle": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through rates and discount rates, then say what you would watch next: Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The new read is The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
       "whatHappened": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year.",
       "whatMoved": "The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
       "whyItMoved": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.",
@@ -372,7 +402,7 @@
           {
             "id": "release",
             "heading": "What the release actually said",
-            "body": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The part that matters is not just the headline number, but which part of the report is still running hot and which part is starting to cool."
+            "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
           },
           {
             "id": "mechanism",
@@ -393,13 +423,16 @@
       },
       "visual": {
         "type": "line-chart",
-        "title": "Rate backdrop",
-        "subtitle": "Latest public FRED observations. This is not live trading data.",
-        "relevanceNote": "This chart fits because the story is about the rate backdrop itself, not just a company reacting to it.",
+        "title": "Yield stack and Fed-path pressure",
+        "subtitle": "Latest available public rate observations through the brief date; uses Yahoo Treasury proxies when FRED daily Treasury feeds are unavailable.",
+        "relevanceNote": "This chart fits because the story is about Fed-path repricing and the discount-rate stack that drives equity multiples, financing costs, and deal math.",
         "allowedPages": [
           "macro",
           "deep-dive"
         ],
+        "axisTitle": "Rate",
+        "axisSuffix": "%",
+        "visualSource": "Public rate data",
         "series": [
           {
             "id": "DGS10",
@@ -1509,25 +1542,9 @@
             ]
           }
         ],
-        "sourceNote": "Numeric market visuals use public FRED CSV downloads and preserve source links."
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "FRED 10-Year Treasury Yield",
-          "url": "https://fred.stlouisfed.org/series/DGS10",
-          "type": "Data"
-        },
-        {
-          "label": "FRED Fed Funds Effective Rate",
-          "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
-          "type": "Data"
-        },
-        {
-          "label": "BEA Personal Income and Outlays Releases",
-          "url": "https://www.bea.gov/news/current-releases",
-          "type": "Official"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "rates-inflation-cost-of-capital",
         "name": "Rates and cost of capital",
@@ -1559,12 +1576,31 @@
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
           "publishedAt": "2026-05-29T09:15:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-revenue-server-surges-jumps-dell",
+        "title": "Dell stock jumps as AI server revenue surges",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "score": 50
+      },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "summary": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "readerSummary": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "readerDek": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "editorialThesis": "Dell stock jumps as AI server revenue surges matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch Dell's AI backlog, gross margin, memory supply, and whether large cloud customers keep raising capex plans.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The new read is Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending.",
       "whatHappened": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand.",
       "whatMoved": "Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending.",
       "whyItMoved": "The 757% AI-server revenue growth gave investors a concrete number showing that AI spending is reaching servers, memory, networking, and enterprise systems.",
@@ -1603,7 +1639,7 @@
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending. A single stock move matters when it gives the market a cleaner signal about a broader theme than the theme had before."
+            "body": "Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand."
           },
           {
             "id": "mechanism",
@@ -2169,28 +2205,7 @@
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "Dell Investor Relations",
-          "url": "https://investors.delltechnologies.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Nvidia Investor Relations",
-          "url": "https://investor.nvidia.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Arista Networks Investor Relations",
-          "url": "https://investors.arista.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Equinix Investor Relations",
-          "url": "https://investor.equinix.com/",
-          "type": "Company"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "ai-infrastructure-dell-servers",
         "name": "AI infrastructure buildout",
@@ -2222,12 +2237,31 @@
           "source": "Reuters",
           "url": "https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/",
           "publishedAt": "2026-05-29T10:45:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-unilever-foods-toms-capital-mccormick-unilever-capital",
+        "title": "Toms Capital builds McCormick stake amid Unilever Foods deal",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 0,
+        "readerValue": 5,
+        "score": 47
+      },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "summary": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.",
+      "readerSummary": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.",
+      "readerDek": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. For readers, the issue is how that fact changes deal certainty, valuation and financing capacity, not whether the headline is interesting on its own.",
+      "editorialThesis": "Toms Capital builds McCormick stake amid Unilever Foods deal matters as a deals story because it connects a concrete fact to deal certainty, valuation and financing capacity. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through deal certainty, valuation and financing capacity, then say what you would watch next: Watch Toms Capital's asks, shareholder reaction, regulatory milestones, synergy details, and any change in deal timing.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. The new read is The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity.",
       "whatHappened": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business.",
       "whatMoved": "The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity.",
       "whyItMoved": "Activist pressure can force management to defend the deal more clearly: the synergy case, timing, leverage, and why this is better than other uses of capital.",
@@ -2262,7 +2296,7 @@
           {
             "id": "transaction",
             "heading": "What is happening in the transaction",
-            "body": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity. In deals, the most useful way to read the situation is to ask what changed in certainty, leverage tolerance, or the sponsor or board's room to maneuver."
+            "body": "The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity. In deals, the useful question is what changed in certainty, strategic need, financing tolerance, or the board's room to maneuver. Source detail: Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business."
           },
           {
             "id": "deal-read",
@@ -2283,67 +2317,43 @@
       },
       "visual": {
         "type": "deal-timeline",
-        "title": "Deal risk map",
-        "subtitle": "Sourced transaction structure and watchpoints.",
-        "relevanceNote": "This visual fits because the useful question is where the deal can change, not whether one market series moved.",
+        "title": "Transaction path and risk map",
+        "subtitle": "Story-specific transaction map showing where today's deal can create or lose certainty.",
+        "relevanceNote": "This visual fits because the useful question is how the transaction moves from strategic logic to signed terms, approvals, financing discipline, and closing certainty.",
         "allowedPages": [
           "deals",
           "deep-dive"
         ],
         "sourceTrail": [
           {
-            "source": "McCormick Transaction Release",
-            "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent"
-          },
-          {
-            "source": "McCormick Investor Relations",
-            "url": "https://ir.mccormick.com/"
-          },
-          {
-            "source": "Unilever Investor Relations",
-            "url": "https://www.unilever.com/investors/"
+            "source": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/"
           }
         ],
         "steps": [
           {
-            "label": "Deal announced",
-            "detail": "Strategic scale and synergy case"
+            "label": "Strategic rationale",
+            "detail": "Toms Capital builds McCormick stake amid Unilever Foods deal"
           },
           {
-            "label": "Activist overlay",
-            "detail": "Toms Capital stake adds scrutiny"
+            "label": "Valuation / consideration",
+            "detail": "Check whether price, structure, and expected synergies justify the buyer's capital allocation."
           },
           {
-            "label": "Approvals",
-            "detail": "Shareholder and regulatory path"
+            "label": "Regulatory path",
+            "detail": "Confirm antitrust, sector, shareholder, and other approval gates before treating the deal as done."
           },
           {
-            "label": "Financing / leverage",
-            "detail": "Debt, dilution, capital plan"
+            "label": "Financing discipline",
+            "detail": "Watch leverage, cash use, dilution, and whether market conditions change the economics before close."
           },
           {
-            "label": "Outcome",
-            "detail": "Close, change terms, or defend deal"
+            "label": "Closing certainty",
+            "detail": "The read improves if approvals, financing, and integration risk remain contained; it breaks if any gate gets harder."
           }
         ]
       },
-      "relatedLinks": [
-        {
-          "label": "McCormick Transaction Release",
-          "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent",
-          "type": "Company"
-        },
-        {
-          "label": "McCormick Investor Relations",
-          "url": "https://ir.mccormick.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Unilever Investor Relations",
-          "url": "https://www.unilever.com/investors/",
-          "type": "Company"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "mccormick-unilever-activist",
         "name": "McCormick / Unilever Foods deal watch",

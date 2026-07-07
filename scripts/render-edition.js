@@ -263,10 +263,15 @@ function moveContext(move) {
     title: move.title,
     editorialLane: move.editorialLane,
     privateMarketSegment: move.privateMarketSegment || null,
-    summary: move.summary || "",
+    summary: move.readerSummary || move.summary || "",
+    readerDek: move.readerDek || "",
+    editorialThesis: move.editorialThesis || "",
+    ibAngle: move.ibAngle || "",
+    interviewLine: move.interviewLine || "",
+    bankerQuestion: move.bankerQuestion || "",
     whatHappened: move.whatHappened,
-    whyItMatters: move.whyItMoved,
-    whatChanged: move.whatMoved,
+    whyItMatters: move.editorialThesis || move.whyItMoved,
+    whatChanged: move.whatChangedToday || move.whatMoved,
     valuation: move.valuationImpact,
     financingDeals: move.financingImplication,
     companyRead: move.sectorReadThrough,
@@ -367,12 +372,17 @@ function moveCard(move, index, options = {}) {
   return `<article class="move-card" data-context="${escapeHtml(JSON.stringify(moveContext(move)))}">
     <div class="meta">Move ${index + 1} / ${escapeHtml(move.editorialLaneLabel || "Markets")} / ${escapeHtml(move.freshnessStatus)} / Confidence ${escapeHtml(move.confidence)}</div>
     <h2>${escapeHtml(move.title)}</h2>
-    <p class="story-summary">${escapeHtml(move.summary || move.whyItMoved)}</p>
+    <p class="story-summary">${escapeHtml(move.readerDek || move.readerSummary || move.summary || move.whyItMoved)}</p>
+    <div class="insight-grid">
+      <div><b>IB Angle</b><span>${escapeHtml(move.ibAngle || move.financingImplication || "Translate the news into valuation, financing and deal implications.")}</span></div>
+      <div><b>Interview Line</b><span>${escapeHtml(move.interviewLine || "Start with the fact, explain the mechanism, then name what you would watch next.")}</span></div>
+      <div><b>Banker Question</b><span>${escapeHtml(move.bankerQuestion || "Which assumption would you diligence first?")}</span></div>
+    </div>
     <details class="story-details"${expanded ? " open" : ""}>
       <summary>${expanded ? "Hide full analysis" : "Read full analysis"}</summary>
       <div class="story-detail-body">
-        <p><strong>What happened:</strong> ${escapeHtml(move.whatHappened)}</p>
-        <p><strong>What changed:</strong> ${escapeHtml(move.whatMoved)}</p>
+        <p><strong>What changed today:</strong> ${escapeHtml(move.whatChangedToday || move.whatMoved)}</p>
+        <p><strong>Editorial thesis:</strong> ${escapeHtml(move.editorialThesis || move.whyItMoved)}</p>
         ${allowVisual ? visualCard(move.visual) : ""}
         ${continuityBlock(move, base)}
         <section class="narrative-stack">
@@ -415,20 +425,67 @@ function nav(active, edition, base = "") {
   </nav>`;
 }
 
+
+function publicFallbackText(value, fallback = "This story needs a reader-safe editorial summary before publication.") {
+  const text = String(value || "").trim();
+  if (!text) return fallback;
+  if (/this was selected because|current reputable-market headline|thin rss item|source url, timestamp|market-moving public-tape keywords|evidence bar|cleared the source|cleared the evidence/i.test(text)) {
+    return fallback;
+  }
+  return text;
+}
+
+function fallbackEditorsBrief(edition) {
+  const bullets = [];
+  for (const move of edition.moves || []) {
+    bullets.push(`${move.title}: ${publicFallbackText(move.readerDek || move.readerSummary || move.ibAngle || move.summary, "Use this story to connect the reported fact to valuation, financing, and deal implications.")}`);
+    if (bullets.length >= 2) break;
+  }
+  const topDeal = edition.dealTape?.[0];
+  if (topDeal) bullets.push(`Deal tape: ${topDeal.title} is the transaction to underwrite for price, certainty, approvals, and financing.`);
+  const indexMove = edition.openbbMarketPack?.indices?.[0];
+  const sectorMove = edition.openbbMarketPack?.sectors?.[0];
+  if (indexMove || sectorMove) {
+    const indexText = indexMove ? `${indexMove.symbol || indexMove.label} ${formatPct(indexMove.oneDayPct)}` : "index tape mixed";
+    const sectorText = sectorMove ? `${sectorMove.symbol || sectorMove.label} ${formatPct(sectorMove.oneDayPct)}` : "sector leadership unclear";
+    bullets.push(`Market context: ${indexText}; ${sectorText}. Use the tape to frame risk appetite, not as a stand-alone thesis.`);
+  }
+  if (!bullets.length) bullets.push("No main story warranted a full lead today; the useful read is that discipline matters more than filling space.");
+  return {
+    dek: "The 30-second read for readers who need the point before the details.",
+    bullets: bullets.slice(0, 4)
+  };
+}
+
+function editorsBriefCard(edition) {
+  const brief = edition.editorsBrief?.bullets?.length ? edition.editorsBrief : fallbackEditorsBrief(edition);
+  if (!brief?.bullets?.length) return "";
+  return `<section class="panel compact">
+    <div class="panel-head"><div><span class="eyebrow">Editor's Brief</span><h2>30-second read</h2></div></div>
+    <p class="lede">${escapeHtml(brief.dek || "The fastest way into today's issue.")}</p>
+    <div class="summary-grid">
+      ${brief.bullets.map((bullet, index) => `<div class="summary-card"><span class="meta">Read ${index + 1}</span><p>${escapeHtml(bullet)}</p></div>`).join("")}
+    </div>
+  </section>`;
+}
+
 function overview(edition, base = "") {
   const cards = edition.moves.length
     ? edition.moves.map((move, index) => `<a class="summary-card" href="${internalHref(pageForMove(edition, move), edition, base)}">
-        <span class="meta">Move ${index + 1}</span>
+        <span class="meta">Story ${index + 1}</span>
         <b>${escapeHtml(move.title)}</b>
-        <p>${escapeHtml(move.whyItMoved)}</p>
+        <p>${escapeHtml(publicFallbackText(move.readerDek || move.readerSummary || move.summary, "Use this story to connect the reported fact to valuation, financing, and deal implications."))}</p>
+        <p><strong>IB Angle:</strong> ${escapeHtml(move.ibAngle || "Translate the story into valuation, financing, and deal implications.")}</p>
+        <p><strong>Interview Line:</strong> ${escapeHtml(move.interviewLine || "Start with the fact, explain the mechanism, then name what you would watch next.")}</p>
       </a>`).join("")
-    : `<div class="summary-card"><b>No forced main tape</b><p>No fresh item cleared the evidence bar. The system stayed quiet instead of filling space.</p></div>`;
+    : `<div class="summary-card"><b>No forced main tape</b><p>No fresh source-backed item was strong enough for the main tape today. The brief stayed quiet instead of filling space.</p></div>`;
 
   return `<section class="panel">
-    <div class="panel-head"><div><span class="eyebrow">Today at a glance</span><h1>${escapeHtml(edition.title)}</h1></div><span class="chip">${edition.moves.length} selected</span></div>
+    <div class="panel-head"><div><span class="eyebrow">Today at a glance</span><h1>${escapeHtml(edition.title)}</h1></div><span class="chip">${edition.moves.length} stories</span></div>
     <p class="lede">${escapeHtml(edition.dek)}</p>
     <div class="summary-grid">${cards}</div>
   </section>
+  ${editorsBriefCard(edition)}
   ${sectionSummaryPagelet(edition, base)}
   ${todayMarketMap(edition)}
   ${openbbMarketPackCard(edition.openbbMarketPack)}
@@ -458,9 +515,9 @@ function sectionSummaryPagelet(edition, base = "") {
           ? pageForMove(edition, first)
           : file;
         return `<a class="summary-card" href="${internalHref(href, edition, base)}">
-          <span class="meta">${count} ${key === "deals" ? "ranked" : "selected"}</span>
+          <span class="meta">${count} ${key === "deals" ? "ranked" : "stories"}</span>
           <b>${escapeHtml(label)}</b>
-          <p>${escapeHtml(first?.whyItMoved || first?.whyItRanks || description)}</p>
+          <p>${escapeHtml(publicFallbackText(first?.readerDek || first?.ibAngle || first?.whyItRanks, description))}</p>
         </a>`;
       }).join("")}
     </div>
@@ -560,9 +617,9 @@ function overnightPage(edition, base = "") {
         ${moveCard(move, index, { activePage: "overnight", base, expanded: index < 2 })}
         ${insightGrid(move)}
       </div>`).join("")
-    : `<article class="move-card"><h2>No major overnight signal</h2><p>No source-backed overnight story cleared the evidence and market-impact bar. The tab stays quiet instead of filling with generic headlines.</p></article>`;
+    : `<article class="move-card"><h2>No major overnight signal</h2><p>No source-backed overnight story was strong enough for the market-impact cutoff. The tab stays quiet instead of filling with generic headlines.</p></article>`;
   return `<section class="panel">
-    <div class="panel-head"><div><span class="eyebrow">Overnight</span><h1>Big News Before The Open</h1></div><span class="chip">${items.length} selected</span></div>
+    <div class="panel-head"><div><span class="eyebrow">Overnight</span><h1>Big News Before The Open</h1></div><span class="chip">${items.length} stories</span></div>
     <p class="lede">The biggest source-backed headlines from the overnight window, analyzed for market impact, valuation read-through, financing conditions, and deal implications.</p>
     <p class="source-line"><strong>Window:</strong> ${escapeHtml(windowText)}</p>
     ${body}
@@ -621,9 +678,9 @@ function dealsPage(edition, base = "") {
   const laneItems = edition.sections?.deals?.items || [];
   const body = items.length
     ? items.map((deal) => dealTapeCard(deal)).join("")
-    : `<article class="move-card"><h2>No ranked deal tape yet</h2><p>No transaction, financing, activist, IPO, or sponsor update cleared the deal-strength threshold. The page stays quiet instead of filling with generic deal copy.</p></article>`;
+    : `<article class="move-card"><h2>No ranked deal tape yet</h2><p>No transaction, financing, activist, IPO, or sponsor update was strong enough for the deal tape today. The page stays quiet instead of filling with generic deal copy.</p></article>`;
   const analysisBody = laneItems.length
-    ? `<section class="panel compact"><div class="panel-head"><div><span class="eyebrow">Deal Analysis</span><h2>Source-backed deal stories</h2></div><span class="chip">${laneItems.length} selected</span></div>${dedupeVisualTitles(laneItems, "deals", base)}</section>`
+    ? `<section class="panel compact"><div class="panel-head"><div><span class="eyebrow">Deal Analysis</span><h2>Source-backed deal stories</h2></div><span class="chip">${laneItems.length} stories</span></div>${dedupeVisualTitles(laneItems, "deals", base)}</section>`
     : "";
   return `<section class="panel">
     <div class="panel-head"><div><span class="eyebrow">Deals</span><h1>Ranked Deal Tape</h1></div><span class="chip">${items.length} ranked</span></div>
@@ -637,9 +694,9 @@ function lanePage(edition, key, eyebrow, title, dek, base = "") {
   const items = edition.sections?.[key]?.items || [];
   const body = items.length
     ? dedupeVisualTitles(items, key, base)
-    : `<article class="move-card"><h2>No strong signal today</h2><p>This lane stayed quiet because no fresh, source-backed item cleared the evidence bar. If an older major story has a real development, it will show here as a continuing story.</p></article>`;
+    : `<article class="move-card"><h2>No strong signal today</h2><p>This lane stayed quiet because no fresh, source-backed item warranted a full write-up. If an older major story has a real development, it will show here as a continuing story.</p></article>`;
   return `<section class="panel">
-    <div class="panel-head"><div><span class="eyebrow">${escapeHtml(eyebrow)}</span><h1>${escapeHtml(title)}</h1></div><span class="chip">${items.length} selected</span></div>
+    <div class="panel-head"><div><span class="eyebrow">${escapeHtml(eyebrow)}</span><h1>${escapeHtml(title)}</h1></div><span class="chip">${items.length} stories</span></div>
     <p class="lede">${escapeHtml(dek)}</p>
     ${body}
   </section>`;
@@ -687,11 +744,11 @@ function macroPage(edition, base = "") {
   const items = section.items || [];
   const body = items.length
     ? dedupeVisualTitles(items, "macro", base)
-    : `<article class="move-card"><h2>No strong macro signal today</h2><p>No fresh official release or policy development cleared the evidence bar. The desk stayed quiet instead of forcing a macro take.</p></article>`;
+    : `<article class="move-card"><h2>No strong macro signal today</h2><p>No fresh official release or policy development warranted a full macro take. The desk stayed quiet instead of forcing one.</p></article>`;
   return `${macroLatestEvent(section)}
   ${economicCalendar(section)}
   <section class="panel">
-    <div class="panel-head"><div><span class="eyebrow">Macro Environment</span><h1>Rates, Inflation, and The Tape Behind The Tape</h1></div><span class="chip">${items.length} selected</span></div>
+    <div class="panel-head"><div><span class="eyebrow">Macro Environment</span><h1>Rates, Inflation, and The Tape Behind The Tape</h1></div><span class="chip">${items.length} stories</span></div>
     <p class="lede">This is where the economic backdrop lives now: the latest official release, what it means for the market, and the next scheduled events that could change the read.</p>
     ${body}
   </section>`;
@@ -717,15 +774,15 @@ function privateMarketsPage(edition, base = "") {
             base
           })}</div>`;
         }).join("")
-      : `<article class="move-card"><h2>No strong ${escapeHtml(label.toLowerCase())} signal today</h2><p>${escapeHtml(description)} Nothing in this desk cleared the source and evidence bar today.</p></article>`;
+      : `<article class="move-card"><h2>No strong ${escapeHtml(label.toLowerCase())} signal today</h2><p>${escapeHtml(description)} Nothing in this desk warranted a full source-backed write-up today.</p></article>`;
     return `<section class="segment-block">
-      <div class="segment-head"><span class="meta">${items.length} selected</span><h2>${escapeHtml(label)}</h2><p>${escapeHtml(description)}</p></div>
+      <div class="segment-head"><span class="meta">${items.length} stories</span><h2>${escapeHtml(label)}</h2><p>${escapeHtml(description)}</p></div>
       ${body}
     </section>`;
   }).join("");
 
   return `<section class="panel">
-    <div class="panel-head"><div><span class="eyebrow">Private Markets</span><h1>Private Market Signals</h1></div><span class="chip">${section.items?.length || 0} selected</span></div>
+    <div class="panel-head"><div><span class="eyebrow">Private Markets</span><h1>Private Market Signals</h1></div><span class="chip">${section.items?.length || 0} stories</span></div>
     <p class="lede">Public-source reads from the two desks that matter most for banking: sponsor activity and private credit conditions. Each desk can stay quiet when there is no real signal.</p>
     ${segmentBlocks}
   </section>`;
@@ -775,7 +832,7 @@ function sourcesPage(edition, review) {
       <b>Review ${escapeHtml(review.status)}</b>
       <span>${review.blockers.length} blocker(s), ${review.warnings.length} warning(s)</span>
     </div>
-    ${moveSources || "<p>No source-backed moves selected.</p>"}
+    ${moveSources || "<p>No source-backed moves on the desk.</p>"}
     <section class="analysis-block">
       <h2>Source failures</h2>
       <p>${(edition.sourceFailures || []).map((failure) => escapeHtml(`${failure.feed}: ${failure.message}`)).join("; ") || "none"}</p>
@@ -1157,7 +1214,7 @@ function renderHtml(active, edition, review, archiveEntries, base = "") {
       <div class="brand">The Opening Ledger</div>
       <div class="topbar-tools">
         <span class="chip">${escapeHtml(edition.runDate)}</span>
-        <span class="chip">Generated edition</span>
+        <span class="chip">Opening Ledger edition</span>
         <a class="chip archive-open" href="${escapeHtml(internalHref("archive.html", edition, base))}">Archive</a>
         <select class="issue-jump" aria-label="Open past issue" onchange="if (this.value) location.href=this.value;">
           <option value="${escapeHtml(latestIssueHref(base))}">Latest issue</option>

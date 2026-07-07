@@ -543,26 +543,69 @@ function summaryFor(item, lane, segment, storyRead = null) {
     return `${sourceBlurb} The key question is how quickly this first-order headline changes valuation marks, financing windows, investor demand, and the broader capital-markets read.`;
   }
   if (lane === "macro") {
-    return `${sourceBlurb} The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.`;
+    return `${sourceBlurb} Read it through the rate path and whether investors can still defend the current valuation backdrop.`;
   }
   if (lane === "deals") {
-    return `${sourceBlurb} What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.`;
+    return `${sourceBlurb} Focus on whether the transaction logic, financing, and approval path still hold together under scrutiny.`;
   }
   if (lane === "private_markets" && segment === "private_credit") {
-    return `${sourceBlurb} The useful read is what this says about credit availability, lender appetite, underwriting protection, and refinancing capacity.`;
+    return `${sourceBlurb} Read the signal through credit availability, lender appetite, underwriting protection, and refinancing capacity.`;
   }
   if (lane === "private_markets") {
-    return `${sourceBlurb} The useful read is what this says about sponsor activity, valuation discipline, true exit liquidity, and financing conditions.`;
+    return `${sourceBlurb} Read the signal through sponsor activity, valuation discipline, true exit liquidity, and financing conditions.`;
   }
-  return `${sourceBlurb} The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.`;
+  return `${sourceBlurb} The market read is how investors are repricing the story, not just that the headline happened.`;
+}
+
+const INTERNAL_PUBLIC_PHRASES = [
+  /Current reputable-market headline[^.]*\.?/gi,
+  /thin RSS item[^.]*\.?/gi,
+  /source URL, timestamp[^.]*\.?/gi,
+  /This was selected because\s*/gi,
+  /evidence bar/gi
+];
+
+function publicText(value) {
+  return INTERNAL_PUBLIC_PHRASES.reduce((text, pattern) => text.replace(pattern, ""), String(value || ""))
+    .replace(/\s+/g, " ")
+    .replace(/\s+([.,;:!?])/g, "$1")
+    .trim();
 }
 
 function cleanSourceBlurb(item) {
   const summary = String(item.summary || "").trim();
-  if (!summary) return item.title;
+  if (!summary) return publicText(item.title);
   const looksTruncated = summary.length > 240 && !/[.!?]["')\]]?$/.test(summary);
   const hasPageChrome = /\b(skip to main content|toggle navigation|main navigation|official website of the united states government)\b/i.test(summary);
-  return looksTruncated || hasPageChrome ? item.title : summary;
+  return publicText(looksTruncated || hasPageChrome ? item.title : summary);
+}
+
+function firstSentence(value) {
+  const text = publicText(value);
+  return text.match(/^.+?[.!?](?:\s|$)/)?.[0]?.trim() || text;
+}
+
+function readerFields({ item, lane, segment, storyRead, summary, whatMoved, valuationImpact, financingImplication, watchNext }) {
+  const title = item.title || "today's story";
+  const leadFact = firstSentence(cleanSourceBlurb(item)) || title;
+  const laneName = laneDisplayName(lane).toLowerCase();
+  const mechanism = lane === "macro"
+    ? "rates and discount rates"
+    : lane === "deals" || lane === "breaking"
+      ? "deal certainty, valuation and financing capacity"
+      : segment === "private_credit"
+        ? "credit availability, spreads and lender protections"
+        : segment === "private_equity"
+          ? "exit routes, buyer depth and sponsor marks"
+          : "leadership, earnings confidence and risk appetite";
+  const readerSummary = publicText(summary);
+  const readerDek = publicText(`${leadFact} For readers, the issue is how that fact changes ${mechanism}, not whether the headline is interesting on its own.`);
+  const whatChangedToday = publicText(`${leadFact} The new read is ${whatMoved}`);
+  const editorialThesis = publicText(storyRead?.interpretation || `${title} matters as a ${laneName} story because it connects a concrete fact to ${mechanism}. ${valuationImpact}`);
+  const ibAngle = publicText(storyRead?.summaryTail || `${financingImplication} In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.`);
+  const interviewLine = publicText(`Start with the fact, explain the mechanism through ${mechanism}, then say what you would watch next: ${watchNext}`);
+  const bankerQuestion = publicText("If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?");
+  return { readerSummary, readerDek, editorialThesis, ibAngle, interviewLine, bankerQuestion, whatChangedToday };
 }
 
 function buildLongformSections({
@@ -580,9 +623,11 @@ function buildLongformSections({
   storyRead = null
 }) {
   const parallelText = `A useful parallel is ${parallel.precedent} In that earlier setup, ${parallel.outcome.toLowerCase()} What rhymes is ${parallel.whatRhymes.toLowerCase()} What is different this time is ${parallel.whatDiffers.toLowerCase()} The bottom line is ${parallel.soWhat.toLowerCase()}`;
+  const primarySourceName = item.sourceTrail?.[0]?.source || item.source || "primary source";
+  const sourceEvidence = `Source detail (${primarySourceName}): ${whatHappened}`;
   if (lane === "breaking") {
     return [
-      { id: "takeaway", heading: "Plain-English takeaway", body: `${whyItMoved} A breaking capital-markets headline can reset the comparable set before slower private-market marks, banker pitches, and follow-on financing plans catch up.` },
+      { id: "takeaway", heading: "Plain-English takeaway", body: `${sourceEvidence} ${whyItMoved} A breaking capital-markets headline can reset the comparable set before slower private-market marks, banker pitches, and follow-on financing plans catch up.` },
       { id: "facts", heading: "What the sources say", body: `${whatMoved} The source facts matter because they create a hard public reference point: deal size, IPO price, valuation, allocation, and order-book demand. Anchor the read to those named facts first, then separate direct evidence from valuation and deal-market implications.` },
       { id: "market-mechanism", heading: "Why the market may care immediately", body: `${valuationImpact} ${sectorReadThrough} A large fresh price, valuation, order-book, or trading reference becomes a new public benchmark investors can compare against prior private marks and peer multiples.` },
       { id: "deal-financing-read", heading: "Capital-markets and deal read-through", body: `${financingImplication} The read-through is strongest when the event shows investors are willing to fund a story at a specific price, size, and timetable.` },
@@ -595,7 +640,7 @@ function buildLongformSections({
       {
         id: "takeaway",
         heading: "Plain-English takeaway",
-        body: `${whyItMoved} In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices.`
+        body: `${sourceEvidence} ${whyItMoved} In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices.`
       },
       {
         id: "release",
@@ -624,7 +669,7 @@ function buildLongformSections({
       {
         id: "takeaway",
         heading: "Plain-English takeaway",
-        body: `${whyItMoved} The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability.`
+        body: `${sourceEvidence} ${whyItMoved} The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability.`
       },
       {
         id: "tape",
@@ -658,12 +703,12 @@ function buildLongformSections({
       {
         id: "takeaway",
         heading: "Plain-English takeaway",
-        body: `${whyItMoved} This is the kind of story where the headline matters less than whether the deal logic survives pressure from lenders, shareholders, and the approval process.`
+        body: `${sourceEvidence} ${whyItMoved} This is the kind of story where the headline matters less than whether the deal logic survives pressure from lenders, shareholders, and the approval process.`
       },
       {
         id: "transaction",
         heading: "What is happening in the transaction",
-        body: `${whatMoved} In deals, the useful question is what changed in certainty, strategic need, financing tolerance, or the board's room to maneuver. Source detail: ${whatHappened}`
+        body: `${whatMoved} In deals, underwrite what changed in certainty, strategic need, financing tolerance, or the board's room to maneuver. Source detail: ${whatHappened}`
       },
       {
         id: "deal-read",
@@ -687,7 +732,7 @@ function buildLongformSections({
       {
         id: "takeaway",
         heading: "Plain-English takeaway",
-        body: storyRead?.plainEnglish || `${whyItMoved} The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable after fees, covenants, and downside risk.`
+        body: `${sourceEvidence} ${storyRead?.plainEnglish || `${whyItMoved} The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable after fees, covenants, and downside risk.`}`
       },
       {
         id: "signal",
@@ -720,7 +765,7 @@ function buildLongformSections({
     {
       id: "takeaway",
       heading: "Plain-English takeaway",
-      body: storyRead?.plainEnglish || `${whyItMoved} The real learning value is understanding what this public signal says about sponsor behavior, exit routes, buyer depth, and valuation discipline rather than treating it as gossip about private marks.`
+      body: `${sourceEvidence} ${storyRead?.plainEnglish || `${whyItMoved} The real learning value is understanding what this public signal says about sponsor behavior, exit routes, buyer depth, and valuation discipline rather than treating it as gossip about private marks.`}`
     },
     {
       id: "signal",
@@ -730,7 +775,7 @@ function buildLongformSections({
     {
       id: "interpretation",
       heading: "How to read the sponsor or exit implication",
-      body: storyRead?.interpretation || `${valuationImpact} ${financingImplication} The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today.`
+      body: storyRead?.interpretation || `${valuationImpact} ${financingImplication} The underwriting test is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify risk today.`
     },
     {
       id: "evidence",
@@ -840,6 +885,60 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
         };
 
   const sourceBlurb = cleanSourceBlurb(item);
+  const summary = publicText(summaryFor(item, editorialLane, privateMarketSegment, storyRead));
+  const whatMoved = publicText(item.analysis?.whatMoved || (isBreaking
+    ? "The fresh fact is a public IPO price, trading date, allocation structure, and aftermarket test for what had been a private-market narrative."
+    : isMacro
+    ? "The fresh fact changes the rates, inflation-expectations, and cost-of-capital setup."
+    : isDeal
+      ? "The fresh fact changes deal certainty, shareholder pressure, and whether the financing still works."
+      : isPrivateCredit
+        ? "The fresh fact tests private-credit capacity: whether direct lenders are still funding sponsor deals and refinancings at workable terms."
+      : isPrivateEquity
+        ? "The fresh fact tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective."
+      : "The fresh fact changes sector leadership, company valuation, and the peer read-through."));
+  const whyItMoved = publicText(item.analysis?.whyItMoved || (isBreaking
+    ? "Breaking IPO news matters because it turns private-market narrative into observable public-market evidence: price, size, allocation, demand, and trading performance."
+    : isMacro
+      ? "Macro news matters because it can reset rate expectations, discount rates, and the cost of capital across equities, credit, and deal math."
+      : isDeal
+        ? "Deal news matters when it changes certainty, price discipline, strategic fit, or the amount of financing risk the market has to underwrite."
+        : isPrivateCredit
+          ? "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back."
+          : isPrivateEquity
+            ? "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs."
+            : `The ${topic} news matters because it changes the read on ${theme}: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.`));
+  const sectorReadThrough = publicText(item.analysis?.sectorReadThrough || (isBreaking
+    ? "Read-through is strongest for late-stage venture-backed companies, IPO-ready private issuers, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb large deals."
+    : isPrivateCredit
+    ? "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings."
+    : isPrivateEquity
+      ? "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies."
+      : item.matchedThemes?.length
+    ? `Connects to ${item.matchedThemes.map((match) => match.name).join(", ")}.`
+    : "Treat the read-through as general market context until a stronger sector-specific signal develops."));
+  const watchNext = publicText(item.analysis?.watchNext || (isBreaking
+    ? "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans."
+    : isMacro
+    ? "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal."
+    : isDeal
+      ? "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms."
+      : isPrivateCredit
+        ? "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals."
+      : isPrivateEquity
+        ? "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions."
+      : "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."));
+  const reader = readerFields({
+    item,
+    lane: editorialLane,
+    segment: privateMarketSegment,
+    storyRead,
+    summary,
+    whatMoved,
+    valuationImpact,
+    financingImplication,
+    watchNext
+  });
 
   return {
     id: item.id,
@@ -851,90 +950,35 @@ export function bankerAnalysis(item, marketData = { series: [] }) {
     storyCluster: item.storyCluster || null,
     freshnessStatus: item.freshnessStatus,
     confidence: item.sourceType === "official" ? "High" : "Medium",
-    summary: summaryFor(item, editorialLane, privateMarketSegment, storyRead),
+    summary,
+    readerSummary: reader.readerSummary,
+    readerDek: reader.readerDek,
+    editorialThesis: reader.editorialThesis,
+    ibAngle: reader.ibAngle,
+    interviewLine: reader.interviewLine,
+    bankerQuestion: reader.bankerQuestion,
+    whatChangedToday: reader.whatChangedToday,
     whatHappened: sourceBlurb,
-    whatMoved: item.analysis?.whatMoved || (isBreaking
-      ? "The main move is that private-market narrative now has a public IPO price, trading date, allocation structure, and aftermarket test."
-      : isMacro
-      ? "The main move is in rates, inflation expectations, and the cost of capital."
-      : isDeal
-        ? "The main move is in deal certainty, shareholder pressure, and whether the financing still works."
-        : isPrivateCredit
-          ? "The main move is in private-credit capacity: whether direct lenders are still funding sponsor deals and refinancings at workable terms."
-        : isPrivateEquity
-          ? "The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective."
-        : "The main move is in sector leadership, company valuation, and what the news says about peers."),
-    whyItMoved: item.analysis?.whyItMoved || (isBreaking
-      ? "Breaking IPO news matters because it turns private-market narrative into observable public-market evidence: price, size, allocation, demand, and trading performance."
-      : isPrivateCredit
-      ? "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back."
-      : isPrivateEquity
-        ? "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs."
-        : `This was selected because it links ${topic} news to ${theme} and has enough source support to analyze rather than merely mention.`),
-    valuationImpact: item.analysis?.valuationImpact || valuationImpact,
-    financingImplication: item.analysis?.financingImplication || financingImplication,
-    sectorReadThrough: item.analysis?.sectorReadThrough || (isBreaking
-      ? "Read-through is strongest for late-stage venture-backed companies, IPO-ready private issuers, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb large deals."
-      : isPrivateCredit
-      ? "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings."
-      : isPrivateEquity
-        ? "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies."
-        : item.matchedThemes?.length
-      ? `Connects to ${item.matchedThemes.map((match) => match.name).join(", ")}.`
-      : "No tracked theme has a strong enough fresh signal; treat as general context."),
+    whatMoved,
+    whyItMoved,
+    valuationImpact: publicText(item.analysis?.valuationImpact || valuationImpact),
+    financingImplication: publicText(item.analysis?.financingImplication || financingImplication),
+    sectorReadThrough,
     parallel: item.analysis?.parallel || fallbackParallel,
-    watchNext: item.analysis?.watchNext || (isBreaking
-      ? "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans."
-      : isMacro
-      ? "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal."
-      : isDeal
-        ? "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms."
-        : isPrivateCredit
-          ? "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals."
-        : isPrivateEquity
-          ? "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions."
-        : "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."),
+    watchNext,
     longform: {
       sections: buildLongformSections({
         lane: editorialLane,
         segment: privateMarketSegment,
         item,
         whatHappened: sourceBlurb,
-        whatMoved: item.analysis?.whatMoved || (isBreaking
-          ? "The main move is that private-market narrative now has a public IPO price, trading date, allocation structure, and aftermarket test."
-          : isMacro
-          ? "The main move is in rates, inflation expectations, and the cost of capital."
-          : isDeal
-            ? "The main move is in deal certainty, shareholder pressure, and whether the financing still works."
-            : isPrivateCredit
-              ? "The main move is in private-credit capacity: whether direct lenders are still funding sponsor deals and refinancings at workable terms."
-              : isPrivateEquity
-                ? "The main move is in sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective."
-                : "The main move is in sector leadership, company valuation, and what the news says about peers."),
-        whyItMoved: item.analysis?.whyItMoved || (isPrivateCredit
-          ? "Private credit matters because it is now a major source of buyout and refinancing capital. The signal is whether lenders are still open, selective, or pulling back."
-          : isPrivateEquity
-            ? "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs."
-            : `This was selected because it links ${topic} news to ${theme} and has enough source support to analyze rather than merely mention.`),
-        valuationImpact: item.analysis?.valuationImpact || valuationImpact,
-        financingImplication: item.analysis?.financingImplication || financingImplication,
-        sectorReadThrough: item.analysis?.sectorReadThrough || (isPrivateCredit
-          ? "Read-through is strongest for sponsor-backed companies, BDCs, direct lenders, and businesses facing refinancings."
-          : isPrivateEquity
-            ? "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies."
-            : item.matchedThemes?.length
-              ? `Connects to ${item.matchedThemes.map((match) => match.name).join(", ")}.`
-              : "No tracked theme has a strong enough fresh signal; treat as general context."),
+        whatMoved,
+        whyItMoved,
+        valuationImpact: publicText(item.analysis?.valuationImpact || valuationImpact),
+        financingImplication: publicText(item.analysis?.financingImplication || financingImplication),
+        sectorReadThrough,
         parallel: item.analysis?.parallel || fallbackParallel,
-        watchNext: item.analysis?.watchNext || (isMacro
-          ? "Watch the next official release, Treasury yields, and whether equity multiples can absorb the rate signal."
-          : isDeal
-            ? "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms."
-            : isPrivateCredit
-              ? "Watch direct-lending originations, non-accruals, repayments, private-credit spreads, dividend recaps, and whether lenders finance new sponsor deals."
-              : isPrivateEquity
-                ? "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions."
-                : "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."),
+        watchNext,
         storyRead
       })
     },
@@ -1016,6 +1060,13 @@ function buildMarketPackBackfill(marketData, runDate) {
     freshnessStatus: "LIVE",
     confidence: "Medium",
     summary,
+    readerSummary: summary,
+    readerDek: `${indexLeader.label || indexLeader.symbol} and ${sectorLeader.label || sectorLeader.symbol} set the tape; the reader question is whether leadership is broad enough to support valuation and financing risk.`,
+    editorialThesis: `The market-pack tape matters because observed index and sector moves show where investors are willing to add risk before a cleaner single-name catalyst appears.`,
+    ibAngle: "IB Angle: Use the tape as a cost-of-capital read: stronger breadth can reopen issuance and sponsor-exit conversations, while narrow weakness keeps refinancing math tight.",
+    interviewLine: "Start with leadership and breadth, then connect the move to valuation multiples, issuance windows, and financing-sensitive assets.",
+    bankerQuestion: "If you were advising an issuer today, would this tape change your timing advice for an equity raise, IPO filing, or debt refinancing?",
+    whatChangedToday: `${indexLeader.label || indexLeader.symbol} moved ${formatPct(indexLeader.oneDayPct)} while ${sectorLeader.label || sectorLeader.symbol} moved ${formatPct(sectorLeader.oneDayPct)}.`,
     whatHappened: summary,
     whatMoved: `${indexLeader.label || indexLeader.symbol} moved ${formatPct(indexLeader.oneDayPct)} and ${sectorLeader.label || sectorLeader.symbol} moved ${formatPct(sectorLeader.oneDayPct)}, making the tape read about leadership and breadth rather than a single-company catalyst.`,
     whyItMoved: "The market-pack signal matters because it shows where investors were willing to add or remove risk across indexes and sectors even when the source feed did not produce a standalone markets headline with enough evidence.",
@@ -1253,6 +1304,29 @@ function buildOpenBbMarketPack(marketData) {
   };
 }
 
+function buildEditorsBrief(analyses, dealTape = [], openbbMarketPack = null) {
+  const lead = analyses[0];
+  const second = analyses[1];
+  const topDeal = dealTape[0];
+  const indexMove = openbbMarketPack?.indices?.find((row) => row.symbol === "SPY") || openbbMarketPack?.indices?.[0];
+  const sectorMove = openbbMarketPack?.sectors?.[0];
+  const bullets = [];
+  if (lead) bullets.push(`${lead.title}: ${lead.readerDek || lead.whatChangedToday || lead.readerSummary || lead.summary}`);
+  if (second) bullets.push(`${second.editorialLaneLabel || "Next story"}: ${second.ibAngle || second.readerDek || second.summary}`);
+  if (topDeal) bullets.push(`Deal tape: ${topDeal.title} is the transaction to underwrite for price, certainty, approvals, and financing.`);
+  if (indexMove || sectorMove) {
+    const indexText = indexMove ? `${indexMove.symbol || indexMove.label} ${formatPct(indexMove.oneDayPct)}` : "index tape mixed";
+    const sectorText = sectorMove ? `${sectorMove.symbol || sectorMove.label} ${formatPct(sectorMove.oneDayPct)}` : "sector leadership unclear";
+    bullets.push(`Market context: ${indexText}; ${sectorText}. Use the tape to frame risk appetite, not as a stand-alone thesis.`);
+  }
+  if (!bullets.length) bullets.push("No main story cleared the desk today; the useful read is that discipline matters more than filling space.");
+  return {
+    label: "Editor's Brief",
+    dek: "The 30-second read for readers who need the point before the details.",
+    bullets: bullets.slice(0, 4)
+  };
+}
+
 async function main() {
   const runDate = process.env.BRIEF_DATE || editionDate();
   const now = new Date(process.env.BRIEF_NOW || new Date().toISOString());
@@ -1317,7 +1391,7 @@ async function main() {
     title: analyses[0]?.title || "Quiet Tape, Clean Sources",
     dek: analyses.length
       ? "A selective banker-grade read of the few fresh items with enough evidence to support real analysis."
-      : "No source-backed item cleared the evidence bar; the system is intentionally holding the main tape quiet.",
+      : "No source-backed item cleared the editorial threshold; the desk is intentionally holding the main tape quiet.",
     generatedAt: new Date().toISOString(),
     sourceRunAt,
     freshnessStatus: freshnessStatus(sourceFreshnessAt, now),
@@ -1326,6 +1400,7 @@ async function main() {
     dealTape,
     marketWatch,
     openbbMarketPack,
+    editorsBrief: buildEditorsBrief(analyses, dealTape, openbbMarketPack),
     deepDive: analyses[0] || null,
     continuingStories: analyses.filter((item) => item.continuity),
     themePulse,

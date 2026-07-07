@@ -104,21 +104,21 @@ export const sourceFeeds = [
     name: "CNBC Finance",
     sourceType: "reputable",
     url: "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-    topics: ["markets", "companies", "macro"]
+    topics: ["markets", "companies"]
   },
   {
     id: "marketwatch-top-stories",
     name: "MarketWatch Top Stories",
     sourceType: "reputable",
     url: "https://feeds.content.dowjones.io/public/rss/mw_topstories",
-    topics: ["markets", "companies", "macro"]
+    topics: ["markets", "companies"]
   },
   {
     id: "investing-com-news",
     name: "Investing.com News",
     sourceType: "reputable",
     url: "https://www.investing.com/rss/news.rss",
-    topics: ["markets", "macro", "companies"]
+    topics: ["markets", "companies"]
   },
   // TODO: Add Reuters/AP business RSS only when a stable XML endpoint is verified fetchable.
   {

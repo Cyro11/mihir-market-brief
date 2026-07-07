@@ -1,32 +1,52 @@
 {
   "runDate": "2026-07-06",
-  "generatedAt": "2026-07-06T13:31:14.515Z",
+  "generatedAt": "2026-07-07T03:07:36.993Z",
   "selectedCount": 2,
   "quietDay": true,
   "analyses": [
     {
-      "id": "yahoo-finance-news-4623b933",
-      "title": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave",
+      "id": "marketwatch-top-stories-72cb2554",
+      "title": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/sk-hynix-seeks-28-billion-in-us-ipo-listing-as-memory-maker-rides-ai-wave-132016294.html",
-          "publishedAt": "2026-07-06T13:20:16.000Z",
-          "fetchedAt": "2026-07-06T13:30:53.949Z"
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-06T22:39:00.000Z",
+          "fetchedAt": "2026-07-07T03:06:56.328Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
         }
       ],
-      "freshnessStatus": "LIVE",
+      "storyCluster": {
+        "id": "story-the-nasdaq-100-500-s-p-volatile-nasdaq",
+        "title": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "score": 38
+      },
+      "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-      "whyItMoved": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention.",
+      "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "editorialThesis": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes.",
+      "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "whyItMoved": "The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "Connects to AI Infrastructure, Deal Financing Window.",
+      "sectorReadThrough": "Connects to Deal Financing Window.",
       "parallel": {
         "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
         "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -35,8 +55,12 @@
         "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
         "sourceTrail": [
           {
-            "source": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/article/sk-hynix-seeks-28-billion-in-us-ipo-listing-as-memory-maker-rides-ai-wave-132016294.html"
+            "source": "MarketWatch Top Stories",
+            "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
+            "publishedAt": "2026-07-06T22:39:00.000Z",
+            "fetchedAt": "2026-07-07T03:06:56.328Z",
+            "feedId": "marketwatch-top-stories",
+            "evidenceType": "reported"
           }
         ]
       },
@@ -46,17 +70,17 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "This was selected because it links markets news to AI Infrastructure and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "Source detail (MarketWatch Top Stories): While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes. The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won&#x2019;t become part of the S&P 500 for at least another year &#x2014; likely furthering the volatility spread between those two indexes."
           },
           {
             "id": "mechanism",
             "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure, Deal Financing Window. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to Deal Financing Window. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
           },
           {
             "id": "interpretation",
@@ -77,69 +101,95 @@
       },
       "visual": {
         "type": "bar-chart",
-        "title": "Cross-asset reaction board",
-        "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
-        "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
+        "title": "Semiconductor rebound board",
+        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
+        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
         "allowedPages": [
           "markets",
           "deep-dive"
         ],
-        "axisTitle": "3-month change",
+        "axisTitle": "Latest daily change",
         "visualSource": "Public market data",
         "items": [
           {
-            "id": "SPY",
-            "label": "SPDR S&P 500 ETF Trust",
-            "value": 13.714658024627663,
-            "displayValue": 13.714658024627663,
+            "id": "NVDA",
+            "label": "Nvidia",
+            "value": 0.36955356666652833,
+            "displayValue": 0.36955356666652833,
             "suffix": "%",
             "latestDate": "2026-07-06",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
           },
           {
-            "id": "QQQ",
-            "label": "Invesco QQQ Trust",
-            "value": 22.46219242844626,
-            "displayValue": 22.46219242844626,
+            "id": "SOXX",
+            "label": "iShares Semiconductor ETF",
+            "value": 2.682229524818811,
+            "displayValue": 2.682229524818811,
             "suffix": "%",
             "latestDate": "2026-07-06",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
           },
           {
-            "id": "IWM",
-            "label": "iShares Russell 2000 ETF",
-            "value": 18.279437911101045,
-            "displayValue": 18.279437911101045,
+            "id": "AVGO",
+            "label": "Broadcom",
+            "value": 3.7314415963253937,
+            "displayValue": 3.7314415963253937,
             "suffix": "%",
             "latestDate": "2026-07-06",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
           },
           {
-            "id": "GLD",
-            "label": "SPDR Gold Shares",
-            "value": -11.10721400162061,
-            "displayValue": -11.10721400162061,
+            "id": "MU",
+            "label": "Micron Technology",
+            "value": 0.942023295789584,
+            "displayValue": 0.942023295789584,
             "suffix": "%",
             "latestDate": "2026-07-06",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "id": "MRVL",
+            "label": "Marvell Technology",
+            "value": 1.622573727125268,
+            "displayValue": 1.622573727125268,
+            "suffix": "%",
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "id": "INTC",
+            "label": "Intel",
+            "value": 1.537181967242733,
+            "displayValue": 1.537181967242733,
+            "suffix": "%",
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
           }
         ],
         "sourceTrail": [
           {
-            "source": "SPDR S&P 500 ETF Trust",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
+            "source": "Nvidia",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
           },
           {
-            "source": "Invesco QQQ Trust",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
+            "source": "iShares Semiconductor ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
           },
           {
-            "source": "iShares Russell 2000 ETF",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
+            "source": "Broadcom",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
           },
           {
-            "source": "SPDR Gold Shares",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
+            "source": "Micron Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "source": "Marvell Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Intel",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
           }
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
@@ -147,33 +197,52 @@
       "relatedLinks": [],
       "storyline": null,
       "concepts": [
-        "ai",
-        "ipo"
+        "spread"
       ]
     },
     {
-      "id": "yahoo-finance-news-dfbc46d8",
-      "title": "Stock Market Today: Dow Falls, Tech Futures Rally; Memory Names Micron, Sandisk Bounce Higher (Live Coverage)",
+      "id": "marketwatch-top-stories-257ca016",
+      "title": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
-          "source": "Yahoo Finance",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-mu-stock-sandisk-sndk-stock/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-07-06T12:57:35.000Z",
-          "fetchedAt": "2026-07-06T13:30:53.949Z"
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-06T21:36:00.000Z",
+          "fetchedAt": "2026-07-07T03:06:56.328Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
         }
       ],
-      "freshnessStatus": "LIVE",
+      "storyCluster": {
+        "id": "story-big-tech-x2014-100-pocketing-equity",
+        "title": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "score": 38
+      },
+      "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "Stock Market Today: Dow Falls, Tech Futures Rally; Memory Names Micron, Sandisk Bounce Higher (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
-      "whatHappened": "Stock Market Today: Dow Falls, Tech Futures Rally; Memory Names Micron, Sandisk Bounce Higher (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
-      "whatMoved": "The main move is in sector leadership, company valuation, and what the news says about peers.",
-      "whyItMoved": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention.",
+      "summary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "Your share of the AI wealth is a right &#x2014; not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "editorialThesis": "Your data built the AI boom &#x2014; but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "Your share of the AI wealth is a right &#x2014; not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money.",
+      "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "No tracked theme has a strong enough fresh signal; treat as general context.",
+      "sectorReadThrough": "Connects to AI Infrastructure.",
       "parallel": {
         "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
         "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -182,8 +251,12 @@
         "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
         "sourceTrail": [
           {
-            "source": "Yahoo Finance",
-            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-mu-stock-sandisk-sndk-stock/?src=A00220&yptr=yahoo"
+            "source": "MarketWatch Top Stories",
+            "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
+            "publishedAt": "2026-07-06T21:36:00.000Z",
+            "fetchedAt": "2026-07-07T03:06:56.328Z",
+            "feedId": "marketwatch-top-stories",
+            "evidenceType": "reported"
           }
         ]
       },
@@ -193,17 +266,17 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "This was selected because it links markets news to Market discipline and has enough source support to analyze rather than merely mention. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The main move is in sector leadership, company valuation, and what the news says about peers. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Stock Market Today: Dow Falls, Tech Futures Rally; Memory Names Micron, Sandisk Bounce Higher (Live Coverage). Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move."
+            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right &#x2014; not a handout. Here is how we claw back our money."
           },
           {
             "id": "mechanism",
             "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. No tracked theme has a strong enough fresh signal; treat as general context. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
           },
           {
             "id": "interpretation",
@@ -222,78 +295,12 @@
           }
         ]
       },
-      "visual": {
-        "type": "bar-chart",
-        "title": "Cross-asset reaction board",
-        "subtitle": "Three-month public market context across broad equity and real-asset proxies.",
-        "relevanceNote": "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
-        "allowedPages": [
-          "markets",
-          "deep-dive"
-        ],
-        "axisTitle": "3-month change",
-        "visualSource": "Public market data",
-        "items": [
-          {
-            "id": "SPY",
-            "label": "SPDR S&P 500 ETF Trust",
-            "value": 13.714658024627663,
-            "displayValue": 13.714658024627663,
-            "suffix": "%",
-            "latestDate": "2026-07-06",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
-          },
-          {
-            "id": "QQQ",
-            "label": "Invesco QQQ Trust",
-            "value": 22.46219242844626,
-            "displayValue": 22.46219242844626,
-            "suffix": "%",
-            "latestDate": "2026-07-06",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
-          },
-          {
-            "id": "IWM",
-            "label": "iShares Russell 2000 ETF",
-            "value": 18.279437911101045,
-            "displayValue": 18.279437911101045,
-            "suffix": "%",
-            "latestDate": "2026-07-06",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
-          },
-          {
-            "id": "GLD",
-            "label": "SPDR Gold Shares",
-            "value": -11.10721400162061,
-            "displayValue": -11.10721400162061,
-            "suffix": "%",
-            "latestDate": "2026-07-06",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
-          }
-        ],
-        "sourceTrail": [
-          {
-            "source": "SPDR S&P 500 ETF Trust",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
-          },
-          {
-            "source": "Invesco QQQ Trust",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
-          },
-          {
-            "source": "iShares Russell 2000 ETF",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
-          },
-          {
-            "source": "SPDR Gold Shares",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
-          }
-        ],
-        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
-      },
+      "visual": null,
       "relatedLinks": [],
       "storyline": null,
-      "concepts": []
+      "concepts": [
+        "ai"
+      ]
     }
   ]
 }

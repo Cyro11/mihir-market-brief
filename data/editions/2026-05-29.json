@@ -2,9 +2,9 @@
   "runDate": "2026-05-29",
   "title": "Blue Owl direct-lending earnings keep private credit in focus",
   "dek": "A selective banker-grade read of the few fresh items with enough evidence to support real analysis.",
-  "generatedAt": "2026-06-01T02:43:48.181Z",
+  "generatedAt": "2026-07-07T03:02:10.204Z",
   "sourceRunAt": "2026-05-31T21:56:48.788Z",
-  "freshnessStatus": "FUTURE",
+  "freshnessStatus": "LIVE",
   "moves": [
     {
       "id": "seed-private-credit-ipo-window",
@@ -17,12 +17,31 @@
           "source": "Blue Owl Capital",
           "url": "https://ir.blueowl.com/",
           "publishedAt": "2026-05-29T11:30:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-blue-owl-earnings-lending-private-credit",
+        "title": "Blue Owl direct-lending earnings keep private credit in focus",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 2,
+        "readerValue": 3,
+        "score": 61
+      },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+      "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "readerSummary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "readerDek": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. For readers, the issue is how that fact changes credit availability, spreads and lender protections, not whether the headline is interesting on its own.",
+      "editorialThesis": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition.",
+      "ibAngle": "The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+      "interviewLine": "Start with the fact, explain the mechanism through credit availability, spreads and lender protections, then say what you would watch next: Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The new read is The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
       "whatHappened": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity.",
       "whatMoved": "The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
       "whyItMoved": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite.",
@@ -52,22 +71,22 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+            "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
           },
           {
             "id": "signal",
             "heading": "What the public signal is actually telling us",
-            "body": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+            "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
           },
           {
             "id": "interpretation",
             "heading": "How to interpret the financing signal",
-            "body": "If private credit remains open, sponsors can support more transaction volume. If spreads widen or credit losses rise, equity checks get larger and entry valuations need to fall. Bankers should watch direct-lending yields, non-accruals, repayment activity, and sponsor-backed originations because those determine whether private credit is helping or constraining deals. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+            "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
           },
           {
             "id": "evidence",
             "heading": "Where the evidence is strong versus indirect",
-            "body": "The read-through is strongest for sponsor-backed middle-market companies and dividend recap/refinancing candidates. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+            "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
           },
           {
             "id": "parallel",
@@ -77,7 +96,7 @@
           {
             "id": "watch-next",
             "heading": "What would confirm or weaken the read",
-            "body": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+            "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
           }
         ]
       },
@@ -150,23 +169,7 @@
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "Blue Owl Investor Relations",
-          "url": "https://ir.blueowl.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Ares Capital Investor Relations",
-          "url": "https://www.arescapitalcorp.com/",
-          "type": "Company"
-        },
-        {
-          "label": "FRED High Yield Spread",
-          "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-          "type": "Data"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": null,
       "concepts": [
         "debt",
@@ -187,12 +190,31 @@
           "source": "KKR",
           "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
           "publishedAt": "2026-05-29T10:05:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-acquisition-healthium-activity-sponsor-window",
+        "title": "KKR signs Healthium acquisition as sponsor deal activity tests the exit window",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "score": 57
+      },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
+      "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "readerSummary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "readerDek": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. For readers, the issue is how that fact changes exit routes, buyer depth and sponsor marks, not whether the headline is interesting on its own.",
+      "editorialThesis": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
+      "ibAngle": "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "interviewLine": "Start with the fact, explain the mechanism through exit routes, buyer depth and sponsor marks, then say what you would watch next: Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The new read is The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
       "whatHappened": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read.",
       "whatMoved": "The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
       "whyItMoved": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough.",
@@ -218,22 +240,22 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+            "body": "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
           },
           {
             "id": "signal",
             "heading": "What the public signal is actually telling us",
-            "body": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+            "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
           },
           {
             "id": "interpretation",
             "heading": "How to read the sponsor or exit implication",
-            "body": "The valuation read depends on whether strategic scarcity and growth justify sponsor pricing after higher financing costs. A good asset can still clear; weaker assets may not. For bankers, the key questions are debt capacity, required equity check, lender appetite, and whether the sponsor can underwrite a realistic exit multiple. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+            "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
           },
           {
             "id": "evidence",
             "heading": "Where the evidence is strong versus indirect",
-            "body": "This matters for private healthcare and medtech assets because sponsor demand can support auction confidence when public comps are stable. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+            "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
           },
           {
             "id": "parallel",
@@ -243,7 +265,7 @@
           {
             "id": "watch-next",
             "heading": "What would confirm or weaken the read",
-            "body": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+            "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
           }
         ]
       },
@@ -303,18 +325,7 @@
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "KKR Healthium Announcement",
-          "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
-          "type": "Company"
-        },
-        {
-          "label": "KKR Investor Relations",
-          "url": "https://ir.kkr.com/",
-          "type": "Company"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": null,
       "concepts": [
         "acquisition",
@@ -334,12 +345,31 @@
           "source": "BEA",
           "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
           "publishedAt": "2026-05-29T08:30:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-personal-income-personal-outlays-income-april",
+        "title": "Personal Income and Outlays, April 2026",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "score": 51
+      },
       "freshnessStatus": "FRESH",
       "confidence": "High",
       "summary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "readerSummary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "readerDek": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. For readers, the issue is how that fact changes rates and discount rates, not whether the headline is interesting on its own.",
+      "editorialThesis": "Personal Income and Outlays, April 2026 matters as a macro environment story because it connects a concrete fact to rates and discount rates. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+      "ibAngle": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through rates and discount rates, then say what you would watch next: Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The new read is The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
       "whatHappened": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year.",
       "whatMoved": "The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
       "whyItMoved": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.",
@@ -374,7 +404,7 @@
           {
             "id": "release",
             "heading": "What the release actually said",
-            "body": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The part that matters is not just the headline number, but which part of the report is still running hot and which part is starting to cool."
+            "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
           },
           {
             "id": "mechanism",
@@ -395,13 +425,16 @@
       },
       "visual": {
         "type": "line-chart",
-        "title": "Rate backdrop",
-        "subtitle": "Latest public FRED observations. This is not live trading data.",
-        "relevanceNote": "This chart fits because the story is about the rate backdrop itself, not just a company reacting to it.",
+        "title": "Yield stack and Fed-path pressure",
+        "subtitle": "Latest available public rate observations through the brief date; uses Yahoo Treasury proxies when FRED daily Treasury feeds are unavailable.",
+        "relevanceNote": "This chart fits because the story is about Fed-path repricing and the discount-rate stack that drives equity multiples, financing costs, and deal math.",
         "allowedPages": [
           "macro",
           "deep-dive"
         ],
+        "axisTitle": "Rate",
+        "axisSuffix": "%",
+        "visualSource": "Public rate data",
         "series": [
           {
             "id": "DGS10",
@@ -1511,25 +1544,9 @@
             ]
           }
         ],
-        "sourceNote": "Numeric market visuals use public FRED CSV downloads and preserve source links."
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "FRED 10-Year Treasury Yield",
-          "url": "https://fred.stlouisfed.org/series/DGS10",
-          "type": "Data"
-        },
-        {
-          "label": "FRED Fed Funds Effective Rate",
-          "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
-          "type": "Data"
-        },
-        {
-          "label": "BEA Personal Income and Outlays Releases",
-          "url": "https://www.bea.gov/news/current-releases",
-          "type": "Official"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "rates-inflation-cost-of-capital",
         "name": "Rates and cost of capital",
@@ -1561,12 +1578,31 @@
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
           "publishedAt": "2026-05-29T09:15:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-revenue-server-surges-jumps-dell",
+        "title": "Dell stock jumps as AI server revenue surges",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "score": 50
+      },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "summary": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "readerSummary": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "readerDek": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "editorialThesis": "Dell stock jumps as AI server revenue surges matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch Dell's AI backlog, gross margin, memory supply, and whether large cloud customers keep raising capex plans.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The new read is Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending.",
       "whatHappened": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand.",
       "whatMoved": "Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending.",
       "whyItMoved": "The 757% AI-server revenue growth gave investors a concrete number showing that AI spending is reaching servers, memory, networking, and enterprise systems.",
@@ -1605,7 +1641,7 @@
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending. A single stock move matters when it gives the market a cleaner signal about a broader theme than the theme had before."
+            "body": "Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand."
           },
           {
             "id": "mechanism",
@@ -2171,28 +2207,7 @@
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "Dell Investor Relations",
-          "url": "https://investors.delltechnologies.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Nvidia Investor Relations",
-          "url": "https://investor.nvidia.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Arista Networks Investor Relations",
-          "url": "https://investors.arista.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Equinix Investor Relations",
-          "url": "https://investor.equinix.com/",
-          "type": "Company"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "ai-infrastructure-dell-servers",
         "name": "AI infrastructure buildout",
@@ -2224,12 +2239,31 @@
           "source": "Reuters",
           "url": "https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/",
           "publishedAt": "2026-05-29T10:45:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-unilever-foods-toms-capital-mccormick-unilever-capital",
+        "title": "Toms Capital builds McCormick stake amid Unilever Foods deal",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 0,
+        "readerValue": 5,
+        "score": 47
+      },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "summary": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.",
+      "readerSummary": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.",
+      "readerDek": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. For readers, the issue is how that fact changes deal certainty, valuation and financing capacity, not whether the headline is interesting on its own.",
+      "editorialThesis": "Toms Capital builds McCormick stake amid Unilever Foods deal matters as a deals story because it connects a concrete fact to deal certainty, valuation and financing capacity. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through deal certainty, valuation and financing capacity, then say what you would watch next: Watch Toms Capital's asks, shareholder reaction, regulatory milestones, synergy details, and any change in deal timing.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. The new read is The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity.",
       "whatHappened": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business.",
       "whatMoved": "The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity.",
       "whyItMoved": "Activist pressure can force management to defend the deal more clearly: the synergy case, timing, leverage, and why this is better than other uses of capital.",
@@ -2264,7 +2298,7 @@
           {
             "id": "transaction",
             "heading": "What is happening in the transaction",
-            "body": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity. In deals, the most useful way to read the situation is to ask what changed in certainty, leverage tolerance, or the sponsor or board's room to maneuver."
+            "body": "The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity. In deals, the useful question is what changed in certainty, strategic need, financing tolerance, or the board's room to maneuver. Source detail: Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business."
           },
           {
             "id": "deal-read",
@@ -2285,67 +2319,43 @@
       },
       "visual": {
         "type": "deal-timeline",
-        "title": "Deal risk map",
-        "subtitle": "Sourced transaction structure and watchpoints.",
-        "relevanceNote": "This visual fits because the useful question is where the deal can change, not whether one market series moved.",
+        "title": "Transaction path and risk map",
+        "subtitle": "Story-specific transaction map showing where today's deal can create or lose certainty.",
+        "relevanceNote": "This visual fits because the useful question is how the transaction moves from strategic logic to signed terms, approvals, financing discipline, and closing certainty.",
         "allowedPages": [
           "deals",
           "deep-dive"
         ],
         "sourceTrail": [
           {
-            "source": "McCormick Transaction Release",
-            "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent"
-          },
-          {
-            "source": "McCormick Investor Relations",
-            "url": "https://ir.mccormick.com/"
-          },
-          {
-            "source": "Unilever Investor Relations",
-            "url": "https://www.unilever.com/investors/"
+            "source": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/"
           }
         ],
         "steps": [
           {
-            "label": "Deal announced",
-            "detail": "Strategic scale and synergy case"
+            "label": "Strategic rationale",
+            "detail": "Toms Capital builds McCormick stake amid Unilever Foods deal"
           },
           {
-            "label": "Activist overlay",
-            "detail": "Toms Capital stake adds scrutiny"
+            "label": "Valuation / consideration",
+            "detail": "Check whether price, structure, and expected synergies justify the buyer's capital allocation."
           },
           {
-            "label": "Approvals",
-            "detail": "Shareholder and regulatory path"
+            "label": "Regulatory path",
+            "detail": "Confirm antitrust, sector, shareholder, and other approval gates before treating the deal as done."
           },
           {
-            "label": "Financing / leverage",
-            "detail": "Debt, dilution, capital plan"
+            "label": "Financing discipline",
+            "detail": "Watch leverage, cash use, dilution, and whether market conditions change the economics before close."
           },
           {
-            "label": "Outcome",
-            "detail": "Close, change terms, or defend deal"
+            "label": "Closing certainty",
+            "detail": "The read improves if approvals, financing, and integration risk remain contained; it breaks if any gate gets harder."
           }
         ]
       },
-      "relatedLinks": [
-        {
-          "label": "McCormick Transaction Release",
-          "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent",
-          "type": "Company"
-        },
-        {
-          "label": "McCormick Investor Relations",
-          "url": "https://ir.mccormick.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Unilever Investor Relations",
-          "url": "https://www.unilever.com/investors/",
-          "type": "Company"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "mccormick-unilever-activist",
         "name": "McCormick / Unilever Foods deal watch",
@@ -2358,9 +2368,348 @@
     }
   ],
   "sections": {
-    "macro": {
-      "label": "Macro Environment",
+    "overnight": {
+      "label": "Overnight",
+      "window": {
+        "start": "2026-05-29T03:00:00.000Z",
+        "end": "2026-05-29T18:00:00.000Z"
+      },
       "items": [
+        {
+          "id": "seed-private-credit-ipo-window",
+          "title": "Blue Owl direct-lending earnings keep private credit in focus",
+          "editorialLane": "private_markets",
+          "editorialLaneLabel": "Private Markets",
+          "privateMarketSegment": "private_credit",
+          "sourceTrail": [
+            {
+              "source": "Blue Owl Capital",
+              "url": "https://ir.blueowl.com/",
+              "publishedAt": "2026-05-29T11:30:00-04:00",
+              "fetchedAt": "2026-05-31T21:56:48.788Z"
+            }
+          ],
+          "storyCluster": null,
+          "freshnessStatus": "FRESH",
+          "confidence": "Medium",
+          "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+          "readerSummary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+          "readerDek": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. For readers, the issue is how that fact changes credit availability, spreads and lender protections, not whether the headline is interesting on its own.",
+          "editorialThesis": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition.",
+          "ibAngle": "The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+          "interviewLine": "Start with the fact, explain the mechanism through credit availability, spreads and lender protections, then say what you would watch next: Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction.",
+          "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+          "whatChangedToday": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The new read is The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
+          "whatHappened": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity.",
+          "whatMoved": "The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
+          "whyItMoved": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite.",
+          "valuationImpact": "If private credit remains open, sponsors can support more transaction volume. If spreads widen or credit losses rise, equity checks get larger and entry valuations need to fall.",
+          "financingImplication": "Bankers should watch direct-lending yields, non-accruals, repayment activity, and sponsor-backed originations because those determine whether private credit is helping or constraining deals.",
+          "sectorReadThrough": "The read-through is strongest for sponsor-backed middle-market companies and dividend recap/refinancing candidates.",
+          "parallel": {
+            "precedent": "The post-2022 shift toward private credit, when sponsors used direct lenders more often as syndicated loan markets became less predictable.",
+            "outcome": "Private credit helped deals close, but higher coupons and tighter covenants made sponsor math more demanding.",
+            "whatRhymes": "The same tradeoff matters now: available private debt can keep deal activity alive, but it does not make leverage cheap.",
+            "whatDiffers": "Public manager results are proxies, not a complete view of private credit. The read should be confirmed with spreads, originations, and credit performance.",
+            "soWhat": "Use private-credit manager data to judge financing capacity, but still underwrite downside cases and refinancing risk separately.",
+            "sourceTrail": [
+              {
+                "source": "Blue Owl Investor Relations",
+                "url": "https://ir.blueowl.com/"
+              },
+              {
+                "source": "FRED",
+                "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+              }
+            ]
+          },
+          "watchNext": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
+              },
+              {
+                "id": "signal",
+                "heading": "What the public signal is actually telling us",
+                "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
+              },
+              {
+                "id": "interpretation",
+                "heading": "How to interpret the financing signal",
+                "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
+              },
+              {
+                "id": "evidence",
+                "heading": "Where the evidence is strong versus indirect",
+                "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
+              },
+              {
+                "id": "parallel",
+                "heading": "Relevant comparison",
+                "body": "A useful parallel is The post-2022 shift toward private credit, when sponsors used direct lenders more often as syndicated loan markets became less predictable. In that earlier setup, private credit helped deals close, but higher coupons and tighter covenants made sponsor math more demanding. What rhymes is the same tradeoff matters now: available private debt can keep deal activity alive, but it does not make leverage cheap. What is different this time is public manager results are proxies, not a complete view of private credit. the read should be confirmed with spreads, originations, and credit performance. The bottom line is use private-credit manager data to judge financing capacity, but still underwrite downside cases and refinancing risk separately."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What would confirm or weaken the read",
+                "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
+              }
+            ]
+          },
+          "visual": {
+            "type": "bar-chart",
+            "title": "Direct-lending public proxies",
+            "subtitle": "Three-month public market context for listed lenders and private-credit managers.",
+            "relevanceNote": "This board works here because the story is about how investors are marking the lenders themselves, not just what one spread series says.",
+            "allowedPages": [
+              "private-markets",
+              "deep-dive"
+            ],
+            "axisTitle": "3-month change",
+            "visualSource": "Public market data",
+            "items": [
+              {
+                "id": "BX",
+                "label": "Blackstone",
+                "value": 1.4220058645718654,
+                "displayValue": 1.4220058645718654,
+                "suffix": "%",
+                "latestDate": "2026-05-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+              },
+              {
+                "id": "OWL",
+                "label": "Blue Owl Capital",
+                "value": -3.7453236027600116,
+                "displayValue": -3.7453236027600116,
+                "suffix": "%",
+                "latestDate": "2026-05-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+              },
+              {
+                "id": "ARCC",
+                "label": "Ares Capital",
+                "value": 0.05268824616977654,
+                "displayValue": 0.05268824616977654,
+                "suffix": "%",
+                "latestDate": "2026-05-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+              },
+              {
+                "id": "BXSL",
+                "label": "Blackstone Secured Lending Fund",
+                "value": -1.9016162946075337,
+                "displayValue": -1.9016162946075337,
+                "suffix": "%",
+                "latestDate": "2026-05-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+              }
+            ],
+            "sourceTrail": [
+              {
+                "source": "Blackstone",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+              },
+              {
+                "source": "Blue Owl Capital",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d"
+              },
+              {
+                "source": "Ares Capital",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d"
+              },
+              {
+                "source": "Blackstone Secured Lending Fund",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d"
+              }
+            ],
+            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+          },
+          "relatedLinks": [
+            {
+              "label": "Blue Owl Investor Relations",
+              "url": "https://ir.blueowl.com/",
+              "type": "Company"
+            },
+            {
+              "label": "Ares Capital Investor Relations",
+              "url": "https://www.arescapitalcorp.com/",
+              "type": "Company"
+            },
+            {
+              "label": "FRED High Yield Spread",
+              "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+              "type": "Data"
+            }
+          ],
+          "storyline": null,
+          "concepts": [
+            "debt",
+            "credit",
+            "spread",
+            "private credit",
+            "sponsor"
+          ],
+          "overnightSignal": true
+        },
+        {
+          "id": "seed-private-equity-kkr-healthium",
+          "title": "KKR signs Healthium acquisition as sponsor deal activity tests the exit window",
+          "editorialLane": "private_markets",
+          "editorialLaneLabel": "Private Markets",
+          "privateMarketSegment": "private_equity",
+          "sourceTrail": [
+            {
+              "source": "KKR",
+              "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
+              "publishedAt": "2026-05-29T10:05:00-04:00",
+              "fetchedAt": "2026-05-31T21:56:48.788Z"
+            }
+          ],
+          "storyCluster": null,
+          "freshnessStatus": "FRESH",
+          "confidence": "Medium",
+          "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+          "readerSummary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+          "readerDek": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. For readers, the issue is how that fact changes exit routes, buyer depth and sponsor marks, not whether the headline is interesting on its own.",
+          "editorialThesis": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
+          "ibAngle": "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+          "interviewLine": "Start with the fact, explain the mechanism through exit routes, buyer depth and sponsor marks, then say what you would watch next: Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes.",
+          "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+          "whatChangedToday": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The new read is The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
+          "whatHappened": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read.",
+          "whatMoved": "The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
+          "whyItMoved": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough.",
+          "valuationImpact": "The valuation read depends on whether strategic scarcity and growth justify sponsor pricing after higher financing costs. A good asset can still clear; weaker assets may not.",
+          "financingImplication": "For bankers, the key questions are debt capacity, required equity check, lender appetite, and whether the sponsor can underwrite a realistic exit multiple.",
+          "sectorReadThrough": "This matters for private healthcare and medtech assets because sponsor demand can support auction confidence when public comps are stable.",
+          "parallel": {
+            "precedent": "Sponsor healthcare platform deals in prior tighter-rate periods, where firms still bought defensive growth assets but became more selective on leverage and entry price.",
+            "outcome": "High-quality assets continued to trade, while marginal assets needed price resets, seller rollover, or delayed processes.",
+            "whatRhymes": "The same filter applies here: private equity is open for specific assets, but not every process deserves the same multiple.",
+            "whatDiffers": "This is one sponsor announcement, so it should not be read as a full reopening of the buyout market without more deal volume and financing evidence.",
+            "soWhat": "Use the deal as proof of selective sponsor activity, then test whether financing terms and exits can support the price.",
+            "sourceTrail": [
+              {
+                "source": "KKR",
+                "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech"
+              }
+            ]
+          },
+          "watchNext": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
+              },
+              {
+                "id": "signal",
+                "heading": "What the public signal is actually telling us",
+                "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
+              },
+              {
+                "id": "interpretation",
+                "heading": "How to read the sponsor or exit implication",
+                "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
+              },
+              {
+                "id": "evidence",
+                "heading": "Where the evidence is strong versus indirect",
+                "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
+              },
+              {
+                "id": "parallel",
+                "heading": "Relevant comparison",
+                "body": "A useful parallel is Sponsor healthcare platform deals in prior tighter-rate periods, where firms still bought defensive growth assets but became more selective on leverage and entry price. In that earlier setup, high-quality assets continued to trade, while marginal assets needed price resets, seller rollover, or delayed processes. What rhymes is the same filter applies here: private equity is open for specific assets, but not every process deserves the same multiple. What is different this time is this is one sponsor announcement, so it should not be read as a full reopening of the buyout market without more deal volume and financing evidence. The bottom line is use the deal as proof of selective sponsor activity, then test whether financing terms and exits can support the price."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What would confirm or weaken the read",
+                "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+              }
+            ]
+          },
+          "visual": {
+            "type": "bar-chart",
+            "title": "Public sponsor proxies",
+            "subtitle": "Three-month public market context for large alternative-asset managers tied to sponsor sentiment.",
+            "relevanceNote": "This board belongs here because public sponsor stocks often give the cleanest available read on how the market feels about exits, fundraising, and deployment.",
+            "allowedPages": [
+              "private-markets",
+              "deep-dive"
+            ],
+            "axisTitle": "3-month change",
+            "visualSource": "Public market data",
+            "items": [
+              {
+                "id": "BX",
+                "label": "Blackstone",
+                "value": 1.4220058645718654,
+                "displayValue": 1.4220058645718654,
+                "suffix": "%",
+                "latestDate": "2026-05-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+              },
+              {
+                "id": "KKR",
+                "label": "KKR",
+                "value": 5.882354922361375,
+                "displayValue": 5.882354922361375,
+                "suffix": "%",
+                "latestDate": "2026-05-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+              },
+              {
+                "id": "APO",
+                "label": "Apollo Global Management",
+                "value": 20.91123570106648,
+                "displayValue": 20.91123570106648,
+                "suffix": "%",
+                "latestDate": "2026-05-29",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+              }
+            ],
+            "sourceTrail": [
+              {
+                "source": "Blackstone",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
+              },
+              {
+                "source": "KKR",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
+              },
+              {
+                "source": "Apollo Global Management",
+                "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
+              }
+            ],
+            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+          },
+          "relatedLinks": [
+            {
+              "label": "KKR Healthium Announcement",
+              "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
+              "type": "Company"
+            },
+            {
+              "label": "KKR Investor Relations",
+              "url": "https://ir.kkr.com/",
+              "type": "Company"
+            }
+          ],
+          "storyline": null,
+          "concepts": [
+            "acquisition",
+            "sponsor",
+            "private_equity",
+            "sponsor"
+          ],
+          "overnightSignal": true
+        },
         {
           "id": "seed-bea-pce",
           "title": "Personal Income and Outlays, April 2026",
@@ -2375,9 +2724,17 @@
               "fetchedAt": "2026-05-31T21:56:48.788Z"
             }
           ],
+          "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "High",
           "summary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+          "readerSummary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+          "readerDek": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. For readers, the issue is how that fact changes rates and discount rates, not whether the headline is interesting on its own.",
+          "editorialThesis": "Personal Income and Outlays, April 2026 matters as a macro environment story because it connects a concrete fact to rates and discount rates. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+          "ibAngle": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+          "interviewLine": "Start with the fact, explain the mechanism through rates and discount rates, then say what you would watch next: Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high.",
+          "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+          "whatChangedToday": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The new read is The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
           "whatHappened": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year.",
           "whatMoved": "The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
           "whyItMoved": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.",
@@ -2412,7 +2769,7 @@
               {
                 "id": "release",
                 "heading": "What the release actually said",
-                "body": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The part that matters is not just the headline number, but which part of the report is still running hot and which part is starting to cool."
+                "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
               },
               {
                 "id": "mechanism",
@@ -2433,13 +2790,16 @@
           },
           "visual": {
             "type": "line-chart",
-            "title": "Rate backdrop",
-            "subtitle": "Latest public FRED observations. This is not live trading data.",
-            "relevanceNote": "This chart fits because the story is about the rate backdrop itself, not just a company reacting to it.",
+            "title": "Yield stack and Fed-path pressure",
+            "subtitle": "Latest available public rate observations through the brief date; uses Yahoo Treasury proxies when FRED daily Treasury feeds are unavailable.",
+            "relevanceNote": "This chart fits because the story is about Fed-path repricing and the discount-rate stack that drives equity multiples, financing costs, and deal math.",
             "allowedPages": [
               "macro",
               "deep-dive"
             ],
+            "axisTitle": "Rate",
+            "axisSuffix": "%",
+            "visualSource": "Public rate data",
             "series": [
               {
                 "id": "DGS10",
@@ -3549,7 +3909,1246 @@
                 ]
               }
             ],
-            "sourceNote": "Numeric market visuals use public FRED CSV downloads and preserve source links."
+            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+          },
+          "relatedLinks": [
+            {
+              "label": "FRED 10-Year Treasury Yield",
+              "url": "https://fred.stlouisfed.org/series/DGS10",
+              "type": "Data"
+            },
+            {
+              "label": "FRED Fed Funds Effective Rate",
+              "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+              "type": "Data"
+            },
+            {
+              "label": "BEA Personal Income and Outlays Releases",
+              "url": "https://www.bea.gov/news/current-releases",
+              "type": "Official"
+            }
+          ],
+          "storyline": {
+            "id": "rates-inflation-cost-of-capital",
+            "name": "Rates and cost of capital",
+            "threshold": 3
+          },
+          "concepts": [
+            "rates",
+            "inflation",
+            "pce"
+          ],
+          "overnightSignal": true
+        }
+      ]
+    },
+    "breaking": {
+      "label": "Breaking",
+      "items": []
+    },
+    "macro": {
+      "label": "Macro Environment",
+      "items": [
+        {
+          "id": "seed-bea-pce",
+          "title": "Personal Income and Outlays, April 2026",
+          "editorialLane": "macro",
+          "editorialLaneLabel": "Macro Environment",
+          "privateMarketSegment": null,
+          "sourceTrail": [
+            {
+              "source": "BEA",
+              "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
+              "publishedAt": "2026-05-29T08:30:00-04:00",
+              "fetchedAt": "2026-05-31T21:56:48.788Z"
+            }
+          ],
+          "storyCluster": null,
+          "freshnessStatus": "FRESH",
+          "confidence": "High",
+          "summary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+          "readerSummary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+          "readerDek": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. For readers, the issue is how that fact changes rates and discount rates, not whether the headline is interesting on its own.",
+          "editorialThesis": "Personal Income and Outlays, April 2026 matters as a macro environment story because it connects a concrete fact to rates and discount rates. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+          "ibAngle": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+          "interviewLine": "Start with the fact, explain the mechanism through rates and discount rates, then say what you would watch next: Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high.",
+          "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+          "whatChangedToday": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The new read is The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
+          "whatHappened": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year.",
+          "whatMoved": "The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
+          "whyItMoved": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.",
+          "valuationImpact": "Higher rates make future cash flows worth less today. That matters most for companies whose value depends heavily on growth years out.",
+          "financingImplication": "Deals funded with debt become harder to underwrite. Buyers may need to use less debt, pay a lower price, or accept thinner returns.",
+          "sectorReadThrough": "Growth stocks can still work if earnings are strong, but companies with leverage or refinancing needs have less room for mistakes.",
+          "parallel": {
+            "precedent": "Past inflation scares where the stock market held up for a while, even as higher rates made deal math harder.",
+            "outcome": "The market could look calm on the surface, but valuations and debt capacity became less forgiving as rates stayed elevated.",
+            "whatRhymes": "That is the risk here: stocks can look fine while the math behind DCFs, LBOs, and refinancing gets tougher.",
+            "whatDiffers": "This report was mixed. The core monthly number was not as hot, so the rate story depends on whether the next few data points confirm or cool the inflation concern.",
+            "soWhat": "Do not treat a strong equity tape as proof that deal conditions are easy. Check rate sensitivity separately.",
+            "sourceTrail": [
+              {
+                "source": "BEA",
+                "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026"
+              },
+              {
+                "source": "FRED",
+                "url": "https://fred.stlouisfed.org/series/DGS10"
+              }
+            ]
+          },
+          "watchNext": "Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning. In plain English, this is a story about whether the market can keep assuming easier policy and low enough discount rates to support current asset prices."
+              },
+              {
+                "id": "release",
+                "heading": "What the release actually said",
+                "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
+              },
+              {
+                "id": "mechanism",
+                "heading": "How the transmission works",
+                "body": "The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon. Higher rates make future cash flows worth less today. That matters most for companies whose value depends heavily on growth years out. When inflation, growth, or labor data changes, the market immediately reruns the likely Fed path, the Treasury path, and the acceptable multiple on long-duration assets."
+              },
+              {
+                "id": "market-read",
+                "heading": "How the market may read it",
+                "body": "Growth stocks can still work if earnings are strong, but companies with leverage or refinancing needs have less room for mistakes. A lot of confusion in macro stories comes from treating one release as a final verdict. In reality, the market is asking whether this data point confirms an existing trend or simply interrupts it for a day."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What would confirm or break the read",
+                "body": "Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high. If the next releases line up with this one, the current interpretation hardens. If they contradict it, the market can reverse quickly because the mechanism is expectation-driven and confidence in the current macro read can disappear fast."
+              }
+            ]
+          },
+          "visual": {
+            "type": "line-chart",
+            "title": "Yield stack and Fed-path pressure",
+            "subtitle": "Latest available public rate observations through the brief date; uses Yahoo Treasury proxies when FRED daily Treasury feeds are unavailable.",
+            "relevanceNote": "This chart fits because the story is about Fed-path repricing and the discount-rate stack that drives equity multiples, financing costs, and deal math.",
+            "allowedPages": [
+              "macro",
+              "deep-dive"
+            ],
+            "axisTitle": "Rate",
+            "axisSuffix": "%",
+            "visualSource": "Public rate data",
+            "series": [
+              {
+                "id": "DGS10",
+                "label": "10-Year Treasury Yield",
+                "source": "FRED / U.S. Treasury",
+                "url": "https://fred.stlouisfed.org/series/DGS10",
+                "fetchedAt": "2026-05-31T21:56:49.483Z",
+                "observations": [
+                  {
+                    "date": "2026-01-23",
+                    "value": 4.24
+                  },
+                  {
+                    "date": "2026-01-26",
+                    "value": 4.22
+                  },
+                  {
+                    "date": "2026-01-27",
+                    "value": 4.24
+                  },
+                  {
+                    "date": "2026-01-28",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-01-29",
+                    "value": 4.24
+                  },
+                  {
+                    "date": "2026-01-30",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-02-02",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-02-03",
+                    "value": 4.28
+                  },
+                  {
+                    "date": "2026-02-04",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-02-05",
+                    "value": 4.21
+                  },
+                  {
+                    "date": "2026-02-06",
+                    "value": 4.22
+                  },
+                  {
+                    "date": "2026-02-09",
+                    "value": 4.22
+                  },
+                  {
+                    "date": "2026-02-10",
+                    "value": 4.16
+                  },
+                  {
+                    "date": "2026-02-11",
+                    "value": 4.18
+                  },
+                  {
+                    "date": "2026-02-12",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2026-02-13",
+                    "value": 4.04
+                  },
+                  {
+                    "date": "2026-02-16",
+                    "value": 0
+                  },
+                  {
+                    "date": "2026-02-17",
+                    "value": 4.05
+                  },
+                  {
+                    "date": "2026-02-18",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2026-02-19",
+                    "value": 4.08
+                  },
+                  {
+                    "date": "2026-02-20",
+                    "value": 4.08
+                  },
+                  {
+                    "date": "2026-02-23",
+                    "value": 4.03
+                  },
+                  {
+                    "date": "2026-02-24",
+                    "value": 4.04
+                  },
+                  {
+                    "date": "2026-02-25",
+                    "value": 4.05
+                  },
+                  {
+                    "date": "2026-02-26",
+                    "value": 4.02
+                  },
+                  {
+                    "date": "2026-02-27",
+                    "value": 3.97
+                  },
+                  {
+                    "date": "2026-03-02",
+                    "value": 4.05
+                  },
+                  {
+                    "date": "2026-03-03",
+                    "value": 4.06
+                  },
+                  {
+                    "date": "2026-03-04",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2026-03-05",
+                    "value": 4.13
+                  },
+                  {
+                    "date": "2026-03-06",
+                    "value": 4.15
+                  },
+                  {
+                    "date": "2026-03-09",
+                    "value": 4.12
+                  },
+                  {
+                    "date": "2026-03-10",
+                    "value": 4.15
+                  },
+                  {
+                    "date": "2026-03-11",
+                    "value": 4.21
+                  },
+                  {
+                    "date": "2026-03-12",
+                    "value": 4.27
+                  },
+                  {
+                    "date": "2026-03-13",
+                    "value": 4.28
+                  },
+                  {
+                    "date": "2026-03-16",
+                    "value": 4.23
+                  },
+                  {
+                    "date": "2026-03-17",
+                    "value": 4.2
+                  },
+                  {
+                    "date": "2026-03-18",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-03-19",
+                    "value": 4.25
+                  },
+                  {
+                    "date": "2026-03-20",
+                    "value": 4.39
+                  },
+                  {
+                    "date": "2026-03-23",
+                    "value": 4.34
+                  },
+                  {
+                    "date": "2026-03-24",
+                    "value": 4.39
+                  },
+                  {
+                    "date": "2026-03-25",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2026-03-26",
+                    "value": 4.42
+                  },
+                  {
+                    "date": "2026-03-27",
+                    "value": 4.44
+                  },
+                  {
+                    "date": "2026-03-30",
+                    "value": 4.35
+                  },
+                  {
+                    "date": "2026-03-31",
+                    "value": 4.3
+                  },
+                  {
+                    "date": "2026-04-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2026-04-02",
+                    "value": 4.31
+                  },
+                  {
+                    "date": "2026-04-03",
+                    "value": 4.35
+                  },
+                  {
+                    "date": "2026-04-06",
+                    "value": 4.34
+                  },
+                  {
+                    "date": "2026-04-07",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2026-04-08",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-04-09",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-04-10",
+                    "value": 4.31
+                  },
+                  {
+                    "date": "2026-04-13",
+                    "value": 4.3
+                  },
+                  {
+                    "date": "2026-04-14",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-04-15",
+                    "value": 4.29
+                  },
+                  {
+                    "date": "2026-04-16",
+                    "value": 4.32
+                  },
+                  {
+                    "date": "2026-04-17",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-04-20",
+                    "value": 4.26
+                  },
+                  {
+                    "date": "2026-04-21",
+                    "value": 4.3
+                  },
+                  {
+                    "date": "2026-04-22",
+                    "value": 4.3
+                  },
+                  {
+                    "date": "2026-04-23",
+                    "value": 4.34
+                  },
+                  {
+                    "date": "2026-04-24",
+                    "value": 4.31
+                  },
+                  {
+                    "date": "2026-04-27",
+                    "value": 4.35
+                  },
+                  {
+                    "date": "2026-04-28",
+                    "value": 4.36
+                  },
+                  {
+                    "date": "2026-04-29",
+                    "value": 4.42
+                  },
+                  {
+                    "date": "2026-04-30",
+                    "value": 4.4
+                  },
+                  {
+                    "date": "2026-05-01",
+                    "value": 4.39
+                  },
+                  {
+                    "date": "2026-05-04",
+                    "value": 4.45
+                  },
+                  {
+                    "date": "2026-05-05",
+                    "value": 4.43
+                  },
+                  {
+                    "date": "2026-05-06",
+                    "value": 4.36
+                  },
+                  {
+                    "date": "2026-05-07",
+                    "value": 4.41
+                  },
+                  {
+                    "date": "2026-05-08",
+                    "value": 4.38
+                  },
+                  {
+                    "date": "2026-05-11",
+                    "value": 4.42
+                  },
+                  {
+                    "date": "2026-05-12",
+                    "value": 4.46
+                  },
+                  {
+                    "date": "2026-05-13",
+                    "value": 4.46
+                  },
+                  {
+                    "date": "2026-05-14",
+                    "value": 4.47
+                  },
+                  {
+                    "date": "2026-05-15",
+                    "value": 4.59
+                  },
+                  {
+                    "date": "2026-05-18",
+                    "value": 4.61
+                  },
+                  {
+                    "date": "2026-05-19",
+                    "value": 4.67
+                  },
+                  {
+                    "date": "2026-05-20",
+                    "value": 4.57
+                  },
+                  {
+                    "date": "2026-05-21",
+                    "value": 4.57
+                  },
+                  {
+                    "date": "2026-05-22",
+                    "value": 4.56
+                  },
+                  {
+                    "date": "2026-05-25",
+                    "value": 0
+                  },
+                  {
+                    "date": "2026-05-26",
+                    "value": 4.5
+                  },
+                  {
+                    "date": "2026-05-27",
+                    "value": 4.48
+                  },
+                  {
+                    "date": "2026-05-28",
+                    "value": 4.45
+                  }
+                ]
+              },
+              {
+                "id": "DGS2",
+                "label": "2-Year Treasury Yield",
+                "source": "FRED / U.S. Treasury",
+                "url": "https://fred.stlouisfed.org/series/DGS2",
+                "fetchedAt": "2026-05-31T21:56:49.618Z",
+                "observations": [
+                  {
+                    "date": "2026-01-23",
+                    "value": 3.6
+                  },
+                  {
+                    "date": "2026-01-26",
+                    "value": 3.56
+                  },
+                  {
+                    "date": "2026-01-27",
+                    "value": 3.53
+                  },
+                  {
+                    "date": "2026-01-28",
+                    "value": 3.56
+                  },
+                  {
+                    "date": "2026-01-29",
+                    "value": 3.53
+                  },
+                  {
+                    "date": "2026-01-30",
+                    "value": 3.52
+                  },
+                  {
+                    "date": "2026-02-02",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-02-03",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-02-04",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-02-05",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-02-06",
+                    "value": 3.5
+                  },
+                  {
+                    "date": "2026-02-09",
+                    "value": 3.48
+                  },
+                  {
+                    "date": "2026-02-10",
+                    "value": 3.45
+                  },
+                  {
+                    "date": "2026-02-11",
+                    "value": 3.52
+                  },
+                  {
+                    "date": "2026-02-12",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-02-13",
+                    "value": 3.4
+                  },
+                  {
+                    "date": "2026-02-16",
+                    "value": 0
+                  },
+                  {
+                    "date": "2026-02-17",
+                    "value": 3.43
+                  },
+                  {
+                    "date": "2026-02-18",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-02-19",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-02-20",
+                    "value": 3.48
+                  },
+                  {
+                    "date": "2026-02-23",
+                    "value": 3.43
+                  },
+                  {
+                    "date": "2026-02-24",
+                    "value": 3.43
+                  },
+                  {
+                    "date": "2026-02-25",
+                    "value": 3.45
+                  },
+                  {
+                    "date": "2026-02-26",
+                    "value": 3.42
+                  },
+                  {
+                    "date": "2026-02-27",
+                    "value": 3.38
+                  },
+                  {
+                    "date": "2026-03-02",
+                    "value": 3.47
+                  },
+                  {
+                    "date": "2026-03-03",
+                    "value": 3.51
+                  },
+                  {
+                    "date": "2026-03-04",
+                    "value": 3.54
+                  },
+                  {
+                    "date": "2026-03-05",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-03-06",
+                    "value": 3.56
+                  },
+                  {
+                    "date": "2026-03-09",
+                    "value": 3.56
+                  },
+                  {
+                    "date": "2026-03-10",
+                    "value": 3.57
+                  },
+                  {
+                    "date": "2026-03-11",
+                    "value": 3.64
+                  },
+                  {
+                    "date": "2026-03-12",
+                    "value": 3.76
+                  },
+                  {
+                    "date": "2026-03-13",
+                    "value": 3.73
+                  },
+                  {
+                    "date": "2026-03-16",
+                    "value": 3.68
+                  },
+                  {
+                    "date": "2026-03-17",
+                    "value": 3.68
+                  },
+                  {
+                    "date": "2026-03-18",
+                    "value": 3.76
+                  },
+                  {
+                    "date": "2026-03-19",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-03-20",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2026-03-23",
+                    "value": 3.83
+                  },
+                  {
+                    "date": "2026-03-24",
+                    "value": 3.9
+                  },
+                  {
+                    "date": "2026-03-25",
+                    "value": 3.84
+                  },
+                  {
+                    "date": "2026-03-26",
+                    "value": 3.96
+                  },
+                  {
+                    "date": "2026-03-27",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2026-03-30",
+                    "value": 3.82
+                  },
+                  {
+                    "date": "2026-03-31",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-04-01",
+                    "value": 3.81
+                  },
+                  {
+                    "date": "2026-04-02",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-04-03",
+                    "value": 3.84
+                  },
+                  {
+                    "date": "2026-04-06",
+                    "value": 3.84
+                  },
+                  {
+                    "date": "2026-04-07",
+                    "value": 3.81
+                  },
+                  {
+                    "date": "2026-04-08",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-04-09",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-10",
+                    "value": 3.81
+                  },
+                  {
+                    "date": "2026-04-13",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-14",
+                    "value": 3.76
+                  },
+                  {
+                    "date": "2026-04-15",
+                    "value": 3.76
+                  },
+                  {
+                    "date": "2026-04-16",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-17",
+                    "value": 3.71
+                  },
+                  {
+                    "date": "2026-04-20",
+                    "value": 3.72
+                  },
+                  {
+                    "date": "2026-04-21",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-22",
+                    "value": 3.79
+                  },
+                  {
+                    "date": "2026-04-23",
+                    "value": 3.83
+                  },
+                  {
+                    "date": "2026-04-24",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-27",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2026-04-28",
+                    "value": 3.84
+                  },
+                  {
+                    "date": "2026-04-29",
+                    "value": 3.92
+                  },
+                  {
+                    "date": "2026-04-30",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2026-05-01",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2026-05-04",
+                    "value": 3.95
+                  },
+                  {
+                    "date": "2026-05-05",
+                    "value": 3.93
+                  },
+                  {
+                    "date": "2026-05-06",
+                    "value": 3.87
+                  },
+                  {
+                    "date": "2026-05-07",
+                    "value": 3.92
+                  },
+                  {
+                    "date": "2026-05-08",
+                    "value": 3.9
+                  },
+                  {
+                    "date": "2026-05-11",
+                    "value": 3.95
+                  },
+                  {
+                    "date": "2026-05-12",
+                    "value": 4
+                  },
+                  {
+                    "date": "2026-05-13",
+                    "value": 3.98
+                  },
+                  {
+                    "date": "2026-05-14",
+                    "value": 4
+                  },
+                  {
+                    "date": "2026-05-15",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2026-05-18",
+                    "value": 4.07
+                  },
+                  {
+                    "date": "2026-05-19",
+                    "value": 4.13
+                  },
+                  {
+                    "date": "2026-05-20",
+                    "value": 4.04
+                  },
+                  {
+                    "date": "2026-05-21",
+                    "value": 4.08
+                  },
+                  {
+                    "date": "2026-05-22",
+                    "value": 4.13
+                  },
+                  {
+                    "date": "2026-05-25",
+                    "value": 0
+                  },
+                  {
+                    "date": "2026-05-26",
+                    "value": 4.01
+                  },
+                  {
+                    "date": "2026-05-27",
+                    "value": 4
+                  },
+                  {
+                    "date": "2026-05-28",
+                    "value": 3.99
+                  }
+                ]
+              },
+              {
+                "id": "FEDFUNDS",
+                "label": "Effective Federal Funds Rate",
+                "source": "FRED / Federal Reserve",
+                "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+                "fetchedAt": "2026-05-31T21:56:49.641Z",
+                "observations": [
+                  {
+                    "date": "2018-11-01",
+                    "value": 2.2
+                  },
+                  {
+                    "date": "2018-12-01",
+                    "value": 2.27
+                  },
+                  {
+                    "date": "2019-01-01",
+                    "value": 2.4
+                  },
+                  {
+                    "date": "2019-02-01",
+                    "value": 2.4
+                  },
+                  {
+                    "date": "2019-03-01",
+                    "value": 2.41
+                  },
+                  {
+                    "date": "2019-04-01",
+                    "value": 2.42
+                  },
+                  {
+                    "date": "2019-05-01",
+                    "value": 2.39
+                  },
+                  {
+                    "date": "2019-06-01",
+                    "value": 2.38
+                  },
+                  {
+                    "date": "2019-07-01",
+                    "value": 2.4
+                  },
+                  {
+                    "date": "2019-08-01",
+                    "value": 2.13
+                  },
+                  {
+                    "date": "2019-09-01",
+                    "value": 2.04
+                  },
+                  {
+                    "date": "2019-10-01",
+                    "value": 1.83
+                  },
+                  {
+                    "date": "2019-11-01",
+                    "value": 1.55
+                  },
+                  {
+                    "date": "2019-12-01",
+                    "value": 1.55
+                  },
+                  {
+                    "date": "2020-01-01",
+                    "value": 1.55
+                  },
+                  {
+                    "date": "2020-02-01",
+                    "value": 1.58
+                  },
+                  {
+                    "date": "2020-03-01",
+                    "value": 0.65
+                  },
+                  {
+                    "date": "2020-04-01",
+                    "value": 0.05
+                  },
+                  {
+                    "date": "2020-05-01",
+                    "value": 0.05
+                  },
+                  {
+                    "date": "2020-06-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2020-07-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2020-08-01",
+                    "value": 0.1
+                  },
+                  {
+                    "date": "2020-09-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2020-10-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2020-11-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2020-12-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2021-01-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2021-02-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-03-01",
+                    "value": 0.07
+                  },
+                  {
+                    "date": "2021-04-01",
+                    "value": 0.07
+                  },
+                  {
+                    "date": "2021-05-01",
+                    "value": 0.06
+                  },
+                  {
+                    "date": "2021-06-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-07-01",
+                    "value": 0.1
+                  },
+                  {
+                    "date": "2021-08-01",
+                    "value": 0.09
+                  },
+                  {
+                    "date": "2021-09-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-10-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-11-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2021-12-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2022-01-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2022-02-01",
+                    "value": 0.08
+                  },
+                  {
+                    "date": "2022-03-01",
+                    "value": 0.2
+                  },
+                  {
+                    "date": "2022-04-01",
+                    "value": 0.33
+                  },
+                  {
+                    "date": "2022-05-01",
+                    "value": 0.77
+                  },
+                  {
+                    "date": "2022-06-01",
+                    "value": 1.21
+                  },
+                  {
+                    "date": "2022-07-01",
+                    "value": 1.68
+                  },
+                  {
+                    "date": "2022-08-01",
+                    "value": 2.33
+                  },
+                  {
+                    "date": "2022-09-01",
+                    "value": 2.56
+                  },
+                  {
+                    "date": "2022-10-01",
+                    "value": 3.08
+                  },
+                  {
+                    "date": "2022-11-01",
+                    "value": 3.78
+                  },
+                  {
+                    "date": "2022-12-01",
+                    "value": 4.1
+                  },
+                  {
+                    "date": "2023-01-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2023-02-01",
+                    "value": 4.57
+                  },
+                  {
+                    "date": "2023-03-01",
+                    "value": 4.65
+                  },
+                  {
+                    "date": "2023-04-01",
+                    "value": 4.83
+                  },
+                  {
+                    "date": "2023-05-01",
+                    "value": 5.06
+                  },
+                  {
+                    "date": "2023-06-01",
+                    "value": 5.08
+                  },
+                  {
+                    "date": "2023-07-01",
+                    "value": 5.12
+                  },
+                  {
+                    "date": "2023-08-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2023-09-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2023-10-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2023-11-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2023-12-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-01-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-02-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-03-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-04-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-05-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-06-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-07-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-08-01",
+                    "value": 5.33
+                  },
+                  {
+                    "date": "2024-09-01",
+                    "value": 5.13
+                  },
+                  {
+                    "date": "2024-10-01",
+                    "value": 4.83
+                  },
+                  {
+                    "date": "2024-11-01",
+                    "value": 4.64
+                  },
+                  {
+                    "date": "2024-12-01",
+                    "value": 4.48
+                  },
+                  {
+                    "date": "2025-01-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-02-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-03-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-04-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-05-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-06-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-07-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-08-01",
+                    "value": 4.33
+                  },
+                  {
+                    "date": "2025-09-01",
+                    "value": 4.22
+                  },
+                  {
+                    "date": "2025-10-01",
+                    "value": 4.09
+                  },
+                  {
+                    "date": "2025-11-01",
+                    "value": 3.88
+                  },
+                  {
+                    "date": "2025-12-01",
+                    "value": 3.72
+                  },
+                  {
+                    "date": "2026-01-01",
+                    "value": 3.64
+                  },
+                  {
+                    "date": "2026-02-01",
+                    "value": 3.64
+                  },
+                  {
+                    "date": "2026-03-01",
+                    "value": 3.64
+                  },
+                  {
+                    "date": "2026-04-01",
+                    "value": 3.64
+                  }
+                ]
+              }
+            ],
+            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
           },
           "relatedLinks": [
             {
@@ -3600,7 +5199,8 @@
             "source": "BEA",
             "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
             "publishedAt": "2026-05-29T08:30:00-04:00",
-            "fetchedAt": "2026-05-31T21:56:48.788Z"
+            "fetchedAt": "2026-05-31T21:56:48.788Z",
+            "evidenceType": "reported"
           }
         ],
         "scheduledEvent": {
@@ -3723,9 +5323,17 @@
               "fetchedAt": "2026-05-31T21:56:48.788Z"
             }
           ],
+          "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "Medium",
           "summary": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+          "readerSummary": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+          "readerDek": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+          "editorialThesis": "Dell stock jumps as AI server revenue surges matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+          "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch Dell's AI backlog, gross margin, memory supply, and whether large cloud customers keep raising capex plans.",
+          "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+          "whatChangedToday": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The new read is Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending.",
           "whatHappened": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand.",
           "whatMoved": "Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending.",
           "whyItMoved": "The 757% AI-server revenue growth gave investors a concrete number showing that AI spending is reaching servers, memory, networking, and enterprise systems.",
@@ -3764,7 +5372,7 @@
               {
                 "id": "tape",
                 "heading": "What moved and what it suggests",
-                "body": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending. A single stock move matters when it gives the market a cleaner signal about a broader theme than the theme had before."
+                "body": "Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand."
               },
               {
                 "id": "mechanism",
@@ -4391,9 +5999,17 @@
               "fetchedAt": "2026-05-31T21:56:48.788Z"
             }
           ],
+          "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "Medium",
           "summary": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.",
+          "readerSummary": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. What matters most is whether the transaction logic, financing, and approval path still hold together under scrutiny.",
+          "readerDek": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. For readers, the issue is how that fact changes deal certainty, valuation and financing capacity, not whether the headline is interesting on its own.",
+          "editorialThesis": "Toms Capital builds McCormick stake amid Unilever Foods deal matters as a deals story because it connects a concrete fact to deal certainty, valuation and financing capacity. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "ibAngle": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+          "interviewLine": "Start with the fact, explain the mechanism through deal certainty, valuation and financing capacity, then say what you would watch next: Watch Toms Capital's asks, shareholder reaction, regulatory milestones, synergy details, and any change in deal timing.",
+          "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+          "whatChangedToday": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. The new read is The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity.",
           "whatHappened": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business.",
           "whatMoved": "The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity.",
           "whyItMoved": "Activist pressure can force management to defend the deal more clearly: the synergy case, timing, leverage, and why this is better than other uses of capital.",
@@ -4428,7 +6044,7 @@
               {
                 "id": "transaction",
                 "heading": "What is happening in the transaction",
-                "body": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business. The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity. In deals, the most useful way to read the situation is to ask what changed in certainty, leverage tolerance, or the sponsor or board's room to maneuver."
+                "body": "The story is less about one stock move and more about deal risk. An activist investor can make the market question whether the transaction is worth the complexity. In deals, the useful question is what changed in certainty, strategic need, financing tolerance, or the board's room to maneuver. Source detail: Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business."
               },
               {
                 "id": "deal-read",
@@ -4449,9 +6065,9 @@
           },
           "visual": {
             "type": "deal-timeline",
-            "title": "Deal risk map",
-            "subtitle": "Sourced transaction structure and watchpoints.",
-            "relevanceNote": "This visual fits because the useful question is where the deal can change, not whether one market series moved.",
+            "title": "Transaction path and risk map",
+            "subtitle": "Story-specific transaction map showing where today's deal can create or lose certainty.",
+            "relevanceNote": "This visual fits because the useful question is how the transaction moves from strategic logic to signed terms, approvals, financing discipline, and closing certainty.",
             "allowedPages": [
               "deals",
               "deep-dive"
@@ -4472,24 +6088,24 @@
             ],
             "steps": [
               {
-                "label": "Deal announced",
-                "detail": "Strategic scale and synergy case"
+                "label": "Strategic rationale",
+                "detail": "Toms Capital builds McCormick stake amid Unilever Foods deal"
               },
               {
-                "label": "Activist overlay",
-                "detail": "Toms Capital stake adds scrutiny"
+                "label": "Valuation / consideration",
+                "detail": "Check whether price, structure, and expected synergies justify the buyer's capital allocation."
               },
               {
-                "label": "Approvals",
-                "detail": "Shareholder and regulatory path"
+                "label": "Regulatory path",
+                "detail": "Confirm antitrust, sector, shareholder, and other approval gates before treating the deal as done."
               },
               {
-                "label": "Financing / leverage",
-                "detail": "Debt, dilution, capital plan"
+                "label": "Financing discipline",
+                "detail": "Watch leverage, cash use, dilution, and whether market conditions change the economics before close."
               },
               {
-                "label": "Outcome",
-                "detail": "Close, change terms, or defend deal"
+                "label": "Closing certainty",
+                "detail": "The read improves if approvals, financing, and integration risk remain contained; it breaks if any gate gets harder."
               }
             ]
           },
@@ -4539,9 +6155,17 @@
               "fetchedAt": "2026-05-31T21:56:48.788Z"
             }
           ],
+          "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "Medium",
-          "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+          "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+          "readerSummary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+          "readerDek": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. For readers, the issue is how that fact changes credit availability, spreads and lender protections, not whether the headline is interesting on its own.",
+          "editorialThesis": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition.",
+          "ibAngle": "The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+          "interviewLine": "Start with the fact, explain the mechanism through credit availability, spreads and lender protections, then say what you would watch next: Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction.",
+          "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+          "whatChangedToday": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The new read is The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
           "whatHappened": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity.",
           "whatMoved": "The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
           "whyItMoved": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite.",
@@ -4571,22 +6195,22 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+                "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
               },
               {
                 "id": "signal",
                 "heading": "What the public signal is actually telling us",
-                "body": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+                "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
               },
               {
                 "id": "interpretation",
                 "heading": "How to interpret the financing signal",
-                "body": "If private credit remains open, sponsors can support more transaction volume. If spreads widen or credit losses rise, equity checks get larger and entry valuations need to fall. Bankers should watch direct-lending yields, non-accruals, repayment activity, and sponsor-backed originations because those determine whether private credit is helping or constraining deals. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+                "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
               },
               {
                 "id": "evidence",
                 "heading": "Where the evidence is strong versus indirect",
-                "body": "The read-through is strongest for sponsor-backed middle-market companies and dividend recap/refinancing candidates. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+                "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
               },
               {
                 "id": "parallel",
@@ -4596,7 +6220,7 @@
               {
                 "id": "watch-next",
                 "heading": "What would confirm or weaken the read",
-                "body": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+                "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
               }
             ]
           },
@@ -4709,9 +6333,17 @@
               "fetchedAt": "2026-05-31T21:56:48.788Z"
             }
           ],
+          "storyCluster": null,
           "freshnessStatus": "FRESH",
           "confidence": "Medium",
-          "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
+          "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+          "readerSummary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+          "readerDek": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. For readers, the issue is how that fact changes exit routes, buyer depth and sponsor marks, not whether the headline is interesting on its own.",
+          "editorialThesis": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
+          "ibAngle": "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+          "interviewLine": "Start with the fact, explain the mechanism through exit routes, buyer depth and sponsor marks, then say what you would watch next: Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes.",
+          "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+          "whatChangedToday": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The new read is The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
           "whatHappened": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read.",
           "whatMoved": "The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
           "whyItMoved": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough.",
@@ -4737,22 +6369,22 @@
               {
                 "id": "takeaway",
                 "heading": "Plain-English takeaway",
-                "body": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+                "body": "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
               },
               {
                 "id": "signal",
                 "heading": "What the public signal is actually telling us",
-                "body": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+                "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
               },
               {
                 "id": "interpretation",
                 "heading": "How to read the sponsor or exit implication",
-                "body": "The valuation read depends on whether strategic scarcity and growth justify sponsor pricing after higher financing costs. A good asset can still clear; weaker assets may not. For bankers, the key questions are debt capacity, required equity check, lender appetite, and whether the sponsor can underwrite a realistic exit multiple. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+                "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
               },
               {
                 "id": "evidence",
                 "heading": "Where the evidence is strong versus indirect",
-                "body": "This matters for private healthcare and medtech assets because sponsor demand can support auction confidence when public comps are stable. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+                "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
               },
               {
                 "id": "parallel",
@@ -4762,7 +6394,7 @@
               {
                 "id": "watch-next",
                 "heading": "What would confirm or weaken the read",
-                "body": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+                "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
               }
             ]
           },
@@ -4861,9 +6493,17 @@
                   "fetchedAt": "2026-05-31T21:56:48.788Z"
                 }
               ],
+              "storyCluster": null,
               "freshnessStatus": "FRESH",
               "confidence": "Medium",
-              "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The useful read is what this says about sponsor activity, valuation discipline, and exit conditions.",
+              "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+              "readerSummary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+              "readerDek": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. For readers, the issue is how that fact changes exit routes, buyer depth and sponsor marks, not whether the headline is interesting on its own.",
+              "editorialThesis": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
+              "ibAngle": "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+              "interviewLine": "Start with the fact, explain the mechanism through exit routes, buyer depth and sponsor marks, then say what you would watch next: Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes.",
+              "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+              "whatChangedToday": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The new read is The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
               "whatHappened": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read.",
               "whatMoved": "The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets.",
               "whyItMoved": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough.",
@@ -4889,22 +6529,22 @@
                   {
                     "id": "takeaway",
                     "heading": "Plain-English takeaway",
-                    "body": "A named sponsor deal shows that buyers are still willing to underwrite sector growth, financing costs, and exit optionality when the asset quality is strong enough. The real learning value is understanding what this public signal says about sponsor behavior, exit routes, and valuation discipline rather than treating it as gossip about private marks."
+                    "body": "In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
                   },
                   {
                     "id": "signal",
                     "heading": "What the public signal is actually telling us",
-                    "body": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read. The private-equity signal is sponsor willingness to announce a platform-style acquisition, not just the direction of public equity markets. In private markets, the cleanest public clues usually come from named transactions, financings, filings, or issuer commentary rather than from broad claims about sentiment."
+                    "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
                   },
                   {
                     "id": "interpretation",
                     "heading": "How to read the sponsor or exit implication",
-                    "body": "The valuation read depends on whether strategic scarcity and growth justify sponsor pricing after higher financing costs. A good asset can still clear; weaker assets may not. For bankers, the key questions are debt capacity, required equity check, lender appetite, and whether the sponsor can underwrite a realistic exit multiple. The practical question is whether buyers and sellers can still agree on value, whether financing still supports that value, and whether the exit path is open enough to justify underwriting risk today."
+                    "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
                   },
                   {
                     "id": "evidence",
                     "heading": "Where the evidence is strong versus indirect",
-                    "body": "This matters for private healthcare and medtech assets because sponsor demand can support auction confidence when public comps are stable. Private markets are less transparent than public ones, so the reader should separate direct evidence from inferred mood. That is what keeps the analysis grounded instead of speculative."
+                    "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
                   },
                   {
                     "id": "parallel",
@@ -4914,7 +6554,7 @@
                   {
                     "id": "watch-next",
                     "heading": "What would confirm or weaken the read",
-                    "body": "Watch financing details, competing sponsor activity, healthcare services multiples, and whether more sponsor-backed assets launch sale processes. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
+                    "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
                   }
                 ]
               },
@@ -5013,9 +6653,17 @@
                   "fetchedAt": "2026-05-31T21:56:48.788Z"
                 }
               ],
+              "storyCluster": null,
               "freshnessStatus": "FRESH",
               "confidence": "Medium",
-              "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+              "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+              "readerSummary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+              "readerDek": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. For readers, the issue is how that fact changes credit availability, spreads and lender protections, not whether the headline is interesting on its own.",
+              "editorialThesis": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition.",
+              "ibAngle": "The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+              "interviewLine": "Start with the fact, explain the mechanism through credit availability, spreads and lender protections, then say what you would watch next: Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction.",
+              "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+              "whatChangedToday": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The new read is The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
               "whatHappened": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity.",
               "whatMoved": "The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
               "whyItMoved": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite.",
@@ -5045,22 +6693,22 @@
                   {
                     "id": "takeaway",
                     "heading": "Plain-English takeaway",
-                    "body": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+                    "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
                   },
                   {
                     "id": "signal",
                     "heading": "What the public signal is actually telling us",
-                    "body": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+                    "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
                   },
                   {
                     "id": "interpretation",
                     "heading": "How to interpret the financing signal",
-                    "body": "If private credit remains open, sponsors can support more transaction volume. If spreads widen or credit losses rise, equity checks get larger and entry valuations need to fall. Bankers should watch direct-lending yields, non-accruals, repayment activity, and sponsor-backed originations because those determine whether private credit is helping or constraining deals. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+                    "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
                   },
                   {
                     "id": "evidence",
                     "heading": "Where the evidence is strong versus indirect",
-                    "body": "The read-through is strongest for sponsor-backed middle-market companies and dividend recap/refinancing candidates. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+                    "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
                   },
                   {
                     "id": "parallel",
@@ -5070,7 +6718,7 @@
                   {
                     "id": "watch-next",
                     "heading": "What would confirm or weaken the read",
-                    "body": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+                    "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
                   }
                 ]
               },
@@ -5174,6 +6822,104 @@
       }
     }
   },
+  "dealTape": [
+    {
+      "id": "deal-tickers-KKR",
+      "title": "KKR signs Healthium acquisition as sponsor deal activity tests the exit window",
+      "summary": "KKR announced an agreement to acquire Healthium Medtech, giving the private-equity lane a specific sponsor transaction to evaluate rather than only a broad macro read.",
+      "primaryLane": null,
+      "rankScore": 81,
+      "dealStrength": {
+        "score": 97,
+        "label": "High"
+      },
+      "updateStrength": {
+        "score": 45,
+        "label": "Developing"
+      },
+      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
+      "sourceTrail": [
+        {
+          "source": "KKR",
+          "url": "https://www.kkr.com/newsroom/kkr-acquire-healthium-medtech",
+          "publishedAt": "2026-05-29T10:05:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z"
+        }
+      ],
+      "watchNext": "Watch financing details, regulatory path, shareholder vote, timing, and any change in price or certainty.",
+      "clusteredItemCount": 1,
+      "relatedItemIds": [
+        "seed-private-equity-kkr-healthium"
+      ],
+      "freshnessStatus": "FRESH",
+      "publishedAt": "2026-05-29T10:05:00-04:00",
+      "rank": 1
+    },
+    {
+      "id": "deal-tickers-ARCC-BXSL-OWL",
+      "title": "Blue Owl direct-lending earnings keep private credit in focus",
+      "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity.",
+      "primaryLane": null,
+      "rankScore": 68,
+      "dealStrength": {
+        "score": 76.6,
+        "label": "High"
+      },
+      "updateStrength": {
+        "score": 45,
+        "label": "Developing"
+      },
+      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
+      "sourceTrail": [
+        {
+          "source": "Blue Owl Capital",
+          "url": "https://ir.blueowl.com/",
+          "publishedAt": "2026-05-29T11:30:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z"
+        }
+      ],
+      "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
+      "clusteredItemCount": 1,
+      "relatedItemIds": [
+        "seed-private-credit-ipo-window"
+      ],
+      "freshnessStatus": "FRESH",
+      "publishedAt": "2026-05-29T11:30:00-04:00",
+      "rank": 2
+    },
+    {
+      "id": "deal-tickers-MKC",
+      "title": "Toms Capital builds McCormick stake amid Unilever Foods deal",
+      "summary": "Reuters reported Toms Capital built a significant McCormick stake while McCormick works through its planned combination with Unilever's foods business.",
+      "primaryLane": null,
+      "rankScore": 56,
+      "dealStrength": {
+        "score": 61,
+        "label": "Medium"
+      },
+      "updateStrength": {
+        "score": 45,
+        "label": "Developing"
+      },
+      "whyItRanks": "Ranks here because it has deal relevance and source support cleared the tape threshold.",
+      "sourceTrail": [
+        {
+          "source": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/activist-toms-capital-has-built-stake-mccormick-it-works-unilever-food-deal-2026-05-29/",
+          "publishedAt": "2026-05-29T10:45:00-04:00",
+          "fetchedAt": "2026-05-31T21:56:48.788Z"
+        }
+      ],
+      "watchNext": "Watch ownership filings, the investor's ask, board response, and whether the campaign changes deal timing or valuation.",
+      "clusteredItemCount": 1,
+      "relatedItemIds": [
+        "seed-mccormick-activist"
+      ],
+      "freshnessStatus": "FRESH",
+      "publishedAt": "2026-05-29T10:45:00-04:00",
+      "rank": 3
+    }
+  ],
   "marketWatch": [
     {
       "id": "SPY",
@@ -5241,6 +6987,16 @@
       "whyItMoved": "Oil is mostly reading through growth and inflation expectations here. No separate energy headline cleared the brief, so treat this as macro context rather than an oil thesis."
     }
   ],
+  "openbbMarketPack": null,
+  "editorsBrief": {
+    "label": "Editor's Brief",
+    "dek": "The 30-second read for readers who need the point before the details.",
+    "bullets": [
+      "Blue Owl direct-lending earnings keep private credit in focus: Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. For readers, the issue is how that fact changes credit availability, spreads and lender protections, not whether the headline is interesting on its own.",
+      "Private Markets: The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
+      "Deal tape: KKR signs Healthium acquisition as sponsor deal activity tests the exit window is the transaction to underwrite for price, certainty, approvals, and financing."
+    ]
+  },
   "deepDive": {
     "id": "seed-private-credit-ipo-window",
     "title": "Blue Owl direct-lending earnings keep private credit in focus",
@@ -5252,12 +7008,31 @@
         "source": "Blue Owl Capital",
         "url": "https://ir.blueowl.com/",
         "publishedAt": "2026-05-29T11:30:00-04:00",
-        "fetchedAt": "2026-05-31T21:56:48.788Z"
+        "fetchedAt": "2026-05-31T21:56:48.788Z",
+        "evidenceType": "reported"
       }
     ],
+    "storyCluster": {
+      "id": "story-blue-owl-earnings-lending-private-credit",
+      "title": "Blue Owl direct-lending earnings keep private credit in focus",
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "importanceCues": 0,
+      "recruitingRelevance": 2,
+      "readerValue": 3,
+      "score": 61
+    },
     "freshnessStatus": "FRESH",
     "confidence": "Medium",
-    "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The useful read is what this says about credit availability, lender appetite, and refinancing capacity.",
+    "summary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+    "readerSummary": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+    "readerDek": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. For readers, the issue is how that fact changes credit availability, spreads and lender protections, not whether the headline is interesting on its own.",
+    "editorialThesis": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition.",
+    "ibAngle": "The credit read is whether investors are being paid for actual collateral and downside protection, or merely accepting complexity to reach for private-credit yield.",
+    "interviewLine": "Start with the fact, explain the mechanism through credit availability, spreads and lender protections, then say what you would watch next: Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction.",
+    "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+    "whatChangedToday": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. The new read is The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
     "whatHappened": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity.",
     "whatMoved": "The private-credit signal is whether direct lenders still have demand, credit quality, and spread discipline as sponsors look for financing outside broadly syndicated loans.",
     "whyItMoved": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite.",
@@ -5287,22 +7062,22 @@
         {
           "id": "takeaway",
           "heading": "Plain-English takeaway",
-          "body": "Private credit has become a major financing channel for sponsor deals, so public manager commentary can show whether capital is still available and at what risk appetite. The important point is not just that private credit is active, but whether it is active on terms that still make transactions and refinancings workable."
+          "body": "In plain English, private credit is not automatically safer because it is private. The issue is whether the cash flows, collateral, covenants, and seniority are strong enough to justify the coupon after fees and illiquidity."
         },
         {
           "id": "signal",
           "heading": "What the public signal is actually telling us",
-          "body": "Blue Owl's public investor materials keep private credit in focus because direct-lending managers are a public window into demand for private debt, credit spreads, and sponsor refinancing capacity. Public updates in private credit are always indirect, so the job is to translate them into a read on origination appetite, underwriting discipline, and whether lenders are stretching or pulling back."
+          "body": "The public signal is indirect: note issuance, BDC/manager commentary, spread proxies, repayment activity, and credit-performance language show whether capital is still available and on what terms."
         },
         {
           "id": "interpretation",
           "heading": "How to interpret the financing signal",
-          "body": "If private credit remains open, sponsors can support more transaction volume. If spreads widen or credit losses rise, equity checks get larger and entry valuations need to fall. Bankers should watch direct-lending yields, non-accruals, repayment activity, and sponsor-backed originations because those determine whether private credit is helping or constraining deals. For learning purposes, the key mechanism is simple: if private debt stays available, more assets can refinance or transact; if spreads widen or losses rise, equity checks grow and valuations have to adjust."
+          "body": "Interpret the financing signal by splitting price from protection. A high coupon helps only if underwriting losses stay contained; looser covenants, weak collateral, or payment-in-kind features can turn yield into delayed loss recognition."
         },
         {
           "id": "evidence",
           "heading": "Where the evidence is strong versus indirect",
-          "body": "The read-through is strongest for sponsor-backed middle-market companies and dividend recap/refinancing candidates. This kind of story is strongest when it points to actual originations, repayments, spreads, credit performance, or lender commentary. It is weaker when it only gestures at appetite without showing how terms are changing."
+          "body": "Strong evidence means disclosed advance rates, loan-to-value, attachment point, non-accrual trends, realized losses, repayment pace, and manager marks. Generic demand for private credit is weaker because it says little about underwriting quality."
         },
         {
           "id": "parallel",
@@ -5312,7 +7087,7 @@
         {
           "id": "watch-next",
           "heading": "What would confirm or weaken the read",
-          "body": "Watch private-credit manager originations, non-accruals, repayments, dividend recap activity, and high-yield spread direction. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings."
+          "body": "Watch non-accruals, amendment activity, repayments, dividend recaps, spread levels, PIK usage, and whether new notes are backed by granular collateral or by aggressive sponsor refinancings. Those follow-up datapoints matter because private-credit stories are only useful when they show whether capital is still available on terms that can support real transactions and refinancings without hiding credit deterioration."
         }
       ]
     },
@@ -5385,23 +7160,7 @@
       ],
       "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
     },
-    "relatedLinks": [
-      {
-        "label": "Blue Owl Investor Relations",
-        "url": "https://ir.blueowl.com/",
-        "type": "Company"
-      },
-      {
-        "label": "Ares Capital Investor Relations",
-        "url": "https://www.arescapitalcorp.com/",
-        "type": "Company"
-      },
-      {
-        "label": "FRED High Yield Spread",
-        "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-        "type": "Data"
-      }
-    ],
+    "relatedLinks": [],
     "storyline": null,
     "concepts": [
       "debt",
@@ -5423,12 +7182,31 @@
           "source": "BEA",
           "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
           "publishedAt": "2026-05-29T08:30:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-personal-income-personal-outlays-income-april",
+        "title": "Personal Income and Outlays, April 2026",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "score": 51
+      },
       "freshnessStatus": "FRESH",
       "confidence": "High",
       "summary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "readerSummary": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The practical question is how that changes the rate path and the market's comfort with the current valuation backdrop.",
+      "readerDek": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. For readers, the issue is how that fact changes rates and discount rates, not whether the headline is interesting on its own.",
+      "editorialThesis": "Personal Income and Outlays, April 2026 matters as a macro environment story because it connects a concrete fact to rates and discount rates. Treat this as a rates story first. Higher or stickier rates make future cash flows worth less today and make deal returns harder to underwrite.",
+      "ibAngle": "Translate the macro signal into borrowing costs, refinancing risk, and whether the capital markets window is open or tightening. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through rates and discount rates, then say what you would watch next: Watch the next inflation report, Treasury yields, and whether equity multiples hold up if long-term rates stay high.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The new read is The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
       "whatHappened": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year.",
       "whatMoved": "The main issue is the rate backdrop. If inflation stays sticky, investors have less reason to assume easier Fed policy soon.",
       "whyItMoved": "The headline PCE number was still hot enough to keep rate-cut optimism in check, even though the core monthly number looked less concerning.",
@@ -5463,7 +7241,7 @@
           {
             "id": "release",
             "heading": "What the release actually said",
-            "body": "BEA reported April PCE rose 0.4% month over month and 3.8% year over year, while core PCE rose 0.2% month over month and 3.3% year over year. The part that matters is not just the headline number, but which part of the report is still running hot and which part is starting to cool."
+            "body": "Do not read the release as one headline number. Split it into three buckets: the headline print, the core trend, and the components doing the work underneath. The headline tells you how much inflation pressure households and bond traders feel, core tells you whether the Fed has a persistence problem, and the component mix tells you whether Treasury yields should treat the move as isolated noise or policy-relevant inflation."
           },
           {
             "id": "mechanism",
@@ -5484,13 +7262,16 @@
       },
       "visual": {
         "type": "line-chart",
-        "title": "Rate backdrop",
-        "subtitle": "Latest public FRED observations. This is not live trading data.",
-        "relevanceNote": "This chart fits because the story is about the rate backdrop itself, not just a company reacting to it.",
+        "title": "Yield stack and Fed-path pressure",
+        "subtitle": "Latest available public rate observations through the brief date; uses Yahoo Treasury proxies when FRED daily Treasury feeds are unavailable.",
+        "relevanceNote": "This chart fits because the story is about Fed-path repricing and the discount-rate stack that drives equity multiples, financing costs, and deal math.",
         "allowedPages": [
           "macro",
           "deep-dive"
         ],
+        "axisTitle": "Rate",
+        "axisSuffix": "%",
+        "visualSource": "Public rate data",
         "series": [
           {
             "id": "DGS10",
@@ -6600,25 +8381,9 @@
             ]
           }
         ],
-        "sourceNote": "Numeric market visuals use public FRED CSV downloads and preserve source links."
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "FRED 10-Year Treasury Yield",
-          "url": "https://fred.stlouisfed.org/series/DGS10",
-          "type": "Data"
-        },
-        {
-          "label": "FRED Fed Funds Effective Rate",
-          "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
-          "type": "Data"
-        },
-        {
-          "label": "BEA Personal Income and Outlays Releases",
-          "url": "https://www.bea.gov/news/current-releases",
-          "type": "Official"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "rates-inflation-cost-of-capital",
         "name": "Rates and cost of capital",
@@ -6650,12 +8415,31 @@
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
           "publishedAt": "2026-05-29T09:15:00-04:00",
-          "fetchedAt": "2026-05-31T21:56:48.788Z"
+          "fetchedAt": "2026-05-31T21:56:48.788Z",
+          "evidenceType": "reported"
         }
       ],
+      "storyCluster": {
+        "id": "story-revenue-server-surges-jumps-dell",
+        "title": "Dell stock jumps as AI server revenue surges",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "score": 50
+      },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "summary": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "readerSummary": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The useful question is what the move reveals about how the market is repricing the story, not just that the headline happened.",
+      "readerDek": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
+      "editorialThesis": "Dell stock jumps as AI server revenue surges matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch Dell's AI backlog, gross margin, memory supply, and whether large cloud customers keep raising capex plans.",
+      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
+      "whatChangedToday": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. The new read is Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending.",
       "whatHappened": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand.",
       "whatMoved": "Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending.",
       "whyItMoved": "The 757% AI-server revenue growth gave investors a concrete number showing that AI spending is reaching servers, memory, networking, and enterprise systems.",
@@ -6694,7 +8478,7 @@
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand. Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending. A single stock move matters when it gives the market a cleaner signal about a broader theme than the theme had before."
+            "body": "Dell was treated less like a traditional hardware company and more like a direct winner from AI infrastructure spending. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: CNBC reported Dell shares rose sharply after AI server revenue increased 757% year over year to $16.1 billion, turning the AI story from chip scarcity into broader infrastructure demand."
           },
           {
             "id": "mechanism",
@@ -7260,28 +9044,7 @@
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
       },
-      "relatedLinks": [
-        {
-          "label": "Dell Investor Relations",
-          "url": "https://investors.delltechnologies.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Nvidia Investor Relations",
-          "url": "https://investor.nvidia.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Arista Networks Investor Relations",
-          "url": "https://investors.arista.com/",
-          "type": "Company"
-        },
-        {
-          "label": "Equinix Investor Relations",
-          "url": "https://investor.equinix.com/",
-          "type": "Company"
-        }
-      ],
+      "relatedLinks": [],
       "storyline": {
         "id": "ai-infrastructure-dell-servers",
         "name": "AI infrastructure buildout",
@@ -7360,9 +9123,6 @@
   "visualDataFailures": [],
   "calendarFailures": [],
   "review": {
-    "status": "APPROVED",
-    "reviewedAt": "2026-06-01T02:44:15.922Z",
-    "blockerCount": 0,
-    "warningCount": 0
+    "status": "PENDING"
   }
 }

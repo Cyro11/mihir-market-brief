@@ -373,6 +373,60 @@ test("sponsor-exit stories separate real liquidity from continuation-style defer
   assert.match(bodies, /public comps set the valuation ceiling|LP liquidity pressure/);
 });
 
+test("banker analysis exposes reader-facing editorial fields without pipeline rationale", () => {
+  const analysis = bankerAnalysis(fixture({
+    title: "Nasdaq rises as AI software shares rally on stronger bookings",
+    summary: "Nasdaq rises as AI software shares rally on stronger bookings. Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
+    topics: ["markets", "ai", "companies"]
+  }));
+  const publicBlob = JSON.stringify({
+    summary: analysis.summary,
+    readerSummary: analysis.readerSummary,
+    readerDek: analysis.readerDek,
+    editorialThesis: analysis.editorialThesis,
+    ibAngle: analysis.ibAngle,
+    interviewLine: analysis.interviewLine,
+    bankerQuestion: analysis.bankerQuestion,
+    whatChangedToday: analysis.whatChangedToday,
+    whyItMoved: analysis.whyItMoved,
+    longform: analysis.longform
+  });
+
+  assert.match(analysis.readerDek, /For readers/);
+  assert.match(analysis.ibAngle, /IB interview|IB Angle|who pays|finances/i);
+  assert.match(analysis.interviewLine, /Start with the fact/);
+  assert.match(analysis.bankerQuestion, /which assumption/i);
+  assert.doesNotMatch(publicBlob, /Current reputable-market headline|thin RSS item|source URL, timestamp|selected because|evidence bar/i);
+});
+
+test("rendered overview is reader-facing and includes editor brief, IB angle, and interview line", async () => {
+  const html = await fs.readFile("index.html", "utf8");
+  const edition = JSON.parse(await fs.readFile("data/editions/2026-05-29.json", "utf8"));
+  const publicEditionBlob = JSON.stringify({
+    dek: edition.dek,
+    editorsBrief: edition.editorsBrief,
+    moves: edition.moves.map((move) => ({
+      summary: move.summary,
+      readerSummary: move.readerSummary,
+      readerDek: move.readerDek,
+      editorialThesis: move.editorialThesis,
+      ibAngle: move.ibAngle,
+      interviewLine: move.interviewLine,
+      bankerQuestion: move.bankerQuestion,
+      whatChangedToday: move.whatChangedToday,
+      whyItMoved: move.whyItMoved,
+      longform: move.longform
+    }))
+  });
+
+  assert.match(html, /Editor's Brief/);
+  assert.match(html, /30-second read/);
+  assert.match(html, /IB Angle/);
+  assert.match(html, /Interview Line/);
+  assert.match(html, /Story 1/);
+  assert.doesNotMatch(`${html}\n${publicEditionBlob}`, /Current reputable-market headline|thin RSS item|source URL, timestamp|selected because|evidence bar|Generated edition/i);
+});
+
 function testSeries(id, label, values, latestDate = "2026-06-08") {
   return {
     id,
