@@ -112,6 +112,33 @@ test("repeated robotic issue phrases are caught", () => {
   assert.match(review.blockers.join("\n"), /repeats robotic phrase "The main move is"/);
 });
 
+test("review blocks headline-question, repeated source summary, and sidebar question echo", () => {
+  const repeated = validMove({
+    title: "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
+    sourceTrail: [{ source: "MarketWatch Top Stories", url: "https://www.marketwatch.com/example" }],
+    summary: "The two lead underwriters on SpaceX’s IPO, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy.",
+    whatHappened: "The two lead underwriters on SpaceX’s IPO, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy.",
+    editorialArticle: {
+      question: "Does SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends change the deal math?",
+      dek: "The two lead underwriters on SpaceX’s IPO, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The transaction story is worth reading only if it changes what you would underwrite.",
+      body: [
+        "The two lead underwriters on SpaceX’s IPO, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The real test is whether the transaction can survive full underwriting.",
+        "For banking prep, do not stop at the market move. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies.",
+        "One caveat: this is still a one-source story. Treat the read as a working thesis until another source confirms it."
+      ],
+      bankerSidebar: {
+        interviewUse: "Say it this way: Does SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends change the deal math? Then tie the answer to valuation.",
+        watchNext: "Watch analyst revisions and price action."
+      }
+    }
+  });
+  const review = deterministicReview(editionWithMoves([repeated]));
+  const blockers = review.blockers.join("\n");
+  assert.match(blockers, /worth reading only if|Say it this way/);
+  assert.match(blockers, /editorial paragraph 1 repeats|editorial dek repeats/);
+  assert.match(blockers, /headline turned into a question|banker sidebar repeats/);
+});
+
 test("skipped OpenAI review blocks only when explicitly required", () => {
   const local = { blockers: [], warnings: [] };
   assert.equal(composeReview("2026-06-02", local, null, { requireAiReview: false }).status, "APPROVED");

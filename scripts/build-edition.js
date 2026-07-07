@@ -367,7 +367,7 @@ function visualFor(item, marketData) {
       };
     }
   }
-  if (editorialLane === "markets" && /\bsemi\b|\bsemis\b|\bsemiconductor\b|\bsemiconductors\b|\bchip\b|\bchips\b|\bchipmaker\b|\bchipmakers\b|\bnvidia\b|\bnasdaq\b/.test(text)) {
+  if (editorialLane === "markets" && /\bsemi\b|\bsemis\b|\bsemiconductor\b|\bsemiconductors\b|\bchip\b|\bchips\b|\bchipmaker\b|\bchipmakers\b|\bnvidia\b|\bmicron\b|\bmemory\b/.test(text)) {
     const items = comparisonItems(["SOXX", "NVDA", "AVGO", "MU", "MRVL", "INTC"], "%", latestPercentChange);
     if (items.length >= 3) {
       return {
@@ -384,14 +384,18 @@ function visualFor(item, marketData) {
       };
     }
   }
-  if (editorialLane === "markets" && /\bindex\b|\bindexes\b|\bbreadth\b|\brisk appetite\b|\btape\b|\brotation\b/.test(text)) {
-    const items = comparisonItems(["SPY", "QQQ", "IWM", "GLD"], "%");
+  if (editorialLane === "markets" && /\bnasdaq\b|\bs&p\b|\bindex\b|\bindexes\b|\bbreadth\b|\brisk appetite\b|\btape\b|\brotation\b|\bqqq\b|\bspy\b/.test(text)) {
+    const items = comparisonItems(["QQQ", "SPY", "IWM", "GLD"], "%");
     if (items.length >= 3) {
       return {
         type: "bar-chart",
-        title: "Cross-asset reaction board",
-        subtitle: "Three-month public market context across broad equity and real-asset proxies.",
-        relevanceNote: "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
+        title: /\bspacex\b|\bnasdaq-100\b/.test(text) ? "Index concentration board" : "Cross-asset reaction board",
+        subtitle: /\bspacex\b|\bnasdaq-100\b/.test(text)
+          ? "Three-month public market context for Nasdaq-heavy, broad-market, small-cap, and safe-haven proxies."
+          : "Three-month public market context across broad equity and real-asset proxies.",
+        relevanceNote: /\bspacex\b|\bnasdaq-100\b/.test(text)
+          ? "This board fits because the story is about Nasdaq concentration versus broader market exposure, not a semiconductor basket."
+          : "This snapshot fits because the story is about leadership and risk appetite across the tape, not just one stock in isolation.",
         allowedPages: ["markets", "deep-dive"],
         axisTitle: "3-month change",
         visualSource: "Public market data",
@@ -519,7 +523,7 @@ function visualFor(item, marketData) {
       type: "deal-timeline",
       title: "Transaction path and risk map",
       subtitle: "Story-specific transaction map showing where today's deal can create or lose certainty.",
-      relevanceNote: "This visual fits because the useful question is how the transaction moves from strategic logic to signed terms, approvals, financing discipline, and closing certainty.",
+      relevanceNote: "This map follows the transaction from strategic logic to signed terms, approvals, financing discipline, and closing certainty.",
       allowedPages: ["deals", "deep-dive"],
       sourceTrail: baseSourceTrail,
       steps: [
@@ -621,72 +625,119 @@ function stripTrailingPeriod(value) {
 }
 
 function humanizedHeadline(title) {
-  const clean = compactSentence(title, "Today's story");
-  if (clean.length <= 86) return clean;
-  return `${clean.slice(0, 83).replace(/\s+\S*$/, "")}...`;
+  const clean = compactSentence(title, "today's story");
+  if (clean.length <= 74) return clean;
+  return clean.slice(0, 71).replace(/\s+\S*$/, "");
 }
 
 function storyNoun(lane, segment) {
-  if (lane === "macro") return "cost-of-capital story";
-  if (lane === "deals" || lane === "breaking") return "transaction story";
-  if (segment === "private_credit") return "financing story";
-  if (segment === "private_equity") return "sponsor story";
-  return "market story";
+  if (lane === "macro") return "cost-of-capital read";
+  if (lane === "deals" || lane === "breaking") return "deal-market read";
+  if (segment === "private_credit") return "credit-availability read";
+  if (segment === "private_equity") return "sponsor-liquidity read";
+  return "market-structure read";
+}
+
+function factSnippet(value, maxLength = 170) {
+  const clean = stripTrailingPeriod(value);
+  if (clean.length <= maxLength) return clean;
+  return `${clean.slice(0, maxLength).replace(/\s+\S*$/, "")}.`;
 }
 
 function articleQuestion({ title, lane, segment, whatHappened }) {
-  const subject = humanizedHeadline(title);
-  if (lane === "macro") return `Does ${subject} actually change the rate path, or is it just another data point the market will fade?`;
-  if (lane === "deals" || lane === "breaking") return `Does ${subject} change the deal math, or is it only a headline with limited read-through?`;
-  if (segment === "private_credit") return `Does ${subject} show real lending capacity, or just another press-release version of private-credit appetite?`;
-  if (segment === "private_equity") return `Does ${subject} prove buyers and sellers are meeting on price, or is the read-through narrower than it looks?`;
-  if (/nasdaq|s&p|spacex|index/i.test(`${title} ${whatHappened}`)) return "Does this make the market more open to scarce growth assets, or just more concentrated around the few names investors already want to own?";
-  if (/micron|sk hynix|samsung|memory|dram|nand|chip|semiconductor/i.test(`${title} ${whatHappened}`)) return "Is the chip tape pricing a real memory-cycle recovery, or just another short burst of AI optimism?";
-  return `Does ${subject} change the underwriting case, or is the market just reacting to a clean headline?`;
+  const haystack = `${title} ${whatHappened}`;
+  if (lane === "macro") return "What part of the rate path actually changed, and what would make that change tradable?";
+  if (/underwriter|valuation gap|valuation chasm|quiet period/i.test(haystack)) return "Why can two lead banks be $1 trillion apart, and which valuation input should you underwrite first?";
+  if (/ipo|debut|offering|listed|listing/i.test(haystack) && (lane === "deals" || lane === "breaking")) return "Is this a true IPO-window signal, or just a scarcity premium around one exceptional issuer?";
+  if (lane === "deals" || lane === "breaking") return "Which deal assumption changed: price, financing, approvals, buyer logic, or timing?";
+  if (segment === "private_credit") return "Is this evidence of real lending capacity, or just appetite for the safest credits?";
+  if (segment === "private_equity") return "Does this create real sponsor liquidity, or does it mainly defer the valuation test?";
+  if (/nasdaq|s&p|spacex|index/i.test(haystack)) return "Does SpaceX joining the Nasdaq-100 broaden risk appetite, or make index concentration more extreme?";
+  if (/micron|sk hynix|samsung|memory|dram|nand|chip|semiconductor/i.test(haystack)) return "Is the chip tape pricing a real memory-cycle recovery, or just another burst of AI optimism?";
+  if (/halo|barrier to entry|goldman sachs|trade of the year/i.test(haystack)) return "Is the HALO trade moving from multiple expansion to an earnings-quality test?";
+  if (/russia|oil refiner|refineries|fuel shortage|bond market|putin/i.test(haystack)) return "Does energy stress in Russia change global risk pricing, or is it still a contained geopolitics story?";
+  return "What concrete datapoint would turn this from a sentiment headline into an underwriting change?";
 }
 
-function articleMechanism({ lane, segment, whatHappened, valuationImpact, financingImplication, sectorReadThrough }) {
-  const fact = stripTrailingPeriod(whatHappened);
+function articleDek({ lane, segment, whatHappened, valuationImpact, financingImplication }) {
+  const fact = factSnippet(whatHappened, 145);
+  if (lane === "macro") return `The rate-path question is whether the reported fact changes discount rates, credit conditions, or the next financing window: ${fact}.`;
+  if (lane === "deals" || lane === "breaking") return `The underwriting issue is valuation evidence, financing capacity, market timing, and who can actually transact on the new mark: ${fact}.`;
+  if (segment === "private_credit") return `The financing test is whether lenders are expanding capacity on workable terms or only backing the cleanest refinancings: ${fact}.`;
+  if (segment === "private_equity") return `The sponsor-liquidity test is whether owners are getting cash at defensible marks, not whether the headline sounds active: ${fact}.`;
+  if (/halo|barrier to entry|goldman sachs|trade of the year/i.test(fact)) return `The question is whether scarcity winners can now prove earnings power, not just narrative strength: ${fact}.`;
+  if (/russia|oil refiner|refineries|fuel shortage|bond market|putin/i.test(fact)) return `The read-through is energy supply, inflation pressure, sovereign risk, and whether geopolitical stress starts tightening financing conditions: ${fact}.`;
+  return `The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: ${fact}.`;
+}
+
+function articleMechanism({ lane, segment, title, whatHappened, valuationImpact, financingImplication, sectorReadThrough }) {
+  const fact = factSnippet(whatHappened, 220);
+  const haystack = `${title} ${whatHappened}`;
+  if (/underwriter|valuation gap|valuation chasm|quiet period/i.test(haystack)) {
+    return `The point is the model disagreement, not the headline number. The reported fact is ${fact}. A $1 trillion spread between lead-bank targets usually means the bull and bear cases are using different assumptions for addressable market, Starlink economics, launch cadence, defense revenue, margin maturity, or the scarcity multiple public investors will tolerate.`;
+  }
+  if (/nasdaq|s&p|spacex|index/i.test(haystack)) {
+    return `Index inclusion changes forced ownership before it changes fundamentals. The reported fact is ${fact}. Nasdaq-100 funds may need exposure while S&P 500 funds can wait, so the immediate effect is flow, concentration, and volatility; the underwriting question is whether those flows create a cleaner public comp or only a technical premium.`;
+  }
+  if (/halo|barrier to entry|goldman sachs|trade of the year/i.test(haystack)) {
+    return `The HALO setup is no longer just a scarcity screen. The reported fact is ${fact}. When a crowded winner trade enters a tougher phase, the market stops paying for the label and starts asking which companies can turn high barriers to entry into revenue growth, margin durability, and earnings revisions.`;
+  }
+  if (/russia|oil refiner|refineries|fuel shortage|bond market|putin/i.test(haystack)) {
+    return `The mechanism is geopolitical stress feeding into energy supply, inflation risk, and sovereign-credit confidence. The reported fact is ${fact}. The market read depends on whether refinery damage and fuel shortages stay local or push oil prices, European energy risk, and emerging-market spreads into a broader risk-off move.`;
+  }
   if (lane === "macro") {
-    return `${fact}. The transmission is through discount rates first, then credit conditions. If the data changes the expected Fed path, equities rerate quickly and financing conversations get harder to defend. If yields barely move, the headline probably matters less than the first reaction suggests.`;
+    return `Start with the transmission mechanism, not the headline. The reported fact is ${fact}. The path runs through discount rates first, then credit conditions. If the data changes the expected Fed path, equities rerate quickly and financing conversations get harder to defend. If yields barely move, the headline probably matters less than the first reaction suggests.`;
   }
   if (lane === "deals" || lane === "breaking") {
-    return `${fact}. The real test is whether the transaction can survive full underwriting: price discipline, financing availability, approval risk, buyer logic, and the public comps lenders and shareholders will use to judge it.`;
+    return `The real test is which underwriting input changed. The reported fact is ${fact}. Price tells you the market-clearing mark, financing tells you whether buyers can fund it, approvals tell you timing risk, and trading performance tells you whether investors accept the comp after the first allocation.`;
   }
   if (segment === "private_credit") {
-    return `${fact}. Private credit only matters for banking when it tells you something about actual lending capacity: spreads, covenants, refinancing risk, lender selectivity, or how much equity a sponsor has to write to make the deal work.`;
+    return `Private credit only matters for banking when it tells you something about actual lending capacity. The reported fact is ${fact}. The variables to isolate are spreads, covenants, refinancing risk, lender selectivity, and how much equity a sponsor has to write to make the deal work.`;
   }
   if (segment === "private_equity") {
-    return `${fact}. For sponsors, the test is simple: can an owner get a real exit at a price LPs will accept, with financing a buyer can live with? If the answer is no, the headline is mostly noise. If the answer is yes, it becomes a comp for other assets waiting for liquidity.`;
+    return `For sponsors, distinguish new liquidity from recycled private-market patience. The reported fact is ${fact}. A fund close, secondary, continuation vehicle, or minority stake can all help owners manage duration, but only a priced exit proves where an asset clears for LPs.`;
   }
-  if (/micron|sk hynix|samsung|memory|dram|nand|chip|semiconductor/i.test(fact)) {
-    return `${fact}. The point is not that one semiconductor stock is up. In memory, the cleaner signal is whether pricing, inventories, and hyperscaler demand are turning together. Micron gets more durable credit when investors believe AI server demand is tightening DRAM and HBM supply, not merely lifting one quarter's sentiment.`;
+  if (/micron|sk hynix|samsung|memory|dram|nand|chip|semiconductor/i.test(haystack)) {
+    return `The point is not that one semiconductor stock is up. The reported fact is ${fact}. In memory, the cleaner signal is whether pricing, inventories, and hyperscaler demand are turning together. Micron gets more durable credit when investors believe AI server demand is tightening DRAM and HBM supply, not merely lifting one quarter's sentiment.`;
   }
-  return `${fact}. The mechanism runs through leadership and scarcity. Investors do not reward every growth story equally. They pay up when the asset looks hard to replicate, when margins can survive scrutiny, and when the funding market believes the story is strong enough to finance weaker periods.`;
+  return `The mechanism runs through leadership and scarcity. The reported fact is ${fact}. Investors pay up when an asset looks hard to replicate, margins can survive scrutiny, and the funding market believes the story is strong enough to finance weaker periods.`;
 }
 
-function articleBankerRead({ lane, segment, title, whatHappened, watchNext }) {
+function articleBankerRead({ lane, segment, title, whatHappened, valuationImpact, financingImplication, sectorReadThrough, watchNext }) {
+  const haystack = `${title} ${whatHappened}`;
+  if (/underwriter|valuation gap|valuation chasm|quiet period/i.test(haystack)) {
+    return `For banking prep, break the valuation gap into drivers instead of repeating the target prices. Ask which bank is assuming faster Starlink penetration, higher terminal margins, more defense-like revenue stability, lower capex intensity, or a bigger scarcity premium. Then show how one changed input moves enterprise value, not just whether the stock is a buy.`;
+  }
+  if (/nasdaq|s&p|spacex|index/i.test(haystack)) {
+    return `For banking prep, separate technical demand from fundamental demand. Forced Nasdaq buying can support the initial mark and raise volatility, but it does not automatically reopen the IPO market. The broader signal comes only if aftermarket trading, peer multiples, and new-issue conversations improve after the inclusion trade passes.`;
+  }
+  if (/halo|barrier to entry|goldman sachs|trade of the year/i.test(haystack)) {
+    return `In a banking answer, make the HALO trade an earnings-quality discussion. Identify which companies have defensible moats, pricing power, and visible revisions; then separate them from copycats whose multiples depend on a theme but whose margins cannot support the story once investors demand proof.`;
+  }
+  if (/russia|oil refiner|refineries|fuel shortage|bond market|putin/i.test(haystack)) {
+    return `In a banking answer, translate the geopolitics into financing conditions. Higher oil volatility can lift inflation expectations, pressure rates, widen risk premia, and make commodity-exposed borrowers harder to underwrite. If Brent, credit spreads, and European gas barely move, the read-through stays narrow.`;
+  }
   if (lane === "macro") {
     return `For banking prep, convert the story into deal math. Higher rates lower acceptable leverage, make IPO buyers more selective, and force sponsors to ask whether the exit multiple still clears the hurdle. Watch yields first, then equity multiples.`;
   }
   if (lane === "deals" || lane === "breaking") {
-    return `For banking prep, underwrite the transaction like a live case. Who is paying? What financing is needed? What has to be true about synergies, growth, or margins for the buyer to defend the price? If those answers are vague, the story belongs in the tape, not at the top of the memo.`;
+    return `For banking prep, underwrite the transaction like a live case: who pays, what financing is needed, what valuation can be defended, and what condition would break the timetable. If those answers are not visible, keep the story as context rather than using it as a broad market signal.`;
   }
   if (segment === "private_credit") {
-    return `For banking prep, ask whether this makes debt more available or just confirms that lenders are still chasing the safest credits. The difference matters. Cheap, available debt can reopen processes. Selective debt keeps activity alive but does not fix stretched valuations.`;
+    return `For banking prep, ask whether this makes debt more available or just confirms that lenders are still chasing the safest credits. Cheap, available debt can reopen processes; selective debt keeps activity alive but does not fix stretched valuations.`;
   }
   if (segment === "private_equity") {
-    return `For banking prep, treat this as an exit-window check. A real read-through needs a named buyer, a credible asset, a price or valuation clue, and some sign that financing did not break the deal. Without those, it is a short deal-tape item, not a broad sponsor-market thesis.`;
+    return `For banking prep, treat this as a liquidity-quality check. Look for a named buyer, disclosed size, price or valuation clue, debt support, and whether LPs actually receive cash. Without those facts, the story is activity, not proof that sponsor exits are broadly open.`;
   }
-  if (/micron|sk hynix|samsung|memory|dram|nand|chip|semiconductor/i.test(`${title} ${whatHappened}`)) {
+  if (/micron|sk hynix|samsung|memory|dram|nand|chip|semiconductor/i.test(haystack)) {
     return `For banking prep, turn the chip move into a supply-chain question. If memory pricing improves, suppliers can defend margins, equipment vendors get a cleaner order story, and AI infrastructure issuers may face a more receptive equity market. If the move is mostly anticipation ahead of Samsung or SK Hynix news, the read-through is much narrower.`;
   }
-  return `For banking prep, do not stop at the market move. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. The best answer is usually conditional: strong scarcity assets may get funded, while weaker copycats still struggle.`;
+  return `In a banking answer, separate price action from capital-markets evidence. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. Strong scarcity assets may get funded, while weaker copycats still struggle.`;
 }
 
 function articleCaveat({ lane, segment, sourceTrail = [], title }) {
   const sourceCount = sourceTrail.length;
-  if (sourceCount <= 1) return "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it.";
+  if (sourceCount <= 1) return "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism.";
   if (segment === "private_equity" || segment === "private_credit") return "The caveat is transparency. Private-market signals are often partial, so the read should stay tied to named transactions, financing terms, filings, or public-manager commentary.";
   if (lane === "markets") return "The caveat is that index and stock reactions can outrun fundamentals. A cleaner read needs follow-through in peers, issuance, guidance, or financing conditions.";
   return "The caveat is timing. One headline can change the conversation, but the durable read depends on the next disclosed fact.";
@@ -695,12 +746,12 @@ function articleCaveat({ lane, segment, sourceTrail = [], title }) {
 function buildEditorialArticle({ item, lane, segment, whatHappened, valuationImpact, financingImplication, sectorReadThrough, watchNext, sourceTrail }) {
   const question = articleQuestion({ title: item.title, lane, segment, whatHappened });
   const body = [
-    articleMechanism({ lane, segment, whatHappened, valuationImpact, financingImplication, sectorReadThrough }),
-    articleBankerRead({ lane, segment, title: item.title, whatHappened, watchNext }),
+    articleMechanism({ lane, segment, title: item.title, whatHappened, valuationImpact, financingImplication, sectorReadThrough }),
+    articleBankerRead({ lane, segment, title: item.title, whatHappened, valuationImpact, financingImplication, sectorReadThrough, watchNext }),
     articleCaveat({ lane, segment, sourceTrail, title: item.title })
   ].map(compactSentence).filter(Boolean);
-  const dek = compactSentence(`${stripTrailingPeriod(whatHappened)}. The ${storyNoun(lane, segment)} is worth reading only if it changes what you would underwrite, not because it fills a section.`);
-  const interviewUse = compactSentence(`Say it this way: ${question} Then tie the answer to valuation, financing, or issuance risk.`);
+  const dek = compactSentence(articleDek({ lane, segment, whatHappened, valuationImpact, financingImplication }));
+  const interviewUse = compactSentence(`Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.`);
   const watch = compactSentence(watchNext || "Watch for a second source, a filing, pricing detail, or peer reaction that confirms the read.");
   return {
     question,

@@ -1,6 +1,6 @@
 {
   "runDate": "2026-07-07",
-  "generatedAt": "2026-07-07T13:31:03.672Z",
+  "generatedAt": "2026-07-07T14:07:52.748Z",
   "selectedCount": 4,
   "quietDay": false,
   "analyses": [
@@ -15,7 +15,7 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/arctos-announces-final-close-arctos-120000181.html?.tsrc=rss",
           "publishedAt": "2026-07-07T12:00:00.000Z",
-          "fetchedAt": "2026-07-07T13:30:39.540Z",
+          "fetchedAt": "2026-07-07T14:07:24.221Z",
           "feedId": "private-equity-public-proxies",
           "evidenceType": "reported"
         }
@@ -34,15 +34,15 @@
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "editorialArticle": {
-        "question": "Does Arctos Announces Final Close of Arctos Keystone Partners Fund I at $6.2 Billion prove buyers and sellers are meeting on price, or is the read-through narrower than it looks?",
-        "dek": "NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers. The sponsor story is worth reading only if it changes what you would underwrite, not because it fills a section.",
+        "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
+        "dek": "The sponsor-liquidity test is whether owners are getting cash at defensible marks, not whether the headline sounds active: NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the..",
         "body": [
-          "NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital and financing to leading alternative asset managers. For sponsors, the test is simple: can an owner get a real exit at a price LPs will accept, with financing a buyer can live with? If the answer is no, the headline is mostly noise. If the answer is yes, it becomes a comp for other assets waiting for liquidity.",
-          "For banking prep, treat this as an exit-window check. A real read-through needs a named buyer, a credible asset, a price or valuation clue, and some sign that financing did not break the deal. Without those, it is a short deal-tape item, not a broad sponsor-market thesis.",
-          "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it."
+          "For sponsors, distinguish new liquidity from recycled private-market patience. The reported fact is NEW YORK, July 07, 2026--Arctos, a business of KKR, today announced the final close of Arctos Keystone Partners Fund I (\"Keystone Fund I\" or the \"Fund\"), its inaugural fund dedicated to providing bespoke growth capital.. A fund close, secondary, continuation vehicle, or minority stake can all help owners manage duration, but only a priced exit proves where an asset clears for LPs.",
+          "For banking prep, treat this as a liquidity-quality check. Look for a named buyer, disclosed size, price or valuation clue, debt support, and whether LPs actually receive cash. Without those facts, the story is activity, not proof that sponsor exits are broadly open.",
+          "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
         ],
         "bankerSidebar": {
-          "interviewUse": "Say it this way: Does Arctos Announces Final Close of Arctos Keystone Partners Fund I at $6.2 Billion prove buyers and sellers are meeting on price, or is the read-through narrower than it looks? Then tie the answer to valuation, financing, or issuance risk.",
+          "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
           "watchNext": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions."
         }
       },
@@ -71,7 +71,7 @@
             "source": "Yahoo Finance / Public PE Managers",
             "url": "https://finance.yahoo.com/markets/stocks/articles/arctos-announces-final-close-arctos-120000181.html?.tsrc=rss",
             "publishedAt": "2026-07-07T12:00:00.000Z",
-            "fetchedAt": "2026-07-07T13:30:39.540Z",
+            "fetchedAt": "2026-07-07T14:07:24.221Z",
             "feedId": "private-equity-public-proxies",
             "evidenceType": "reported"
           }
@@ -127,8 +127,8 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 9.527186679631155,
-            "displayValue": 9.527186679631155,
+            "value": 7.983677576504254,
+            "displayValue": 7.983677576504254,
             "suffix": "%",
             "latestDate": "2026-07-07",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -136,8 +136,8 @@
           {
             "id": "KKR",
             "label": "KKR",
-            "value": 6.754817910102445,
-            "displayValue": 6.754817910102445,
+            "value": 6.264460119662535,
+            "displayValue": 6.264460119662535,
             "suffix": "%",
             "latestDate": "2026-07-07",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -145,8 +145,8 @@
           {
             "id": "APO",
             "label": "Apollo Global Management",
-            "value": 15.893130836729366,
-            "displayValue": 15.893130836729366,
+            "value": 15.613132928006063,
+            "displayValue": 15.613132928006063,
             "suffix": "%",
             "latestDate": "2026-07-07",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -175,6 +175,153 @@
       ]
     },
     {
+      "id": "marketwatch-top-stories-f3d43862",
+      "title": "SpaceX’s two lead underwriters have a $1 trillion chasm between their valuations as IPO quiet period ends",
+      "editorialLane": "deals",
+      "editorialLaneLabel": "Deals",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-07T13:45:00.000Z",
+          "fetchedAt": "2026-07-07T14:07:23.949Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "storyCluster": {
+        "id": "story-underwriters-valuations-trillion-between-period",
+        "title": "SpaceX’s two lead underwriters have a $1 trillion chasm between their valuations as IPO quiet period ends",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "score": 39
+      },
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "editorialArticle": {
+        "question": "Why can two lead banks be $1 trillion apart, and which valuation input should you underwrite first?",
+        "dek": "The underwriting issue is valuation evidence, financing capacity, market timing, and who can actually transact on the new mark: The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion..",
+        "body": [
+          "The point is the model disagreement, not the headline number. The reported fact is The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. A $1 trillion spread between lead-bank targets usually means the bull and bear cases are using different assumptions for addressable market, Starlink economics, launch cadence, defense revenue, margin maturity, or the scarcity multiple public investors will tolerate.",
+          "For banking prep, break the valuation gap into drivers instead of repeating the target prices. Ask which bank is assuming faster Starlink penetration, higher terminal margins, more defense-like revenue stability, lower capex intensity, or a bigger scarcity premium. Then show how one changed input moves enterprise value, not just whether the stock is a buy.",
+          "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
+        ],
+        "bankerSidebar": {
+          "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
+          "watchNext": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms."
+        }
+      },
+      "summary": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. Focus on whether the transaction logic, financing, and approval path still hold together under scrutiny.",
+      "readerSummary": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. Focus on whether the transaction logic, financing, and approval path still hold together under scrutiny.",
+      "readerDek": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The read-through runs through deal certainty, valuation and financing capacity.",
+      "editorialThesis": "SpaceX’s two lead underwriters have a $1 trillion chasm between their valuations as IPO quiet period ends is a deals story because it can change deal certainty, valuation and financing capacity. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Lead with the fact, then connect it to deal certainty, valuation and financing capacity. Watch next: Watch filings, financing details, shareholder reaction, and any change to timing or deal terms.",
+      "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
+      "whatChangedToday": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The update changes deal certainty, shareholder pressure, and whether the financing still works.",
+      "whatHappened": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy.",
+      "whatMoved": "The update changes deal certainty, shareholder pressure, and whether the financing still works.",
+      "whyItMoved": "Deal news matters when it changes certainty, price discipline, strategic fit, or the amount of financing risk the market has to underwrite.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today.",
+      "sectorReadThrough": "Connects to Deal Financing Window.",
+      "parallel": {
+        "precedent": "Activist pressure around pending strategic deals.",
+        "outcome": "Past cases often forced companies to explain synergies, timing, and capital allocation more clearly.",
+        "whatRhymes": "The deal window becomes a pressure point for proving the math.",
+        "whatDiffers": "The strength of the parallel depends on the activist's actual ask and ownership level.",
+        "soWhat": "Treat it as a deal-risk lens until more facts are public.",
+        "sourceTrail": [
+          {
+            "source": "MarketWatch Top Stories",
+            "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories",
+            "publishedAt": "2026-07-07T13:45:00.000Z",
+            "fetchedAt": "2026-07-07T14:07:23.949Z",
+            "feedId": "marketwatch-top-stories",
+            "evidenceType": "reported"
+          }
+        ]
+      },
+      "watchNext": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "Source detail (MarketWatch Top Stories): The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. Deal news matters when it changes certainty, price discipline, strategic fit, or the amount of financing risk the market has to underwrite. This is the kind of story where the headline matters less than whether the deal logic survives pressure from lenders, shareholders, and the approval process."
+          },
+          {
+            "id": "transaction",
+            "heading": "What is happening in the transaction",
+            "body": "The update changes deal certainty, shareholder pressure, and whether the financing still works. In deals, underwrite what changed in certainty, strategic need, financing tolerance, or the board's room to maneuver. Source detail: The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy."
+          },
+          {
+            "id": "deal-read",
+            "heading": "Why the deal is being read this way",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Check debt capacity, required equity, regulatory timing, and whether lenders would still finance the same structure today. Market participants are effectively rerunning the transaction math: what price still works, how much debt still works, and whether the strategic case is strong enough to absorb friction."
+          },
+          {
+            "id": "precedent",
+            "heading": "Relevant precedent",
+            "body": "A useful parallel is Activist pressure around pending strategic deals. In that earlier setup, past cases often forced companies to explain synergies, timing, and capital allocation more clearly. What rhymes is the deal window becomes a pressure point for proving the math. What is different this time is the strength of the parallel depends on the activist's actual ask and ownership level. The bottom line is treat it as a deal-risk lens until more facts are public."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What would change the outcome",
+            "body": "Watch filings, financing details, shareholder reaction, and any change to timing or deal terms. The next disclosed fact can change the whole read if it affects financing certainty, regulatory path, or the amount of value the buyer still expects to capture from the transaction."
+          }
+        ]
+      },
+      "visual": {
+        "type": "deal-timeline",
+        "title": "Transaction path and risk map",
+        "subtitle": "Story-specific transaction map showing where today's deal can create or lose certainty.",
+        "relevanceNote": "This map follows the transaction from strategic logic to signed terms, approvals, financing discipline, and closing certainty.",
+        "allowedPages": [
+          "deals",
+          "deep-dive"
+        ],
+        "sourceTrail": [
+          {
+            "source": "MarketWatch Top Stories",
+            "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories"
+          }
+        ],
+        "steps": [
+          {
+            "label": "Strategic rationale",
+            "detail": "SpaceX’s two lead underwriters have a $1 trillion chasm between their valuations as IPO quiet period ends"
+          },
+          {
+            "label": "Valuation / consideration",
+            "detail": "Check whether price, structure, and expected synergies justify the buyer's capital allocation."
+          },
+          {
+            "label": "Regulatory path",
+            "detail": "Confirm antitrust, sector, shareholder, and other approval gates before treating the deal as done."
+          },
+          {
+            "label": "Financing discipline",
+            "detail": "Watch leverage, cash use, dilution, and whether market conditions change the economics before close."
+          },
+          {
+            "label": "Closing certainty",
+            "detail": "The read improves if approvals, financing, and integration risk remain contained; it breaks if any gate gets harder."
+          }
+        ]
+      },
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "ipo"
+      ]
+    },
+    {
       "id": "marketwatch-top-stories-72cb2554",
       "title": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
       "editorialLane": "markets",
@@ -185,7 +332,7 @@
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
           "publishedAt": "2026-07-07T11:41:00.000Z",
-          "fetchedAt": "2026-07-07T13:30:39.264Z",
+          "fetchedAt": "2026-07-07T14:07:23.949Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
@@ -204,15 +351,15 @@
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "editorialArticle": {
-        "question": "Does this make the market more open to scarce growth assets, or just more concentrated around the few names investors already want to own?",
-        "dek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market story is worth reading only if it changes what you would underwrite, not because it fills a section.",
+        "question": "Does SpaceX joining the Nasdaq-100 broaden risk appetite, or make index concentration more extreme?",
+        "dek": "The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the..",
         "body": [
-          "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The mechanism runs through leadership and scarcity. Investors do not reward every growth story equally. They pay up when the asset looks hard to replicate, when margins can survive scrutiny, and when the funding market believes the story is strong enough to finance weaker periods.",
-          "For banking prep, do not stop at the market move. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. The best answer is usually conditional: strong scarcity assets may get funded, while weaker copycats still struggle.",
-          "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it."
+          "Index inclusion changes forced ownership before it changes fundamentals. The reported fact is While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. Nasdaq-100 funds may need exposure while S&P 500 funds can wait, so the immediate effect is flow, concentration, and volatility; the underwriting question is whether those flows create a cleaner public comp or only a technical premium.",
+          "For banking prep, separate technical demand from fundamental demand. Forced Nasdaq buying can support the initial mark and raise volatility, but it does not automatically reopen the IPO market. The broader signal comes only if aftermarket trading, peer multiples, and new-issue conversations improve after the inclusion trade passes.",
+          "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
         ],
         "bankerSidebar": {
-          "interviewUse": "Say it this way: Does this make the market more open to scarce growth assets, or just more concentrated around the few names investors already want to own? Then tie the answer to valuation, financing, or issuance risk.",
+          "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
           "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
         }
       },
@@ -241,7 +388,7 @@
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
             "publishedAt": "2026-07-07T11:41:00.000Z",
-            "fetchedAt": "2026-07-07T13:30:39.264Z",
+            "fetchedAt": "2026-07-07T14:07:23.949Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -284,95 +431,69 @@
       },
       "visual": {
         "type": "bar-chart",
-        "title": "Semiconductor rebound board",
-        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
-        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
+        "title": "Index concentration board",
+        "subtitle": "Three-month public market context for Nasdaq-heavy, broad-market, small-cap, and safe-haven proxies.",
+        "relevanceNote": "This board fits because the story is about Nasdaq concentration versus broader market exposure, not a semiconductor basket.",
         "allowedPages": [
           "markets",
           "deep-dive"
         ],
-        "axisTitle": "Latest daily change",
+        "axisTitle": "3-month change",
         "visualSource": "Public market data",
         "items": [
           {
-            "id": "NVDA",
-            "label": "Nvidia",
-            "value": -1.9739199949436488,
-            "displayValue": -1.9739199949436488,
+            "id": "SPY",
+            "label": "SPDR S&P 500 ETF Trust",
+            "value": 13.547838743187915,
+            "displayValue": 13.547838743187915,
             "suffix": "%",
             "latestDate": "2026-07-07",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
-            "id": "SOXX",
-            "label": "iShares Semiconductor ETF",
-            "value": -4.749691943078218,
-            "displayValue": -4.749691943078218,
+            "id": "QQQ",
+            "label": "Invesco QQQ Trust",
+            "value": 20.696909687696085,
+            "displayValue": 20.696909687696085,
             "suffix": "%",
             "latestDate": "2026-07-07",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
-            "id": "AVGO",
-            "label": "Broadcom",
-            "value": -0.47070855222697117,
-            "displayValue": -0.47070855222697117,
+            "id": "IWM",
+            "label": "iShares Russell 2000 ETF",
+            "value": 17.34608931317652,
+            "displayValue": 17.34608931317652,
             "suffix": "%",
             "latestDate": "2026-07-07",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
-            "id": "MU",
-            "label": "Micron Technology",
-            "value": -6.011679330493146,
-            "displayValue": -6.011679330493146,
+            "id": "GLD",
+            "label": "SPDR Gold Shares",
+            "value": -11.732012678848443,
+            "displayValue": -11.732012678848443,
             "suffix": "%",
             "latestDate": "2026-07-07",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
-          },
-          {
-            "id": "MRVL",
-            "label": "Marvell Technology",
-            "value": -5.5522170174763845,
-            "displayValue": -5.5522170174763845,
-            "suffix": "%",
-            "latestDate": "2026-07-07",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
-          },
-          {
-            "id": "INTC",
-            "label": "Intel",
-            "value": -5.842880170179206,
-            "displayValue": -5.842880170179206,
-            "suffix": "%",
-            "latestDate": "2026-07-07",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],
         "sourceTrail": [
           {
-            "source": "Nvidia",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+            "source": "SPDR S&P 500 ETF Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
-            "source": "iShares Semiconductor ETF",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+            "source": "Invesco QQQ Trust",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
-            "source": "Broadcom",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+            "source": "iShares Russell 2000 ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
-            "source": "Micron Technology",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
-          },
-          {
-            "source": "Marvell Technology",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
-          },
-          {
-            "source": "Intel",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+            "source": "SPDR Gold Shares",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],
         "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
@@ -393,8 +514,8 @@
         {
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/why-these-global-stocks-with-a-high-barrier-to-entry-are-winning-the-war-on-ai-disruption-43e88c2c?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-07T13:01:00.000Z",
-          "fetchedAt": "2026-07-07T13:30:39.264Z",
+          "publishedAt": "2026-07-07T13:37:00.000Z",
+          "fetchedAt": "2026-07-07T14:07:23.949Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
@@ -408,20 +529,20 @@
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "score": 37
+        "score": 35
       },
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "editorialArticle": {
-        "question": "Does The trade of the year is entering a new phase, says Goldman Sachs. Here’s what it... change the underwriting case, or is the market just reacting to a clean headline?",
-        "dek": "Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The market story is worth reading only if it changes what you would underwrite, not because it fills a section.",
+        "question": "Is the HALO trade moving from multiple expansion to an earnings-quality test?",
+        "dek": "The question is whether scarcity winners can now prove earnings power, not just narrative strength: Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead.",
         "body": [
-          "Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. The mechanism runs through leadership and scarcity. Investors do not reward every growth story equally. They pay up when the asset looks hard to replicate, when margins can survive scrutiny, and when the funding market believes the story is strong enough to finance weaker periods.",
-          "For banking prep, do not stop at the market move. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. The best answer is usually conditional: strong scarcity assets may get funded, while weaker copycats still struggle.",
-          "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it."
+          "The HALO setup is no longer just a scarcity screen. The reported fact is Goldman Sachs says the HALO trade has worked well this year, but a tougher phase relying on earnings performance lies ahead. When a crowded winner trade enters a tougher phase, the market stops paying for the label and starts asking which companies can turn high barriers to entry into revenue growth, margin durability, and earnings revisions.",
+          "In a banking answer, make the HALO trade an earnings-quality discussion. Identify which companies have defensible moats, pricing power, and visible revisions; then separate them from copycats whose multiples depend on a theme but whose margins cannot support the story once investors demand proof.",
+          "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
         ],
         "bankerSidebar": {
-          "interviewUse": "Say it this way: Does The trade of the year is entering a new phase, says Goldman Sachs. Here’s what it... change the underwriting case, or is the market just reacting to a clean headline? Then tie the answer to valuation, financing, or issuance risk.",
+          "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
           "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
         }
       },
@@ -449,8 +570,8 @@
           {
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/why-these-global-stocks-with-a-high-barrier-to-entry-are-winning-the-war-on-ai-disruption-43e88c2c?mod=mw_rss_topstories",
-            "publishedAt": "2026-07-07T13:01:00.000Z",
-            "fetchedAt": "2026-07-07T13:30:39.264Z",
+            "publishedAt": "2026-07-07T13:37:00.000Z",
+            "fetchedAt": "2026-07-07T14:07:23.949Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -488,119 +609,6 @@
             "id": "watch-next",
             "heading": "What to watch next",
             "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
-          }
-        ]
-      },
-      "visual": null,
-      "relatedLinks": [],
-      "storyline": null,
-      "concepts": []
-    },
-    {
-      "id": "marketwatch-top-stories-d0765f2a",
-      "title": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
-      "editorialLane": "breaking",
-      "editorialLaneLabel": "Breaking",
-      "privateMarketSegment": null,
-      "sourceTrail": [
-        {
-          "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-07T11:11:00.000Z",
-          "fetchedAt": "2026-07-07T13:30:39.264Z",
-          "feedId": "marketwatch-top-stories",
-          "evidenceType": "reported"
-        }
-      ],
-      "storyCluster": {
-        "id": "story-underwriters-valuation-trillion-period-spacex",
-        "title": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 2,
-        "recruitingRelevance": 2,
-        "readerValue": 6,
-        "score": 36
-      },
-      "freshnessStatus": "FRESH",
-      "confidence": "Medium",
-      "editorialArticle": {
-        "question": "Does SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as... change the deal math, or is it only a headline with limited read-through?",
-        "dek": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The transaction story is worth reading only if it changes what you would underwrite, not because it fills a section.",
-        "body": [
-          "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The real test is whether the transaction can survive full underwriting: price discipline, financing availability, approval risk, buyer logic, and the public comps lenders and shareholders will use to judge it.",
-          "For banking prep, underwrite the transaction like a live case. Who is paying? What financing is needed? What has to be true about synergies, growth, or margins for the buyer to defend the price? If those answers are vague, the story belongs in the tape, not at the top of the memo.",
-          "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it."
-        ],
-        "bankerSidebar": {
-          "interviewUse": "Say it this way: Does SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as... change the deal math, or is it only a headline with limited read-through? Then tie the answer to valuation, financing, or issuance risk.",
-          "watchNext": "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans."
-        }
-      },
-      "summary": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The key question is how quickly this first-order headline changes valuation marks, financing windows, investor demand, and the broader capital-markets read.",
-      "readerSummary": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The key question is how quickly this first-order headline changes valuation marks, financing windows, investor demand, and the broader capital-markets read.",
-      "readerDek": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. The read-through runs through deal certainty, valuation and financing capacity.",
-      "editorialThesis": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends is a breaking story because it can change deal certainty, valuation and financing capacity. Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story.",
-      "ibAngle": "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
-      "interviewLine": "Lead with the fact, then connect it to deal certainty, valuation and financing capacity. Watch next: Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans.",
-      "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
-      "whatChangedToday": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. A public IPO price, trading date, allocation structure, and aftermarket test turn a private-market story into a live public comp.",
-      "whatHappened": "The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy.",
-      "whatMoved": "A public IPO price, trading date, allocation structure, and aftermarket test turn a private-market story into a live public comp.",
-      "whyItMoved": "Breaking IPO news matters because it turns private-market narrative into observable public-market evidence: price, size, allocation, demand, and trading performance.",
-      "valuationImpact": "Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story.",
-      "financingImplication": "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support.",
-      "sectorReadThrough": "Read-through is strongest for late-stage venture-backed companies, IPO-ready private issuers, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb large deals.",
-      "parallel": {
-        "precedent": "Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO became large technology debut benchmarks.",
-        "outcome": "Large IPOs can clear when issuers are scarce and high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether follow-on issuers share the same scarcity value.",
-        "whatRhymes": "A mega-IPO creates a public trading reference and demand signal that can influence other IPO candidates.",
-        "whatDiffers": "SpaceX has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so one-company scarcity may not equal a broad reopening.",
-        "soWhat": "Treat the debut as a benchmark, not proof that every late-stage private mark is money-good.",
-        "sourceTrail": [
-          {
-            "source": "MarketWatch Top Stories",
-            "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories",
-            "publishedAt": "2026-07-07T11:11:00.000Z",
-            "fetchedAt": "2026-07-07T13:30:39.264Z",
-            "feedId": "marketwatch-top-stories",
-            "evidenceType": "reported"
-          }
-        ]
-      },
-      "watchNext": "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans.",
-      "longform": {
-        "sections": [
-          {
-            "id": "takeaway",
-            "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): The two lead underwriters on SpaceX’s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy. Breaking IPO news matters because it turns private-market narrative into observable public-market evidence: price, size, allocation, demand, and trading performance. A breaking capital-markets headline can reset the comparable set before slower private-market marks, banker pitches, and follow-on financing plans catch up."
-          },
-          {
-            "id": "facts",
-            "heading": "What the sources say",
-            "body": "A public IPO price, trading date, allocation structure, and aftermarket test turn a private-market story into a live public comp. The source facts matter because they create a hard public reference point: deal size, IPO price, valuation, allocation, and order-book demand. Anchor the read to those named facts first, then separate direct evidence from valuation and deal-market implications."
-          },
-          {
-            "id": "market-mechanism",
-            "heading": "Why the market may care immediately",
-            "body": "Treat this as a live valuation mark: the price, size, allocation, order book, and first trading sessions show whether public investors validate or discount the private-market story. Read-through is strongest for late-stage venture-backed companies, IPO-ready private issuers, crossover funds, retail allocation strategies, and sponsors waiting for proof that the IPO window can absorb large deals. A large fresh price, valuation, order-book, or trading reference becomes a new public benchmark investors can compare against prior private marks and peer multiples."
-          },
-          {
-            "id": "deal-financing-read",
-            "heading": "Capital-markets and deal read-through",
-            "body": "A strong debut would tell bankers that very large IPO supply can clear when issuer scarcity and demand are broad; weak trading would warn that order-book size is not durable aftermarket support. The read-through is strongest when the event shows investors are willing to fund a story at a specific price, size, and timetable."
-          },
-          {
-            "id": "parallel",
-            "heading": "Relevant comparison",
-            "body": "A useful parallel is Alibaba's 2014 IPO, Meta Platforms' 2012 IPO, and Arm's 2023 IPO became large technology debut benchmarks. In that earlier setup, large ipos can clear when issuers are scarce and high quality, but the lasting read depends on aftermarket trading, lock-up supply, profitability, and whether follow-on issuers share the same scarcity value. What rhymes is a mega-ipo creates a public trading reference and demand signal that can influence other ipo candidates. What is different this time is spacex has a unique mix of launch, satellite, communications, and defense-adjacent exposure, so one-company scarcity may not equal a broad reopening. The bottom line is treat the debut as a benchmark, not proof that every late-stage private mark is money-good."
-          },
-          {
-            "id": "watch-next",
-            "heading": "What would confirm or weaken the read",
-            "body": "Watch the opening print, first-day close versus the IPO price, stabilization activity, allocation disclosures, lock-up details, and whether other late-stage issuers accelerate filing plans. Confirmation should come from trading performance, allocation details, follow-on issuance, comparable repricing, or whether other IPO-ready companies accelerate plans."
           }
         ]
       },

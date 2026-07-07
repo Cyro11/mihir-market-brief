@@ -27,13 +27,17 @@ const publicInternalPhrases = [
   "Plain-English takeaway",
   "The fresh fact",
   "The new read is",
-  "Source detail ("
+  "Source detail (",
+  "worth reading only if",
+  "Say it this way",
+  "headline with limited read-through"
 ];
 
 const repeatedIssuePhrases = [
   "The useful question",
   "The useful read",
-  "The main move is"
+  "The main move is",
+  "For banking prep, do not stop at the market move"
 ];
 
 const genericSpecificityWords = new Set([
@@ -227,6 +231,23 @@ export function deterministicReview(edition) {
     }
     if (articleText(move).split(/\s+/).filter(Boolean).length < 110) {
       blockers.push(`${move.title}: editorial article is too thin to teach the story.`);
+    }
+    if (move.editorialArticle) {
+      const article = move.editorialArticle;
+      if (startsWithSameClause(article.dek, move.whatHappened) || startsWithSameClause(article.dek, move.summary)) {
+        blockers.push(`${move.title}: editorial dek repeats the source summary instead of framing the implication.`);
+      }
+      for (const [index, paragraph] of (article.body || []).entries()) {
+        if (startsWithSameClause(paragraph, move.whatHappened) || startsWithSameClause(paragraph, move.summary) || startsWithSameClause(paragraph, article.dek)) {
+          blockers.push(`${move.title}: editorial paragraph ${index + 1} repeats the dek/source opening instead of elaborating.`);
+        }
+      }
+      if (overlapRatio(article.question, move.title) > 0.72) {
+        blockers.push(`${move.title}: editorial question is just the headline turned into a question.`);
+      }
+      if (article.bankerSidebar?.interviewUse && overlapRatio(article.bankerSidebar.interviewUse, article.question) > 0.7) {
+        blockers.push(`${move.title}: banker sidebar repeats the article question instead of giving an actionable use case.`);
+      }
     }
     if (move.visual) {
       if (move.visual.type === "line-chart") {
