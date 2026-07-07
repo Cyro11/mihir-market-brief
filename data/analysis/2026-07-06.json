@@ -1,6 +1,6 @@
 {
   "runDate": "2026-07-06",
-  "generatedAt": "2026-07-07T03:58:18.534Z",
+  "generatedAt": "2026-07-07T04:20:18.308Z",
   "selectedCount": 2,
   "quietDay": true,
   "analyses": [
@@ -15,7 +15,7 @@
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
           "publishedAt": "2026-07-06T22:39:00.000Z",
-          "fetchedAt": "2026-07-07T03:57:58.677Z",
+          "fetchedAt": "2026-07-07T04:16:56.581Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
@@ -33,16 +33,29 @@
       },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
+      "editorialArticle": {
+        "question": "Does this make the market more open to scarce growth assets, or just more concentrated around the few names investors already want to own?",
+        "dek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market story is worth reading only if it changes what you would underwrite, not because it fills a section.",
+        "body": [
+          "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The mechanism runs through leadership and scarcity. Investors do not reward every growth story equally. They pay up when the asset looks hard to replicate, when margins can survive scrutiny, and when the funding market believes the story is strong enough to finance weaker periods.",
+          "For banking prep, do not stop at the market move. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. The best answer is usually conditional: strong scarcity assets may get funded, while weaker copycats still struggle.",
+          "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it."
+        ],
+        "bankerSidebar": {
+          "interviewUse": "Say it this way: Does this make the market more open to scarce growth assets, or just more concentrated around the few names investors already want to own? Then tie the answer to valuation, financing, or issuance risk.",
+          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
+        }
+      },
       "summary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
       "readerSummary": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
-      "editorialThesis": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix. matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "readerDek": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The read-through runs through leadership, earnings confidence and risk appetite.",
+      "editorialThesis": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix. is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
-      "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
-      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-      "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "interviewLine": "Lead with the fact, then connect it to leadership, earnings confidence and risk appetite. Watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
+      "whatChangedToday": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes. The story changes sector leadership, company valuation, and the peer read-through.",
       "whatHappened": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes.",
-      "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
+      "whatMoved": "The story changes sector leadership, company valuation, and the peer read-through.",
       "whyItMoved": "The markets news matters because it changes the read on Deal Financing Window: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
@@ -58,7 +71,7 @@
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
             "publishedAt": "2026-07-06T22:39:00.000Z",
-            "fetchedAt": "2026-07-07T03:57:58.677Z",
+            "fetchedAt": "2026-07-07T04:16:56.581Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -75,7 +88,7 @@
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes."
+            "body": "The story changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: While SpaceX is due to join the Nasdaq-100 on Tuesday, it won’t become part of the S&P 500 for at least another year — likely furthering the volatility spread between those two indexes."
           },
           {
             "id": "mechanism",
@@ -201,48 +214,61 @@
       ]
     },
     {
-      "id": "marketwatch-top-stories-5ae753a3",
-      "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
+      "id": "marketwatch-top-stories-91929bd5",
+      "title": "Micron’s stock gains, signaling a ‘return to optimism’ about the chip sector",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
           "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-06T21:36:00.000Z",
-          "fetchedAt": "2026-07-07T03:57:58.677Z",
+          "url": "https://www.marketwatch.com/story/microns-stock-gains-signaling-a-return-to-optimism-about-the-chip-sector-0b7f6a8c?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-06T20:33:00.000Z",
+          "fetchedAt": "2026-07-07T04:16:56.581Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
       ],
       "storyCluster": {
-        "id": "story-big-tech-100-pocketing-equity-built",
-        "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
+        "id": "story-signaling-optimism-micron-return-sector",
+        "title": "Micron’s stock gains, signaling a ‘return to optimism’ about the chip sector",
         "sourceDiversity": 1,
         "coverageCount": 1,
         "evidenceSourceCount": 1,
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "score": 38
+        "score": 35
       },
       "freshnessStatus": "FRESH",
       "confidence": "Medium",
-      "summary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerSummary": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerDek": "Your share of the AI wealth is a right — not a handout. For readers, the issue is how that fact changes leadership, earnings confidence and risk appetite, not whether the headline is interesting on its own.",
-      "editorialThesis": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity matters as a markets story because it connects a concrete fact to leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "editorialArticle": {
+        "question": "Is the chip tape pricing a real memory-cycle recovery, or just another short burst of AI optimism?",
+        "dek": "Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say. The market story is worth reading only if it changes what you would underwrite, not because it fills a section.",
+        "body": [
+          "Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say. The point is not that one semiconductor stock is up. In memory, the cleaner signal is whether pricing, inventories, and hyperscaler demand are turning together. Micron gets more durable credit when investors believe AI server demand is tightening DRAM and HBM supply, not merely lifting one quarter's sentiment.",
+          "For banking prep, turn the chip move into a supply-chain question. If memory pricing improves, suppliers can defend margins, equipment vendors get a cleaner order story, and AI infrastructure issuers may face a more receptive equity market. If the move is mostly anticipation ahead of Samsung or SK Hynix news, the read-through is much narrower.",
+          "One caveat: this is still a one-source story. Treat the read as a working thesis until another source, filing, price move, or company disclosure confirms it."
+        ],
+        "bankerSidebar": {
+          "interviewUse": "Say it this way: Is the chip tape pricing a real memory-cycle recovery, or just another short burst of AI optimism? Then tie the answer to valuation, financing, or issuance risk.",
+          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
+        }
+      },
+      "summary": "Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say. The read-through runs through leadership, earnings confidence and risk appetite.",
+      "editorialThesis": "Micron’s stock gains, signaling a ‘return to optimism’ about the chip sector is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
-      "interviewLine": "Start with the fact, explain the mechanism through leadership, earnings confidence and risk appetite, then say what you would watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
-      "bankerQuestion": "If you were advising a client exposed to this story, which assumption would you diligence first: valuation, financing, timing, or strategic fit?",
-      "whatChangedToday": "Your share of the AI wealth is a right — not a handout. The new read is The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-      "whatHappened": "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money.",
-      "whatMoved": "The fresh fact changes sector leadership, company valuation, and the peer read-through.",
-      "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+      "interviewLine": "Lead with the fact, then connect it to leadership, earnings confidence and risk appetite. Watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
+      "whatChangedToday": "Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say. The story changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say.",
+      "whatMoved": "The story changes sector leadership, company valuation, and the peer read-through.",
+      "whyItMoved": "The markets news matters because it changes the read on Market discipline: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "Connects to AI Infrastructure.",
+      "sectorReadThrough": "Treat the read-through as general market context until a stronger sector-specific signal develops.",
       "parallel": {
         "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
         "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -252,9 +278,9 @@
         "sourceTrail": [
           {
             "source": "MarketWatch Top Stories",
-            "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
-            "publishedAt": "2026-07-06T21:36:00.000Z",
-            "fetchedAt": "2026-07-07T03:57:58.677Z",
+            "url": "https://www.marketwatch.com/story/microns-stock-gains-signaling-a-return-to-optimism-about-the-chip-sector-0b7f6a8c?mod=mw_rss_topstories",
+            "publishedAt": "2026-07-06T20:33:00.000Z",
+            "fetchedAt": "2026-07-07T04:16:56.581Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -266,17 +292,17 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): Your share of the AI wealth is a right — not a handout. Here is how we claw back our money. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "Source detail (MarketWatch Top Stories): Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say. The markets news matters because it changes the read on Market discipline: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The fresh fact changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Your share of the AI wealth is a right — not a handout. Here is how we claw back our money."
+            "body": "The story changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Investors are looking forward to Samsung’s earnings and SK Hynix’s ADR listing, experts say."
           },
           {
             "id": "mechanism",
             "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Treat the read-through as general market context until a stronger sector-specific signal develops. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
           },
           {
             "id": "interpretation",
@@ -295,12 +321,104 @@
           }
         ]
       },
-      "visual": null,
+      "visual": {
+        "type": "bar-chart",
+        "title": "Semiconductor rebound board",
+        "subtitle": "Latest daily move from public chart data for the chip basket tied to today's Nasdaq leadership story.",
+        "relevanceNote": "This replaces stale Dell/Nvidia infrastructure context because today's story is about semiconductor breadth, Nasdaq leadership, and whether the chip rebound is carrying risk appetite.",
+        "allowedPages": [
+          "markets",
+          "deep-dive"
+        ],
+        "axisTitle": "Latest daily change",
+        "visualSource": "Public market data",
+        "items": [
+          {
+            "id": "NVDA",
+            "label": "Nvidia",
+            "value": 0.36955356666652833,
+            "displayValue": 0.36955356666652833,
+            "suffix": "%",
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+          },
+          {
+            "id": "SOXX",
+            "label": "iShares Semiconductor ETF",
+            "value": 2.682229524818811,
+            "displayValue": 2.682229524818811,
+            "suffix": "%",
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+          },
+          {
+            "id": "AVGO",
+            "label": "Broadcom",
+            "value": 3.7314415963253937,
+            "displayValue": 3.7314415963253937,
+            "suffix": "%",
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+          },
+          {
+            "id": "MU",
+            "label": "Micron Technology",
+            "value": 0.942023295789584,
+            "displayValue": 0.942023295789584,
+            "suffix": "%",
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "id": "MRVL",
+            "label": "Marvell Technology",
+            "value": 1.622573727125268,
+            "displayValue": 1.622573727125268,
+            "suffix": "%",
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "id": "INTC",
+            "label": "Intel",
+            "value": 1.537181967242733,
+            "displayValue": 1.537181967242733,
+            "suffix": "%",
+            "latestDate": "2026-07-06",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+          }
+        ],
+        "sourceTrail": [
+          {
+            "source": "Nvidia",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d"
+          },
+          {
+            "source": "iShares Semiconductor ETF",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d"
+          },
+          {
+            "source": "Broadcom",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d"
+          },
+          {
+            "source": "Micron Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d"
+          },
+          {
+            "source": "Marvell Technology",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d"
+          },
+          {
+            "source": "Intel",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d"
+          }
+        ],
+        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
+      },
       "relatedLinks": [],
       "storyline": null,
-      "concepts": [
-        "ai"
-      ]
+      "concepts": []
     }
   ]
 }

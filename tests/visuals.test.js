@@ -30,32 +30,32 @@ test("visual data and rendered visual cards are present", async () => {
     const dealsHtml = await fs.readFile("deals.html", "utf8");
     assert.match(dealsHtml, /Transaction path and risk map|Deal risk map/);
     assert.match(dealsHtml, /Why this visual fits:/);
-    assert.match(dealsHtml, /Read full analysis|Hide full analysis/);
+    assert.match(dealsHtml, /Read article|Hide article|editorial-article/);
 
     const macroHtml = await fs.readFile("macro.html", "utf8");
     assert.match(macroHtml, /Yield stack and Fed-path pressure|Rate backdrop/);
     assert.match(macroHtml, /Economic Calendar/);
     assert.match(macroHtml, /Why this visual fits:/);
     assert.match(macroHtml, /Yield \/ policy rate \(%\)|Rate \(%\)/);
-    assert.match(macroHtml, /Plain-English takeaway/);
+    assert.match(macroHtml, /The question|Hide article|editorial-article/);
 
     const marketsHtml = await fs.readFile("markets.html", "utf8");
     assert.match(marketsHtml, /Semiconductor rebound board|Stock reaction|AI infrastructure read-through/);
     assert.match(marketsHtml, /Latest daily change|Price/);
     assert.match(marketsHtml, /Why this visual fits:/);
     assert.doesNotMatch(marketsHtml, /Credit window proxy|Rate backdrop/);
-    assert.match(marketsHtml, /Mechanism behind the move|What the market may be pricing in right or wrong/);
+    assert.match(marketsHtml, /The question|Hide article|editorial-article/);
 
     const privateHtml = await fs.readFile("private-markets.html", "utf8");
     assert.match(privateHtml, /Public sponsor proxies|Sponsor exit paths/);
     assert.match(privateHtml, /Direct-lending public proxies|Credit window proxy/);
     assert.doesNotMatch(privateHtml, /Private-market signal map/);
     assert.match(privateHtml, /Why this visual fits:/);
-    assert.match(privateHtml, /How to read the sponsor or exit implication|How to interpret the financing signal/);
+    assert.match(privateHtml, /The question|Hide article|editorial-article/);
 
     const deepDiveHtml = await fs.readFile("deep-dive.html", "utf8");
     assert.match(deepDiveHtml, /Visual \//);
-    assert.match(deepDiveHtml, /Hide full analysis/);
+    assert.match(deepDiveHtml, /Hide article|editorial-article/);
 
     const themesHtml = await fs.readFile("themes.html", "utf8");
     assert.match(themesHtml, /Theme tracker/);

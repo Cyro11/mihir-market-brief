@@ -199,6 +199,23 @@ test("trusted-domain gate excludes syndicated or promotional domains outside the
   assert.equal(hasTrustedDomain({ url: "https://www.prnewswire.com/news-releases/example.html" }), false);
 });
 
+test("marketwatch opinion and personal-finance essays do not clear the main tape", () => {
+  const scored = scoreCandidate({
+    id: "ai-wealth-opinion",
+    source: "MarketWatch Top Stories",
+    sourceType: "reputable",
+    feedId: "marketwatch-top-stories",
+    title: "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
+    url: "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-example",
+    publishedAt: "2026-07-06T21:36:00.000Z",
+    summary: "Your share of the AI wealth is a right — not a handout. Here is how we claw back our money.",
+    facts: ["Your share of the AI wealth is a right — not a handout."],
+    topics: ["markets", "companies"]
+  }, themes, new Date("2026-07-07T03:58:00Z"));
+  assert.equal(scored.eligible, false);
+  assert.match(scored.exclusionReason, /weak market signal/);
+});
+
 test("selection caps the edition instead of stuffing it", () => {
   const now = new Date("2026-05-29T14:00:00Z");
   const items = Array.from({ length: 8 }, (_, index) => scoreCandidate({

@@ -263,21 +263,8 @@ function moveContext(move) {
     title: move.title,
     editorialLane: move.editorialLane,
     privateMarketSegment: move.privateMarketSegment || null,
-    summary: move.readerSummary || move.summary || "",
-    readerDek: move.readerDek || "",
-    editorialThesis: move.editorialThesis || "",
-    ibAngle: move.ibAngle || "",
-    interviewLine: move.interviewLine || "",
-    bankerQuestion: move.bankerQuestion || "",
-    whatHappened: move.whatHappened,
-    whyItMatters: move.editorialThesis || move.whyItMoved,
-    whatChanged: move.whatChangedToday || move.whatMoved,
-    valuation: move.valuationImpact,
-    financingDeals: move.financingImplication,
-    companyRead: move.sectorReadThrough,
-    longform: move.longform || null,
-    parallel: move.parallel,
-    watchNext: move.watchNext,
+    summary: move.editorialArticle?.dek || move.readerSummary || move.summary || "",
+    editorialArticle: move.editorialArticle || null,
     continuity: move.continuity || null,
     primarySources: move.sourceTrail,
     relatedLinks: move.relatedLinks || []
@@ -359,6 +346,21 @@ function watchCard(item) {
   </article>`;
 }
 
+
+function editorialArticleBlock(move) {
+  const article = move.editorialArticle;
+  if (!article?.body?.length) return "";
+  return `<section class="editorial-article">
+    <p class="article-question">${escapeHtml(article.question || "Why this matters")}</p>
+    ${article.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+    ${article.bankerSidebar ? `<aside class="banker-sidebar">
+      <b>How to use it</b>
+      <p>${escapeHtml(article.bankerSidebar.interviewUse || "Tie the story to valuation, financing, or deal risk.")}</p>
+      <p><strong>Watch:</strong> ${escapeHtml(article.bankerSidebar.watchNext || move.watchNext || "the next confirming source.")}</p>
+    </aside>` : ""}
+  </section>`;
+}
+
 function moveCard(move, index, options = {}) {
   const activePage = options.activePage || "";
   const base = options.base || "";
@@ -368,33 +370,20 @@ function moveCard(move, index, options = {}) {
     && (!move.visual.allowedPages?.length || move.visual.allowedPages.includes(activePage))
   );
   const expanded = options.expanded ?? index === 0;
-  const sections = (move.longform?.sections || []).filter((section) => section.heading && section.body && String(section.body).trim().length);
+  const article = editorialArticleBlock(move);
   return `<article class="move-card" data-context="${escapeHtml(JSON.stringify(moveContext(move)))}">
-    <div class="meta">Move ${index + 1} / ${escapeHtml(move.editorialLaneLabel || "Markets")} / ${escapeHtml(move.freshnessStatus)} / Confidence ${escapeHtml(move.confidence)}</div>
+    <div class="meta">Story ${index + 1} / ${escapeHtml(move.editorialLaneLabel || "Markets")} / ${escapeHtml(move.freshnessStatus)}</div>
     <h2>${escapeHtml(move.title)}</h2>
-    <p class="story-summary">${escapeHtml(move.readerDek || move.readerSummary || move.summary || move.whyItMoved)}</p>
-    <div class="insight-grid">
-      <div><b>IB Angle</b><span>${escapeHtml(move.ibAngle || move.financingImplication || "Translate the news into valuation, financing and deal implications.")}</span></div>
-      <div><b>Interview Line</b><span>${escapeHtml(move.interviewLine || "Start with the fact, explain the mechanism, then name what you would watch next.")}</span></div>
-      <div><b>Banker Question</b><span>${escapeHtml(move.bankerQuestion || "Which assumption would you diligence first?")}</span></div>
-    </div>
+    <p class="story-summary">${escapeHtml(move.editorialArticle?.dek || move.readerDek || move.readerSummary || move.summary || move.whyItMoved)}</p>
     <details class="story-details"${expanded ? " open" : ""}>
-      <summary>${expanded ? "Hide full analysis" : "Read full analysis"}</summary>
+      <summary>${expanded ? "Hide article" : "Read article"}</summary>
       <div class="story-detail-body">
-        <p><strong>What changed today:</strong> ${escapeHtml(move.whatChangedToday || move.whatMoved)}</p>
-        <p><strong>Editorial thesis:</strong> ${escapeHtml(move.editorialThesis || move.whyItMoved)}</p>
         ${allowVisual ? visualCard(move.visual) : ""}
         ${continuityBlock(move, base)}
-        <section class="narrative-stack">
-          ${sections.map((section) => `<section class="narrative-section">
-            <h3>${escapeHtml(section.heading)}</h3>
-            <p>${escapeHtml(section.body)}</p>
-          </section>`).join("")}
-        </section>
-        ${sections.length ? "" : `<section class="analysis-block"><h3>Parallel</h3>${parallelCard(move.parallel)}</section><p><strong>Watch next:</strong> ${escapeHtml(move.watchNext)}</p>`}
+        ${article || `<section class="editorial-article"><p>${escapeHtml(move.summary || move.whyItMoved || "No article copy available.")}</p></section>`}
       </div>
     </details>
-    <p class="source-line"><strong>Primary sources:</strong> ${sourceLinks(move)}</p>
+    <p class="source-line"><strong>Sources:</strong> ${sourceLinks(move)}</p>
     ${options.includeReading === false ? "" : furtherReading(move)}
   </article>`;
 }
@@ -474,9 +463,9 @@ function overview(edition, base = "") {
     ? edition.moves.map((move, index) => `<a class="summary-card" href="${internalHref(pageForMove(edition, move), edition, base)}">
         <span class="meta">Story ${index + 1}</span>
         <b>${escapeHtml(move.title)}</b>
-        <p>${escapeHtml(publicFallbackText(move.readerDek || move.readerSummary || move.summary, "Use this story to connect the reported fact to valuation, financing, and deal implications."))}</p>
-        <p><strong>IB Angle:</strong> ${escapeHtml(move.ibAngle || "Translate the story into valuation, financing, and deal implications.")}</p>
-        <p><strong>Interview Line:</strong> ${escapeHtml(move.interviewLine || "Start with the fact, explain the mechanism, then name what you would watch next.")}</p>
+        <p>${escapeHtml(publicFallbackText(move.editorialArticle?.dek || move.readerDek || move.readerSummary || move.summary, "Use this story to connect the reported fact to valuation, financing, and deal implications."))}</p>
+        <p><strong>The question:</strong> ${escapeHtml(move.editorialArticle?.question || "Does this change the underwriting case?")}</p>
+        <p>${escapeHtml(move.editorialArticle?.bankerSidebar?.interviewUse || move.ibAngle || "Tie the story to valuation, financing, or deal risk.")}</p>
       </a>`).join("")
     : `<div class="summary-card"><b>No forced main tape</b><p>No fresh source-backed item was strong enough for the main tape today. The brief stayed quiet instead of filling space.</p></div>`;
 
@@ -1072,6 +1061,13 @@ function renderHtml(active, edition, review, archiveEntries, base = "") {
     .story-details summary { cursor:pointer; list-style:none; padding:14px 16px; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.05em; text-transform:uppercase; border-bottom:1px solid var(--line-soft); background:#f1ecdf; }
     .story-details summary::-webkit-details-marker { display:none; }
     .story-detail-body { padding:18px 16px 16px; }
+    .editorial-article { max-width:880px; }
+    .editorial-article p { font-size:18px; line-height:1.58; color:#24201d; }
+    .article-question { font-size:21px !important; font-weight:900; color:#111 !important; }
+    .banker-sidebar { margin:18px 0 0; padding:14px 16px; border-left:5px solid var(--red); background:#f7f4ec; }
+    .banker-sidebar b { display:block; margin-bottom:6px; font:900 12px Georgia, "Times New Roman", serif; letter-spacing:.08em; text-transform:uppercase; }
+    .banker-sidebar p { font-size:16px; margin:8px 0; }
+
     .narrative-stack { display:grid; gap:14px; }
     .narrative-section { padding:0 0 12px; border-bottom:1px solid var(--line-soft); }
     .narrative-section:last-child { border-bottom:0; padding-bottom:0; }

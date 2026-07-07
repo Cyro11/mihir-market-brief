@@ -21,7 +21,13 @@ const publicInternalPhrases = [
   "evidence bar",
   "cleared the source",
   "cleared the evidence",
-  "Generated edition"
+  "Generated edition",
+  "What changed today:",
+  "Editorial thesis:",
+  "Plain-English takeaway",
+  "The fresh fact",
+  "The new read is",
+  "Source detail ("
 ];
 
 const repeatedIssuePhrases = [
@@ -71,17 +77,16 @@ function addVisibleText(entries, pathLabel, value) {
 
 function visibleMoveTexts(move, prefix = move.title || move.id || "move") {
   const entries = [];
-  for (const field of [
-    "title", "dek", "summary", "whatHappened", "whatMoved", "whyItMoved", "valuationImpact",
-    "financingImplication", "sectorReadThrough", "watchNext", "ibAngle", "interviewLine", "readerSummary"
-  ]) addVisibleText(entries, `${prefix}.${field}`, move[field]);
-  for (const [field, value] of Object.entries(move.parallel || {})) {
-    if (field !== "sourceTrail") addVisibleText(entries, `${prefix}.parallel.${field}`, value);
+  for (const field of ["title", "readerSummary", "readerDek", "ibAngle", "interviewLine", "bankerQuestion"]) {
+    addVisibleText(entries, `${prefix}.${field}`, move[field]);
   }
-  for (const section of move.longform?.sections || []) {
-    addVisibleText(entries, `${prefix}.longform.${section.id || section.heading || "section"}.heading`, section.heading);
-    addVisibleText(entries, `${prefix}.longform.${section.id || section.heading || "section"}.body`, section.body);
+  addVisibleText(entries, `${prefix}.editorialArticle.question`, move.editorialArticle?.question);
+  addVisibleText(entries, `${prefix}.editorialArticle.dek`, move.editorialArticle?.dek);
+  for (const [index, paragraph] of (move.editorialArticle?.body || []).entries()) {
+    addVisibleText(entries, `${prefix}.editorialArticle.body.${index + 1}`, paragraph);
   }
+  addVisibleText(entries, `${prefix}.editorialArticle.bankerSidebar.interviewUse`, move.editorialArticle?.bankerSidebar?.interviewUse);
+  addVisibleText(entries, `${prefix}.editorialArticle.bankerSidebar.watchNext`, move.editorialArticle?.bankerSidebar?.watchNext);
   if (move.visual) {
     for (const field of ["title", "subtitle", "relevanceNote", "axisTitle", "visualSource", "sourceNote"]) {
       addVisibleText(entries, `${prefix}.visual.${field}`, move.visual[field]);
@@ -128,13 +133,24 @@ function sourceNames(move) {
   return (move.sourceTrail || []).map((source) => String(source.source || source.name || "").trim()).filter(Boolean);
 }
 
+function articleText(move) {
+  return [
+    move.editorialArticle?.question,
+    move.editorialArticle?.dek,
+    ...(move.editorialArticle?.body || []),
+    move.editorialArticle?.bankerSidebar?.interviewUse,
+    move.editorialArticle?.bankerSidebar?.watchNext
+  ].filter(Boolean).join(" ");
+}
+
 function hasSourceSpecificFacts(move) {
-  const longform = (move.longform?.sections || []).map((section) => section.body).join(" ");
-  if (!longform) return false;
-  if (/\b\d+(?:\.\d+)?\s?(?:%|bps?|x|million|billion|trillion|mn|bn|tn|m|b)\b|[$€£]\s?\d/.test(longform)) return true;
+  const text = articleText(move) || (move.longform?.sections || []).map((section) => section.body).join(" ");
+  if (!text) return false;
+  if (/\b\d+(?:\.\d+)?\s?(?:%|bps?|x|million|billion|trillion|mn|bn|tn|m|b)\b|[$€£]\s?\d/.test(text)) return true;
+  if (hasConcreteSpecificity(text)) return true;
   return sourceNames(move).some((name) => name.split(/\s+/)
     .filter((token) => token.length > 2 && !genericSpecificityWords.has(token.toLowerCase()))
-    .some((token) => new RegExp(`\\b${escapeRegExp(token)}\\b`, "i").test(longform)));
+    .some((token) => new RegExp(`\\b${escapeRegExp(token)}\\b`, "i").test(text)));
 }
 
 function isPrimaryOrOfficialSource(source = {}) {
@@ -205,6 +221,12 @@ export function deterministicReview(edition) {
       if (!move[field] || String(move[field]).length < 30) {
         blockers.push(`${move.title}: ${field} is too thin.`);
       }
+    }
+    if (!move.editorialArticle?.body?.length || move.editorialArticle.body.length < 3) {
+      blockers.push(`${move.title}: needs a humanized editorial article with at least three real paragraphs.`);
+    }
+    if (articleText(move).split(/\s+/).filter(Boolean).length < 110) {
+      blockers.push(`${move.title}: editorial article is too thin to teach the story.`);
     }
     if (move.visual) {
       if (move.visual.type === "line-chart") {

@@ -25,6 +25,19 @@ function validMove(overrides = {}) {
     financingImplication: "For bankers, the order update matters because demand visibility can support debt capacity, acquisition currency, and working-capital planning.",
     sectorReadThrough: "The read-through is strongest for automation suppliers with similar backlog exposure and customers delaying large capital projects.",
     watchNext: "Watch Acme Robotics backlog conversion, margin guidance, customer concentration, and whether follow-on orders confirm the 12% signal.",
+    editorialArticle: {
+      question: "Does Acme Robotics' order update change the underwriting case, or is the market just reacting to one good number?",
+      dek: "Acme Robotics reported 12% order growth, which gives readers a concrete demand signal to test against margins, backlog conversion, and financing capacity.",
+      body: [
+        "Acme Robotics reported 12% order growth in its public update. That is useful because it gives investors a named company, a number, and a demand signal instead of another generic industrial headline.",
+        "The analysis should turn on conversion. If Acme can turn orders into profitable revenue, the stock has a cleaner argument for a higher multiple and better debt capacity. If margins absorb the growth, the rally is much less useful.",
+        "For banking prep, this is a valuation and financing story. Better demand visibility can support acquisition currency, debt capacity, and working-capital planning, but only if backlog quality and customer concentration hold up."
+      ],
+      bankerSidebar: {
+        interviewUse: "Say Acme gives a concrete order-growth signal, then connect that to backlog conversion, margins, debt capacity, and M&A currency.",
+        watchNext: "Watch backlog conversion, margin guidance, customer concentration, and whether follow-on orders confirm the 12% signal."
+      }
+    },
     parallel: {
       precedent: "Rockwell Automation and Emerson Electric have both shown how named automation backlogs can reset investor expectations when demand improves.",
       outcome: "Those updates helped investors separate company-specific backlog quality from generic industrial sentiment during uneven cycles.",
@@ -61,6 +74,16 @@ test("deterministic review blocks robotic public pipeline language and thin spec
     sourceTrail: [{ source: "Newswire", url: "https://example.com/rss" }],
     summary: "Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords; use as a thin RSS item only when the headline itself identifies the market move.",
     whatHappened: "This was selected because it links market news to themes and has enough source support to analyze rather than merely mention.",
+    editorialArticle: {
+      question: "What changed today: why did this pass?",
+      dek: "Current reputable-market headline with source URL, timestamp, and market-moving public-tape keywords.",
+      body: [
+        "This was selected because it links market news to themes and has enough source support to analyze rather than merely mention.",
+        "Plain-English takeaway: the fresh fact changes sector leadership without saying anything specific.",
+        "Editorial thesis: this is filler copy with no real analysis."
+      ],
+      bankerSidebar: { interviewUse: "The new read is generic.", watchNext: "Watch nothing." }
+    },
     longform: { sections: validMove().longform.sections.map((section) => ({ ...section, body: "Generic market commentary without source facts or named entities stays broad and undifferentiated for readers across the issue. ".repeat(2) })) }
   });
   const review = deterministicReview(editionWithMoves([badMove]));
@@ -69,7 +92,12 @@ test("deterministic review blocks robotic public pipeline language and thin spec
 });
 
 test("repeated robotic issue phrases are caught", () => {
-  const first = validMove({ id: "first", title: "Acme Robotics shares rise 12% after order update", summary: `${validMove().summary} The main move is the order signal.` });
+  const first = validMove({
+    id: "first",
+    title: "Acme Robotics shares rise 12% after order update",
+    summary: `${validMove().summary} The main move is the order signal.`,
+    editorialArticle: { ...validMove().editorialArticle, body: validMove().editorialArticle.body.map((body) => `${body} The main move is the order signal.`) }
+  });
   const second = validMove({
     id: "second",
     title: "Beta Motors shares rise 9% after delivery update",
@@ -77,7 +105,8 @@ test("repeated robotic issue phrases are caught", () => {
     sourceTrail: [
       { source: "Beta Motors Investor Relations", url: "https://example.com/beta-deliveries", type: "company" },
       { source: "SEC", url: "https://www.sec.gov/example", type: "official" }
-    ]
+    ],
+    editorialArticle: { ...validMove().editorialArticle, body: validMove().editorialArticle.body.map((body) => `${body} The main move is the delivery signal.`) }
   });
   const review = deterministicReview(editionWithMoves([first, second]));
   assert.match(review.blockers.join("\n"), /repeats robotic phrase "The main move is"/);

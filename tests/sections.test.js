@@ -239,7 +239,7 @@ test("rendered edition includes first-class section tabs and empty-state languag
   assert.match(privateHtml, /Private Equity/);
   assert.match(privateHtml, /Private Credit/);
   assert.match(privateHtml, /No strong signal today|KKR|Blue Owl|direct lending|Private markets watch/);
-  assert.match(privateHtml, /What the public signal is actually telling us|How to read the sponsor or exit implication|How to interpret the financing signal/);
+  assert.match(privateHtml, /The question|Hide article|editorial-article/);
 });
 
 test("main tape remains cross-section after private-market expansion", async () => {
@@ -380,26 +380,25 @@ test("banker analysis exposes reader-facing editorial fields without pipeline ra
     topics: ["markets", "ai", "companies"]
   }));
   const publicBlob = JSON.stringify({
-    summary: analysis.summary,
     readerSummary: analysis.readerSummary,
     readerDek: analysis.readerDek,
-    editorialThesis: analysis.editorialThesis,
+    editorialArticle: analysis.editorialArticle,
     ibAngle: analysis.ibAngle,
     interviewLine: analysis.interviewLine,
-    bankerQuestion: analysis.bankerQuestion,
-    whatChangedToday: analysis.whatChangedToday,
-    whyItMoved: analysis.whyItMoved,
-    longform: analysis.longform
+    bankerQuestion: analysis.bankerQuestion
   });
 
-  assert.match(analysis.readerDek, /For readers/);
+  assert.match(analysis.readerDek, /read-through runs through/i);
+  assert.match(analysis.editorialArticle.question, /\?/);
+  assert.ok(analysis.editorialArticle.body.length >= 3);
+  assert.match(analysis.editorialArticle.bankerSidebar.interviewUse, /valuation|financing|issuance|underwriting/i);
   assert.match(analysis.ibAngle, /IB interview|IB Angle|who pays|finances/i);
-  assert.match(analysis.interviewLine, /Start with the fact/);
-  assert.match(analysis.bankerQuestion, /which assumption/i);
-  assert.doesNotMatch(publicBlob, /Current reputable-market headline|thin RSS item|source URL, timestamp|selected because|evidence bar/i);
+  assert.match(analysis.interviewLine, /Lead with the fact|Watch next/i);
+  assert.match(analysis.bankerQuestion, /diligence/i);
+  assert.doesNotMatch(publicBlob, /Current reputable-market headline|thin RSS item|source URL, timestamp|selected because|evidence bar|What changed today|Editorial thesis|Plain-English takeaway|The fresh fact|The new read is/i);
 });
 
-test("rendered overview is reader-facing and includes editor brief, IB angle, and interview line", async () => {
+test("rendered overview is reader-facing and includes editor brief and article questions", async () => {
   const html = await fs.readFile("index.html", "utf8");
   const edition = JSON.parse(await fs.readFile("data/editions/2026-05-29.json", "utf8"));
   const publicEditionBlob = JSON.stringify({
@@ -421,8 +420,7 @@ test("rendered overview is reader-facing and includes editor brief, IB angle, an
 
   assert.match(html, /Editor's Brief/);
   assert.match(html, /30-second read/);
-  assert.match(html, /IB Angle/);
-  assert.match(html, /Interview Line/);
+  assert.match(html, /The question/);
   assert.match(html, /Story 1/);
   assert.doesNotMatch(`${html}\n${publicEditionBlob}`, /Current reputable-market headline|thin RSS item|source URL, timestamp|selected because|evidence bar|Generated edition/i);
 });
