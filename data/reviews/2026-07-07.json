@@ -1,0 +1,21 @@
+{
+  "runDate": "2026-07-07",
+  "reviewedAt": "2026-07-07T12:01:21.101Z",
+  "status": "APPROVED",
+  "reviewers": {
+    "deterministic": {
+      "blockers": [],
+      "warnings": [
+        "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+      ]
+    },
+    "openai": {
+      "skipped": true,
+      "reason": "OPENAI_API_KEY not configured"
+    }
+  },
+  "blockers": [],
+  "warnings": [
+    "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+  ]
+}

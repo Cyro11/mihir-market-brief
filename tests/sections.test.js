@@ -221,7 +221,7 @@ test("rendered edition includes first-class section tabs and empty-state languag
   const macroHtml = await fs.readFile("macro.html", "utf8");
   const breakingHtml = await fs.readFile("breaking.html", "utf8");
   assert.match(breakingHtml, /Breaking Tape/);
-  assert.match(breakingHtml, /Read full analysis|Hide full analysis|No strong signal today/);
+  assert.match(breakingHtml, /Read article|Hide article|editorial-article|No strong signal today/);
 
   const overnightHtml = await fs.readFile("overnight.html", "utf8");
   assert.match(overnightHtml, /Big News Before The Open/);

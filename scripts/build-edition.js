@@ -651,7 +651,7 @@ function articleMechanism({ lane, segment, whatHappened, valuationImpact, financ
     return `${fact}. The transmission is through discount rates first, then credit conditions. If the data changes the expected Fed path, equities rerate quickly and financing conversations get harder to defend. If yields barely move, the headline probably matters less than the first reaction suggests.`;
   }
   if (lane === "deals" || lane === "breaking") {
-    return `${fact}. The useful read is not the announcement by itself. It is whether the price, financing, approvals, and buyer logic still work once lenders, shareholders, and public comps get a vote.`;
+    return `${fact}. The real test is whether the transaction can survive full underwriting: price discipline, financing availability, approval risk, buyer logic, and the public comps lenders and shareholders will use to judge it.`;
   }
   if (segment === "private_credit") {
     return `${fact}. Private credit only matters for banking when it tells you something about actual lending capacity: spreads, covenants, refinancing risk, lender selectivity, or how much equity a sponsor has to write to make the deal work.`;
