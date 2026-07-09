@@ -30,6 +30,12 @@ test("editorial lane classification separates macro, markets, deals, and private
   }), "deals");
 
   assert.equal(editorialLaneFor({
+    title: "Trump says Iran called to make a deal after U.S. strikes; adds it's unclear if war is back on",
+    summary: "A geopolitical headline affects risk appetite and oil, not transaction deal certainty.",
+    topics: ["markets", "companies"]
+  }), "markets");
+
+  assert.equal(editorialLaneFor({
     title: "Private credit supports sponsor refinancing",
     summary: "Private equity exit window and secondaries are in focus.",
     topics: ["credit"]

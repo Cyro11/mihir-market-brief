@@ -1,6 +1,6 @@
 {
   "runDate": "2026-07-09",
-  "generatedAt": "2026-07-09T12:00:43.244Z",
+  "generatedAt": "2026-07-09T13:37:11.673Z",
   "selectedCount": 3,
   "quietDay": false,
   "analyses": [
@@ -15,7 +15,7 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-barclays-readies-875-105805237.html?.tsrc=rss",
           "publishedAt": "2026-07-09T10:58:05.000Z",
-          "fetchedAt": "2026-07-09T12:00:21.943Z",
+          "fetchedAt": "2026-07-09T13:36:37.075Z",
           "feedId": "private-equity-public-proxies",
           "evidenceType": "reported"
         }
@@ -71,7 +71,7 @@
             "source": "Yahoo Finance / Public PE Managers",
             "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-barclays-readies-875-105805237.html?.tsrc=rss",
             "publishedAt": "2026-07-09T10:58:05.000Z",
-            "fetchedAt": "2026-07-09T12:00:21.943Z",
+            "fetchedAt": "2026-07-09T13:36:37.075Z",
             "feedId": "private-equity-public-proxies",
             "evidenceType": "reported"
           }
@@ -121,39 +121,39 @@
       ]
     },
     {
-      "id": "marketwatch-top-stories-eb4d03a1",
-      "title": "PepsiCo cuts prices on snacks. It’s not enough to drive growth in North America.",
+      "id": "marketwatch-top-stories-87c6b43",
+      "title": "Salesforce’s stock may look like a bargain — but that’s just a mirage, analyst says",
       "editorialLane": "markets",
       "editorialLaneLabel": "Markets",
       "privateMarketSegment": null,
       "sourceTrail": [
         {
           "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/pepsico-cuts-prices-on-snacks-its-not-enough-to-drive-growth-in-north-america-5bc0c111?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-09T11:57:00.000Z",
-          "fetchedAt": "2026-07-09T12:00:21.679Z",
+          "url": "https://www.marketwatch.com/story/salesforces-stock-may-look-like-a-bargain-but-thats-just-a-mirage-analyst-says-b8f590a4?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-09T12:43:00.000Z",
+          "fetchedAt": "2026-07-09T13:36:36.798Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
       ],
       "storyCluster": {
-        "id": "story-north-america-america-pepsico-snacks-enough",
-        "title": "PepsiCo cuts prices on snacks. It’s not enough to drive growth in North America.",
+        "id": "story-salesforce-analyst-bargain-mirage-just",
+        "title": "Salesforce’s stock may look like a bargain — but that’s just a mirage, analyst says",
         "sourceDiversity": 1,
         "coverageCount": 1,
         "evidenceSourceCount": 1,
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "score": 37
+        "score": 40
       },
       "freshnessStatus": "LIVE",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
-        "dek": "The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: PepsiCo’s stock was set to fall as the company’s North America business lagged, but strength in international business led to an earnings beat.",
+        "dek": "The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: KeyBanc downgraded Salesforce shares, citing doubts about the company’s AI narrative.",
         "body": [
-          "The mechanism runs through leadership and scarcity. The reported fact is PepsiCo’s stock was set to fall as the company’s North America business lagged, but strength in international business led to an earnings beat. Investors pay up when an asset looks hard to replicate, margins can survive scrutiny, and the funding market believes the story is strong enough to finance weaker periods.",
+          "The mechanism runs through leadership and scarcity. The reported fact is KeyBanc downgraded Salesforce shares, citing doubts about the company’s AI narrative. Investors pay up when an asset looks hard to replicate, margins can survive scrutiny, and the funding market believes the story is strong enough to finance weaker periods.",
           "In a banking answer, separate price action from capital-markets evidence. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. Strong scarcity assets may get funded, while weaker copycats still struggle.",
           "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
         ],
@@ -162,20 +162,20 @@
           "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
         }
       },
-      "summary": "PepsiCo’s stock was set to fall as the company’s North America business lagged, but strength in international business led to an earnings beat. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerSummary": "PepsiCo’s stock was set to fall as the company’s North America business lagged, but strength in international business led to an earnings beat. The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerDek": "PepsiCo’s stock was set to fall as the company’s North America business lagged, but strength in international business led to an earnings beat. The read-through runs through leadership, earnings confidence and risk appetite.",
-      "editorialThesis": "PepsiCo cuts prices on snacks. It’s not enough to drive growth in North America. is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "summary": "KeyBanc downgraded Salesforce shares, citing doubts about the company’s AI narrative. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "KeyBanc downgraded Salesforce shares, citing doubts about the company’s AI narrative. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "KeyBanc downgraded Salesforce shares, citing doubts about the company’s AI narrative. The read-through runs through leadership, earnings confidence and risk appetite.",
+      "editorialThesis": "Salesforce’s stock may look like a bargain — but that’s just a mirage, analyst says is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
       "interviewLine": "Lead with the fact, then connect it to leadership, earnings confidence and risk appetite. Watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
       "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
-      "whatChangedToday": "PepsiCo’s stock was set to fall as the company’s North America business lagged, but strength in international business led to an earnings beat. The story changes sector leadership, company valuation, and the peer read-through.",
-      "whatHappened": "PepsiCo’s stock was set to fall as the company’s North America business lagged, but strength in international business led to an earnings beat.",
+      "whatChangedToday": "KeyBanc downgraded Salesforce shares, citing doubts about the company’s AI narrative. The story changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "KeyBanc downgraded Salesforce shares, citing doubts about the company’s AI narrative.",
       "whatMoved": "The story changes sector leadership, company valuation, and the peer read-through.",
-      "whyItMoved": "The markets news matters because it changes the read on Market discipline: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+      "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
       "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
       "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "Treat the read-through as general market context until a stronger sector-specific signal develops.",
+      "sectorReadThrough": "Connects to AI Infrastructure.",
       "parallel": {
         "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
         "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
@@ -185,9 +185,9 @@
         "sourceTrail": [
           {
             "source": "MarketWatch Top Stories",
-            "url": "https://www.marketwatch.com/story/pepsico-cuts-prices-on-snacks-its-not-enough-to-drive-growth-in-north-america-5bc0c111?mod=mw_rss_topstories",
-            "publishedAt": "2026-07-09T11:57:00.000Z",
-            "fetchedAt": "2026-07-09T12:00:21.679Z",
+            "url": "https://www.marketwatch.com/story/salesforces-stock-may-look-like-a-bargain-but-thats-just-a-mirage-analyst-says-b8f590a4?mod=mw_rss_topstories",
+            "publishedAt": "2026-07-09T12:43:00.000Z",
+            "fetchedAt": "2026-07-09T13:36:36.798Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -199,17 +199,17 @@
           {
             "id": "takeaway",
             "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): PepsiCo’s stock was set to fall as the company’s North America business lagged, but strength in international business led to an earnings beat. The markets news matters because it changes the read on Market discipline: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+            "body": "Source detail (MarketWatch Top Stories): KeyBanc downgraded Salesforce shares, citing doubts about the company’s AI narrative. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
           },
           {
             "id": "tape",
             "heading": "What moved and what it suggests",
-            "body": "The story changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: PepsiCo’s stock was set to fall as the company’s North America business lagged, but strength in international business led to an earnings beat."
+            "body": "The story changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: KeyBanc downgraded Salesforce shares, citing doubts about the company’s AI narrative."
           },
           {
             "id": "mechanism",
             "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Treat the read-through as general market context until a stronger sector-specific signal develops. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
           },
           {
             "id": "interpretation",
@@ -231,7 +231,9 @@
       "visual": null,
       "relatedLinks": [],
       "storyline": null,
-      "concepts": []
+      "concepts": [
+        "ai"
+      ]
     },
     {
       "id": "marketwatch-top-stories-d772f1c8",
@@ -243,8 +245,8 @@
         {
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/schwab-strategists-warn-of-a-major-market-shift-the-era-of-easy-index-gains-is-officially-over-2396d139?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-09T11:09:00.000Z",
-          "fetchedAt": "2026-07-09T12:00:21.679Z",
+          "publishedAt": "2026-07-09T12:42:00.000Z",
+          "fetchedAt": "2026-07-09T13:36:36.798Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
@@ -263,11 +265,11 @@
       "freshnessStatus": "LIVE",
       "confidence": "Medium",
       "editorialArticle": {
-        "question": "Does SpaceX joining the Nasdaq-100 broaden risk appetite, or make index concentration more extreme?",
+        "question": "Is this an index-level breadth change, or just a leadership rotation investors are over-reading?",
         "dek": "The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: More geopolitical instability, more frequent supply shocks and macro volatility are facing investors in an era that’s just starting, says..",
         "body": [
-          "Index inclusion changes forced ownership before it changes fundamentals. The reported fact is More geopolitical instability, more frequent supply shocks and macro volatility are facing investors in an era that’s just starting, says Charles Schwab. Nasdaq-100 funds may need exposure while S&P 500 funds can wait, so the immediate effect is flow, concentration, and volatility; the underwriting question is whether those flows create a cleaner public comp or only a technical premium.",
-          "For banking prep, separate technical demand from fundamental demand. Forced Nasdaq buying can support the initial mark and raise volatility, but it does not automatically reopen the IPO market. The broader signal comes only if aftermarket trading, peer multiples, and new-issue conversations improve after the inclusion trade passes.",
+          "The mechanism runs through leadership and scarcity. The reported fact is More geopolitical instability, more frequent supply shocks and macro volatility are facing investors in an era that’s just starting, says Charles Schwab. Investors pay up when an asset looks hard to replicate, margins can survive scrutiny, and the funding market believes the story is strong enough to finance weaker periods.",
+          "In a banking answer, separate price action from capital-markets evidence. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. Strong scarcity assets may get funded, while weaker copycats still struggle.",
           "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
         ],
         "bankerSidebar": {
@@ -299,8 +301,8 @@
           {
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/schwab-strategists-warn-of-a-major-market-shift-the-era-of-easy-index-gains-is-officially-over-2396d139?mod=mw_rss_topstories",
-            "publishedAt": "2026-07-09T11:09:00.000Z",
-            "fetchedAt": "2026-07-09T12:00:21.679Z",
+            "publishedAt": "2026-07-09T12:42:00.000Z",
+            "fetchedAt": "2026-07-09T13:36:36.798Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -356,37 +358,37 @@
           {
             "id": "SPY",
             "label": "SPDR S&P 500 ETF Trust",
-            "value": 9.632165118367777,
-            "displayValue": 9.632165118367777,
+            "value": 9.993971980256102,
+            "displayValue": 9.993971980256102,
             "suffix": "%",
-            "latestDate": "2026-07-08",
+            "latestDate": "2026-07-09",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d"
           },
           {
             "id": "QQQ",
             "label": "Invesco QQQ Trust",
-            "value": 16.5931922179801,
-            "displayValue": 16.5931922179801,
+            "value": 17.991112247411888,
+            "displayValue": 17.991112247411888,
             "suffix": "%",
-            "latestDate": "2026-07-08",
+            "latestDate": "2026-07-09",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d"
           },
           {
             "id": "IWM",
             "label": "iShares Russell 2000 ETF",
-            "value": 12.03237920270553,
-            "displayValue": 12.03237920270553,
+            "value": 12.822567351339512,
+            "displayValue": 12.822567351339512,
             "suffix": "%",
-            "latestDate": "2026-07-08",
+            "latestDate": "2026-07-09",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d"
           },
           {
             "id": "GLD",
             "label": "SPDR Gold Shares",
-            "value": -14.491560120659802,
-            "displayValue": -14.491560120659802,
+            "value": -13.600967564228139,
+            "displayValue": -13.600967564228139,
             "suffix": "%",
-            "latestDate": "2026-07-08",
+            "latestDate": "2026-07-09",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d"
           }
         ],

@@ -114,10 +114,14 @@ export function editorialLaneFor(item) {
   ) {
     return "private_markets";
   }
+  const diplomaticDealLanguage = /\b(?:iran|israel|war|strikes?|ceasefire|tariff|trade talks?)\b/.test(text) && /\b(?:make|made|called to make|reach|reached|negotiate|negotiated)\s+(?:a\s+)?deal\b/.test(text);
   if (
-    topics.has("deals")
-    || topics.has("filings")
-    || /\bmerger\b|\bacquisition\b|\bdeal\b|\bactivist\b|\bstake\b|\btakeover\b|\bspin-?off\b|\bipo\b|\btender\b|\bbuyout\b/.test(text)
+    !diplomaticDealLanguage
+    && (
+      topics.has("deals")
+      || topics.has("filings")
+      || /\bmerger\b|\bacquisition\b|\bdeal\b|\bactivist\b|\bstake\b|\btakeover\b|\bspin-?off\b|\bipo\b|\btender\b|\bbuyout\b/.test(text)
+    )
   ) {
     return "deals";
   }
@@ -652,7 +656,8 @@ function articleQuestion({ title, lane, segment, whatHappened }) {
   if (lane === "deals" || lane === "breaking") return "Which deal assumption changed: price, financing, approvals, buyer logic, or timing?";
   if (segment === "private_credit") return "Is this evidence of real lending capacity, or just appetite for the safest credits?";
   if (segment === "private_equity") return "Does this create real sponsor liquidity, or does it mainly defer the valuation test?";
-  if (/nasdaq|s&p|spacex|index/i.test(haystack)) return "Does SpaceX joining the Nasdaq-100 broaden risk appetite, or make index concentration more extreme?";
+  if (/spacex|nasdaq-100/i.test(haystack)) return "Does SpaceX joining the Nasdaq-100 broaden risk appetite, or make index concentration more extreme?";
+  if (/\bindex\b|\bs&p\b|\bnasdaq\b/i.test(haystack)) return "Is this an index-level breadth change, or just a leadership rotation investors are over-reading?";
   if (/micron|sk hynix|samsung|memory|dram|nand|chip|semiconductor/i.test(haystack)) return "Is the chip tape pricing a real memory-cycle recovery, or just another burst of AI optimism?";
   if (/halo|barrier to entry|goldman sachs|trade of the year/i.test(haystack)) return "Is the HALO trade moving from multiple expansion to an earnings-quality test?";
   if (/russia|oil refiner|refineries|fuel shortage|bond market|putin/i.test(haystack)) return "Does energy stress in Russia change global risk pricing, or is it still a contained geopolitics story?";
@@ -676,7 +681,7 @@ function articleMechanism({ lane, segment, title, whatHappened, valuationImpact,
   if (/underwriter|valuation gap|valuation chasm|quiet period/i.test(haystack)) {
     return `The point is the model disagreement, not the headline number. The reported fact is ${fact}. A $1 trillion spread between lead-bank targets usually means the bull and bear cases are using different assumptions for addressable market, Starlink economics, launch cadence, defense revenue, margin maturity, or the scarcity multiple public investors will tolerate.`;
   }
-  if (/nasdaq|s&p|spacex|index/i.test(haystack)) {
+  if (/spacex|nasdaq-100/i.test(haystack)) {
     return `Index inclusion changes forced ownership before it changes fundamentals. The reported fact is ${fact}. Nasdaq-100 funds may need exposure while S&P 500 funds can wait, so the immediate effect is flow, concentration, and volatility; the underwriting question is whether those flows create a cleaner public comp or only a technical premium.`;
   }
   if (/halo|barrier to entry|goldman sachs|trade of the year/i.test(haystack)) {
@@ -708,7 +713,7 @@ function articleBankerRead({ lane, segment, title, whatHappened, valuationImpact
   if (/underwriter|valuation gap|valuation chasm|quiet period/i.test(haystack)) {
     return `For banking prep, break the valuation gap into drivers instead of repeating the target prices. Ask which bank is assuming faster Starlink penetration, higher terminal margins, more defense-like revenue stability, lower capex intensity, or a bigger scarcity premium. Then show how one changed input moves enterprise value, not just whether the stock is a buy.`;
   }
-  if (/nasdaq|s&p|spacex|index/i.test(haystack)) {
+  if (/spacex|nasdaq-100/i.test(haystack)) {
     return `For banking prep, separate technical demand from fundamental demand. Forced Nasdaq buying can support the initial mark and raise volatility, but it does not automatically reopen the IPO market. The broader signal comes only if aftermarket trading, peer multiples, and new-issue conversations improve after the inclusion trade passes.`;
   }
   if (/halo|barrier to entry|goldman sachs|trade of the year/i.test(haystack)) {

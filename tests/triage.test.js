@@ -216,6 +216,23 @@ test("marketwatch opinion and personal-finance essays do not clear the main tape
   assert.match(scored.exclusionReason, /weak market signal/);
 });
 
+test("marketwatch lifestyle financial-freedom listicles do not backfill markets", () => {
+  const scored = scoreCandidate({
+    id: "gen-z-financial-freedom",
+    source: "MarketWatch Top Stories",
+    sourceType: "reputable",
+    feedId: "marketwatch-top-stories",
+    title: "Gen Z-ers share how they’re achieving financial freedom — and the old ideas they’re leaving behind",
+    url: "https://www.marketwatch.com/story/gen-z-ers-share-how-theyre-achieving-financial-freedom-and-the-old-ideas-theyre-leaving-behind-c36c5980",
+    publishedAt: "2026-07-09T12:00:00.000Z",
+    summary: "A stable job and a nice home have become less accessible to young Americans. Many are taking new paths to pursue their dreams.",
+    facts: ["A stable job and a nice home have become less accessible to young Americans."],
+    topics: ["markets", "companies"]
+  }, themes, new Date("2026-07-09T13:32:00Z"));
+  assert.equal(scored.eligible, false);
+  assert.match(scored.exclusionReason, /weak market signal/);
+});
+
 test("selection caps the edition instead of stuffing it", () => {
   const now = new Date("2026-05-29T14:00:00Z");
   const items = Array.from({ length: 8 }, (_, index) => scoreCandidate({
