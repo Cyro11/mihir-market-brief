@@ -1,0 +1,25 @@
+{
+  "runDate": "2026-07-10",
+  "reviewedAt": "2026-07-10T12:01:19.847Z",
+  "status": "APPROVED",
+  "reviewers": {
+    "deterministic": {
+      "blockers": [],
+      "warnings": [
+        "The Week in Numbers: SK Hynix IPO heats up, Samsung's profit surge: longform section takeaway is very close to the summary; add story-specific analysis.",
+        "EasyJet backs $7.7 billion Apollo takeover bid over Castlelake offer: longform section takeaway is very close to the summary; add story-specific analysis.",
+        "The Week in Numbers: SK Hynix IPO heats up, Samsung's profit surge: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+      ]
+    },
+    "openai": {
+      "skipped": true,
+      "reason": "OPENAI_API_KEY not configured"
+    }
+  },
+  "blockers": [],
+  "warnings": [
+    "The Week in Numbers: SK Hynix IPO heats up, Samsung's profit surge: longform section takeaway is very close to the summary; add story-specific analysis.",
+    "EasyJet backs $7.7 billion Apollo takeover bid over Castlelake offer: longform section takeaway is very close to the summary; add story-specific analysis.",
+    "The Week in Numbers: SK Hynix IPO heats up, Samsung's profit surge: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+  ]
+}
