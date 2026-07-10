@@ -1,6 +1,6 @@
 {
   "runDate": "2026-07-10",
-  "generatedAt": "2026-07-10T12:01:19.650Z",
+  "generatedAt": "2026-07-10T13:33:09.026Z",
   "selectedCount": 4,
   "quietDay": false,
   "analyses": [
@@ -15,7 +15,7 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/video/week-numbers-sk-hynix-ipo-104028677.html?.tsrc=rss",
           "publishedAt": "2026-07-10T10:40:28.000Z",
-          "fetchedAt": "2026-07-10T12:00:57.948Z",
+          "fetchedAt": "2026-07-10T13:31:35.397Z",
           "feedId": "private-equity-public-proxies",
           "evidenceType": "reported"
         }
@@ -71,7 +71,7 @@
             "source": "Yahoo Finance / Public PE Managers",
             "url": "https://finance.yahoo.com/video/week-numbers-sk-hynix-ipo-104028677.html?.tsrc=rss",
             "publishedAt": "2026-07-10T10:40:28.000Z",
-            "fetchedAt": "2026-07-10T12:00:57.948Z",
+            "fetchedAt": "2026-07-10T13:31:35.397Z",
             "feedId": "private-equity-public-proxies",
             "evidenceType": "reported"
           }
@@ -127,28 +127,28 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 6.374640405905309,
-            "displayValue": 6.374640405905309,
+            "value": 7.968302168401059,
+            "displayValue": 7.968302168401059,
             "suffix": "%",
-            "latestDate": "2026-07-09",
+            "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
           },
           {
             "id": "KKR",
             "label": "KKR",
-            "value": 5.536061559728574,
-            "displayValue": 5.536061559728574,
+            "value": 7.958783204425952,
+            "displayValue": 7.958783204425952,
             "suffix": "%",
-            "latestDate": "2026-07-09",
+            "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
           },
           {
             "id": "APO",
             "label": "Apollo Global Management",
-            "value": 14.921363387743861,
-            "displayValue": 14.921363387743861,
+            "value": 15.794017465958179,
+            "displayValue": 15.794017465958179,
             "suffix": "%",
-            "latestDate": "2026-07-09",
+            "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
           }
         ],
@@ -202,7 +202,7 @@
           "source": "Yahoo Finance / Public PE Managers",
           "url": "https://finance.yahoo.com/healthcare/articles/bayer-sells-3-4-billion-061413096.html?.tsrc=rss",
           "publishedAt": "2026-07-10T06:14:13.000Z",
-          "fetchedAt": "2026-07-10T12:00:57.948Z",
+          "fetchedAt": "2026-07-10T13:31:35.397Z",
           "feedId": "private-equity-public-proxies",
           "evidenceType": "reported"
         }
@@ -258,7 +258,7 @@
             "source": "Yahoo Finance / Public PE Managers",
             "url": "https://finance.yahoo.com/healthcare/articles/bayer-sells-3-4-billion-061413096.html?.tsrc=rss",
             "publishedAt": "2026-07-10T06:14:13.000Z",
-            "fetchedAt": "2026-07-10T12:00:57.948Z",
+            "fetchedAt": "2026-07-10T13:31:35.397Z",
             "feedId": "private-equity-public-proxies",
             "evidenceType": "reported"
           }
@@ -314,28 +314,28 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 6.374640405905309,
-            "displayValue": 6.374640405905309,
+            "value": 7.968302168401059,
+            "displayValue": 7.968302168401059,
             "suffix": "%",
-            "latestDate": "2026-07-09",
+            "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
           },
           {
             "id": "KKR",
             "label": "KKR",
-            "value": 5.536061559728574,
-            "displayValue": 5.536061559728574,
+            "value": 7.958783204425952,
+            "displayValue": 7.958783204425952,
             "suffix": "%",
-            "latestDate": "2026-07-09",
+            "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
           },
           {
             "id": "APO",
             "label": "Apollo Global Management",
-            "value": 14.921363387743861,
-            "displayValue": 14.921363387743861,
+            "value": 15.794017465958179,
+            "displayValue": 15.794017465958179,
             "suffix": "%",
-            "latestDate": "2026-07-09",
+            "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
           }
         ],
@@ -378,6 +378,134 @@
       }
     },
     {
+      "id": "marketwatch-top-stories-91c068d2",
+      "title": "Kevin Warsh wants fewer press conferences. Why that’s bad for the economy and your money.",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/kevin-warsh-wants-fewer-press-conferences-why-thats-bad-for-the-economy-and-your-money-e9b0bd55?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T13:06:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:25.109Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "storyCluster": {
+        "id": "story-kevin-warsh-conferences-economy-money-fewer",
+        "title": "Kevin Warsh wants fewer press conferences. Why that’s bad for the economy and your money.",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "score": 41
+      },
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "editorialArticle": {
+        "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
+        "dek": "The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency.",
+        "body": [
+          "The mechanism runs through leadership and scarcity. The reported fact is The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency. Investors pay up when an asset looks hard to replicate, margins can survive scrutiny, and the funding market believes the story is strong enough to finance weaker periods.",
+          "In a banking answer, separate price action from capital-markets evidence. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. Strong scarcity assets may get funded, while weaker copycats still struggle.",
+          "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
+        ],
+        "bankerSidebar": {
+          "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
+          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
+        }
+      },
+      "summary": "The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "The Fed chair is testifying before Congress this week. The read-through runs through leadership, earnings confidence and risk appetite.",
+      "editorialThesis": "Kevin Warsh wants fewer press conferences. Why that’s bad for the economy and your money. is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Lead with the fact, then connect it to leadership, earnings confidence and risk appetite. Watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
+      "whatChangedToday": "The Fed chair is testifying before Congress this week. The story changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency.",
+      "whatMoved": "The story changes sector leadership, company valuation, and the peer read-through.",
+      "whyItMoved": "The markets news matters because it changes the read on Rates and Cost of Capital: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+      "sectorReadThrough": "Connects to Rates and Cost of Capital.",
+      "parallel": {
+        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+        "whatRhymes": "The current story shows demand spreading across the value chain.",
+        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+        "sourceTrail": [
+          {
+            "source": "MarketWatch Top Stories",
+            "url": "https://www.marketwatch.com/story/kevin-warsh-wants-fewer-press-conferences-why-thats-bad-for-the-economy-and-your-money-e9b0bd55?mod=mw_rss_topstories",
+            "publishedAt": "2026-07-10T13:06:00.000Z",
+            "fetchedAt": "2026-07-10T13:31:25.109Z",
+            "feedId": "marketwatch-top-stories",
+            "evidenceType": "reported"
+          }
+        ]
+      },
+      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "Source detail (MarketWatch Top Stories): The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency. The markets news matters because it changes the read on Rates and Cost of Capital: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The story changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to Rates and Cost of Capital. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": null,
+      "relatedLinks": [],
+      "storyline": {
+        "id": "rates-inflation-cost-of-capital",
+        "name": "Rates and cost of capital",
+        "threshold": 3
+      },
+      "concepts": [
+        "fed"
+      ],
+      "continuity": {
+        "previousDate": "2026-07-02",
+        "previousTitle": "Employment Situation Summary",
+        "previousUrl": "issues/2026-07-02.html",
+        "whatChanged": "This updates the rates and cost of capital thread from 2026-07-02. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "This was selected because it links macro news to Rates and Cost of Capital and has enough source support to analyze rather than merely mention.",
+        "updatedRead": "The markets news matters because it changes the read on Rates and Cost of Capital: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+        "status": "Developing"
+      }
+    },
+    {
       "id": "marketwatch-top-stories-4c10c594",
       "title": "Slumping AI stocks could be really good news for your nontech holdings, says market strategist",
       "editorialLane": "markets",
@@ -388,7 +516,7 @@
           "source": "MarketWatch Top Stories",
           "url": "https://www.marketwatch.com/story/slumping-ai-stocks-could-be-really-good-news-for-your-nontech-holdings-says-market-strategist-561942a7?mod=mw_rss_topstories",
           "publishedAt": "2026-07-10T11:59:00.000Z",
-          "fetchedAt": "2026-07-10T12:00:57.707Z",
+          "fetchedAt": "2026-07-10T13:31:25.109Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
@@ -402,9 +530,9 @@
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "score": 40
+        "score": 38
       },
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "FRESH",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
@@ -444,7 +572,7 @@
             "source": "MarketWatch Top Stories",
             "url": "https://www.marketwatch.com/story/slumping-ai-stocks-could-be-really-good-news-for-your-nontech-holdings-says-market-strategist-561942a7?mod=mw_rss_topstories",
             "publishedAt": "2026-07-10T11:59:00.000Z",
-            "fetchedAt": "2026-07-10T12:00:57.707Z",
+            "fetchedAt": "2026-07-10T13:31:25.109Z",
             "feedId": "marketwatch-top-stories",
             "evidenceType": "reported"
           }
@@ -491,668 +619,6 @@
       "concepts": [
         "ai"
       ]
-    },
-    {
-      "id": "marketwatch-top-stories-ac5b1c9",
-      "title": "As AI spending concerns grow, here’s the bet to make ahead of critical stress test, says veteran Jefferies strategist",
-      "editorialLane": "markets",
-      "editorialLaneLabel": "Markets",
-      "privateMarketSegment": null,
-      "sourceTrail": [
-        {
-          "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/as-ai-spending-concerns-grow-heres-the-bet-to-make-ahead-of-critical-stress-test-says-veteran-jefferies-strategist-4503ba4f?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T09:31:00.000Z",
-          "fetchedAt": "2026-07-10T12:00:57.707Z",
-          "feedId": "marketwatch-top-stories",
-          "evidenceType": "reported"
-        }
-      ],
-      "storyCluster": {
-        "id": "story-as-ai-strategist-jefferies-concerns-critical",
-        "title": "As AI spending concerns grow, here’s the bet to make ahead of critical stress test, says veteran Jefferies strategist",
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "score": 38
-      },
-      "freshnessStatus": "FRESH",
-      "confidence": "Medium",
-      "editorialArticle": {
-        "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
-        "dek": "The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: Pick and shovel stocks benefit from hyperscaler capex upfront, while those spending the money must wait years to find out if there will be a..",
-        "body": [
-          "The mechanism runs through leadership and scarcity. The reported fact is Pick and shovel stocks benefit from hyperscaler capex upfront, while those spending the money must wait years to find out if there will be a return on their investments. Investors pay up when an asset looks hard to replicate, margins can survive scrutiny, and the funding market believes the story is strong enough to finance weaker periods.",
-          "In a banking answer, separate price action from capital-markets evidence. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. Strong scarcity assets may get funded, while weaker copycats still struggle.",
-          "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
-        ],
-        "bankerSidebar": {
-          "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
-          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
-        }
-      },
-      "summary": "Pick and shovel stocks benefit from hyperscaler capex upfront, while those spending the money must wait years to find out if there will be a return on their investments The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerSummary": "Pick and shovel stocks benefit from hyperscaler capex upfront, while those spending the money must wait years to find out if there will be a return on their investments The market read is how investors are repricing the story, not just that the headline happened.",
-      "readerDek": "Pick and shovel stocks benefit from hyperscaler capex upfront, while those spending the money must wait years to find out if there will be a return on their investments The read-through runs through leadership, earnings confidence and risk appetite.",
-      "editorialThesis": "As AI spending concerns grow, here’s the bet to make ahead of critical stress test, says veteran Jefferies strategist is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
-      "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
-      "interviewLine": "Lead with the fact, then connect it to leadership, earnings confidence and risk appetite. Watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
-      "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
-      "whatChangedToday": "Pick and shovel stocks benefit from hyperscaler capex upfront, while those spending the money must wait years to find out if there will be a return on their investments The story changes sector leadership, company valuation, and the peer read-through.",
-      "whatHappened": "Pick and shovel stocks benefit from hyperscaler capex upfront, while those spending the money must wait years to find out if there will be a return on their investments",
-      "whatMoved": "The story changes sector leadership, company valuation, and the peer read-through.",
-      "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
-      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
-      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
-      "sectorReadThrough": "Connects to AI Infrastructure.",
-      "parallel": {
-        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
-        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
-        "whatRhymes": "The current story shows demand spreading across the value chain.",
-        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
-        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
-        "sourceTrail": [
-          {
-            "source": "MarketWatch Top Stories",
-            "url": "https://www.marketwatch.com/story/as-ai-spending-concerns-grow-heres-the-bet-to-make-ahead-of-critical-stress-test-says-veteran-jefferies-strategist-4503ba4f?mod=mw_rss_topstories",
-            "publishedAt": "2026-07-10T09:31:00.000Z",
-            "fetchedAt": "2026-07-10T12:00:57.707Z",
-            "feedId": "marketwatch-top-stories",
-            "evidenceType": "reported"
-          }
-        ]
-      },
-      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
-      "longform": {
-        "sections": [
-          {
-            "id": "takeaway",
-            "heading": "Plain-English takeaway",
-            "body": "Source detail (MarketWatch Top Stories): Pick and shovel stocks benefit from hyperscaler capex upfront, while those spending the money must wait years to find out if there will be a return on their investments The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
-          },
-          {
-            "id": "tape",
-            "heading": "What moved and what it suggests",
-            "body": "The story changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: Pick and shovel stocks benefit from hyperscaler capex upfront, while those spending the money must wait years to find out if there will be a return on their investments"
-          },
-          {
-            "id": "mechanism",
-            "heading": "Mechanism behind the move",
-            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
-          },
-          {
-            "id": "interpretation",
-            "heading": "What the market may be pricing in right or wrong",
-            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
-          },
-          {
-            "id": "parallel",
-            "heading": "Relevant comparison",
-            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
-          },
-          {
-            "id": "watch-next",
-            "heading": "What to watch next",
-            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
-          }
-        ]
-      },
-      "visual": {
-        "type": "line-chart",
-        "title": "Stock reaction",
-        "subtitle": "Public market-data context for the company/peer move.",
-        "relevanceNote": "This chart belongs here because the core question is how the market repriced the company and its closest read-through peer.",
-        "allowedPages": [
-          "markets",
-          "deep-dive"
-        ],
-        "axisTitle": "Price",
-        "axisSuffix": "",
-        "visualSource": "Public market data",
-        "series": [
-          {
-            "id": "DELL",
-            "label": "Dell Technologies",
-            "source": "Yahoo Finance public chart data",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?range=3mo&interval=1d",
-            "yahooSymbol": "DELL",
-            "stooqSymbol": "dell.us",
-            "fetchedAt": "2026-07-10T12:01:00.366Z",
-            "observations": [
-              {
-                "date": "2026-04-10",
-                "value": 177.8000030517578
-              },
-              {
-                "date": "2026-04-13",
-                "value": 189.7899932861328
-              },
-              {
-                "date": "2026-04-14",
-                "value": 184.50999450683594
-              },
-              {
-                "date": "2026-04-15",
-                "value": 177.27999877929688
-              },
-              {
-                "date": "2026-04-16",
-                "value": 193.08999633789062
-              },
-              {
-                "date": "2026-04-17",
-                "value": 196.5500030517578
-              },
-              {
-                "date": "2026-04-20",
-                "value": 204.24000549316406
-              },
-              {
-                "date": "2026-04-21",
-                "value": 212.36000061035156
-              },
-              {
-                "date": "2026-04-22",
-                "value": 214.64999389648438
-              },
-              {
-                "date": "2026-04-23",
-                "value": 212.13999938964844
-              },
-              {
-                "date": "2026-04-24",
-                "value": 216.08999633789062
-              },
-              {
-                "date": "2026-04-27",
-                "value": 215.97000122070312
-              },
-              {
-                "date": "2026-04-28",
-                "value": 205.92999267578125
-              },
-              {
-                "date": "2026-04-29",
-                "value": 205.66000366210938
-              },
-              {
-                "date": "2026-04-30",
-                "value": 208.9499969482422
-              },
-              {
-                "date": "2026-05-01",
-                "value": 210.1699981689453
-              },
-              {
-                "date": "2026-05-04",
-                "value": 211.63999938964844
-              },
-              {
-                "date": "2026-05-05",
-                "value": 216.32000732421875
-              },
-              {
-                "date": "2026-05-06",
-                "value": 238.8000030517578
-              },
-              {
-                "date": "2026-05-07",
-                "value": 230.27000427246094
-              },
-              {
-                "date": "2026-05-08",
-                "value": 260.4599914550781
-              },
-              {
-                "date": "2026-05-11",
-                "value": 247.0399932861328
-              },
-              {
-                "date": "2026-05-12",
-                "value": 238.94000244140625
-              },
-              {
-                "date": "2026-05-13",
-                "value": 243.8699951171875
-              },
-              {
-                "date": "2026-05-14",
-                "value": 247.88999938964844
-              },
-              {
-                "date": "2026-05-15",
-                "value": 241.99000549316406
-              },
-              {
-                "date": "2026-05-18",
-                "value": 238.02999877929688
-              },
-              {
-                "date": "2026-05-19",
-                "value": 235.25999450683594
-              },
-              {
-                "date": "2026-05-20",
-                "value": 242.92999267578125
-              },
-              {
-                "date": "2026-05-21",
-                "value": 252.8000030517578
-              },
-              {
-                "date": "2026-05-22",
-                "value": 295.19000244140625
-              },
-              {
-                "date": "2026-05-26",
-                "value": 305.0799865722656
-              },
-              {
-                "date": "2026-05-27",
-                "value": 305.32000732421875
-              },
-              {
-                "date": "2026-05-28",
-                "value": 317.04998779296875
-              },
-              {
-                "date": "2026-05-29",
-                "value": 420.9100036621094
-              },
-              {
-                "date": "2026-06-01",
-                "value": 465.9599914550781
-              },
-              {
-                "date": "2026-06-02",
-                "value": 435.30999755859375
-              },
-              {
-                "date": "2026-06-03",
-                "value": 421.0799865722656
-              },
-              {
-                "date": "2026-06-04",
-                "value": 422.04998779296875
-              },
-              {
-                "date": "2026-06-05",
-                "value": 394.3900146484375
-              },
-              {
-                "date": "2026-06-08",
-                "value": 400.7699890136719
-              },
-              {
-                "date": "2026-06-09",
-                "value": 381.7799987792969
-              },
-              {
-                "date": "2026-06-10",
-                "value": 369.8299865722656
-              },
-              {
-                "date": "2026-06-11",
-                "value": 391.45001220703125
-              },
-              {
-                "date": "2026-06-12",
-                "value": 395.57000732421875
-              },
-              {
-                "date": "2026-06-15",
-                "value": 409.07000732421875
-              },
-              {
-                "date": "2026-06-16",
-                "value": 404.0799865722656
-              },
-              {
-                "date": "2026-06-17",
-                "value": 419.32000732421875
-              },
-              {
-                "date": "2026-06-18",
-                "value": 409.5
-              },
-              {
-                "date": "2026-06-22",
-                "value": 418.7099914550781
-              },
-              {
-                "date": "2026-06-23",
-                "value": 427.7799987792969
-              },
-              {
-                "date": "2026-06-24",
-                "value": 434.05999755859375
-              },
-              {
-                "date": "2026-06-25",
-                "value": 409.45001220703125
-              },
-              {
-                "date": "2026-06-26",
-                "value": 399.489990234375
-              },
-              {
-                "date": "2026-06-29",
-                "value": 414.6099853515625
-              },
-              {
-                "date": "2026-06-30",
-                "value": 431.4599914550781
-              },
-              {
-                "date": "2026-07-01",
-                "value": 425.25
-              },
-              {
-                "date": "2026-07-02",
-                "value": 394.32000732421875
-              },
-              {
-                "date": "2026-07-06",
-                "value": 411.79998779296875
-              },
-              {
-                "date": "2026-07-07",
-                "value": 417.2799987792969
-              },
-              {
-                "date": "2026-07-08",
-                "value": 431.9700012207031
-              },
-              {
-                "date": "2026-07-09",
-                "value": 450.2200012207031
-              }
-            ]
-          },
-          {
-            "id": "NVDA",
-            "label": "Nvidia",
-            "source": "Yahoo Finance public chart data",
-            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d",
-            "yahooSymbol": "NVDA",
-            "stooqSymbol": "nvda.us",
-            "fetchedAt": "2026-07-10T12:01:00.464Z",
-            "observations": [
-              {
-                "date": "2026-04-10",
-                "value": 188.6300048828125
-              },
-              {
-                "date": "2026-04-13",
-                "value": 189.30999755859375
-              },
-              {
-                "date": "2026-04-14",
-                "value": 196.50999450683594
-              },
-              {
-                "date": "2026-04-15",
-                "value": 198.8699951171875
-              },
-              {
-                "date": "2026-04-16",
-                "value": 198.35000610351562
-              },
-              {
-                "date": "2026-04-17",
-                "value": 201.67999267578125
-              },
-              {
-                "date": "2026-04-20",
-                "value": 202.05999755859375
-              },
-              {
-                "date": "2026-04-21",
-                "value": 199.8800048828125
-              },
-              {
-                "date": "2026-04-22",
-                "value": 202.5
-              },
-              {
-                "date": "2026-04-23",
-                "value": 199.63999938964844
-              },
-              {
-                "date": "2026-04-24",
-                "value": 208.27000427246094
-              },
-              {
-                "date": "2026-04-27",
-                "value": 216.61000061035156
-              },
-              {
-                "date": "2026-04-28",
-                "value": 213.1699981689453
-              },
-              {
-                "date": "2026-04-29",
-                "value": 209.25
-              },
-              {
-                "date": "2026-04-30",
-                "value": 199.57000732421875
-              },
-              {
-                "date": "2026-05-01",
-                "value": 198.4499969482422
-              },
-              {
-                "date": "2026-05-04",
-                "value": 198.47999572753906
-              },
-              {
-                "date": "2026-05-05",
-                "value": 196.5
-              },
-              {
-                "date": "2026-05-06",
-                "value": 207.8300018310547
-              },
-              {
-                "date": "2026-05-07",
-                "value": 211.5
-              },
-              {
-                "date": "2026-05-08",
-                "value": 215.1999969482422
-              },
-              {
-                "date": "2026-05-11",
-                "value": 219.44000244140625
-              },
-              {
-                "date": "2026-05-12",
-                "value": 220.77999877929688
-              },
-              {
-                "date": "2026-05-13",
-                "value": 225.8300018310547
-              },
-              {
-                "date": "2026-05-14",
-                "value": 235.74000549316406
-              },
-              {
-                "date": "2026-05-15",
-                "value": 225.32000732421875
-              },
-              {
-                "date": "2026-05-18",
-                "value": 222.32000732421875
-              },
-              {
-                "date": "2026-05-19",
-                "value": 220.61000061035156
-              },
-              {
-                "date": "2026-05-20",
-                "value": 223.47000122070312
-              },
-              {
-                "date": "2026-05-21",
-                "value": 219.50999450683594
-              },
-              {
-                "date": "2026-05-22",
-                "value": 215.3300018310547
-              },
-              {
-                "date": "2026-05-26",
-                "value": 214.86000061035156
-              },
-              {
-                "date": "2026-05-27",
-                "value": 212.60000610351562
-              },
-              {
-                "date": "2026-05-28",
-                "value": 214.25
-              },
-              {
-                "date": "2026-05-29",
-                "value": 211.13999938964844
-              },
-              {
-                "date": "2026-06-01",
-                "value": 224.36000061035156
-              },
-              {
-                "date": "2026-06-02",
-                "value": 222.82000732421875
-              },
-              {
-                "date": "2026-06-03",
-                "value": 214.75
-              },
-              {
-                "date": "2026-06-04",
-                "value": 218.66000366210938
-              },
-              {
-                "date": "2026-06-05",
-                "value": 205.10000610351562
-              },
-              {
-                "date": "2026-06-08",
-                "value": 208.63999938964844
-              },
-              {
-                "date": "2026-06-09",
-                "value": 208.19000244140625
-              },
-              {
-                "date": "2026-06-10",
-                "value": 200.4199981689453
-              },
-              {
-                "date": "2026-06-11",
-                "value": 204.8699951171875
-              },
-              {
-                "date": "2026-06-12",
-                "value": 205.19000244140625
-              },
-              {
-                "date": "2026-06-15",
-                "value": 212.4499969482422
-              },
-              {
-                "date": "2026-06-16",
-                "value": 207.41000366210938
-              },
-              {
-                "date": "2026-06-17",
-                "value": 204.64999389648438
-              },
-              {
-                "date": "2026-06-18",
-                "value": 210.69000244140625
-              },
-              {
-                "date": "2026-06-22",
-                "value": 208.64999389648438
-              },
-              {
-                "date": "2026-06-23",
-                "value": 200.0399932861328
-              },
-              {
-                "date": "2026-06-24",
-                "value": 199
-              },
-              {
-                "date": "2026-06-25",
-                "value": 195.74000549316406
-              },
-              {
-                "date": "2026-06-26",
-                "value": 192.52999877929688
-              },
-              {
-                "date": "2026-06-29",
-                "value": 194.97000122070312
-              },
-              {
-                "date": "2026-06-30",
-                "value": 200.08999633789062
-              },
-              {
-                "date": "2026-07-01",
-                "value": 197.5800018310547
-              },
-              {
-                "date": "2026-07-02",
-                "value": 194.8300018310547
-              },
-              {
-                "date": "2026-07-06",
-                "value": 195.5500030517578
-              },
-              {
-                "date": "2026-07-07",
-                "value": 196.92999267578125
-              },
-              {
-                "date": "2026-07-08",
-                "value": 204.1199951171875
-              },
-              {
-                "date": "2026-07-09",
-                "value": 202.77999877929688
-              }
-            ]
-          }
-        ],
-        "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
-      },
-      "relatedLinks": [],
-      "storyline": {
-        "id": "ai-infrastructure-dell-servers",
-        "name": "AI infrastructure buildout",
-        "threshold": 2
-      },
-      "concepts": [
-        "ai",
-        "capex"
-      ],
-      "continuity": {
-        "previousDate": "2026-07-02",
-        "previousTitle": "Blackstone (BX) Sells Northern Virginia Data Centers In $3.5 Billion Digital Realty Deal",
-        "previousUrl": "issues/2026-07-02.html",
-        "whatChanged": "This updates the ai infrastructure buildout thread from 2026-07-02. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
-        "priorRead": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
-        "updatedRead": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
-        "status": "Developing"
-      }
     }
   ]
 }

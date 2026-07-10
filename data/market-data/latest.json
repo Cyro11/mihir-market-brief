@@ -1,209 +1,139 @@
 {
   "runDate": "2026-07-10",
-  "fetchedAt": "2026-07-10T12:01:18.358Z",
+  "fetchedAt": "2026-07-10T13:33:07.602Z",
   "sourceNote": "Numeric market visuals use public FRED CSV downloads and preserve source links.",
   "marketSourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data.",
   "openbbMarketPack": {
     "runDate": "2026-07-10",
-    "fetchedAt": "2026-07-10T12:01:17.541418+00:00",
+    "fetchedAt": "2026-07-10T13:33:06.750033+00:00",
     "provider": "OpenBB equity.price.historical(provider='yfinance')",
     "sourceNote": "OpenBB market pack uses Yahoo Finance through OpenBB as market context, not live trading data or investment advice.",
     "indices": [
       {
         "symbol": "SPY",
         "label": "S&P 500",
-        "latestDate": "2026-07-09",
-        "lastClose": 751.71,
-        "oneDayPct": 0.85,
-        "fiveDayPct": 0.8,
-        "oneMonthPct": 1.69,
-        "ytdPct": 10.03,
-        "volume": 41375900,
-        "volumeVs20DayAvg": 0.67,
+        "latestDate": "2026-07-10",
+        "lastClose": 752.5162,
+        "oneDayPct": 0.11,
+        "fiveDayPct": 1.04,
+        "oneMonthPct": 2.1,
+        "ytdPct": 10.15,
+        "volume": 1289095,
+        "volumeVs20DayAvg": 0.02,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/SPY"
-      },
-      {
-        "symbol": "QQQ",
-        "label": "Nasdaq 100",
-        "latestDate": "2026-07-09",
-        "lastClose": 723.28,
-        "oneDayPct": 1.66,
-        "fiveDayPct": -0.26,
-        "oneMonthPct": 1.01,
-        "ytdPct": 17.97,
-        "volume": 33572700,
-        "volumeVs20DayAvg": 0.67,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/QQQ"
-      },
-      {
-        "symbol": "IWM",
-        "label": "Russell 2000",
-        "latestDate": "2026-07-09",
-        "lastClose": 297.24,
-        "oneDayPct": 1.28,
-        "fiveDayPct": -0.69,
-        "oneMonthPct": 4.62,
-        "ytdPct": 19.48,
-        "volume": 16456700,
-        "volumeVs20DayAvg": 0.57,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/IWM"
-      },
-      {
-        "symbol": "DIA",
-        "label": "Dow Industrials",
-        "latestDate": "2026-07-09",
-        "lastClose": 524.19,
-        "oneDayPct": 0.27,
-        "fiveDayPct": 0.34,
-        "oneMonthPct": 3,
-        "ytdPct": 8.39,
-        "volume": 3051800,
-        "volumeVs20DayAvg": 0.59,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/DIA"
       }
     ],
     "sectors": [
       {
-        "symbol": "XLK",
-        "label": "Technology",
-        "latestDate": "2026-07-09",
-        "lastClose": 185.35,
-        "oneDayPct": 2.18,
-        "fiveDayPct": -0.15,
-        "oneMonthPct": 0.64,
-        "ytdPct": 28.45,
-        "volume": 7751900,
-        "volumeVs20DayAvg": 0.56,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLK"
-      },
-      {
-        "symbol": "XLF",
-        "label": "Financials",
-        "latestDate": "2026-07-09",
-        "lastClose": 55.54,
-        "oneDayPct": 1.04,
-        "fiveDayPct": 1.39,
-        "oneMonthPct": 6.87,
-        "ytdPct": 1.11,
-        "volume": 26526900,
-        "volumeVs20DayAvg": 0.72,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLF"
-      },
-      {
         "symbol": "XLE",
         "label": "Energy",
-        "latestDate": "2026-07-09",
-        "lastClose": 54.82,
-        "oneDayPct": -1.4,
-        "fiveDayPct": 3.81,
-        "oneMonthPct": -6.02,
-        "ytdPct": 20.09,
-        "volume": 21764200,
-        "volumeVs20DayAvg": 0.62,
+        "latestDate": "2026-07-10",
+        "lastClose": 54.99,
+        "oneDayPct": 0.31,
+        "fiveDayPct": 3.33,
+        "oneMonthPct": -4.18,
+        "ytdPct": 20.46,
+        "volume": 670086,
+        "volumeVs20DayAvg": 0.02,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLE"
       },
       {
         "symbol": "XLV",
         "label": "Health Care",
-        "latestDate": "2026-07-09",
-        "lastClose": 162.17,
-        "oneDayPct": -0.08,
-        "fiveDayPct": 1.65,
-        "oneMonthPct": 6.24,
-        "ytdPct": 4.28,
-        "volume": 9573100,
-        "volumeVs20DayAvg": 0.84,
+        "latestDate": "2026-07-10",
+        "lastClose": 161.395,
+        "oneDayPct": -0.48,
+        "fiveDayPct": -1.43,
+        "oneMonthPct": 4.42,
+        "ytdPct": 3.78,
+        "volume": 275666,
+        "volumeVs20DayAvg": 0.02,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLV"
       },
       {
         "symbol": "XLY",
         "label": "Consumer Discretionary",
-        "latestDate": "2026-07-09",
-        "lastClose": 116.85,
-        "oneDayPct": 1.34,
-        "fiveDayPct": -1.05,
-        "oneMonthPct": 1.27,
-        "ytdPct": -1.27,
-        "volume": 8521800,
-        "volumeVs20DayAvg": 0.98,
+        "latestDate": "2026-07-10",
+        "lastClose": 117.65,
+        "oneDayPct": 0.68,
+        "fiveDayPct": 0.45,
+        "oneMonthPct": 1.54,
+        "ytdPct": -0.59,
+        "volume": 122451,
+        "volumeVs20DayAvg": 0.01,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLY"
       },
       {
         "symbol": "XLP",
         "label": "Consumer Staples",
-        "latestDate": "2026-07-09",
-        "lastClose": 83.2,
-        "oneDayPct": -1.41,
-        "fiveDayPct": -0.12,
-        "oneMonthPct": 0.16,
-        "ytdPct": 7.09,
-        "volume": 11321400,
-        "volumeVs20DayAvg": 0.9,
+        "latestDate": "2026-07-10",
+        "lastClose": 83.382,
+        "oneDayPct": 0.22,
+        "fiveDayPct": -1.89,
+        "oneMonthPct": -0.85,
+        "ytdPct": 7.33,
+        "volume": 331955,
+        "volumeVs20DayAvg": 0.03,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLP"
       },
       {
         "symbol": "XLI",
         "label": "Industrials",
-        "latestDate": "2026-07-09",
-        "lastClose": 181.11,
-        "oneDayPct": 0.38,
-        "fiveDayPct": -1.23,
-        "oneMonthPct": 4.31,
-        "ytdPct": 14.64,
-        "volume": 5381000,
-        "volumeVs20DayAvg": 0.64,
+        "latestDate": "2026-07-10",
+        "lastClose": 180.87,
+        "oneDayPct": -0.13,
+        "fiveDayPct": -1.65,
+        "oneMonthPct": 3,
+        "ytdPct": 14.49,
+        "volume": 255398,
+        "volumeVs20DayAvg": 0.03,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLI"
       },
       {
         "symbol": "XLU",
         "label": "Utilities",
-        "latestDate": "2026-07-09",
-        "lastClose": 45.13,
-        "oneDayPct": -0.51,
-        "fiveDayPct": 0.8,
-        "oneMonthPct": 3.7,
-        "ytdPct": 4.52,
-        "volume": 19662200,
-        "volumeVs20DayAvg": 0.95,
+        "latestDate": "2026-07-10",
+        "lastClose": 45.24,
+        "oneDayPct": 0.24,
+        "fiveDayPct": -1.14,
+        "oneMonthPct": 2.86,
+        "ytdPct": 4.77,
+        "volume": 328870,
+        "volumeVs20DayAvg": 0.02,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLU"
       },
       {
         "symbol": "XLB",
         "label": "Materials",
-        "latestDate": "2026-07-09",
-        "lastClose": 50.26,
-        "oneDayPct": 0.2,
-        "fiveDayPct": -1.49,
-        "oneMonthPct": 0.6,
-        "ytdPct": 8.98,
-        "volume": 10529400,
-        "volumeVs20DayAvg": 0.85,
+        "latestDate": "2026-07-10",
+        "lastClose": 50.51,
+        "oneDayPct": 0.5,
+        "fiveDayPct": -2.88,
+        "oneMonthPct": -0.51,
+        "ytdPct": 9.52,
+        "volume": 520908,
+        "volumeVs20DayAvg": 0.04,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLB"
       },
       {
         "symbol": "XLRE",
         "label": "Real Estate",
-        "latestDate": "2026-07-09",
-        "lastClose": 44.23,
-        "oneDayPct": 0.18,
-        "fiveDayPct": 0.11,
-        "oneMonthPct": 0.45,
-        "ytdPct": 9.53,
-        "volume": 2959200,
-        "volumeVs20DayAvg": 0.52,
+        "latestDate": "2026-07-10",
+        "lastClose": 44.52,
+        "oneDayPct": 0.66,
+        "fiveDayPct": -0.36,
+        "oneMonthPct": -1,
+        "ytdPct": 10.25,
+        "volume": 252438,
+        "volumeVs20DayAvg": 0.05,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLRE"
       }
@@ -212,275 +142,261 @@
       {
         "symbol": "META",
         "label": "Meta",
-        "latestDate": "2026-07-09",
-        "lastClose": 631.48,
-        "oneDayPct": 4.7,
-        "fiveDayPct": 3.03,
-        "oneMonthPct": 7.87,
-        "ytdPct": -2.91,
-        "volume": 26214300,
-        "volumeVs20DayAvg": 1.41,
+        "latestDate": "2026-07-10",
+        "lastClose": 674.22,
+        "oneDayPct": 6.77,
+        "fiveDayPct": 15.67,
+        "oneMonthPct": 15.33,
+        "ytdPct": 3.66,
+        "volume": 4979918,
+        "volumeVs20DayAvg": 0.26,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/META"
       },
       {
-        "symbol": "KKR",
-        "label": "KKR",
-        "latestDate": "2026-07-09",
-        "lastClose": 96.27,
-        "oneDayPct": 3.18,
-        "fiveDayPct": 4.01,
-        "oneMonthPct": 3.28,
-        "ytdPct": -25.31,
-        "volume": 3068000,
-        "volumeVs20DayAvg": 0.65,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/KKR"
-      },
-      {
-        "symbol": "TSLA",
-        "label": "Tesla",
-        "latestDate": "2026-07-09",
-        "lastClose": 406.55,
-        "oneDayPct": 3.17,
-        "fiveDayPct": -4.41,
-        "oneMonthPct": -0.59,
-        "ytdPct": -7.2,
-        "volume": 37724300,
-        "volumeVs20DayAvg": 0.78,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/TSLA"
-      },
-      {
-        "symbol": "BX",
-        "label": "Blackstone",
-        "latestDate": "2026-07-09",
-        "lastClose": 122.15,
-        "oneDayPct": 2.98,
-        "fiveDayPct": 2.17,
-        "oneMonthPct": 6.97,
-        "ytdPct": -23.08,
-        "volume": 4327400,
-        "volumeVs20DayAvg": 0.82,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/BX"
-      },
-      {
-        "symbol": "XOM",
-        "label": "Exxon Mobil",
-        "latestDate": "2026-07-09",
-        "lastClose": 137.46,
-        "oneDayPct": -2.6,
-        "fiveDayPct": 0.87,
-        "oneMonthPct": -9.42,
-        "ytdPct": 12.08,
-        "volume": 14099600,
-        "volumeVs20DayAvg": 0.76,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XOM"
-      },
-      {
-        "symbol": "GS",
-        "label": "Goldman Sachs",
-        "latestDate": "2026-07-09",
-        "lastClose": 1055.97,
-        "oneDayPct": 2.56,
-        "fiveDayPct": 3.57,
-        "oneMonthPct": 1.05,
-        "ytdPct": 15.49,
-        "volume": 1241800,
-        "volumeVs20DayAvg": 0.54,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/GS"
-      },
-      {
-        "symbol": "BAC",
-        "label": "Bank of America",
-        "latestDate": "2026-07-09",
-        "lastClose": 59.25,
-        "oneDayPct": 1.63,
-        "fiveDayPct": 1.53,
-        "oneMonthPct": 10.48,
-        "ytdPct": 5.9,
-        "volume": 29200700,
-        "volumeVs20DayAvg": 0.81,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/BAC"
-      },
-      {
-        "symbol": "JPM",
-        "label": "JPMorgan",
-        "latestDate": "2026-07-09",
-        "lastClose": 335.47,
-        "oneDayPct": 1.47,
-        "fiveDayPct": 0.42,
-        "oneMonthPct": 7.83,
-        "ytdPct": 3.07,
-        "volume": 15569700,
-        "volumeVs20DayAvg": 1.45,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/JPM"
-      },
-      {
-        "symbol": "APO",
-        "label": "Apollo",
-        "latestDate": "2026-07-09",
-        "lastClose": 119.84,
-        "oneDayPct": 1.44,
-        "fiveDayPct": 1.18,
-        "oneMonthPct": -6.06,
-        "ytdPct": -18.26,
-        "volume": 3136500,
-        "volumeVs20DayAvg": 0.64,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/APO"
-      },
-      {
-        "symbol": "AMZN",
-        "label": "Amazon",
-        "latestDate": "2026-07-09",
-        "lastClose": 247.04,
-        "oneDayPct": 1.4,
-        "fiveDayPct": 2.21,
-        "oneMonthPct": 0.74,
-        "ytdPct": 9.07,
-        "volume": 38030100,
-        "volumeVs20DayAvg": 0.61,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/AMZN"
-      },
-      {
-        "symbol": "CVX",
-        "label": "Chevron",
-        "latestDate": "2026-07-09",
-        "lastClose": 174.05,
-        "oneDayPct": -1.09,
-        "fiveDayPct": 5.05,
-        "oneMonthPct": -8.03,
-        "ytdPct": 11.64,
-        "volume": 6577700,
-        "volumeVs20DayAvg": 0.64,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/CVX"
-      },
-      {
-        "symbol": "AAPL",
-        "label": "Apple",
-        "latestDate": "2026-07-09",
-        "lastClose": 316.22,
-        "oneDayPct": 0.9,
-        "fiveDayPct": 7.42,
-        "oneMonthPct": 4.87,
-        "ytdPct": 16.68,
-        "volume": 48084300,
-        "volumeVs20DayAvg": 0.72,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/AAPL"
-      },
-      {
-        "symbol": "GOOGL",
-        "label": "Alphabet",
-        "latestDate": "2026-07-09",
-        "lastClose": 358.89,
-        "oneDayPct": -0.84,
-        "fiveDayPct": -0.64,
-        "oneMonthPct": -1.22,
-        "ytdPct": 13.88,
-        "volume": 24689200,
-        "volumeVs20DayAvg": 0.68,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/GOOGL"
-      },
-      {
-        "symbol": "NVDA",
-        "label": "Nvidia",
-        "latestDate": "2026-07-09",
-        "lastClose": 202.78,
-        "oneDayPct": -0.66,
-        "fiveDayPct": 2.63,
-        "oneMonthPct": -2.81,
-        "ytdPct": 7.38,
-        "volume": 131649500,
-        "volumeVs20DayAvg": 0.88,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/NVDA"
-      },
-      {
-        "symbol": "OWL",
-        "label": "Blue Owl",
-        "latestDate": "2026-07-09",
-        "lastClose": 9.3,
-        "oneDayPct": 0.65,
-        "fiveDayPct": 7.64,
-        "oneMonthPct": -1.27,
-        "ytdPct": -39.26,
-        "volume": 13982500,
-        "volumeVs20DayAvg": 0.61,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/OWL"
-      },
-      {
         "symbol": "COIN",
         "label": "Coinbase",
-        "latestDate": "2026-07-09",
-        "lastClose": 158.44,
-        "oneDayPct": -0.58,
-        "fiveDayPct": -0.5,
-        "oneMonthPct": -2.26,
-        "ytdPct": -33.01,
-        "volume": 4739600,
-        "volumeVs20DayAvg": 0.59,
+        "latestDate": "2026-07-10",
+        "lastClose": 166.8,
+        "oneDayPct": 5.28,
+        "fiveDayPct": 0.8,
+        "oneMonthPct": 7.27,
+        "ytdPct": -29.48,
+        "volume": 754412,
+        "volumeVs20DayAvg": 0.1,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/COIN"
       },
       {
+        "symbol": "MSTR",
+        "label": "Strategy",
+        "latestDate": "2026-07-10",
+        "lastClose": 98.275,
+        "oneDayPct": 4.67,
+        "fiveDayPct": -2.48,
+        "oneMonthPct": -16.02,
+        "ytdPct": -37.47,
+        "volume": 1910638,
+        "volumeVs20DayAvg": 0.07,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/MSTR"
+      },
+      {
+        "symbol": "KKR",
+        "label": "KKR",
+        "latestDate": "2026-07-10",
+        "lastClose": 98.51,
+        "oneDayPct": 2.33,
+        "fiveDayPct": 4.98,
+        "oneMonthPct": 2.79,
+        "ytdPct": -23.58,
+        "volume": 134484,
+        "volumeVs20DayAvg": 0.03,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/KKR"
+      },
+      {
+        "symbol": "BX",
+        "label": "Blackstone",
+        "latestDate": "2026-07-10",
+        "lastClose": 124.92,
+        "oneDayPct": 2.27,
+        "fiveDayPct": 1.74,
+        "oneMonthPct": 3.85,
+        "ytdPct": -21.34,
+        "volume": 97300,
+        "volumeVs20DayAvg": 0.02,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/BX"
+      },
+      {
+        "symbol": "OWL",
+        "label": "Blue Owl",
+        "latestDate": "2026-07-10",
+        "lastClose": 9.455,
+        "oneDayPct": 1.67,
+        "fiveDayPct": 4.59,
+        "oneMonthPct": -1.41,
+        "ytdPct": -38.24,
+        "volume": 584355,
+        "volumeVs20DayAvg": 0.03,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/OWL"
+      },
+      {
         "symbol": "MSFT",
         "label": "Microsoft",
-        "latestDate": "2026-07-09",
-        "lastClose": 384.36,
-        "oneDayPct": 0.27,
-        "fiveDayPct": 0.02,
-        "oneMonthPct": -6.65,
-        "ytdPct": -18.73,
-        "volume": 31033500,
-        "volumeVs20DayAvg": 0.64,
+        "latestDate": "2026-07-10",
+        "lastClose": 389.56,
+        "oneDayPct": 1.35,
+        "fiveDayPct": -0.24,
+        "oneMonthPct": -3.43,
+        "ytdPct": -17.63,
+        "volume": 1483715,
+        "volumeVs20DayAvg": 0.03,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/MSFT"
       },
       {
+        "symbol": "AMZN",
+        "label": "Amazon",
+        "latestDate": "2026-07-10",
+        "lastClose": 250.16,
+        "oneDayPct": 1.26,
+        "fiveDayPct": 3.09,
+        "oneMonthPct": 2.44,
+        "ytdPct": 10.45,
+        "volume": 2258912,
+        "volumeVs20DayAvg": 0.04,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/AMZN"
+      },
+      {
         "symbol": "ARCC",
         "label": "Ares Capital",
-        "latestDate": "2026-07-09",
-        "lastClose": 18.41,
-        "oneDayPct": 0.16,
-        "fiveDayPct": -1.34,
-        "oneMonthPct": -1.92,
-        "ytdPct": -9.93,
-        "volume": 4786700,
-        "volumeVs20DayAvg": 0.88,
+        "latestDate": "2026-07-10",
+        "lastClose": 18.59,
+        "oneDayPct": 0.98,
+        "fiveDayPct": -0.75,
+        "oneMonthPct": -2.31,
+        "ytdPct": -9.05,
+        "volume": 104517,
+        "volumeVs20DayAvg": 0.02,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/ARCC"
       },
       {
-        "symbol": "MSTR",
-        "label": "Strategy",
-        "latestDate": "2026-07-09",
-        "lastClose": 93.89,
-        "oneDayPct": 0.02,
-        "fiveDayPct": 0.54,
-        "oneMonthPct": -26.19,
-        "ytdPct": -40.26,
-        "volume": 13737900,
-        "volumeVs20DayAvg": 0.49,
+        "symbol": "GOOGL",
+        "label": "Alphabet",
+        "latestDate": "2026-07-10",
+        "lastClose": 355.4,
+        "oneDayPct": -0.97,
+        "fiveDayPct": -1.25,
+        "oneMonthPct": -2.43,
+        "ytdPct": 12.77,
+        "volume": 1183316,
+        "volumeVs20DayAvg": 0.03,
         "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/MSTR"
+        "url": "https://finance.yahoo.com/quote/GOOGL"
+      },
+      {
+        "symbol": "AAPL",
+        "label": "Apple",
+        "latestDate": "2026-07-10",
+        "lastClose": 313.52,
+        "oneDayPct": -0.85,
+        "fiveDayPct": 1.58,
+        "oneMonthPct": 7.91,
+        "ytdPct": 15.69,
+        "volume": 1415008,
+        "volumeVs20DayAvg": 0.02,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/AAPL"
+      },
+      {
+        "symbol": "TSLA",
+        "label": "Tesla",
+        "latestDate": "2026-07-10",
+        "lastClose": 410.0225,
+        "oneDayPct": 0.85,
+        "fiveDayPct": 4.21,
+        "oneMonthPct": 3.36,
+        "ytdPct": -6.4,
+        "volume": 1686187,
+        "volumeVs20DayAvg": 0.04,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/TSLA"
+      },
+      {
+        "symbol": "APO",
+        "label": "Apollo",
+        "latestDate": "2026-07-10",
+        "lastClose": 120.75,
+        "oneDayPct": 0.76,
+        "fiveDayPct": 1.8,
+        "oneMonthPct": -9.01,
+        "ytdPct": -17.64,
+        "volume": 130871,
+        "volumeVs20DayAvg": 0.03,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/APO"
+      },
+      {
+        "symbol": "BAC",
+        "label": "Bank of America",
+        "latestDate": "2026-07-10",
+        "lastClose": 59.69,
+        "oneDayPct": 0.74,
+        "fiveDayPct": 1.63,
+        "oneMonthPct": 9.68,
+        "ytdPct": 6.68,
+        "volume": 671085,
+        "volumeVs20DayAvg": 0.02,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/BAC"
+      },
+      {
+        "symbol": "NVDA",
+        "label": "Nvidia",
+        "latestDate": "2026-07-10",
+        "lastClose": 204.255,
+        "oneDayPct": 0.73,
+        "fiveDayPct": 4.84,
+        "oneMonthPct": -1.89,
+        "ytdPct": 8.16,
+        "volume": 4669455,
+        "volumeVs20DayAvg": 0.03,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/NVDA"
+      },
+      {
+        "symbol": "GS",
+        "label": "Goldman Sachs",
+        "latestDate": "2026-07-10",
+        "lastClose": 1061.7601,
+        "oneDayPct": 0.55,
+        "fiveDayPct": 3.99,
+        "oneMonthPct": 2.88,
+        "ytdPct": 16.12,
+        "volume": 37186,
+        "volumeVs20DayAvg": 0.02,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/GS"
+      },
+      {
+        "symbol": "CVX",
+        "label": "Chevron",
+        "latestDate": "2026-07-10",
+        "lastClose": 174.94,
+        "oneDayPct": 0.51,
+        "fiveDayPct": 3.39,
+        "oneMonthPct": -6.33,
+        "ytdPct": 12.21,
+        "volume": 207951,
+        "volumeVs20DayAvg": 0.02,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/CVX"
+      },
+      {
+        "symbol": "XOM",
+        "label": "Exxon Mobil",
+        "latestDate": "2026-07-10",
+        "lastClose": 137.79,
+        "oneDayPct": 0.24,
+        "fiveDayPct": 0.51,
+        "oneMonthPct": -7.47,
+        "ytdPct": 12.34,
+        "volume": 74103,
+        "volumeVs20DayAvg": 0,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XOM"
       }
     ],
     "summary": {
-      "headline": "Risk-on growth tape: large-cap growth is leading the broad market. Sector leadership: Technology led at +2.18%, while Consumer Staples lagged at -1.41%.",
-      "riskTone": "Risk-on growth tape: large-cap growth is leading the broad market.",
-      "leadership": "Sector leadership: Technology led at +2.18%, while Consumer Staples lagged at -1.41%.",
-      "movers": "Watchlist extremes: META +4.70% vs. XOM -2.60%.",
+      "headline": "Balanced tape: index moves are not showing a clean one-factor leadership signal. Sector leadership: Consumer Discretionary led at +0.68%, while Health Care lagged at -0.48%.",
+      "riskTone": "Balanced tape: index moves are not showing a clean one-factor leadership signal.",
+      "leadership": "Sector leadership: Consumer Discretionary led at +0.68%, while Health Care lagged at -0.48%.",
+      "movers": "Watchlist extremes: META +6.77% vs. GOOGL -0.97%.",
       "watchNext": "Check whether leadership broadens beyond the first index/sector leaders, and whether watchlist volume confirms the price move."
     },
     "sourceTrail": [
@@ -493,7 +409,32 @@
         "url": "https://finance.yahoo.com/"
       }
     ],
-    "failures": []
+    "failures": [
+      {
+        "id": "QQQ",
+        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+      },
+      {
+        "id": "IWM",
+        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+      },
+      {
+        "id": "DIA",
+        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+      },
+      {
+        "id": "XLK",
+        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+      },
+      {
+        "id": "XLF",
+        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+      },
+      {
+        "id": "JPM",
+        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+      }
+    ]
   },
   "series": [
     {
@@ -501,7 +442,7 @@
       "label": "10-Year Treasury Yield",
       "source": "FRED / U.S. Treasury",
       "url": "https://fred.stlouisfed.org/series/DGS10",
-      "fetchedAt": "2026-07-10T12:00:59.560Z",
+      "fetchedAt": "2026-07-10T13:31:48.874Z",
       "observations": [
         {
           "date": "2026-03-05",
@@ -870,7 +811,7 @@
       "label": "2-Year Treasury Yield",
       "source": "FRED / U.S. Treasury",
       "url": "https://fred.stlouisfed.org/series/DGS2",
-      "fetchedAt": "2026-07-10T12:00:59.704Z",
+      "fetchedAt": "2026-07-10T13:31:49.010Z",
       "observations": [
         {
           "date": "2026-03-05",
@@ -1239,7 +1180,7 @@
       "label": "Effective Federal Funds Rate",
       "source": "FRED / Federal Reserve",
       "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
-      "fetchedAt": "2026-07-10T12:00:59.790Z",
+      "fetchedAt": "2026-07-10T13:31:49.036Z",
       "observations": [
         {
           "date": "2019-01-01",
@@ -1608,7 +1549,7 @@
       "label": "High Yield Option-Adjusted Spread",
       "source": "FRED / ICE BofA",
       "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-      "fetchedAt": "2026-07-10T12:00:59.842Z",
+      "fetchedAt": "2026-07-10T13:31:49.067Z",
       "observations": [
         {
           "date": "2026-03-06",
@@ -1977,7 +1918,7 @@
       "label": "WTI Crude Oil Spot Price",
       "source": "FRED / U.S. EIA",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-      "fetchedAt": "2026-07-10T12:00:59.930Z",
+      "fetchedAt": "2026-07-10T13:31:49.126Z",
       "observations": [
         {
           "date": "2026-03-03",
@@ -2332,12 +2273,8 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=3mo&interval=1d",
       "yahooSymbol": "^TNX",
       "stooqSymbol": "",
-      "fetchedAt": "2026-07-10T12:01:00.095Z",
+      "fetchedAt": "2026-07-10T13:31:49.253Z",
       "observations": [
-        {
-          "date": "2026-04-09",
-          "value": 4.293000221252441
-        },
         {
           "date": "2026-04-10",
           "value": 4.316999912261963
@@ -2585,6 +2522,10 @@
         {
           "date": "2026-07-09",
           "value": 4.539000034332275
+        },
+        {
+          "date": "2026-07-10",
+          "value": 4.549000263214111
         }
       ]
     },
@@ -2595,12 +2536,8 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIRX?range=3mo&interval=1d",
       "yahooSymbol": "^IRX",
       "stooqSymbol": "",
-      "fetchedAt": "2026-07-10T12:01:00.157Z",
+      "fetchedAt": "2026-07-10T13:31:49.628Z",
       "observations": [
-        {
-          "date": "2026-04-09",
-          "value": 3.5880000591278076
-        },
         {
           "date": "2026-04-10",
           "value": 3.5929999351501465
@@ -2848,6 +2785,10 @@
         {
           "date": "2026-07-09",
           "value": 3.681999921798706
+        },
+        {
+          "date": "2026-07-10",
+          "value": 3.677999973297119
         }
       ]
     },
@@ -2858,12 +2799,8 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETYX?range=3mo&interval=1d",
       "yahooSymbol": "^TYX",
       "stooqSymbol": "",
-      "fetchedAt": "2026-07-10T12:01:00.230Z",
+      "fetchedAt": "2026-07-10T13:31:49.722Z",
       "observations": [
-        {
-          "date": "2026-04-09",
-          "value": 4.896999835968018
-        },
         {
           "date": "2026-04-10",
           "value": 4.914000034332275
@@ -3111,6 +3048,10 @@
         {
           "date": "2026-07-09",
           "value": 5.052999973297119
+        },
+        {
+          "date": "2026-07-10",
+          "value": 5.061999797821045
         }
       ]
     },
@@ -3121,7 +3062,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?range=3mo&interval=1d",
       "yahooSymbol": "DELL",
       "stooqSymbol": "dell.us",
-      "fetchedAt": "2026-07-10T12:01:00.366Z",
+      "fetchedAt": "2026-07-10T13:31:49.824Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -3370,6 +3311,10 @@
         {
           "date": "2026-07-09",
           "value": 450.2200012207031
+        },
+        {
+          "date": "2026-07-10",
+          "value": 448.1000061035156
         }
       ]
     },
@@ -3380,7 +3325,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=3mo&interval=1d",
       "yahooSymbol": "NVDA",
       "stooqSymbol": "nvda.us",
-      "fetchedAt": "2026-07-10T12:01:00.464Z",
+      "fetchedAt": "2026-07-10T13:31:50.021Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -3629,6 +3574,10 @@
         {
           "date": "2026-07-09",
           "value": 202.77999877929688
+        },
+        {
+          "date": "2026-07-10",
+          "value": 203.19000244140625
         }
       ]
     },
@@ -3639,7 +3588,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=3mo&interval=1d",
       "yahooSymbol": "SOXX",
       "stooqSymbol": "soxx.us",
-      "fetchedAt": "2026-07-10T12:01:00.629Z",
+      "fetchedAt": "2026-07-10T13:31:50.146Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -3888,6 +3837,10 @@
         {
           "date": "2026-07-09",
           "value": 581.7000122070312
+        },
+        {
+          "date": "2026-07-10",
+          "value": 574.3599853515625
         }
       ]
     },
@@ -3898,7 +3851,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=3mo&interval=1d",
       "yahooSymbol": "AVGO",
       "stooqSymbol": "avgo.us",
-      "fetchedAt": "2026-07-10T12:01:00.723Z",
+      "fetchedAt": "2026-07-10T13:31:50.287Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -4147,6 +4100,10 @@
         {
           "date": "2026-07-09",
           "value": 401.1099853515625
+        },
+        {
+          "date": "2026-07-10",
+          "value": 398.79998779296875
         }
       ]
     },
@@ -4157,7 +4114,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=3mo&interval=1d",
       "yahooSymbol": "MU",
       "stooqSymbol": "mu.us",
-      "fetchedAt": "2026-07-10T12:01:01.002Z",
+      "fetchedAt": "2026-07-10T13:31:50.517Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -4406,6 +4363,10 @@
         {
           "date": "2026-07-09",
           "value": 991.6400146484375
+        },
+        {
+          "date": "2026-07-10",
+          "value": 964.9000244140625
         }
       ]
     },
@@ -4416,7 +4377,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=3mo&interval=1d",
       "yahooSymbol": "MRVL",
       "stooqSymbol": "mrvl.us",
-      "fetchedAt": "2026-07-10T12:01:01.156Z",
+      "fetchedAt": "2026-07-10T13:31:50.615Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -4665,6 +4626,10 @@
         {
           "date": "2026-07-09",
           "value": 243.27000427246094
+        },
+        {
+          "date": "2026-07-10",
+          "value": 238.61000061035156
         }
       ]
     },
@@ -4675,7 +4640,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=3mo&interval=1d",
       "yahooSymbol": "INTC",
       "stooqSymbol": "intc.us",
-      "fetchedAt": "2026-07-10T12:01:01.289Z",
+      "fetchedAt": "2026-07-10T13:31:50.752Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -4924,6 +4889,10 @@
         {
           "date": "2026-07-09",
           "value": 112.54000091552734
+        },
+        {
+          "date": "2026-07-10",
+          "value": 109.23999786376953
         }
       ]
     },
@@ -4934,7 +4903,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/DIA?range=3mo&interval=1d",
       "yahooSymbol": "DIA",
       "stooqSymbol": "dia.us",
-      "fetchedAt": "2026-07-10T12:01:01.404Z",
+      "fetchedAt": "2026-07-10T13:31:50.877Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -5183,6 +5152,10 @@
         {
           "date": "2026-07-09",
           "value": 524.1900024414062
+        },
+        {
+          "date": "2026-07-10",
+          "value": 525.6500244140625
         }
       ]
     },
@@ -5193,7 +5166,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/MKC?range=3mo&interval=1d",
       "yahooSymbol": "MKC",
       "stooqSymbol": "mkc.us",
-      "fetchedAt": "2026-07-10T12:01:01.685Z",
+      "fetchedAt": "2026-07-10T13:31:51.022Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -5442,6 +5415,10 @@
         {
           "date": "2026-07-09",
           "value": 51.540000915527344
+        },
+        {
+          "date": "2026-07-10",
+          "value": 51.744998931884766
         }
       ]
     },
@@ -5452,7 +5429,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d",
       "yahooSymbol": "SPY",
       "stooqSymbol": "spy.us",
-      "fetchedAt": "2026-07-10T12:01:01.801Z",
+      "fetchedAt": "2026-07-10T13:31:51.196Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -5701,6 +5678,10 @@
         {
           "date": "2026-07-09",
           "value": 751.7100219726562
+        },
+        {
+          "date": "2026-07-10",
+          "value": 752.4500122070312
         }
       ]
     },
@@ -5711,7 +5692,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d",
       "yahooSymbol": "QQQ",
       "stooqSymbol": "qqq.us",
-      "fetchedAt": "2026-07-10T12:01:01.918Z",
+      "fetchedAt": "2026-07-10T13:31:51.305Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -5960,6 +5941,10 @@
         {
           "date": "2026-07-09",
           "value": 723.280029296875
+        },
+        {
+          "date": "2026-07-10",
+          "value": 721.6900024414062
         }
       ]
     },
@@ -5970,7 +5955,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d",
       "yahooSymbol": "IWM",
       "stooqSymbol": "iwm.us",
-      "fetchedAt": "2026-07-10T12:01:02.173Z",
+      "fetchedAt": "2026-07-10T13:31:51.434Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -6219,6 +6204,10 @@
         {
           "date": "2026-07-09",
           "value": 297.239990234375
+        },
+        {
+          "date": "2026-07-10",
+          "value": 297.6000061035156
         }
       ]
     },
@@ -6229,7 +6218,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d",
       "yahooSymbol": "GLD",
       "stooqSymbol": "gld.us",
-      "fetchedAt": "2026-07-10T12:01:02.244Z",
+      "fetchedAt": "2026-07-10T13:31:51.514Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -6478,6 +6467,10 @@
         {
           "date": "2026-07-09",
           "value": 378.17999267578125
+        },
+        {
+          "date": "2026-07-10",
+          "value": 375.80999755859375
         }
       ]
     },
@@ -6488,7 +6481,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=3mo&interval=1d",
       "yahooSymbol": "USO",
       "stooqSymbol": "uso.us",
-      "fetchedAt": "2026-07-10T12:01:02.315Z",
+      "fetchedAt": "2026-07-10T13:31:51.671Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -6737,6 +6730,10 @@
         {
           "date": "2026-07-09",
           "value": 109.01000213623047
+        },
+        {
+          "date": "2026-07-10",
+          "value": 109.22989654541016
         }
       ]
     },
@@ -6747,7 +6744,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d",
       "yahooSymbol": "BX",
       "stooqSymbol": "bx.us",
-      "fetchedAt": "2026-07-10T12:01:02.423Z",
+      "fetchedAt": "2026-07-10T13:31:51.767Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -6996,6 +6993,10 @@
         {
           "date": "2026-07-09",
           "value": 122.1500015258789
+        },
+        {
+          "date": "2026-07-10",
+          "value": 123.9800033569336
         }
       ]
     },
@@ -7006,7 +7007,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d",
       "yahooSymbol": "KKR",
       "stooqSymbol": "kkr.us",
-      "fetchedAt": "2026-07-10T12:01:02.568Z",
+      "fetchedAt": "2026-07-10T13:31:52.087Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -7255,6 +7256,10 @@
         {
           "date": "2026-07-09",
           "value": 96.2699966430664
+        },
+        {
+          "date": "2026-07-10",
+          "value": 98.4800033569336
         }
       ]
     },
@@ -7265,7 +7270,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d",
       "yahooSymbol": "APO",
       "stooqSymbol": "apo.us",
-      "fetchedAt": "2026-07-10T12:01:02.655Z",
+      "fetchedAt": "2026-07-10T13:31:52.257Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -7514,6 +7519,10 @@
         {
           "date": "2026-07-09",
           "value": 119.83999633789062
+        },
+        {
+          "date": "2026-07-10",
+          "value": 120.75
         }
       ]
     },
@@ -7524,7 +7533,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/OWL?range=3mo&interval=1d",
       "yahooSymbol": "OWL",
       "stooqSymbol": "owl.us",
-      "fetchedAt": "2026-07-10T12:01:02.730Z",
+      "fetchedAt": "2026-07-10T13:31:52.373Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -7773,6 +7782,10 @@
         {
           "date": "2026-07-09",
           "value": 9.300000190734863
+        },
+        {
+          "date": "2026-07-10",
+          "value": 9.460000038146973
         }
       ]
     },
@@ -7783,7 +7796,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARCC?range=3mo&interval=1d",
       "yahooSymbol": "ARCC",
       "stooqSymbol": "arcc.us",
-      "fetchedAt": "2026-07-10T12:01:02.833Z",
+      "fetchedAt": "2026-07-10T13:31:52.495Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -8032,6 +8045,10 @@
         {
           "date": "2026-07-09",
           "value": 18.40999984741211
+        },
+        {
+          "date": "2026-07-10",
+          "value": 18.55500030517578
         }
       ]
     },
@@ -8042,7 +8059,7 @@
       "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXSL?range=3mo&interval=1d",
       "yahooSymbol": "BXSL",
       "stooqSymbol": "bxsl.us",
-      "fetchedAt": "2026-07-10T12:01:02.914Z",
+      "fetchedAt": "2026-07-10T13:31:52.670Z",
       "observations": [
         {
           "date": "2026-04-10",
@@ -8291,9 +8308,38 @@
         {
           "date": "2026-07-09",
           "value": 23.100000381469727
+        },
+        {
+          "date": "2026-07-10",
+          "value": 23.292499542236328
         }
       ]
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "id": "OPENBB_QQQ",
+      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+    },
+    {
+      "id": "OPENBB_IWM",
+      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+    },
+    {
+      "id": "OPENBB_DIA",
+      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+    },
+    {
+      "id": "OPENBB_XLK",
+      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+    },
+    {
+      "id": "OPENBB_XLF",
+      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+    },
+    {
+      "id": "OPENBB_JPM",
+      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
+    }
+  ]
 }
