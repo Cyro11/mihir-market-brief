@@ -2,9 +2,9 @@
   "runDate": "2026-07-10",
   "title": "The Week in Numbers: SK Hynix IPO heats up, Samsung's profit surge",
   "dek": "A selective banker-grade read of the few fresh items with enough evidence to support real analysis.",
-  "generatedAt": "2026-07-10T13:33:09.026Z",
+  "generatedAt": "2026-07-10T23:59:59.999Z",
   "sourceRunAt": "2026-07-10T13:31:45.903Z",
-  "freshnessStatus": "LIVE",
+  "freshnessStatus": "TODAY",
   "moves": [
     {
       "id": "private-equity-public-proxies-8344ce31",
@@ -31,9 +31,9 @@
         "importanceCues": 2,
         "recruitingRelevance": 2,
         "readerValue": 6,
-        "score": 58
+        "score": 56
       },
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -129,8 +129,8 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 7.968302168401059,
-            "displayValue": 7.968302168401059,
+            "value": 1.0425190003676916,
+            "displayValue": 1.0425190003676916,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -138,8 +138,8 @@
           {
             "id": "KKR",
             "label": "KKR",
-            "value": 7.958783204425952,
-            "displayValue": 7.958783204425952,
+            "value": -1.222739918183411,
+            "displayValue": -1.222739918183411,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -147,8 +147,8 @@
           {
             "id": "APO",
             "label": "Apollo Global Management",
-            "value": 15.794017465958179,
-            "displayValue": 15.794017465958179,
+            "value": 9.44974959348059,
+            "displayValue": 9.44974959348059,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -218,9 +218,9 @@
         "importanceCues": 2,
         "recruitingRelevance": 2,
         "readerValue": 6,
-        "score": 55
+        "score": 53
       },
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -316,8 +316,8 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 7.968302168401059,
-            "displayValue": 7.968302168401059,
+            "value": 1.0425190003676916,
+            "displayValue": 1.0425190003676916,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -325,8 +325,8 @@
           {
             "id": "KKR",
             "label": "KKR",
-            "value": 7.958783204425952,
-            "displayValue": 7.958783204425952,
+            "value": -1.222739918183411,
+            "displayValue": -1.222739918183411,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -334,8 +334,8 @@
           {
             "id": "APO",
             "label": "Apollo Global Management",
-            "value": 15.794017465958179,
-            "displayValue": 15.794017465958179,
+            "value": 9.44974959348059,
+            "displayValue": 9.44974959348059,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -404,9 +404,9 @@
         "importanceCues": 2,
         "recruitingRelevance": 2,
         "readerValue": 6,
-        "score": 41
+        "score": 37
       },
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
@@ -532,9 +532,9 @@
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "score": 38
+        "score": 36
       },
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
@@ -627,8 +627,8 @@
     "overnight": {
       "label": "Overnight",
       "window": {
-        "start": "2026-07-09T22:33:08.787Z",
-        "end": "2026-07-10T13:33:08.787Z"
+        "start": "2026-07-10T08:59:59.999Z",
+        "end": "2026-07-10T23:59:59.999Z"
       },
       "items": [
         {
@@ -646,7 +646,7 @@
             }
           ],
           "storyCluster": null,
-          "freshnessStatus": "FRESH",
+          "freshnessStatus": "TODAY",
           "confidence": "Medium",
           "editorialArticle": {
             "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -740,8 +740,8 @@
               {
                 "id": "BX",
                 "label": "Blackstone",
-                "value": 7.968302168401059,
-                "displayValue": 7.968302168401059,
+                "value": 1.0425190003676916,
+                "displayValue": 1.0425190003676916,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -749,8 +749,8 @@
               {
                 "id": "KKR",
                 "label": "KKR",
-                "value": 7.958783204425952,
-                "displayValue": 7.958783204425952,
+                "value": -1.222739918183411,
+                "displayValue": -1.222739918183411,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -758,8 +758,8 @@
               {
                 "id": "APO",
                 "label": "Apollo Global Management",
-                "value": 15.794017465958179,
-                "displayValue": 15.794017465958179,
+                "value": 9.44974959348059,
+                "displayValue": 9.44974959348059,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -797,170 +797,6 @@
           "overnightSignal": true
         },
         {
-          "id": "private-equity-public-proxies-3d2e892b",
-          "title": "Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo",
-          "editorialLane": "private_markets",
-          "editorialLaneLabel": "Private Markets",
-          "privateMarketSegment": "private_equity",
-          "sourceTrail": [
-            {
-              "source": "Yahoo Finance / Public PE Managers",
-              "url": "https://finance.yahoo.com/healthcare/articles/bayer-sells-3-4-billion-061413096.html?.tsrc=rss",
-              "publishedAt": "2026-07-10T06:14:13.000Z",
-              "fetchedAt": "2026-07-10T13:31:35.397Z"
-            }
-          ],
-          "storyCluster": null,
-          "freshnessStatus": "FRESH",
-          "confidence": "Medium",
-          "editorialArticle": {
-            "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
-            "dek": "The sponsor-liquidity test is whether owners are getting cash at defensible marks, not whether the headline sounds active: Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo.",
-            "body": [
-              "For sponsors, distinguish new liquidity from recycled private-market patience. The reported fact is Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo. A fund close, secondary, continuation vehicle, or minority stake can all help owners manage duration, but only a priced exit proves where an asset clears for LPs.",
-              "For banking prep, treat this as a liquidity-quality check. Look for a named buyer, disclosed size, price or valuation clue, debt support, and whether LPs actually receive cash. Without those facts, the story is activity, not proof that sponsor exits are broadly open.",
-              "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
-            ],
-            "bankerSidebar": {
-              "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
-              "watchNext": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions."
-            }
-          },
-          "summary": "Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
-          "readerSummary": "Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
-          "readerDek": "Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo The read-through runs through exit routes, buyer depth and sponsor marks.",
-          "editorialThesis": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price.",
-          "ibAngle": "The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
-          "interviewLine": "Lead with the fact, then connect it to exit routes, buyer depth and sponsor marks. Watch next: Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions.",
-          "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
-          "whatChangedToday": "Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo The update tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
-          "whatHappened": "Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo",
-          "whatMoved": "The update tests sponsor activity: whether private-equity buyers, sellers, and exit routes are becoming more active or more selective.",
-          "whyItMoved": "Private equity matters when a named sponsor, asset, or exit route shows whether buyers and sellers can agree on valuation despite higher financing costs.",
-          "valuationImpact": "Read the item as a private-market valuation signal: exit timing, sponsor marks, private-credit appetite, and whether public comps still support the last private round.",
-          "financingImplication": "Translate the signal into exit windows, refinancing options, sponsor willingness to transact, and whether private credit can still underwrite the risk.",
-          "sectorReadThrough": "Read-through is strongest for sponsor-owned assets, auction candidates, continuation funds, and IPO-ready private companies.",
-          "parallel": {
-            "precedent": "Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023.",
-            "outcome": "Those tools created liquidity for some LPs but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved.",
-            "whatRhymes": "The same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark.",
-            "whatDiffers": "Today the highest-quality assets may access IPO or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures.",
-            "soWhat": "Treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity.",
-            "sourceTrail": [
-              {
-                "source": "Yahoo Finance / Public PE Managers",
-                "url": "https://finance.yahoo.com/healthcare/articles/bayer-sells-3-4-billion-061413096.html?.tsrc=rss",
-                "publishedAt": "2026-07-10T06:14:13.000Z",
-                "fetchedAt": "2026-07-10T13:31:35.397Z"
-              }
-            ]
-          },
-          "watchNext": "Watch IPO filings, sponsor exits, secondaries, private-credit spreads, and whether public comps support new transactions.",
-          "longform": {
-            "sections": [
-              {
-                "id": "takeaway",
-                "heading": "Plain-English takeaway",
-                "body": "Source detail (Yahoo Finance / Public PE Managers): Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo In plain English, sponsors need exits to return cash to LPs. The important question is whether this event creates a true buyer at a supportable valuation, or merely gives the owner another way to hold the asset longer."
-              },
-              {
-                "id": "signal",
-                "heading": "What the public signal is actually telling us",
-                "body": "The public signal is the exit route: IPO filing, strategic sale, secondary, continuation fund, dividend recap, or refinancing. Each route says something different about valuation confidence and buyer demand."
-              },
-              {
-                "id": "interpretation",
-                "heading": "How to read the sponsor or exit implication",
-                "body": "Read sponsor exits through three gates: public comps set the valuation ceiling, financing costs set buyer capacity, and LP liquidity pressure sets how willing the sponsor is to accept a lower but real price."
-              },
-              {
-                "id": "evidence",
-                "heading": "Where the evidence is strong versus indirect",
-                "body": "Strong evidence includes a named buyer, filed S-1, announced price, debt package, tender results, or disclosed secondary terms. Weak evidence is broad talk of an exit window without a transaction, price, or financing path."
-              },
-              {
-                "id": "parallel",
-                "heading": "Relevant comparison",
-                "body": "A useful parallel is Private-equity sponsors used continuation funds and secondary sales heavily after the IPO window slowed in 2022 and 2023. In that earlier setup, those tools created liquidity for some lps but often deferred the final valuation test until public comps, financing costs, or strategic buyers improved. What rhymes is the same exit math applies now: sponsors want distributions, but they need a buyer or financing market that can support a defensible mark. What is different this time is today the highest-quality assets may access ipo or strategic-sale routes sooner, while weaker holdings still need secondary or continuation structures. The bottom line is treat sponsor-exit headlines as evidence only when they reveal price, buyer depth, or financing capacity."
-              },
-              {
-                "id": "watch-next",
-                "heading": "What would confirm or weaken the read",
-                "body": "Watch public-comp multiples, IPO filing updates, lender commitments, sale-process leaks followed by actual bids, LP secondary pricing, and whether sponsors choose full exits or continuation vehicles. Those follow-up datapoints matter because private-market stories are strongest when they lead to observable changes in financing, exits, sale processes, or valuation discipline instead of staying at the level of narrative alone."
-              }
-            ]
-          },
-          "visual": {
-            "type": "bar-chart",
-            "title": "Public sponsor proxies",
-            "subtitle": "Three-month public market context for large alternative-asset managers tied to sponsor sentiment.",
-            "relevanceNote": "This board belongs here because public sponsor stocks often give the cleanest available read on how the market feels about exits, fundraising, and deployment.",
-            "allowedPages": [
-              "private-markets",
-              "deep-dive"
-            ],
-            "axisTitle": "3-month change",
-            "visualSource": "Public market data",
-            "items": [
-              {
-                "id": "BX",
-                "label": "Blackstone",
-                "value": 7.968302168401059,
-                "displayValue": 7.968302168401059,
-                "suffix": "%",
-                "latestDate": "2026-07-10",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
-              },
-              {
-                "id": "KKR",
-                "label": "KKR",
-                "value": 7.958783204425952,
-                "displayValue": 7.958783204425952,
-                "suffix": "%",
-                "latestDate": "2026-07-10",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
-              },
-              {
-                "id": "APO",
-                "label": "Apollo Global Management",
-                "value": 15.794017465958179,
-                "displayValue": 15.794017465958179,
-                "suffix": "%",
-                "latestDate": "2026-07-10",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
-              }
-            ],
-            "sourceTrail": [
-              {
-                "source": "Blackstone",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
-              },
-              {
-                "source": "KKR",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
-              },
-              {
-                "source": "Apollo Global Management",
-                "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
-              }
-            ],
-            "sourceNote": "Stock visuals use public Yahoo Finance chart data with Stooq fallback as market-data context, not live trading data."
-          },
-          "relatedLinks": [],
-          "storyline": {
-            "id": "ai-infrastructure-dell-servers",
-            "name": "AI infrastructure buildout",
-            "threshold": 2
-          },
-          "concepts": [
-            "ai",
-            "nvidia",
-            "private_equity",
-            "pricing"
-          ],
-          "overnightSignal": true
-        },
-        {
           "id": "private-equity-public-proxies-9bd57727",
           "title": "EasyJet backs $7.7 billion Apollo takeover bid over Castlelake offer",
           "editorialLane": "private_markets",
@@ -975,7 +811,7 @@
             }
           ],
           "storyCluster": null,
-          "freshnessStatus": "FRESH",
+          "freshnessStatus": "TODAY",
           "confidence": "Medium",
           "editorialArticle": {
             "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -1069,8 +905,8 @@
               {
                 "id": "BX",
                 "label": "Blackstone",
-                "value": 7.968302168401059,
-                "displayValue": 7.968302168401059,
+                "value": 1.0425190003676916,
+                "displayValue": 1.0425190003676916,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -1078,8 +914,8 @@
               {
                 "id": "KKR",
                 "label": "KKR",
-                "value": 7.958783204425952,
-                "displayValue": 7.958783204425952,
+                "value": -1.222739918183411,
+                "displayValue": -1.222739918183411,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -1087,8 +923,8 @@
               {
                 "id": "APO",
                 "label": "Apollo Global Management",
-                "value": 15.794017465958179,
-                "displayValue": 15.794017465958179,
+                "value": 9.44974959348059,
+                "displayValue": 9.44974959348059,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -1118,6 +954,112 @@
             "private_equity"
           ],
           "overnightSignal": true
+        },
+        {
+          "id": "marketwatch-top-stories-91c068d2",
+          "title": "Kevin Warsh wants fewer press conferences. Why that’s bad for the economy and your money.",
+          "editorialLane": "markets",
+          "editorialLaneLabel": "Markets",
+          "privateMarketSegment": null,
+          "sourceTrail": [
+            {
+              "source": "MarketWatch Top Stories",
+              "url": "https://www.marketwatch.com/story/kevin-warsh-wants-fewer-press-conferences-why-thats-bad-for-the-economy-and-your-money-e9b0bd55?mod=mw_rss_topstories",
+              "publishedAt": "2026-07-10T13:06:00.000Z",
+              "fetchedAt": "2026-07-10T13:31:25.109Z"
+            }
+          ],
+          "storyCluster": null,
+          "freshnessStatus": "TODAY",
+          "confidence": "Medium",
+          "editorialArticle": {
+            "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
+            "dek": "The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency.",
+            "body": [
+              "The mechanism runs through leadership and scarcity. The reported fact is The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency. Investors pay up when an asset looks hard to replicate, margins can survive scrutiny, and the funding market believes the story is strong enough to finance weaker periods.",
+              "In a banking answer, separate price action from capital-markets evidence. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. Strong scarcity assets may get funded, while weaker copycats still struggle.",
+              "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
+            ],
+            "bankerSidebar": {
+              "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
+              "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
+            }
+          },
+          "summary": "The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerSummary": "The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency. The market read is how investors are repricing the story, not just that the headline happened.",
+          "readerDek": "The Fed chair is testifying before Congress this week. The read-through runs through leadership, earnings confidence and risk appetite.",
+          "editorialThesis": "Kevin Warsh wants fewer press conferences. Why that’s bad for the economy and your money. is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+          "interviewLine": "Lead with the fact, then connect it to leadership, earnings confidence and risk appetite. Watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+          "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
+          "whatChangedToday": "The Fed chair is testifying before Congress this week. The story changes sector leadership, company valuation, and the peer read-through.",
+          "whatHappened": "The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency.",
+          "whatMoved": "The story changes sector leadership, company valuation, and the peer read-through.",
+          "whyItMoved": "The markets news matters because it changes the read on Rates and Cost of Capital: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+          "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+          "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+          "sectorReadThrough": "Connects to Rates and Cost of Capital.",
+          "parallel": {
+            "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+            "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+            "whatRhymes": "The current story shows demand spreading across the value chain.",
+            "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+            "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+            "sourceTrail": [
+              {
+                "source": "MarketWatch Top Stories",
+                "url": "https://www.marketwatch.com/story/kevin-warsh-wants-fewer-press-conferences-why-thats-bad-for-the-economy-and-your-money-e9b0bd55?mod=mw_rss_topstories",
+                "publishedAt": "2026-07-10T13:06:00.000Z",
+                "fetchedAt": "2026-07-10T13:31:25.109Z"
+              }
+            ]
+          },
+          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+          "longform": {
+            "sections": [
+              {
+                "id": "takeaway",
+                "heading": "Plain-English takeaway",
+                "body": "Source detail (MarketWatch Top Stories): The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency. The markets news matters because it changes the read on Rates and Cost of Capital: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+              },
+              {
+                "id": "tape",
+                "heading": "What moved and what it suggests",
+                "body": "The story changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: The Fed chair is testifying before Congress this week. Lawmakers should ask him about transparency."
+              },
+              {
+                "id": "mechanism",
+                "heading": "Mechanism behind the move",
+                "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to Rates and Cost of Capital. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+              },
+              {
+                "id": "interpretation",
+                "heading": "What the market may be pricing in right or wrong",
+                "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+              },
+              {
+                "id": "parallel",
+                "heading": "Relevant comparison",
+                "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+              },
+              {
+                "id": "watch-next",
+                "heading": "What to watch next",
+                "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+              }
+            ]
+          },
+          "visual": null,
+          "relatedLinks": [],
+          "storyline": {
+            "id": "rates-inflation-cost-of-capital",
+            "name": "Rates and cost of capital",
+            "threshold": 3
+          },
+          "concepts": [
+            "fed"
+          ],
+          "overnightSignal": true
         }
       ]
     },
@@ -1139,7 +1081,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-14T12:30:00.000Z",
           "scheduledDate": "2026-07-14",
-          "fetchedAt": "2026-07-10T13:33:07.828Z"
+          "fetchedAt": "2026-07-11T23:47:18.376Z"
         },
         {
           "id": "fed-fomc-july-2026-07-29",
@@ -1150,7 +1092,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-29T18:00:00.000Z",
           "scheduledDate": "2026-07-29",
-          "fetchedAt": "2026-07-10T13:33:07.828Z"
+          "fetchedAt": "2026-07-11T23:47:18.376Z"
         },
         {
           "id": "bea-gdp-advance-estimate-2nd-quarter-2026-2026-07-30",
@@ -1161,7 +1103,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-30T12:30:00.000Z",
           "scheduledDate": "2026-07-30",
-          "fetchedAt": "2026-07-10T13:33:07.828Z"
+          "fetchedAt": "2026-07-11T23:47:18.376Z"
         },
         {
           "id": "bea-personal-income-and-outlays-june-2026-2026-07-30",
@@ -1172,7 +1114,7 @@
           "significance": "high",
           "scheduledFor": "2026-07-30T12:30:00.000Z",
           "scheduledDate": "2026-07-30",
-          "fetchedAt": "2026-07-10T13:33:07.828Z"
+          "fetchedAt": "2026-07-11T23:47:18.376Z"
         },
         {
           "id": "bls-employment-situation-2026-08-07",
@@ -1183,7 +1125,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-07T12:30:00.000Z",
           "scheduledDate": "2026-08-07",
-          "fetchedAt": "2026-07-10T13:33:07.828Z"
+          "fetchedAt": "2026-07-11T23:47:18.376Z"
         },
         {
           "id": "bls-consumer-price-index-2026-08-12",
@@ -1194,7 +1136,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-12T12:30:00.000Z",
           "scheduledDate": "2026-08-12",
-          "fetchedAt": "2026-07-10T13:33:07.828Z"
+          "fetchedAt": "2026-07-11T23:47:18.376Z"
         },
         {
           "id": "bea-gdp-second-estimate-and-corporate-profits-2nd-quarter-2026-2026-08-26",
@@ -1205,7 +1147,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-26T12:30:00.000Z",
           "scheduledDate": "2026-08-26",
-          "fetchedAt": "2026-07-10T13:33:07.828Z"
+          "fetchedAt": "2026-07-11T23:47:18.376Z"
         },
         {
           "id": "bea-personal-income-and-outlays-july-2026-2026-08-26",
@@ -1216,7 +1158,7 @@
           "significance": "high",
           "scheduledFor": "2026-08-26T12:30:00.000Z",
           "scheduledDate": "2026-08-26",
-          "fetchedAt": "2026-07-10T13:33:07.828Z"
+          "fetchedAt": "2026-07-11T23:47:18.376Z"
         }
       ]
     },
@@ -1238,7 +1180,7 @@
             }
           ],
           "storyCluster": null,
-          "freshnessStatus": "LIVE",
+          "freshnessStatus": "TODAY",
           "confidence": "Medium",
           "editorialArticle": {
             "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
@@ -1352,7 +1294,7 @@
             }
           ],
           "storyCluster": null,
-          "freshnessStatus": "FRESH",
+          "freshnessStatus": "TODAY",
           "confidence": "Medium",
           "editorialArticle": {
             "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
@@ -1453,7 +1395,7 @@
             }
           ],
           "storyCluster": null,
-          "freshnessStatus": "FRESH",
+          "freshnessStatus": "TODAY",
           "confidence": "Medium",
           "editorialArticle": {
             "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
@@ -1557,7 +1499,7 @@
             }
           ],
           "storyCluster": null,
-          "freshnessStatus": "FRESH",
+          "freshnessStatus": "TODAY",
           "confidence": "Medium",
           "editorialArticle": {
             "question": "Which deal assumption changed: price, financing, approvals, buyer logic, or timing?",
@@ -1694,7 +1636,7 @@
             }
           ],
           "storyCluster": null,
-          "freshnessStatus": "FRESH",
+          "freshnessStatus": "TODAY",
           "confidence": "Medium",
           "editorialArticle": {
             "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -1788,8 +1730,8 @@
               {
                 "id": "BX",
                 "label": "Blackstone",
-                "value": 7.968302168401059,
-                "displayValue": 7.968302168401059,
+                "value": 1.0425190003676916,
+                "displayValue": 1.0425190003676916,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -1797,8 +1739,8 @@
               {
                 "id": "KKR",
                 "label": "KKR",
-                "value": 7.958783204425952,
-                "displayValue": 7.958783204425952,
+                "value": -1.222739918183411,
+                "displayValue": -1.222739918183411,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -1806,8 +1748,8 @@
               {
                 "id": "APO",
                 "label": "Apollo Global Management",
-                "value": 15.794017465958179,
-                "displayValue": 15.794017465958179,
+                "value": 9.44974959348059,
+                "displayValue": 9.44974959348059,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -1867,7 +1809,7 @@
             }
           ],
           "storyCluster": null,
-          "freshnessStatus": "FRESH",
+          "freshnessStatus": "TODAY",
           "confidence": "Medium",
           "editorialArticle": {
             "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -1961,8 +1903,8 @@
               {
                 "id": "BX",
                 "label": "Blackstone",
-                "value": 7.968302168401059,
-                "displayValue": 7.968302168401059,
+                "value": 1.0425190003676916,
+                "displayValue": 1.0425190003676916,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -1970,8 +1912,8 @@
               {
                 "id": "KKR",
                 "label": "KKR",
-                "value": 7.958783204425952,
-                "displayValue": 7.958783204425952,
+                "value": -1.222739918183411,
+                "displayValue": -1.222739918183411,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -1979,8 +1921,8 @@
               {
                 "id": "APO",
                 "label": "Apollo Global Management",
-                "value": 15.794017465958179,
-                "displayValue": 15.794017465958179,
+                "value": 9.44974959348059,
+                "displayValue": 9.44974959348059,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -2039,7 +1981,7 @@
             }
           ],
           "storyCluster": null,
-          "freshnessStatus": "FRESH",
+          "freshnessStatus": "TODAY",
           "confidence": "Medium",
           "editorialArticle": {
             "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -2133,8 +2075,8 @@
               {
                 "id": "BX",
                 "label": "Blackstone",
-                "value": 7.968302168401059,
-                "displayValue": 7.968302168401059,
+                "value": 1.0425190003676916,
+                "displayValue": 1.0425190003676916,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -2142,8 +2084,8 @@
               {
                 "id": "KKR",
                 "label": "KKR",
-                "value": 7.958783204425952,
-                "displayValue": 7.958783204425952,
+                "value": -1.222739918183411,
+                "displayValue": -1.222739918183411,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -2151,8 +2093,8 @@
               {
                 "id": "APO",
                 "label": "Apollo Global Management",
-                "value": 15.794017465958179,
-                "displayValue": 15.794017465958179,
+                "value": 9.44974959348059,
+                "displayValue": 9.44974959348059,
                 "suffix": "%",
                 "latestDate": "2026-07-10",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -2202,7 +2144,7 @@
                 }
               ],
               "storyCluster": null,
-              "freshnessStatus": "FRESH",
+              "freshnessStatus": "TODAY",
               "confidence": "Medium",
               "editorialArticle": {
                 "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -2296,8 +2238,8 @@
                   {
                     "id": "BX",
                     "label": "Blackstone",
-                    "value": 7.968302168401059,
-                    "displayValue": 7.968302168401059,
+                    "value": 1.0425190003676916,
+                    "displayValue": 1.0425190003676916,
                     "suffix": "%",
                     "latestDate": "2026-07-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -2305,8 +2247,8 @@
                   {
                     "id": "KKR",
                     "label": "KKR",
-                    "value": 7.958783204425952,
-                    "displayValue": 7.958783204425952,
+                    "value": -1.222739918183411,
+                    "displayValue": -1.222739918183411,
                     "suffix": "%",
                     "latestDate": "2026-07-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -2314,8 +2256,8 @@
                   {
                     "id": "APO",
                     "label": "Apollo Global Management",
-                    "value": 15.794017465958179,
-                    "displayValue": 15.794017465958179,
+                    "value": 9.44974959348059,
+                    "displayValue": 9.44974959348059,
                     "suffix": "%",
                     "latestDate": "2026-07-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -2375,7 +2317,7 @@
                 }
               ],
               "storyCluster": null,
-              "freshnessStatus": "FRESH",
+              "freshnessStatus": "TODAY",
               "confidence": "Medium",
               "editorialArticle": {
                 "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -2469,8 +2411,8 @@
                   {
                     "id": "BX",
                     "label": "Blackstone",
-                    "value": 7.968302168401059,
-                    "displayValue": 7.968302168401059,
+                    "value": 1.0425190003676916,
+                    "displayValue": 1.0425190003676916,
                     "suffix": "%",
                     "latestDate": "2026-07-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -2478,8 +2420,8 @@
                   {
                     "id": "KKR",
                     "label": "KKR",
-                    "value": 7.958783204425952,
-                    "displayValue": 7.958783204425952,
+                    "value": -1.222739918183411,
+                    "displayValue": -1.222739918183411,
                     "suffix": "%",
                     "latestDate": "2026-07-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -2487,8 +2429,8 @@
                   {
                     "id": "APO",
                     "label": "Apollo Global Management",
-                    "value": 15.794017465958179,
-                    "displayValue": 15.794017465958179,
+                    "value": 9.44974959348059,
+                    "displayValue": 9.44974959348059,
                     "suffix": "%",
                     "latestDate": "2026-07-10",
                     "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -2547,14 +2489,14 @@
       "title": "The Week in Numbers: SK Hynix IPO heats up, Samsung's profit surge",
       "summary": "STORY: From a massive SK Hynix IPO to Samsung's giant profits... This is the week in numbers. :: $26.5 billion $26.5 billion is how much chipmaker SK Hynix raised in a Wall Street listing on Thursday. That was according to a U.S. regulatory filing. A source said demand for the U.S. shares sale was more than seven times oversubscribed. The South Korean firm is the world's leading supplier of high-bandwidth memory chips - critical features in advanced processors powering AI systems. George Godber is a UK Fund Manager with Polar Capital: \"The chip plays have been the absolute epicenter of the AI capex spend. There's a lot of attention there. There's an awful lot of demand. There's a lot of retail interest. But it is volatile.\" :: $7.7 billion $7.7 billion is how much Apollo Global Management bid for easyJet. The U.S. investment firm outbid a rival offer from Castlelake for the British budget airline. EasyJet said it would support Apollo's proposal and withdrew support for Castlelake just days after agreeing in principle to a deal. The updates sent the carrier's shares soaring during the week. :: 46% Close to 46% is how much Fast Retailing's profit rose during the previous quarter. The Japanese owner of clothing brand Uniqlo said operating profit hit $1.32 billion in the three months through May. It managed this while dealing with the Iran war's impact on supply chains and logistics. It also put the firm on its way to an expected fifth straight year of record earnings. :: 12 Up to 12 is how many submarines Canada could want Germany's TKMS to build for them. TKMS beat out a competing offer from South Korea's Hanwha Ocean. Canadian prime minister Mark Carney said Ottawa will now enter talks with the German company. \"TKMS is the best choice for Canadian workers. It will directly create and sustain an ecosystem of well over 100,000 well-paying jobs across Canada.\" :: $58 billion And $58 billion is how much operating profit Samsung flagged for the second quarter. The South Korean tech giant expects a 19-fold leap in profits over the quarter from a year earlier, with revenue expected to soar 129%. It comes as the global AI boom drives soaring demand for chips, sending prices for silicon sky-high. That’s a boost for Samsung, which is the world’s largest maker of memory chips.",
       "primaryLane": null,
-      "rankScore": 91,
+      "rankScore": 87,
       "dealStrength": {
-        "score": 97.4,
+        "score": 96.6,
         "label": "High"
       },
       "updateStrength": {
-        "score": 50,
-        "label": "Medium"
+        "score": 38,
+        "label": "Developing"
       },
       "whyItRanks": "Ranks here because it has large or strategically important transaction signal, 11 related source items clustered together.",
       "sourceTrail": [
@@ -2640,32 +2582,26 @@
         "private-equity-public-proxies-aa48ead4",
         "private-equity-public-proxies-64eb3db5"
       ],
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "publishedAt": "2026-07-10T10:40:28.000Z",
       "rank": 1
     },
     {
       "id": "deal-names-blue-owl",
-      "title": "UBS Rebalancing Advice Triggers Withdrawals From Blue Owl Fund (OWL)",
-      "summary": "UBS advised certain clients to trim oversized private credit positions, prompting investor withdrawals from Blue Owl Technology Income during the fourth quarter of 2025, according to a Financial Times report published on Friday. The publication, citing two people familiar with the matter, said that at least 60% of the fund’s capital had been provided by UBS clients in Asia.",
+      "title": "Funds Managed by Blue Owl Capital Complete Acquisition of Spire Healthcare Portfolio",
+      "summary": "Blue Owl Capital Inc. (\"Blue Owl\") (NYSE: OWL), a leading alternative asset manager, today announced that funds managed by Blue Owl, together with Moor Park Capital Partners (\"Moor Park\"), have successfully completed the acquisition of a portfolio of 12 acute-care hospitals operated by Spire Healthcare Group plc, the UK's leading private hospital operator.",
       "primaryLane": null,
       "rankScore": 73,
       "dealStrength": {
-        "score": 74.2,
+        "score": 83,
         "label": "High"
       },
       "updateStrength": {
-        "score": 40,
+        "score": 20,
         "label": "Developing"
       },
       "whyItRanks": "Ranks here because it has large or strategically important transaction signal, 5 related source items clustered together.",
       "sourceTrail": [
-        {
-          "source": "Yahoo Finance / Private Credit Proxies",
-          "url": "https://investorshub.advfn.com/market-news/article/31635/ubs-rebalancing-advice-triggers-withdrawals-from-blue-owl-fund-owl?.tsrc=rss",
-          "publishedAt": "2026-07-10T10:21:48.000Z",
-          "fetchedAt": "2026-07-10T13:31:35.696Z"
-        },
         {
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/real-estate/articles/funds-managed-blue-owl-capital-161500628.html?.tsrc=rss",
@@ -2676,6 +2612,12 @@
           "source": "Yahoo Finance / Private Credit Proxies",
           "url": "https://finance.yahoo.com/media-advertising/articles/blue-owls-homecourt-partners-fund-133000128.html?.tsrc=rss",
           "publishedAt": "2026-07-06T13:30:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:35.696Z"
+        },
+        {
+          "source": "Yahoo Finance / Private Credit Proxies",
+          "url": "https://investorshub.advfn.com/market-news/article/31635/ubs-rebalancing-advice-triggers-withdrawals-from-blue-owl-fund-owl?.tsrc=rss",
+          "publishedAt": "2026-07-10T10:21:48.000Z",
           "fetchedAt": "2026-07-10T13:31:35.696Z"
         },
         {
@@ -2691,50 +2633,18 @@
           "fetchedAt": "2026-07-10T13:31:35.696Z"
         }
       ],
-      "watchNext": "Watch lender terms, spreads, covenants, refinancing timing, and whether financing availability changes sponsor math.",
+      "watchNext": "Watch financing details, regulatory path, shareholder vote, timing, and any change in price or certainty.",
       "clusteredItemCount": 5,
       "relatedItemIds": [
-        "private-credit-public-proxies-344a4598",
         "private-credit-public-proxies-44a42c65",
         "private-credit-public-proxies-c769c800",
+        "private-credit-public-proxies-344a4598",
         "private-credit-public-proxies-ea9452bf",
         "private-credit-public-proxies-552056e1"
       ],
-      "freshnessStatus": "FRESH",
-      "publishedAt": "2026-07-10T10:21:48.000Z",
+      "freshnessStatus": "BACKGROUND",
+      "publishedAt": "2026-07-08T16:15:00.000Z",
       "rank": 2
-    },
-    {
-      "id": "deal-title-acquire-copia-power-leading-integrated",
-      "title": "EQT to acquire Copia Power, a leading integrated power and AI infrastructure platform",
-      "summary": "EQT is pleased to announce that EQT Infrastructure VII (\"EQT\") has agreed to acquire Copia Power (\"Copia\" or the \"Company\") from global investment firm Carlyle (NASDAQ: CG).",
-      "primaryLane": null,
-      "rankScore": 72,
-      "dealStrength": {
-        "score": 85,
-        "label": "High"
-      },
-      "updateStrength": {
-        "score": 40,
-        "label": "Developing"
-      },
-      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/energy/articles/eqt-acquire-copia-power-leading-065400162.html?.tsrc=rss",
-          "publishedAt": "2026-07-10T06:54:00.000Z",
-          "fetchedAt": "2026-07-10T13:31:35.397Z"
-        }
-      ],
-      "watchNext": "Watch filings, financing terms, counterparties, approvals, and the next disclosed fact that changes certainty or value.",
-      "clusteredItemCount": 1,
-      "relatedItemIds": [
-        "private-equity-public-proxies-e5371cd6"
-      ],
-      "freshnessStatus": "FRESH",
-      "publishedAt": "2026-07-10T06:54:00.000Z",
-      "rank": 3
     },
     {
       "id": "deal-tickers-KKR",
@@ -2766,6 +2676,38 @@
       ],
       "freshnessStatus": "BACKGROUND",
       "publishedAt": "2026-05-29T10:05:00-04:00",
+      "rank": 3
+    },
+    {
+      "id": "deal-title-acquire-copia-power-leading-integrated",
+      "title": "EQT to acquire Copia Power, a leading integrated power and AI infrastructure platform",
+      "summary": "EQT is pleased to announce that EQT Infrastructure VII (\"EQT\") has agreed to acquire Copia Power (\"Copia\" or the \"Company\") from global investment firm Carlyle (NASDAQ: CG).",
+      "primaryLane": null,
+      "rankScore": 68,
+      "dealStrength": {
+        "score": 84.2,
+        "label": "High"
+      },
+      "updateStrength": {
+        "score": 28,
+        "label": "Developing"
+      },
+      "whyItRanks": "Ranks here because it has large or strategically important transaction signal.",
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Public PE Managers",
+          "url": "https://finance.yahoo.com/energy/articles/eqt-acquire-copia-power-leading-065400162.html?.tsrc=rss",
+          "publishedAt": "2026-07-10T06:54:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:35.397Z"
+        }
+      ],
+      "watchNext": "Watch filings, financing terms, counterparties, approvals, and the next disclosed fact that changes certainty or value.",
+      "clusteredItemCount": 1,
+      "relatedItemIds": [
+        "private-equity-public-proxies-e5371cd6"
+      ],
+      "freshnessStatus": "TODAY",
+      "publishedAt": "2026-07-10T06:54:00.000Z",
       "rank": 4
     },
     {
@@ -2773,13 +2715,13 @@
       "title": "Update: Market Chatter: Qiagen Attracts Early Takeover Interest From EQT, Advent, KKR",
       "summary": "(Updates with Qiagen's response in the last paragraph.) Qiagen (QGEN) is attracting early takeove",
       "primaryLane": null,
-      "rankScore": 68,
+      "rankScore": 66,
       "dealStrength": {
         "score": 77.4,
         "label": "High"
       },
       "updateStrength": {
-        "score": 28,
+        "score": 20,
         "label": "Developing"
       },
       "whyItRanks": "Ranks here because it has large or strategically important transaction signal, 3 related source items clustered together.",
@@ -2918,11 +2860,11 @@
       "name": "S&P 500",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-10T13:31:51.196Z",
+      "fetchedAt": "2026-07-11T23:47:02.652Z",
       "latestDate": "2026-07-10",
-      "price": 752.4500122070312,
-      "change": 0.739990234375,
-      "percentChange": 0.09844091640990751,
+      "price": 754.9500122070312,
+      "change": 3.239990234375,
+      "percentChange": 0.4310159688801989,
       "whyItMoved": "SPY moved with the broad tape; no separate S&P-specific headline cleared the brief beyond the macro backdrop."
     },
     {
@@ -2931,11 +2873,11 @@
       "name": "Nasdaq 100",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-10T13:31:51.305Z",
+      "fetchedAt": "2026-07-11T23:47:02.839Z",
       "latestDate": "2026-07-10",
-      "price": 721.6900024414062,
-      "change": -1.59002685546875,
-      "percentChange": -0.2198355811115743,
+      "price": 725.510009765625,
+      "change": 2.22998046875,
+      "percentChange": 0.30831495111483165,
       "whyItMoved": "QQQ mostly tracked large-cap growth sentiment; no cleaner tech-wide catalyst cleared the tape than the stories already in the brief."
     },
     {
@@ -2944,11 +2886,11 @@
       "name": "Russell 2000",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-10T13:31:51.434Z",
+      "fetchedAt": "2026-07-11T23:47:02.938Z",
       "latestDate": "2026-07-10",
-      "price": 297.6000061035156,
-      "change": 0.360015869140625,
-      "percentChange": 0.12111959392030357,
+      "price": 295.989990234375,
+      "change": -1.25,
+      "percentChange": -0.4205356079491086,
       "whyItMoved": "IWM moved on financing sensitivity more than on a single company headline in this edition."
     },
     {
@@ -2957,11 +2899,11 @@
       "name": "Gold",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-10T13:31:51.514Z",
+      "fetchedAt": "2026-07-11T23:47:03.024Z",
       "latestDate": "2026-07-10",
-      "price": 375.80999755859375,
-      "change": -2.3699951171875,
-      "percentChange": -0.6266844262222323,
+      "price": 377.010009765625,
+      "change": -1.16998291015625,
+      "percentChange": -0.30937197440777675,
       "whyItMoved": "Gold moved with the broader inflation and policy backdrop; no gold-specific story cleared the brief."
     },
     {
@@ -2970,17 +2912,17 @@
       "name": "Oil proxy (USO ETF)",
       "source": "Yahoo Finance public chart data",
       "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=3mo&interval=1d",
-      "fetchedAt": "2026-07-10T13:31:51.671Z",
+      "fetchedAt": "2026-07-11T23:47:03.091Z",
       "latestDate": "2026-07-10",
-      "price": 109.22989654541016,
-      "change": 0.2198944091796875,
-      "percentChange": 0.20171947974543117,
+      "price": 108.69999694824219,
+      "change": -0.31000518798828125,
+      "percentChange": -0.28438233365124227,
       "whyItMoved": "Oil is mostly reading through growth and inflation expectations here. No separate energy headline cleared the brief, so treat this as macro context rather than an oil thesis."
     }
   ],
   "openbbMarketPack": {
     "runDate": "2026-07-10",
-    "fetchedAt": "2026-07-10T13:33:06.750033+00:00",
+    "fetchedAt": "2026-07-11T23:47:17.368934+00:00",
     "provider": "OpenBB equity.price.historical(provider='yfinance')",
     "sourceNote": "OpenBB market pack uses Yahoo Finance through OpenBB as market context, not live trading data or investment advice.",
     "sourceTrail": [
@@ -2994,10 +2936,10 @@
       }
     ],
     "summary": {
-      "headline": "Balanced tape: index moves are not showing a clean one-factor leadership signal. Sector leadership: Consumer Discretionary led at +0.68%, while Health Care lagged at -0.48%.",
+      "headline": "Balanced tape: index moves are not showing a clean one-factor leadership signal. Sector leadership: Materials led at +1.25%, while Health Care lagged at -0.82%.",
       "riskTone": "Balanced tape: index moves are not showing a clean one-factor leadership signal.",
-      "leadership": "Sector leadership: Consumer Discretionary led at +0.68%, while Health Care lagged at -0.48%.",
-      "movers": "Watchlist extremes: META +6.77% vs. GOOGL -0.97%.",
+      "leadership": "Sector leadership: Materials led at +1.25%, while Health Care lagged at -0.82%.",
+      "movers": "Watchlist extremes: META +5.97% vs. AMZN -0.69%.",
       "watchNext": "Check whether leadership broadens beyond the first index/sector leaders, and whether watchlist volume confirms the price move."
     },
     "indices": [
@@ -3005,101 +2947,143 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "latestDate": "2026-07-10",
-        "lastClose": 752.5162,
-        "oneDayPct": 0.11,
-        "fiveDayPct": 1.04,
-        "oneMonthPct": 2.1,
-        "ytdPct": 10.15,
-        "volume": 1289095,
-        "volumeVs20DayAvg": 0.02,
+        "lastClose": 754.95,
+        "oneDayPct": 0.43,
+        "fiveDayPct": 1.37,
+        "oneMonthPct": 2.43,
+        "ytdPct": 10.51,
+        "volume": 42114300,
+        "volumeVs20DayAvg": 0.71,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/SPY"
+      },
+      {
+        "symbol": "QQQ",
+        "label": "Nasdaq 100",
+        "latestDate": "2026-07-10",
+        "lastClose": 725.51,
+        "oneDayPct": 0.31,
+        "fiveDayPct": 1.81,
+        "oneMonthPct": 2.5,
+        "ytdPct": 18.33,
+        "volume": 26374600,
+        "volumeVs20DayAvg": 0.56,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/QQQ"
+      },
+      {
+        "symbol": "IWM",
+        "label": "Russell 2000",
+        "latestDate": "2026-07-10",
+        "lastClose": 295.99,
+        "oneDayPct": -0.42,
+        "fiveDayPct": -0.53,
+        "oneMonthPct": 3.85,
+        "ytdPct": 18.98,
+        "volume": 15883700,
+        "volumeVs20DayAvg": 0.58,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/IWM"
+      },
+      {
+        "symbol": "DIA",
+        "label": "Dow Industrials",
+        "latestDate": "2026-07-10",
+        "lastClose": 525.78,
+        "oneDayPct": 0.3,
+        "fiveDayPct": -0.4,
+        "oneMonthPct": 3.21,
+        "ytdPct": 8.72,
+        "volume": 3467700,
+        "volumeVs20DayAvg": 0.7,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/DIA"
       }
     ],
     "sectors": [
       {
-        "symbol": "XLY",
-        "label": "Consumer Discretionary",
-        "latestDate": "2026-07-10",
-        "lastClose": 117.65,
-        "oneDayPct": 0.68,
-        "fiveDayPct": 0.45,
-        "oneMonthPct": 1.54,
-        "ytdPct": -0.59,
-        "volume": 122451,
-        "volumeVs20DayAvg": 0.01,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLY"
-      },
-      {
-        "symbol": "XLRE",
-        "label": "Real Estate",
-        "latestDate": "2026-07-10",
-        "lastClose": 44.52,
-        "oneDayPct": 0.66,
-        "fiveDayPct": -0.36,
-        "oneMonthPct": -1,
-        "ytdPct": 10.25,
-        "volume": 252438,
-        "volumeVs20DayAvg": 0.05,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLRE"
-      },
-      {
         "symbol": "XLB",
         "label": "Materials",
         "latestDate": "2026-07-10",
-        "lastClose": 50.51,
-        "oneDayPct": 0.5,
-        "fiveDayPct": -2.88,
-        "oneMonthPct": -0.51,
-        "ytdPct": 9.52,
-        "volume": 520908,
-        "volumeVs20DayAvg": 0.04,
+        "lastClose": 50.89,
+        "oneDayPct": 1.25,
+        "fiveDayPct": -2.15,
+        "oneMonthPct": 0.24,
+        "ytdPct": 10.34,
+        "volume": 7507300,
+        "volumeVs20DayAvg": 0.62,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLB"
+      },
+      {
+        "symbol": "XLP",
+        "label": "Consumer Staples",
+        "latestDate": "2026-07-10",
+        "lastClose": 84.12,
+        "oneDayPct": 1.11,
+        "fiveDayPct": -1.02,
+        "oneMonthPct": 0.02,
+        "ytdPct": 8.28,
+        "volume": 8302600,
+        "volumeVs20DayAvg": 0.66,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XLP"
       },
       {
         "symbol": "XLV",
         "label": "Health Care",
         "latestDate": "2026-07-10",
-        "lastClose": 161.395,
-        "oneDayPct": -0.48,
-        "fiveDayPct": -1.43,
-        "oneMonthPct": 4.42,
-        "ytdPct": 3.78,
-        "volume": 275666,
-        "volumeVs20DayAvg": 0.02,
+        "lastClose": 160.84,
+        "oneDayPct": -0.82,
+        "fiveDayPct": -1.77,
+        "oneMonthPct": 4.06,
+        "ytdPct": 3.43,
+        "volume": 9496100,
+        "volumeVs20DayAvg": 0.84,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLV"
-      },
-      {
-        "symbol": "XLE",
-        "label": "Energy",
-        "latestDate": "2026-07-10",
-        "lastClose": 54.99,
-        "oneDayPct": 0.31,
-        "fiveDayPct": 3.33,
-        "oneMonthPct": -4.18,
-        "ytdPct": 20.46,
-        "volume": 670086,
-        "volumeVs20DayAvg": 0.02,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/XLE"
       },
       {
         "symbol": "XLU",
         "label": "Utilities",
         "latestDate": "2026-07-10",
-        "lastClose": 45.24,
-        "oneDayPct": 0.24,
-        "fiveDayPct": -1.14,
-        "oneMonthPct": 2.86,
-        "ytdPct": 4.77,
-        "volume": 328870,
-        "volumeVs20DayAvg": 0.02,
+        "lastClose": 45.41,
+        "oneDayPct": 0.62,
+        "fiveDayPct": -0.76,
+        "oneMonthPct": 3.25,
+        "ytdPct": 5.16,
+        "volume": 14050300,
+        "volumeVs20DayAvg": 0.68,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/XLU"
+      },
+      {
+        "symbol": "XLRE",
+        "label": "Real Estate",
+        "latestDate": "2026-07-10",
+        "lastClose": 44.45,
+        "oneDayPct": 0.5,
+        "fiveDayPct": -0.51,
+        "oneMonthPct": -1.16,
+        "ytdPct": 10.08,
+        "volume": 3608200,
+        "volumeVs20DayAvg": 0.64,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XLRE"
+      },
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "latestDate": "2026-07-10",
+        "lastClose": 55.08,
+        "oneDayPct": 0.47,
+        "fiveDayPct": 3.49,
+        "oneMonthPct": -4.03,
+        "ytdPct": 20.66,
+        "volume": 22969400,
+        "volumeVs20DayAvg": 0.68,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XLE"
       }
     ],
     "watchlist": [
@@ -3107,141 +3091,116 @@
         "symbol": "META",
         "label": "Meta",
         "latestDate": "2026-07-10",
-        "lastClose": 674.22,
-        "oneDayPct": 6.77,
-        "fiveDayPct": 15.67,
-        "oneMonthPct": 15.33,
-        "ytdPct": 3.66,
-        "volume": 4979918,
-        "volumeVs20DayAvg": 0.26,
+        "lastClose": 669.21,
+        "oneDayPct": 5.97,
+        "fiveDayPct": 14.81,
+        "oneMonthPct": 14.48,
+        "ytdPct": 2.89,
+        "volume": 40563100,
+        "volumeVs20DayAvg": 2.12,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/META"
       },
       {
-        "symbol": "COIN",
-        "label": "Coinbase",
+        "symbol": "NVDA",
+        "label": "Nvidia",
         "latestDate": "2026-07-10",
-        "lastClose": 166.8,
-        "oneDayPct": 5.28,
-        "fiveDayPct": 0.8,
-        "oneMonthPct": 7.27,
-        "ytdPct": -29.48,
-        "volume": 754412,
-        "volumeVs20DayAvg": 0.1,
+        "lastClose": 210.96,
+        "oneDayPct": 4.03,
+        "fiveDayPct": 8.28,
+        "oneMonthPct": 1.33,
+        "ytdPct": 11.71,
+        "volume": 148124000,
+        "volumeVs20DayAvg": 1,
         "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/COIN"
+        "url": "https://finance.yahoo.com/quote/NVDA"
+      },
+      {
+        "symbol": "ARCC",
+        "label": "Ares Capital",
+        "latestDate": "2026-07-10",
+        "lastClose": 18.78,
+        "oneDayPct": 2.01,
+        "fiveDayPct": 0.27,
+        "oneMonthPct": -1.31,
+        "ytdPct": -8.12,
+        "volume": 4158700,
+        "volumeVs20DayAvg": 0.77,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/ARCC"
+      },
+      {
+        "symbol": "CVX",
+        "label": "Chevron",
+        "latestDate": "2026-07-10",
+        "lastClose": 176.4,
+        "oneDayPct": 1.35,
+        "fiveDayPct": 4.26,
+        "oneMonthPct": -5.55,
+        "ytdPct": 13.15,
+        "volume": 5993900,
+        "volumeVs20DayAvg": 0.58,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/CVX"
+      },
+      {
+        "symbol": "XOM",
+        "label": "Exxon Mobil",
+        "latestDate": "2026-07-10",
+        "lastClose": 138.88,
+        "oneDayPct": 1.03,
+        "fiveDayPct": 1.31,
+        "oneMonthPct": -6.74,
+        "ytdPct": 13.23,
+        "volume": 9752200,
+        "volumeVs20DayAvg": 0.53,
+        "source": "OpenBB / Yahoo Finance provider",
+        "url": "https://finance.yahoo.com/quote/XOM"
       },
       {
         "symbol": "MSTR",
         "label": "Strategy",
         "latestDate": "2026-07-10",
-        "lastClose": 98.275,
-        "oneDayPct": 4.67,
-        "fiveDayPct": -2.48,
-        "oneMonthPct": -16.02,
-        "ytdPct": -37.47,
-        "volume": 1910638,
-        "volumeVs20DayAvg": 0.07,
+        "lastClose": 94.64,
+        "oneDayPct": 0.8,
+        "fiveDayPct": -6.08,
+        "oneMonthPct": -19.12,
+        "ytdPct": -39.78,
+        "volume": 16204000,
+        "volumeVs20DayAvg": 0.59,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/MSTR"
-      },
-      {
-        "symbol": "KKR",
-        "label": "KKR",
-        "latestDate": "2026-07-10",
-        "lastClose": 98.51,
-        "oneDayPct": 2.33,
-        "fiveDayPct": 4.98,
-        "oneMonthPct": 2.79,
-        "ytdPct": -23.58,
-        "volume": 134484,
-        "volumeVs20DayAvg": 0.03,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/KKR"
       },
       {
         "symbol": "BX",
         "label": "Blackstone",
         "latestDate": "2026-07-10",
-        "lastClose": 124.92,
-        "oneDayPct": 2.27,
-        "fiveDayPct": 1.74,
-        "oneMonthPct": 3.85,
-        "ytdPct": -21.34,
-        "volume": 97300,
-        "volumeVs20DayAvg": 0.02,
+        "lastClose": 123.09,
+        "oneDayPct": 0.77,
+        "fiveDayPct": 0.25,
+        "oneMonthPct": 2.33,
+        "ytdPct": -22.49,
+        "volume": 2568800,
+        "volumeVs20DayAvg": 0.49,
         "source": "OpenBB / Yahoo Finance provider",
         "url": "https://finance.yahoo.com/quote/BX"
       },
       {
-        "symbol": "OWL",
-        "label": "Blue Owl",
+        "symbol": "BAC",
+        "label": "Bank of America",
         "latestDate": "2026-07-10",
-        "lastClose": 9.455,
-        "oneDayPct": 1.67,
-        "fiveDayPct": 4.59,
-        "oneMonthPct": -1.41,
-        "ytdPct": -38.24,
-        "volume": 584355,
-        "volumeVs20DayAvg": 0.03,
+        "lastClose": 59.67,
+        "oneDayPct": 0.71,
+        "fiveDayPct": 1.6,
+        "oneMonthPct": 9.65,
+        "ytdPct": 6.65,
+        "volume": 21910800,
+        "volumeVs20DayAvg": 0.61,
         "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/OWL"
-      },
-      {
-        "symbol": "MSFT",
-        "label": "Microsoft",
-        "latestDate": "2026-07-10",
-        "lastClose": 389.56,
-        "oneDayPct": 1.35,
-        "fiveDayPct": -0.24,
-        "oneMonthPct": -3.43,
-        "ytdPct": -17.63,
-        "volume": 1483715,
-        "volumeVs20DayAvg": 0.03,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/MSFT"
-      },
-      {
-        "symbol": "AMZN",
-        "label": "Amazon",
-        "latestDate": "2026-07-10",
-        "lastClose": 250.16,
-        "oneDayPct": 1.26,
-        "fiveDayPct": 3.09,
-        "oneMonthPct": 2.44,
-        "ytdPct": 10.45,
-        "volume": 2258912,
-        "volumeVs20DayAvg": 0.04,
-        "source": "OpenBB / Yahoo Finance provider",
-        "url": "https://finance.yahoo.com/quote/AMZN"
+        "url": "https://finance.yahoo.com/quote/BAC"
       }
     ],
-    "failures": [
-      {
-        "id": "QQQ",
-        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-      },
-      {
-        "id": "IWM",
-        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-      },
-      {
-        "id": "DIA",
-        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-      },
-      {
-        "id": "XLK",
-        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-      },
-      {
-        "id": "XLF",
-        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-      },
-      {
-        "id": "JPM",
-        "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-      }
-    ]
+    "failures": []
   },
   "editorsBrief": {
     "label": "Editor's Brief",
@@ -3250,7 +3209,7 @@
       "The Week in Numbers: SK Hynix IPO heats up, Samsung's profit surge: STORY: From a massive SK Hynix IPO to Samsung's giant profits... The read-through runs through exit routes, buyer depth and sponsor marks.",
       "Private Markets: The sponsor read is whether the headline opens a monetization path at a real clearing price, or just postpones the valuation reckoning through another private-market structure.",
       "Deal tape: The Week in Numbers: SK Hynix IPO heats up, Samsung's profit surge is the transaction to underwrite for price, certainty, approvals, and financing.",
-      "Market context: SPY +0.11%; XLY +0.68%. Use the tape to frame risk appetite, not as a stand-alone thesis."
+      "Market context: SPY +0.43%; XLB +1.25%. Use the tape to frame risk appetite, not as a stand-alone thesis."
     ]
   },
   "deepDive": {
@@ -3278,9 +3237,9 @@
       "importanceCues": 2,
       "recruitingRelevance": 2,
       "readerValue": 6,
-      "score": 58
+      "score": 56
     },
-    "freshnessStatus": "FRESH",
+    "freshnessStatus": "TODAY",
     "confidence": "Medium",
     "editorialArticle": {
       "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -3376,8 +3335,8 @@
         {
           "id": "BX",
           "label": "Blackstone",
-          "value": 7.968302168401059,
-          "displayValue": 7.968302168401059,
+          "value": 1.0425190003676916,
+          "displayValue": 1.0425190003676916,
           "suffix": "%",
           "latestDate": "2026-07-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -3385,8 +3344,8 @@
         {
           "id": "KKR",
           "label": "KKR",
-          "value": 7.958783204425952,
-          "displayValue": 7.958783204425952,
+          "value": -1.222739918183411,
+          "displayValue": -1.222739918183411,
           "suffix": "%",
           "latestDate": "2026-07-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -3394,8 +3353,8 @@
         {
           "id": "APO",
           "label": "Apollo Global Management",
-          "value": 15.794017465958179,
-          "displayValue": 15.794017465958179,
+          "value": 9.44974959348059,
+          "displayValue": 9.44974959348059,
           "suffix": "%",
           "latestDate": "2026-07-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -3466,9 +3425,9 @@
         "importanceCues": 2,
         "recruitingRelevance": 2,
         "readerValue": 6,
-        "score": 58
+        "score": 56
       },
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -3564,8 +3523,8 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 7.968302168401059,
-            "displayValue": 7.968302168401059,
+            "value": 1.0425190003676916,
+            "displayValue": 1.0425190003676916,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -3573,8 +3532,8 @@
           {
             "id": "KKR",
             "label": "KKR",
-            "value": 7.958783204425952,
-            "displayValue": 7.958783204425952,
+            "value": -1.222739918183411,
+            "displayValue": -1.222739918183411,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -3582,8 +3541,8 @@
           {
             "id": "APO",
             "label": "Apollo Global Management",
-            "value": 15.794017465958179,
-            "displayValue": 15.794017465958179,
+            "value": 9.44974959348059,
+            "displayValue": 9.44974959348059,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -3653,9 +3612,9 @@
         "importanceCues": 2,
         "recruitingRelevance": 2,
         "readerValue": 6,
-        "score": 55
+        "score": 53
       },
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "Does this create real sponsor liquidity, or does it mainly defer the valuation test?",
@@ -3751,8 +3710,8 @@
           {
             "id": "BX",
             "label": "Blackstone",
-            "value": 7.968302168401059,
-            "displayValue": 7.968302168401059,
+            "value": 1.0425190003676916,
+            "displayValue": 1.0425190003676916,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=3mo&interval=1d"
@@ -3760,8 +3719,8 @@
           {
             "id": "KKR",
             "label": "KKR",
-            "value": 7.958783204425952,
-            "displayValue": 7.958783204425952,
+            "value": -1.222739918183411,
+            "displayValue": -1.222739918183411,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=3mo&interval=1d"
@@ -3769,8 +3728,8 @@
           {
             "id": "APO",
             "label": "Apollo Global Management",
-            "value": 15.794017465958179,
-            "displayValue": 15.794017465958179,
+            "value": 9.44974959348059,
+            "displayValue": 9.44974959348059,
             "suffix": "%",
             "latestDate": "2026-07-10",
             "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=3mo&interval=1d"
@@ -3839,9 +3798,9 @@
         "importanceCues": 2,
         "recruitingRelevance": 2,
         "readerValue": 6,
-        "score": 41
+        "score": 37
       },
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "confidence": "Medium",
       "editorialArticle": {
         "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
@@ -4006,36 +3965,1086 @@
       "message": "fetch failed"
     }
   ],
-  "visualDataFailures": [
-    {
-      "id": "OPENBB_QQQ",
-      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-    },
-    {
-      "id": "OPENBB_IWM",
-      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-    },
-    {
-      "id": "OPENBB_DIA",
-      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-    },
-    {
-      "id": "OPENBB_XLK",
-      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-    },
-    {
-      "id": "OPENBB_XLF",
-      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-    },
-    {
-      "id": "OPENBB_JPM",
-      "message": "\n[Empty] -> No results found. Try adjusting the query parameters."
-    }
-  ],
+  "visualDataFailures": [],
   "calendarFailures": [],
+  "intelligence": {
+    "officialMacro": {
+      "artifacts": [
+        {
+          "schemaVersion": "1.0.0",
+          "type": "IntelligenceArtifact",
+          "sourceDocument": {
+            "schemaVersion": "1.0.0",
+            "type": "SourceDocument",
+            "documentId": "doc_6b190ea632da4205b0ad",
+            "retrievalId": "retrieval_220a50b5a6092f356316",
+            "sourceId": "bls-cpi",
+            "canonicalUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+            "sourceType": "official",
+            "evidentiaryRole": "establishes_official_release_facts",
+            "publishedAt": "2026-06-10T12:30:00.000Z",
+            "fetchedAt": "2026-07-10T13:31:23.898Z",
+            "contentHash": "0c4759d01f431b06076ba087946106c3f0bcbb9cbe09a790898598c40d37959e",
+            "retainedContent": "Title: Consumer Price Index Summary\nSummary: CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.\nFact 1: CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.\nFact 2: Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment.\nFact 3: The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March.\nFact 4: The energy index accounted for over sixty percent of the monthly all items increase.\nFact 5: The index for shelter also increased in May, rising 0.3 percent.",
+            "retainedContentPolicy": "canonical_labeled_title_summary_and_cleaned_facts_v1",
+            "title": "Consumer Price Index Summary"
+          },
+          "assertions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_8539339905565a320af2",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.",
+              "sourceSpan": {
+                "start": 576,
+                "end": 811,
+                "quote": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.",
+                "quoteHash": "3494aa9d37fe9fc3a148f1516952db1a8c2aaaced0189f41c2de9ae3e469e240"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_bf437a6151fb0ef809ed",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment.",
+              "sourceSpan": {
+                "start": 820,
+                "end": 914,
+                "quote": "Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment.",
+                "quoteHash": "0801e530392c286afa8f9c27455952f2d127f80e776e36c9481218a1f7ea05cf"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_b0fdecd6dd0e9b04c344",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March.",
+              "sourceSpan": {
+                "start": 923,
+                "end": 1029,
+                "quote": "The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March.",
+                "quoteHash": "a99be41ea29681a013461f9933a4a8adce144dfdb8c856a4ef4cec9f531bfe03"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_62ea6c08f6d4d1f668e9",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "The energy index accounted for over sixty percent of the monthly all items increase.",
+              "sourceSpan": {
+                "start": 1038,
+                "end": 1122,
+                "quote": "The energy index accounted for over sixty percent of the monthly all items increase.",
+                "quoteHash": "4ea80dd374dd40d698862c9c965b73699c98806c16df4c63f02351552f9c0504"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_a5229f74b006dfaee258",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "The index for shelter also increased in May, rising 0.3 percent.",
+              "sourceSpan": {
+                "start": 1131,
+                "end": 1195,
+                "quote": "The index for shelter also increased in May, rising 0.3 percent.",
+                "quoteHash": "f00bef12b3d017c6e52fedff6a85271f93edeb0da46b1bf808d297e241f1ff4b"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            }
+          ],
+          "propositions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "CanonicalProposition",
+              "propositionId": "proposition_3e45e99d5e00232041bc",
+              "text": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase. The index for shelter also increased in May, rising 0.3 percent.",
+              "assertionIds": [
+                "assertion_8539339905565a320af2",
+                "assertion_bf437a6151fb0ef809ed",
+                "assertion_b0fdecd6dd0e9b04c344",
+                "assertion_62ea6c08f6d4d1f668e9",
+                "assertion_a5229f74b006dfaee258"
+              ],
+              "contradictionState": "none_observed",
+              "adjudicationState": "supported_by_primary_source",
+              "validAt": "2026-06-10T12:30:00.000Z"
+            }
+          ],
+          "dossier": {
+            "schemaVersion": "1.0.0",
+            "type": "StoryDossier",
+            "dossierId": "dossier_97d0ab094811734d8251",
+            "storyId": "story_578af659da49f2442cae",
+            "dossierRevision": 1,
+            "storyClass": "official_macro_cpi",
+            "asOf": "2026-07-10T23:59:59.999Z",
+            "status": "dossier_ready",
+            "documentIds": [
+              "doc_6b190ea632da4205b0ad"
+            ],
+            "assertionIds": [
+              "assertion_8539339905565a320af2",
+              "assertion_bf437a6151fb0ef809ed",
+              "assertion_b0fdecd6dd0e9b04c344",
+              "assertion_62ea6c08f6d4d1f668e9",
+              "assertion_a5229f74b006dfaee258"
+            ],
+            "propositionIds": [
+              "proposition_3e45e99d5e00232041bc"
+            ],
+            "openQuestions": [
+              "Attach an approved consensus estimate before making comparisons with expectations.",
+              "Did the two-year Treasury yield confirm a change in the expected policy path?",
+              "Do revisions or component details change the headline interpretation?"
+            ],
+            "contradictions": [],
+            "evidenceCoverage": {
+              "primarySource": true,
+              "extractedFactCount": 5,
+              "consensusAvailable": false,
+              "marketReactionAvailable": false
+            }
+          },
+          "claims": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_16b29e1528ad5478735d",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_8539339905565a320af2"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_7cfcbd2b54c576cae600",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_bf437a6151fb0ef809ed"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_faf56ade137ad42e59df",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_b0fdecd6dd0e9b04c344"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_b15b3e9399c87e957cba",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "The energy index accounted for over sixty percent of the monthly all items increase.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_62ea6c08f6d4d1f668e9"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_9546a328411fd4bbd345",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "The index for shelter also increased in May, rising 0.3 percent.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_a5229f74b006dfaee258"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            }
+          ],
+          "brief": {
+            "schemaVersion": "1.0.0",
+            "type": "ArticleBrief",
+            "briefId": "brief_97d0ab094811734d8251",
+            "storyId": "story_578af659da49f2442cae",
+            "sourceDossierId": "dossier_97d0ab094811734d8251",
+            "sourceDossierRevision": 1,
+            "centralQuestion": "Does Consumer Price Index Summary change the expected path for inflation, growth, or Federal Reserve policy?",
+            "consensusBaseline": {
+              "eventMatched": true,
+              "consensusAvailable": false,
+              "priorAvailable": false,
+              "consensus": null,
+              "prior": null,
+              "limitation": "The matched calendar event did not provide usable consensus or prior value metadata."
+            },
+            "newInformation": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase. The index for shelter also increased in May, rising 0.3 percent.",
+            "mechanismSteps": [
+              "Separate the headline reading from core and major component contributions.",
+              "Translate persistence into the expected Federal Reserve policy path rather than treating one print as the whole trend.",
+              "Check the two-year Treasury yield and rate-sensitive equity multiples for confirmation before attributing the market move."
+            ],
+            "rivalExplanation": "The apparent signal may be noise from volatile components, revisions, or a market move driven by another contemporaneous catalyst.",
+            "pricedInStatus": "unknown_without_verified_market_expectations",
+            "claimIds": [
+              "claim_16b29e1528ad5478735d",
+              "claim_7cfcbd2b54c576cae600",
+              "claim_faf56ade137ad42e59df",
+              "claim_b15b3e9399c87e957cba",
+              "claim_9546a328411fd4bbd345"
+            ],
+            "editorialBurden": "Explain the release, the component mix, the policy transmission, and the evidence that would confirm or reject the interpretation. Do not force a longer form."
+          },
+          "speakingLadder": {
+            "schemaVersion": "1.0.0",
+            "type": "SpeakingLadder",
+            "speakingLadderId": "speaking_97d0ab094811734d8251",
+            "storyId": "story_578af659da49f2442cae",
+            "claimIds": [
+              "claim_16b29e1528ad5478735d",
+              "claim_7cfcbd2b54c576cae600",
+              "claim_faf56ade137ad42e59df",
+              "claim_b15b3e9399c87e957cba",
+              "claim_9546a328411fd4bbd345"
+            ],
+            "twentySecond": "The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. The disciplined read is to focus on the composition until a usable consensus estimate is attached.",
+            "sixtySecond": "The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. No usable consensus estimate was available in the approved inputs. The decision-useful question is whether the composition changes the expected policy path and whether the front end of the Treasury curve confirms that interpretation.",
+            "likelyChallenge": "Was the inflation change broad-based or driven by volatile components, and what did the core measure do?",
+            "defensibleResponse": "I would anchor the answer in the published components and revisions, then check market confirmation. A different component mix, meaningful revisions, or a conflicting rates move would weaken the initial interpretation; one release is not a complete trend.",
+            "technicalConcept": "Core inflation: inflation excluding food and energy, used to study persistence even though households still pay the excluded prices."
+          },
+          "runManifest": {
+            "schemaVersion": "1.0.0",
+            "type": "RunManifest",
+            "runId": "run_ef3c019c837ce1199b65",
+            "editionId": "2026-07-10",
+            "storyId": "story_578af659da49f2442cae",
+            "sourceDocumentIds": [
+              "doc_6b190ea632da4205b0ad"
+            ],
+            "assertionIds": [
+              "assertion_8539339905565a320af2",
+              "assertion_bf437a6151fb0ef809ed",
+              "assertion_b0fdecd6dd0e9b04c344",
+              "assertion_62ea6c08f6d4d1f668e9",
+              "assertion_a5229f74b006dfaee258"
+            ],
+            "propositionIds": [
+              "proposition_3e45e99d5e00232041bc"
+            ],
+            "claimIds": [
+              "claim_16b29e1528ad5478735d",
+              "claim_7cfcbd2b54c576cae600",
+              "claim_faf56ade137ad42e59df",
+              "claim_b15b3e9399c87e957cba",
+              "claim_9546a328411fd4bbd345"
+            ],
+            "dossierId": "dossier_97d0ab094811734d8251",
+            "briefId": "brief_97d0ab094811734d8251",
+            "speakingLadderId": "speaking_97d0ab094811734d8251",
+            "startedAt": "2026-07-10T23:59:59.999Z",
+            "completedAt": "2026-07-10T23:59:59.999Z",
+            "configurationHash": "ce0b14d5596af98d980e82d4bdd3feaec613f8ae0d07c5f5c52be9b7caa3f612",
+            "inputDocumentHashes": [
+              "0c4759d01f431b06076ba087946106c3f0bcbb9cbe09a790898598c40d37959e"
+            ],
+            "stageStatuses": [
+              {
+                "stage": "source_document",
+                "status": "completed"
+              },
+              {
+                "stage": "evidence_assertions",
+                "status": "completed"
+              },
+              {
+                "stage": "canonical_proposition",
+                "status": "completed"
+              },
+              {
+                "stage": "story_dossier",
+                "status": "completed"
+              },
+              {
+                "stage": "article_brief",
+                "status": "completed"
+              },
+              {
+                "stage": "speaking_ladder",
+                "status": "completed"
+              },
+              {
+                "stage": "claim_verification",
+                "status": "completed"
+              }
+            ],
+            "usage": {
+              "modelCalls": 0,
+              "searchQueries": 0,
+              "inputTokens": 0,
+              "outputTokens": 0,
+              "estimatedCostUsd": 0
+            }
+          }
+        },
+        {
+          "schemaVersion": "1.0.0",
+          "type": "IntelligenceArtifact",
+          "sourceDocument": {
+            "schemaVersion": "1.0.0",
+            "type": "SourceDocument",
+            "documentId": "doc_4c5fa2fd12a937864278",
+            "retrievalId": "retrieval_c1048cafbc9f4254d521",
+            "sourceId": "bls-ppi",
+            "canonicalUrl": "https://www.bls.gov/news.release/ppi.nr0.htm",
+            "sourceType": "official",
+            "evidentiaryRole": "establishes_official_release_facts",
+            "publishedAt": "2026-06-11T12:30:00.000Z",
+            "fetchedAt": "2026-07-10T13:31:24.167Z",
+            "contentHash": "c2581de28309aba3e08d9abbf9e79691727d230fa3579e195e2f96ba8ca8c3bc",
+            "retainedContent": "Title: Producer Price Index News Release summary\nSummary: PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022. Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.\nFact 1: PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.\nFact 2: Final demand prices advanced 1.1 percent in April and 0.7 percent in March.\nFact 3: (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022.\nFact 4: Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.\nFact 5: Prices for final demand services moved up 0.3 percent.",
+            "retainedContentPolicy": "canonical_labeled_title_summary_and_cleaned_facts_v1",
+            "title": "Producer Price Index News Release summary"
+          },
+          "assertions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_1eb7e6be68ee3ba04aa5",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.",
+              "sourceSpan": {
+                "start": 646,
+                "end": 818,
+                "quote": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.",
+                "quoteHash": "55beda0eef24345ca0ab5970d6d6b62175412a58e6a850b64f51cdfd797969af"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_1b9ec5222a26aef0d4a7",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "Final demand prices advanced 1.1 percent in April and 0.7 percent in March.",
+              "sourceSpan": {
+                "start": 827,
+                "end": 902,
+                "quote": "Final demand prices advanced 1.1 percent in April and 0.7 percent in March.",
+                "quoteHash": "b35b176bc0b605db59b3ae38fde592f19183cff86fe7a4daba870929a490c366"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_8abc87b5faca7738cec0",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "(See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022.",
+              "sourceSpan": {
+                "start": 911,
+                "end": 1102,
+                "quote": "(See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022.",
+                "quoteHash": "3b7671677225dd2c0b87c0f5c7c2dd7123141813e114e2eaea6c44bf4e2b92bc"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_7e1b8c9a80f7fed38af5",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.",
+              "sourceSpan": {
+                "start": 1111,
+                "end": 1249,
+                "quote": "Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.",
+                "quoteHash": "89be7fc52de0b866031c899eb0ee71746e0bb89c2c3040d6be7599686f0c2840"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_586cdcfc047bf89f9861",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "Prices for final demand services moved up 0.3 percent.",
+              "sourceSpan": {
+                "start": 1258,
+                "end": 1312,
+                "quote": "Prices for final demand services moved up 0.3 percent.",
+                "quoteHash": "dcf9bf78ca0fa59a6cc69e0409eab00fedad56089a05e7cd15493e15a0779595"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            }
+          ],
+          "propositions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "CanonicalProposition",
+              "propositionId": "proposition_f87a6b799d2bca30062f",
+              "text": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022. Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods. Prices for final demand services moved up 0.3 percent.",
+              "assertionIds": [
+                "assertion_1eb7e6be68ee3ba04aa5",
+                "assertion_1b9ec5222a26aef0d4a7",
+                "assertion_8abc87b5faca7738cec0",
+                "assertion_7e1b8c9a80f7fed38af5",
+                "assertion_586cdcfc047bf89f9861"
+              ],
+              "contradictionState": "none_observed",
+              "adjudicationState": "supported_by_primary_source",
+              "validAt": "2026-06-11T12:30:00.000Z"
+            }
+          ],
+          "dossier": {
+            "schemaVersion": "1.0.0",
+            "type": "StoryDossier",
+            "dossierId": "dossier_bb8913b4c5f5f1587e85",
+            "storyId": "story_34785e6fcf37b05263c8",
+            "dossierRevision": 1,
+            "storyClass": "official_macro_ppi",
+            "asOf": "2026-07-10T23:59:59.999Z",
+            "status": "dossier_ready",
+            "documentIds": [
+              "doc_4c5fa2fd12a937864278"
+            ],
+            "assertionIds": [
+              "assertion_1eb7e6be68ee3ba04aa5",
+              "assertion_1b9ec5222a26aef0d4a7",
+              "assertion_8abc87b5faca7738cec0",
+              "assertion_7e1b8c9a80f7fed38af5",
+              "assertion_586cdcfc047bf89f9861"
+            ],
+            "propositionIds": [
+              "proposition_f87a6b799d2bca30062f"
+            ],
+            "openQuestions": [
+              "Attach an approved consensus estimate before making comparisons with expectations.",
+              "Did the two-year Treasury yield confirm a change in the expected policy path?",
+              "Do revisions or component details change the headline interpretation?"
+            ],
+            "contradictions": [],
+            "evidenceCoverage": {
+              "primarySource": true,
+              "extractedFactCount": 5,
+              "consensusAvailable": false,
+              "marketReactionAvailable": false
+            }
+          },
+          "claims": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_3e660aee8a84cb78e4c7",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_1eb7e6be68ee3ba04aa5"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_023f32d1f8db018da309",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "Final demand prices advanced 1.1 percent in April and 0.7 percent in March.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_1b9ec5222a26aef0d4a7"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_4b4c7dd01556e5f77b8b",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "(See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_8abc87b5faca7738cec0"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_14cea05d48973e61dad6",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_7e1b8c9a80f7fed38af5"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_cc0af06fb7c1423a30f0",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "Prices for final demand services moved up 0.3 percent.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_586cdcfc047bf89f9861"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            }
+          ],
+          "brief": {
+            "schemaVersion": "1.0.0",
+            "type": "ArticleBrief",
+            "briefId": "brief_bb8913b4c5f5f1587e85",
+            "storyId": "story_34785e6fcf37b05263c8",
+            "sourceDossierId": "dossier_bb8913b4c5f5f1587e85",
+            "sourceDossierRevision": 1,
+            "centralQuestion": "Does Producer Price Index News Release summary change the expected path for inflation, growth, or Federal Reserve policy?",
+            "consensusBaseline": {
+              "eventMatched": true,
+              "consensusAvailable": false,
+              "priorAvailable": false,
+              "consensus": null,
+              "prior": null,
+              "limitation": "The matched calendar event did not provide usable consensus or prior value metadata."
+            },
+            "newInformation": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022. Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods. Prices for final demand services moved up 0.3 percent.",
+            "mechanismSteps": [
+              "Identify whether producer-price pressure is concentrated in goods, services, or trade margins.",
+              "Assess whether firms can pass the pressure through to consumer prices or must absorb it in margins.",
+              "Check Treasury yields, inflation expectations, and margin-sensitive sectors for confirmation."
+            ],
+            "rivalExplanation": "The apparent signal may be noise from volatile components, revisions, or a market move driven by another contemporaneous catalyst.",
+            "pricedInStatus": "unknown_without_verified_market_expectations",
+            "claimIds": [
+              "claim_3e660aee8a84cb78e4c7",
+              "claim_023f32d1f8db018da309",
+              "claim_4b4c7dd01556e5f77b8b",
+              "claim_14cea05d48973e61dad6",
+              "claim_cc0af06fb7c1423a30f0"
+            ],
+            "editorialBurden": "Explain the release, the component mix, the policy transmission, and the evidence that would confirm or reject the interpretation. Do not force a longer form."
+          },
+          "speakingLadder": {
+            "schemaVersion": "1.0.0",
+            "type": "SpeakingLadder",
+            "speakingLadderId": "speaking_bb8913b4c5f5f1587e85",
+            "storyId": "story_34785e6fcf37b05263c8",
+            "claimIds": [
+              "claim_3e660aee8a84cb78e4c7",
+              "claim_023f32d1f8db018da309",
+              "claim_4b4c7dd01556e5f77b8b",
+              "claim_14cea05d48973e61dad6",
+              "claim_cc0af06fb7c1423a30f0"
+            ],
+            "twentySecond": "The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. The disciplined read is to focus on the composition until a usable consensus estimate is attached.",
+            "sixtySecond": "The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. No usable consensus estimate was available in the approved inputs. The decision-useful question is whether the composition changes the expected policy path and whether the front end of the Treasury curve confirms that interpretation.",
+            "likelyChallenge": "Which components drove the headline, and do they change the underlying trend rather than just one month's noise?",
+            "defensibleResponse": "I would anchor the answer in the published components and revisions, then check market confirmation. A different component mix, meaningful revisions, or a conflicting rates move would weaken the initial interpretation; one release is not a complete trend.",
+            "technicalConcept": "Pass-through: the extent to which changes in producers' input or selling prices reach consumer prices or corporate margins."
+          },
+          "runManifest": {
+            "schemaVersion": "1.0.0",
+            "type": "RunManifest",
+            "runId": "run_ec30d714b5a34ad24807",
+            "editionId": "2026-07-10",
+            "storyId": "story_34785e6fcf37b05263c8",
+            "sourceDocumentIds": [
+              "doc_4c5fa2fd12a937864278"
+            ],
+            "assertionIds": [
+              "assertion_1eb7e6be68ee3ba04aa5",
+              "assertion_1b9ec5222a26aef0d4a7",
+              "assertion_8abc87b5faca7738cec0",
+              "assertion_7e1b8c9a80f7fed38af5",
+              "assertion_586cdcfc047bf89f9861"
+            ],
+            "propositionIds": [
+              "proposition_f87a6b799d2bca30062f"
+            ],
+            "claimIds": [
+              "claim_3e660aee8a84cb78e4c7",
+              "claim_023f32d1f8db018da309",
+              "claim_4b4c7dd01556e5f77b8b",
+              "claim_14cea05d48973e61dad6",
+              "claim_cc0af06fb7c1423a30f0"
+            ],
+            "dossierId": "dossier_bb8913b4c5f5f1587e85",
+            "briefId": "brief_bb8913b4c5f5f1587e85",
+            "speakingLadderId": "speaking_bb8913b4c5f5f1587e85",
+            "startedAt": "2026-07-10T23:59:59.999Z",
+            "completedAt": "2026-07-10T23:59:59.999Z",
+            "configurationHash": "ce0b14d5596af98d980e82d4bdd3feaec613f8ae0d07c5f5c52be9b7caa3f612",
+            "inputDocumentHashes": [
+              "c2581de28309aba3e08d9abbf9e79691727d230fa3579e195e2f96ba8ca8c3bc"
+            ],
+            "stageStatuses": [
+              {
+                "stage": "source_document",
+                "status": "completed"
+              },
+              {
+                "stage": "evidence_assertions",
+                "status": "completed"
+              },
+              {
+                "stage": "canonical_proposition",
+                "status": "completed"
+              },
+              {
+                "stage": "story_dossier",
+                "status": "completed"
+              },
+              {
+                "stage": "article_brief",
+                "status": "completed"
+              },
+              {
+                "stage": "speaking_ladder",
+                "status": "completed"
+              },
+              {
+                "stage": "claim_verification",
+                "status": "completed"
+              }
+            ],
+            "usage": {
+              "modelCalls": 0,
+              "searchQueries": 0,
+              "inputTokens": 0,
+              "outputTokens": 0,
+              "estimatedCostUsd": 0
+            }
+          }
+        },
+        {
+          "schemaVersion": "1.0.0",
+          "type": "IntelligenceArtifact",
+          "sourceDocument": {
+            "schemaVersion": "1.0.0",
+            "type": "SourceDocument",
+            "documentId": "doc_240b3a79a1773c3b4a13",
+            "retrievalId": "retrieval_c81bfe793cc414c1eee7",
+            "sourceId": "bls-employment",
+            "canonicalUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+            "sourceType": "official",
+            "evidentiaryRole": "establishes_official_release_facts",
+            "publishedAt": "2026-07-02T12:30:00.000Z",
+            "fetchedAt": "2026-07-10T13:31:24.294Z",
+            "contentHash": "5abe82f28ccbaf38ec4e8797eecd02a0073aecdfbe6333d24a42b52a94bf8c48",
+            "retainedContent": "Title: Employment Situation Summary\nSummary: THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June. (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent). (See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.\nFact 1: THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today.\nFact 2: Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June.\nFact 3: (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent).\nFact 4: (See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.\nFact 5: The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+            "retainedContentPolicy": "canonical_labeled_title_summary_and_cleaned_facts_v1",
+            "title": "Employment Situation Summary"
+          },
+          "assertions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_9de16cd3ea76e56a6da7",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today.",
+              "sourceSpan": {
+                "start": 871,
+                "end": 1070,
+                "quote": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today.",
+                "quoteHash": "77f53e7b45be1594a63ef0cce8d418e1046e3b82cbd575e709f647360f77c2b5"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_1f7936604194a584d7d9",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June.",
+              "sourceSpan": {
+                "start": 1079,
+                "end": 1221,
+                "quote": "Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June.",
+                "quoteHash": "0fa4f42b7aee34e5df710f28af4c0f1b1e19708f5094bcb4f4d7dada6e4de9c4"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_d9a09484c2559829b2f2",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "(See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent).",
+              "sourceSpan": {
+                "start": 1230,
+                "end": 1526,
+                "quote": "(See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent).",
+                "quoteHash": "abee7e92980bcea65c232d018b971a8bc30a733b0d2fd7f40db324e6e400a0ce"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_bba66f82476e75242601",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "(See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.",
+              "sourceSpan": {
+                "start": 1535,
+                "end": 1712,
+                "quote": "(See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.",
+                "quoteHash": "0138044bab43c0e76699647a7d46575a079999c7178d7e497a91b2926467c697"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_26a6a5ad5c350da42f3a",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+              "sourceSpan": {
+                "start": 1721,
+                "end": 1806,
+                "quote": "The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+                "quoteHash": "e9d7f6165c7259f01b5bceba836aa68c1e8c39bbc2b030904fe8f6c371e7221e"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            }
+          ],
+          "propositions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "CanonicalProposition",
+              "propositionId": "proposition_39cde96553baa814795a",
+              "text": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June. (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent). (See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year. The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+              "assertionIds": [
+                "assertion_9de16cd3ea76e56a6da7",
+                "assertion_1f7936604194a584d7d9",
+                "assertion_d9a09484c2559829b2f2",
+                "assertion_bba66f82476e75242601",
+                "assertion_26a6a5ad5c350da42f3a"
+              ],
+              "contradictionState": "none_observed",
+              "adjudicationState": "supported_by_primary_source",
+              "validAt": "2026-07-02T12:30:00.000Z"
+            }
+          ],
+          "dossier": {
+            "schemaVersion": "1.0.0",
+            "type": "StoryDossier",
+            "dossierId": "dossier_156adab4a440a565017c",
+            "storyId": "story_b5dc148abe4f4aea523f",
+            "dossierRevision": 1,
+            "storyClass": "official_macro_employment",
+            "asOf": "2026-07-10T23:59:59.999Z",
+            "status": "dossier_ready",
+            "documentIds": [
+              "doc_240b3a79a1773c3b4a13"
+            ],
+            "assertionIds": [
+              "assertion_9de16cd3ea76e56a6da7",
+              "assertion_1f7936604194a584d7d9",
+              "assertion_d9a09484c2559829b2f2",
+              "assertion_bba66f82476e75242601",
+              "assertion_26a6a5ad5c350da42f3a"
+            ],
+            "propositionIds": [
+              "proposition_39cde96553baa814795a"
+            ],
+            "openQuestions": [
+              "Attach an approved consensus estimate before making comparisons with expectations.",
+              "Did the two-year Treasury yield confirm a change in the expected policy path?",
+              "Do revisions or component details change the headline interpretation?"
+            ],
+            "contradictions": [],
+            "evidenceCoverage": {
+              "primarySource": true,
+              "extractedFactCount": 5,
+              "consensusAvailable": false,
+              "marketReactionAvailable": false
+            }
+          },
+          "claims": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_6d3fe8675583620b24c1",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_9de16cd3ea76e56a6da7"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_d4c2ce04ccc6a297364a",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_1f7936604194a584d7d9"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_8a74eb1d6ac820881fb3",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "(See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent).",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_d9a09484c2559829b2f2"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_c37728d576cdadb28bf3",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "(See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_bba66f82476e75242601"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_321ff9cb3d8d664d7840",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_26a6a5ad5c350da42f3a"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            }
+          ],
+          "brief": {
+            "schemaVersion": "1.0.0",
+            "type": "ArticleBrief",
+            "briefId": "brief_156adab4a440a565017c",
+            "storyId": "story_b5dc148abe4f4aea523f",
+            "sourceDossierId": "dossier_156adab4a440a565017c",
+            "sourceDossierRevision": 1,
+            "centralQuestion": "Does Employment Situation Summary change the expected path for inflation, growth, or Federal Reserve policy?",
+            "consensusBaseline": {
+              "eventMatched": true,
+              "consensusAvailable": false,
+              "priorAvailable": false,
+              "consensus": null,
+              "prior": null,
+              "limitation": "The matched calendar event did not provide usable consensus or prior value metadata."
+            },
+            "newInformation": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June. (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent). (See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year. The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+            "mechanismSteps": [
+              "Read payroll growth together with unemployment, participation, hours, wages, and revisions.",
+              "Translate labor-market balance into wage and services-inflation pressure.",
+              "Check the front end of the Treasury curve for the policy-path repricing."
+            ],
+            "rivalExplanation": "The apparent signal may be noise from volatile components, revisions, or a market move driven by another contemporaneous catalyst.",
+            "pricedInStatus": "unknown_without_verified_market_expectations",
+            "claimIds": [
+              "claim_6d3fe8675583620b24c1",
+              "claim_d4c2ce04ccc6a297364a",
+              "claim_8a74eb1d6ac820881fb3",
+              "claim_c37728d576cdadb28bf3",
+              "claim_321ff9cb3d8d664d7840"
+            ],
+            "editorialBurden": "Explain the release, the component mix, the policy transmission, and the evidence that would confirm or reject the interpretation. Do not force a longer form."
+          },
+          "speakingLadder": {
+            "schemaVersion": "1.0.0",
+            "type": "SpeakingLadder",
+            "speakingLadderId": "speaking_156adab4a440a565017c",
+            "storyId": "story_b5dc148abe4f4aea523f",
+            "claimIds": [
+              "claim_6d3fe8675583620b24c1",
+              "claim_d4c2ce04ccc6a297364a",
+              "claim_8a74eb1d6ac820881fb3",
+              "claim_c37728d576cdadb28bf3",
+              "claim_321ff9cb3d8d664d7840"
+            ],
+            "twentySecond": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. The disciplined read is to focus on the composition until a usable consensus estimate is attached.",
+            "sixtySecond": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June. No usable consensus estimate was available in the approved inputs. The decision-useful question is whether the composition changes the expected policy path and whether the front end of the Treasury curve confirms that interpretation.",
+            "likelyChallenge": "Did the headline payroll number agree with unemployment, participation, hours, wages, and revisions?",
+            "defensibleResponse": "I would anchor the answer in the published components and revisions, then check market confirmation. A different component mix, meaningful revisions, or a conflicting rates move would weaken the initial interpretation; one release is not a complete trend.",
+            "technicalConcept": "Labor-market slack: unused labor capacity, assessed through unemployment, participation, hours, and related measures—not payrolls alone."
+          },
+          "runManifest": {
+            "schemaVersion": "1.0.0",
+            "type": "RunManifest",
+            "runId": "run_c9d5d62457f606d9ca69",
+            "editionId": "2026-07-10",
+            "storyId": "story_b5dc148abe4f4aea523f",
+            "sourceDocumentIds": [
+              "doc_240b3a79a1773c3b4a13"
+            ],
+            "assertionIds": [
+              "assertion_9de16cd3ea76e56a6da7",
+              "assertion_1f7936604194a584d7d9",
+              "assertion_d9a09484c2559829b2f2",
+              "assertion_bba66f82476e75242601",
+              "assertion_26a6a5ad5c350da42f3a"
+            ],
+            "propositionIds": [
+              "proposition_39cde96553baa814795a"
+            ],
+            "claimIds": [
+              "claim_6d3fe8675583620b24c1",
+              "claim_d4c2ce04ccc6a297364a",
+              "claim_8a74eb1d6ac820881fb3",
+              "claim_c37728d576cdadb28bf3",
+              "claim_321ff9cb3d8d664d7840"
+            ],
+            "dossierId": "dossier_156adab4a440a565017c",
+            "briefId": "brief_156adab4a440a565017c",
+            "speakingLadderId": "speaking_156adab4a440a565017c",
+            "startedAt": "2026-07-10T23:59:59.999Z",
+            "completedAt": "2026-07-10T23:59:59.999Z",
+            "configurationHash": "ce0b14d5596af98d980e82d4bdd3feaec613f8ae0d07c5f5c52be9b7caa3f612",
+            "inputDocumentHashes": [
+              "5abe82f28ccbaf38ec4e8797eecd02a0073aecdfbe6333d24a42b52a94bf8c48"
+            ],
+            "stageStatuses": [
+              {
+                "stage": "source_document",
+                "status": "completed"
+              },
+              {
+                "stage": "evidence_assertions",
+                "status": "completed"
+              },
+              {
+                "stage": "canonical_proposition",
+                "status": "completed"
+              },
+              {
+                "stage": "story_dossier",
+                "status": "completed"
+              },
+              {
+                "stage": "article_brief",
+                "status": "completed"
+              },
+              {
+                "stage": "speaking_ladder",
+                "status": "completed"
+              },
+              {
+                "stage": "claim_verification",
+                "status": "completed"
+              }
+            ],
+            "usage": {
+              "modelCalls": 0,
+              "searchQueries": 0,
+              "inputTokens": 0,
+              "outputTokens": 0,
+              "estimatedCostUsd": 0
+            }
+          }
+        }
+      ],
+      "failures": []
+    }
+  },
   "review": {
     "status": "APPROVED",
-    "reviewedAt": "2026-07-10T13:33:09.214Z",
+    "reviewedAt": "2026-07-11T23:48:14.387Z",
     "blockerCount": 0,
     "warningCount": 3
   }

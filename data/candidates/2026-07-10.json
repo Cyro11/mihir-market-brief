@@ -1,6 +1,6 @@
 {
   "runDate": "2026-07-10",
-  "generatedAt": "2026-07-10T13:33:09.026Z",
+  "generatedAt": "2026-07-10T23:59:59.999Z",
   "window": "Latest fetched source set; main tape excludes weak or unsupported items.",
   "candidates": [
     {
@@ -1582,10 +1582,10 @@
         "companies"
       ],
       "feedId": "yahoo-finance-news",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -1595,7 +1595,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 27
+        "total": 25
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -1822,10 +1822,10 @@
         "companies"
       ],
       "feedId": "yahoo-finance-news",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -1835,7 +1835,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 27
+        "total": 25
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -2067,10 +2067,10 @@
       "internalDerivedSummary": true,
       "evidenceType": "internal_derived",
       "evidenceStrength": "thin_internal",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -2080,7 +2080,7 @@
         "internalDerived": 1,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 27
+        "total": 25
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -2263,10 +2263,10 @@
         "companies"
       ],
       "feedId": "yahoo-finance-news",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -2276,7 +2276,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 27
+        "total": 25
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -2490,10 +2490,10 @@
         "companies"
       ],
       "feedId": "yahoo-finance-news",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -2503,7 +2503,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 21
+        "total": 19
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -2754,10 +2754,10 @@
         "companies"
       ],
       "feedId": "yahoo-finance-news",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -2767,7 +2767,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 29
+        "total": 25
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -2835,10 +2835,10 @@
         "companies"
       ],
       "feedId": "yahoo-finance-news",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -2848,7 +2848,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 27
+        "total": 25
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -2994,10 +2994,10 @@
         "companies"
       ],
       "feedId": "cnbc-finance",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3007,7 +3007,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 31
+        "total": 27
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3033,10 +3033,10 @@
       "internalDerivedSummary": true,
       "evidenceType": "internal_derived",
       "evidenceStrength": "thin_internal",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3046,7 +3046,7 @@
         "internalDerived": 1,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 33
+        "total": 31
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3067,10 +3067,10 @@
         "companies"
       ],
       "feedId": "cnbc-finance",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3080,7 +3080,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 23
+        "total": 21
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3101,10 +3101,10 @@
         "companies"
       ],
       "feedId": "cnbc-finance",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3114,7 +3114,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 29
+        "total": 27
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3140,10 +3140,10 @@
       "internalDerivedSummary": true,
       "evidenceType": "internal_derived",
       "evidenceStrength": "thin_internal",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3153,7 +3153,7 @@
         "internalDerived": 1,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 33
+        "total": 31
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3174,10 +3174,10 @@
         "companies"
       ],
       "feedId": "cnbc-finance",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3187,7 +3187,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 29
+        "total": 27
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3208,10 +3208,10 @@
         "companies"
       ],
       "feedId": "cnbc-finance",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3221,7 +3221,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 31
+        "total": 27
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3276,7 +3276,7 @@
         "companies"
       ],
       "feedId": "cnbc-finance",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "ai-infrastructure",
@@ -3288,7 +3288,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 3,
@@ -3298,7 +3298,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 32
+        "total": 30
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3324,10 +3324,10 @@
       "internalDerivedSummary": true,
       "evidenceType": "internal_derived",
       "evidenceStrength": "thin_internal",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3337,7 +3337,7 @@
         "internalDerived": 1,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 33
+        "total": 31
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3363,7 +3363,7 @@
       "internalDerivedSummary": true,
       "evidenceType": "internal_derived",
       "evidenceStrength": "thin_internal",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "rates-cost-of-capital",
@@ -3381,7 +3381,7 @@
         }
       ],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 6,
@@ -3391,7 +3391,7 @@
         "internalDerived": 1,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 41
+        "total": 37
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3412,7 +3412,7 @@
         "companies"
       ],
       "feedId": "cnbc-finance",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "ai-infrastructure",
@@ -3423,7 +3423,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 3,
@@ -3433,7 +3433,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 32
+        "total": 30
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3527,10 +3527,10 @@
       "internalDerivedSummary": true,
       "evidenceType": "internal_derived",
       "evidenceStrength": "thin_internal",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3540,7 +3540,7 @@
         "internalDerived": 1,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 29
+        "total": 27
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3566,10 +3566,10 @@
       "internalDerivedSummary": true,
       "evidenceType": "internal_derived",
       "evidenceStrength": "thin_internal",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3579,7 +3579,7 @@
         "internalDerived": 1,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 31
+        "total": 27
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3605,10 +3605,10 @@
       "internalDerivedSummary": true,
       "evidenceType": "internal_derived",
       "evidenceStrength": "thin_internal",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3618,7 +3618,7 @@
         "internalDerived": 1,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 29
+        "total": 27
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -3639,10 +3639,10 @@
         "companies"
       ],
       "feedId": "cnbc-finance",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -3652,7 +3652,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 29
+        "total": 27
       },
       "eligible": false,
       "exclusionReason": "insufficient factual support"
@@ -4102,10 +4102,10 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -4115,7 +4115,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 34
+        "total": 30
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -4138,7 +4138,7 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "rates-cost-of-capital",
@@ -4149,7 +4149,7 @@
         }
       ],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 3,
@@ -4159,7 +4159,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 39
+        "total": 35
       },
       "eligible": true,
       "exclusionReason": ""
@@ -4182,10 +4182,10 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -4195,7 +4195,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 30
+        "total": 26
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -4218,10 +4218,10 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -4231,7 +4231,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 32
+        "total": 28
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -4254,10 +4254,10 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -4267,7 +4267,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 34
+        "total": 32
       },
       "eligible": true,
       "exclusionReason": ""
@@ -4290,10 +4290,10 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -4303,7 +4303,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 34
+        "total": 32
       },
       "eligible": true,
       "exclusionReason": ""
@@ -4326,10 +4326,10 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -4339,7 +4339,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 30
+        "total": 28
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -4362,7 +4362,7 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "ai-infrastructure",
@@ -4373,7 +4373,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 3,
@@ -4383,7 +4383,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 37
+        "total": 35
       },
       "eligible": true,
       "exclusionReason": ""
@@ -4406,10 +4406,10 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -4419,7 +4419,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 34
+        "total": 32
       },
       "eligible": true,
       "exclusionReason": ""
@@ -4442,10 +4442,10 @@
         "companies"
       ],
       "feedId": "marketwatch-top-stories",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 8,
         "themeRelevance": 0,
@@ -4455,7 +4455,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 34
+        "total": 32
       },
       "eligible": true,
       "exclusionReason": ""
@@ -4480,7 +4480,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "LIVE",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "private-markets-exit-window",
@@ -4491,7 +4491,7 @@
         }
       ],
       "scores": {
-        "freshness": 5,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 3,
@@ -4501,7 +4501,7 @@
         "internalDerived": 0,
         "trustedDomain": 0,
         "majorBreakingEvent": 0,
-        "total": 43
+        "total": 39
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -4526,7 +4526,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "deal-financing-window",
@@ -4545,7 +4545,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 6,
@@ -4555,7 +4555,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 50
+        "total": 48
       },
       "eligible": true,
       "exclusionReason": ""
@@ -4580,7 +4580,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "private-markets-exit-window",
@@ -4591,7 +4591,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 3,
@@ -4601,7 +4601,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 41
+        "total": 39
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -4626,7 +4626,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "ai-infrastructure",
@@ -4660,7 +4660,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 12,
@@ -4670,7 +4670,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 1,
-        "total": 56
+        "total": 54
       },
       "eligible": true,
       "exclusionReason": ""
@@ -4695,7 +4695,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "private-markets-exit-window",
@@ -4706,7 +4706,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 3,
@@ -4716,7 +4716,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 41
+        "total": 39
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -4741,7 +4741,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "deal-financing-window",
@@ -4760,7 +4760,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 6,
@@ -4770,7 +4770,7 @@
         "internalDerived": 0,
         "trustedDomain": 0,
         "majorBreakingEvent": 0,
-        "total": 40
+        "total": 38
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -4795,7 +4795,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "ai-infrastructure",
@@ -4814,7 +4814,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 6,
@@ -4824,7 +4824,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 50
+        "total": 48
       },
       "eligible": true,
       "exclusionReason": ""
@@ -4849,7 +4849,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "ai-infrastructure",
@@ -4876,7 +4876,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 9,
@@ -4886,7 +4886,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 1,
-        "total": 47
+        "total": 45
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -4911,7 +4911,7 @@
         "companies"
       ],
       "feedId": "private-equity-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "ai-infrastructure",
@@ -4937,7 +4937,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 18,
         "themeRelevance": 9,
@@ -4947,7 +4947,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 1,
-        "total": 53
+        "total": 51
       },
       "eligible": true,
       "exclusionReason": ""
@@ -5272,7 +5272,7 @@
         "markets"
       ],
       "feedId": "private-credit-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "deal-financing-window",
@@ -5290,7 +5290,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 19,
         "themeRelevance": 6,
@@ -5300,7 +5300,7 @@
         "internalDerived": 0,
         "trustedDomain": 1,
         "majorBreakingEvent": 0,
-        "total": 45
+        "total": 43
       },
       "eligible": false,
       "exclusionReason": "weak market signal"
@@ -5325,7 +5325,7 @@
         "markets"
       ],
       "feedId": "private-credit-public-proxies",
-      "freshnessStatus": "FRESH",
+      "freshnessStatus": "TODAY",
       "matchedThemes": [
         {
           "id": "deal-financing-window",
@@ -5345,7 +5345,7 @@
         }
       ],
       "scores": {
-        "freshness": 4,
+        "freshness": 3,
         "sourceQuality": 4,
         "topicBankerWeight": 19,
         "themeRelevance": 6,
@@ -5355,7 +5355,7 @@
         "internalDerived": 0,
         "trustedDomain": 0,
         "majorBreakingEvent": 0,
-        "total": 53
+        "total": 51
       },
       "eligible": false,
       "exclusionReason": "source domain is outside the trusted publication set"
@@ -6249,7 +6249,7 @@
         "importanceCues": 2,
         "recruitingRelevance": 2,
         "readerValue": 6,
-        "total": 72
+        "total": 70
       },
       "sourceDiversity": 2,
       "coverageCount": 4,
@@ -6389,7 +6389,7 @@
         "importanceCues": 2,
         "recruitingRelevance": 2,
         "readerValue": 6,
-        "total": 58
+        "total": 56
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
@@ -6418,7 +6418,7 @@
         "importanceCues": 0,
         "recruitingRelevance": 2,
         "readerValue": 4,
-        "total": 57
+        "total": 55
       },
       "sourceDiversity": 2,
       "coverageCount": 2,
@@ -6444,64 +6444,6 @@
       "itemIds": [
         "private-credit-public-proxies-3aa7c25",
         "private-equity-public-proxies-9f7c87e0"
-      ]
-    },
-    {
-      "id": "story-contraceptives-arm-billion-stake-bayer-sells-3-4-contraceptives",
-      "title": "Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 2,
-        "recruitingRelevance": 2,
-        "readerValue": 6,
-        "total": 55
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/healthcare/articles/bayer-sells-3-4-billion-061413096.html?.tsrc=rss",
-          "publishedAt": "2026-07-10T06:14:13.000Z",
-          "fetchedAt": "2026-07-10T13:31:35.397Z",
-          "feedId": "private-equity-public-proxies",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "private-equity-public-proxies-3d2e892b"
-      ]
-    },
-    {
-      "id": "story-ubs-rebalancing-advice-triggers-withdrawals-from-blue-owl-rebalancing-withdrawal",
-      "title": "UBS Rebalancing Advice Triggers Withdrawals From Blue Owl Fund (OWL)",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 2,
-        "readerValue": 3,
-        "total": 55
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance / Private Credit Proxies",
-          "url": "https://investorshub.advfn.com/market-news/article/31635/ubs-rebalancing-advice-triggers-withdrawals-from-blue-owl-fund-owl?.tsrc=rss",
-          "publishedAt": "2026-07-10T10:21:48.000Z",
-          "fetchedAt": "2026-07-10T13:31:35.696Z",
-          "feedId": "private-credit-public-proxies",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "private-credit-public-proxies-344a4598"
       ]
     },
     {
@@ -6533,16 +6475,16 @@
       ]
     },
     {
-      "id": "story-copia-power-infrastructure-integrated-platform-acquire",
-      "title": "EQT to acquire Copia Power, a leading integrated power and AI infrastructure platform",
+      "id": "story-contraceptives-arm-billion-stake-bayer-sells-3-4-contraceptives",
+      "title": "Bayer Sells $3.4 Billion Stake in Contraceptives Arm to Apollo",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
         "evidenceSourceCount": 1,
         "importanceCues": 2,
-        "recruitingRelevance": 0,
-        "readerValue": 5,
-        "total": 52
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "total": 53
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
@@ -6550,15 +6492,44 @@
       "sourceTrail": [
         {
           "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/energy/articles/eqt-acquire-copia-power-leading-065400162.html?.tsrc=rss",
-          "publishedAt": "2026-07-10T06:54:00.000Z",
+          "url": "https://finance.yahoo.com/healthcare/articles/bayer-sells-3-4-billion-061413096.html?.tsrc=rss",
+          "publishedAt": "2026-07-10T06:14:13.000Z",
           "fetchedAt": "2026-07-10T13:31:35.397Z",
           "feedId": "private-equity-public-proxies",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "private-equity-public-proxies-e5371cd6"
+        "private-equity-public-proxies-3d2e892b"
+      ]
+    },
+    {
+      "id": "story-ubs-rebalancing-advice-triggers-withdrawals-from-blue-owl-rebalancing-withdrawal",
+      "title": "UBS Rebalancing Advice Triggers Withdrawals From Blue Owl Fund (OWL)",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 2,
+        "readerValue": 3,
+        "total": 53
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Private Credit Proxies",
+          "url": "https://investorshub.advfn.com/market-news/article/31635/ubs-rebalancing-advice-triggers-withdrawals-from-blue-owl-fund-owl?.tsrc=rss",
+          "publishedAt": "2026-07-10T10:21:48.000Z",
+          "fetchedAt": "2026-07-10T13:31:35.696Z",
+          "feedId": "private-credit-public-proxies",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "private-credit-public-proxies-344a4598"
       ]
     },
     {
@@ -6587,6 +6558,35 @@
       ],
       "itemIds": [
         "seed-private-equity-kkr-healthium"
+      ]
+    },
+    {
+      "id": "story-copia-power-infrastructure-integrated-platform-acquire",
+      "title": "EQT to acquire Copia Power, a leading integrated power and AI infrastructure platform",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 0,
+        "readerValue": 5,
+        "total": 50
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Public PE Managers",
+          "url": "https://finance.yahoo.com/energy/articles/eqt-acquire-copia-power-leading-065400162.html?.tsrc=rss",
+          "publishedAt": "2026-07-10T06:54:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:35.397Z",
+          "feedId": "private-equity-public-proxies",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "private-equity-public-proxies-e5371cd6"
       ]
     },
     {
@@ -6677,44 +6677,6 @@
       ]
     },
     {
-      "id": "story-indexes-means-for-shareholders-what-apollo-global-management-removal-from-russel",
-      "title": "What Apollo Global Management (APO)'s Removal From Russell Growth Indexes Means For Shareholders",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 2,
-        "evidenceSourceCount": 2,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 44
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 2,
-      "evidenceSourceCount": 2,
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-global-management-apo-removal-100839749.html?.tsrc=rss",
-          "publishedAt": "2026-07-10T10:08:39.000Z",
-          "fetchedAt": "2026-07-10T13:31:35.397Z",
-          "feedId": "private-equity-public-proxies",
-          "evidenceType": "reported"
-        },
-        {
-          "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-global-management-apo-leaves-021250681.html?.tsrc=rss",
-          "publishedAt": "2026-07-10T02:12:50.000Z",
-          "fetchedAt": "2026-07-10T13:31:35.397Z",
-          "feedId": "private-equity-public-proxies",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "private-equity-public-proxies-23c9a30a",
-        "private-equity-public-proxies-aa48ead4"
-      ]
-    },
-    {
       "id": "story-employment-situation-summary-employment-situation-summary",
       "title": "Employment Situation Summary",
       "scores": {
@@ -6741,35 +6703,6 @@
       ],
       "itemIds": [
         "bls-employment-employment-situation-summary"
-      ]
-    },
-    {
-      "id": "story-7-7b-castlelake-bidding-easyjet-apollo",
-      "title": "EasyJet swaps Castlelake for Apollo in $7.7B bidding war",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 44
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://pitchbook.com/news/articles/easyjet-swaps-castlelake-for-apollo-in-7-7b-bidding-war?.tsrc=rss",
-          "publishedAt": "2026-07-10T12:34:51.000Z",
-          "fetchedAt": "2026-07-10T13:31:35.397Z",
-          "feedId": "private-equity-public-proxies",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "private-equity-public-proxies-ad75210c"
       ]
     },
     {
@@ -6859,61 +6792,41 @@
       ]
     },
     {
-      "id": "story-altius-minerals-corporation-increases-northampton-capital-partners-great-bay-ren",
-      "title": "Altius Minerals Corporation Increases Ownership Interest to 50% in Great Bay Renewables in Partnership with Northampton Capital Partners",
+      "id": "story-indexes-means-for-shareholders-what-apollo-global-management-removal-from-russel",
+      "title": "What Apollo Global Management (APO)'s Removal From Russell Growth Indexes Means For Shareholders",
       "scores": {
         "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
+        "coverageCount": 2,
+        "evidenceSourceCount": 2,
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
         "total": 42
       },
       "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
+      "coverageCount": 2,
+      "evidenceSourceCount": 2,
       "sourceTrail": [
         {
           "source": "Yahoo Finance / Public PE Managers",
-          "url": "https://finance.yahoo.com/energy/articles/altius-minerals-corporation-increases-ownership-110000881.html?.tsrc=rss",
-          "publishedAt": "2026-07-10T11:00:00.000Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-global-management-apo-removal-100839749.html?.tsrc=rss",
+          "publishedAt": "2026-07-10T10:08:39.000Z",
+          "fetchedAt": "2026-07-10T13:31:35.397Z",
+          "feedId": "private-equity-public-proxies",
+          "evidenceType": "reported"
+        },
+        {
+          "source": "Yahoo Finance / Public PE Managers",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-global-management-apo-leaves-021250681.html?.tsrc=rss",
+          "publishedAt": "2026-07-10T02:12:50.000Z",
           "fetchedAt": "2026-07-10T13:31:35.397Z",
           "feedId": "private-equity-public-proxies",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "private-equity-public-proxies-58de62f7"
-      ]
-    },
-    {
-      "id": "story-kevin-warsh-conferences-economy-money-fewer",
-      "title": "Kevin Warsh wants fewer press conferences. Why that’s bad for the economy and your money.",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 2,
-        "recruitingRelevance": 2,
-        "readerValue": 6,
-        "total": 41
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/kevin-warsh-wants-fewer-press-conferences-why-thats-bad-for-the-economy-and-your-money-e9b0bd55?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T13:06:00.000Z",
-          "fetchedAt": "2026-07-10T13:31:25.109Z",
-          "feedId": "marketwatch-top-stories",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "marketwatch-top-stories-91c068d2"
+        "private-equity-public-proxies-23c9a30a",
+        "private-equity-public-proxies-aa48ead4"
       ]
     },
     {
@@ -6974,8 +6887,8 @@
       ]
     },
     {
-      "id": "story-slumping-ai-strategist-holdings-slumping-nontech",
-      "title": "Slumping AI stocks could be really good news for your nontech holdings, says market strategist",
+      "id": "story-7-7b-castlelake-bidding-easyjet-apollo",
+      "title": "EasyJet swaps Castlelake for Apollo in $7.7B bidding war",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
@@ -6983,7 +6896,65 @@
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "total": 38
+        "total": 40
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Public PE Managers",
+          "url": "https://pitchbook.com/news/articles/easyjet-swaps-castlelake-for-apollo-in-7-7b-bidding-war?.tsrc=rss",
+          "publishedAt": "2026-07-10T12:34:51.000Z",
+          "fetchedAt": "2026-07-10T13:31:35.397Z",
+          "feedId": "private-equity-public-proxies",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "private-equity-public-proxies-ad75210c"
+      ]
+    },
+    {
+      "id": "story-altius-minerals-corporation-increases-northampton-capital-partners-great-bay-ren",
+      "title": "Altius Minerals Corporation Increases Ownership Interest to 50% in Great Bay Renewables in Partnership with Northampton Capital Partners",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 40
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance / Public PE Managers",
+          "url": "https://finance.yahoo.com/energy/articles/altius-minerals-corporation-increases-ownership-110000881.html?.tsrc=rss",
+          "publishedAt": "2026-07-10T11:00:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:35.397Z",
+          "feedId": "private-equity-public-proxies",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "private-equity-public-proxies-58de62f7"
+      ]
+    },
+    {
+      "id": "story-kevin-warsh-conferences-economy-money-fewer",
+      "title": "Kevin Warsh wants fewer press conferences. Why that’s bad for the economy and your money.",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "total": 37
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
@@ -6991,15 +6962,15 @@
       "sourceTrail": [
         {
           "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/slumping-ai-stocks-could-be-really-good-news-for-your-nontech-holdings-says-market-strategist-561942a7?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T11:59:00.000Z",
+          "url": "https://www.marketwatch.com/story/kevin-warsh-wants-fewer-press-conferences-why-thats-bad-for-the-economy-and-your-money-e9b0bd55?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T13:06:00.000Z",
           "fetchedAt": "2026-07-10T13:31:25.109Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "marketwatch-top-stories-4c10c594"
+        "marketwatch-top-stories-91c068d2"
       ]
     },
     {
@@ -7032,15 +7003,15 @@
       ]
     },
     {
-      "id": "story-increasingly-earnings-impress-numbers-enough",
-      "title": "Stocks are seeing increasingly wild swings post-earnings. Why even good numbers often aren’t enough to impress.",
+      "id": "story-slumping-ai-strategist-holdings-slumping-nontech",
+      "title": "Slumping AI stocks could be really good news for your nontech holdings, says market strategist",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
         "evidenceSourceCount": 1,
-        "importanceCues": 2,
-        "recruitingRelevance": 2,
-        "readerValue": 6,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
         "total": 36
       },
       "sourceDiversity": 1,
@@ -7049,160 +7020,15 @@
       "sourceTrail": [
         {
           "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/stocks-are-seeing-increasingly-wild-swings-post-earnings-why-even-good-numbers-often-arent-enough-to-impress-f4ce5169?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T11:04:00.000Z",
+          "url": "https://www.marketwatch.com/story/slumping-ai-stocks-could-be-really-good-news-for-your-nontech-holdings-says-market-strategist-561942a7?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T11:59:00.000Z",
           "fetchedAt": "2026-07-10T13:31:25.109Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "marketwatch-top-stories-ebe11e88"
-      ]
-    },
-    {
-      "id": "story-chairman-kevin-warsh-s-new-fed-chairman-embrace-members",
-      "title": "New Fed task force members share Chairman Kevin Warsh's embrace of AI",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 0,
-        "importanceCues": 2,
-        "recruitingRelevance": 2,
-        "readerValue": 6,
-        "total": 35
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 0,
-      "sourceTrail": [
-        {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/09/fed-task-force-member-chairman-kevin-warsh-ai.html",
-          "publishedAt": "2026-07-10T13:05:43.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "internal_derived"
-        }
-      ],
-      "itemIds": [
-        "cnbc-finance-d8545538"
-      ]
-    },
-    {
-      "id": "story-as-sk-hynix-u-s-bubblelike-volatility-investors",
-      "title": "As SK Hynix lands in the U.S., here’s why investors should be wary of the chip sector’s ‘bubblelike’ volatility",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 35
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/as-sk-hynix-lands-in-the-u-s-heres-why-investors-should-be-wary-of-the-chip-sectors-bubble-like-volatility-3db579c6?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T13:30:00.000Z",
-          "fetchedAt": "2026-07-10T13:31:25.109Z",
-          "feedId": "marketwatch-top-stories",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "marketwatch-top-stories-21405c15"
-      ]
-    },
-    {
-      "id": "story-absorbs-highest-history-revenue-record",
-      "title": "Delta absorbs highest fuel costs in its history, but also books record revenue",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 35
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/delta-reports-record-revenue-and-a-profit-beat-even-as-fuel-costs-surge-b1e33336?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T12:28:00.000Z",
-          "fetchedAt": "2026-07-10T13:31:25.109Z",
-          "feedId": "marketwatch-top-stories",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "marketwatch-top-stories-d5be95b3"
-      ]
-    },
-    {
-      "id": "story-s-p-unrewarded-surprises-earnings-sectors",
-      "title": "The bar is high for S&P 500 earnings, but these as-yet-unrewarded sectors are where real surprises could be hiding",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 35
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/the-bar-is-high-for-s-p-500-earnings-but-these-as-yet-unrewarded-sectors-are-where-real-surprises-could-be-hiding-b79874d9?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T12:26:00.000Z",
-          "fetchedAt": "2026-07-10T13:31:25.109Z",
-          "feedId": "marketwatch-top-stories",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "marketwatch-top-stories-ee82a20e"
-      ]
-    },
-    {
-      "id": "story-corporate-america-corporate-buybacks-insiders-trillion",
-      "title": "Corporate America is pumping $1 trillion into stock buybacks — but look at what insiders are doing",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 35
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/corporate-america-is-pumping-1-trillion-into-stock-buybacks-but-look-at-what-insiders-are-doing-44854835?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T11:28:00.000Z",
-          "fetchedAt": "2026-07-10T13:31:25.109Z",
-          "feedId": "marketwatch-top-stories",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "marketwatch-top-stories-aaea8159"
+        "marketwatch-top-stories-4c10c594"
       ]
     },
     {
@@ -7380,6 +7206,35 @@
       ]
     },
     {
+      "id": "story-increasingly-earnings-impress-numbers-enough",
+      "title": "Stocks are seeing increasingly wild swings post-earnings. Why even good numbers often aren’t enough to impress.",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "total": 34
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/stocks-are-seeing-increasingly-wild-swings-post-earnings-why-even-good-numbers-often-arent-enough-to-impress-f4ce5169?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T11:04:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:25.109Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "marketwatch-top-stories-ebe11e88"
+      ]
+    },
+    {
       "id": "story-blue-owl-u-s-infrastructure-launches-digital",
       "title": "Blue Owl launches U.S. digital infrastructure venture to tap data center demand",
       "scores": {
@@ -7409,66 +7264,8 @@
       ]
     },
     {
-      "id": "story-michigan-democratic-senate-democratic-michigan-closely-primary",
-      "title": "AI, data center fears could be key in closely watched Michigan Democratic Senate primary",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 33
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/ai-data-center-fears-michigan-democratic-senate-primary.html",
-          "publishedAt": "2026-07-10T11:00:01.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "cnbc-finance-478cf31"
-      ]
-    },
-    {
-      "id": "story-the-tech-download-chatbots-download-puzzle-social",
-      "title": "The Tech Download: Teen social media bans miss a key part of the puzzle: AI chatbots",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 33
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/tech-download-social-media-bans-ai-chatbots.html",
-          "publishedAt": "2026-07-10T11:32:53.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "cnbc-finance-ecdd9c47"
-      ]
-    },
-    {
-      "id": "story-landon-donovan-afforded-america-donovan-chance",
-      "title": "Landon Donovan says there’s ‘zero chance’ he could’ve afforded to play youth soccer in America if he was a kid today",
+      "id": "story-absorbs-highest-history-revenue-record",
+      "title": "Delta absorbs highest fuel costs in its history, but also books record revenue",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
@@ -7484,15 +7281,73 @@
       "sourceTrail": [
         {
           "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/landon-donovan-says-theres-zero-chance-he-could-have-afforded-to-play-youth-soccer-if-he-was-a-kid-today-e32e905f?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T12:41:00.000Z",
+          "url": "https://www.marketwatch.com/story/delta-reports-record-revenue-and-a-profit-beat-even-as-fuel-costs-surge-b1e33336?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T12:28:00.000Z",
           "fetchedAt": "2026-07-10T13:31:25.109Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "marketwatch-top-stories-368b36aa"
+        "marketwatch-top-stories-d5be95b3"
+      ]
+    },
+    {
+      "id": "story-s-p-unrewarded-surprises-earnings-sectors",
+      "title": "The bar is high for S&P 500 earnings, but these as-yet-unrewarded sectors are where real surprises could be hiding",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 33
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/the-bar-is-high-for-s-p-500-earnings-but-these-as-yet-unrewarded-sectors-are-where-real-surprises-could-be-hiding-b79874d9?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T12:26:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:25.109Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "marketwatch-top-stories-ee82a20e"
+      ]
+    },
+    {
+      "id": "story-corporate-america-corporate-buybacks-insiders-trillion",
+      "title": "Corporate America is pumping $1 trillion into stock buybacks — but look at what insiders are doing",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 33
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/corporate-america-is-pumping-1-trillion-into-stock-buybacks-but-look-at-what-insiders-are-doing-44854835?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T11:28:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:25.109Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "marketwatch-top-stories-aaea8159"
       ]
     },
     {
@@ -7525,46 +7380,8 @@
       ]
     },
     {
-      "id": "story-ethereum-bitcoin-friday-nearly-prices",
-      "title": "Bitcoin and ethereum prices today, Friday, July 10, 2026: Up nearly 3% since last Friday",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 2,
-        "evidenceSourceCount": 2,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 32
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 2,
-      "evidenceSourceCount": 2,
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-10-2026-up-nearly-3-since-last-friday-130101171.html",
-          "publishedAt": "2026-07-10T13:01:01.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.614Z",
-          "feedId": "yahoo-finance-news",
-          "evidenceType": "reported"
-        },
-        {
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-friday-july-10-2026-down-4-since-monday-122910639.html",
-          "publishedAt": "2026-07-10T12:29:10.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.614Z",
-          "feedId": "yahoo-finance-news",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "yahoo-finance-news-6e37f19f",
-        "yahoo-finance-news-17bd5f5f"
-      ]
-    },
-    {
-      "id": "story-automatically-housing-become-trump-which",
-      "title": "Trump says he won't sign housing bill, which would become law automatically",
+      "id": "story-michigan-democratic-senate-democratic-michigan-closely-primary",
+      "title": "AI, data center fears could be key in closely watched Michigan Democratic Senate primary",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
@@ -7572,7 +7389,7 @@
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "total": 32
+        "total": 31
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
@@ -7580,20 +7397,49 @@
       "sourceTrail": [
         {
           "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/trump-housing-bill-save-act-law.html",
-          "publishedAt": "2026-07-10T13:31:13.000Z",
+          "url": "https://www.cnbc.com/2026/07/10/ai-data-center-fears-michigan-democratic-senate-primary.html",
+          "publishedAt": "2026-07-10T11:00:01.000Z",
           "fetchedAt": "2026-07-10T13:31:24.736Z",
           "feedId": "cnbc-finance",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "cnbc-finance-8d6ee896"
+        "cnbc-finance-478cf31"
       ]
     },
     {
-      "id": "story-300-michelin-salaries-private-reach",
-      "title": "Private chef salaries reach $300,000 as the rich seek their own Michelin stars",
+      "id": "story-chairman-kevin-warsh-s-new-fed-chairman-embrace-members",
+      "title": "New Fed task force members share Chairman Kevin Warsh's embrace of AI",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 0,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "total": 31
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 0,
+      "sourceTrail": [
+        {
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/09/fed-task-force-member-chairman-kevin-warsh-ai.html",
+          "publishedAt": "2026-07-10T13:05:43.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
+          "evidenceType": "internal_derived"
+        }
+      ],
+      "itemIds": [
+        "cnbc-finance-d8545538"
+      ]
+    },
+    {
+      "id": "story-the-tech-download-chatbots-download-puzzle-social",
+      "title": "The Tech Download: Teen social media bans miss a key part of the puzzle: AI chatbots",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
@@ -7601,7 +7447,7 @@
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "total": 32
+        "total": 31
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
@@ -7609,20 +7455,20 @@
       "sourceTrail": [
         {
           "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/private-chef-salaries.html",
-          "publishedAt": "2026-07-10T12:36:48.000Z",
+          "url": "https://www.cnbc.com/2026/07/10/tech-download-social-media-bans-ai-chatbots.html",
+          "publishedAt": "2026-07-10T11:32:53.000Z",
           "fetchedAt": "2026-07-10T13:31:24.736Z",
           "feedId": "cnbc-finance",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "cnbc-finance-c2d9d21a"
+        "cnbc-finance-ecdd9c47"
       ]
     },
     {
-      "id": "story-advisers-dinners-bombard-offers-plenty",
-      "title": "‘I’ve plenty of time on my hands’: Advisers bombard me with offers of free steak dinners. Is it wrong to go for the food?",
+      "id": "story-as-sk-hynix-u-s-bubblelike-volatility-investors",
+      "title": "As SK Hynix lands in the U.S., here’s why investors should be wary of the chip sector’s ‘bubblelike’ volatility",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
@@ -7638,15 +7484,44 @@
       "sourceTrail": [
         {
           "source": "MarketWatch Top Stories",
-          "url": "https://www.marketwatch.com/story/ive-plenty-of-time-on-my-hands-advisers-bombard-me-with-offers-for-free-steak-is-it-wrong-to-go-for-the-food-1b139f98?mod=mw_rss_topstories",
-          "publishedAt": "2026-07-10T13:00:00.000Z",
+          "url": "https://www.marketwatch.com/story/as-sk-hynix-lands-in-the-u-s-heres-why-investors-should-be-wary-of-the-chip-sectors-bubble-like-volatility-3db579c6?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T13:30:00.000Z",
           "fetchedAt": "2026-07-10T13:31:25.109Z",
           "feedId": "marketwatch-top-stories",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "marketwatch-top-stories-240043c4"
+        "marketwatch-top-stories-21405c15"
+      ]
+    },
+    {
+      "id": "story-landon-donovan-afforded-america-donovan-chance",
+      "title": "Landon Donovan says there’s ‘zero chance’ he could’ve afforded to play youth soccer in America if he was a kid today",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 29
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/landon-donovan-says-theres-zero-chance-he-could-have-afforded-to-play-youth-soccer-if-he-was-a-kid-today-e32e905f?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T12:41:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:25.109Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "marketwatch-top-stories-368b36aa"
       ]
     },
     {
@@ -7659,7 +7534,7 @@
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
-        "total": 31
+        "total": 29
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
@@ -7676,131 +7551,6 @@
       ],
       "itemIds": [
         "marketwatch-top-stories-2449226"
-      ]
-    },
-    {
-      "id": "story-vickers-top-buyers-sellers-vickers-buyers-daily",
-      "title": "Daily – Vickers Top Buyers & Sellers for 07/10/2026",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 2,
-        "evidenceSourceCount": 2,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 30
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 2,
-      "evidenceSourceCount": 2,
-      "sourceTrail": [
-        {
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/research/reports/ARGUS_47573_TopBottomInsiderActivity_1783679393000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-          "publishedAt": "2026-07-10T10:29:53.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.614Z",
-          "feedId": "yahoo-finance-news",
-          "evidenceType": "reported"
-        },
-        {
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/research/reports/ARGUS_47572_InsiderActivity_1783679393000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-          "publishedAt": "2026-07-10T10:29:53.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.614Z",
-          "feedId": "yahoo-finance-news",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "yahoo-finance-news-e60ca9a",
-        "yahoo-finance-news-9ca742ed"
-      ]
-    },
-    {
-      "id": "story-addictive-instagram-facebook-designs-breach",
-      "title": "Meta found to breach EU laws with 'addictive' Instagram, Facebook designs",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 30
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/meta-instagram-facebook-addictive-design-breach-eu-laws.html",
-          "publishedAt": "2026-07-10T11:48:12.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "cnbc-finance-a3e65b60"
-      ]
-    },
-    {
-      "id": "story-fidji-simo-transition-stepping-advisor-chronic",
-      "title": "OpenAI exec Fidji Simo says she's stepping down due to chronic illness, will transition to advisor",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 30
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html",
-          "publishedAt": "2026-07-10T11:10:28.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "cnbc-finance-67cd4b8b"
-      ]
-    },
-    {
-      "id": "story-volkswagen-capacity-lineup-shrink-model",
-      "title": "Volkswagen to slash model lineup and shrink capacity — but no word on job cuts",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 1,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 30
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 1,
-      "sourceTrail": [
-        {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/volkswagen-vw-autos-job-cuts-germany.html",
-          "publishedAt": "2026-07-10T11:22:17.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "reported"
-        }
-      ],
-      "itemIds": [
-        "cnbc-finance-5cac15ff"
       ]
     },
     {
@@ -7839,6 +7589,82 @@
       "itemIds": [
         "sec-current-events-bb3811b0",
         "sec-current-events-8c90c11f"
+      ]
+    },
+    {
+      "id": "story-vickers-top-buyers-sellers-vickers-buyers-daily",
+      "title": "Daily – Vickers Top Buyers & Sellers for 07/10/2026",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 2,
+        "evidenceSourceCount": 2,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 28
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 2,
+      "evidenceSourceCount": 2,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/research/reports/ARGUS_47573_TopBottomInsiderActivity_1783679393000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+          "publishedAt": "2026-07-10T10:29:53.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.614Z",
+          "feedId": "yahoo-finance-news",
+          "evidenceType": "reported"
+        },
+        {
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/research/reports/ARGUS_47572_InsiderActivity_1783679393000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+          "publishedAt": "2026-07-10T10:29:53.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.614Z",
+          "feedId": "yahoo-finance-news",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "yahoo-finance-news-e60ca9a",
+        "yahoo-finance-news-9ca742ed"
+      ]
+    },
+    {
+      "id": "story-ethereum-bitcoin-friday-nearly-prices",
+      "title": "Bitcoin and ethereum prices today, Friday, July 10, 2026: Up nearly 3% since last Friday",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 2,
+        "evidenceSourceCount": 2,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 28
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 2,
+      "evidenceSourceCount": 2,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-10-2026-up-nearly-3-since-last-friday-130101171.html",
+          "publishedAt": "2026-07-10T13:01:01.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.614Z",
+          "feedId": "yahoo-finance-news",
+          "evidenceType": "reported"
+        },
+        {
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-friday-july-10-2026-down-4-since-monday-122910639.html",
+          "publishedAt": "2026-07-10T12:29:10.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.614Z",
+          "feedId": "yahoo-finance-news",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "yahoo-finance-news-6e37f19f",
+        "yahoo-finance-news-17bd5f5f"
       ]
     },
     {
@@ -7900,8 +7726,8 @@
       ]
     },
     {
-      "id": "story-technical-assessment-intermediate-term-intermediate-assessment-technical",
-      "title": "Technical Assessment: Bullish in the Intermediate-Term",
+      "id": "story-automatically-housing-become-trump-which",
+      "title": "Trump says he won't sign housing bill, which would become law automatically",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
@@ -7916,21 +7742,21 @@
       "evidenceSourceCount": 1,
       "sourceTrail": [
         {
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/research/reports/ARGUS_47576_TechnicalAnalysis_1783682695000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-          "publishedAt": "2026-07-10T11:24:55.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.614Z",
-          "feedId": "yahoo-finance-news",
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/10/trump-housing-bill-save-act-law.html",
+          "publishedAt": "2026-07-10T13:31:13.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "yahoo-finance-news-16e3edff"
+        "cnbc-finance-8d6ee896"
       ]
     },
     {
-      "id": "story-analyst-report-carmax-inc-analyst-carmax-inc",
-      "title": "Analyst Report: CarMax Inc",
+      "id": "story-addictive-instagram-facebook-designs-breach",
+      "title": "Meta found to breach EU laws with 'addictive' Instagram, Facebook designs",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
@@ -7945,16 +7771,74 @@
       "evidenceSourceCount": 1,
       "sourceTrail": [
         {
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/research/reports/ARGUS_4095_AnalystReport_1783682046000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-          "publishedAt": "2026-07-10T11:14:06.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.614Z",
-          "feedId": "yahoo-finance-news",
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/10/meta-instagram-facebook-addictive-design-breach-eu-laws.html",
+          "publishedAt": "2026-07-10T11:48:12.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
           "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "yahoo-finance-news-57720bc5"
+        "cnbc-finance-a3e65b60"
+      ]
+    },
+    {
+      "id": "story-fidji-simo-transition-stepping-advisor-chronic",
+      "title": "OpenAI exec Fidji Simo says she's stepping down due to chronic illness, will transition to advisor",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 28
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html",
+          "publishedAt": "2026-07-10T11:10:28.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "cnbc-finance-67cd4b8b"
+      ]
+    },
+    {
+      "id": "story-300-michelin-salaries-private-reach",
+      "title": "Private chef salaries reach $300,000 as the rich seek their own Michelin stars",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 28
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/10/private-chef-salaries.html",
+          "publishedAt": "2026-07-10T12:36:48.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "cnbc-finance-c2d9d21a"
       ]
     },
     {
@@ -7984,6 +7868,35 @@
       ],
       "itemIds": [
         "cnbc-finance-e8abf4dd"
+      ]
+    },
+    {
+      "id": "story-volkswagen-capacity-lineup-shrink-model",
+      "title": "Volkswagen to slash model lineup and shrink capacity — but no word on job cuts",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 28
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/10/volkswagen-vw-autos-job-cuts-germany.html",
+          "publishedAt": "2026-07-10T11:22:17.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "cnbc-finance-5cac15ff"
       ]
     },
     {
@@ -8132,6 +8045,35 @@
       ]
     },
     {
+      "id": "story-advisers-dinners-bombard-offers-plenty",
+      "title": "‘I’ve plenty of time on my hands’: Advisers bombard me with offers of free steak dinners. Is it wrong to go for the food?",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 27
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 1,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/ive-plenty-of-time-on-my-hands-advisers-bombard-me-with-offers-for-free-steak-is-it-wrong-to-go-for-the-food-1b139f98?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-10T13:00:00.000Z",
+          "fetchedAt": "2026-07-10T13:31:25.109Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "itemIds": [
+        "marketwatch-top-stories-240043c4"
+      ]
+    },
+    {
       "id": "story-sec-forms-new-retail-fraud-working-group-working-retail-forms",
       "title": "SEC Forms New Retail Fraud Working Group",
       "scores": {
@@ -8161,12 +8103,12 @@
       ]
     },
     {
-      "id": "story-12-greenlight-stablecoin-operate-circle",
-      "title": "Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 12%",
+      "id": "story-technical-assessment-intermediate-term-intermediate-assessment-technical",
+      "title": "Technical Assessment: Bullish in the Intermediate-Term",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
-        "evidenceSourceCount": 0,
+        "evidenceSourceCount": 1,
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
@@ -8174,28 +8116,28 @@
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
-      "evidenceSourceCount": 0,
+      "evidenceSourceCount": 1,
       "sourceTrail": [
         {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/circle-gets-an-occ-bank-charter-as-stablecoin-competition-heats-up-shares-surge-14percent.html",
-          "publishedAt": "2026-07-10T12:31:40.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "internal_derived"
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/research/reports/ARGUS_47576_TechnicalAnalysis_1783682695000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+          "publishedAt": "2026-07-10T11:24:55.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.614Z",
+          "feedId": "yahoo-finance-news",
+          "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "cnbc-finance-58e3442e"
+        "yahoo-finance-news-16e3edff"
       ]
     },
     {
-      "id": "story-decline-annual-demand-first-since",
-      "title": "World oil demand set for first annual decline since 2020, IEA says",
+      "id": "story-analyst-report-carmax-inc-analyst-carmax-inc",
+      "title": "Analyst Report: CarMax Inc",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
-        "evidenceSourceCount": 0,
+        "evidenceSourceCount": 1,
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
@@ -8203,48 +8145,19 @@
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
-      "evidenceSourceCount": 0,
+      "evidenceSourceCount": 1,
       "sourceTrail": [
         {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
-          "publishedAt": "2026-07-10T09:15:22.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "internal_derived"
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/research/reports/ARGUS_4095_AnalystReport_1783682046000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+          "publishedAt": "2026-07-10T11:14:06.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.614Z",
+          "feedId": "yahoo-finance-news",
+          "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "cnbc-finance-fe498502"
-      ]
-    },
-    {
-      "id": "story-economy-seem-sync-out-why",
-      "title": "Why the stock market and economy may seem out of sync",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 0,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 26
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 0,
-      "sourceTrail": [
-        {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/stock-market-and-economy-out-of-sync.html",
-          "publishedAt": "2026-07-10T12:15:02.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "internal_derived"
-        }
-      ],
-      "itemIds": [
-        "cnbc-finance-8d73cb49"
+        "yahoo-finance-news-57720bc5"
       ]
     },
     {
@@ -8469,12 +8382,12 @@
       ]
     },
     {
-      "id": "story-bringing-airfare-expects-higher-profit",
-      "title": "Delta expects higher airfare to last, bringing 2026 profit goal in reach, CEO says",
+      "id": "story-12-greenlight-stablecoin-operate-circle",
+      "title": "Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 12%",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
-        "evidenceSourceCount": 1,
+        "evidenceSourceCount": 0,
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
@@ -8482,19 +8395,48 @@
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
-      "evidenceSourceCount": 1,
+      "evidenceSourceCount": 0,
       "sourceTrail": [
         {
           "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/delta-air-lines-dal-q2-2026-earnings.html",
-          "publishedAt": "2026-07-10T11:59:16.000Z",
+          "url": "https://www.cnbc.com/2026/07/10/circle-gets-an-occ-bank-charter-as-stablecoin-competition-heats-up-shares-surge-14percent.html",
+          "publishedAt": "2026-07-10T12:31:40.000Z",
           "fetchedAt": "2026-07-10T13:31:24.736Z",
           "feedId": "cnbc-finance",
-          "evidenceType": "reported"
+          "evidenceType": "internal_derived"
         }
       ],
       "itemIds": [
-        "cnbc-finance-686671bd"
+        "cnbc-finance-58e3442e"
+      ]
+    },
+    {
+      "id": "story-decline-annual-demand-first-since",
+      "title": "World oil demand set for first annual decline since 2020, IEA says",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 0,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 24
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 0,
+      "sourceTrail": [
+        {
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
+          "publishedAt": "2026-07-10T09:15:22.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
+          "evidenceType": "internal_derived"
+        }
+      ],
+      "itemIds": [
+        "cnbc-finance-fe498502"
       ]
     },
     {
@@ -8527,6 +8469,35 @@
       ]
     },
     {
+      "id": "story-economy-seem-sync-out-why",
+      "title": "Why the stock market and economy may seem out of sync",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 0,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 24
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 0,
+      "sourceTrail": [
+        {
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/10/stock-market-and-economy-out-of-sync.html",
+          "publishedAt": "2026-07-10T12:15:02.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
+          "evidenceType": "internal_derived"
+        }
+      ],
+      "itemIds": [
+        "cnbc-finance-8d73cb49"
+      ]
+    },
+    {
       "id": "story-america-s-top-states-business-finished-rankings-america",
       "title": "America's Top States for Business 2026: See the full rankings and where your state finished",
       "scores": {
@@ -8553,35 +8524,6 @@
       ],
       "itemIds": [
         "cnbc-finance-7e31f956"
-      ]
-    },
-    {
-      "id": "story-escalates-shortages-attacks-russian-tankers",
-      "title": "Ukraine escalates attacks on tankers near Crimea as Russian fuel shortages bite",
-      "scores": {
-        "sourceDiversity": 1,
-        "coverageCount": 1,
-        "evidenceSourceCount": 0,
-        "importanceCues": 0,
-        "recruitingRelevance": 0,
-        "readerValue": 1,
-        "total": 24
-      },
-      "sourceDiversity": 1,
-      "coverageCount": 1,
-      "evidenceSourceCount": 0,
-      "sourceTrail": [
-        {
-          "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/ukraine-russia-crimea-fuel-oil.html",
-          "publishedAt": "2026-07-10T13:13:22.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.736Z",
-          "feedId": "cnbc-finance",
-          "evidenceType": "internal_derived"
-        }
-      ],
-      "itemIds": [
-        "cnbc-finance-49a1343e"
       ]
     },
     {
@@ -9484,12 +9426,12 @@
       ]
     },
     {
-      "id": "story-920-u-s-instead-million-prepare",
-      "title": "Abivax $920 million cash haul lets it prepare for solo U.S. launch instead of relying on a buyer, CEO tells CNBC",
+      "id": "story-bringing-airfare-expects-higher-profit",
+      "title": "Delta expects higher airfare to last, bringing 2026 profit goal in reach, CEO says",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
-        "evidenceSourceCount": 0,
+        "evidenceSourceCount": 1,
         "importanceCues": 0,
         "recruitingRelevance": 0,
         "readerValue": 1,
@@ -9497,19 +9439,19 @@
       },
       "sourceDiversity": 1,
       "coverageCount": 1,
-      "evidenceSourceCount": 0,
+      "evidenceSourceCount": 1,
       "sourceTrail": [
         {
           "source": "CNBC Finance",
-          "url": "https://www.cnbc.com/2026/07/10/abivax-stock-takeover-us-launch-obefazimod-ulcerative-colitis.html",
-          "publishedAt": "2026-07-10T10:10:15.000Z",
+          "url": "https://www.cnbc.com/2026/07/10/delta-air-lines-dal-q2-2026-earnings.html",
+          "publishedAt": "2026-07-10T11:59:16.000Z",
           "fetchedAt": "2026-07-10T13:31:24.736Z",
           "feedId": "cnbc-finance",
-          "evidenceType": "internal_derived"
+          "evidenceType": "reported"
         }
       ],
       "itemIds": [
-        "cnbc-finance-4ecec02f"
+        "cnbc-finance-686671bd"
       ]
     },
     {
@@ -9571,8 +9513,8 @@
       ]
     },
     {
-      "id": "story-market-digest-digest-msft-has-kmx",
-      "title": "Market Digest: HAS, KMX, MSFT",
+      "id": "story-escalates-shortages-attacks-russian-tankers",
+      "title": "Ukraine escalates attacks on tankers near Crimea as Russian fuel shortages bite",
       "scores": {
         "sourceDiversity": 1,
         "coverageCount": 1,
@@ -9587,16 +9529,45 @@
       "evidenceSourceCount": 0,
       "sourceTrail": [
         {
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/research/reports/ARGUS_47574_MarketSummary_1783681146000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-          "publishedAt": "2026-07-10T10:59:06.000Z",
-          "fetchedAt": "2026-07-10T13:31:24.614Z",
-          "feedId": "yahoo-finance-news",
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/10/ukraine-russia-crimea-fuel-oil.html",
+          "publishedAt": "2026-07-10T13:13:22.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
           "evidenceType": "internal_derived"
         }
       ],
       "itemIds": [
-        "yahoo-finance-news-81480ef6"
+        "cnbc-finance-49a1343e"
+      ]
+    },
+    {
+      "id": "story-920-u-s-instead-million-prepare",
+      "title": "Abivax $920 million cash haul lets it prepare for solo U.S. launch instead of relying on a buyer, CEO tells CNBC",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 0,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 20
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 0,
+      "sourceTrail": [
+        {
+          "source": "CNBC Finance",
+          "url": "https://www.cnbc.com/2026/07/10/abivax-stock-takeover-us-launch-obefazimod-ulcerative-colitis.html",
+          "publishedAt": "2026-07-10T10:10:15.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.736Z",
+          "feedId": "cnbc-finance",
+          "evidenceType": "internal_derived"
+        }
+      ],
+      "itemIds": [
+        "cnbc-finance-4ecec02f"
       ]
     },
     {
@@ -9800,6 +9771,35 @@
       ],
       "itemIds": [
         "yahoo-finance-news-31d3d020"
+      ]
+    },
+    {
+      "id": "story-market-digest-digest-msft-has-kmx",
+      "title": "Market Digest: HAS, KMX, MSFT",
+      "scores": {
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 0,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "total": 18
+      },
+      "sourceDiversity": 1,
+      "coverageCount": 1,
+      "evidenceSourceCount": 0,
+      "sourceTrail": [
+        {
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/research/reports/ARGUS_47574_MarketSummary_1783681146000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+          "publishedAt": "2026-07-10T10:59:06.000Z",
+          "fetchedAt": "2026-07-10T13:31:24.614Z",
+          "feedId": "yahoo-finance-news",
+          "evidenceType": "internal_derived"
+        }
+      ],
+      "itemIds": [
+        "yahoo-finance-news-81480ef6"
       ]
     },
     {

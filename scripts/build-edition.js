@@ -6,6 +6,7 @@ import { decodeHtmlEntities, editionDate, ensureDir, freshnessStatus, readJson, 
 import { scoreCandidate } from "./triage.js";
 import { buildDealTape } from "./deal-tape.js";
 import { clusterStories, representativeItemsFromClusters } from "./story-clusters.js";
+import { buildOfficialMacroIntelligenceBatch } from "./macro-intelligence.js";
 
 function storylineFor(item) {
   const text = `${item.title} ${item.summary} ${(item.tickers || []).join(" ")} ${(item.topics || []).join(" ")}`.toLowerCase();
@@ -1502,9 +1503,15 @@ function buildEditorsBrief(analyses, dealTape = [], openbbMarketPack = null) {
   };
 }
 
+export function selectBuildNow(runDate, explicitNow = process.env.BRIEF_NOW, wallClock = new Date()) {
+  if (explicitNow) return new Date(explicitNow);
+  const today = wallClock.toISOString().slice(0, 10);
+  return runDate < today ? new Date(`${runDate}T23:59:59.999Z`) : new Date(wallClock);
+}
+
 async function main() {
   const runDate = process.env.BRIEF_DATE || editionDate();
-  const now = new Date(process.env.BRIEF_NOW || new Date().toISOString());
+  const now = selectBuildNow(runDate);
   await Promise.all([ensureDir(candidatesDir), ensureDir(analysisDir), ensureDir(editionsDir)]);
 
   const sourcePayload = await readJson(path.join(sourcesDir, `${runDate}.json`), null)
@@ -1513,6 +1520,13 @@ async function main() {
     || await readJson(path.join(marketDataDir, "latest.json"), { series: [], failures: [] });
   const calendarPayload = await readJson(path.join(calendarDir, `${runDate}.json`), null)
     || await readJson(path.join(calendarDir, "latest.json"), { events: [], failures: [] });
+  const generatedAt = now.toISOString();
+  const macroIntelligence = buildOfficialMacroIntelligenceBatch(sourcePayload.items, {
+    runDate,
+    editionId: runDate,
+    generatedAt,
+    calendarEvents: calendarPayload.events || []
+  });
   const themes = await readJson(path.join(dataDir, "themes.json"), []);
   const scored = sourcePayload.items.map((item) => scoreCandidate(item, themes, now));
   const prior = await priorEditions(runDate);
@@ -1545,17 +1559,18 @@ async function main() {
   }));
   const candidatePayload = {
     runDate,
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     window: "Latest fetched source set; main tape excludes weak or unsupported items.",
     candidates: scored,
     storyClusters
   };
   const analysisPayload = {
     runDate,
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     selectedCount: analyses.length,
     quietDay: analyses.length < 3,
-    analyses
+    analyses,
+    intelligence: { officialMacro: macroIntelligence }
   };
   const sourceRunAt = sourcePayload.fetchedAt;
   const sourceRunDate = new Date(sourceRunAt);
@@ -1567,7 +1582,7 @@ async function main() {
     dek: analyses.length
       ? "A selective banker-grade read of the few fresh items with enough evidence to support real analysis."
       : "No source-backed item cleared the editorial threshold; the desk is intentionally holding the main tape quiet.",
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     sourceRunAt,
     freshnessStatus: freshnessStatus(sourceFreshnessAt, now),
     moves: analyses,
@@ -1583,6 +1598,7 @@ async function main() {
     sourceFailures: sourcePayload.failures || [],
     visualDataFailures: marketData.failures || [],
     calendarFailures: calendarPayload.failures || [],
+    intelligence: { officialMacro: macroIntelligence },
     review: { status: "PENDING" }
   };
 

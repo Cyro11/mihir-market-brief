@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { editionsDir, issuesDir, reviewsDir, rootDir } from "./config.js";
 import { editionDate, ensureDir, escapeHtml, readJson } from "./utils.js";
 
@@ -728,6 +729,33 @@ function economicCalendar(section) {
   </section>`;
 }
 
+export function macroSpeakingPanel(edition) {
+  const artifacts = edition.intelligence?.officialMacro?.artifacts || [];
+  const editionEnd = new Date(`${edition.runDate || "1970-01-01"}T23:59:59Z`);
+  const artifact = artifacts.find((candidate) => {
+    const published = new Date(candidate?.sourceDocument?.publishedAt || 0);
+    const ageMs = editionEnd.getTime() - published.getTime();
+    return Number.isFinite(ageMs) && ageMs >= 0 && ageMs <= 7 * 864e5;
+  });
+  if (!artifact?.speakingLadder || !artifact?.brief) return "";
+  const ladder = artifact.speakingLadder;
+  const brief = artifact.brief;
+  return `<section class="panel compact">
+    <div class="panel-head"><div><span class="eyebrow">Know It Well Enough To Say It</span><h2>${escapeHtml(artifact.sourceDocument.title)}</h2></div><span class="chip">high-level speaking guide</span></div>
+    <p><strong>The question:</strong> ${escapeHtml(brief.centralQuestion)}</p>
+    <p><strong>In 20 seconds:</strong> ${escapeHtml(ladder.twentySecond)}</p>
+    <details>
+      <summary>Build the 60-second answer and handle the follow-up</summary>
+      <p><strong>In 60 seconds:</strong> ${escapeHtml(ladder.sixtySecond)}</p>
+      <p><strong>Likely challenge:</strong> ${escapeHtml(ladder.likelyChallenge)}</p>
+      <p><strong>Defensible response:</strong> ${escapeHtml(ladder.defensibleResponse)}</p>
+      <p><strong>Technical concept:</strong> ${escapeHtml(ladder.technicalConcept)}</p>
+      <p><strong>What is still missing:</strong> ${escapeHtml(artifact.dossier.openQuestions.join(" "))}</p>
+      <p class="source-line"><strong>Grounding:</strong> <a href="${escapeHtml(artifact.sourceDocument.canonicalUrl)}" target="_blank" rel="noreferrer">official release</a>, published ${escapeHtml(artifact.sourceDocument.publishedAt.slice(0, 10))}. Every reported fact in this guide is linked to an exact retained source assertion.</p>
+    </details>
+  </section>`;
+}
+
 function macroPage(edition, base = "") {
   const section = edition.sections?.macro || { items: [], latestEvent: null, economicCalendar: [] };
   const items = section.items || [];
@@ -735,6 +763,7 @@ function macroPage(edition, base = "") {
     ? dedupeVisualTitles(items, "macro", base)
     : `<article class="move-card"><h2>No strong macro signal today</h2><p>No fresh official release or policy development warranted a full macro take. The desk stayed quiet instead of forcing one.</p></article>`;
   return `${macroLatestEvent(section)}
+  ${macroSpeakingPanel(edition)}
   ${economicCalendar(section)}
   <section class="panel">
     <div class="panel-head"><div><span class="eyebrow">Macro Environment</span><h1>Rates, Inflation, and The Tape Behind The Tape</h1></div><span class="chip">${items.length} stories</span></div>
@@ -1588,7 +1617,9 @@ async function main() {
   console.log(`Rendered edition ${edition.runDate}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}
