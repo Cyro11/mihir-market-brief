@@ -1,0 +1,23 @@
+{
+  "runDate": "2026-07-13",
+  "reviewedAt": "2026-07-13T13:31:23.455Z",
+  "status": "APPROVED",
+  "reviewers": {
+    "deterministic": {
+      "blockers": [],
+      "warnings": [
+        "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility: longform section takeaway is very close to the summary; add story-specific analysis.",
+        "The stock-market rally now hinges more on AI than oil: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+      ]
+    },
+    "openai": {
+      "skipped": true,
+      "reason": "OPENAI_API_KEY not configured"
+    }
+  },
+  "blockers": [],
+  "warnings": [
+    "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility: longform section takeaway is very close to the summary; add story-specific analysis.",
+    "The stock-market rally now hinges more on AI than oil: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+  ]
+}

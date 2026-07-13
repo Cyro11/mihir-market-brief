@@ -1,0 +1,1326 @@
+{
+  "runDate": "2026-07-13",
+  "generatedAt": "2026-07-13T13:31:23.042Z",
+  "selectedCount": 2,
+  "quietDay": true,
+  "analyses": [
+    {
+      "id": "marketwatch-top-stories-b304a233",
+      "title": "The stock-market rally now hinges more on AI than oil",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/the-stock-market-rally-now-hinges-more-on-ai-than-oil-1292260a?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-13T13:12:00.000Z",
+          "fetchedAt": "2026-07-13T13:31:00.350Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "storyCluster": {
+        "id": "story-hinges-rally-than-now-oil",
+        "title": "The stock-market rally now hinges more on AI than oil",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 0,
+        "recruitingRelevance": 0,
+        "readerValue": 1,
+        "score": 40
+      },
+      "freshnessStatus": "LIVE",
+      "confidence": "Medium",
+      "editorialArticle": {
+        "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
+        "dek": "The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: As earnings season kicks off, AI investment remains front and center.",
+        "body": [
+          "The mechanism runs through leadership and scarcity. The reported fact is As earnings season kicks off, AI investment remains front and center. Investors pay up when an asset looks hard to replicate, margins can survive scrutiny, and the funding market believes the story is strong enough to finance weaker periods.",
+          "In a banking answer, separate price action from capital-markets evidence. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. Strong scarcity assets may get funded, while weaker copycats still struggle.",
+          "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
+        ],
+        "bankerSidebar": {
+          "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
+          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
+        }
+      },
+      "summary": "As earnings season kicks off, AI investment remains front and center. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "As earnings season kicks off, AI investment remains front and center. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "As earnings season kicks off, AI investment remains front and center. The read-through runs through leadership, earnings confidence and risk appetite.",
+      "editorialThesis": "The stock-market rally now hinges more on AI than oil is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Lead with the fact, then connect it to leadership, earnings confidence and risk appetite. Watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
+      "whatChangedToday": "As earnings season kicks off, AI investment remains front and center. The story changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "As earnings season kicks off, AI investment remains front and center.",
+      "whatMoved": "The story changes sector leadership, company valuation, and the peer read-through.",
+      "whyItMoved": "The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+      "sectorReadThrough": "Connects to AI Infrastructure.",
+      "parallel": {
+        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+        "whatRhymes": "The current story shows demand spreading across the value chain.",
+        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+        "sourceTrail": [
+          {
+            "source": "MarketWatch Top Stories",
+            "url": "https://www.marketwatch.com/story/the-stock-market-rally-now-hinges-more-on-ai-than-oil-1292260a?mod=mw_rss_topstories",
+            "publishedAt": "2026-07-13T13:12:00.000Z",
+            "fetchedAt": "2026-07-13T13:31:00.350Z",
+            "feedId": "marketwatch-top-stories",
+            "evidenceType": "reported"
+          }
+        ]
+      },
+      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "Source detail (MarketWatch Top Stories): As earnings season kicks off, AI investment remains front and center. The markets news matters because it changes the read on AI Infrastructure: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The story changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: As earnings season kicks off, AI investment remains front and center."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to AI Infrastructure. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": null,
+      "relatedLinks": [],
+      "storyline": null,
+      "concepts": [
+        "ai"
+      ]
+    },
+    {
+      "id": "marketwatch-top-stories-b96b4d76",
+      "title": "A Fed interest-rate hike could trigger a short-term stock selloff, but history points to a silver lining",
+      "editorialLane": "markets",
+      "editorialLaneLabel": "Markets",
+      "privateMarketSegment": null,
+      "sourceTrail": [
+        {
+          "source": "MarketWatch Top Stories",
+          "url": "https://www.marketwatch.com/story/a-fed-interest-rate-hike-could-trigger-a-short-term-stock-selloff-but-history-points-to-a-big-silver-lining-29f8c9e2?mod=mw_rss_topstories",
+          "publishedAt": "2026-07-13T11:46:00.000Z",
+          "fetchedAt": "2026-07-13T13:31:00.350Z",
+          "feedId": "marketwatch-top-stories",
+          "evidenceType": "reported"
+        }
+      ],
+      "storyCluster": {
+        "id": "story-interest-history-selloff-trigger-lining",
+        "title": "A Fed interest-rate hike could trigger a short-term stock selloff, but history points to a silver lining",
+        "sourceDiversity": 1,
+        "coverageCount": 1,
+        "evidenceSourceCount": 1,
+        "importanceCues": 2,
+        "recruitingRelevance": 2,
+        "readerValue": 6,
+        "score": 39
+      },
+      "freshnessStatus": "FRESH",
+      "confidence": "Medium",
+      "editorialArticle": {
+        "question": "What concrete datapoint would turn this from a sentiment headline into an underwriting change?",
+        "dek": "The market-structure question is whether leadership, breadth, and financing appetite are changing together or only giving one asset a temporary premium: The immediate impact of rate-hiking cycles is often negative, but, zooming out, stock markets recover.",
+        "body": [
+          "The mechanism runs through leadership and scarcity. The reported fact is The immediate impact of rate-hiking cycles is often negative, but, zooming out, stock markets recover. Investors pay up when an asset looks hard to replicate, margins can survive scrutiny, and the funding market believes the story is strong enough to finance weaker periods.",
+          "In a banking answer, separate price action from capital-markets evidence. Ask whether the story changes the issuance window, peer multiples, or investor appetite for adjacent companies. Strong scarcity assets may get funded, while weaker copycats still struggle.",
+          "The caveat is source depth. With only one article or feed item, treat the read as a working thesis until another source, filing, price move, or company disclosure confirms the mechanism."
+        ],
+        "bankerSidebar": {
+          "interviewUse": "Use it this way: identify the changed input, connect it to valuation or financing, and state the confirming datapoint you would need before making it a broad thesis.",
+          "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity."
+        }
+      },
+      "summary": "The immediate impact of rate-hiking cycles is often negative, but, zooming out, stock markets recover. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerSummary": "The immediate impact of rate-hiking cycles is often negative, but, zooming out, stock markets recover. The market read is how investors are repricing the story, not just that the headline happened.",
+      "readerDek": "The immediate impact of rate-hiking cycles is often negative, but, zooming out, stock markets recover. The read-through runs through leadership, earnings confidence and risk appetite.",
+      "editorialThesis": "A Fed interest-rate hike could trigger a short-term stock selloff, but history points to a silver lining is a markets story because it can change leadership, earnings confidence and risk appetite. Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "ibAngle": "Watch whether the story improves access to capital or makes funding harder for weaker peers. In an IB interview, translate the headline into who pays, who finances it, what multiple or spread changes, and what would make the transaction or valuation harder to defend.",
+      "interviewLine": "Lead with the fact, then connect it to leadership, earnings confidence and risk appetite. Watch next: Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "bankerQuestion": "If you were advising a client exposed to this story, would you diligence valuation, financing, timing, or strategic fit first?",
+      "whatChangedToday": "The immediate impact of rate-hiking cycles is often negative, but, zooming out, stock markets recover. The story changes sector leadership, company valuation, and the peer read-through.",
+      "whatHappened": "The immediate impact of rate-hiking cycles is often negative, but, zooming out, stock markets recover.",
+      "whatMoved": "The story changes sector leadership, company valuation, and the peer read-through.",
+      "whyItMoved": "The markets news matters because it changes the read on Rates and Cost of Capital: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+      "valuationImpact": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story.",
+      "financingImplication": "Watch whether the story improves access to capital or makes funding harder for weaker peers.",
+      "sectorReadThrough": "Connects to Rates and Cost of Capital.",
+      "parallel": {
+        "precedent": "Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure.",
+        "outcome": "Companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers.",
+        "whatRhymes": "The current story shows demand spreading across the value chain.",
+        "whatDiffers": "Revenue growth alone does not prove margin quality or durable economics.",
+        "soWhat": "Use the precedent to test whether demand turns into profit and cash flow.",
+        "sourceTrail": [
+          {
+            "source": "MarketWatch Top Stories",
+            "url": "https://www.marketwatch.com/story/a-fed-interest-rate-hike-could-trigger-a-short-term-stock-selloff-but-history-points-to-a-big-silver-lining-29f8c9e2?mod=mw_rss_topstories",
+            "publishedAt": "2026-07-13T11:46:00.000Z",
+            "fetchedAt": "2026-07-13T13:31:00.350Z",
+            "feedId": "marketwatch-top-stories",
+            "evidenceType": "reported"
+          }
+        ]
+      },
+      "watchNext": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity.",
+      "longform": {
+        "sections": [
+          {
+            "id": "takeaway",
+            "heading": "Plain-English takeaway",
+            "body": "Source detail (MarketWatch Top Stories): The immediate impact of rate-hiking cycles is often negative, but, zooming out, stock markets recover. The markets news matters because it changes the read on Rates and Cost of Capital: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions. The deeper question is what the move says about what investors are willing to believe about future revenue, margins, and durability."
+          },
+          {
+            "id": "tape",
+            "heading": "What moved and what it suggests",
+            "body": "The story changes sector leadership, company valuation, and the peer read-through. The tape read matters when leadership, breadth, and risk appetite point in the same direction rather than merely producing a one-day bounce. Source detail: The immediate impact of rate-hiking cycles is often negative, but, zooming out, stock markets recover."
+          },
+          {
+            "id": "mechanism",
+            "heading": "Mechanism behind the move",
+            "body": "Focus on whether the news improves revenue durability, margin quality, or confidence in the growth story. Connects to Rates and Cost of Capital. The market is not just reacting to the fact pattern itself; it is deciding whether the story deserves a better multiple, a higher confidence level, or a narrower margin for disappointment."
+          },
+          {
+            "id": "interpretation",
+            "heading": "What the market may be pricing in right or wrong",
+            "body": "Watch whether the story improves access to capital or makes funding harder for weaker peers. Sometimes the market is right to move quickly because the new fact changes the range of possible outcomes. Sometimes it over-credits a headline before checking whether the economics are durable, repeatable, and profitable."
+          },
+          {
+            "id": "parallel",
+            "heading": "Relevant comparison",
+            "body": "A useful parallel is Earlier capex cycles where demand moved from the obvious winners into suppliers and infrastructure. In that earlier setup, companies with backlog, margin, and durable customers earned more lasting credit than commodity suppliers. What rhymes is the current story shows demand spreading across the value chain. What is different this time is revenue growth alone does not prove margin quality or durable economics. The bottom line is use the precedent to test whether demand turns into profit and cash flow."
+          },
+          {
+            "id": "watch-next",
+            "heading": "What to watch next",
+            "body": "Watch follow-through in peer stocks, guidance, order/backlog commentary, and capital-markets activity. The point of this checklist is to separate a one-day stock reaction from evidence that the market's new interpretation is actually becoming durable."
+          }
+        ]
+      },
+      "visual": null,
+      "relatedLinks": [],
+      "storyline": {
+        "id": "rates-inflation-cost-of-capital",
+        "name": "Rates and cost of capital",
+        "threshold": 3
+      },
+      "concepts": [
+        "fed"
+      ],
+      "continuity": {
+        "previousDate": "2026-07-10",
+        "previousTitle": "Kevin Warsh wants fewer press conferences. Why that’s bad for the economy and your money.",
+        "previousUrl": "issues/2026-07-10.html",
+        "whatChanged": "This updates the rates and cost of capital thread from 2026-07-10. The new item adds fresh source evidence and shifts the read toward today's specific market/deal question.",
+        "priorRead": "The markets news matters because it changes the read on Rates and Cost of Capital: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+        "updatedRead": "The markets news matters because it changes the read on Rates and Cost of Capital: investors have to decide whether the new fact improves growth durability, margin confidence, valuation support, or financing conditions.",
+        "status": "Developing"
+      }
+    }
+  ],
+  "intelligence": {
+    "officialMacro": {
+      "artifacts": [
+        {
+          "schemaVersion": "1.0.0",
+          "type": "IntelligenceArtifact",
+          "sourceDocument": {
+            "schemaVersion": "1.0.0",
+            "type": "SourceDocument",
+            "documentId": "doc_6b190ea632da4205b0ad",
+            "retrievalId": "retrieval_221061a3e86aaa95b838",
+            "sourceId": "bls-cpi",
+            "canonicalUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+            "sourceType": "official",
+            "evidentiaryRole": "establishes_official_release_facts",
+            "publishedAt": "2026-06-10T12:30:00.000Z",
+            "fetchedAt": "2026-07-13T13:30:59.260Z",
+            "contentHash": "0c4759d01f431b06076ba087946106c3f0bcbb9cbe09a790898598c40d37959e",
+            "retainedContent": "Title: Consumer Price Index Summary\nSummary: CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase.\nFact 1: CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.\nFact 2: Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment.\nFact 3: The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March.\nFact 4: The energy index accounted for over sixty percent of the monthly all items increase.\nFact 5: The index for shelter also increased in May, rising 0.3 percent.",
+            "retainedContentPolicy": "canonical_labeled_title_summary_and_cleaned_facts_v1",
+            "title": "Consumer Price Index Summary"
+          },
+          "assertions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_8539339905565a320af2",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.",
+              "sourceSpan": {
+                "start": 576,
+                "end": 811,
+                "quote": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.",
+                "quoteHash": "3494aa9d37fe9fc3a148f1516952db1a8c2aaaced0189f41c2de9ae3e469e240"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_bf437a6151fb0ef809ed",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment.",
+              "sourceSpan": {
+                "start": 820,
+                "end": 914,
+                "quote": "Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment.",
+                "quoteHash": "0801e530392c286afa8f9c27455952f2d127f80e776e36c9481218a1f7ea05cf"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_b0fdecd6dd0e9b04c344",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March.",
+              "sourceSpan": {
+                "start": 923,
+                "end": 1029,
+                "quote": "The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March.",
+                "quoteHash": "a99be41ea29681a013461f9933a4a8adce144dfdb8c856a4ef4cec9f531bfe03"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_62ea6c08f6d4d1f668e9",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "The energy index accounted for over sixty percent of the monthly all items increase.",
+              "sourceSpan": {
+                "start": 1038,
+                "end": 1122,
+                "quote": "The energy index accounted for over sixty percent of the monthly all items increase.",
+                "quoteHash": "4ea80dd374dd40d698862c9c965b73699c98806c16df4c63f02351552f9c0504"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_a5229f74b006dfaee258",
+              "documentId": "doc_6b190ea632da4205b0ad",
+              "text": "The index for shelter also increased in May, rising 0.3 percent.",
+              "sourceSpan": {
+                "start": 1131,
+                "end": 1195,
+                "quote": "The index for shelter also increased in May, rising 0.3 percent.",
+                "quoteHash": "f00bef12b3d017c6e52fedff6a85271f93edeb0da46b1bf808d297e241f1ff4b"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            }
+          ],
+          "propositions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "CanonicalProposition",
+              "propositionId": "proposition_3e45e99d5e00232041bc",
+              "text": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase. The index for shelter also increased in May, rising 0.3 percent.",
+              "assertionIds": [
+                "assertion_8539339905565a320af2",
+                "assertion_bf437a6151fb0ef809ed",
+                "assertion_b0fdecd6dd0e9b04c344",
+                "assertion_62ea6c08f6d4d1f668e9",
+                "assertion_a5229f74b006dfaee258"
+              ],
+              "contradictionState": "none_observed",
+              "adjudicationState": "supported_by_primary_source",
+              "validAt": "2026-06-10T12:30:00.000Z"
+            }
+          ],
+          "dossier": {
+            "schemaVersion": "1.0.0",
+            "type": "StoryDossier",
+            "dossierId": "dossier_97d0ab094811734d8251",
+            "storyId": "story_578af659da49f2442cae",
+            "dossierRevision": 1,
+            "storyClass": "official_macro_cpi",
+            "asOf": "2026-07-13T13:31:23.042Z",
+            "status": "dossier_ready",
+            "documentIds": [
+              "doc_6b190ea632da4205b0ad"
+            ],
+            "assertionIds": [
+              "assertion_8539339905565a320af2",
+              "assertion_bf437a6151fb0ef809ed",
+              "assertion_b0fdecd6dd0e9b04c344",
+              "assertion_62ea6c08f6d4d1f668e9",
+              "assertion_a5229f74b006dfaee258"
+            ],
+            "propositionIds": [
+              "proposition_3e45e99d5e00232041bc"
+            ],
+            "openQuestions": [
+              "Attach an approved consensus estimate before making comparisons with expectations.",
+              "Did the two-year Treasury yield confirm a change in the expected policy path?",
+              "Do revisions or component details change the headline interpretation?"
+            ],
+            "contradictions": [],
+            "evidenceCoverage": {
+              "primarySource": true,
+              "extractedFactCount": 5,
+              "consensusAvailable": false,
+              "marketReactionAvailable": false
+            }
+          },
+          "claims": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_16b29e1528ad5478735d",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_8539339905565a320af2"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_7cfcbd2b54c576cae600",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_bf437a6151fb0ef809ed"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_faf56ade137ad42e59df",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_b0fdecd6dd0e9b04c344"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_b15b3e9399c87e957cba",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "The energy index accounted for over sixty percent of the monthly all items increase.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_62ea6c08f6d4d1f668e9"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_9546a328411fd4bbd345",
+              "briefId": "brief_97d0ab094811734d8251",
+              "storyId": "story_578af659da49f2442cae",
+              "text": "The index for shelter also increased in May, rising 0.3 percent.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_a5229f74b006dfaee258"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            }
+          ],
+          "brief": {
+            "schemaVersion": "1.0.0",
+            "type": "ArticleBrief",
+            "briefId": "brief_97d0ab094811734d8251",
+            "storyId": "story_578af659da49f2442cae",
+            "sourceDossierId": "dossier_97d0ab094811734d8251",
+            "sourceDossierRevision": 1,
+            "centralQuestion": "Does Consumer Price Index Summary change the expected path for inflation, growth, or Federal Reserve policy?",
+            "consensusBaseline": {
+              "eventMatched": true,
+              "consensusAvailable": false,
+              "priorAvailable": false,
+              "consensus": null,
+              "prior": null,
+              "limitation": "The matched calendar event did not provide usable consensus or prior value metadata."
+            },
+            "newInformation": "CONSUMER PRICE INDEX - MAY 2026 The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. The index for energy rose 3.9 percent in May, after rising 3.8 percent in April and 10.9 percent in March. The energy index accounted for over sixty percent of the monthly all items increase. The index for shelter also increased in May, rising 0.3 percent.",
+            "mechanismSteps": [
+              "Separate the headline reading from core and major component contributions.",
+              "Translate persistence into the expected Federal Reserve policy path rather than treating one print as the whole trend.",
+              "Check the two-year Treasury yield and rate-sensitive equity multiples for confirmation before attributing the market move."
+            ],
+            "rivalExplanation": "The apparent signal may be noise from volatile components, revisions, or a market move driven by another contemporaneous catalyst.",
+            "pricedInStatus": "unknown_without_verified_market_expectations",
+            "claimIds": [
+              "claim_16b29e1528ad5478735d",
+              "claim_7cfcbd2b54c576cae600",
+              "claim_faf56ade137ad42e59df",
+              "claim_b15b3e9399c87e957cba",
+              "claim_9546a328411fd4bbd345"
+            ],
+            "editorialBurden": "Explain the release, the component mix, the policy transmission, and the evidence that would confirm or reject the interpretation. Do not force a longer form."
+          },
+          "speakingLadder": {
+            "schemaVersion": "1.0.0",
+            "type": "SpeakingLadder",
+            "speakingLadderId": "speaking_97d0ab094811734d8251",
+            "storyId": "story_578af659da49f2442cae",
+            "claimIds": [
+              "claim_16b29e1528ad5478735d",
+              "claim_7cfcbd2b54c576cae600",
+              "claim_faf56ade137ad42e59df",
+              "claim_b15b3e9399c87e957cba",
+              "claim_9546a328411fd4bbd345"
+            ],
+            "twentySecond": "The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. The disciplined read is to focus on the composition until a usable consensus estimate is attached.",
+            "sixtySecond": "The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.5 percent on a seasonally adjusted basis in May, after rising 0.6 percent in April, the U.S Bureau of Labor Statistics reported today. Over the last 12 months, the all items index increased 4.2 percent before seasonal adjustment. No usable consensus estimate was available in the approved inputs. The decision-useful question is whether the composition changes the expected policy path and whether the front end of the Treasury curve confirms that interpretation.",
+            "likelyChallenge": "Was the inflation change broad-based or driven by volatile components, and what did the core measure do?",
+            "defensibleResponse": "I would anchor the answer in the published components and revisions, then check market confirmation. A different component mix, meaningful revisions, or a conflicting rates move would weaken the initial interpretation; one release is not a complete trend.",
+            "technicalConcept": "Core inflation: inflation excluding food and energy, used to study persistence even though households still pay the excluded prices."
+          },
+          "runManifest": {
+            "schemaVersion": "1.0.0",
+            "type": "RunManifest",
+            "runId": "run_373c9c6f94775d45ea08",
+            "editionId": "2026-07-13",
+            "storyId": "story_578af659da49f2442cae",
+            "sourceDocumentIds": [
+              "doc_6b190ea632da4205b0ad"
+            ],
+            "assertionIds": [
+              "assertion_8539339905565a320af2",
+              "assertion_bf437a6151fb0ef809ed",
+              "assertion_b0fdecd6dd0e9b04c344",
+              "assertion_62ea6c08f6d4d1f668e9",
+              "assertion_a5229f74b006dfaee258"
+            ],
+            "propositionIds": [
+              "proposition_3e45e99d5e00232041bc"
+            ],
+            "claimIds": [
+              "claim_16b29e1528ad5478735d",
+              "claim_7cfcbd2b54c576cae600",
+              "claim_faf56ade137ad42e59df",
+              "claim_b15b3e9399c87e957cba",
+              "claim_9546a328411fd4bbd345"
+            ],
+            "dossierId": "dossier_97d0ab094811734d8251",
+            "briefId": "brief_97d0ab094811734d8251",
+            "speakingLadderId": "speaking_97d0ab094811734d8251",
+            "startedAt": "2026-07-13T13:31:23.042Z",
+            "completedAt": "2026-07-13T13:31:23.042Z",
+            "configurationHash": "ce0b14d5596af98d980e82d4bdd3feaec613f8ae0d07c5f5c52be9b7caa3f612",
+            "inputDocumentHashes": [
+              "0c4759d01f431b06076ba087946106c3f0bcbb9cbe09a790898598c40d37959e"
+            ],
+            "stageStatuses": [
+              {
+                "stage": "source_document",
+                "status": "completed"
+              },
+              {
+                "stage": "evidence_assertions",
+                "status": "completed"
+              },
+              {
+                "stage": "canonical_proposition",
+                "status": "completed"
+              },
+              {
+                "stage": "story_dossier",
+                "status": "completed"
+              },
+              {
+                "stage": "article_brief",
+                "status": "completed"
+              },
+              {
+                "stage": "speaking_ladder",
+                "status": "completed"
+              },
+              {
+                "stage": "claim_verification",
+                "status": "completed"
+              }
+            ],
+            "usage": {
+              "modelCalls": 0,
+              "searchQueries": 0,
+              "inputTokens": 0,
+              "outputTokens": 0,
+              "estimatedCostUsd": 0
+            }
+          }
+        },
+        {
+          "schemaVersion": "1.0.0",
+          "type": "IntelligenceArtifact",
+          "sourceDocument": {
+            "schemaVersion": "1.0.0",
+            "type": "SourceDocument",
+            "documentId": "doc_4c5fa2fd12a937864278",
+            "retrievalId": "retrieval_81a728ecb5f0f4515704",
+            "sourceId": "bls-ppi",
+            "canonicalUrl": "https://www.bls.gov/news.release/ppi.nr0.htm",
+            "sourceType": "official",
+            "evidentiaryRole": "establishes_official_release_facts",
+            "publishedAt": "2026-06-11T12:30:00.000Z",
+            "fetchedAt": "2026-07-13T13:30:59.452Z",
+            "contentHash": "c2581de28309aba3e08d9abbf9e79691727d230fa3579e195e2f96ba8ca8c3bc",
+            "retainedContent": "Title: Producer Price Index News Release summary\nSummary: PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022. Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.\nFact 1: PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.\nFact 2: Final demand prices advanced 1.1 percent in April and 0.7 percent in March.\nFact 3: (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022.\nFact 4: Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.\nFact 5: Prices for final demand services moved up 0.3 percent.",
+            "retainedContentPolicy": "canonical_labeled_title_summary_and_cleaned_facts_v1",
+            "title": "Producer Price Index News Release summary"
+          },
+          "assertions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_1eb7e6be68ee3ba04aa5",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.",
+              "sourceSpan": {
+                "start": 646,
+                "end": 818,
+                "quote": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.",
+                "quoteHash": "55beda0eef24345ca0ab5970d6d6b62175412a58e6a850b64f51cdfd797969af"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_1b9ec5222a26aef0d4a7",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "Final demand prices advanced 1.1 percent in April and 0.7 percent in March.",
+              "sourceSpan": {
+                "start": 827,
+                "end": 902,
+                "quote": "Final demand prices advanced 1.1 percent in April and 0.7 percent in March.",
+                "quoteHash": "b35b176bc0b605db59b3ae38fde592f19183cff86fe7a4daba870929a490c366"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_8abc87b5faca7738cec0",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "(See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022.",
+              "sourceSpan": {
+                "start": 911,
+                "end": 1102,
+                "quote": "(See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022.",
+                "quoteHash": "3b7671677225dd2c0b87c0f5c7c2dd7123141813e114e2eaea6c44bf4e2b92bc"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_7e1b8c9a80f7fed38af5",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.",
+              "sourceSpan": {
+                "start": 1111,
+                "end": 1249,
+                "quote": "Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.",
+                "quoteHash": "89be7fc52de0b866031c899eb0ee71746e0bb89c2c3040d6be7599686f0c2840"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_586cdcfc047bf89f9861",
+              "documentId": "doc_4c5fa2fd12a937864278",
+              "text": "Prices for final demand services moved up 0.3 percent.",
+              "sourceSpan": {
+                "start": 1258,
+                "end": 1312,
+                "quote": "Prices for final demand services moved up 0.3 percent.",
+                "quoteHash": "dcf9bf78ca0fa59a6cc69e0409eab00fedad56089a05e7cd15493e15a0779595"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            }
+          ],
+          "propositions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "CanonicalProposition",
+              "propositionId": "proposition_f87a6b799d2bca30062f",
+              "text": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022. Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods. Prices for final demand services moved up 0.3 percent.",
+              "assertionIds": [
+                "assertion_1eb7e6be68ee3ba04aa5",
+                "assertion_1b9ec5222a26aef0d4a7",
+                "assertion_8abc87b5faca7738cec0",
+                "assertion_7e1b8c9a80f7fed38af5",
+                "assertion_586cdcfc047bf89f9861"
+              ],
+              "contradictionState": "none_observed",
+              "adjudicationState": "supported_by_primary_source",
+              "validAt": "2026-06-11T12:30:00.000Z"
+            }
+          ],
+          "dossier": {
+            "schemaVersion": "1.0.0",
+            "type": "StoryDossier",
+            "dossierId": "dossier_bb8913b4c5f5f1587e85",
+            "storyId": "story_34785e6fcf37b05263c8",
+            "dossierRevision": 1,
+            "storyClass": "official_macro_ppi",
+            "asOf": "2026-07-13T13:31:23.042Z",
+            "status": "dossier_ready",
+            "documentIds": [
+              "doc_4c5fa2fd12a937864278"
+            ],
+            "assertionIds": [
+              "assertion_1eb7e6be68ee3ba04aa5",
+              "assertion_1b9ec5222a26aef0d4a7",
+              "assertion_8abc87b5faca7738cec0",
+              "assertion_7e1b8c9a80f7fed38af5",
+              "assertion_586cdcfc047bf89f9861"
+            ],
+            "propositionIds": [
+              "proposition_f87a6b799d2bca30062f"
+            ],
+            "openQuestions": [
+              "Attach an approved consensus estimate before making comparisons with expectations.",
+              "Did the two-year Treasury yield confirm a change in the expected policy path?",
+              "Do revisions or component details change the headline interpretation?"
+            ],
+            "contradictions": [],
+            "evidenceCoverage": {
+              "primarySource": true,
+              "extractedFactCount": 5,
+              "consensusAvailable": false,
+              "marketReactionAvailable": false
+            }
+          },
+          "claims": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_3e660aee8a84cb78e4c7",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_1eb7e6be68ee3ba04aa5"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_023f32d1f8db018da309",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "Final demand prices advanced 1.1 percent in April and 0.7 percent in March.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_1b9ec5222a26aef0d4a7"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_4b4c7dd01556e5f77b8b",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "(See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_8abc87b5faca7738cec0"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_14cea05d48973e61dad6",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_7e1b8c9a80f7fed38af5"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_cc0af06fb7c1423a30f0",
+              "briefId": "brief_bb8913b4c5f5f1587e85",
+              "storyId": "story_34785e6fcf37b05263c8",
+              "text": "Prices for final demand services moved up 0.3 percent.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_586cdcfc047bf89f9861"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            }
+          ],
+          "brief": {
+            "schemaVersion": "1.0.0",
+            "type": "ArticleBrief",
+            "briefId": "brief_bb8913b4c5f5f1587e85",
+            "storyId": "story_34785e6fcf37b05263c8",
+            "sourceDossierId": "dossier_bb8913b4c5f5f1587e85",
+            "sourceDossierRevision": 1,
+            "centralQuestion": "Does Producer Price Index News Release summary change the expected path for inflation, growth, or Federal Reserve policy?",
+            "consensusBaseline": {
+              "eventMatched": true,
+              "consensusAvailable": false,
+              "priorAvailable": false,
+              "consensus": null,
+              "prior": null,
+              "limitation": "The matched calendar event did not provide usable consensus or prior value metadata."
+            },
+            "newInformation": "PRODUCER PRICE INDEXES - MAY 2026 The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. (See table A.) On an unadjusted basis, the index for final demand increased 6.5 percent for the 12 months ended in May, the largest 12-month rise since moving up 7.4 percent in November 2022. Nearly 80 percent of the May advance in final demand prices is attributable to a 2.8-percent increase in the index for final demand goods. Prices for final demand services moved up 0.3 percent.",
+            "mechanismSteps": [
+              "Identify whether producer-price pressure is concentrated in goods, services, or trade margins.",
+              "Assess whether firms can pass the pressure through to consumer prices or must absorb it in margins.",
+              "Check Treasury yields, inflation expectations, and margin-sensitive sectors for confirmation."
+            ],
+            "rivalExplanation": "The apparent signal may be noise from volatile components, revisions, or a market move driven by another contemporaneous catalyst.",
+            "pricedInStatus": "unknown_without_verified_market_expectations",
+            "claimIds": [
+              "claim_3e660aee8a84cb78e4c7",
+              "claim_023f32d1f8db018da309",
+              "claim_4b4c7dd01556e5f77b8b",
+              "claim_14cea05d48973e61dad6",
+              "claim_cc0af06fb7c1423a30f0"
+            ],
+            "editorialBurden": "Explain the release, the component mix, the policy transmission, and the evidence that would confirm or reject the interpretation. Do not force a longer form."
+          },
+          "speakingLadder": {
+            "schemaVersion": "1.0.0",
+            "type": "SpeakingLadder",
+            "speakingLadderId": "speaking_bb8913b4c5f5f1587e85",
+            "storyId": "story_34785e6fcf37b05263c8",
+            "claimIds": [
+              "claim_3e660aee8a84cb78e4c7",
+              "claim_023f32d1f8db018da309",
+              "claim_4b4c7dd01556e5f77b8b",
+              "claim_14cea05d48973e61dad6",
+              "claim_cc0af06fb7c1423a30f0"
+            ],
+            "twentySecond": "The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. The disciplined read is to focus on the composition until a usable consensus estimate is attached.",
+            "sixtySecond": "The Producer Price Index for final demand rose 1.1 percent in May, seasonally adjusted, the U.S Bureau of Labor Statistics reported today. Final demand prices advanced 1.1 percent in April and 0.7 percent in March. No usable consensus estimate was available in the approved inputs. The decision-useful question is whether the composition changes the expected policy path and whether the front end of the Treasury curve confirms that interpretation.",
+            "likelyChallenge": "Which components drove the headline, and do they change the underlying trend rather than just one month's noise?",
+            "defensibleResponse": "I would anchor the answer in the published components and revisions, then check market confirmation. A different component mix, meaningful revisions, or a conflicting rates move would weaken the initial interpretation; one release is not a complete trend.",
+            "technicalConcept": "Pass-through: the extent to which changes in producers' input or selling prices reach consumer prices or corporate margins."
+          },
+          "runManifest": {
+            "schemaVersion": "1.0.0",
+            "type": "RunManifest",
+            "runId": "run_23bbdda15fa2493d3df8",
+            "editionId": "2026-07-13",
+            "storyId": "story_34785e6fcf37b05263c8",
+            "sourceDocumentIds": [
+              "doc_4c5fa2fd12a937864278"
+            ],
+            "assertionIds": [
+              "assertion_1eb7e6be68ee3ba04aa5",
+              "assertion_1b9ec5222a26aef0d4a7",
+              "assertion_8abc87b5faca7738cec0",
+              "assertion_7e1b8c9a80f7fed38af5",
+              "assertion_586cdcfc047bf89f9861"
+            ],
+            "propositionIds": [
+              "proposition_f87a6b799d2bca30062f"
+            ],
+            "claimIds": [
+              "claim_3e660aee8a84cb78e4c7",
+              "claim_023f32d1f8db018da309",
+              "claim_4b4c7dd01556e5f77b8b",
+              "claim_14cea05d48973e61dad6",
+              "claim_cc0af06fb7c1423a30f0"
+            ],
+            "dossierId": "dossier_bb8913b4c5f5f1587e85",
+            "briefId": "brief_bb8913b4c5f5f1587e85",
+            "speakingLadderId": "speaking_bb8913b4c5f5f1587e85",
+            "startedAt": "2026-07-13T13:31:23.042Z",
+            "completedAt": "2026-07-13T13:31:23.042Z",
+            "configurationHash": "ce0b14d5596af98d980e82d4bdd3feaec613f8ae0d07c5f5c52be9b7caa3f612",
+            "inputDocumentHashes": [
+              "c2581de28309aba3e08d9abbf9e79691727d230fa3579e195e2f96ba8ca8c3bc"
+            ],
+            "stageStatuses": [
+              {
+                "stage": "source_document",
+                "status": "completed"
+              },
+              {
+                "stage": "evidence_assertions",
+                "status": "completed"
+              },
+              {
+                "stage": "canonical_proposition",
+                "status": "completed"
+              },
+              {
+                "stage": "story_dossier",
+                "status": "completed"
+              },
+              {
+                "stage": "article_brief",
+                "status": "completed"
+              },
+              {
+                "stage": "speaking_ladder",
+                "status": "completed"
+              },
+              {
+                "stage": "claim_verification",
+                "status": "completed"
+              }
+            ],
+            "usage": {
+              "modelCalls": 0,
+              "searchQueries": 0,
+              "inputTokens": 0,
+              "outputTokens": 0,
+              "estimatedCostUsd": 0
+            }
+          }
+        },
+        {
+          "schemaVersion": "1.0.0",
+          "type": "IntelligenceArtifact",
+          "sourceDocument": {
+            "schemaVersion": "1.0.0",
+            "type": "SourceDocument",
+            "documentId": "doc_240b3a79a1773c3b4a13",
+            "retrievalId": "retrieval_07bf49c24145c5b6fa39",
+            "sourceId": "bls-employment",
+            "canonicalUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+            "sourceType": "official",
+            "evidentiaryRole": "establishes_official_release_facts",
+            "publishedAt": "2026-07-02T12:30:00.000Z",
+            "fetchedAt": "2026-07-13T13:30:59.751Z",
+            "contentHash": "5abe82f28ccbaf38ec4e8797eecd02a0073aecdfbe6333d24a42b52a94bf8c48",
+            "retainedContent": "Title: Employment Situation Summary\nSummary: THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June. (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent). (See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.\nFact 1: THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today.\nFact 2: Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June.\nFact 3: (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent).\nFact 4: (See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.\nFact 5: The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+            "retainedContentPolicy": "canonical_labeled_title_summary_and_cleaned_facts_v1",
+            "title": "Employment Situation Summary"
+          },
+          "assertions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_9de16cd3ea76e56a6da7",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today.",
+              "sourceSpan": {
+                "start": 871,
+                "end": 1070,
+                "quote": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today.",
+                "quoteHash": "77f53e7b45be1594a63ef0cce8d418e1046e3b82cbd575e709f647360f77c2b5"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_1f7936604194a584d7d9",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June.",
+              "sourceSpan": {
+                "start": 1079,
+                "end": 1221,
+                "quote": "Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June.",
+                "quoteHash": "0fa4f42b7aee34e5df710f28af4c0f1b1e19708f5094bcb4f4d7dada6e4de9c4"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_d9a09484c2559829b2f2",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "(See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent).",
+              "sourceSpan": {
+                "start": 1230,
+                "end": 1526,
+                "quote": "(See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent).",
+                "quoteHash": "abee7e92980bcea65c232d018b971a8bc30a733b0d2fd7f40db324e6e400a0ce"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_bba66f82476e75242601",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "(See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.",
+              "sourceSpan": {
+                "start": 1535,
+                "end": 1712,
+                "quote": "(See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.",
+                "quoteHash": "0138044bab43c0e76699647a7d46575a079999c7178d7e497a91b2926467c697"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "EvidenceAssertion",
+              "assertionId": "assertion_26a6a5ad5c350da42f3a",
+              "documentId": "doc_240b3a79a1773c3b4a13",
+              "text": "The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+              "sourceSpan": {
+                "start": 1721,
+                "end": 1806,
+                "quote": "The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+                "quoteHash": "e9d7f6165c7259f01b5bceba836aa68c1e8c39bbc2b030904fe8f6c371e7221e"
+              },
+              "supportType": "supports",
+              "authorityClass": "primary_official",
+              "riskClass": "R2",
+              "extractionMethod": "official_release_sentence_extraction",
+              "reviewStatus": "machine_checked"
+            }
+          ],
+          "propositions": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "CanonicalProposition",
+              "propositionId": "proposition_39cde96553baa814795a",
+              "text": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June. (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent). (See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year. The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+              "assertionIds": [
+                "assertion_9de16cd3ea76e56a6da7",
+                "assertion_1f7936604194a584d7d9",
+                "assertion_d9a09484c2559829b2f2",
+                "assertion_bba66f82476e75242601",
+                "assertion_26a6a5ad5c350da42f3a"
+              ],
+              "contradictionState": "none_observed",
+              "adjudicationState": "supported_by_primary_source",
+              "validAt": "2026-07-02T12:30:00.000Z"
+            }
+          ],
+          "dossier": {
+            "schemaVersion": "1.0.0",
+            "type": "StoryDossier",
+            "dossierId": "dossier_156adab4a440a565017c",
+            "storyId": "story_b5dc148abe4f4aea523f",
+            "dossierRevision": 1,
+            "storyClass": "official_macro_employment",
+            "asOf": "2026-07-13T13:31:23.042Z",
+            "status": "dossier_ready",
+            "documentIds": [
+              "doc_240b3a79a1773c3b4a13"
+            ],
+            "assertionIds": [
+              "assertion_9de16cd3ea76e56a6da7",
+              "assertion_1f7936604194a584d7d9",
+              "assertion_d9a09484c2559829b2f2",
+              "assertion_bba66f82476e75242601",
+              "assertion_26a6a5ad5c350da42f3a"
+            ],
+            "propositionIds": [
+              "proposition_39cde96553baa814795a"
+            ],
+            "openQuestions": [
+              "Attach an approved consensus estimate before making comparisons with expectations.",
+              "Did the two-year Treasury yield confirm a change in the expected policy path?",
+              "Do revisions or component details change the headline interpretation?"
+            ],
+            "contradictions": [],
+            "evidenceCoverage": {
+              "primarySource": true,
+              "extractedFactCount": 5,
+              "consensusAvailable": false,
+              "marketReactionAvailable": false
+            }
+          },
+          "claims": [
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_6d3fe8675583620b24c1",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_9de16cd3ea76e56a6da7"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_d4c2ce04ccc6a297364a",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_1f7936604194a584d7d9"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_8a74eb1d6ac820881fb3",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "(See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent).",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_d9a09484c2559829b2f2"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_c37728d576cdadb28bf3",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "(See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_bba66f82476e75242601"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            },
+            {
+              "schemaVersion": "1.0.0",
+              "type": "ArticleClaim",
+              "claimId": "claim_321ff9cb3d8d664d7840",
+              "briefId": "brief_156adab4a440a565017c",
+              "storyId": "story_b5dc148abe4f4aea523f",
+              "text": "The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+              "riskClass": "R2",
+              "assertionIds": [
+                "assertion_26a6a5ad5c350da42f3a"
+              ],
+              "verificationStatus": "supported_exact_primary_span"
+            }
+          ],
+          "brief": {
+            "schemaVersion": "1.0.0",
+            "type": "ArticleBrief",
+            "briefId": "brief_156adab4a440a565017c",
+            "storyId": "story_b5dc148abe4f4aea523f",
+            "sourceDossierId": "dossier_156adab4a440a565017c",
+            "sourceDossierRevision": 1,
+            "centralQuestion": "Does Employment Situation Summary change the expected path for inflation, growth, or Federal Reserve policy?",
+            "consensusBaseline": {
+              "eventMatched": true,
+              "consensusAvailable": false,
+              "priorAvailable": false,
+              "consensus": null,
+              "prior": null,
+              "limitation": "The matched calendar event did not provide usable consensus or prior value metadata."
+            },
+            "newInformation": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June. (See table A-1.) Among the major worker groups, the unemployment rates showed little or no change in June for adult men (3.9 percent), adult women (3.7 percent), teenagers (14.6 percent), and people who are White (3.6 percent), Black (6.6 percent), Asian (3.9 percent), or Hispanic (5.2 percent). (See tables A-1, A-2, and A-3.) The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in June but is up by 286,000 over the year. The long-term unemployed accounted for 27.3 percent of all unemployed people in June.",
+            "mechanismSteps": [
+              "Read payroll growth together with unemployment, participation, hours, wages, and revisions.",
+              "Translate labor-market balance into wage and services-inflation pressure.",
+              "Check the front end of the Treasury curve for the policy-path repricing."
+            ],
+            "rivalExplanation": "The apparent signal may be noise from volatile components, revisions, or a market move driven by another contemporaneous catalyst.",
+            "pricedInStatus": "unknown_without_verified_market_expectations",
+            "claimIds": [
+              "claim_6d3fe8675583620b24c1",
+              "claim_d4c2ce04ccc6a297364a",
+              "claim_8a74eb1d6ac820881fb3",
+              "claim_c37728d576cdadb28bf3",
+              "claim_321ff9cb3d8d664d7840"
+            ],
+            "editorialBurden": "Explain the release, the component mix, the policy transmission, and the evidence that would confirm or reject the interpretation. Do not force a longer form."
+          },
+          "speakingLadder": {
+            "schemaVersion": "1.0.0",
+            "type": "SpeakingLadder",
+            "speakingLadderId": "speaking_156adab4a440a565017c",
+            "storyId": "story_b5dc148abe4f4aea523f",
+            "claimIds": [
+              "claim_6d3fe8675583620b24c1",
+              "claim_d4c2ce04ccc6a297364a",
+              "claim_8a74eb1d6ac820881fb3",
+              "claim_c37728d576cdadb28bf3",
+              "claim_321ff9cb3d8d664d7840"
+            ],
+            "twentySecond": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. The disciplined read is to focus on the composition until a usable consensus estimate is attached.",
+            "sixtySecond": "THE EMPLOYMENT SITUATION - JUNE 2026 Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June, the U.S Bureau of Labor Statistics reported today. Household Survey Data Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in June. No usable consensus estimate was available in the approved inputs. The decision-useful question is whether the composition changes the expected policy path and whether the front end of the Treasury curve confirms that interpretation.",
+            "likelyChallenge": "Did the headline payroll number agree with unemployment, participation, hours, wages, and revisions?",
+            "defensibleResponse": "I would anchor the answer in the published components and revisions, then check market confirmation. A different component mix, meaningful revisions, or a conflicting rates move would weaken the initial interpretation; one release is not a complete trend.",
+            "technicalConcept": "Labor-market slack: unused labor capacity, assessed through unemployment, participation, hours, and related measures—not payrolls alone."
+          },
+          "runManifest": {
+            "schemaVersion": "1.0.0",
+            "type": "RunManifest",
+            "runId": "run_8edc4857bedefc65aa78",
+            "editionId": "2026-07-13",
+            "storyId": "story_b5dc148abe4f4aea523f",
+            "sourceDocumentIds": [
+              "doc_240b3a79a1773c3b4a13"
+            ],
+            "assertionIds": [
+              "assertion_9de16cd3ea76e56a6da7",
+              "assertion_1f7936604194a584d7d9",
+              "assertion_d9a09484c2559829b2f2",
+              "assertion_bba66f82476e75242601",
+              "assertion_26a6a5ad5c350da42f3a"
+            ],
+            "propositionIds": [
+              "proposition_39cde96553baa814795a"
+            ],
+            "claimIds": [
+              "claim_6d3fe8675583620b24c1",
+              "claim_d4c2ce04ccc6a297364a",
+              "claim_8a74eb1d6ac820881fb3",
+              "claim_c37728d576cdadb28bf3",
+              "claim_321ff9cb3d8d664d7840"
+            ],
+            "dossierId": "dossier_156adab4a440a565017c",
+            "briefId": "brief_156adab4a440a565017c",
+            "speakingLadderId": "speaking_156adab4a440a565017c",
+            "startedAt": "2026-07-13T13:31:23.042Z",
+            "completedAt": "2026-07-13T13:31:23.042Z",
+            "configurationHash": "ce0b14d5596af98d980e82d4bdd3feaec613f8ae0d07c5f5c52be9b7caa3f612",
+            "inputDocumentHashes": [
+              "5abe82f28ccbaf38ec4e8797eecd02a0073aecdfbe6333d24a42b52a94bf8c48"
+            ],
+            "stageStatuses": [
+              {
+                "stage": "source_document",
+                "status": "completed"
+              },
+              {
+                "stage": "evidence_assertions",
+                "status": "completed"
+              },
+              {
+                "stage": "canonical_proposition",
+                "status": "completed"
+              },
+              {
+                "stage": "story_dossier",
+                "status": "completed"
+              },
+              {
+                "stage": "article_brief",
+                "status": "completed"
+              },
+              {
+                "stage": "speaking_ladder",
+                "status": "completed"
+              },
+              {
+                "stage": "claim_verification",
+                "status": "completed"
+              }
+            ],
+            "usage": {
+              "modelCalls": 0,
+              "searchQueries": 0,
+              "inputTokens": 0,
+              "outputTokens": 0,
+              "estimatedCostUsd": 0
+            }
+          }
+        }
+      ],
+      "failures": []
+    }
+  }
+}
