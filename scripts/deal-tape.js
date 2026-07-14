@@ -5,7 +5,7 @@ const hardDealPattern = /\b(merger|acquisition|acquire|acquires|acquired|takeove
 const financingPattern = /\b(financing|debt|loan|credit facility|direct lending|private credit|refinanc|offering|notes|fundraising|fund close|secondaries|continuation fund)\b/i;
 const regulatorPattern = /\b(sec|filing|regulatory|approval|antitrust|ftc|doj|shareholder vote|proxy|13d|13g|schedule|tender)\b/i;
 const impactPattern = /\b(\$\s?\d|billion|bn|million|record|largest|major|transformative|strategic|premium|all-cash|cash-and-stock|500 mw|data center|ai|google|blackstone|kkr|apollo|ares|blue owl)\b/i;
-const staleOrPromotionalDealPattern = /\b(deep value stock to invest in now|apollo\s*&\s*blackstone.*anthropic ai deal|broadcom.*ai xpv platform)\b/i;
+const staleOrPromotionalDealPattern = /\b(deep value stock to invest in now|apollo\s*&\s*blackstone.*anthropic ai deal|broadcom.*ai xpv platform|free ai for social impact certification program|course content.*certification program)\b/i;
 
 function textFor(item) {
   return normalizeText(`${item.title || ""} ${item.summary || ""} ${(item.topics || []).join(" ")} ${(item.tickers || []).join(" ")}`);

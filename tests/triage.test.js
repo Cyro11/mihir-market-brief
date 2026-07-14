@@ -11,6 +11,7 @@ const themes = [
 test("html entities are decoded before text reaches public copy", () => {
   assert.equal(decodeHtmlEntities("SpaceX&#x2019;s IPO &amp; Nasdaq&#8217;s tape"), "SpaceX’s IPO & Nasdaq’s tape");
   assert.equal(normalizeText("<p>SpaceX&#x2019;s Nasdaq-100 move&nbsp;&amp; S&amp;P 500</p>"), "SpaceX’s Nasdaq-100 move & S&P 500");
+  assert.equal(normalizeText("<p>&lt;![CDATA[Transaction summary... ]]&gt;</p>"), "Transaction summary...");
 });
 
 test("freshness labels recent and background items", () => {

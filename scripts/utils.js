@@ -74,6 +74,8 @@ export function freshnessStatus(publishedAt, now = new Date()) {
 
 export function normalizeText(value) {
   return decodeHtmlEntities(value)
+    .replace(/<!\[CDATA\[/gi, " ")
+    .replace(/\]\]>/g, " ")
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();

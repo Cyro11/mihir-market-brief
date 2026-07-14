@@ -80,6 +80,18 @@ test("deal tape clusters related source items and preserves source trail", () =>
   assert.equal(tape[0].sourceTrail.length, 2);
 });
 
+test("deal tape rejects promotional certification courses without a transaction fact", () => {
+  const promo = item({
+    id: "certification-promo",
+    title: "AI Coalition officially opens the Free AI for Social Impact Certification Program",
+    summary: "Free course content trains practitioners through a product-agnostic certification program.",
+    topics: ["private_markets"],
+    tickers: []
+  });
+
+  assert.equal(scoreDealCandidate(promo, now), null);
+});
+
 test("rendered deals page uses ranked deal tape language and fields", async () => {
   const html = await fs.readFile("deals.html", "utf8");
   assert.match(html, /Ranked Deal Tape|No ranked deal tape yet/);
