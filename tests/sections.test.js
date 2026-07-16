@@ -124,7 +124,7 @@ test("weekday section backfill keeps macro, markets, and deals tabs from showing
       freshnessStatus: "LIVE",
       topics: ["macro", "rates", "fed"],
       matchedThemes: [],
-      scores: { evidence: 3, total: 31 }
+      scores: { evidence: 3, marketSignal: 3, total: 31 }
     },
     {
       id: "markets-backfill",
@@ -138,7 +138,7 @@ test("weekday section backfill keeps macro, markets, and deals tabs from showing
       freshnessStatus: "LIVE",
       topics: ["markets", "companies", "ai"],
       matchedThemes: [],
-      scores: { evidence: 3, total: 30 }
+      scores: { evidence: 3, marketSignal: 3, total: 30 }
     },
     {
       id: "deals-backfill",
@@ -152,7 +152,7 @@ test("weekday section backfill keeps macro, markets, and deals tabs from showing
       freshnessStatus: "LIVE",
       topics: ["deals", "companies"],
       matchedThemes: [],
-      scores: { evidence: 3, total: 33 }
+      scores: { evidence: 3, marketSignal: 3, total: 33 }
     }
   ];
 
@@ -164,6 +164,26 @@ test("weekday section backfill keeps macro, markets, and deals tabs from showing
   assert.equal(sections.markets.items.length, 1);
   assert.equal(sections.deals.items.length, 1);
   assert.equal(sections.macro.items[0].sectionBackfill, true);
+});
+
+test("weekday section backfill rejects evidence-rich personal-finance and opinion noise", () => {
+  const noisyMacro = {
+    id: "promotional-bond-column",
+    title: "You are missing the bond deal of the decade — and it is guaranteed to beat inflation",
+    summary: "A recommendation column pitches TIPS as a rare gift.",
+    source: "MarketWatch",
+    sourceType: "reputable",
+    url: "https://www.marketwatch.com/story/example",
+    publishedAt: "2026-07-16T13:28:00.000Z",
+    freshnessStatus: "LIVE",
+    topics: ["macro", "rates", "inflation"],
+    matchedThemes: [],
+    scores: { evidence: 6, marketSignal: -1, total: 33 }
+  };
+
+  assert.deepEqual(weekdaySectionBackfillCandidates([noisyMacro], "macro", "2026-07-16"), []);
+  const sections = backfillWeekdaySections(selectLaneItems([], 3), [noisyMacro], { series: [] }, "2026-07-16");
+  assert.equal(sections.macro.items.length, 0);
 });
 
 test("weekday section backfill stays off on weekends", () => {

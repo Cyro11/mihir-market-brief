@@ -234,6 +234,42 @@ test("marketwatch lifestyle financial-freedom listicles do not backfill markets"
   assert.match(scored.exclusionReason, /weak market signal/);
 });
 
+test("consumer tax-lien advice and promotional bond columns do not clear market lanes", () => {
+  const now = new Date("2026-07-16T13:31:00Z");
+  const fixtures = [
+    {
+      id: "irs-tax-liens",
+      source: "CNBC Finance",
+      sourceType: "reputable",
+      feedId: "cnbc-finance",
+      title: "IRS tax liens can be a 'kiss of death,' consumer advocate says — and they're on the rise",
+      url: "https://www.cnbc.com/2026/07/16/irs-tax-liens-increasing.html",
+      publishedAt: "2026-07-16T12:15:01.000Z",
+      summary: "Federal tax liens can affect employment and access to credit.",
+      facts: ["Tax liens are increasing."],
+      topics: ["markets", "credit"]
+    },
+    {
+      id: "promotional-bond-column",
+      source: "MarketWatch Top Stories",
+      sourceType: "reputable",
+      feedId: "marketwatch-top-stories",
+      title: "You are missing the bond deal of the decade — and it is guaranteed to beat inflation",
+      url: "https://www.marketwatch.com/story/example",
+      publishedAt: "2026-07-16T13:28:00.000Z",
+      summary: "TIPS are offering a rare gift and investors should lock in the payout.",
+      facts: ["The column recommends TIPS."],
+      topics: ["macro", "rates", "inflation"]
+    }
+  ];
+
+  for (const fixture of fixtures) {
+    const scored = scoreCandidate(fixture, themes, now);
+    assert.equal(scored.eligible, false, fixture.id);
+    assert.match(scored.exclusionReason, /weak market signal/, fixture.id);
+  }
+});
+
 test("selection caps the edition instead of stuffing it", () => {
   const now = new Date("2026-05-29T14:00:00Z");
   const items = Array.from({ length: 8 }, (_, index) => scoreCandidate({

@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { analysisDir, calendarDir, candidatesDir, dataDir, editionsDir, marketDataDir, sourcesDir } from "./config.js";
 import { decodeHtmlEntities, editionDate, ensureDir, freshnessStatus, readJson, writeJson } from "./utils.js";
-import { scoreCandidate } from "./triage.js";
+import { isEditorialNoise, scoreCandidate } from "./triage.js";
 import { buildDealTape } from "./deal-tape.js";
 import { clusterStories, representativeItemsFromClusters } from "./story-clusters.js";
 import { buildOfficialMacroIntelligenceBatch } from "./macro-intelligence.js";
@@ -1182,6 +1182,7 @@ export function weekdaySectionBackfillCandidates(scored, lane, runDate) {
     .filter((item) => editorialLaneFor(item) === lane)
     .filter((item) => item.url && item.publishedAt)
     .filter((item) => item.scores.evidence >= 3)
+    .filter((item) => !isEditorialNoise(item))
     .filter((item) => item.freshnessStatus !== "FUTURE" && item.freshnessStatus !== "INVALID")
     .filter((item) => item.freshnessStatus !== "BACKGROUND")
     .filter((item) => item.scores.total >= 24)

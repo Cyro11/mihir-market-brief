@@ -1,0 +1,25 @@
+{
+  "runDate": "2026-07-16",
+  "reviewedAt": "2026-07-16T13:37:17.994Z",
+  "status": "APPROVED",
+  "reviewers": {
+    "deterministic": {
+      "blockers": [],
+      "warnings": [
+        "Fora Raises $60M at $1 Billion Valuation, Defining a New Category of Entrepreneurs: longform section takeaway is very close to the summary; add story-specific analysis.",
+        "Fora Raises $60M at $1 Billion Valuation, Defining a New Category of Entrepreneurs: longform section signal is very close to the summary; add story-specific analysis.",
+        "UnitedHealth blows past estimates, hikes earnings outlook as it reins in costs: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+      ]
+    },
+    "openai": {
+      "skipped": true,
+      "reason": "OPENAI_API_KEY not configured"
+    }
+  },
+  "blockers": [],
+  "warnings": [
+    "Fora Raises $60M at $1 Billion Valuation, Defining a New Category of Entrepreneurs: longform section takeaway is very close to the summary; add story-specific analysis.",
+    "Fora Raises $60M at $1 Billion Valuation, Defining a New Category of Entrepreneurs: longform section signal is very close to the summary; add story-specific analysis.",
+    "UnitedHealth blows past estimates, hikes earnings outlook as it reins in costs: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+  ]
+}
