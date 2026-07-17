@@ -1,0 +1,21 @@
+{
+  "runDate": "2026-07-17",
+  "reviewedAt": "2026-07-17T13:34:36.765Z",
+  "status": "APPROVED",
+  "reviewers": {
+    "deterministic": {
+      "blockers": [],
+      "warnings": [
+        "India's biggest IPO this year rakes in bids worth $31 billion, powered by institutional frenzy: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+      ]
+    },
+    "openai": {
+      "skipped": true,
+      "reason": "OPENAI_API_KEY not configured"
+    }
+  },
+  "blockers": [],
+  "warnings": [
+    "India's biggest IPO this year rakes in bids worth $31 billion, powered by institutional frenzy: lead story has only one non-primary/non-official source; add a corroborating source or caveat the lead."
+  ]
+}

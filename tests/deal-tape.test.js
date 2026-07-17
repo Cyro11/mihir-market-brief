@@ -92,6 +92,18 @@ test("deal tape rejects promotional certification courses without a transaction 
   assert.equal(scoreDealCandidate(promo, now), null);
 });
 
+test("deal tape rejects dividend-stock listicles with incidental acquisition language", () => {
+  const listicle = item({
+    id: "blackstone-dividend-listicle",
+    title: "Is Blackstone Inc. One of the Best Dividend Stocks to Invest in According to a Hedge Fund?",
+    summary: "The stock screen calls Blackstone a top dividend stock and incidentally recaps an older acquisition by one of its funds.",
+    publishedAt: "2026-06-01T13:33:00.000Z",
+    topics: ["private_markets", "private_equity", "markets"]
+  });
+
+  assert.equal(scoreDealCandidate(listicle, now), null);
+});
+
 test("rendered deals page uses ranked deal tape language and fields", async () => {
   const html = await fs.readFile("deals.html", "utf8");
   assert.match(html, /Ranked Deal Tape|No ranked deal tape yet/);

@@ -270,6 +270,24 @@ test("consumer tax-lien advice and promotional bond columns do not clear market 
   }
 });
 
+test("syndicated debt-relief advertorials do not clear private-market lanes", () => {
+  const scored = scoreCandidate({
+    id: "hellonation-debt-relief",
+    source: "PR Newswire Private Equity",
+    sourceType: "company",
+    feedId: "prnewswire-private-equity",
+    title: "In HelloNation, Mr. Debt Relief Explains Why Debt Settlement Can Be A Turning Point For Credit Recovery",
+    url: "https://www.prnewswire.com/news-releases/example.html",
+    publishedAt: "2026-07-17T13:06:00.000Z",
+    summary: "The sponsored article discusses closing delinquent consumer accounts and improving a personal credit score over time.",
+    facts: ["The article discusses consumer debt settlement."],
+    topics: ["private_markets", "private_credit", "credit"]
+  }, themes, new Date("2026-07-17T13:31:00Z"));
+
+  assert.equal(scored.eligible, false);
+  assert.match(scored.exclusionReason, /weak market signal/);
+});
+
 test("selection caps the edition instead of stuffing it", () => {
   const now = new Date("2026-05-29T14:00:00Z");
   const items = Array.from({ length: 8 }, (_, index) => scoreCandidate({

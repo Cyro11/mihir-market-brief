@@ -1585,9 +1585,13 @@ async function loadArchiveEntries() {
   return entries;
 }
 
+function cleanRenderedHtml(html) {
+  return html.replace(/[ \t]+$/gm, "");
+}
+
 async function writeRootPages(edition, review, archiveEntries) {
   for (const [id, , file] of pages) {
-    await fs.writeFile(path.join(rootDir, file), renderHtml(id, edition, review, archiveEntries));
+    await fs.writeFile(path.join(rootDir, file), cleanRenderedHtml(renderHtml(id, edition, review, archiveEntries)));
   }
 }
 
@@ -1597,7 +1601,7 @@ async function writeIssuePages(archiveEntries) {
     const edition = await readJson(path.join(editionsDir, `${entry.runDate}.json`), null);
     if (!edition) continue;
     const review = await readJson(path.join(reviewsDir, `${entry.runDate}.json`), { status: edition.review?.status || "PENDING", blockers: [], warnings: [] });
-    const issueHtml = renderHtml("overview", edition, review, archiveEntries, "../");
+    const issueHtml = cleanRenderedHtml(renderHtml("overview", edition, review, archiveEntries, "../"));
     await fs.writeFile(path.join(issuesDir, `${entry.runDate}.html`), issueHtml);
   }
 }
@@ -1611,7 +1615,7 @@ async function main() {
   await ensureDir(issuesDir);
   await writeRootPages(edition, review, archiveEntries);
   await writeIssuePages(archiveEntries);
-  const issueHtml = renderHtml("overview", edition, review, archiveEntries, "../");
+  const issueHtml = cleanRenderedHtml(renderHtml("overview", edition, review, archiveEntries, "../"));
   await fs.writeFile(path.join(issuesDir, "latest.html"), issueHtml);
   await fs.writeFile(path.join(issuesDir, `${edition.runDate}.html`), issueHtml);
   console.log(`Rendered edition ${edition.runDate}`);
